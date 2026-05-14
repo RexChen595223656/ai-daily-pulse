@@ -1,0 +1,161 @@
+{
+  "date": "2026-04-25",
+  "highlight": "中美 AI 人才争夺战升级：硅谷公司为中国工程师开出百万美元年薪",
+  "articles": [
+    {
+      "id": 1,
+      "cat": "model",
+      "title": "AutoGPT 3.0 发布：自主 AI Agent 可完成复杂商业任务",
+      "title_en": "",
+      "source": "DeepMind Blog",
+      "url": "https://example.com/ai-news/8617",
+      "time": "19天前",
+      "published": "2026-04-25T14:35:00+08:00",
+      "summary": "这是一条关于「AutoGPT 3.0 发布：自主 AI Agent 可完成复杂商业任务」的详细报道。该事件在 AI 行业引发广泛关注，多位业内人士表示这将深刻影响行业格局。更多细节请查看原文。",
+      "snark": "AI圈日常：今天你发模型，明天我刷榜。"
+    },
+    {
+      "id": 2,
+      "cat": "model",
+      "title": "Gemini 2.5 Ultra 发布，多模态基准测试全面领先",
+      "title_en": "",
+      "source": "VentureBeat",
+      "url": "https://example.com/ai-news/1245",
+      "time": "19天前",
+      "published": "2026-04-25T09:17:00+08:00",
+      "summary": "这是一条关于「Gemini 2.5 Ultra 发布，多模态基准测试全面领先」的详细报道。该事件在 AI 行业引发广泛关注，多位业内人士表示这将深刻影响行业格局。更多细节请查看原文。",
+      "snark": "AI圈日常：今天你发模型，明天我刷榜。"
+    },
+    {
+      "id": 3,
+      "cat": "model",
+      "title": "Runway Gen-5 发布：视频生成支持实时物理模拟",
+      "title_en": "",
+      "source": "36氪",
+      "url": "https://example.com/ai-news/1449",
+      "time": "19天前",
+      "published": "2026-04-25T17:50:00+08:00",
+      "summary": "这是一条关于「Runway Gen-5 发布：视频生成支持实时物理模拟」的详细报道。该事件在 AI 行业引发广泛关注，多位业内人士表示这将深刻影响行业格局。更多细节请查看原文。",
+      "snark": "编辑部：这条我们也不知道怎么评价。"
+    },
+    {
+      "id": 4,
+      "cat": "strategy",
+      "title": "Stable Diffusion 4 发布，文生图进入 8K 时代",
+      "title_en": "",
+      "source": "Hacker News",
+      "url": "https://example.com/ai-news/2288",
+      "time": "19天前",
+      "published": "2026-04-25T20:17:00+08:00",
+      "summary": "这是一条关于「Stable Diffusion 4 发布，文生图进入 8K 时代」的详细报道。该事件在 AI 行业引发广泛关注，多位业内人士表示这将深刻影响行业格局。更多细节请查看原文。",
+      "snark": "这条新闻让同行们集体沉默了3秒，然后继续卷。"
+    },
+    {
+      "id": 5,
+      "cat": "strategy",
+      "title": "ElevenLabs 发布语音克隆 API 2.0：2 秒音频即可完美克隆",
+      "title_en": "",
+      "source": "Ars Technica",
+      "url": "https://example.com/ai-news/1485",
+      "time": "19天前",
+      "published": "2026-04-25T15:00:00+08:00",
+      "summary": "这是一条关于「ElevenLabs 发布语音克隆 API 2.0：2 秒音频即可完美克隆」的详细报道。该事件在 AI 行业引发广泛关注，多位业内人士表示这将深刻影响行业格局。更多细节请查看原文。",
+      "snark": "编辑部：这条我们也不知道怎么评价。"
+    },
+    {
+      "id": 6,
+      "cat": "strategy",
+      "title": "Nous Research 发布 Hermes 4：开源指令遵循模型新标杆",
+      "title_en": "",
+      "source": "VentureBeat",
+      "url": "https://example.com/ai-news/6518",
+      "time": "19天前",
+      "published": "2026-04-25T15:55:00+08:00",
+      "summary": "这是一条关于「Nous Research 发布 Hermes 4：开源指令遵循模型新标杆」的详细报道。该事件在 AI 行业引发广泛关注，多位业内人士表示这将深刻影响行业格局。更多细节请查看原文。",
+      "snark": "又双叒叕一个「里程碑」，今年第几个了？"
+    },
+    {
+      "id": 7,
+      "cat": "strategy",
+      "title": "Notion AI 3.0 发布：AI 原生工作空间，Agent 可自主完成任务",
+      "title_en": "",
+      "source": "TechCrunch",
+      "url": "https://example.com/ai-news/7648",
+      "time": "19天前",
+      "published": "2026-04-25T06:06:00+08:00",
+      "summary": "这是一条关于「Notion AI 3.0 发布：AI 原生工作空间，Agent 可自主完成任务」的详细报道。该事件在 AI 行业引发广泛关注，多位业内人士表示这将深刻影响行业格局。更多细节请查看原文。",
+      "snark": "这条新闻让同行们集体沉默了3秒，然后继续卷。"
+    },
+    {
+      "id": 8,
+      "cat": "strategy",
+      "title": "Cursor 2.0 发布：AI 原生 IDE 支持全栈项目自动生成",
+      "title_en": "",
+      "source": "VentureBeat",
+      "url": "https://example.com/ai-news/5294",
+      "time": "19天前",
+      "published": "2026-04-25T20:32:00+08:00",
+      "summary": "这是一条关于「Cursor 2.0 发布：AI 原生 IDE 支持全栈项目自动生成」的详细报道。该事件在 AI 行业引发广泛关注，多位业内人士表示这将深刻影响行业格局。更多细节请查看原文。",
+      "snark": "AI圈日常：今天你发模型，明天我刷榜。"
+    },
+    {
+      "id": 9,
+      "cat": "strategy",
+      "title": "OpenAI 完成 400 亿美元新一轮融资，估值突破 3000 亿",
+      "title_en": "",
+      "source": "The Verge AI",
+      "url": "https://example.com/ai-news/6262",
+      "time": "19天前",
+      "published": "2026-04-25T11:26:00+08:00",
+      "summary": "这是一条关于「OpenAI 完成 400 亿美元新一轮融资，估值突破 3000 亿」的详细报道。该事件在 AI 行业引发广泛关注，多位业内人士表示这将深刻影响行业格局。更多细节请查看原文。",
+      "snark": "又双叒叕一个「里程碑」，今年第几个了？"
+    },
+    {
+      "id": 10,
+      "cat": "tool",
+      "title": "欧盟 AI 法案正式生效：高风险 AI 系统需第三方审计",
+      "title_en": "",
+      "source": "The Verge",
+      "url": "https://example.com/ai-news/9867",
+      "time": "19天前",
+      "published": "2026-04-25T18:08:00+08:00",
+      "summary": "这是一条关于「欧盟 AI 法案正式生效：高风险 AI 系统需第三方审计」的详细报道。该事件在 AI 行业引发广泛关注，多位业内人士表示这将深刻影响行业格局。更多细节请查看原文。",
+      "snark": "编辑部：这条我们也不知道怎么评价。"
+    },
+    {
+      "id": 11,
+      "cat": "tool",
+      "title": "ElevenLabs 发布语音克隆 API 2.0：2 秒音频即可完美克隆",
+      "title_en": "",
+      "source": "OpenAI Blog",
+      "url": "https://example.com/ai-news/4320",
+      "time": "19天前",
+      "published": "2026-04-25T14:40:00+08:00",
+      "summary": "这是一条关于「ElevenLabs 发布语音克隆 API 2.0：2 秒音频即可完美克隆」的详细报道。该事件在 AI 行业引发广泛关注，多位业内人士表示这将深刻影响行业格局。更多细节请查看原文。",
+      "snark": "编辑部：这条我们也不知道怎么评价。"
+    },
+    {
+      "id": 12,
+      "cat": "tool",
+      "title": "NVIDIA 发布 B300 GPU：算力翻倍，AI 训练市场进一步垄断",
+      "title_en": "",
+      "source": "36氪",
+      "url": "https://example.com/ai-news/2574",
+      "time": "19天前",
+      "published": "2026-04-25T20:22:00+08:00",
+      "summary": "这是一条关于「NVIDIA 发布 B300 GPU：算力翻倍，AI 训练市场进一步垄断」的详细报道。该事件在 AI 行业引发广泛关注，多位业内人士表示这将深刻影响行业格局。更多细节请查看原文。",
+      "snark": "这条新闻让同行们集体沉默了3秒，然后继续卷。"
+    }
+  ],
+  "stats": {
+    "total": 12,
+    "model_count": 3,
+    "strategy_count": 6,
+    "tool_count": 3
+  },
+  "fun": {
+    "lucky": "Claude 4.7",
+    "advice": "宜：深度思考\n忌：不看文档就调 API",
+    "joke": "2026 年的 AI 领域三大谎言：\n1.「我们的模型是开源的」\n2.「AGI 还需要 3 年」\n3.「这个 bug 我会很快修好」"
+  }
+}

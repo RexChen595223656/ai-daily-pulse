@@ -1,0 +1,161 @@
+{
+  "date": "2026-04-21",
+  "highlight": "AI 编程工具覆盖全开发流程，从写代码到部署，人类程序员角色被重新定义",
+  "articles": [
+    {
+      "id": 1,
+      "cat": "model",
+      "title": "Gemini 2.5 Ultra 发布，多模态基准测试全面领先",
+      "title_en": "",
+      "source": "少数派",
+      "url": "https://example.com/ai-news/9858",
+      "time": "23天前",
+      "published": "2026-04-21T17:46:00+08:00",
+      "summary": "这是一条关于「Gemini 2.5 Ultra 发布，多模态基准测试全面领先」的详细报道。该事件在 AI 行业引发广泛关注，多位业内人士表示这将深刻影响行业格局。更多细节请查看原文。",
+      "snark": "AI圈新闻：今天又是核聚变级别的一天。"
+    },
+    {
+      "id": 2,
+      "cat": "model",
+      "title": "中国发布大模型训练新规：数据安全和内容审核成焦点",
+      "title_en": "",
+      "source": "MarkTechPost",
+      "url": "https://example.com/ai-news/1880",
+      "time": "23天前",
+      "published": "2026-04-21T17:50:00+08:00",
+      "summary": "这是一条关于「中国发布大模型训练新规：数据安全和内容审核成焦点」的详细报道。该事件在 AI 行业引发广泛关注，多位业内人士表示这将深刻影响行业格局。更多细节请查看原文。",
+      "snark": "又双叒叕一个「里程碑」，今年第几个了？"
+    },
+    {
+      "id": 3,
+      "cat": "model",
+      "title": "LangChain 发布生产级 Agent 框架：支持多模型协作",
+      "title_en": "",
+      "source": "Hacker News",
+      "url": "https://example.com/ai-news/5311",
+      "time": "23天前",
+      "published": "2026-04-21T18:27:00+08:00",
+      "summary": "这是一条关于「LangChain 发布生产级 Agent 框架：支持多模型协作」的详细报道。该事件在 AI 行业引发广泛关注，多位业内人士表示这将深刻影响行业格局。更多细节请查看原文。",
+      "snark": "编辑部：这条我们也不知道怎么评价。"
+    },
+    {
+      "id": 4,
+      "cat": "model",
+      "title": "Cloudflare Workers AI 上线：边缘推理延迟降至 10ms",
+      "title_en": "",
+      "source": "VentureBeat",
+      "url": "https://example.com/ai-news/4872",
+      "time": "23天前",
+      "published": "2026-04-21T20:08:00+08:00",
+      "summary": "这是一条关于「Cloudflare Workers AI 上线：边缘推理延迟降至 10ms」的详细报道。该事件在 AI 行业引发广泛关注，多位业内人士表示这将深刻影响行业格局。更多细节请查看原文。",
+      "snark": "编辑部：这条我们也不知道怎么评价。"
+    },
+    {
+      "id": 5,
+      "cat": "strategy",
+      "title": "OpenAI 完成 400 亿美元新一轮融资，估值突破 3000 亿",
+      "title_en": "",
+      "source": "Google AI Blog",
+      "url": "https://example.com/ai-news/4495",
+      "time": "23天前",
+      "published": "2026-04-21T11:34:00+08:00",
+      "summary": "这是一条关于「OpenAI 完成 400 亿美元新一轮融资，估值突破 3000 亿」的详细报道。该事件在 AI 行业引发广泛关注，多位业内人士表示这将深刻影响行业格局。更多细节请查看原文。",
+      "snark": "AI圈新闻：今天又是核聚变级别的一天。"
+    },
+    {
+      "id": 6,
+      "cat": "strategy",
+      "title": "Perplexity 完成 10 亿美元融资，AI 搜索估值突破 200 亿",
+      "title_en": "",
+      "source": "VentureBeat",
+      "url": "https://example.com/ai-news/3035",
+      "time": "23天前",
+      "published": "2026-04-21T12:15:00+08:00",
+      "summary": "这是一条关于「Perplexity 完成 10 亿美元融资，AI 搜索估值突破 200 亿」的详细报道。该事件在 AI 行业引发广泛关注，多位业内人士表示这将深刻影响行业格局。更多细节请查看原文。",
+      "snark": "AI圈日常：今天你发模型，明天我刷榜。"
+    },
+    {
+      "id": 7,
+      "cat": "strategy",
+      "title": "Nous Research 发布 Hermes 4：开源指令遵循模型新标杆",
+      "title_en": "",
+      "source": "The Verge",
+      "url": "https://example.com/ai-news/6440",
+      "time": "23天前",
+      "published": "2026-04-21T22:18:00+08:00",
+      "summary": "这是一条关于「Nous Research 发布 Hermes 4：开源指令遵循模型新标杆」的详细报道。该事件在 AI 行业引发广泛关注，多位业内人士表示这将深刻影响行业格局。更多细节请查看原文。",
+      "snark": "AI圈日常：今天你发模型，明天我刷榜。"
+    },
+    {
+      "id": 8,
+      "cat": "strategy",
+      "title": "Google DeepMind 重组：AI 研究团队与产品团队合并",
+      "title_en": "",
+      "source": "Synced Review",
+      "url": "https://example.com/ai-news/1565",
+      "time": "23天前",
+      "published": "2026-04-21T19:42:00+08:00",
+      "summary": "这是一条关于「Google DeepMind 重组：AI 研究团队与产品团队合并」的详细报道。该事件在 AI 行业引发广泛关注，多位业内人士表示这将深刻影响行业格局。更多细节请查看原文。",
+      "snark": "AI圈日常：今天你发模型，明天我刷榜。"
+    },
+    {
+      "id": 9,
+      "cat": "strategy",
+      "title": "字节跳动成立万亿参数大模型团队，目标 2027 年赶超 GPT-6",
+      "title_en": "",
+      "source": "36氪",
+      "url": "https://example.com/ai-news/1812",
+      "time": "23天前",
+      "published": "2026-04-21T18:30:00+08:00",
+      "summary": "这是一条关于「字节跳动成立万亿参数大模型团队，目标 2027 年赶超 GPT-6」的详细报道。该事件在 AI 行业引发广泛关注，多位业内人士表示这将深刻影响行业格局。更多细节请查看原文。",
+      "snark": "AI圈日常：今天你发模型，明天我刷榜。"
+    },
+    {
+      "id": 10,
+      "cat": "tool",
+      "title": "欧盟 AI 法案正式生效：高风险 AI 系统需第三方审计",
+      "title_en": "",
+      "source": "The Verge AI",
+      "url": "https://example.com/ai-news/3958",
+      "time": "23天前",
+      "published": "2026-04-21T13:52:00+08:00",
+      "summary": "这是一条关于「欧盟 AI 法案正式生效：高风险 AI 系统需第三方审计」的详细报道。该事件在 AI 行业引发广泛关注，多位业内人士表示这将深刻影响行业格局。更多细节请查看原文。",
+      "snark": "又双叒叕一个「里程碑」，今年第几个了？"
+    },
+    {
+      "id": 11,
+      "cat": "tool",
+      "title": "中国发布大模型训练新规：数据安全和内容审核成焦点",
+      "title_en": "",
+      "source": "36氪",
+      "url": "https://example.com/ai-news/4512",
+      "time": "23天前",
+      "published": "2026-04-21T15:52:00+08:00",
+      "summary": "这是一条关于「中国发布大模型训练新规：数据安全和内容审核成焦点」的详细报道。该事件在 AI 行业引发广泛关注，多位业内人士表示这将深刻影响行业格局。更多细节请查看原文。",
+      "snark": "AI圈日常：今天你发模型，明天我刷榜。"
+    },
+    {
+      "id": 12,
+      "cat": "tool",
+      "title": "GitHub Copilot X 上线：AI 可自动完成整个 PR",
+      "title_en": "",
+      "source": "DeepMind Blog",
+      "url": "https://example.com/ai-news/8169",
+      "time": "23天前",
+      "published": "2026-04-21T18:09:00+08:00",
+      "summary": "这是一条关于「GitHub Copilot X 上线：AI 可自动完成整个 PR」的详细报道。该事件在 AI 行业引发广泛关注，多位业内人士表示这将深刻影响行业格局。更多细节请查看原文。",
+      "snark": "又双叒叕一个「里程碑」，今年第几个了？"
+    }
+  ],
+  "stats": {
+    "total": 12,
+    "model_count": 4,
+    "strategy_count": 5,
+    "tool_count": 3
+  },
+  "fun": {
+    "lucky": "Qwen 3",
+    "advice": "宜：中文场景深耕\n忌：忽视本土化需求",
+    "joke": "问：AI 的 MBTI 是什么？\n答：INTP——Introverted（只喜欢 GPU 陪伴）、iNtuitive（猜你的 prompt）、Thinking（但有时幻觉）、Perceiving（一直在学习）。"
+  }
+}
