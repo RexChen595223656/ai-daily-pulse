@@ -525,6 +525,15 @@ function modelLogo(o){const i=PROVIDER_LOGOS[o]||{color:'#888',initial:o?o.charA
 function shortName(d){if(typeof d==='string')return{model:d.replace(/ \(.*$/,''),org:''};return{...d,model:(d.model||'').replace(/ \(.*$/,'')};}
 function modelName(d){return`${modelLogo(d.org)}<a href="${modelLink(d.model)}" class="model-link" target="_blank" onclick="event.stopPropagation()">${shortName(d).model}</a>`}
 
+function smartTruncate(text,maxLen){
+  const clean=(text||'').replace(/<[^>]*>/g,'').replace(/&[#\w]+;/g,'');
+  if(clean.length<=maxLen)return clean;
+  // Try to cut at a natural boundary within last 10 chars
+  const cut=clean.substring(0,maxLen);
+  const lastBreak=Math.max(cut.lastIndexOf('，'),cut.lastIndexOf('。'),cut.lastIndexOf(' '),cut.lastIndexOf('、'));
+  if(lastBreak>maxLen-10)return cut.substring(0,lastBreak)+'…';
+  return cut+'…';
+}
 function buildSummary(){
   try{
     const news=getNewsItems();
@@ -536,19 +545,19 @@ function buildSummary(){
     const items=[];
     // Model news
     if(models.length>0){
-      items.push({svg:ICONS.chip,text:'<strong>新模型</strong>：'+models.slice(0,3).map(n=>n.title.replace(/<[^>]*>/g,'').substring(0,30)).join('；')});
+      items.push({svg:ICONS.chip,text:'<strong>新模型</strong>：'+models.slice(0,3).map(n=>smartTruncate(n.title,50)).join('；')});
     }
     // Strategy news
     if(strategies.length>0){
-      items.push({svg:ICONS.building,text:'<strong>行业动态</strong>：'+strategies.slice(0,3).map(n=>n.title.replace(/<[^>]*>/g,'').substring(0,30)).join('；')});
+      items.push({svg:ICONS.building,text:'<strong>行业动态</strong>：'+strategies.slice(0,3).map(n=>smartTruncate(n.title,50)).join('；')});
     }
     // Tool news
     if(tools.length>0){
-      items.push({svg:ICONS.gear,text:'<strong>工具产品</strong>：'+tools.slice(0,3).map(n=>n.title.replace(/<[^>]*>/g,'').substring(0,30)).join('；')});
+      items.push({svg:ICONS.gear,text:'<strong>工具产品</strong>：'+tools.slice(0,3).map(n=>smartTruncate(n.title,50)).join('；')});
     }
     // If all mixed, just show top headlines
     if(items.length===0){
-      items.push({svg:ICONS.chip,text:'<strong>今日焦点</strong>：'+news.slice(0,5).map(n=>n.title.replace(/<[^>]*>/g,'').substring(0,30)).join('；')});
+      items.push({svg:ICONS.chip,text:'<strong>今日焦点</strong>：'+news.slice(0,5).map(n=>smartTruncate(n.title,50)).join('；')});
     }
     return items;
   }catch(e){console.warn('buildSummary error',e);return STRUCTURED_SUMMARY;}
