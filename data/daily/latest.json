@@ -1,162 +1,78 @@
 {
   "date": "2026-05-14",
-  "generated_at": "2026-05-14T14:34:19.325847",
-  "highlight": "林俊旸创业估值20亿美金，OpenAI庭审激战，AI渗透率全球领先，边缘创新与巨头博弈并存。",
+  "generated_at": "2026-05-14T14:43:42.185534",
+  "highlight": "前阿里千问技术负责人林俊旸创业估值20亿美金，AI赛道再掀人才与资本争夺战。",
   "fun": {
-    "lucky": "腾讯混元Hy3 preview",
-    "advice": "宜：趁热打铁，继续在OpenRouter霸榜。\n忌：被老板问“这周调用量为什么没涨”。",
-    "joke": "AI写了个笑话：为什么程序员分不清万圣节和圣诞节？因为Oct 31 == Dec 25。"
+    "lucky": "林俊旸新公司",
+    "advice": "宜：高调融资，画饼世界模型。\n忌：被老东家起诉，或把估值花在买咖啡上。",
+    "joke": "AI创业者的估值公式：一个前大厂大佬 + 一个PPT = 20亿美金。"
   },
   "articles": [
     {
       "id": 1,
-      "cat": "strategy",
-      "title": "九号资本领投AI影像公司XbotGo，年增长近4倍",
+      "cat": "tool",
+      "title": "AI智能影像公司XbotGo获近亿元融资，九号资本领投",
       "title_en": "36氪首发 | 九号领投一家AI智能影像设备公司，在巨头夹缝中年增长近4倍",
       "source": "36氪",
       "url": "https://36kr.com/p/3807831328300549?f=rss",
       "time": "5小时前",
       "published": "2026-05-14T01:30:37+00:00",
-      "summary": "智能体育影像品牌「XbotGo」（深眸远智）完成近亿元新一轮融资，由九号资本领投，元禾控股、不同资本及老股东零一创投跟投。该公司聚焦青少年体育赛事自动拍摄，解决家长手动拍摄痛点。美国超3000万青少年参与专业训练，家庭周均投入10小时体育活动，但手动拍摄无法沉浸观赛。XbotGo通过AI追踪与多机位智能切换，实现无人化高清录制，在巨头夹缝中年增长近4倍。本轮资金将用于技术迭代与北美市场拓展。",
-      "snark": "家长终于可以安心玩手机了，AI替你拍娃。"
+      "summary": "智能体育影像品牌XbotGo完成近亿元新一轮融资，由九号资本领投，元禾控股、不同资本跟投，老股东零一创投超额跟投。该公司专注于AI自动追踪拍摄技术，解决家长在青少年体育比赛中手动拍摄的痛点。美国有超3000万青少年参与专业体育训练，家庭每周平均花费10小时在体育活动上，但手动拍摄让家长无法沉浸式享受比赛。XbotGo通过AI算法实现自动追踪、构图和剪辑，在巨头夹缝中年增长近4倍。本轮资金将用于技术研发、市场拓展和团队建设。",
+      "snark": "家长们终于可以一边刷手机一边假装看娃比赛了。"
     },
     {
       "id": 2,
       "cat": "strategy",
-      "title": "前阿里千问负责人林俊旸创业，估值20亿美金",
+      "title": "前阿里千问技术负责人林俊旸创业，新公司估值约20亿美金",
       "title_en": "8点1氪丨林俊旸新公司估值20亿美金；贾跃亭宣布转战机器人业务；网红糖果被发现掺超高剂量伟哥",
       "source": "36氪",
       "url": "https://36kr.com/p/3808362853834502?f=rss",
       "time": "6小时前",
       "published": "2026-05-13T23:50:37+00:00",
-      "summary": "36氪独家获悉，前阿里千问大模型技术负责人林俊旸已开启创业，方向聚焦世界模型与具身大脑。团队已招募来自字节、腾讯及海外背景的核心成员，并以约20亿美金估值启动融资，接触红杉中国、高榕创投等机构。林俊旸在阿里主导了千问大模型的技术演进，其新公司定位“下一代通用智能”，试图将语言模型能力延伸至物理世界交互与长期决策。这标志着大模型顶尖人才从大厂溢出，投身更具前瞻性的具身智能赛道。",
-      "snark": "估值20亿美金，PPT还没写完就值这么多？哦，是林俊旸啊，那没事了。"
+      "summary": "据36氪独家消息，前阿里千问大模型技术负责人林俊旸近期开启创业，方向包括世界模型和具身大脑。他已招募数名字节、腾讯和海外背景成员，并以约20亿美金估值启动融资，接触红杉中国、高榕创投等机构。林俊旸于2026年3月离开千问，此次创业被视为AI模型赛道的重要人才流动。新公司尚未正式命名，但已引起资本高度关注。",
+      "snark": "估值20亿美金，看来AI创业者的PPT模板又涨价了。"
     },
     {
       "id": 3,
-      "cat": "tool",
-      "title": "Microsoft Edge Copilot更新：跨标签页信息聚合",
-      "title_en": "Microsoft&#8217;s Edge Copilot update uses AI to pull information from across your tabs",
-      "source": "The Verge AI",
-      "url": "https://www.theverge.com/tech/930188/microsoft-edge-copilot-ai-tabs",
-      "time": "8小时前",
-      "published": "2026-05-13T22:04:28+00:00",
-      "summary": "Microsoft Edge为Copilot AI聊天机器人新增跨标签页信息提取功能。用户与Copilot对话时，可直接询问所有打开标签页中的内容，例如对比不同商品、总结多篇开放文章、提取关键数据等。该功能基于Edge内置的语义理解模型，能自动识别各标签页的主题与重点，无需用户手动切换窗口。这大幅提升了多任务浏览效率，尤其适合研究购物、文献综述等场景。目前该功能已在Edge Canary版本中灰度测试，预计稳定版将于下季度推送。",
-      "snark": "终于不用在20个标签页里像无头苍蝇一样翻找了，AI替我当苍蝇。"
-    },
-    {
-      "id": 4,
       "cat": "strategy",
-      "title": "Altman在OpenAI庭审中被指“惯于撒谎”",
-      "title_en": "Altman forced to confront claims at OpenAI trial that he's a prolific liar",
-      "source": "Ars Technica",
-      "url": "https://arstechnica.com/tech-policy/2026/05/altman-forced-to-confront-claims-at-openai-trial-that-hes-a-prolific-liar/",
-      "time": "12小时前",
-      "published": "2026-05-13T17:48:05+00:00",
-      "summary": "在马斯克诉OpenAI案的庭审中，Sam Altman被迫面对关于其个人诚信的尖锐质询。原告律师引用大量内部通信，指控Altman在OpenAI脱离非营利使命、转向盈利的过程中多次做出矛盾陈述，称其为“一个惯于撒谎的人”。Altman在庭上承认，失去对OpenAI的控制权让他感到“非常痛苦”，并形容自己当时的反应像马斯克一样激烈。微软作为第三方也被卷入，其开场陈述被形容为“最微软式的发言”——极力撇清关系。庭审预计将持续数周，结果将深刻影响AI开源与盈利模式的边界。",
-      "snark": "Altman：我不是撒谎，我只是在给未来画大饼的时候加了点想象力。"
-    },
-    {
-      "id": 5,
-      "cat": "tool",
-      "title": "Meta推出完全加密的AI隐身聊天模式",
-      "title_en": "Mark Zuckerberg announces &#8216;completely private&#8217; encrypted Meta AI chat",
-      "source": "The Verge AI",
-      "url": "https://www.theverge.com/tech/929791/meta-ai-incognito-chats",
-      "time": "13小时前",
-      "published": "2026-05-13T16:45:43+00:00",
-      "summary": "Meta CEO扎克伯格宣布推出“Incognito Chat”隐身聊天模式，声称这是“首个服务器端不留存对话记录的AI产品”。该模式下，用户与Meta AI的对话不会被保存至聊天历史，服务器端也无日志留存，类似于其他AI聊天机器人的无痕模式。但Meta强调其版本更彻底，采用端到端加密技术，确保即便是Meta自身也无法访问对话内容。此举旨在应对用户对隐私泄露的担忧，尤其是在AI助手日益渗透日常生活的背景下。目前该功能已向美国地区部分用户开放测试。",
-      "snark": "扎克伯格：我们绝对不看你的聊天记录——除了用来训练下一代模型的时候。"
-    },
-    {
-      "id": 6,
-      "cat": "strategy",
-      "title": "微软在OpenAI庭审中极力撇清关系",
-      "title_en": "Microsoft doesn’t want any of this",
-      "source": "The Verge AI",
-      "url": "https://www.theverge.com/ai-artificial-intelligence/929692/microsoft-musk-altman-openai-trial",
-      "time": "15小时前",
-      "published": "2026-05-13T15:30:37+00:00",
-      "summary": "在马斯克诉Altman及OpenAI的庭审中，微软作为关键第三方被卷入。The Verge评论员形容微软的立场是“我们真的不想掺和这破事”。微软的开庭陈述被描述为“最微软式”的发言：冷静、官僚、极力将自己描绘成无辜的投资者，而非OpenAI战略转向的幕后推手。然而，法庭证据显示微软在OpenAI重组为盈利实体过程中提供了关键资金与技术支持。微软试图将自己塑造成“被动股东”的形象，但外界普遍认为其深度参与了OpenAI的商业化决策。",
-      "snark": "微软：我们只是投了点钱，他们自己打起来的。法庭：你猜我信不信？"
-    },
-    {
-      "id": 7,
-      "cat": "strategy",
-      "title": "马斯克与Altman法庭对决：OpenAI未来走向审判",
-      "title_en": "Live updates from Elon Musk and Sam Altman’s court battle over the future of OpenAI",
-      "source": "The Verge AI",
-      "url": "https://www.theverge.com/tech/917225/sam-altman-elon-musk-openai-lawsuit",
-      "time": "15小时前",
-      "published": "2026-05-13T15:28:21+00:00",
-      "summary": "马斯克诉Altman及OpenAI案在旧金山联邦法院正式开庭。马斯克指控OpenAI背离了“开发AI以造福人类”的创始使命，转而追求利润最大化，要求法院禁止其进一步商业化。Altman则辩称，为了与谷歌等巨头竞争，必要的商业化是维持研发的唯一途径。庭审焦点包括：OpenAI从非营利到“有限盈利”的转型是否合法，以及Altman个人在转型中的诚信问题。这场审判不仅关乎OpenAI的命运，更将为整个AI行业划定非营利与商业化的法律边界。",
-      "snark": "两位大佬在法庭上互撕，AI在云端冷笑：你们人类真幼稚。"
-    },
-    {
-      "id": 8,
-      "cat": "strategy",
-      "title": "物理AI大会将在硅谷举办，机器人技术走向主流",
-      "title_en": "Physical AI Conference Comes to San Jose as Robotics & Autonomous AI Go Mainstream",
-      "source": "AI News",
-      "url": "https://www.artificialintelligence-news.com/news/physical-ai-conference-comes-to-san-jose-as-robotics-autonomous-ai-go-mainstream/",
-      "time": "16小时前",
-      "published": "2026-05-13T13:43:38+00:00",
-      "summary": "Physical AI Conference将于5月在加州圣何塞举办，聚焦机器人、自主系统及物理世界AI部署。大会将汇聚工程师、AI先驱及产业界人士，探讨如何将智能转化为物理行动。议题涵盖具身智能、自主导航、工业机器人协同等。随着大模型与机器人硬件的融合加速，Physical AI被视为AI的下一个主战场。此次会议标志着机器人技术从实验室走向规模化应用的关键转折，预计将吸引超过5000名参会者及百余家展商。",
-      "snark": "机器人终于要开自己的大会了，人类可以去做饭了。"
-    },
-    {
-      "id": 9,
-      "cat": "tool",
-      "title": "Amazon将Alexa Plus深度整合进电商网站",
-      "title_en": "Alexa is moving into Amazon․com",
-      "source": "The Verge AI",
-      "url": "https://www.theverge.com/ai-artificial-intelligence/929457/amazon-announces-alexa-for-shopping-ai-assistant-rufus",
-      "time": "17小时前",
-      "published": "2026-05-13T13:00:00+00:00",
-      "summary": "亚马逊宣布将Alexa Plus（基于大语言模型的AI助手）直接集成到Amazon.com购物体验中。当用户在搜索框输入查询时，将自动激活“Alexa for Shopping”购物助手。该助手不仅能理解复杂查询（如“适合5岁孩子的生日礼物，预算50美元”），还能进行多轮对话、比较产品、提供个性化推荐。这是亚马逊将AI能力从智能音箱迁移到核心电商场景的关键一步，旨在提升转化率与用户粘性。目前该功能已向美国Prime会员开放测试。",
-      "snark": "Alexa：亲爱的，你上次买的狗粮又降价了，要再囤一吨吗？"
-    },
-    {
-      "id": 10,
-      "cat": "strategy",
-      "title": "2026 AI最佳场景渗透案例揭晓：AI已深入企业毛细血管",
+      "title": "2026 AI最佳场景渗透案例揭晓，AI已从落地走向渗透",
       "title_en": "2026 AI最佳场景渗透案例重磅揭晓",
       "source": "36氪",
       "url": "https://36kr.com/p/3807623172235011?f=rss",
       "time": "19小时前",
       "published": "2026-05-13T11:21:17+00:00",
-      "summary": "36氪揭晓2026年度AI最佳场景渗透案例，强调AI已从“落地”进入“渗透”阶段。麦肯锡报告显示，83%的中国企业已在至少一个职能中常态化使用生成式AI，45%实现规模化部署，远超全球平均的38%。获奖案例涵盖医疗、金融、制造、零售等领域，展示了AI如何像水电一样融入日常运营。例如，某医院通过AI辅助诊断系统将误诊率降低30%；某工厂利用AI视觉质检将缺陷检出率提升至99.9%。这些案例标志着AI正从炫技Demo转型为真正的生产力工具。",
-      "snark": "AI渗透率83%，剩下17%的公司老板正在被董事会问：为什么还没用AI？"
+      "summary": "36氪主办的2026 AI最佳场景渗透案例评选揭晓，强调AI已从'落地'进入'渗透'阶段。据麦肯锡《2025 AI应用现状调研》，83%的中国企业已在至少一个职能中常态化使用生成式AI，45%实现规模化或全面部署，远超全球38%的平均线。案例涵盖金融、医疗、制造、零售等多个行业，展现AI如水电煤般融入企业运营和用户日常。评选旨在挖掘真正创造商业价值的AI应用，而非炫技Demo。",
+      "snark": "渗透率83%？剩下17%的公司可能还在用传真机。"
     },
     {
-      "id": 11,
+      "id": 4,
       "cat": "model",
-      "title": "腾讯混元Hy3 preview登顶OpenRouter，Agent密集发布",
+      "title": "腾讯混元Hy3 preview登顶OpenRouter榜首，Agent密集发布",
       "title_en": "氪星晚报｜腾讯刘炽平：腾讯没有大裁员计划；中美在韩国举行经贸磋商；马斯克称星舰第12次试飞将于下周进行",
       "source": "36氪",
       "url": "https://36kr.com/p/3807540422942214?f=rss",
-      "time": "19小时前",
+      "time": "20小时前",
       "published": "2026-05-13T10:41:17+00:00",
-      "summary": "腾讯发布2026年Q1财报，AI业务全线提速。混元大模型在不到三个月内完成重构，Hy3 preview版本在上下文长度、Agent能力、代码生成等维度显著提升。OpenRouter数据显示，该模型在结束限免期后，日Token用量和周调用量仍保持榜首，4月27日至5月11日连续三周登顶总榜。今年以来，腾讯累计上线数十款通用及垂直场景Agent，覆盖办公、客服、开发等领域。腾讯总裁刘炽平在股东大会上重申，公司没有大裁员计划，AI投入将优先保障。",
-      "snark": "混元：我免费的时候你叫我爸爸，我收费了你还是叫我爸爸。"
+      "summary": "腾讯发布2026年第一季度财报，AI业务全面提速。混元大模型不到三个月完成重建，Hy3 preview在上下文长度、Agent能力、Coding能力上显著提升。OpenRouter数据显示，Hy3 preview结束限免期后，日Token用量和周Token调用量仍保持榜首，4月27日至5月11日连续三周登顶周榜。今年以来，腾讯累计上线数十款通用和垂直场景Agent。此外，腾讯总裁刘炽平在股东大会上表示公司没有大裁员计划。",
+      "snark": "Hy3登顶OpenRouter，看来腾讯终于把AI部门从'养蛊'模式切换到了'养猪'模式。"
     },
     {
-      "id": 12,
+      "id": 5,
       "cat": "strategy",
-      "title": "AI数据中心正在吞噬美国农村",
-      "title_en": "Data centers are coming for rural America",
-      "source": "The Verge AI",
-      "url": "https://www.theverge.com/ai-artificial-intelligence/928963/data-center-rural-america-jobs-jay-maine",
-      "time": "21小时前",
-      "published": "2026-05-13T09:00:00+00:00",
-      "summary": "位于缅因州杰伊镇的Androscoggin造纸厂在2020年爆炸后关闭，2023年其140万平方英尺的厂区被一家合资企业收购，计划改建为AI数据中心。这是全美农村地区被数据中心“占领”的缩影。AI算力需求的爆发式增长，使得电力充足、地价低廉的农村成为科技巨头的新宠。然而，数据中心带来的就业岗位远少于传统制造业（一个数据中心仅需数十名运维人员），且对电网和水资源造成巨大压力。当地居民面临“被发展”的困境：工作没了，地价涨了，电费也贵了。",
-      "snark": "农村：我们想要工作，不是一群嗡嗡响的服务器。科技公司：先交电费。"
+      "title": "林俊旸创业细节曝光：方向为世界模型和具身大脑，估值20亿美金",
+      "title_en": "林俊旸创业，新公司估值约20亿美金丨智能涌现独家",
+      "source": "36氪",
+      "url": "https://36kr.com/p/3807382930251523?f=rss",
+      "time": "23小时前",
+      "published": "2026-05-13T07:24:16+00:00",
+      "summary": "据《智能涌现》独家报道，前阿里千问大模型技术负责人林俊旸创业细节进一步曝光。其新公司方向包括世界模型和具身大脑，已招募字节、腾讯和海外背景成员，以约20亿美金估值开启融资，接触红杉中国、高榕创投等。林俊旸于2026年3月4日在X上宣布离开千问，此后两个月内迅速组建团队并启动融资。截至发稿，林俊旸尚未回复置评请求。该消息引发行业对AI人才流动和创业热潮的广泛讨论。",
+      "snark": "世界模型+具身大脑+20亿估值=AI圈最贵的一张空白支票。"
     }
   ],
   "stats": {
-    "total": 12,
+    "total": 5,
     "model_count": 1,
-    "strategy_count": 8,
-    "tool_count": 3
+    "strategy_count": 3,
+    "tool_count": 1
   }
 }

@@ -1,13 +1,13 @@
 {
   "2026-05-14": {
     "date": "2026-05-14",
-    "highlight": "林俊旸创业估值20亿美金，OpenAI庭审激战，AI渗透率全球领先，边缘创新与巨头博弈并存。",
-    "count": 12,
+    "highlight": "前阿里千问技术负责人林俊旸创业估值20亿美金，AI赛道再掀人才与资本争夺战。",
+    "count": 5,
     "stats": {
-      "total": 12,
+      "total": 5,
       "model_count": 1,
-      "strategy_count": 8,
-      "tool_count": 3
+      "strategy_count": 3,
+      "tool_count": 1
     }
   }
 }
