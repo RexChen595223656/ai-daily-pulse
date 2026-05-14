@@ -408,16 +408,16 @@ body.light::after{background:none}
       <div class="trend-panel" id="panel-llm-perf">
         <div class="chart-wrap"><canvas id="chartLlmPerf"></canvas></div>
         <div class="chart-wrap radar"><canvas id="chartLlmRadar"></canvas></div>
-        <table class="data-table"><thead><tr><th>模型</th><th>综合智力</th><th>编码</th><th>推理</th></tr></thead><tbody id="tableLlmPerf"></tbody></table>
+        <table class="data-table"><thead><tr><th>模型</th><th>综合智力指数</th><th>编码指数</th><th>推理指数</th></tr></thead><tbody id="tableLlmPerf"></tbody></table>
       </div>
       <div class="trend-panel" id="panel-llm-price">
         <div class="chart-wrap"><canvas id="chartLlmPriceScatter"></canvas></div>
-        <table class="data-table" style="margin-top:0;"><thead><tr><th>模型</th><th>输入 $/1M</th><th>输出 $/1M</th><th>混合 $/1M</th></tr></thead><tbody id="tableLlmPrice"></tbody></table>
+        <table class="data-table" style="margin-top:0;"><thead><tr><th>模型</th><th>输入价格 ($/1M tokens)</th><th>输出价格 ($/1M tokens)</th><th>混合价格 ($/1M tokens)</th></tr></thead><tbody id="tableLlmPrice"></tbody></table>
       </div>
       <div class="trend-panel" id="panel-llm-speed">
         <div class="chart-wrap"><canvas id="chartLlmSpeed"></canvas></div>
         <div class="chart-wrap"><canvas id="chartLlmTTFT"></canvas></div>
-        <table class="data-table"><thead><tr><th>模型</th><th>输出速度 (t/s)</th><th>首Token延迟 (秒)</th></tr></thead><tbody id="tableLlmSpeed"></tbody></table>
+        <table class="data-table"><thead><tr><th>模型</th><th>输出速度 (tokens/秒)</th><th>首Token延迟 (秒)</th></tr></thead><tbody id="tableLlmSpeed"></tbody></table>
       </div>
 
       <!-- 图片 -->
@@ -426,11 +426,11 @@ body.light::after{background:none}
         <table class="data-table"><thead><tr><th>模型</th><th>排名</th><th>Elo</th><th>发布方</th><th>日期</th></tr></thead><tbody id="tableImagePerf"></tbody></table>
       </div>
       <div class="trend-panel" id="panel-image-price">
-        <table class="data-table"><thead><tr><th>模型</th><th>每张 $</th><th>每1K张 $</th><th>发布方</th></tr></thead><tbody id="tableImagePrice"></tbody></table>
+        <table class="data-table"><thead><tr><th>模型</th><th>单价 ($/张)</th><th>千张价 ($/1K张)</th><th>发布方</th></tr></thead><tbody id="tableImagePrice"></tbody></table>
       </div>
       <div class="trend-panel" id="panel-image-speed">
         <div class="chart-wrap"><canvas id="chartImageSpeed"></canvas></div>
-        <table class="data-table"><thead><tr><th>模型</th><th>平均 (秒)</th><th>最快 (秒)</th><th>发布方</th></tr></thead><tbody id="tableImageSpeed"></tbody></table>
+        <table class="data-table"><thead><tr><th>模型</th><th>平均耗时 (秒/张)</th><th>最快耗时 (秒)</th><th>发布方</th></tr></thead><tbody id="tableImageSpeed"></tbody></table>
       </div>
 
       <!-- 视频 -->
@@ -439,11 +439,11 @@ body.light::after{background:none}
         <table class="data-table"><thead><tr><th>模型</th><th>排名</th><th>Elo</th><th>发布方</th><th>类型</th></tr></thead><tbody id="tableVideoPerf"></tbody></table>
       </div>
       <div class="trend-panel" id="panel-video-price">
-        <table class="data-table"><thead><tr><th>模型</th><th>每秒 $</th><th>每分 $</th><th>发布方</th></tr></thead><tbody id="tableVideoPrice"></tbody></table>
+        <table class="data-table"><thead><tr><th>模型</th><th>单价 ($/秒视频)</th><th>分钟价 ($/分钟)</th><th>发布方</th></tr></thead><tbody id="tableVideoPrice"></tbody></table>
       </div>
       <div class="trend-panel" id="panel-video-speed">
         <div class="chart-wrap"><canvas id="chartVideoSpeed"></canvas></div>
-        <table class="data-table"><thead><tr><th>模型</th><th>分/秒视频</th><th>最短</th><th>发布方</th></tr></thead><tbody id="tableVideoSpeed"></tbody></table>
+        <table class="data-table"><thead><tr><th>模型</th><th>生成耗时 (分钟/秒视频)</th><th>最快记录</th><th>发布方</th></tr></thead><tbody id="tableVideoSpeed"></tbody></table>
       </div>
     </div>
   </section>
@@ -814,7 +814,7 @@ function cl(){return getComputedStyle(document.body).getPropertyValue('--chart-l
 function cg(){return getComputedStyle(document.body).getPropertyValue('--chart-grid').trim()||'rgba(255,255,255,0.04)'}
 function getChartBase(){return{type:'bar',options:{responsive:true,maintainAspectRatio:false,plugins:{legend:{display:false}},scales:{x:{ticks:{color:ct()},grid:{color:cg()}},y:{ticks:{color:cl()},grid:{display:false}}}}};}
 
-function renderEloChart(canvasId,data,color){const key=canvasId;if(chartInstances[key])chartInstances[key].destroy();const ctx=document.getElementById(canvasId);if(!ctx)return;const top6=data.slice(0,6);const palette=['#6366f1','#8b5cf6','#a78bfa','#c4b5fd','#94a3b8','#cbd5e1'];chartInstances[key]=new Chart(ctx,{...getChartBase(),data:{labels:top6.map(d=>shortName(d).model),datasets:[{data:top6.map(d=>d.elo),backgroundColor:palette.slice(0,6),borderRadius:0,borderWidth:0}]},options:{...getChartBase().options,indexAxis:'y',scales:{x:{...getChartBase().options.scales.x,ticks:{...getChartBase().options.scales.x.ticks,callback:v=>v.toFixed(0)}},y:getChartBase().options.scales.y}}});}
+function renderEloChart(canvasId,data,color,title){const key=canvasId;if(chartInstances[key])chartInstances[key].destroy();const ctx=document.getElementById(canvasId);if(!ctx)return;const top6=data.slice(0,6);const palette=['#6366f1','#8b5cf6','#a78bfa','#c4b5fd','#94a3b8','#cbd5e1'];chartInstances[key]=new Chart(ctx,{...getChartBase(),data:{labels:top6.map(d=>shortName(d).model),datasets:[{data:top6.map(d=>d.elo),backgroundColor:palette.slice(0,6),borderRadius:0,borderWidth:0}]},options:{...getChartBase().options,indexAxis:'y',plugins:{...getChartBase().options.plugins,title:{display:true,text:title||'Elo 评分',font:{size:13},color:cl()}},scales:{x:{...getChartBase().options.scales.x,title:{display:true,text:'Elo 评分',color:ct()},ticks:{...getChartBase().options.scales.x.ticks,callback:v=>v.toFixed(0)}},y:getChartBase().options.scales.y}}});}
 
 // ===== Perf =====
 function renderAllPanel(trend){
@@ -835,9 +835,9 @@ function renderAllPanel(trend){
       (MOCK_TREND[mod].price||[]).slice(0,4).forEach(d=>{
         const name=shortName(d).model;
         let price='';
-        if(mod==='llm')price='$'+(d.blended||0).toFixed(2)+'/1M';
+        if(mod==='llm')price='$'+(d.blended||0).toFixed(2)+'/1M tokens';
         else if(mod==='image')price='$'+(d.perImage||0).toFixed(2)+'/张';
-        else price='$'+(d.perSec||0).toFixed(2)+'/秒';
+        else price='$'+(d.perSec||0).toFixed(2)+'/秒视频';
         rows.push(`<tr><td>${modelName(shortName(d))}</td><td>${MODS[mod]}</td><td>${price}</td><td>${d.org}</td></tr>`);
       });
     });
@@ -848,9 +848,9 @@ function renderAllPanel(trend){
       (MOCK_TREND[mod].speed||[]).slice(0,4).forEach(d=>{
         const name=shortName(d).model;
         let speed='';
-        if(mod==='llm')speed=(d.outputSpeed||0)+' t/s';
-        else if(mod==='image')speed=(d.avgTime||0)+'秒';
-        else speed=(d.minPerSecVideo||0)+'分/秒';
+        if(mod==='llm')speed=(d.outputSpeed||0)+' tokens/秒';
+        else if(mod==='image')speed=(d.avgTime||0)+'秒/张';
+        else speed=(d.minPerSecVideo||0)+'分钟/秒视频';
         rows.push(`<tr><td>${modelName(shortName(d))}</td><td>${MODS[mod]}</td><td>${speed}</td><td>${d.org}</td></tr>`);
       });
     });
@@ -858,17 +858,17 @@ function renderAllPanel(trend){
   }
 }
 
-function renderPerfPanel(modality){if(modality===MODALITY.LLM)renderLlmPerf();else renderEloChart(`chart${cap(modality)}Perf`,MOCK_TREND[modality].perf,'#00dcff');document.getElementById(`table${cap(modality)}Perf`).innerHTML=MOCK_TREND[modality].perf.map(perfRow(modality)).join('');}
-function renderLlmPerf(){const key='chartLlmPerf';if(chartInstances[key])chartInstances[key].destroy();const top5=MOCK_TREND.llm.perf.slice(0,5);chartInstances[key]=new Chart(document.getElementById(key),{...getChartBase(),data:{labels:top5.map(d=>shortName(d).model),datasets:[{data:top5.map(d=>d.intelligence),backgroundColor:['#6366f1','#8b5cf6','#a78bfa','#c4b5fd','#ddd6fe'],borderRadius:0,borderWidth:0}]},options:{...getChartBase().options,indexAxis:'y',scales:{x:{...getChartBase().options.scales.x,min:40,max:70,ticks:{...getChartBase().options.scales.x.ticks,callback:v=>v.toFixed(1)}},y:getChartBase().options.scales.y}}});renderLlmRadar();}
+function renderPerfPanel(modality){if(modality===MODALITY.LLM)renderLlmPerf();else{const titles={image:'图片模型 Elo 评分',video:'视频模型 Elo 评分'};renderEloChart(`chart${cap(modality)}Perf`,MOCK_TREND[modality].perf,'#00dcff',titles[modality]);}document.getElementById(`table${cap(modality)}Perf`).innerHTML=MOCK_TREND[modality].perf.map(perfRow(modality)).join('');}
+function renderLlmPerf(){const key='chartLlmPerf';if(chartInstances[key])chartInstances[key].destroy();const top5=MOCK_TREND.llm.perf.slice(0,5);chartInstances[key]=new Chart(document.getElementById(key),{...getChartBase(),data:{labels:top5.map(d=>shortName(d).model),datasets:[{data:top5.map(d=>d.intelligence),backgroundColor:['#6366f1','#8b5cf6','#a78bfa','#c4b5fd','#ddd6fe'],borderRadius:0,borderWidth:0}]},options:{...getChartBase().options,indexAxis:'y',plugins:{...getChartBase().options.plugins,title:{display:true,text:'综合智力指数 (AA Intelligence Index)',font:{size:13},color:cl()}},scales:{x:{...getChartBase().options.scales.x,min:40,max:70,title:{display:true,text:'智力指数',color:ct()},ticks:{...getChartBase().options.scales.x.ticks,callback:v=>v.toFixed(1)}},y:getChartBase().options.scales.y}}});renderLlmRadar();}
 
 // ===== Price =====
 function renderPricePanel(modality){if(modality===MODALITY.LLM){renderLlmPriceScatter();const data=[...MOCK_TREND.llm.price].sort((a,b)=>a.blended-b.blended);document.getElementById('tableLlmPrice').innerHTML=data.map(priceRow(modality)).join('');}else{document.getElementById(`table${cap(modality)}Price`).innerHTML=MOCK_TREND[modality].price.map(priceRow(modality)).join('');}}
 function renderTrends(){renderAllPanel(TREND.PERF);renderAllPanel(TREND.PRICE);renderAllPanel(TREND.SPEED);renderLlmPerf();renderLlmPriceScatter();renderLlmSpeedCharts();}
 
 // ===== Speed =====
-function renderSpeedPanel(modality){if(modality===MODALITY.LLM){renderLlmSpeedCharts();}else{renderSpeedBarChart(`chart${cap(modality)}Speed`,MOCK_TREND[modality].speed,'#00d068');}document.getElementById(`table${cap(modality)}Speed`).innerHTML=MOCK_TREND[modality].speed.map(speedRow(modality)).join('');}
-function renderLlmSpeedCharts(){['chartLlmSpeed','chartLlmTTFT'].forEach(k=>{if(chartInstances[k])chartInstances[k].destroy();});const speedData=[...MOCK_TREND.llm.speed].sort((a,b)=>b.outputSpeed-a.outputSpeed).slice(0,8);chartInstances.chartLlmSpeed=new Chart(document.getElementById('chartLlmSpeed'),{...getChartBase(),data:{labels:speedData.map(d=>shortName(d).model),datasets:[{label:'输出速度(t/s)',data:speedData.map(d=>d.outputSpeed),backgroundColor:'#10b981',borderRadius:0,borderWidth:0}]},options:{...getChartBase().options,plugins:{...getChartBase().options.plugins,title:{display:true,text:'输出速度对比(tokens/秒)',font:{size:14},color:cl()}}}});const ttftData=[...MOCK_TREND.llm.speed].sort((a,b)=>a.ttft-b.ttft);chartInstances.chartLlmTTFT=new Chart(document.getElementById('chartLlmTTFT'),{...getChartBase(),data:{labels:ttftData.map(d=>shortName(d).model),datasets:[{label:'首Token延迟(秒)',data:ttftData.map(d=>d.ttft),backgroundColor:'#f59e0b',borderRadius:0,borderWidth:0}]},options:{...getChartBase().options,plugins:{...getChartBase().options.plugins,title:{display:true,text:'首Token延迟对比(秒)',font:{size:14},color:cl()}}}});}
-function renderSpeedBarChart(canvasId,data,color){const key=canvasId;if(chartInstances[key])chartInstances[key].destroy();const ctx=document.getElementById(canvasId);if(!ctx)return;const palette=['#10b981','#34d399','#6ee7b7','#a7f3d0','#f59e0b','#fbbf24','#fcd34d','#fde68a'];chartInstances[key]=new Chart(ctx,{...getChartBase(),data:{labels:data.map(d=>shortName(d).model),datasets:[{data:data.map(d=>d.avgTime||d.realtimeFactor||d.minPerSecVideo),backgroundColor:palette.slice(0,data.length),borderRadius:0,borderWidth:0}]},options:{...getChartBase().options,plugins:{...getChartBase().options.plugins,title:{display:true,text:'生成速度对比',font:{size:14},color:cl()}}}});}
+function renderSpeedPanel(modality){if(modality===MODALITY.LLM){renderLlmSpeedCharts();}else if(modality===MODALITY.IMAGE){renderSpeedBarChart(`chartImageSpeed`,MOCK_TREND.image.speed,'#00d068','图片生成速度 (秒/张)','秒');}else{renderSpeedBarChart(`chartVideoSpeed`,MOCK_TREND.video.speed,'#00d068','视频生成耗时 (分钟/秒视频)','分钟');}document.getElementById(`table${cap(modality)}Speed`).innerHTML=MOCK_TREND[modality].speed.map(speedRow(modality)).join('');}
+function renderLlmSpeedCharts(){['chartLlmSpeed','chartLlmTTFT'].forEach(k=>{if(chartInstances[k])chartInstances[k].destroy();});const speedData=[...MOCK_TREND.llm.speed].sort((a,b)=>b.outputSpeed-a.outputSpeed).slice(0,8);chartInstances.chartLlmSpeed=new Chart(document.getElementById('chartLlmSpeed'),{...getChartBase(),data:{labels:speedData.map(d=>shortName(d).model),datasets:[{label:'输出速度',data:speedData.map(d=>d.outputSpeed),backgroundColor:'#10b981',borderRadius:0,borderWidth:0}]},options:{...getChartBase().options,plugins:{...getChartBase().options.plugins,title:{display:true,text:'输出速度对比 (tokens/秒)',font:{size:13},color:cl()}},scales:{x:{...getChartBase().options.scales.x,title:{display:true,text:'tokens/秒',color:ct()}}}}}});const ttftData=[...MOCK_TREND.llm.speed].sort((a,b)=>a.ttft-b.ttft);chartInstances.chartLlmTTFT=new Chart(document.getElementById('chartLlmTTFT'),{...getChartBase(),data:{labels:ttftData.map(d=>shortName(d).model),datasets:[{label:'首Token延迟',data:ttftData.map(d=>d.ttft),backgroundColor:'#f59e0b',borderRadius:0,borderWidth:0}]},options:{...getChartBase().options,plugins:{...getChartBase().options.plugins,title:{display:true,text:'首Token延迟对比 (秒)',font:{size:13},color:cl()}},scales:{x:{...getChartBase().options.scales.x,title:{display:true,text:'秒',color:ct()}}}}}});}
+function renderSpeedBarChart(canvasId,data,color,title,unit){const key=canvasId;if(chartInstances[key])chartInstances[key].destroy();const ctx=document.getElementById(canvasId);if(!ctx)return;const palette=['#10b981','#34d399','#6ee7b7','#a7f3d0','#f59e0b','#fbbf24','#fcd34d','#fde68a'];chartInstances[key]=new Chart(ctx,{...getChartBase(),data:{labels:data.map(d=>shortName(d).model),datasets:[{data:data.map(d=>d.avgTime||d.realtimeFactor||d.minPerSecVideo),backgroundColor:palette.slice(0,data.length),borderRadius:0,borderWidth:0}]},options:{...getChartBase().options,plugins:{...getChartBase().options.plugins,title:{display:true,text:title||'生成速度对比',font:{size:13},color:cl()}},scales:{x:{...getChartBase().options.scales.x,title:unit?{display:true,text:unit,color:ct()}:undefined},y:getChartBase().options.scales.y}}});}
 
 // ===== Radar =====
 function renderLlmRadar(){const key='chartLlmRadar';if(chartInstances[key])chartInstances[key].destroy();const top4=MOCK_TREND.llm.perf.slice(0,4);chartInstances[key]=new Chart(document.getElementById('chartLlmRadar'),{type:'radar',data:{labels:['综合智力','编码','推理'],datasets:top4.map((d,i)=>({label:shortName(d).model,data:[d.intelligence,d.coding,d.reasoning],borderColor:['#6366f1','#f59e0b','#10b981','#ec4899'][i],backgroundColor:['rgba(99,102,241,0.1)','rgba(245,158,11,0.1)','rgba(16,185,129,0.1)','rgba(236,72,153,0.1)'][i],borderWidth:2,pointRadius:3}))},options:{responsive:true,maintainAspectRatio:false,plugins:{legend:{position:'bottom',labels:{color:cl(),font:{size:11,family:'monospace'},padding:16}},title:{display:true,text:'Top 4 多维能力对比',font:{size:13,family:'monospace'},color:cl()}},scales:{r:{ticks:{color:ct(),backdropColor:'transparent',font:{size:10}},grid:{color:cg()},pointLabels:{color:cl(),font:{size:11}},suggestedMin:40}}}});}
@@ -886,8 +886,8 @@ function renderLlmPriceScatter(){
     data:{datasets:[{label:'模型',data:data,backgroundColor:'#ec4899',borderColor:'#ec4899',pointRadius:6,pointHoverRadius:9}]},
     options:{
       responsive:true,maintainAspectRatio:false,
-      plugins:{legend:{display:false},title:{display:true,text:'综合智力 vs 混合价格（性价比分析）',font:{size:13,family:'monospace'},color:cl()},tooltip:{callbacks:{label:ctx=>ctx.raw.model+': 智力 '+ctx.raw.y+' / 价格 $'+ctx.raw.x.toFixed(2)}}},
-      scales:{x:{title:{display:true,text:'混合价格 $/1M tokens',color:ct()},ticks:{color:ct()},grid:{color:cg()}},y:{title:{display:true,text:'综合智力',color:ct()},ticks:{color:cl()},grid:{display:false},min:45,max:70}}
+      plugins:{legend:{display:false},title:{display:true,text:'综合智力 vs 混合价格（性价比分析）',font:{size:13,family:'monospace'},color:cl()},tooltip:{callbacks:{label:ctx=>ctx.raw.model+': 智力指数 '+ctx.raw.y+' / 价格 $'+ctx.raw.x.toFixed(2)+'/1M tokens'}}},
+      scales:{x:{title:{display:true,text:'混合价格 ($/1M tokens)',color:ct()},ticks:{color:ct()},grid:{color:cg()}},y:{title:{display:true,text:'综合智力指数',color:ct()},ticks:{color:cl()},grid:{display:false},min:45,max:70}}
     }
   });
 }
@@ -895,8 +895,8 @@ function renderLlmPriceScatter(){
 // ===== Row Helpers =====
 function cap(s){return s.charAt(0).toUpperCase()+s.slice(1);}
 function perfRow(modality){if(modality===MODALITY.LLM)return d=>`<tr><td>${modelName(shortName(d))}</td><td>${d.intelligence}</td><td>${d.coding}</td><td>${d.reasoning}</td></tr>`;if(modality===MODALITY.IMAGE)return d=>`<tr><td>${modelName(d)}</td><td>#${d.rank}</td><td>${d.elo}</td><td>${d.org}</td><td>${d.date}</td></tr>`;return d=>`<tr><td>${modelName(d)}</td><td>#${d.rank}</td><td>${d.elo}</td><td>${d.org}</td><td>${d.type||''}</td></tr>`;}
-function priceRow(modality){if(modality===MODALITY.LLM)return d=>`<tr><td>${modelName(shortName(d))}</td><td>$${d.input.toFixed(2)}</td><td>$${d.output.toFixed(2)}</td><td>$${d.blended.toFixed(3)}</td></tr>`;if(modality===MODALITY.IMAGE)return d=>`<tr><td>${modelName(d)}</td><td>$${d.perImage.toFixed(2)}</td><td>$${d.per1k}</td><td>${d.org}</td></tr>`;if(modality===MODALITY.SPEECH)return d=>`<tr><td>${modelName(d)}</td><td>$${d.perMChars.toFixed(2)}</td><td>$${d.perHour.toFixed(2)}</td><td>${d.org}</td></tr>`;return d=>`<tr><td>${modelName(d)}</td><td>$${d.perSec.toFixed(2)}</td><td>$${d.perMin.toFixed(2)}</td><td>${d.org}</td></tr>`;}
-function speedRow(modality){if(modality===MODALITY.LLM)return d=>`<tr><td>${modelName(shortName(d))}</td><td>${d.outputSpeed} t/s</td><td>${d.ttft}秒</td></tr>`;if(modality===MODALITY.IMAGE)return d=>`<tr><td>${modelName(d)}</td><td>${d.avgTime}秒</td><td>${d.fastest}秒</td><td>${d.org}</td></tr>`;if(modality===MODALITY.SPEECH)return d=>`<tr><td>${modelName(d)}</td><td>${d.realtimeFactor}x</td><td>${d.ttfa}秒</td><td>${d.org}</td></tr>`;return d=>`<tr><td>${modelName(d)}</td><td>${d.minPerSecVideo}分</td><td>${d.shortest}</td><td>${d.org}</td></tr>`;}
+function priceRow(modality){if(modality===MODALITY.LLM)return d=>`<tr><td>${modelName(shortName(d))}</td><td>$<span class="unit">${d.input.toFixed(2)}</span></td><td>$<span class="unit">${d.output.toFixed(2)}</span></td><td>$<span class="unit">${d.blended.toFixed(3)}</span></td></tr>`;if(modality===MODALITY.IMAGE)return d=>`<tr><td>${modelName(d)}</td><td>$<span class="unit">${d.perImage.toFixed(2)}</span></td><td>$<span class="unit">${d.per1k}</span></td><td>${d.org}</td></tr>`;if(modality===MODALITY.SPEECH)return d=>`<tr><td>${modelName(d)}</td><td>$<span class="unit">${d.perMChars.toFixed(2)}</span></td><td>$<span class="unit">${d.perHour.toFixed(2)}</span></td><td>${d.org}</td></tr>`;return d=>`<tr><td>${modelName(d)}</td><td>$<span class="unit">${d.perSec.toFixed(2)}</span></td><td>$<span class="unit">${d.perMin.toFixed(2)}</span></td><td>${d.org}</td></tr>`;}
+function speedRow(modality){if(modality===MODALITY.LLM)return d=>`<tr><td>${modelName(shortName(d))}</td><td>${d.outputSpeed} tokens/秒</td><td>${d.ttft}秒</td></tr>`;if(modality===MODALITY.IMAGE)return d=>`<tr><td>${modelName(d)}</td><td>${d.avgTime}秒/张</td><td>${d.fastest}秒</td><td>${d.org}</td></tr>`;if(modality===MODALITY.SPEECH)return d=>`<tr><td>${modelName(d)}</td><td>${d.realtimeFactor}x</td><td>${d.ttfa}秒</td><td>${d.org}</td></tr>`;return d=>`<tr><td>${modelName(d)}</td><td>${d.minPerSecVideo}分钟/秒</td><td>${d.shortest}</td><td>${d.org}</td></tr>`;}
 
 // ===== Share =====
 function sharePage(){if(document.getElementById('posterOverlay'))return;const allNews=getNewsItems();const topNews=allNews.slice(0,5);const topModel=MOCK_TREND.llm.perf[0];const now=new Date();const dateStr=now.getFullYear()+'-'+String(now.getMonth()+1).padStart(2,'0')+'-'+String(now.getDate()).padStart(2,'0');const overlay=document.createElement('div');overlay.id='posterOverlay';overlay.className='poster-overlay';overlay.innerHTML=`<div class="poster-dialog"><div class="poster-card" id="posterCard"><div class="p-header"><h2>智脉 · AI Pulse</h2><div class="p-date">${dateStr} · AI 日报 · 今日脉搏</div></div><div class="p-summary">${STRUCTURED_SUMMARY.map(s=>s.text.replace(/<[^>]*>/g,'')).join('；')}</div><div class="p-headlines">${topNews.map((n,i)=>`<div class="p-headline">${i+1}. ${n.title}</div>`).join('')}</div><div class="p-trend">今日最聪明模型：${topModel.model}（综合智力 ${topModel.intelligence}）<br>数据来源：artificialanalysis.ai</div><div class="p-footer"><img src="https://api.qrserver.com/v1/create-qr-code/?size=80x80&data=${encodeURIComponent(window.location.href)}&bgcolor=06080c&color=00dcff" width="80" height="80" crossorigin="anonymous" style="display:block;margin:0 auto 8px;" alt="QR">扫码查看完整日报<br><span style="font-size:9px;">智脉 &copy; 2026</span></div></div><div class="poster-actions"><button onclick="document.getElementById('posterOverlay').remove()">关闭</button><button class="primary" id="btnDownload">保存海报</button></div></div>`;overlay.addEventListener('click',(e)=>{if(e.target===overlay)overlay.remove();});document.body.appendChild(overlay);document.getElementById('btnDownload').addEventListener('click',()=>{const btn=document.getElementById('btnDownload');btn.textContent='生成中...';btn.disabled=true;const card=document.getElementById('posterCard');html2canvas(card,{scale:2,useCORS:true,backgroundColor:getComputedStyle(document.body).getPropertyValue('--void').trim()||'#06080c'}).then(canvas=>{const link=document.createElement('a');link.download=`智脉-AI-Daily-${dateStr}.png`;link.href=canvas.toDataURL('image/png');link.click();showToast('海报已保存');btn.textContent='保存海报';btn.disabled=false;}).catch(()=>{showToast('生成失败，请重试');btn.textContent='保存海报';btn.disabled=false;});});}
