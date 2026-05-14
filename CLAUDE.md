@@ -77,8 +77,6 @@ launchd plist: `~/Library/LaunchAgents/com.ai-daily.pipeline.plist`
 - 每天 8:00 触发 `pipeline/run.sh`
 - 日志：`data/daily/launchd.log`
 
-**已知问题：** launchd 使用的系统 Python 缺少 `feedparser`，自动调度一直失败。手动运行正常。
-
 ## 部署
 
 `deploy/` 是独立 git 仓库，push 到 `git@github.com:RexChen595223656/ai-daily-pulse.git`，GitHub Pages 自动部署。
@@ -90,14 +88,10 @@ cp -r data/daily/* deploy/data/daily/
 cd deploy && git add -A && git commit -m "更新日报数据" && git push
 ```
 
-## 已知问题
+## 已知限制
 
-1. **API 密钥硬编码** — config.py 含 DeepSeek/Anthropic/Server酱 key，不应提交到版本控制
-2. **launchd 环境缺依赖** — 系统 Python 无 feedparser，需修复 PATH 或用虚拟环境
-3. **项目源码无 git** — 仅 deploy/ 在版本控制下，pipeline/、server.py、docs/ 未跟踪
-4. **prototype/data 非软链接** — 需手动同步数据到 prototype/
-5. **run.py strip_html() 死代码** — 464 行 return 后 469-470 行永不执行
-6. **deploy/index.html 含 API key** — artificialanalysis.ai key 写在前端代码中
+1. **前端 API key 可见** — `deploy/index.html` 含 artificialanalysis.ai key（`aa_xxx`）。静态托管无法隐藏前端 key，该 API 有每日 1000 次限制，portfolio 场景可接受。如需保护，可加一层后端代理。
+2. **deploy/ 需手动同步** — prototype 改完后需手动 cp 到 deploy/ 并 push，未做自动化。
 
 ## 遵循方法论
 
