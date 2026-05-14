@@ -867,7 +867,41 @@ function renderTrends(){renderAllPanel(TREND.PERF);renderAllPanel(TREND.PRICE);r
 
 // ===== Speed =====
 function renderSpeedPanel(modality){if(modality===MODALITY.LLM){renderLlmSpeedCharts();}else if(modality===MODALITY.IMAGE){renderSpeedBarChart(`chartImageSpeed`,MOCK_TREND.image.speed,'#00d068','图片生成速度 (秒/张)','秒');}else{renderSpeedBarChart(`chartVideoSpeed`,MOCK_TREND.video.speed,'#00d068','视频生成耗时 (分钟/秒视频)','分钟');}document.getElementById(`table${cap(modality)}Speed`).innerHTML=MOCK_TREND[modality].speed.map(speedRow(modality)).join('');}
-function renderLlmSpeedCharts(){['chartLlmSpeed','chartLlmTTFT'].forEach(k=>{if(chartInstances[k])chartInstances[k].destroy();});const speedData=[...MOCK_TREND.llm.speed].sort((a,b)=>b.outputSpeed-a.outputSpeed).slice(0,8);chartInstances.chartLlmSpeed=new Chart(document.getElementById('chartLlmSpeed'),{...getChartBase(),data:{labels:speedData.map(d=>shortName(d).model),datasets:[{label:'输出速度',data:speedData.map(d=>d.outputSpeed),backgroundColor:'#10b981',borderRadius:0,borderWidth:0}]},options:{...getChartBase().options,plugins:{...getChartBase().options.plugins,title:{display:true,text:'输出速度对比 (tokens/秒)',font:{size:13},color:cl()}},scales:{x:{...getChartBase().options.scales.x,title:{display:true,text:'tokens/秒',color:ct()}}}}}});const ttftData=[...MOCK_TREND.llm.speed].sort((a,b)=>a.ttft-b.ttft);chartInstances.chartLlmTTFT=new Chart(document.getElementById('chartLlmTTFT'),{...getChartBase(),data:{labels:ttftData.map(d=>shortName(d).model),datasets:[{label:'首Token延迟',data:ttftData.map(d=>d.ttft),backgroundColor:'#f59e0b',borderRadius:0,borderWidth:0}]},options:{...getChartBase().options,plugins:{...getChartBase().options.plugins,title:{display:true,text:'首Token延迟对比 (秒)',font:{size:13},color:cl()}},scales:{x:{...getChartBase().options.scales.x,title:{display:true,text:'秒',color:ct()}}}}}});}
+function renderLlmSpeedCharts(){
+  ['chartLlmSpeed','chartLlmTTFT'].forEach(k=>{if(chartInstances[k])chartInstances[k].destroy();});
+  const speedData=[...MOCK_TREND.llm.speed].sort((a,b)=>b.outputSpeed-a.outputSpeed).slice(0,8);
+  chartInstances.chartLlmSpeed=new Chart(document.getElementById('chartLlmSpeed'),{
+    ...getChartBase(),
+    data:{
+      labels:speedData.map(d=>shortName(d).model),
+      datasets:[{label:'输出速度',data:speedData.map(d=>d.outputSpeed),backgroundColor:'#10b981',borderRadius:0,borderWidth:0}]
+    },
+    options:{
+      ...getChartBase().options,
+      plugins:{
+        ...getChartBase().options.plugins,
+        title:{display:true,text:'输出速度 (tokens/秒)',font:{size:13},color:cl()}
+      },
+      scales:{x:{...getChartBase().options.scales.x,title:{display:true,text:'tokens/秒',color:ct()}}}
+    }
+  });
+  const ttftData=[...MOCK_TREND.llm.speed].sort((a,b)=>a.ttft-b.ttft);
+  chartInstances.chartLlmTTFT=new Chart(document.getElementById('chartLlmTTFT'),{
+    ...getChartBase(),
+    data:{
+      labels:ttftData.map(d=>shortName(d).model),
+      datasets:[{label:'首Token延迟',data:ttftData.map(d=>d.ttft),backgroundColor:'#f59e0b',borderRadius:0,borderWidth:0}]
+    },
+    options:{
+      ...getChartBase().options,
+      plugins:{
+        ...getChartBase().options.plugins,
+        title:{display:true,text:'首Token延迟 (秒)',font:{size:13},color:cl()}
+      },
+      scales:{x:{...getChartBase().options.scales.x,title:{display:true,text:'秒',color:ct()}}}
+    }
+  });
+}
 function renderSpeedBarChart(canvasId,data,color,title,unit){const key=canvasId;if(chartInstances[key])chartInstances[key].destroy();const ctx=document.getElementById(canvasId);if(!ctx)return;const palette=['#10b981','#34d399','#6ee7b7','#a7f3d0','#f59e0b','#fbbf24','#fcd34d','#fde68a'];chartInstances[key]=new Chart(ctx,{...getChartBase(),data:{labels:data.map(d=>shortName(d).model),datasets:[{data:data.map(d=>d.avgTime||d.realtimeFactor||d.minPerSecVideo),backgroundColor:palette.slice(0,data.length),borderRadius:0,borderWidth:0}]},options:{...getChartBase().options,plugins:{...getChartBase().options.plugins,title:{display:true,text:title||'生成速度对比',font:{size:13},color:cl()}},scales:{x:{...getChartBase().options.scales.x,title:unit?{display:true,text:unit,color:ct()}:undefined},y:getChartBase().options.scales.y}}});}
 
 // ===== Radar =====
