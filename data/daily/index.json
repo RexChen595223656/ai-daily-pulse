@@ -1,0 +1,13 @@
+{
+  "2026-05-14": {
+    "date": "2026-05-14",
+    "highlight": "Nous Research发布Token叠加训练法，将大模型预训练提速2.5倍，开源社区再掀效率革命。",
+    "count": 12,
+    "stats": {
+      "total": 12,
+      "model_count": 2,
+      "strategy_count": 6,
+      "tool_count": 4
+    }
+  }
+}

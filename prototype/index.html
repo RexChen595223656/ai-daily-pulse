@@ -1,0 +1,1007 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>智脉 - AI 日报 · 今日脉搏</title>
+<script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.0/dist/chart.umd.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/html2canvas@1.4.1/dist/html2canvas.min.js"></script>
+<style>
+/* ============================================================
+   HUD TERMINAL — Sci-Fi Monitoring Dashboard
+   ============================================================ */
+
+/* ----- Variables ----- */
+:root {
+  --void: #05070a;
+  --bg: #090c13;
+  --bg-raised: #0d111a;
+  --bg-zone: #0b0f18;
+  --cyan: #00dcff;
+  --magenta: #ff0066;
+  --yellow: #ffc800;
+  --green: #00d068;
+  --red: #ff2244;
+  --white: #e4e8f0;
+  --text: #c8ccd4;
+  --dim: #6e7382;
+  --faint: #4a4e5c;
+  --line: rgba(255,255,255,0.05);
+  --line-active: rgba(0,220,255,0.2);
+  --font: 'JetBrains Mono', 'Courier New', 'PingFang SC', 'Microsoft YaHei', monospace;
+  --gap: 10px;
+  --pad: 14px;
+  --chart-tick: #5a5f6c;
+  --chart-label: #b0b8c0;
+  --chart-grid: rgba(255,255,255,0.04);
+}
+body.light {
+  --void: #eaecf2;
+  --bg: #eff1f6;
+  --bg-raised: #f8f9fc;
+  --bg-zone: #f2f4f8;
+  --cyan: #006676;
+  --magenta: #940050;
+  --yellow: #826800;
+  --green: #006430;
+  --red: #b01828;
+  --white: #141820;
+  --text: #1c2028;
+  --dim: #6e7382;
+  --faint: #b0b4c0;
+  --line: rgba(0,0,0,0.06);
+  --line-active: rgba(0,102,118,0.18);
+  --chart-tick: #5a5f6c;
+  --chart-label: #2c3038;
+  --chart-grid: rgba(0,0,0,0.05);
+}
+
+/* ----- Reset ----- */
+*,*::before,*::after{margin:0;padding:0;box-sizing:border-box}
+body{
+  font-family:var(--font);font-size:13px;background:var(--bg);color:var(--text);
+  line-height:1.55;min-height:100vh;transition:background .3s,color .3s;
+  position:relative;-webkit-font-smoothing:antialiased;
+}
+body::after{
+  content:'';position:fixed;inset:0;pointer-events:none;z-index:99999;
+  background:repeating-linear-gradient(0deg,transparent,transparent 2px,rgba(0,220,255,.006) 2px,rgba(0,220,255,.006) 4px);
+}
+body.light::after{background:none}
+
+/* ----- Navigation ----- */
+.top-nav{
+  position:sticky;top:0;z-index:100;
+  background:var(--bg);border-bottom:1px solid var(--line);
+  padding:8px 0;backdrop-filter:blur(12px);
+}
+.nav-inner{max-width:720px;margin:0 auto;padding:0 var(--pad);display:flex;justify-content:space-between;align-items:center}
+.nav-brand{display:flex;align-items:center;gap:8px}
+.nav-brand h1{font-size:18px;font-weight:900;color:var(--cyan);letter-spacing:3px;text-shadow:0 0 20px rgba(0,220,255,.25)}
+.nav-brand .logo-mark svg{filter:drop-shadow(0 0 6px var(--cyan))}
+.nav-brand .date{font-size:11px;color:var(--dim)}
+.nav-actions{display:flex;gap:4px}
+.nav-btn{display:inline-flex;align-items:center;justify-content:center;width:30px;height:30px;font-size:13px;font-family:var(--font);cursor:pointer;background:none;border:1px solid transparent;color:var(--dim);transition:all .2s}
+.nav-btn:hover{color:var(--cyan);border-color:var(--line-active)}
+.history-btn{width:auto!important;padding:0 8px!important;font-size:9px!important;letter-spacing:2px}
+
+/* ----- Main Grid ----- */
+.main-grid{max-width:720px;margin:0 auto;padding:0 var(--pad)}
+
+/* ----- Zone ----- */
+.zone{padding:var(--pad) 0}
+.zone-label{
+  font-size:9px;font-weight:700;color:var(--dim);letter-spacing:4px;
+  text-transform:uppercase;margin-bottom:var(--gap);padding-bottom:6px;
+  border-bottom:1px solid var(--line);
+  display:flex;align-items:center;gap:8px
+}
+.zone-label::before{content:'';width:6px;height:6px;background:var(--cyan);display:block}
+
+/* ===== ZONE: HERO ===== */
+.zone-hero{padding-top:14px}
+.zone-hero .greeting{font-size:13px;color:var(--dim);margin-bottom:var(--gap)}
+.hero-cards{display:grid;grid-template-columns:1fr 1fr;gap:var(--gap)}
+@media(max-width:480px){.hero-cards{grid-template-columns:1fr}}
+
+.fortune-card,.hero-joke{
+  background:var(--bg-raised);padding:var(--pad);
+  display:flex;flex-direction:column;transition:all .25s;
+  border-left:2px solid transparent;
+}
+.fortune-card{border-left-color:var(--yellow);text-align:center;align-items:center;justify-content:center;gap:4px}
+.hero-joke{border-left-color:var(--green);justify-content:space-between}
+.fortune-card:hover,.hero-joke:hover{background:var(--bg-zone)}
+.fortune-card .f-icon{margin-bottom:2px}
+.fortune-card .f-lucky{color:var(--cyan);font-weight:700;font-size:14px}
+.fortune-card .f-advice{color:var(--dim);font-size:10px;line-height:1.6}
+.hero-joke .hj-label{font-size:8px;color:var(--dim);letter-spacing:3px}
+.hero-joke .hj-text{font-size:11px;color:var(--text);font-style:italic;line-height:1.55;flex:1;display:flex;align-items:center}
+.hero-joke .hj-next{font-size:9px;color:var(--cyan);cursor:pointer;text-align:right;letter-spacing:2px}
+.hero-joke .hj-next:hover{opacity:.6}
+
+/* ===== ZONE: SUMMARY ===== */
+.daily-summary{display:flex;flex-direction:column;gap:10px}
+.daily-summary .summary-item{
+  display:flex;gap:10px;font-size:13px;line-height:1.6;
+  padding:10px 12px;background:var(--bg-raised);border-left:2px solid var(--cyan)
+}
+.daily-summary .summary-item:nth-child(2){border-left-color:var(--green)}
+.daily-summary .summary-item:nth-child(3){border-left-color:var(--yellow)}
+.daily-summary .summary-item .s-icon{flex-shrink:0;width:22px;padding-top:1px}
+.daily-summary .summary-item .s-text{color:var(--text)}
+.daily-summary .summary-item .s-text strong{color:var(--cyan);font-weight:700}
+
+/* ===== ZONE: SNAPSHOTS ===== */
+.trend-snaps{display:grid;grid-template-columns:1fr 1fr 1fr;gap:var(--gap)}
+@media(max-width:480px){.trend-snaps{gap:6px}}
+.snap-card{
+  background:var(--bg-raised);padding:var(--pad);cursor:pointer;transition:all .25s;
+  border-left:2px solid transparent;
+}
+.snap-card.card-accent-cyan{border-left-color:var(--cyan)}
+.snap-card.card-accent-yellow{border-left-color:var(--yellow)}
+.snap-card.card-accent-magenta{border-left-color:var(--magenta)}
+.snap-card:hover{background:var(--bg-zone);transform:translateX(2px)}
+.snap-card .snap-icon{margin-bottom:8px}
+.snap-card .snap-title{font-size:8px;color:var(--dim);letter-spacing:3px;text-transform:uppercase;margin-bottom:6px}
+.snap-card .snap-value{font-size:14px;font-weight:700;color:var(--text);display:flex;align-items:center;gap:6px}
+.snap-card .snap-sub{font-size:10px;color:var(--dim);margin-top:6px}
+
+/* ===== ZONE: TRENDS ===== */
+.trend-bar{display:flex;justify-content:space-between;align-items:center;margin-bottom:var(--gap);border-bottom:1px solid var(--line)}
+.trend-tabs{display:flex;gap:0}
+.modality-tab{
+  padding:6px 14px;font-size:11px;font-family:var(--font);
+  border:none;border-bottom:2px solid transparent;background:none;color:var(--dim);
+  cursor:pointer;transition:all .2s;letter-spacing:2px;
+}
+.modality-tab:hover{color:var(--text)}
+.modality-tab.active{color:var(--cyan);border-bottom-color:var(--cyan)}
+
+.trend-subtabs{display:flex;gap:2px}
+.trend-tab{
+  padding:4px 10px;font-size:10px;font-family:var(--font);
+  border:1px solid var(--line);background:none;color:var(--dim);
+  cursor:pointer;transition:all .2s;white-space:nowrap
+}
+.trend-tab:hover{color:var(--text);border-color:var(--line-active)}
+.trend-tab.active{color:var(--cyan);background:rgba(0,220,255,.08);border-color:rgba(0,220,255,.2)}
+
+.trend-panel{display:none;background:var(--bg-raised)}
+.trend-panel.active{display:block}
+.trend-panel .chart-wrap{padding:var(--pad) var(--pad) 0}
+.trend-panel .data-table{margin:0}
+
+.chart-wrap{position:relative;height:260px}
+.chart-wrap.radar{height:300px}
+.chart-wrap canvas{width:100%!important;height:100%!important}
+
+.data-table{width:100%;border-collapse:collapse;font-size:10px}
+.data-table th,.data-table td{padding:7px 12px;text-align:left;border-bottom:1px solid var(--line)}
+.data-table thead th{font-weight:600;color:var(--dim);font-size:8px;letter-spacing:2px;text-transform:uppercase;padding:9px 12px}
+.data-table tbody td{color:var(--text)}
+.data-table tbody tr:hover td{background:rgba(0,220,255,.02)}
+.data-table td:first-child{font-weight:600}
+.data-table td:not(:first-child){text-align:right;font-family:'JetBrains Mono','Courier New',monospace}
+.data-table th:not(:first-child){text-align:right}
+
+/* ===== ZONE: NEWS ===== */
+.filter-bar{display:flex;gap:4px;margin-bottom:var(--gap);overflow-x:auto}
+.filter-bar::-webkit-scrollbar{display:none}
+.filter-tag{
+  flex-shrink:0;padding:5px 12px;font-size:10px;font-family:var(--font);
+  border:1px solid var(--line);background:none;color:var(--dim);
+  cursor:pointer;transition:all .2s;white-space:nowrap;letter-spacing:2px
+}
+.filter-tag:hover{border-color:var(--line-active);color:var(--text)}
+.filter-tag.active{background:var(--cyan);color:var(--void);border-color:var(--cyan);font-weight:700}
+
+.news-list{display:flex;flex-direction:column}
+.news-item{
+  background:var(--bg-raised);padding:12px var(--pad);cursor:pointer;
+  transition:all .2s;position:relative;border-left:2px solid transparent;
+  border-bottom:1px solid var(--line);
+}
+.news-item:hover{border-left-color:var(--cyan);background:var(--bg-zone)}
+.news-item.expanded{border-left-color:var(--magenta)!important;background:var(--bg-zone)}
+.news-item .header{display:flex;align-items:flex-start;gap:8px}
+.news-item .header .info{flex:1;min-width:0}
+.news-item .title{font-size:13px;font-weight:600;color:var(--text);line-height:1.5}
+.news-item .meta{font-size:10px;color:var(--dim);margin-top:4px;display:flex;align-items:center;gap:8px;flex-wrap:wrap}
+.news-item .multi-source{font-size:9px;color:var(--cyan)}
+.news-item .expand-hint{font-size:9px;color:var(--cyan);margin-top:6px;letter-spacing:2px}
+
+.item-cat{display:inline-block;padding:1px 6px;font-size:8px;font-weight:700;margin-right:5px;letter-spacing:2px;text-transform:uppercase}
+.item-cat.model{color:var(--cyan)}
+.item-cat.strategy{color:var(--green)}
+.item-cat.tool{color:var(--yellow)}
+
+.news-item .snark{font-size:10px;color:var(--dim);font-style:italic;margin-top:4px}
+.news-item .refresh-snark{display:inline-block;margin-left:6px;font-size:9px;color:var(--faint);cursor:pointer;font-style:normal;opacity:.5;transition:opacity .2s}
+.news-item .refresh-snark:hover{opacity:1;color:var(--cyan)}
+
+.news-item .summary{display:none;margin-top:10px;padding:10px 12px;background:rgba(0,220,255,.02);border-left:2px solid var(--cyan);font-size:12px;line-height:1.7;color:var(--text);animation:fadeIn .3s ease}
+.news-item.expanded .summary{display:block}
+.news-item .summary .source-link{display:inline-block;margin-top:8px;font-size:10px;color:var(--cyan);text-decoration:none;font-weight:600;border-bottom:1px solid var(--cyan);letter-spacing:1px}
+.news-item .summary .source-link:hover{color:var(--text)}
+.news-item .source-list{margin-top:6px;font-size:9px;color:var(--dim)}
+.news-item .source-list a{color:var(--cyan);text-decoration:none;margin-right:8px}
+@keyframes fadeIn{0%{opacity:0;transform:translateX(-2px)}100%{opacity:1;transform:translateX(0)}}
+
+/* ===== BP OVERLAY ===== */
+.bp-overlay{position:fixed;inset:0;z-index:500;display:flex;align-items:center;justify-content:center;background:var(--void);backdrop-filter:blur(32px)}
+.bp-overlay.dismissed{opacity:0;pointer-events:none;transition:opacity .5s}
+.bp-dialog{text-align:center;max-width:340px;padding:20px}
+.bp-dialog .bp-title{font-size:12px;color:var(--dim);letter-spacing:5px;margin-bottom:24px}
+.bp-dialog .bp-big-btn{display:flex;flex-direction:column;align-items:center;gap:16px;background:var(--bg-raised);border:1px solid var(--line-active);color:var(--cyan);font-family:var(--font);padding:36px 48px;cursor:pointer;letter-spacing:3px;font-size:14px;transition:all .3s;margin:0 auto}
+.bp-dialog .bp-big-btn:hover{border-color:var(--cyan);box-shadow:0 0 48px rgba(0,220,255,.12)}
+.bp-dialog .bp-big-btn.measured{border-color:var(--green);color:var(--green);cursor:default;pointer-events:none}
+.bp-dialog .bp-big-btn .bp-icon-lg{margin-bottom:2px}
+.bp-dialog .bp-value-lg{font-size:72px;font-weight:900;letter-spacing:6px;font-family:'JetBrains Mono','Courier New',monospace;transition:color .4s}
+.bp-dialog .bp-value-lg.hot{color:var(--magenta);text-shadow:0 0 48px rgba(255,0,102,.35);animation:bpPulse .8s ease-in-out infinite}
+.bp-dialog .bp-value-lg.warm{color:var(--yellow)}
+.bp-dialog .bp-value-lg.calm{color:var(--green);text-shadow:0 0 20px rgba(0,208,104,.2)}
+.bp-dialog .bp-result{margin-top:20px;font-size:13px;color:var(--dim);font-style:italic;min-height:22px}
+.bp-dialog .bp-enter-btn{margin-top:24px;padding:10px 32px;font-family:var(--font);font-size:13px;letter-spacing:3px;background:none;border:1px solid var(--cyan);color:var(--cyan);cursor:pointer;transition:all .3s;opacity:0;transform:translateY(12px)}
+.bp-dialog .bp-enter-btn.show{opacity:1;transform:translateY(0);transition:opacity .5s,transform .5s}
+.bp-dialog .bp-enter-btn:hover{background:var(--cyan);color:var(--void)}
+@keyframes bpPulse{0%,100%{transform:scale(1)}50%{transform:scale(1.04)}}
+
+/* ===== LOGO ANIMATION ===== */
+@keyframes logoPulseIn{0%,100%{transform:scale(1)}12%{transform:scale(1.3)}25%{transform:scale(1)}37%{transform:scale(1.2)}50%{transform:scale(1)}62%{transform:scale(1.1)}75%{transform:scale(1)}}
+@keyframes logoBreathe{0%,100%{transform:scale(1);opacity:1}50%{transform:scale(1.06);opacity:.75}}
+.top-nav .logo-mark svg.animate-in{animation:logoPulseIn 2s ease-in-out forwards}
+.top-nav .logo-mark svg.breathing{animation:logoBreathe 4s ease-in-out infinite}
+
+/* ===== POSTER ===== */
+.poster-overlay{position:fixed;inset:0;background:rgba(5,7,10,.92);z-index:300;display:flex;align-items:center;justify-content:center}
+.poster-dialog{background:var(--bg-raised);border:1px solid var(--cyan);max-width:400px;width:90%;max-height:90vh;overflow-y:auto;padding:20px}
+.poster-card{width:375px;max-width:100%;margin:0 auto;background:var(--void);padding:24px 20px;border:1px solid var(--line);font-family:var(--font);color:var(--text);line-height:1.6}
+.poster-card .p-header{text-align:center;margin-bottom:20px}
+.poster-card .p-header h2{font-size:22px;color:var(--cyan);letter-spacing:4px}
+.poster-card .p-header .p-date{font-size:10px;color:var(--dim);margin-top:6px}
+.poster-card .p-summary{font-size:12px;margin-bottom:16px;padding:12px;background:rgba(0,220,255,.03);border-left:2px solid var(--cyan);line-height:1.7}
+.poster-card .p-headlines{margin-bottom:16px}
+.poster-card .p-headlines .p-headline{font-size:10px;padding:7px 0;border-bottom:1px solid var(--line)}
+.poster-card .p-trend{font-size:10px;color:var(--dim);padding:10px;background:var(--bg-raised);margin-bottom:16px}
+.poster-card .p-footer{text-align:center;font-size:10px;color:var(--dim);border-top:1px solid var(--line);padding-top:14px}
+.poster-card .p-footer a{color:var(--cyan);text-decoration:none}
+.poster-actions{display:flex;gap:10px;margin-top:16px}
+.poster-actions button{flex:1;padding:12px;font-family:var(--font);font-size:12px;cursor:pointer;letter-spacing:2px;transition:all .2s;background:none;border:1px solid var(--cyan);color:var(--cyan)}
+.poster-actions button:hover{background:var(--cyan);color:var(--void)}
+.poster-actions button.primary{background:var(--cyan);color:var(--void)}
+.poster-actions button.primary:hover{background:var(--magenta);border-color:var(--magenta);color:var(--text)}
+
+/* ===== SHARED ===== */
+.mlogo{display:inline-flex;align-items:center;justify-content:center;width:16px;height:16px;border-radius:50%;flex-shrink:0;color:#fff;font-size:8px;font-weight:800;margin-right:5px;vertical-align:middle}
+.model-link{color:var(--text);text-decoration:none;border-bottom:1px dashed var(--line);transition:all .2s}
+.model-link:hover{color:var(--cyan);border-bottom-color:var(--cyan)}
+.svg-icon{display:inline-flex;align-items:center;justify-content:center;flex-shrink:0;vertical-align:middle}
+.svg-icon svg{display:block}
+
+/* ===== FOOTER ===== */
+.page-footer{padding:20px 0 40px}
+.footer-grid{max-width:720px;margin:0 auto;padding:0 var(--pad);display:flex;justify-content:space-between;font-size:9px;color:var(--faint);letter-spacing:2px}
+.footer-grid a{color:var(--cyan);text-decoration:none}
+.footer-grid a:hover{border-bottom:1px solid var(--cyan)}
+
+/* ===== STATES ===== */
+.error-state,.empty-state{text-align:center;padding:40px 16px;color:var(--dim)}
+.error-state .icon,.empty-state .icon{font-size:32px;margin-bottom:12px;color:var(--yellow)}
+.empty-state .icon{color:var(--cyan)}
+.error-state .title,.empty-state .title{font-size:14px;font-weight:700;margin-bottom:6px;color:var(--text)}
+.retry-btn{margin-top:16px;padding:8px 24px;background:none;color:var(--cyan);border:1px solid var(--cyan);cursor:pointer;font-family:var(--font);font-size:11px;letter-spacing:3px;transition:all .2s}
+.retry-btn:hover{background:var(--cyan);color:var(--void)}
+.cache-notice{background:rgba(255,200,0,.06);padding:8px 12px;font-size:10px;color:var(--yellow);margin-bottom:var(--gap);border-left:2px solid var(--yellow)}
+
+/* ===== SCROLL ===== */
+.scroll-progress{height:2px;background:transparent;position:fixed;bottom:0;left:0;right:0;z-index:100}
+.scroll-progress .bar{height:100%;background:var(--cyan);width:0;transition:width .15s linear;box-shadow:0 0 8px var(--cyan)}
+.scroll-complete{position:fixed;bottom:10px;left:50%;transform:translateX(-50%);font-size:10px;color:var(--green);letter-spacing:3px;opacity:0;transition:opacity .5s;pointer-events:none;z-index:101}
+.scroll-complete.show{opacity:1}
+
+@media(min-width:768px){
+  .hero-cards{grid-template-columns:1fr 1fr}
+}
+.hidden{display:none!important}
+@keyframes spin{from{transform:rotate(0deg)}to{transform:rotate(360deg)}}
+</style>
+</head>
+
+<body>
+
+<!-- BP Overlay -->
+<div class="bp-overlay" id="bpOverlay">
+  <div class="bp-dialog">
+    <div class="bp-title">今日 AI 脉搏</div>
+    <button class="bp-big-btn" id="bpBigBtn" onclick="measureBP()">
+      <span class="bp-icon-lg svg-icon" id="bpIcon"></span>
+      <span>点击测量今日 AI 血压</span>
+    </button>
+    <div class="bp-result" id="bpResult"></div>
+    <button class="bp-enter-btn" id="bpEnterBtn" onclick="dismissBP()">进入智脉 →</button>
+  </div>
+</div>
+
+<!-- Sticky Nav -->
+<nav class="top-nav">
+  <div class="container nav-inner">
+    <div class="nav-brand">
+      <span class="logo-mark"><svg width="22" height="18" viewBox="0 0 24 20" fill="none" style="display:block;"><path d="M0 10 L4 10 L6 4 L9 18 L12 8 L14 14 L16 10 L20 10" style="stroke:var(--cyan);stroke-width:2;stroke-linecap:round;stroke-linejoin:round"/><circle cx="20" cy="10" r="2.5" style="fill:var(--magenta)"/></svg></span>
+      <h1>智脉</h1>
+      <span class="date" id="pageDate"></span>
+    </div>
+    <div class="nav-actions">
+      <button class="nav-btn" id="refreshBtn" onclick="manualRefresh()" title="手动刷新数据">↻</button>
+      <button class="nav-btn" onclick="sharePage()" title="分享海报">↗</button>
+      <button class="nav-btn" id="themeToggle" onclick="toggleTheme()" title="切换主题">◐</button>
+      <button class="nav-btn history-btn" onclick="showHistory()">历史日报</button>
+    </div>
+  </div>
+</nav>
+
+<main class="main-grid">
+
+  <!-- ===== ZONE 1: HERO + CARDS ===== -->
+  <section class="zone zone-hero">
+    <div class="greeting" id="heroGreeting"></div>
+    <div class="hero-cards">
+      <div class="fortune-card" id="fortuneCard">
+        <div class="f-icon svg-icon" id="fortuneIcon"></div>
+        <div class="f-lucky" id="fortuneLucky"></div>
+        <div class="f-advice" id="fortuneAdvice"></div>
+      </div>
+      <div class="hero-joke" id="heroJokeCard">
+        <div class="hj-label">// 今日冷笑话</div>
+        <div class="hj-text" id="heroJokeText"></div>
+        <div class="hj-next" onclick="event.stopPropagation();nextJoke()">换一个 →</div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== ZONE 2: AI SUMMARY ===== -->
+  <section class="zone zone-summary">
+    <div class="zone-label">AI 今日脉搏</div>
+    <div class="daily-summary">
+      <div class="summary-grid" id="summaryGrid"></div>
+    </div>
+  </section>
+
+  <!-- ===== ZONE 3: TREND SNAPSHOTS ===== -->
+  <section class="zone zone-snaps">
+    <div class="zone-label">趋势快照</div>
+    <div class="trend-snaps" id="trendSnaps"></div>
+  </section>
+
+  <!-- ===== ZONE 4: TREND DASHBOARD ===== -->
+  <section class="zone zone-trends">
+    <div class="zone-label">大模型趋势看板</div>
+    <div class="trend-section" id="trendSection">
+      <div class="trend-bar">
+        <div class="trend-tabs" id="modalityTabs">
+          <span class="modality-tab active" data-modality="all">总榜</span>
+          <span class="modality-tab" data-modality="llm">文本</span>
+          <span class="modality-tab" data-modality="image">图片</span>
+          <span class="modality-tab" data-modality="video">视频</span>
+        </div>
+        <div class="trend-subtabs" id="unifiedSubtabs">
+          <span class="trend-tab active" data-trend="perf">智力</span>
+          <span class="trend-tab" data-trend="price">价格</span>
+          <span class="trend-tab" data-trend="speed">速度</span>
+        </div>
+      </div>
+      <div class="cache-notice hidden" id="cacheNotice">数据更新于 <span id="cacheDate"></span></div>
+
+      <!-- 总榜 -->
+      <div class="trend-panel active" id="panel-all-perf">
+        <table class="data-table"><thead><tr><th>模型</th><th>模态</th><th>指标</th><th>发布方</th></tr></thead><tbody id="tableAllPerf"></tbody></table>
+      </div>
+      <div class="trend-panel" id="panel-all-price">
+        <table class="data-table"><thead><tr><th>模型</th><th>模态</th><th>单价</th><th>发布方</th></tr></thead><tbody id="tableAllPrice"></tbody></table>
+      </div>
+      <div class="trend-panel" id="panel-all-speed">
+        <table class="data-table"><thead><tr><th>模型</th><th>模态</th><th>速度</th><th>发布方</th></tr></thead><tbody id="tableAllSpeed"></tbody></table>
+      </div>
+
+      <!-- 文本 -->
+      <div class="trend-panel" id="panel-llm-perf">
+        <div class="chart-wrap"><canvas id="chartLlmPerf"></canvas></div>
+        <div class="chart-wrap radar"><canvas id="chartLlmRadar"></canvas></div>
+        <table class="data-table"><thead><tr><th>模型</th><th>综合智力</th><th>编码</th><th>推理</th></tr></thead><tbody id="tableLlmPerf"></tbody></table>
+      </div>
+      <div class="trend-panel" id="panel-llm-price">
+        <div class="chart-wrap"><canvas id="chartLlmPriceScatter"></canvas></div>
+        <table class="data-table" style="margin-top:0;"><thead><tr><th>模型</th><th>输入 $/1M</th><th>输出 $/1M</th><th>混合 $/1M</th></tr></thead><tbody id="tableLlmPrice"></tbody></table>
+      </div>
+      <div class="trend-panel" id="panel-llm-speed">
+        <div class="chart-wrap"><canvas id="chartLlmSpeed"></canvas></div>
+        <div class="chart-wrap"><canvas id="chartLlmTTFT"></canvas></div>
+        <table class="data-table"><thead><tr><th>模型</th><th>输出速度 (t/s)</th><th>首Token延迟 (秒)</th></tr></thead><tbody id="tableLlmSpeed"></tbody></table>
+      </div>
+
+      <!-- 图片 -->
+      <div class="trend-panel" id="panel-image-perf">
+        <div class="chart-wrap"><canvas id="chartImagePerf"></canvas></div>
+        <table class="data-table"><thead><tr><th>模型</th><th>排名</th><th>Elo</th><th>发布方</th><th>日期</th></tr></thead><tbody id="tableImagePerf"></tbody></table>
+      </div>
+      <div class="trend-panel" id="panel-image-price">
+        <table class="data-table"><thead><tr><th>模型</th><th>每张 $</th><th>每1K张 $</th><th>发布方</th></tr></thead><tbody id="tableImagePrice"></tbody></table>
+      </div>
+      <div class="trend-panel" id="panel-image-speed">
+        <div class="chart-wrap"><canvas id="chartImageSpeed"></canvas></div>
+        <table class="data-table"><thead><tr><th>模型</th><th>平均 (秒)</th><th>最快 (秒)</th><th>发布方</th></tr></thead><tbody id="tableImageSpeed"></tbody></table>
+      </div>
+
+      <!-- 视频 -->
+      <div class="trend-panel" id="panel-video-perf">
+        <div class="chart-wrap"><canvas id="chartVideoPerf"></canvas></div>
+        <table class="data-table"><thead><tr><th>模型</th><th>排名</th><th>Elo</th><th>发布方</th><th>类型</th></tr></thead><tbody id="tableVideoPerf"></tbody></table>
+      </div>
+      <div class="trend-panel" id="panel-video-price">
+        <table class="data-table"><thead><tr><th>模型</th><th>每秒 $</th><th>每分 $</th><th>发布方</th></tr></thead><tbody id="tableVideoPrice"></tbody></table>
+      </div>
+      <div class="trend-panel" id="panel-video-speed">
+        <div class="chart-wrap"><canvas id="chartVideoSpeed"></canvas></div>
+        <table class="data-table"><thead><tr><th>模型</th><th>分/秒视频</th><th>最短</th><th>发布方</th></tr></thead><tbody id="tableVideoSpeed"></tbody></table>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== ZONE 5: NEWS ===== -->
+  <section class="zone zone-news">
+    <div class="zone-label">资讯列表</div>
+    <div class="filter-bar" id="filterBar">
+      <span class="filter-tag active" data-cat="all">全部</span>
+      <span class="filter-tag" data-cat="model">新模型</span>
+      <span class="filter-tag" data-cat="strategy">大厂战略</span>
+      <span class="filter-tag" data-cat="tool">工具推荐</span>
+    </div>
+    <div class="news-list" id="newsList"></div>
+    <div class="error-state hidden" id="errorState">
+      <div class="icon">!</div>
+      <div class="title">今天 AI 们都摸鱼了</div>
+      <p>信息源暂时失联，可能正在和人类开会</p>
+      <button class="retry-btn" onclick="location.reload()">手动重试</button>
+    </div>
+    <div class="empty-state hidden" id="emptyState">
+      <div class="icon">~</div>
+      <div class="title">AI 正在焦虑地等待第一条新闻…</div>
+      <p>明日 9:00 首期日报准时到达</p>
+    </div>
+  </section>
+
+</main>
+
+<!-- Scroll Progress -->
+<div class="scroll-progress" id="scrollProgress"><div class="bar" id="scrollBar"></div></div>
+<div class="scroll-complete" id="scrollComplete">✓ 今日脉搏已掌握</div>
+
+<!-- Footer -->
+<footer class="page-footer">
+  <div class="footer-grid">
+    <span>智脉 &copy; 2026</span>
+    <span><a href="#" onclick="showHistory()">历史日报</a></span>
+  </div>
+</footer>
+
+
+</html>
+<script>
+// ===== Constants =====
+const CAT={MODEL:'model',STRATEGY:'strategy',TOOL:'tool'};
+const CAT_LABELS={[CAT.MODEL]:'新模型',[CAT.STRATEGY]:'大厂战略',[CAT.TOOL]:'工具推荐'};
+const TREND={PERF:'perf',PRICE:'price',SPEED:'speed'};
+const MODALITY={LLM:'llm',IMAGE:'image',SPEECH:'speech',VIDEO:'video'};
+
+const ICONS={
+fortune:`<svg width="22" height="22" viewBox="0 0 22 22" fill="none"><path d="M11 1l3 7.5h8L15.5 13l2.5 8L11 16 4 21l2.5-8L0 8.5h8z" style="stroke:var(--yellow);stroke-width:1.2;fill:rgba(255,200,0,0.15)"/></svg>`,
+crown:`<svg width="18" height="18" viewBox="0 0 18 18" fill="none"><path d="M2.5 13l2-9 3.5 5.5L11.5 4l2 9H2.5z" style="stroke:var(--cyan);stroke-width:1.3;stroke-linejoin:round"/></svg>`,
+coin:`<svg width="18" height="18" viewBox="0 0 18 18" fill="none"><circle cx="9" cy="9" r="6.5" style="stroke:var(--yellow);stroke-width:1.3"/><path d="M9 5v7.5M6.5 8.5h5" style="stroke:var(--yellow);stroke-width:1.3;stroke-linecap:round"/></svg>`,
+bolt:`<svg width="18" height="18" viewBox="0 0 18 18" fill="none"><path d="M10 1.5L3.5 10H9l-2 6.5 7-8.5H9l2-6.5z" style="stroke:var(--magenta);stroke-width:1.3;stroke-linejoin:round"/></svg>`,
+chip:`<svg width="18" height="18" viewBox="0 0 18 18" fill="none"><rect x="2.5" y="2.5" width="13" height="13" rx="1.5" style="stroke:var(--cyan);stroke-width:1.2"/><path d="M6 2.5v3M12 2.5v3M6 12.5v3M12 12.5v3M2.5 6h3M12.5 6h3M2.5 12h3M12.5 12h3" style="stroke:var(--cyan);stroke-width:.8"/></svg>`,
+building:`<svg width="18" height="18" viewBox="0 0 18 18" fill="none"><rect x="3" y="5" width="12" height="10.5" style="stroke:var(--green);stroke-width:1.2"/><path d="M6.5 15.5V11h5v4.5M7 8h.8M10.2 8H11" style="stroke:var(--green);stroke-width:.8;stroke-linecap:round"/></svg>`,
+gear:`<svg width="18" height="18" viewBox="0 0 18 18" fill="none"><circle cx="9" cy="9" r="3" style="stroke:var(--yellow);stroke-width:1.2"/><path d="M9 1.5v1.8M9 14.7v1.8M1.5 9h1.8M14.7 9h1.8M3.7 3.7l1.3 1.3M13 13l1.3 1.3M3.7 14.3l1.3-1.3M13 5l1.3-1.3" style="stroke:var(--yellow);stroke-width:.8;stroke-linecap:round"/></svg>`,
+heart:`<svg width="44" height="44" viewBox="0 0 44 44" fill="none"><path d="M22 8C22 4 18 2 15 5c-3-3-7-1-7 3 0 5 7 12 14 19 7-7 14-14 14-19 0-4-4-6-7-3-3-3-7-1-7 3z" style="stroke:var(--magenta);stroke-width:1.5;fill:rgba(255,0,102,0.08)"/><path d="M14 22h16" style="stroke:var(--cyan);stroke-width:1.2;stroke-dasharray:2 3;opacity:0.6"/></svg>`};
+
+const PROVIDER_LOGOS={
+'OpenAI':{color:'#00a67e',initial:'O'},'Anthropic':{color:'#d97757',initial:'A'},'Google':{color:'#4285f4',initial:'G'},
+'Meta':{color:'#0668e1',initial:'M'},'Mistral':{color:'#f4900c',initial:'M'},'Alibaba':{color:'#ff6a00',initial:'A'},
+'DeepSeek':{color:'#4d6bfe',initial:'D'},'Black Forest Labs':{color:'#1a1a1a',initial:'B'},'Midjourney':{color:'#6c5ce7',initial:'M'},
+'Stability AI':{color:'#a855f7',initial:'S'},'Ideogram':{color:'#ec4899',initial:'I'},'Recraft':{color:'#14b8a6',initial:'R'},
+'Playground':{color:'#f97316',initial:'P'},'ElevenLabs':{color:'#6366f1',initial:'E'},'Hume AI':{color:'#8b5cf6',initial:'H'},
+'Fish Audio':{color:'#06b6d4',initial:'F'},'Cartesia':{color:'#f59e0b',initial:'C'},'PlayAI':{color:'#ef4444',initial:'P'},
+'Resemble':{color:'#84cc16',initial:'R'},'Kuaishou':{color:'#ff4906',initial:'K'},'Runway':{color:'#00b8a0',initial:'R'},
+'Pika Labs':{color:'#fbbf24',initial:'P'},'MiniMax':{color:'#3b82f6',initial:'M'},'Luma AI':{color:'#a78bfa',initial:'L'},
+'ShengShu':{color:'#2dd4bf',initial:'S'},
+'xAI':{color:'#ffffff',initial:'X'},'Kimi':{color:'#8b5cf6',initial:'K'},'Xiaomi':{color:'#ff6900',initial:'M'},
+'ByteDance Seed':{color:'#3252a8',initial:'B'},'KlingAI':{color:'#00d4aa',initial:'K'},'Sourceful':{color:'#6366f1',initial:'S'},
+'Skywork AI':{color:'#3b82f6',initial:'S'},'Video Rebirth':{color:'#ec4899',initial:'V'},'Vidu':{color:'#14b8a6',initial:'V'},
+'Microsoft':{color:'#00a4ef',initial:'M'},'Alibaba-ATH':{color:'#ff6a00',initial:'A'}};
+
+function modelSlug(n){return n.toLowerCase().replace(/\s+/g,'-').replace(/\./g,'-').replace(/[^a-z0-9-]/g,'')}
+function modelLink(n){return`https://artificialanalysis.ai/models/${modelSlug(n)}`}
+function modelLogo(o){const i=PROVIDER_LOGOS[o]||{color:'#888',initial:o?o.charAt(0):'?'};return`<span class="mlogo" style="background:${i.color}">${i.initial}</span>`}
+function shortName(d){if(typeof d==='string')return{model:d.replace(/ \(.*$/,''),org:''};return{...d,model:(d.model||'').replace(/ \(.*$/,'')};}
+function modelName(d){return`${modelLogo(d.org)}<a href="${modelLink(d.model)}" class="model-link" target="_blank" onclick="event.stopPropagation()">${shortName(d).model}</a>`}
+
+function buildSummary(){
+  try{
+    const news=getNewsItems();
+    if(!news||news.length===0)return[{svg:ICONS.chip,text:'今日暂无资讯，请稍后刷新'}];
+    // Group by category
+    const models=news.filter(n=>n.cat==='model');
+    const strategies=news.filter(n=>n.cat==='strategy');
+    const tools=news.filter(n=>n.cat==='tool');
+    const items=[];
+    // Model news
+    if(models.length>0){
+      items.push({svg:ICONS.chip,text:'<strong>新模型</strong>：'+models.slice(0,3).map(n=>n.title.replace(/<[^>]*>/g,'').substring(0,30)).join('；')});
+    }
+    // Strategy news
+    if(strategies.length>0){
+      items.push({svg:ICONS.building,text:'<strong>行业动态</strong>：'+strategies.slice(0,3).map(n=>n.title.replace(/<[^>]*>/g,'').substring(0,30)).join('；')});
+    }
+    // Tool news
+    if(tools.length>0){
+      items.push({svg:ICONS.gear,text:'<strong>工具产品</strong>：'+tools.slice(0,3).map(n=>n.title.replace(/<[^>]*>/g,'').substring(0,30)).join('；')});
+    }
+    // If all mixed, just show top headlines
+    if(items.length===0){
+      items.push({svg:ICONS.chip,text:'<strong>今日焦点</strong>：'+news.slice(0,5).map(n=>n.title.replace(/<[^>]*>/g,'').substring(0,30)).join('；')});
+    }
+    return items;
+  }catch(e){console.warn('buildSummary error',e);return STRUCTURED_SUMMARY;}
+}
+let STRUCTURED_SUMMARY=[];
+
+// ===== Mock Data =====
+const MOCK_NEWS=[{id:1,cat:CAT.STRATEGY,title:'五角大楼扩大 AI 供应商名单，重新评估 Anthropic 国防角色',source:'Bloomberg',time:'2天前',summary:'美国国防部与微软、Reflection AI、Amazon 和 NVIDIA 签署新协议，这些公司的 AI 产品可用于机密军事行动。同时，五角大楼正在重新评估 Anthropic 在国防 AI 供应链中的角色，安全性和军事适用性的平衡成为核心考量。此举标志着 AI 军事化应用进入新阶段。',url:'https://www.bloomberg.com/technology',snark:'五角大楼：AI 军备竞赛已开始。各国政府：默默打开采购网站。'},
+{id:2,cat:CAT.STRATEGY,title:'Bain：Agentic AI 将催生 1000 亿美元 SaaS 市场',source:'Bain & Company',time:'3天前',summary:'贝恩公司发布报告，预计到 2030 年 Agentic AI 将在美国催生 1000 亿美元的 SaaS 市场。报告指出企业系统中大量"协调工作"可被 AI Agent 自动化，包括跨部门审批、供应链协同和客服路由等。这是贝恩软件行业五部曲报告的第二篇，也是迄今对 Agentic AI 市场规模最激进的预测。',url:'https://www.bain.com/insights/',snark:'1000 亿美元市场？VC：我的 checkbook 在哪里？'},
+{id:3,cat:CAT.MODEL,title:'Hugging Face 出现伪装 OpenAI 的恶意模型，下载量达 24 万',source:'TechCrunch',time:'2天前',summary:'AI 安全公司 HiddenLayer 披露，Hugging Face 上出现冒充 OpenAI 官方发布的恶意仓库，携带信息窃取木马，移除前累计约 24.4 万次下载。攻击者利用社区对 OpenAI 品牌的信任进行供应链攻击。事件暴露了 AI 模型托管平台安全审查机制的严重不足，社区呼吁引入更严格的发布验证流程。',url:'https://techcrunch.com/category/artificial-intelligence/',multiSource:['TechCrunch','HiddenLayer'],snark:'下载 OpenAI 模型？小心下到的不是权重，是木马。'},
+{id:4,cat:CAT.MODEL,title:'Needle：将 Gemini 工具调用能力蒸馏进 26M 参数小模型',source:'GitHub',time:'1天前',summary:'开发者在 HN 展示 Needle 项目，成功将 Google Gemini 的工具调用能力蒸馏到仅有 26M 参数的小模型中，可在边缘设备运行并支持结构化函数调用输出。项目已在 GitHub 开源，引发了大模型能力蒸馏到小模型的技术可行性热议，被视为模型小型化趋势的又一案例。',url:'https://github.com/cactus-compute/needle',snark:'26M 参数就能调用工具？大模型厂商：我们的护城河在蒸发。'},
+{id:5,cat:CAT.TOOL,title:'Laserfiche 发布自然语言 AI Agent，支持企业合规工作流',source:'VentureBeat',time:'2天前',summary:'企业内容管理平台 Laserfiche 推出 AI Agent 功能，用户可通过自然语言指令完成文档管理、审批流程和合规检查。AI 助手在内建安全规则和合规框架下运行，确保敏感数据不泄露。CEO Karl Chan 表示这是企业级 AI 从"助手"到"代理"的关键转折。',url:'https://venturebeat.com/category/ai/',snark:'终于有个 AI 不是用来聊天的，是用来干活的。'},
+{id:6,cat:CAT.TOOL,title:'RingCentral AI 前台接入 Shopify、Calendly、WhatsApp',source:'TechCrunch',time:'4天前',summary:'企业通讯平台 RingCentral 扩展 AI Receptionist 产品，新增 Shopify、Calendly 和 WhatsApp 集成。AI 前台现在不仅能接电话，还可处理电商订单查询、预约日程和 WhatsApp 客服对话。公司试图将产品从基础的来电应答推向更复杂的客户服务自动化，SMB 市场反响积极。',url:'https://techcrunch.com/category/artificial-intelligence/',snark:'AI 前台已上岗，人类前台：我该转岗做 AI 训练师了吗？'},
+{id:7,cat:CAT.STRATEGY,title:'AI 正在缓解英国 NHS 医疗系统压力，影像诊断效率提升 40%',source:'BBC',time:'5天前',summary:'NHS England 引入 AI 技术应对 725 万人候诊积压。新政策推动 AI 辅助影像诊断、自动化分诊和智能排班等应用。初步数据显示 AI 可将部分影像分析时间缩短 40%，让放射科医生更专注复杂病例。但医疗 AI 的数据隐私和误诊责任归属问题仍在争议中，监管框架尚待完善。',url:'https://www.bbc.com/news/technology',snark:'AI：我帮你看病。医生：太好了。AI：但你得先排 3 个月队。'},
+{id:8,cat:CAT.STRATEGY,title:'分析：美国在 AI 商业化领域全面领先，但格局可能在 5 年内改变',source:'The Verge',time:'1天前',summary:'一篇引发热议的分析指出，虽然多国在 AI 基础研究上并驾齐驱，但美国在 AI 商业化落地方面遥遥领先——从芯片/云基础设施、模型 API 平台到应用产品全栈覆盖。但欧盟的监管框架和中国的大规模产业化可能在 5 年内改变格局，尤其是在端侧 AI 和工业应用领域。',url:'https://www.theverge.com/ai-artificial-intelligence',snark:'美国：我们 AI 商业化最强。中国：我们产业化最快。欧洲：我们监管最好。'},
+{id:9,cat:CAT.TOOL,title:'Physical AI 大会硅谷开幕：机器人+自主 AI 走向主流',source:'Forbes',time:'1天前',summary:'Physical AI Conference 将于 5 月在硅谷开幕，汇聚全球机器人、自主系统和物理 AI 领域的工程师与先驱。大会聚焦 AI 智能转化为物理行动的落地场景——工厂自主机器人、自动驾驶配送、农业无人机、建筑自动化。Physical AI Expo North America 同期举办，预计吸引超 3000 名从业者。',url:'https://www.forbes.com/ai/',snark:'AI 终于不只在屏幕上聊天了，开始抢体力活儿的饭碗。'},
+{id:10,cat:CAT.STRATEGY,title:'JBS Dev 专家：AI 落地真正瓶颈不是模型能力，是数据质量与成本',source:'Forbes',time:'2天前',summary:'JBS Dev 总裁 Joe Rose 指出一个行业迷思：企业不需要等数据完美后才启动 AI 工作负载。"AI 系统本身擅长处理不完美数据，真正的最后一公里问题是成本可持续性。"他建议采用渐进式策略——小规模试点验证 ROI，再逐步扩大 AI 覆盖范围，避免一次性大投入带来的风险。',url:'https://www.forbes.com/ai/',snark:'"你的数据不完美。" AI："没关系，我也不是完美的。"'}];
+
+const MOCK_TREND={llm:{perf:[{model:'o3-mini',org:'OpenAI',intelligence:62.9,coding:55.8,math:87.2,reasoning:79.1},{model:'GPT-5',org:'OpenAI',intelligence:61.5,coding:58.3,math:82.1,reasoning:76.8},{model:'Claude 4.7',org:'Anthropic',intelligence:60.2,coding:54.1,math:85.0,reasoning:78.2},{model:'Gemini 2.5 Pro',org:'Google',intelligence:58.7,coding:52.6,math:80.4,reasoning:74.5},{model:'Llama 4 405B',org:'Meta',intelligence:56.3,coding:49.8,math:77.6,reasoning:71.2},{model:'Mistral Large 2',org:'Mistral',intelligence:53.1,coding:47.2,math:72.5,reasoning:68.4},{model:'Qwen 3',org:'Alibaba',intelligence:50.8,coding:44.9,math:70.3,reasoning:65.7},{model:'Claude 4.6',org:'Anthropic',intelligence:58.4,coding:52.0,math:82.3,reasoning:75.9},{model:'GPT-4.5',org:'OpenAI',intelligence:55.2,coding:48.5,math:76.1,reasoning:70.3},{model:'DeepSeek V3',org:'DeepSeek',intelligence:54.6,coding:50.1,math:74.8,reasoning:68.9}],price:[{model:'GPT-5',org:'OpenAI',input:2.50,output:10.00,blended:4.375},{model:'o3-mini',org:'OpenAI',input:1.10,output:4.40,blended:1.925},{model:'Claude 4.7',org:'Anthropic',input:3.00,output:15.00,blended:6.00},{model:'Gemini 2.5 Pro',org:'Google',input:1.25,output:5.00,blended:2.19},{model:'Claude 4.6',org:'Anthropic',input:3.00,output:15.00,blended:6.00},{model:'Llama 4 405B',org:'Meta',input:0.80,output:3.20,blended:1.40},{model:'Mistral Large 2',org:'Mistral',input:1.40,output:5.60,blended:2.45},{model:'Qwen 3',org:'Alibaba',input:0.50,output:2.00,blended:0.875},{model:'GPT-4.5',org:'OpenAI',input:2.50,output:10.00,blended:4.375},{model:'DeepSeek V3',org:'DeepSeek',input:0.27,output:1.10,blended:0.48}],speed:[{model:'GPT-5',org:'OpenAI',outputSpeed:185,ttft:0.82},{model:'o3-mini',org:'OpenAI',outputSpeed:154,ttft:14.94},{model:'Claude 4.7',org:'Anthropic',outputSpeed:142,ttft:1.20},{model:'Gemini 2.5 Pro',org:'Google',outputSpeed:210,ttft:0.65},{model:'Llama 4 405B',org:'Meta',outputSpeed:98,ttft:2.10},{model:'Mistral Large 2',org:'Mistral',outputSpeed:120,ttft:1.50},{model:'Qwen 3',org:'Alibaba',outputSpeed:88,ttft:2.80},{model:'Claude 4.6',org:'Anthropic',outputSpeed:135,ttft:1.35},{model:'GPT-4.5',org:'OpenAI',outputSpeed:160,ttft:1.10},{model:'DeepSeek V3',org:'DeepSeek',outputSpeed:75,ttft:3.20}]},image:{perf:[{model:'Flux.1 Pro',elo:1423,rank:1,org:'Black Forest Labs',date:'2025-06'},{model:'DALL-E 4',elo:1387,rank:2,org:'OpenAI',date:'2025-05'},{model:'Imagen 3',elo:1356,rank:3,org:'Google',date:'2025-04'},{model:'Midjourney V7',elo:1340,rank:4,org:'Midjourney',date:'2025-06'},{model:'SD3.5 Large',elo:1290,rank:5,org:'Stability AI',date:'2025-05'},{model:'Ideogram 3',elo:1265,rank:6,org:'Ideogram',date:'2025-04'},{model:'Recraft V3',elo:1220,rank:7,org:'Recraft',date:'2025-03'},{model:'Playground 3',elo:1180,rank:8,org:'Playground',date:'2025-05'}],price:[{model:'Flux.1 Pro',perImage:0.05,per1k:50,org:'Black Forest Labs'},{model:'DALL-E 4',perImage:0.08,per1k:80,org:'OpenAI'},{model:'Imagen 3',perImage:0.04,per1k:40,org:'Google'},{model:'Midjourney V7',perImage:0.10,per1k:100,org:'Midjourney'},{model:'SD3.5 Large',perImage:0.02,per1k:20,org:'Stability AI'},{model:'Ideogram 3',perImage:0.03,per1k:30,org:'Ideogram'},{model:'Recraft V3',perImage:0.02,per1k:15,org:'Recraft'},{model:'Playground 3',perImage:0.01,per1k:10,org:'Playground'}],speed:[{model:'Flux.1 Pro',avgTime:2.3,fastest:1.1,org:'Black Forest Labs'},{model:'DALL-E 4',avgTime:3.8,fastest:2.5,org:'OpenAI'},{model:'Imagen 3',avgTime:2.1,fastest:1.0,org:'Google'},{model:'Midjourney V7',avgTime:8.5,fastest:5.2,org:'Midjourney'},{model:'SD3.5 Large',avgTime:1.8,fastest:0.9,org:'Stability AI'},{model:'Ideogram 3',avgTime:2.6,fastest:1.4,org:'Ideogram'},{model:'Recraft V3',avgTime:1.5,fastest:0.7,org:'Recraft'},{model:'Playground 3',avgTime:1.2,fastest:0.6,org:'Playground'}]},speech:{perf:[{model:'ElevenLabs Turbo 3',elo:1380,rank:1,org:'ElevenLabs',type:'TTS'},{model:'Hume OCTAVE',elo:1345,rank:2,org:'Hume AI',type:'TTS+情感'},{model:'OpenAI TTS-2',elo:1310,rank:3,org:'OpenAI',type:'TTS'},{model:'Google Chirp 3',elo:1275,rank:4,org:'Google',type:'TTS'},{model:'Fish Audio 1.5',elo:1230,rank:5,org:'Fish Audio',type:'TTS+克隆'},{model:'Cartesia Sonic',elo:1190,rank:6,org:'Cartesia',type:'TTS'},{model:'PlayAI Dialog',elo:1150,rank:7,org:'PlayAI',type:'对话'},{model:'Resemble AI',elo:1100,rank:8,org:'Resemble',type:'TTS+克隆'}],price:[{model:'ElevenLabs Turbo 3',perMChars:15,perHour:5.40,org:'ElevenLabs'},{model:'Hume OCTAVE',perMChars:20,perHour:7.20,org:'Hume AI'},{model:'OpenAI TTS-2',perMChars:15,perHour:5.40,org:'OpenAI'},{model:'Google Chirp 3',perMChars:8,perHour:2.88,org:'Google'},{model:'Fish Audio 1.5',perMChars:5,perHour:1.80,org:'Fish Audio'},{model:'Cartesia Sonic',perMChars:12,perHour:4.32,org:'Cartesia'},{model:'PlayAI Dialog',perMChars:10,perHour:3.60,org:'PlayAI'},{model:'Resemble AI',perMChars:20,perHour:7.20,org:'Resemble'}],speed:[{model:'ElevenLabs Turbo 3',realtimeFactor:50,ttfa:0.15,org:'ElevenLabs'},{model:'Hume OCTAVE',realtimeFactor:35,ttfa:0.25,org:'Hume AI'},{model:'OpenAI TTS-2',realtimeFactor:30,ttfa:0.20,org:'OpenAI'},{model:'Google Chirp 3',realtimeFactor:40,ttfa:0.18,org:'Google'},{model:'Fish Audio 1.5',realtimeFactor:25,ttfa:0.30,org:'Fish Audio'},{model:'Cartesia Sonic',realtimeFactor:60,ttfa:0.10,org:'Cartesia'},{model:'PlayAI Dialog',realtimeFactor:20,ttfa:0.35,org:'PlayAI'},{model:'Resemble AI',realtimeFactor:15,ttfa:0.40,org:'Resemble'}]},video:{perf:[{model:'Sora 2',elo:1450,rank:1,org:'OpenAI',type:'text-to-video'},{model:'Kling 2.0',elo:1410,rank:2,org:'Kuaishou',type:'text-to-video'},{model:'Veo 3',elo:1385,rank:3,org:'Google',type:'text-to-video'},{model:'Runway Gen-4',elo:1350,rank:4,org:'Runway',type:'text-to-video'},{model:'Pika 2.5',elo:1290,rank:5,org:'Pika Labs',type:'text-to-video'},{model:'Hailuo 2',elo:1250,rank:6,org:'MiniMax',type:'text-to-video'},{model:'Luma Dream 2',elo:1200,rank:7,org:'Luma AI',type:'video-to-video'},{model:'Vidu 2.0',elo:1160,rank:8,org:'ShengShu',type:'text-to-video'}],price:[{model:'Sora 2',perSec:0.50,perMin:30,org:'OpenAI'},{model:'Kling 2.0',perSec:0.15,perMin:9,org:'Kuaishou'},{model:'Veo 3',perSec:0.40,perMin:24,org:'Google'},{model:'Runway Gen-4',perSec:0.25,perMin:15,org:'Runway'},{model:'Pika 2.5',perSec:0.10,perMin:6,org:'Pika Labs'},{model:'Hailuo 2',perSec:0.08,perMin:4.80,org:'MiniMax'},{model:'Luma Dream 2',perSec:0.20,perMin:12,org:'Luma AI'},{model:'Vidu 2.0',perSec:0.05,perMin:3,org:'ShengShu'}],speed:[{model:'Sora 2',minPerSecVideo:3.2,shortest:'2分10秒',org:'OpenAI'},{model:'Kling 2.0',minPerSecVideo:1.5,shortest:'1分05秒',org:'Kuaishou'},{model:'Veo 3',minPerSecVideo:2.8,shortest:'1分50秒',org:'Google'},{model:'Runway Gen-4',minPerSecVideo:1.8,shortest:'1分15秒',org:'Runway'},{model:'Pika 2.5',minPerSecVideo:1.2,shortest:'45秒',org:'Pika Labs'},{model:'Hailuo 2',minPerSecVideo:0.9,shortest:'35秒',org:'MiniMax'},{model:'Luma Dream 2',minPerSecVideo:2.0,shortest:'1分30秒',org:'Luma AI'},{model:'Vidu 2.0',minPerSecVideo:0.7,shortest:'28秒',org:'ShengShu'}]}};
+
+const SIMULATED_ERROR=false;
+const chartInstances={};
+
+// ===== Data Layer =====
+const DATA_CONFIG={apiKey:'aa_YknybEaKVxspnQxHSbFZFcuOSoGuIWcG',apiBase:'https://artificialanalysis.ai/api/v2',useRealApi:true,lastUpdated:null,source:'aa+estimates'};
+const TREND_DATA=MOCK_TREND;
+// Real Data Snapshot from artificialanalysis.ai + curated estimates (fetched 2026-05-14 03:05)
+const REAL_TREND_DATA = {"llm": {"perf": [{"model": "GPT-5.5 (xhigh)", "org": "OpenAI", "intelligence": 60.2, "coding": 59.1, "math": 0.0, "reasoning": 93.5}, {"model": "GPT-5.5 (high)", "org": "OpenAI", "intelligence": 58.9, "coding": 58.5, "math": 0.0, "reasoning": 93.2}, {"model": "Claude Opus 4.7 (Adaptive Reasoning, Max Effort)", "org": "Anthropic", "intelligence": 57.3, "coding": 52.5, "math": 0.0, "reasoning": 91.4}, {"model": "Gemini 3.1 Pro Preview", "org": "Google", "intelligence": 57.2, "coding": 55.5, "math": 0.0, "reasoning": 94.1}, {"model": "GPT-5.4 (xhigh)", "org": "OpenAI", "intelligence": 56.8, "coding": 57.2, "math": 0.0, "reasoning": 92.0}, {"model": "GPT-5.5 (medium)", "org": "OpenAI", "intelligence": 56.7, "coding": 56.2, "math": 0.0, "reasoning": 92.6}, {"model": "Kimi K2.6", "org": "Kimi", "intelligence": 53.9, "coding": 47.1, "math": 0.0, "reasoning": 91.1}, {"model": "MiMo-V2.5-Pro", "org": "Xiaomi", "intelligence": 53.8, "coding": 45.5, "math": 0.0, "reasoning": 86.6}, {"model": "GPT-5.3 Codex (xhigh)", "org": "OpenAI", "intelligence": 53.6, "coding": 53.1, "math": 0.0, "reasoning": 91.5}, {"model": "Grok 4.3", "org": "xAI", "intelligence": 53.2, "coding": 41.0, "math": 0.0, "reasoning": 90.1}], "price": [{"model": "GPT-5.5 (xhigh)", "org": "OpenAI", "input": 5, "output": 30, "blended": 11.25}, {"model": "GPT-5.5 (high)", "org": "OpenAI", "input": 5, "output": 30, "blended": 11.25}, {"model": "Claude Opus 4.7 (Adaptive Reasoning, Max Effort)", "org": "Anthropic", "input": 6.25, "output": 25, "blended": 10.938}, {"model": "Gemini 3.1 Pro Preview", "org": "Google", "input": 2, "output": 12, "blended": 4.5}, {"model": "GPT-5.4 (xhigh)", "org": "OpenAI", "input": 2.5, "output": 15, "blended": 5.625}, {"model": "GPT-5.5 (medium)", "org": "OpenAI", "input": 5, "output": 30, "blended": 11.25}, {"model": "Kimi K2.6", "org": "Kimi", "input": 0.95, "output": 4, "blended": 1.712}, {"model": "MiMo-V2.5-Pro", "org": "Xiaomi", "input": 1, "output": 3, "blended": 1.5}, {"model": "GPT-5.3 Codex (xhigh)", "org": "OpenAI", "input": 1.75, "output": 14, "blended": 4.813}, {"model": "Grok 4.3", "org": "xAI", "input": 1.25, "output": 2.5, "blended": 1.563}], "speed": [{"model": "GPT-5.5 (xhigh)", "org": "OpenAI", "outputSpeed": 65.0, "ttft": 46.82}, {"model": "GPT-5.5 (high)", "org": "OpenAI", "outputSpeed": 64.0, "ttft": 19.21}, {"model": "Claude Opus 4.7 (Adaptive Reasoning, Max Effort)", "org": "Anthropic", "outputSpeed": 66.0, "ttft": 14.54}, {"model": "Gemini 3.1 Pro Preview", "org": "Google", "outputSpeed": 133.0, "ttft": 23.33}, {"model": "GPT-5.4 (xhigh)", "org": "OpenAI", "outputSpeed": 84.0, "ttft": 168.58}, {"model": "GPT-5.5 (medium)", "org": "OpenAI", "outputSpeed": 62.0, "ttft": 3.52}, {"model": "Kimi K2.6", "org": "Kimi", "outputSpeed": 40.0, "ttft": 1.35}, {"model": "MiMo-V2.5-Pro", "org": "Xiaomi", "outputSpeed": 55.0, "ttft": 2.34}, {"model": "GPT-5.3 Codex (xhigh)", "org": "OpenAI", "outputSpeed": 80.0, "ttft": 52.48}, {"model": "Grok 4.3", "org": "xAI", "outputSpeed": 86.0, "ttft": 10.26}]}, "image": {"perf": [{"model": "GPT Image 2 (high)", "org": "OpenAI", "elo": 1337, "rank": 1, "date": "2026-04"}, {"model": "GPT Image 1.5 (high)", "org": "OpenAI", "elo": 1268, "rank": 2, "date": "2025-12"}, {"model": "Nano Banana 2 (Gemini 3.1 Flash Image Preview)", "org": "Google", "elo": 1263, "rank": 3, "date": "2026-02"}, {"model": "Riverflow 2.0", "org": "Sourceful", "elo": 1256, "rank": 4, "date": "2026-02"}, {"model": "Nano Banana Pro (Gemini 3 Pro Image)", "org": "Google", "elo": 1220, "rank": 5, "date": "2025-11"}, {"model": "Seedream 4.0", "org": "ByteDance Seed", "elo": 1197, "rank": 6, "date": "2025-09"}, {"model": "FLUX.2 [max]", "org": "Black Forest Labs", "elo": 1197, "rank": 7, "date": "2025-12"}, {"model": "MAI-Image-2", "org": "Microsoft", "elo": 1196, "rank": 8, "date": "2026-03"}], "price": [{"model": "GPT Image 2 (high)", "org": "OpenAI", "perImage": 0.04, "per1k": 40}, {"model": "GPT Image 1.5 (high)", "org": "OpenAI", "perImage": 0.04, "per1k": 40}, {"model": "Nano Banana 2 (Gemini 3.1 Flash Image Preview)", "org": "Google", "perImage": 0.03, "per1k": 30}, {"model": "Riverflow 2.0", "org": "Sourceful", "perImage": 0.04, "per1k": 40}, {"model": "Nano Banana Pro (Gemini 3 Pro Image)", "org": "Google", "perImage": 0.03, "per1k": 30}, {"model": "Seedream 4.0", "org": "ByteDance Seed", "perImage": 0.04, "per1k": 40}, {"model": "FLUX.2 [max]", "org": "Black Forest Labs", "perImage": 0.05, "per1k": 50}, {"model": "MAI-Image-2", "org": "Microsoft", "perImage": 0.04, "per1k": 40}], "speed": [{"model": "GPT Image 2 (high)", "org": "OpenAI", "avgTime": 3.5, "fastest": 1.8}, {"model": "GPT Image 1.5 (high)", "org": "OpenAI", "avgTime": 3.5, "fastest": 1.8}, {"model": "Nano Banana 2 (Gemini 3.1 Flash Image Preview)", "org": "Google", "avgTime": 2.0, "fastest": 1.0}, {"model": "Riverflow 2.0", "org": "Sourceful", "avgTime": 3.0, "fastest": 1.5}, {"model": "Nano Banana Pro (Gemini 3 Pro Image)", "org": "Google", "avgTime": 2.0, "fastest": 1.0}, {"model": "Seedream 4.0", "org": "ByteDance Seed", "avgTime": 3.0, "fastest": 1.5}, {"model": "FLUX.2 [max]", "org": "Black Forest Labs", "avgTime": 2.3, "fastest": 1.1}, {"model": "MAI-Image-2", "org": "Microsoft", "avgTime": 3.0, "fastest": 1.5}]}, "video": {"perf": [{"model": "HappyHorse-1.0", "org": "Alibaba-ATH", "elo": 1353, "rank": 1, "type": ""}, {"model": "Dreamina Seedance 2.0 720p", "org": "ByteDance Seed", "elo": 1273, "rank": 2, "type": ""}, {"model": "Kling 3.0 1080p (Pro)", "org": "KlingAI", "elo": 1249, "rank": 3, "type": ""}, {"model": "SkyReels V4", "org": "Skywork AI", "elo": 1239, "rank": 4, "type": ""}, {"model": "grok-imagine-video", "org": "xAI", "elo": 1232, "rank": 5, "type": ""}, {"model": "Kling 3.0 Omni 1080p (Pro)", "org": "KlingAI", "elo": 1232, "rank": 6, "type": ""}, {"model": "Bach-1.0 Preview", "org": "Video Rebirth", "elo": 1225, "rank": 7, "type": ""}, {"model": "Vidu Q3 Pro", "org": "Vidu", "elo": 1225, "rank": 8, "type": ""}], "price": [{"model": "HappyHorse-1.0", "org": "Alibaba-ATH", "perSec": 0.18, "perMin": 10.8}, {"model": "Dreamina Seedance 2.0 720p", "org": "ByteDance Seed", "perSec": 0.12, "perMin": 7.2}, {"model": "Kling 3.0 1080p (Pro)", "org": "KlingAI", "perSec": 0.2, "perMin": 12.0}, {"model": "SkyReels V4", "org": "Skywork AI", "perSec": 0.2, "perMin": 12.0}, {"model": "grok-imagine-video", "org": "xAI", "perSec": 0.2, "perMin": 12.0}, {"model": "Kling 3.0 Omni 1080p (Pro)", "org": "KlingAI", "perSec": 0.2, "perMin": 12.0}, {"model": "Bach-1.0 Preview", "org": "Video Rebirth", "perSec": 0.2, "perMin": 12.0}, {"model": "Vidu Q3 Pro", "org": "Vidu", "perSec": 0.2, "perMin": 12.0}], "speed": [{"model": "HappyHorse-1.0", "org": "Alibaba-ATH", "minPerSecVideo": 2.2, "shortest": "79秒"}, {"model": "Dreamina Seedance 2.0 720p", "org": "ByteDance Seed", "minPerSecVideo": 1.8, "shortest": "64秒"}, {"model": "Kling 3.0 1080p (Pro)", "org": "KlingAI", "minPerSecVideo": 2.0, "shortest": "72秒"}, {"model": "SkyReels V4", "org": "Skywork AI", "minPerSecVideo": 2.0, "shortest": "72秒"}, {"model": "grok-imagine-video", "org": "xAI", "minPerSecVideo": 2.0, "shortest": "72秒"}, {"model": "Kling 3.0 Omni 1080p (Pro)", "org": "KlingAI", "minPerSecVideo": 2.0, "shortest": "72秒"}, {"model": "Bach-1.0 Preview", "org": "Video Rebirth", "minPerSecVideo": 2.0, "shortest": "72秒"}, {"model": "Vidu Q3 Pro", "org": "Vidu", "minPerSecVideo": 2.0, "shortest": "72秒"}]}, "speech": {"perf": [{"model": "ElevenLabs Turbo 3", "org": "ElevenLabs", "elo": 1380, "rank": 1, "type": "TTS"}, {"model": "Hume OCTAVE", "org": "Hume AI", "elo": 1345, "rank": 2, "type": "TTS+情感"}, {"model": "OpenAI TTS-2", "org": "OpenAI", "elo": 1310, "rank": 3, "type": "TTS"}, {"model": "Google Chirp 3", "org": "Google", "elo": 1275, "rank": 4, "type": "TTS"}, {"model": "Fish Audio 1.5", "org": "Fish Audio", "elo": 1230, "rank": 5, "type": "TTS+克隆"}, {"model": "Cartesia Sonic", "org": "Cartesia", "elo": 1190, "rank": 6, "type": "TTS"}, {"model": "PlayAI Dialog", "org": "PlayAI", "elo": 1150, "rank": 7, "type": "对话"}, {"model": "Resemble AI", "org": "Resemble", "elo": 1100, "rank": 8, "type": "TTS+克隆"}], "price": [{"model": "ElevenLabs Turbo 3", "org": "ElevenLabs", "perMChars": 15, "perHour": 5.4}, {"model": "Hume OCTAVE", "org": "Hume AI", "perMChars": 15, "perHour": 5.4}, {"model": "OpenAI TTS-2", "org": "OpenAI", "perMChars": 15, "perHour": 5.4}, {"model": "Google Chirp 3", "org": "Google", "perMChars": 15, "perHour": 5.4}, {"model": "Fish Audio 1.5", "org": "Fish Audio", "perMChars": 15, "perHour": 5.4}, {"model": "Cartesia Sonic", "org": "Cartesia", "perMChars": 15, "perHour": 5.4}, {"model": "PlayAI Dialog", "org": "PlayAI", "perMChars": 15, "perHour": 5.4}, {"model": "Resemble AI", "org": "Resemble", "perMChars": 15, "perHour": 5.4}], "speed": [{"model": "ElevenLabs Turbo 3", "org": "ElevenLabs", "realtimeFactor": 50, "ttfa": 0.15}, {"model": "Hume OCTAVE", "org": "Hume AI", "realtimeFactor": 50, "ttfa": 0.15}, {"model": "OpenAI TTS-2", "org": "OpenAI", "realtimeFactor": 50, "ttfa": 0.15}, {"model": "Google Chirp 3", "org": "Google", "realtimeFactor": 50, "ttfa": 0.15}, {"model": "Fish Audio 1.5", "org": "Fish Audio", "realtimeFactor": 50, "ttfa": 0.15}, {"model": "Cartesia Sonic", "org": "Cartesia", "realtimeFactor": 50, "ttfa": 0.15}, {"model": "PlayAI Dialog", "org": "PlayAI", "realtimeFactor": 50, "ttfa": 0.15}, {"model": "Resemble AI", "org": "Resemble", "realtimeFactor": 50, "ttfa": 0.15}]}};
+
+async function fetchRealTrendData(){
+  if(!DATA_CONFIG.apiKey){console.warn('No AA API key');return null;}
+  const h={'x-api-key':DATA_CONFIG.apiKey};
+  const base=DATA_CONFIG.apiBase;
+  const result={llm:{perf:[],price:[],speed:[]},image:{perf:[],price:[],speed:[]},speech:null,video:{perf:[],price:[],speed:[]}};
+  try{
+    const[llmR,imgR,vidR]=await Promise.all([
+      fetch(base+'/data/llms/models?limit=15',{headers:h}).then(r=>r.json()).catch(()=>null),
+      fetch(base+'/data/media/text-to-image?limit=10',{headers:h}).then(r=>r.json()).catch(()=>null),
+      fetch(base+'/data/media/text-to-video?limit=10',{headers:h}).then(r=>r.json()).catch(()=>null)
+    ]);
+    DATA_CONFIG.source='artificialanalysis.ai';
+    DATA_CONFIG.lastUpdated=new Date().toISOString();
+
+    // Transform LLM
+    if(llmR&&llmR.data){
+      const m=llmR.data;
+      result.llm.perf=m.slice(0,10).map(d=>({
+        model:d.name||d.slug,org:(d.model_creator||{}).name||'Unknown',
+        intelligence:((d.evaluations||{}).artificial_analysis_intelligence_index||0),
+        coding:((d.evaluations||{}).artificial_analysis_coding_index||0),
+        math:((d.evaluations||{}).artificial_analysis_math_index||0),
+        reasoning:((d.evaluations||{}).gpqa||0)*100
+      }));
+      result.llm.price=m.slice(0,10).map(d=>{
+        const p=d.pricing||{};
+        return{model:d.name||d.slug,org:(d.model_creator||{}).name||'Unknown',
+          input:p.price_1m_input_tokens||0,output:p.price_1m_output_tokens||0,
+          blended:p.price_1m_blended_3_to_1||((p.price_1m_input_tokens||0)*0.25+(p.price_1m_output_tokens||0)*0.75)};
+      });
+      result.llm.speed=m.slice(0,10).map(d=>({
+        model:d.name||d.slug,org:(d.model_creator||{}).name||'Unknown',
+        outputSpeed:d.median_output_tokens_per_second||0,
+        ttft:d.median_time_to_first_token_seconds||0
+      }));
+    }
+
+    // Transform Image
+    if(imgR&&imgR.data){
+      result.image.perf=imgR.data.slice(0,8).map(d=>({
+        model:d.name||d.slug,elo:d.elo||0,rank:d.rank||0,
+        org:(d.model_creator||{}).name||'Unknown',date:d.release_date||''
+      }));
+    }
+
+    // Transform Video
+    if(vidR&&vidR.data){
+      result.video.perf=vidR.data.slice(0,8).map(d=>({
+        model:d.name||d.slug,elo:d.elo||0,rank:d.rank||0,
+        org:(d.model_creator||{}).name||'Unknown',type:d.categories?d.categories[0]||'':'',
+        date:d.release_date||''
+      }));
+    }
+
+    // Speech: keep mock
+    result.speech=null;
+
+    return result;
+  }catch(e){console.warn('AA API error',e);return null;}
+}
+
+// ===== Pipeline Data Loader =====
+// ===== Manual Refresh =====
+let _refreshing=false;
+async function manualRefresh(){
+  if(_refreshing)return;
+  _refreshing=true;
+  const btn=document.getElementById('refreshBtn');
+  btn.style.animation='spin .8s linear infinite';
+  btn.style.color='var(--yellow)';
+  showToast('正在拉取最新资讯…');
+  try{
+    const resp=await fetch('/api/refresh?token=zhimai-refresh-2026');
+    if(!resp.ok){throw new Error((await resp.json()).error||'API error');}
+    let attempts=0;
+    while(attempts<30){
+      await new Promise(r=>setTimeout(r,2000));
+      const s=await fetch('/api/status').then(r=>r.json());
+      if(!s.running){
+        const d=await loadPipelineData();
+        if(d){
+          renderNews(d.articles);
+          setupFilter();
+          applyFunData(d);
+        }
+        showToast('刷新完成！'+d.articles.length+'条最新资讯');
+        break;
+      }
+      attempts++;
+    }
+    if(attempts>=30)showToast('刷新超时，请检查后台日志');
+  }catch(e){showToast('刷新失败: '+e.message);}
+  _refreshing=false;
+  btn.style.animation='';
+  btn.style.color='';
+}
+
+let PIPELINE_DATA=null;
+async function loadPipelineData(){
+  try{
+    const resp=await fetch('data/daily/latest.json');
+    if(!resp.ok)return null;
+    const d=await resp.json();
+    if(d.articles&&d.articles.length>0){
+      PIPELINE_DATA=d;
+      return d;
+    }
+  }catch(e){console.warn('Pipeline data not available, using embedded news:',e.message);}
+  return null;
+}
+
+// ===== Init =====
+async function init(){
+try{
+if(typeof REAL_TREND_DATA!=='undefined'){
+  const rd=REAL_TREND_DATA;
+  ['llm','image','speech','video'].forEach(mod=>{
+    if(rd[mod]){
+      ['perf','price','speed'].forEach(sub=>{
+        if(rd[mod][sub])MOCK_TREND[mod][sub]=rd[mod][sub];
+      });
+    }
+  });
+  // Speech data is still mock (AA endpoint unavailable), mark it
+  if(rd.speech&&rd.speech.price&&rd.speech.price.length>0&&rd.speech.price[0].perMChars===15){
+    window.__speechIsMock=true;
+  }
+}
+STRUCTURED_SUMMARY=buildSummary();
+FORTUNES=buildFortunes();
+document.getElementById('bpIcon').innerHTML=ICONS.heart;
+document.getElementById('fortuneIcon').innerHTML=ICONS.fortune;
+renderHero();renderFortune();renderSummary();renderTrendSnaps();renderNews(MOCK_NEWS);renderHeroJoke();
+setupFilter();setupTrendTabs();renderTrends();setupScrollProgress();setupLogoAnimation();setupEasterEgg();
+if(SIMULATED_ERROR){document.getElementById('newsList').classList.add('hidden');document.getElementById('filterBar').classList.add('hidden');document.getElementById('errorState').classList.remove('hidden');document.getElementById('cacheNotice').classList.remove('hidden');document.getElementById('cacheDate').textContent='2026-05-12 08:00';}
+const now=new Date();const dateEl=document.getElementById('pageDate');if(dateEl)dateEl.textContent=now.getFullYear()+'-'+String(now.getMonth()+1).padStart(2,'0')+'-'+String(now.getDate()).padStart(2,'0');
+// Async: try loading pipeline data
+loadPipelineData().then(d=>{
+  if(d){
+    renderNews(d.articles);
+    STRUCTURED_SUMMARY=buildSummary();
+    renderSummary();
+    setupFilter();
+    applyFunData(d);
+  }
+});
+}catch(e){console.error('Init error',e);document.getElementById('bpOverlay').innerHTML='<div style="color:var(--magenta);text-align:center;padding:40px;">加载失败，请刷新页面<br><small>'+e.message+'</small></div>';}
+}
+
+function timeAgo(published){
+  if(!published)return'';
+  try{
+    const dt=new Date(published);
+    if(isNaN(dt.getTime())){
+      // Fallback: try parsing Chinese relative time from pipeline
+      const m=published.match(/(\d+)(小时|分钟|天)前/);
+      if(m){const v=parseInt(m[1]);const u=m[2];if(u==='分钟')return v<60?published:'1小时前';if(u==='小时')return v<24?published:Math.floor(v/24)+'天前';return published;}
+      return published;
+    }
+    const diff=Date.now()-dt.getTime();
+    const min=Math.floor(diff/60000);
+    if(min<1)return'刚刚';
+    if(min<60)return min+'分钟前';
+    const hrs=Math.floor(min/60);
+    if(hrs<24)return hrs+'小时前';
+    return Math.floor(hrs/24)+'天前';
+  }catch(e){return published;}
+}
+
+function renderNews(items){
+const list=document.getElementById('newsList');
+if(items.length===0){list.innerHTML='<div class="empty-state"><div class="icon">~</div><div class="title">该分类下暂无资讯</div></div>';return;}
+list.innerHTML=items.map(item=>`
+<div class="news-item" data-id="${item.id}" data-cat="${item.cat}" onclick="toggleItem(this)">
+<div class="header"><div class="info"><div><span class="item-cat ${item.cat}">${CAT_LABELS[item.cat]}</span><span class="title">${item.title}</span></div><div class="meta"><span>${item.source}</span><span>${timeAgo(item.published||item.time)}</span>${item.multiSource?`<span class="multi-source">多来源: ${item.multiSource.length}</span>`:''}</div></div></div>
+<div class="expand-hint">展开</div>
+${item.snark?`<div class="snark">"${item.snark}"<span class="refresh-snark" onclick="event.stopPropagation();refreshSnark(this,${item.id})" title="换一句"> ↻</span></div>`:''}
+<div class="summary"><p>${item.summary}</p>${item.multiSource?`<div class="source-list">来源: ${item.multiSource.join(' | ')}</div>`:''}<a href="${item.url||'#'}" class="source-link" target="_blank" onclick="event.stopPropagation()">查看原文 →</a></div>
+</div>`).join('');
+}
+
+function toggleItem(el){const wasExpanded=el.classList.contains('expanded');document.querySelectorAll('.news-item.expanded').forEach(i=>i.classList.remove('expanded'));if(!wasExpanded){el.classList.add('expanded');el.querySelector('.expand-hint').textContent='收起';}document.querySelectorAll('.news-item:not(.expanded) .expand-hint').forEach(h=>h.textContent='展开');}
+
+function getNewsItems(){return PIPELINE_DATA&&PIPELINE_DATA.articles?PIPELINE_DATA.articles:MOCK_NEWS;}
+let _filterSetup=false;
+function setupFilter(){if(_filterSetup)return;_filterSetup=true;document.getElementById('filterBar').addEventListener('click',(e)=>{if(!e.target.classList.contains('filter-tag')||e.target.classList.contains('active'))return;document.querySelectorAll('.filter-tag').forEach(t=>t.classList.remove('active'));e.target.classList.add('active');const cat=e.target.dataset.cat;const items=getNewsItems();const filtered=cat==='all'?items:items.filter(n=>n.cat===cat);renderNews(filtered);});}
+
+let _currentModality='all';
+let _currentTrend='perf';
+function setupTrendTabs(){
+  // Modality tabs (总榜|文本|图片|视频)
+  document.getElementById('modalityTabs').addEventListener('click',(e)=>{
+    if(!e.target.classList.contains('modality-tab')||e.target.classList.contains('active'))return;
+    document.querySelectorAll('#modalityTabs .modality-tab').forEach(t=>t.classList.remove('active'));
+    e.target.classList.add('active');
+    _currentModality=e.target.dataset.modality;
+    showCurrentPanel();
+  });
+  // Unified subtabs (智力|价格|速度)
+  document.getElementById('unifiedSubtabs').addEventListener('click',(e)=>{
+    if(!e.target.classList.contains('trend-tab')||e.target.classList.contains('active'))return;
+    document.querySelectorAll('#unifiedSubtabs .trend-tab').forEach(t=>t.classList.remove('active'));
+    e.target.classList.add('active');
+    _currentTrend=e.target.dataset.trend;
+    showCurrentPanel();
+  });
+}
+
+function showCurrentPanel(){
+  document.querySelectorAll('.trend-panel').forEach(p=>p.classList.remove('active'));
+  const panelId='panel-'+_currentModality+'-'+_currentTrend;
+  const panel=document.getElementById(panelId);
+  if(panel)panel.classList.add('active');
+  renderPanel(_currentModality,_currentTrend);
+}
+
+function renderPanel(modality,trend){
+  if(modality==='all'){renderAllPanel(trend);return;}
+  if(trend===TREND.PERF)renderPerfPanel(modality);
+  if(trend===TREND.PRICE)renderPricePanel(modality);
+  if(trend===TREND.SPEED)renderSpeedPanel(modality);
+}
+
+// ===== Charts =====
+function ct(){return getComputedStyle(document.body).getPropertyValue('--chart-tick').trim()||'#5a5f6c'}
+function cl(){return getComputedStyle(document.body).getPropertyValue('--chart-label').trim()||'#b0b8c0'}
+function cg(){return getComputedStyle(document.body).getPropertyValue('--chart-grid').trim()||'rgba(255,255,255,0.04)'}
+function getChartBase(){return{type:'bar',options:{responsive:true,maintainAspectRatio:false,plugins:{legend:{display:false}},scales:{x:{ticks:{color:ct()},grid:{color:cg()}},y:{ticks:{color:cl()},grid:{display:false}}}}};}
+
+function renderEloChart(canvasId,data,color){const key=canvasId;if(chartInstances[key])chartInstances[key].destroy();const ctx=document.getElementById(canvasId);if(!ctx)return;const top6=data.slice(0,6);const palette=['#6366f1','#8b5cf6','#a78bfa','#c4b5fd','#94a3b8','#cbd5e1'];chartInstances[key]=new Chart(ctx,{...getChartBase(),data:{labels:top6.map(d=>shortName(d).model),datasets:[{data:top6.map(d=>d.elo),backgroundColor:palette.slice(0,6),borderRadius:0,borderWidth:0}]},options:{...getChartBase().options,indexAxis:'y',scales:{x:{...getChartBase().options.scales.x,ticks:{...getChartBase().options.scales.x.ticks,callback:v=>v.toFixed(0)}},y:getChartBase().options.scales.y}}});}
+
+// ===== Perf =====
+function renderAllPanel(trend){
+  const MODS={llm:'文本',image:'图片',video:'视频'};
+  if(trend===TREND.PERF){
+    const rows=[];
+    ['llm','image','video'].forEach(mod=>{
+      (MOCK_TREND[mod].perf||[]).slice(0,4).forEach(d=>{
+        const name=shortName(d).model;
+        const metric=mod==='llm'?d.intelligence+'分':d.elo+' Elo';
+        rows.push(`<tr><td>${modelName(shortName(d))}</td><td>${MODS[mod]}</td><td>${metric}</td><td>${d.org}</td></tr>`);
+      });
+    });
+    document.getElementById('tableAllPerf').innerHTML=rows.join('');
+  }else if(trend===TREND.PRICE){
+    const rows=[];
+    ['llm','image','video'].forEach(mod=>{
+      (MOCK_TREND[mod].price||[]).slice(0,4).forEach(d=>{
+        const name=shortName(d).model;
+        let price='';
+        if(mod==='llm')price='$'+(d.blended||0).toFixed(2)+'/1M';
+        else if(mod==='image')price='$'+(d.perImage||0).toFixed(2)+'/张';
+        else price='$'+(d.perSec||0).toFixed(2)+'/秒';
+        rows.push(`<tr><td>${modelName(shortName(d))}</td><td>${MODS[mod]}</td><td>${price}</td><td>${d.org}</td></tr>`);
+      });
+    });
+    document.getElementById('tableAllPrice').innerHTML=rows.join('');
+  }else if(trend===TREND.SPEED){
+    const rows=[];
+    ['llm','image','video'].forEach(mod=>{
+      (MOCK_TREND[mod].speed||[]).slice(0,4).forEach(d=>{
+        const name=shortName(d).model;
+        let speed='';
+        if(mod==='llm')speed=(d.outputSpeed||0)+' t/s';
+        else if(mod==='image')speed=(d.avgTime||0)+'秒';
+        else speed=(d.minPerSecVideo||0)+'分/秒';
+        rows.push(`<tr><td>${modelName(shortName(d))}</td><td>${MODS[mod]}</td><td>${speed}</td><td>${d.org}</td></tr>`);
+      });
+    });
+    document.getElementById('tableAllSpeed').innerHTML=rows.join('');
+  }
+}
+
+function renderPerfPanel(modality){if(modality===MODALITY.LLM)renderLlmPerf();else renderEloChart(`chart${cap(modality)}Perf`,MOCK_TREND[modality].perf,'#00dcff');document.getElementById(`table${cap(modality)}Perf`).innerHTML=MOCK_TREND[modality].perf.map(perfRow(modality)).join('');}
+function renderLlmPerf(){const key='chartLlmPerf';if(chartInstances[key])chartInstances[key].destroy();const top5=MOCK_TREND.llm.perf.slice(0,5);chartInstances[key]=new Chart(document.getElementById(key),{...getChartBase(),data:{labels:top5.map(d=>shortName(d).model),datasets:[{data:top5.map(d=>d.intelligence),backgroundColor:['#6366f1','#8b5cf6','#a78bfa','#c4b5fd','#ddd6fe'],borderRadius:0,borderWidth:0}]},options:{...getChartBase().options,indexAxis:'y',scales:{x:{...getChartBase().options.scales.x,min:40,max:70,ticks:{...getChartBase().options.scales.x.ticks,callback:v=>v.toFixed(1)}},y:getChartBase().options.scales.y}}});renderLlmRadar();}
+
+// ===== Price =====
+function renderPricePanel(modality){if(modality===MODALITY.LLM){renderLlmPriceScatter();const data=[...MOCK_TREND.llm.price].sort((a,b)=>a.blended-b.blended);document.getElementById('tableLlmPrice').innerHTML=data.map(priceRow(modality)).join('');}else{document.getElementById(`table${cap(modality)}Price`).innerHTML=MOCK_TREND[modality].price.map(priceRow(modality)).join('');}}
+function renderTrends(){renderAllPanel(TREND.PERF);renderAllPanel(TREND.PRICE);renderAllPanel(TREND.SPEED);renderLlmPerf();renderLlmPriceScatter();renderLlmSpeedCharts();}
+
+// ===== Speed =====
+function renderSpeedPanel(modality){if(modality===MODALITY.LLM){renderLlmSpeedCharts();}else{renderSpeedBarChart(`chart${cap(modality)}Speed`,MOCK_TREND[modality].speed,'#00d068');}document.getElementById(`table${cap(modality)}Speed`).innerHTML=MOCK_TREND[modality].speed.map(speedRow(modality)).join('');}
+function renderLlmSpeedCharts(){['chartLlmSpeed','chartLlmTTFT'].forEach(k=>{if(chartInstances[k])chartInstances[k].destroy();});const speedData=[...MOCK_TREND.llm.speed].sort((a,b)=>b.outputSpeed-a.outputSpeed).slice(0,8);chartInstances.chartLlmSpeed=new Chart(document.getElementById('chartLlmSpeed'),{...getChartBase(),data:{labels:speedData.map(d=>shortName(d).model),datasets:[{label:'输出速度(t/s)',data:speedData.map(d=>d.outputSpeed),backgroundColor:'#10b981',borderRadius:0,borderWidth:0}]},options:{...getChartBase().options,plugins:{...getChartBase().options.plugins,title:{display:true,text:'输出速度对比(tokens/秒)',font:{size:14},color:cl()}}}});const ttftData=[...MOCK_TREND.llm.speed].sort((a,b)=>a.ttft-b.ttft);chartInstances.chartLlmTTFT=new Chart(document.getElementById('chartLlmTTFT'),{...getChartBase(),data:{labels:ttftData.map(d=>shortName(d).model),datasets:[{label:'首Token延迟(秒)',data:ttftData.map(d=>d.ttft),backgroundColor:'#f59e0b',borderRadius:0,borderWidth:0}]},options:{...getChartBase().options,plugins:{...getChartBase().options.plugins,title:{display:true,text:'首Token延迟对比(秒)',font:{size:14},color:cl()}}}});}
+function renderSpeedBarChart(canvasId,data,color){const key=canvasId;if(chartInstances[key])chartInstances[key].destroy();const ctx=document.getElementById(canvasId);if(!ctx)return;const palette=['#10b981','#34d399','#6ee7b7','#a7f3d0','#f59e0b','#fbbf24','#fcd34d','#fde68a'];chartInstances[key]=new Chart(ctx,{...getChartBase(),data:{labels:data.map(d=>shortName(d).model),datasets:[{data:data.map(d=>d.avgTime||d.realtimeFactor||d.minPerSecVideo),backgroundColor:palette.slice(0,data.length),borderRadius:0,borderWidth:0}]},options:{...getChartBase().options,plugins:{...getChartBase().options.plugins,title:{display:true,text:'生成速度对比',font:{size:14},color:cl()}}}});}
+
+// ===== Radar =====
+function renderLlmRadar(){const key='chartLlmRadar';if(chartInstances[key])chartInstances[key].destroy();const top4=MOCK_TREND.llm.perf.slice(0,4);chartInstances[key]=new Chart(document.getElementById('chartLlmRadar'),{type:'radar',data:{labels:['综合智力','编码','推理'],datasets:top4.map((d,i)=>({label:shortName(d).model,data:[d.intelligence,d.coding,d.reasoning],borderColor:['#6366f1','#f59e0b','#10b981','#ec4899'][i],backgroundColor:['rgba(99,102,241,0.1)','rgba(245,158,11,0.1)','rgba(16,185,129,0.1)','rgba(236,72,153,0.1)'][i],borderWidth:2,pointRadius:3}))},options:{responsive:true,maintainAspectRatio:false,plugins:{legend:{position:'bottom',labels:{color:cl(),font:{size:11,family:'monospace'},padding:16}},title:{display:true,text:'Top 4 多维能力对比',font:{size:13,family:'monospace'},color:cl()}},scales:{r:{ticks:{color:ct(),backdropColor:'transparent',font:{size:10}},grid:{color:cg()},pointLabels:{color:cl(),font:{size:11}},suggestedMin:40}}}});}
+
+// ===== Scatter =====
+function renderLlmPriceScatter(){
+  const key='chartLlmPriceScatter';
+  if(chartInstances[key])chartInstances[key].destroy();
+  const data=MOCK_TREND.llm.perf.map(p=>{
+    const pr=MOCK_TREND.llm.price.find(x=>x.model===p.model);
+    return pr?{model:shortName(p).model,x:pr.blended,y:p.intelligence}:null;
+  }).filter(Boolean);
+  chartInstances[key]=new Chart(document.getElementById('chartLlmPriceScatter'),{
+    type:'scatter',
+    data:{datasets:[{label:'模型',data:data,backgroundColor:'#ec4899',borderColor:'#ec4899',pointRadius:6,pointHoverRadius:9}]},
+    options:{
+      responsive:true,maintainAspectRatio:false,
+      plugins:{legend:{display:false},title:{display:true,text:'综合智力 vs 混合价格（性价比分析）',font:{size:13,family:'monospace'},color:cl()},tooltip:{callbacks:{label:ctx=>ctx.raw.model+': 智力 '+ctx.raw.y+' / 价格 $'+ctx.raw.x.toFixed(2)}}},
+      scales:{x:{title:{display:true,text:'混合价格 $/1M tokens',color:ct()},ticks:{color:ct()},grid:{color:cg()}},y:{title:{display:true,text:'综合智力',color:ct()},ticks:{color:cl()},grid:{display:false},min:45,max:70}}
+    }
+  });
+}
+
+// ===== Row Helpers =====
+function cap(s){return s.charAt(0).toUpperCase()+s.slice(1);}
+function perfRow(modality){if(modality===MODALITY.LLM)return d=>`<tr><td>${modelName(shortName(d))}</td><td>${d.intelligence}</td><td>${d.coding}</td><td>${d.reasoning}</td></tr>`;if(modality===MODALITY.IMAGE)return d=>`<tr><td>${modelName(d)}</td><td>#${d.rank}</td><td>${d.elo}</td><td>${d.org}</td><td>${d.date}</td></tr>`;return d=>`<tr><td>${modelName(d)}</td><td>#${d.rank}</td><td>${d.elo}</td><td>${d.org}</td><td>${d.type||''}</td></tr>`;}
+function priceRow(modality){if(modality===MODALITY.LLM)return d=>`<tr><td>${modelName(shortName(d))}</td><td>$${d.input.toFixed(2)}</td><td>$${d.output.toFixed(2)}</td><td>$${d.blended.toFixed(3)}</td></tr>`;if(modality===MODALITY.IMAGE)return d=>`<tr><td>${modelName(d)}</td><td>$${d.perImage.toFixed(2)}</td><td>$${d.per1k}</td><td>${d.org}</td></tr>`;if(modality===MODALITY.SPEECH)return d=>`<tr><td>${modelName(d)}</td><td>$${d.perMChars.toFixed(2)}</td><td>$${d.perHour.toFixed(2)}</td><td>${d.org}</td></tr>`;return d=>`<tr><td>${modelName(d)}</td><td>$${d.perSec.toFixed(2)}</td><td>$${d.perMin.toFixed(2)}</td><td>${d.org}</td></tr>`;}
+function speedRow(modality){if(modality===MODALITY.LLM)return d=>`<tr><td>${modelName(shortName(d))}</td><td>${d.outputSpeed} t/s</td><td>${d.ttft}秒</td></tr>`;if(modality===MODALITY.IMAGE)return d=>`<tr><td>${modelName(d)}</td><td>${d.avgTime}秒</td><td>${d.fastest}秒</td><td>${d.org}</td></tr>`;if(modality===MODALITY.SPEECH)return d=>`<tr><td>${modelName(d)}</td><td>${d.realtimeFactor}x</td><td>${d.ttfa}秒</td><td>${d.org}</td></tr>`;return d=>`<tr><td>${modelName(d)}</td><td>${d.minPerSecVideo}分</td><td>${d.shortest}</td><td>${d.org}</td></tr>`;}
+
+// ===== Share =====
+function sharePage(){if(document.getElementById('posterOverlay'))return;const allNews=getNewsItems();const topNews=allNews.slice(0,5);const topModel=MOCK_TREND.llm.perf[0];const now=new Date();const dateStr=now.getFullYear()+'-'+String(now.getMonth()+1).padStart(2,'0')+'-'+String(now.getDate()).padStart(2,'0');const overlay=document.createElement('div');overlay.id='posterOverlay';overlay.className='poster-overlay';overlay.innerHTML=`<div class="poster-dialog"><div class="poster-card" id="posterCard"><div class="p-header"><h2>智脉 · AI Pulse</h2><div class="p-date">${dateStr} · AI 日报 · 今日脉搏</div></div><div class="p-summary">${STRUCTURED_SUMMARY.map(s=>s.text.replace(/<[^>]*>/g,'')).join('；')}</div><div class="p-headlines">${topNews.map((n,i)=>`<div class="p-headline">${i+1}. ${n.title}</div>`).join('')}</div><div class="p-trend">今日最聪明模型：${topModel.model}（综合智力 ${topModel.intelligence}）<br>数据来源：artificialanalysis.ai</div><div class="p-footer"><img src="https://api.qrserver.com/v1/create-qr-code/?size=80x80&data=${encodeURIComponent(window.location.href)}&bgcolor=06080c&color=00dcff" width="80" height="80" crossorigin="anonymous" style="display:block;margin:0 auto 8px;" alt="QR">扫码查看完整日报<br><span style="font-size:9px;">智脉 &copy; 2026</span></div></div><div class="poster-actions"><button onclick="document.getElementById('posterOverlay').remove()">关闭</button><button class="primary" id="btnDownload">保存海报</button></div></div>`;overlay.addEventListener('click',(e)=>{if(e.target===overlay)overlay.remove();});document.body.appendChild(overlay);document.getElementById('btnDownload').addEventListener('click',()=>{const btn=document.getElementById('btnDownload');btn.textContent='生成中...';btn.disabled=true;const card=document.getElementById('posterCard');html2canvas(card,{scale:2,useCORS:true,backgroundColor:getComputedStyle(document.body).getPropertyValue('--void').trim()||'#06080c'}).then(canvas=>{const link=document.createElement('a');link.download=`智脉-AI-Daily-${dateStr}.png`;link.href=canvas.toDataURL('image/png');link.click();showToast('海报已保存');btn.textContent='保存海报';btn.disabled=false;}).catch(()=>{showToast('生成失败，请重试');btn.textContent='保存海报';btn.disabled=false;});});}
+function showToast(msg){const t=document.createElement('div');t.style.cssText='position:fixed;bottom:24px;left:50%;transform:translateX(-50%);background:var(--cyan);color:var(--void);padding:10px 24px;font-size:13px;font-family:var(--font);letter-spacing:1px;z-index:400;opacity:1;transition:opacity .3s;';t.textContent=msg;document.body.appendChild(t);setTimeout(()=>{t.style.opacity='0';setTimeout(()=>t.remove(),300);},2000);}
+
+// ===== Hero =====
+const SNARK_VARIANTS={1:['五角大楼：AI 军备竞赛已开始。各国政府：默默打开采购网站。','国防部采购 AI，硅谷：从写代码到写导弹，我们成长了。','Anthropic 被重新评估：上次是不是太安全了，不符合军队风格？'],2:['1000 亿美元市场？VC：我的 checkbook 在哪里？','Bain 说的 1000 亿，有一半是 PPT 市场规模吧？','Agentic AI：我还没诞生，就已经有人替我算好身价了。'],3:['下载 OpenAI 模型？小心下到的不是权重，是木马。','Hugging Face 社区：我们热爱开源！黑客：我们也是。','24 万次下载：证明了群众对 OpenAI 的信任，也证明了安全意识约等于零。'],4:['26M 参数就能调用工具？大模型厂商：我们的护城河在蒸发。','小模型的复仇：你以为参数多就了不起？','Agent 能力蒸馏：用十分之一的参数干同样的活，老板狂喜。'],5:['终于有个 AI 不是用来聊天的，是用来干活的。','Laserfiche：让 AI 替你整理文件。员工：那我能干嘛？CEO：你可以去开会。','企业 AI Agent：不聊天不写诗不画画，专心搬砖。感动中国。'],6:['AI 前台已上岗，人类前台：我该转岗做 AI 训练师了吗？','以后打客服电话，AI 接的，转人工，还是 AI 接的。','RingCentral：把 AI 塞进客服。客户：这和之前那个按键菜单有什么区别？希望区别很大。'],7:['AI：我帮你看病。医生：太好了。AI：但你得先排 3 个月队。','NHS 引进 AI 看片子，医生：终于不用加班看几百张 CT 了。','AI 缓解医疗压力？不，它只是把压力从医生转给了 CIO。'],8:['美国：我们 AI 商业化最强。中国：我们产业化最快。欧洲：我们监管最好。','297 条 HN 评论讨论谁赢了 AI 竞赛，结论：评论区没人赢。','AI 地缘竞争：三国杀，玩家：美国/中国/欧盟。非洲/南美：我们能参加吗？'],9:['AI 终于不只在屏幕上聊天了，开始抢体力活儿的饭碗。','Physical AI：让机器人替你搬砖。白领：等等，我以为 AI 先抢我们的？','3000 人聚集硅谷讨论机器人替代 30 亿人的工作。场面感人。'],10:['"你的数据不完美。" AI："没关系，我也不是完美的。"','最后一公里问题：人的问题、钱的问题、数据的问题，好像不止一公里。','JBS Dev：别等数据完美了。企业：好的，那我们就直接放弃投入。']};
+function calcBP(){
+  const news=getNewsItems();
+  const topModel=MOCK_TREND.llm.perf[0]?.intelligence||60;
+  const newsCount=news.length;
+  const cats=new Set(news.map(n=>n.cat)).size;
+  // Base: top model intelligence drives "industry heat"
+  let base=100+Math.floor(topModel/3);
+  // More news = higher pressure
+  if(newsCount>=12)base+=15;
+  else if(newsCount>=8)base+=8;
+  // Category diversity adds pressure
+  if(cats>=3)base+=10;
+  else if(cats>=2)base+=5;
+  // Daily randomness (±5)
+  base+=Math.floor(Math.random()*10)-5;
+  return Math.min(165,Math.max(90,base));
+}
+let BP_VALUE=0; // Calculated on demand
+function renderHero(){const h=new Date().getHours();const g=h<6?'夜深了':h<9?'早上好':h<12?'上午好':h<14?'中午好':h<18?'下午好':'晚上好';const now=new Date();const ds=now.getFullYear()+'.'+String(now.getMonth()+1).padStart(2,'0')+'.'+String(now.getDate()).padStart(2,'0');document.getElementById('heroGreeting').textContent=`${g}`;}
+let bpMeasured=false;
+function measureBP(){if(bpMeasured)return;bpMeasured=true;BP_VALUE=calcBP();const btn=document.getElementById('bpBigBtn');btn.querySelector('.bp-icon-lg').innerHTML=ICONS.heart;let v=0;const target=BP_VALUE;const step=Math.max(1,Math.floor(target/40));const interval=setInterval(()=>{v=Math.min(target,v+step);const pulseIcon=v<target*0.7?ICONS.heart.replace('var(--magenta)','var(--cyan)'):ICONS.heart;btn.innerHTML=`<span class="bp-icon-lg svg-icon">${pulseIcon}</span><span class="bp-value-lg" style="color:${v>=140?'var(--magenta)':v>=125?'var(--yellow)':'var(--green)'}">${v}</span>`;if(v>=target){clearInterval(interval);btn.classList.add('measured');const cls=target>=140?'hot':target>=125?'warm':'calm';btn.innerHTML=`<span class="bp-icon-lg svg-icon">${ICONS.heart}</span><span class="bp-value-lg ${cls}">${target}</span><span style="color:var(--dim);font-size:13px;">AI 圈血压 / 100</span>`;const msgs=target>=140?['今天 AI 圈血压偏高，重磅消息扎堆了','准备好降压药，今天消息有点猛']:target>=125?['不太平静的一天，仔细看看发生了什么','有点热闹，但还不算爆炸']:['相对平静，适合喝杯咖啡慢慢看','风平浪静，是深度阅读的好日子'];document.getElementById('bpResult').textContent=msgs[Math.floor(Math.random()*msgs.length)];setTimeout(()=>{document.getElementById('bpEnterBtn').classList.add('show');},600);}},40);}
+function dismissBP(){document.getElementById('bpOverlay').classList.add('dismissed');setTimeout(()=>{document.getElementById('bpOverlay').remove();},600);}
+
+// ===== Fortune =====
+function applyFunData(d){
+  if(!d||!d.fun)return;
+  const f=d.fun;
+  if(f.lucky)document.getElementById('fortuneLucky').innerHTML='幸运模型<br>'+f.lucky;
+  if(f.advice)document.getElementById('fortuneAdvice').innerHTML=f.advice.replace(/\n/g,'<br>');
+  if(f.joke)document.getElementById('heroJokeText').innerHTML=f.joke.replace(/\n/g,'<br>');
+}
+function buildFortunes(){
+  const top=MOCK_TREND.llm.perf.slice(0,7).map(m=>m.model.split(' (')[0]);
+  const advices=[{advice:'宜：尝试新模型\n忌：跟老板说 AI 三个月上线'},{advice:'宜：深度思考\n忌：不看文档就调 API'},{advice:'宜：省钱方案\n忌：盲目追大参数'},{advice:'宜：开源贡献\n忌：重复造轮子'},{advice:'宜：让 AI 写代码\n忌：手动调格式'},{advice:'宜：多模态探索\n忌：只用文字交互'},{advice:'宜：用 AI 重构\n忌：不写测试就提交'}];
+  return top.map((m,i)=>({lucky:m,advice:advices[i].advice}));
+}
+let FORTUNES=[];
+function renderFortune(){const f=FORTUNES[Math.floor(Math.random()*FORTUNES.length)];document.getElementById('fortuneLucky').innerHTML=`幸运模型<br>${f.lucky}`;document.getElementById('fortuneAdvice').innerHTML=f.advice.replace(/\n/g,'<br>');}
+
+// ===== Summary =====
+function renderSummary(){document.getElementById('summaryGrid').innerHTML=STRUCTURED_SUMMARY.map(s=>`<div class="summary-item"><span class="s-icon svg-icon">${s.svg}</span><span class="s-text">${s.text}</span></div>`).join('');}
+
+// ===== Snark =====
+const DEFAULT_SNARKS=['这条新闻让同行们集体沉默了3秒，然后继续卷。','AI圈日常：今天你发模型，明天我刷榜。','编辑部：这条我们也不知道怎么吐槽了。','确认过眼神，是让投资人失眠的新闻。','今天也是被AI新闻轰炸的一天。'];
+function refreshSnark(el,id){const variants=SNARK_VARIANTS[id];if(variants){const current=el.parentElement.childNodes[0].textContent.trim();const others=variants.filter(v=>v!==current);const next=others[Math.floor(Math.random()*others.length)];el.parentElement.childNodes[0].textContent=next;}else{el.parentElement.childNodes[0].textContent=DEFAULT_SNARKS[Math.floor(Math.random()*DEFAULT_SNARKS.length)];}}
+
+// ===== Jokes =====
+const JOKES=['问：为什么 AI 不会取代产品经理？\n答：因为 AI 学不会说"这个需求很简单"。','问：一个 AI 走进酒吧，点了什么？\n答：一杯梯度下降，不加正则化。','问：GPT 和 PM 有什么区别？\n答：GPT 会承认自己不知道。','问：AI 什么时候能统治世界？\n答：等它能理解客户说的"随便"是什么意思。','问：为什么 Transformer 不需要 RNN？\n答：因为它学会了"注意"，而不是"记忆"——跟大多数开会的人相反。','问：程序员和 AI 的共同点是什么？\n答：都需要大量的 Token。','问：AI 面试 PM 会问什么？\n答："请描述一个你完全靠直觉做出的决策，并用数据证明它是对的。"','为什么 AI 模型越来越大了？因为工程师们发现"加参数"比"想清楚"容易。','2026 年最恐怖的事：你的 AI 助手比你更了解你的工作。第二恐怖：你老板发现了这一点。'];
+let jokeIdx=Math.floor(Math.random()*JOKES.length);
+function renderHeroJoke(){document.getElementById('heroJokeText').innerHTML=JOKES[jokeIdx].replace(/\n/g,'<br>');}
+function nextJoke(){jokeIdx=(jokeIdx+1)%JOKES.length;document.getElementById('heroJokeText').innerHTML=JOKES[jokeIdx].replace(/\n/g,'<br>');}
+
+// ===== Trend Snapshots =====
+function renderTrendSnaps(){const best=shortName(MOCK_TREND.llm.perf[0]);const cheapest=shortName([...MOCK_TREND.llm.price].sort((a,b)=>a.blended-b.blended)[0]);const fastest=shortName([...MOCK_TREND.llm.speed].sort((a,b)=>b.outputSpeed-a.outputSpeed)[0]);document.getElementById('trendSnaps').innerHTML=`<div class="snap-card card-accent-cyan" onclick="document.getElementById('trendSection').scrollIntoView({behavior:'smooth'});document.querySelector('#unifiedSubtabs .trend-tab[data-trend=\'perf\']').click();document.querySelector('#modalityTabs .modality-tab[data-modality=\'llm\']').click()"><div class="snap-icon svg-icon">${ICONS.crown}</div><div class="snap-title">今日最强</div><div class="snap-value">${modelLogo(best.org)} ${best.model}</div><div class="snap-sub">综合智力 ${best.intelligence}</div></div><div class="snap-card card-accent-yellow" onclick="document.getElementById('trendSection').scrollIntoView({behavior:'smooth'});document.querySelector('#unifiedSubtabs .trend-tab[data-trend=\'price\']').click();document.querySelector('#modalityTabs .modality-tab[data-modality=\'llm\']').click()"><div class="snap-icon svg-icon">${ICONS.coin}</div><div class="snap-title">性价比王</div><div class="snap-value">${modelLogo(cheapest.org)} ${cheapest.model}</div><div class="snap-sub">混合价 $${cheapest.blended.toFixed(3)}/1M</div></div><div class="snap-card card-accent-magenta" onclick="document.getElementById('trendSection').scrollIntoView({behavior:'smooth'});document.querySelector('#unifiedSubtabs .trend-tab[data-trend=\'speed\']').click();document.querySelector('#modalityTabs .modality-tab[data-modality=\'llm\']').click()"><div class="snap-icon svg-icon">${ICONS.bolt}</div><div class="snap-title">速度冠军</div><div class="snap-value">${modelLogo(fastest.org)} ${fastest.model}</div><div class="snap-sub">${fastest.outputSpeed} t/s 输出</div></div>`;}
+
+// ===== Scroll =====
+function setupScrollProgress(){const bar=document.getElementById('scrollBar');const complete=document.getElementById('scrollComplete');window.addEventListener('scroll',()=>{const h=document.documentElement.scrollHeight-window.innerHeight;const pct=h>0?Math.min(100,Math.round(window.scrollY/h*100)):0;bar.style.width=pct+'%';if(pct>=95){complete.classList.add('show');bar.style.background='var(--green)';}else{complete.classList.remove('show');bar.style.background='var(--cyan)';}});}
+
+// ===== Logo =====
+function setupLogoAnimation(){const svg=document.querySelector('.logo-mark svg');svg.classList.add('animate-in');svg.addEventListener('animationend',()=>{svg.classList.remove('animate-in');svg.classList.add('breathing');},{once:true});document.querySelector('.logo-mark').style.cursor='pointer';document.querySelector('.logo-mark').addEventListener('click',()=>{svg.classList.remove('breathing');svg.style.animation='none';svg.offsetHeight;svg.classList.add('animate-in');svg.addEventListener('animationend',()=>{svg.classList.remove('animate-in');svg.classList.add('breathing');},{once:true});});}
+
+// ===== Easter Egg =====
+function setupEasterEgg(){document.addEventListener('dblclick',(e)=>{if(e.target.closest('.news-item')||e.target.closest('button')||e.target.closest('input'))return;const msgs=['你触发了隐藏技能：无效双击','AI 小编：别戳了，在写了在写了','精准双击！可惜什么都没发生','这不是 bug，这是 feature'];showToast(msgs[Math.floor(Math.random()*msgs.length)]);});}
+
+// ===== History =====
+async function showHistory(){if(document.getElementById('historyModal'))return;
+let dates=[];
+try{
+  const resp=await fetch('data/daily/index.json');
+  if(resp.ok){
+    const index=await resp.json();
+    dates=Object.values(index).sort((a,b)=>b.date.localeCompare(a.date));
+  }
+}catch(e){console.warn('History index not available:',e.message);}
+if(dates.length===0){
+  showToast('暂无历史数据，请先运行流水线');
+  return;
+}
+const modal=document.createElement('div');modal.id='historyModal';modal.style.cssText='position:fixed;inset:0;background:rgba(5,7,10,.85);z-index:300;display:flex;align-items:center;justify-content:center;';
+modal.innerHTML='<div style="background:var(--bg-raised);border:1px solid var(--line-active);padding:24px;max-width:400px;width:90%;max-height:80vh;overflow-y:auto;font-family:var(--font);"><h3 style="margin:0 0 4px;color:var(--cyan);font-size:14px;letter-spacing:4px;">历史日报</h3><div style="margin-bottom:20px;font-size:10px;color:var(--dim);">最近 '+dates.length+' 期 · 点击阅读往期日报</div>'+dates.map((d,i)=>'<div style="padding:12px 0;border-bottom:1px solid var(--line);cursor:pointer;transition:background .2s;" onmouseover="this.style.background=\'rgba(0,220,255,.03)\'" onmouseout="this.style.background=\'transparent\'" onclick="loadHistoryDay(\''+d.date+'\');document.getElementById(\'historyModal\').remove();"><div style="font-weight:600;color:var(--text);font-size:12px;">'+d.date+' <span style="font-size:9px;color:var(--faint);">#'+(i+1)+'</span><span style="font-size:9px;color:var(--cyan);margin-left:6px;">'+d.count+'条资讯</span></div><div style="font-size:10px;color:var(--dim);margin-top:4px;line-height:1.5;">'+(d.highlight||'AI 行业日报')+'</div></div>').join('')+'<button onclick="document.getElementById(\'historyModal\').remove()" style="margin-top:16px;width:100%;padding:10px;background:transparent;border:1px solid var(--cyan);color:var(--cyan);font-family:var(--font);font-size:12px;cursor:pointer;letter-spacing:2px;transition:all .2s;" onmouseover="this.style.background=\'var(--cyan)\';this.style.color=\'var(--void)\'" onmouseout="this.style.background=\'transparent\';this.style.color=\'var(--cyan)\'">关闭</button></div>';
+modal.addEventListener('click',(e)=>{if(e.target===modal)modal.remove();});document.body.appendChild(modal);document.body.style.overflow='hidden';const origRemove=modal.remove;modal.remove=function(){document.body.style.overflow='';origRemove.call(this);};}
+
+async function loadHistoryDay(dateStr){
+  try{
+    const resp=await fetch('data/daily/'+dateStr+'.json');
+    if(!resp.ok){showToast(dateStr+' 日报暂不可用');return;}
+    const d=await resp.json();
+    if(d.articles&&d.articles.length>0){
+      PIPELINE_DATA=d;
+      renderNews(d.articles);
+      STRUCTURED_SUMMARY=buildSummary();
+      renderSummary();
+      setupFilter();
+      document.getElementById('pageDate').textContent=dateStr;
+      document.getElementById('trendSection').scrollIntoView({behavior:'smooth'});
+      showToast('已加载 '+dateStr+' 日报 ('+d.articles.length+'条资讯)');
+    }
+  }catch(e){showToast('加载失败: '+e.message);}
+}
+
+// ===== Theme =====
+function toggleTheme(){document.body.classList.toggle('light');const isLight=document.body.classList.contains('light');document.getElementById('themeToggle').textContent=isLight?'◑':'◐';try{localStorage.setItem('ai-daily-theme',isLight?'light':'dark');}catch(e){}setTimeout(()=>{showCurrentPanel();},100);}
+function loadTheme(){let theme='dark';try{theme=localStorage.getItem('ai-daily-theme')||'dark';}catch(e){}if(theme==='light'){document.body.classList.add('light');document.getElementById('themeToggle').textContent='◑';}}
+
+// ===== Boot =====
+document.addEventListener('DOMContentLoaded',()=>{loadTheme();init();});
+</script>
+
