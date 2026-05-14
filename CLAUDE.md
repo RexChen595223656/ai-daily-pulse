@@ -79,13 +79,22 @@ launchd plist: `~/Library/LaunchAgents/com.ai-daily.pipeline.plist`
 
 ## 部署
 
-`deploy/` 是独立 git 仓库，push 到 `git@github.com:RexChen595223656/ai-daily-pulse.git`，GitHub Pages 自动部署。
+仓库：`git@github.com:RexChen595223656/ai-daily-pulse.git`
 
-部署前需手动同步：
+| 分支 | 内容 |
+|------|------|
+| `main` | 完整源码（pipeline/server/docs/prototype） |
+| `gh-pages` | 部署文件（index.html + data/），GitHub Pages 自动部署 |
+
+部署更新：
 ```bash
+# 部署最新页面+数据到 gh-pages 分支
 cp prototype/index.html deploy/index.html
 cp -r data/daily/* deploy/data/daily/
-cd deploy && git add -A && git commit -m "更新日报数据" && git push
+cd deploy && git add -A && git commit -m "更新日报" && git push origin gh-pages
+
+# 推送源码更新
+cd .. && git push origin main
 ```
 
 ## 已知限制
