@@ -1,0 +1,16 @@
+# Cloudflare Worker — AI Daily 趋势数据代理
+# 隐藏 AA API key，前端不直接接触密钥
+#
+# 部署: cd worker && npx wrangler deploy
+# 需要设置 secret: npx wrangler secret put AA_API_KEY
+
+name = "ai-daily-trends"
+main = "worker.js"
+compatibility_date = "2026-05-14"
+
+[vars]
+# 前端访问的域名，CORS 白名单
+ALLOWED_ORIGIN = "https://rexchen595223656.github.io"
+
+# AA API 地址
+AA_API_BASE = "https://artificialanalysis.ai"

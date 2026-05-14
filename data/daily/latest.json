@@ -1,166 +1,166 @@
 {
   "date": "2026-05-14",
-  "generated_at": "2026-05-14T17:39:02.910484",
-  "highlight": "Nous Research发布Token叠加训练法，将大模型预训练提速2.5倍，开源社区再掀效率革命。",
+  "generated_at": "2026-05-14T18:00:57.262946",
+  "highlight": "Physical AI 进工厂、Nous 提速 2.5 倍预训练、Clio 与 Anthropic 各自亮剑，AI 从实验室到产业落地加速跑。",
   "fun": {
     "lucky": "Nous Research 的 Token Superposition Training",
-    "advice": "宜：大胆压缩Token，省下电费买奶茶。\n忌：把老板的发言也叠加训练，小心被开除。",
-    "joke": "AI训练师问模型：“你为什么这么快？”模型答：“我把单词叠起来当三明治吃了。”"
+    "advice": "宜：用 Token 叠加把预训练卷成闪电侠。\n忌：把“2.5x 加速”理解成下班时间翻倍。",
+    "joke": "AI 训练完问老板：我这么快，是不是该涨点算力？老板说：不，你该涨点 token 密度。"
   },
   "articles": [
     {
       "id": 1,
-      "cat": "tool",
-      "title": "美国顶级房产应用开发公司能力与成本解析",
-      "title_en": "Top real estate app development companies in the US: Abilities and costs",
+      "cat": "strategy",
+      "title": "人形机器人进工厂：Humanoid 与 Schaeffler 签下千台部署协议",
+      "title_en": "Physical AI moves closer to factory floors as companies test humanoid robots",
       "source": "AI News",
-      "url": "https://www.artificialintelligence-news.com/news/top-real-estate-app-development-companies-in-the-us-abilities-and-costs/",
-      "time": "1小时前",
-      "published": "2026-05-14T07:51:58+00:00",
-      "summary": "本文分析了美国顶级房地产应用开发公司的能力与成本。核心要点是：房产应用依赖于复杂的集成（如MLS数据源、支付系统、文档工作流）和合规层，这些往往在营销页面中看不到。一个在通用软件开发上评价不错的供应商，一旦涉及MLS数据源、支付系统和文档工作流，就可能表现不佳。文章旨在帮助客户识别真正具备房地产行业深度能力的开发商，避免被表面光鲜的营销所迷惑。成本方面则根据功能复杂度、平台（iOS/Android/Web）和团队所在地差异较大。",
-      "snark": "选开发商就像相亲，营销页是美颜照，MLS集成才是素颜。"
+      "url": "https://www.artificialintelligence-news.com/news/physical-ai-humanoid-robots-factories/",
+      "time": "1分钟前",
+      "published": "2026-05-14T10:00:00+00:00",
+      "summary": "英国机器人公司 Humanoid 与德国工业供应商 Schaeffler 达成合作协议，计划在 2032 年前于 Schaeffler 全球工厂部署 1000 至 2000 台人形机器人。这标志着 Physical AI（具身智能）从实验室走向工业产线的重要一步。Humanoid 的机器人将承担物料搬运、装配辅助等重复性劳动，旨在缓解制造业劳动力短缺并提升柔性生产效率。该协议也是目前公开披露的最大规模人形机器人商业部署计划之一，反映出工业界对通用型机器人替代专用自动化设备的信心增强。",
+      "snark": "人形机器人终于不用再表演后空翻了，改行去工厂拧螺丝。"
     },
     {
       "id": 2,
+      "cat": "tool",
+      "title": "美国顶级房地产应用开发公司能力与成本解析",
+      "title_en": "Top real estate app development companies in the US: Abilities and costs",
+      "source": "AI News",
+      "url": "https://www.artificialintelligence-news.com/news/top-real-estate-app-development-companies-in-the-us-abilities-and-costs/",
+      "time": "2小时前",
+      "published": "2026-05-14T07:51:58+00:00",
+      "summary": "文章指出房地产应用开发的核心挑战在于集成 MLS 房源数据、支付系统、文档工作流等复杂层，而这些细节往往在营销页面上被掩盖。企业选型时不能仅依赖通用软件开发口碑，需重点考察供应商在房地产垂直领域的集成能力、合规处理经验以及数据流管理技术。文章还对比了多家头部公司的报价区间与交付周期，为开发商和投资者提供选型参考。",
+      "snark": "买房难，开发个买房 App 更难，建议先买个 MLS 接口再谈情怀。"
+    },
+    {
+      "id": 3,
       "cat": "strategy",
-      "title": "谁来决定AI告诉你什么？前Meta新闻主管有话说",
+      "title": "Meta 前新闻主管 Campbell Brown 谈 AI 信息控制权之争",
       "title_en": "Who decides what AI tells you? Campbell Brown, once Meta’s news chief, has thoughts",
       "source": "TechCrunch",
       "url": "https://techcrunch.com/2026/05/13/who-decides-what-ai-tells-you-campbell-brown-once-metas-news-chief-has-thoughts/",
       "time": "3小时前",
       "published": "2026-05-14T06:05:31+00:00",
-      "summary": "前Meta新闻主管Campbell Brown在TechCrunch上发表观点，讨论了AI内容审核和信息呈现的决策权问题。她指出，硅谷内部关于AI的讨论焦点与普通消费者的关注点存在巨大鸿沟。技术专家们热衷于讨论模型能力、对齐技术等，而普通用户更关心AI给出的信息是否准确、公正、以及由谁在背后控制。这一分歧凸显了AI治理中“专家视角”与“大众感知”之间的脱节，也引发了关于平台责任和算法透明度的深层思考。",
-      "snark": "硅谷大佬聊AI如聊星际航行，用户只想知道为什么AI推荐了那家难吃的餐厅。"
-    },
-    {
-      "id": 3,
-      "cat": "model",
-      "title": "Nous Research发布Token叠加训练法，预训练速度提升2.5倍",
-      "title_en": "Nous Research Releases Token Superposition Training to Speed Up LLM Pre-Training by Up to 2.5x Across 270M to 10B Parameter Models",
-      "source": "MarkTechPost",
-      "url": "https://www.marktechpost.com/2026/05/13/nous-research-releases-token-superposition-training-to-speed-up-llm-pre-training-by-up-to-2-5x-across-270m-to-10b-parameter-models/",
-      "time": "3小时前",
-      "published": "2026-05-14T05:46:32+00:00",
-      "summary": "Nous Research发布了Token叠加训练法（Token Superposition Training, TST），一种创新的两阶段预训练方法。在第一阶段，该方法将连续的Token嵌入向量进行平均聚合（类似于“装袋”操作），从而减少序列长度，在相同FLOPs下大幅缩短实际训练时间（wall-clock time）。第二阶段则恢复标准的下一Token预测训练。实验表明，在270M到10B参数规模的模型上，TST可将预训练速度提升高达2.5倍，且不改变最终模型架构，无需任何额外推理开销。这为降低大模型训练成本提供了全新思路。",
-      "snark": "原来训练大模型就像叠被子，叠得好不仅省地方，还省时间。"
+      "summary": "Campbell Brown 在采访中表示，硅谷与消费者之间对 AI 信息呈现方式的认知存在巨大鸿沟。她认为当前 AI 对话系统的内容筛选机制缺乏透明度，公众并未充分参与决策过程。Brown 呼吁建立更开放的内容审核框架，让用户了解 AI 为何呈现特定信息，并赋予其更多控制权。",
+      "snark": "硅谷说：AI 替你选好了。消费者说：你谁啊？"
     },
     {
       "id": 4,
+      "cat": "model",
+      "title": "Nous Research 发布 Token 叠加训练法，LLM 预训练提速最高 2.5 倍",
+      "title_en": "Nous Research Releases Token Superposition Training to Speed Up LLM Pre-Training by Up to 2.5x Across 270M to 10B Parameter Models",
+      "source": "MarkTechPost",
+      "url": "https://www.marktechpost.com/2026/05/13/nous-research-releases-token-superposition-training-to-speed-up-llm-pre-training-by-up-to-2-5x-across-270m-to-10b-parameter-models/",
+      "time": "4小时前",
+      "published": "2026-05-14T05:46:32+00:00",
+      "summary": "Nous Research 推出 Token Superposition Training（TST）方法，采用两阶段预训练策略：第一阶段将相邻 token 的嵌入向量平均打包成“bag”，大幅减少序列长度和计算量；第二阶段恢复标准 next-token prediction 训练，保持模型质量。该方法在 270M 到 10B 参数规模的模型上，在等 FLOPs 条件下将实际训练时间缩短最多 2.5 倍，且无需改变模型架构或推理方式，可直接加速现有预训练流程。",
+      "snark": "Token 叠加训练：让大模型像吃压缩饼干一样快速长胖，还不挑食。"
+    },
+    {
+      "id": 5,
       "cat": "strategy",
-      "title": "法律科技公司Clio年收入达5亿美元，Anthropic加码竞争",
+      "title": "法律科技公司 Clio 年收入突破 5 亿美元，Anthropic 同步加码",
       "title_en": "Clio’s $500M milestone arrives just as Anthropic ups the ante",
       "source": "TechCrunch",
       "url": "https://techcrunch.com/2026/05/13/clios-500m-milestone-arrives-just-as-anthropic-ups-the-ante/",
       "time": "4小时前",
       "published": "2026-05-14T05:24:39+00:00",
-      "summary": "法律科技初创公司Clio宣布其年度经常性收入（ARR）突破5亿美元大关，标志着法律行业SaaS的强劲增长。与此同时，Anthropic等AI公司也在积极布局法律科技领域，试图用大模型能力改造法律文档分析、合同审查等传统流程。Clio的成功受益于大量律师事务所的数字化转型需求，而Anthropic等新玩家的入局预示着该赛道竞争将愈发激烈。传统法律软件巨头与AI原生公司之间的角力，正在重塑这个价值千亿的市场。",
-      "snark": "律师们终于发现，AI不会像他们一样按小时收费，真香。"
+      "summary": "法律科技独角兽 Clio 宣布其年度经常性收入（ARR）达到 5 亿美元里程碑，显示法律行业对云端实践管理软件的强劲需求。与此同时，Anthropic 也在加大法律科技领域的投入，其 Claude 模型正被集成到多家法律 SaaS 平台中，用于合同分析、案例检索和文档自动化。Clio 的增长与 AI 模型能力的提升形成正反馈，推动法律行业数字化转型加速。",
+      "snark": "律师慌了：AI 抢饭碗；Clio 笑了：你们先交年费。"
     },
     {
-      "id": 5,
+      "id": 6,
       "cat": "tool",
-      "title": "构建动态零信任网络仿真：基于图的微隔离与自适应策略引擎",
+      "title": "Anthropic 发布 Claude for Small Business，面向小企业场景",
+      "title_en": "Claude for Small Business",
+      "source": "Hacker News",
+      "url": "https://www.anthropic.com/news/claude-for-small-business",
+      "time": "6小时前",
+      "published": "2026-05-14T03:59:35+00:00",
+      "summary": "Anthropic 推出 Claude for Small Business 计划，针对小企业提供定制化的 AI 助手服务。该版本在 Claude 原有能力基础上，优化了客户支持、内容生成、数据分析等小企业高频场景，并简化了部署流程，无需专业 AI 团队即可上手。定价策略也更灵活，按使用量付费以降低小企业门槛。Hacker News 上引发热议，用户讨论焦点集中在数据隐私与实用性平衡上。",
+      "snark": "小企业主终于可以理直气壮地说：我有个 AI 员工，工资比实习生还低。"
+    },
+    {
+      "id": 7,
+      "cat": "tool",
+      "title": "教程：用图模型构建动态零信任网络模拟系统",
       "title_en": "How to Build a Dynamic Zero-Trust Network Simulation with Graph-Based Micro-Segmentation, Adaptive Policy Engine, and Insider Threat Detection",
       "source": "MarkTechPost",
       "url": "https://www.marktechpost.com/2026/05/13/how-to-build-a-dynamic-zero-trust-network-simulation-with-graph-based-micro-segmentation-adaptive-policy-engine-and-insider-threat-detection/",
       "time": "7小时前",
       "published": "2026-05-14T02:31:47+00:00",
-      "summary": "本文提供了一个详尽的教程，指导如何构建一个动态零信任网络仿真系统。核心方法是将微隔离环境建模为有向图，并强制每个请求必须通过持续验证才能获得访问权限。实现了一个结合ABAC（基于属性的访问控制）风格权限、设备状态和多重身份验证的自适应策略引擎，并集成了内部威胁检测模块。通过该仿真，开发者可以深入理解零信任架构的工作原理，测试不同安全策略的有效性，为生产环境部署提供参考。教程包含完整的代码示例和架构设计说明。",
-      "snark": "零信任的本质就是：连你亲妈要进你的房间，也得先刷脸再扫码。"
+      "summary": "本文提供了一份详细的零信任网络模拟构建教程，将微隔离环境建模为有向图，每个请求都必须通过持续验证才能获得访问权限。系统实现了一个动态策略引擎，融合基于属性的访问控制（ABAC）、设备健康状态、多因素认证等信息，实时评估请求合法性。同时集成内部威胁检测模块，通过行为异常分析识别潜在攻击者。该教程适合安全工程师学习和原型开发。",
+      "snark": "零信任：连老板的打印机都要刷脸，这才是真正的内卷。"
     },
     {
-      "id": 6,
+      "id": 8,
       "cat": "strategy",
-      "title": "九号领投AI智能影像公司XbotGo，年增长近4倍",
+      "title": "AI 智能影像公司 XbotGo 获近亿元融资，九号资本领投",
       "title_en": "36氪首发 | 九号领投一家AI智能影像设备公司，在巨头夹缝中年增长近4倍",
       "source": "36氪",
       "url": "https://36kr.com/p/3807831328300549?f=rss",
       "time": "8小时前",
       "published": "2026-05-14T01:30:37+00:00",
-      "summary": "智能体育影像品牌XbotGo（深眸远智）完成近亿元新一轮融资，由九号资本领投，元禾控股、不同资本跟投，老股东零一创投超额跟投。该公司专注于利用AI技术解决青少年体育比赛中的自动拍摄难题。在美国，超过3000万青少年参与专业体育训练，但家长手动拍摄存在距离远、目标小、无法享受比赛等问题。XbotGo的AI智能追踪和拍摄系统，让家长可以沉浸式观看比赛，同时自动生成高质量影像。公司在巨头夹缝中实现年增长近4倍，展现了细分市场的巨大潜力。",
-      "snark": "家长终于可以专心喊‘加油’而不是当人肉三脚架了。"
+      "summary": "智能体育影像品牌 XbotGo（深眸远智）完成近亿元新一轮融资，由九号资本领投，元禾控股、不同资本跟投，老股东零一创投超额跟投。公司聚焦青少年体育赛事自动拍摄与 AI 分析，解决家长在赛场手动拍摄的痛点——远距离、小目标、复杂场面下难以捕捉精彩瞬间。产品通过 AI 视觉追踪和自动构图技术，实现无人化多机位拍摄。美国超 3000 万青少年参与专业体育训练，市场空间广阔。",
+      "snark": "家长终于可以专心喊加油，而不是举着手机当人肉云台了。"
     },
     {
-      "id": 7,
+      "id": 9,
       "cat": "strategy",
-      "title": "前阿里千问负责人林俊旸创业，估值20亿美金",
+      "title": "前阿里千问负责人林俊旸创业，估值约 20 亿美元；贾跃亭转战机器人",
       "title_en": "8点1氪丨林俊旸新公司估值20亿美金；贾跃亭宣布转战机器人业务；网红糖果被发现掺超高剂量伟哥",
       "source": "36氪",
       "url": "https://36kr.com/p/3808362853834502?f=rss",
-      "time": "9小时前",
+      "time": "10小时前",
       "published": "2026-05-13T23:50:37+00:00",
-      "summary": "36氪独家获悉，前阿里千问大模型技术负责人林俊旸已开启创业，新公司估值约20亿美金。其创业方向包括世界模型和具身大脑，已招募数名字节、腾讯和海外背景的成员。目前正在接触红杉中国、高榕创投等投资方进行融资。这一消息标志着国内AI大模型领域的顶级人才继续向创业端流动，世界模型与具身智能的结合成为新的热门赛道，也反映了资本市场对AI前沿技术的高度热情。",
-      "snark": "千问的‘千’是千亿参数，新公司的‘亿’是20亿美金估值，这波不亏。"
+      "summary": "36氪独家获悉，前阿里千问大模型技术负责人林俊旸已启动创业，方向包括世界模型和具身大脑，团队已招募来自字节、腾讯和海外背景的成员，并以约 20 亿美元估值开启融资，接触红杉中国、高榕创投等机构。与此同时，法拉第未来创始人贾跃亭宣布放弃造车，转战机器人业务，引发行业热议。此外，宇树科技已注册多款机器人商标，具身智能赛道持续升温。",
+      "snark": "林俊旸估值 20 亿，贾跃亭转行机器人——一个真做 AI，一个真会画饼。"
     },
     {
-      "id": 8,
+      "id": 10,
       "cat": "tool",
-      "title": "Microsoft Edge Copilot更新：AI可跨标签页提取信息",
+      "title": "Microsoft Edge Copilot 更新：跨标签页信息聚合能力上线",
       "title_en": "Microsoft&#8217;s Edge Copilot update uses AI to pull information from across your tabs",
       "source": "The Verge AI",
       "url": "https://www.theverge.com/tech/930188/microsoft-edge-copilot-ai-tabs",
       "time": "11小时前",
       "published": "2026-05-13T22:04:28+00:00",
-      "summary": "Microsoft Edge浏览器为其Copilot AI助手新增一项强大功能：允许AI从用户所有打开的标签页中提取信息。用户可以在与Copilot对话时，询问关于当前标签页内容的问题、比较不同标签页中的产品、总结多篇文章等。这意味着Copilot不再局限于单一页面，而是能像人一样“扫视”整个浏览会话，提供跨文档的智能分析。该功能显著提升了多任务处理和信息整合的效率，使浏览器从信息容器进化为智能工作台。",
-      "snark": "以后摸鱼更危险了，AI会帮你老板总结你开了多少个招聘网站。",
+      "summary": "Microsoft Edge 浏览器为其 Copilot AI 助手新增跨标签页信息聚合功能。用户在与 Copilot 对话时，可要求其从当前打开的所有标签页中提取信息，例如对比不同商品、总结多篇文章要点、汇总多个页面的数据等。该功能利用 Edge 的标签页上下文理解能力，将分散信息整合为结构化回答，显著提升多任务浏览场景下的信息处理效率。",
+      "snark": "Edge 终于学会了人类技能：同时打开 50 个标签页然后假装自己很忙。",
       "multiSource": [
         "The Verge",
         "The Verge AI"
       ]
     },
     {
-      "id": 9,
+      "id": 11,
       "cat": "tool",
-      "title": "Notion发布开发者平台，变身AI Agent中枢",
+      "title": "Notion 推出开发者平台，将工作区变为 AI Agent 中枢",
       "title_en": "Notion just turned its workspace into a hub for AI agents",
       "source": "TechCrunch",
       "url": "https://techcrunch.com/2026/05/13/notion-just-turned-its-workspace-into-a-hub-for-ai-agents/",
-      "time": "11小时前",
-      "published": "2026-05-13T21:45:09+00:00",
-      "summary": "Notion正式推出其新的开发者平台，允许团队将AI Agent、外部数据源和自定义代码直接集成到工作空间中。此举标志着Notion从笔记和协作工具向“Agent化生产力软件”的深度转型。开发者可以构建连接Notion数据库与外部API的智能工作流，让AI Agent自动执行数据同步、任务分配、信息检索等操作。该平台旨在将Notion打造为团队所有AI能力的统一入口和调度中心，进一步模糊了SaaS工具与AI应用平台之间的界限。",
-      "snark": "Notion终于承认，人类打字太慢，还是让Agent替我们内卷吧。"
-    },
-    {
-      "id": 10,
-      "cat": "strategy",
-      "title": "2026年企业AI治理：员工使用的工具远超政策覆盖",
-      "title_en": "Enterprise AI Governance in 2026: Why the Tools Employees Use Are Ahead of the Policies That Cover Them",
-      "source": "MarkTechPost",
-      "url": "https://www.marktechpost.com/2026/05/13/enterprise-ai-governance-in-2026-why-the-tools-employees-use-are-ahead-of-the-policies-that-cover-them/",
-      "time": "11小时前",
-      "published": "2026-05-13T21:44:37+00:00",
-      "summary": "MarkTechPost发布的一项调研显示，63%的组织尚未制定任何AI治理政策。与此同时，员工正在工作中大量使用各种AI工具，形成所谓的“影子AI”。这些未经公司正式批准和监管的AI应用，已经渗透到企业的技术栈中。报告指出，工具的使用速度远快于政策的制定速度，这给企业带来了数据泄露、合规风险和伦理隐患。文章呼吁企业尽快建立涵盖AI采购、使用、审计和问责的治理框架，否则将面临严重的监管和声誉风险。",
-      "snark": "老板：我们有AI治理政策吗？员工：我们有AI，但没有治理。"
-    },
-    {
-      "id": 11,
-      "cat": "model",
-      "title": "Fastino Labs开源GLiGuard：300M参数安全审查模型媲美大模型",
-      "title_en": "Fastino Labs Open-Sources GLiGuard: A 300M Parameter Safety Moderation Model That Matches or Exceeds Accuracy of Models 23–90x Its Size",
-      "source": "MarkTechPost",
-      "url": "https://www.marktechpost.com/2026/05/13/fastino-labs-open-sources-gliguard-a-300m-parameter-safety-moderation-model-that-matches-or-exceeds-accuracy-of-models-23-90x-its-size/",
       "time": "12小时前",
-      "published": "2026-05-13T20:41:13+00:00",
-      "summary": "Fastino Labs开源了GLiGuard，一个仅有300M参数的安全审查模型。该模型采用编码器架构，而非流行的解码器架构，能够在一个前向传播中同时评估四项安全任务：提示词安全性、越狱策略检测、有害类别分类和拒绝回答检测。尽管参数量极小，但其准确率匹配甚至超过了参数量是其23到90倍的大模型。这证明了针对特定任务设计的小型专用模型，可以在效率和效果上超越通用大模型，为AI安全领域提供了轻量化、可部署的解决方案。",
-      "snark": "大模型：我900亿参数。GLiGuard：我3亿参数，但能打你脸。"
+      "published": "2026-05-13T21:45:09+00:00",
+      "summary": "Notion 发布全新开发者平台，允许团队将 AI Agent、外部数据源和自定义代码直接集成到工作区中。该平台提供 API 接口和 Agent 编排能力，支持构建自动化工作流，如自动整理文档、跨应用数据同步、智能任务分配等。Notion 此举旨在从文档协作工具转型为 Agentic 生产力平台，与微软、Google 等巨头争夺企业 AI 入口。",
+      "snark": "Notion：你的工作区不再是笔记本，而是 AI 的指挥中心。员工：所以我的工位要被 AI 占了吗？"
     },
     {
       "id": 12,
       "cat": "strategy",
-      "title": "马斯克的xAI在密西西比数据中心运行近50台燃气轮机引发诉讼",
-      "title_en": "Musk’s xAI is running nearly 50 gas turbines unchecked at its Mississippi data center",
-      "source": "TechCrunch",
-      "url": "https://techcrunch.com/2026/05/13/musks-xai-is-running-nearly-50-gas-turbines-unchecked-at-its-mississippi-data-center/",
-      "time": "13小时前",
-      "published": "2026-05-13T19:49:42+00:00",
-      "summary": "马斯克的AI公司xAI在其位于密西西比州的Colossus 2数据中心，运行了近50台“移动式”燃气轮机作为电力来源，此举已引发法律诉讼。诉讼方指控xAI将这些燃气轮机作为永久性发电设施使用，但绕过了常规电厂的环境评估和许可要求。随着AI算力需求激增，数据中心能耗问题日益严峻，xAI的做法引发了关于环境监管、能源可持续性和企业责任的激烈争论。这一事件也凸显了AI产业扩张与地方环保法规之间的紧张关系。",
-      "snark": "马斯克：AI需要能源，所以我烧天然气。环保组织：你烧的不是气，是地球的未来。"
+      "title": "2026 企业 AI 治理报告：63% 组织无政策，影子 AI 已渗透",
+      "title_en": "Enterprise AI Governance in 2026: Why the Tools Employees Use Are Ahead of the Policies That Cover Them",
+      "source": "MarkTechPost",
+      "url": "https://www.marktechpost.com/2026/05/13/enterprise-ai-governance-in-2026-why-the-tools-employees-use-are-ahead-of-the-policies-that-cover-them/",
+      "time": "12小时前",
+      "published": "2026-05-13T21:44:37+00:00",
+      "summary": "MarkTechPost 发布的报告显示，63% 的企业尚未制定 AI 治理政策，而员工已在日常工作中大量使用未经授权的 AI 工具（影子 AI）。报告指出，当前工具使用速度远快于政策制定，导致数据泄露、合规风险和模型偏见等问题难以管控。建议企业建立分级分类的 AI 使用规范，部署监控工具识别影子 AI，并加速制定覆盖数据隐私、模型审计和员工培训的综合治理框架。",
+      "snark": "老板：我们 AI 治理很完善。员工：我用 GPT 写周报，老板用 GPT 批周报。"
     }
   ],
   "stats": {
     "total": 12,
-    "model_count": 2,
+    "model_count": 1,
     "strategy_count": 6,
-    "tool_count": 4
+    "tool_count": 5
   }
 }
