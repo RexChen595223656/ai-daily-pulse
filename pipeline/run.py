@@ -456,6 +456,27 @@ def push_wechat(output: dict):
         log.warning(f"WeChat push error: {e}")
 
 
+def auto_deploy():
+    """Run deploy.sh to sync to GitHub Pages (non-blocking, best-effort)."""
+    deploy_script = ROOT / "deploy.sh"
+    if not deploy_script.exists():
+        log.info("Deploy script not found, skipping auto-deploy")
+        return
+    try:
+        result = subprocess.run(
+            ["bash", str(deploy_script)],
+            cwd=str(ROOT),
+            capture_output=True,
+            timeout=60,
+        )
+        if result.returncode == 0:
+            log.info("Auto-deploy OK")
+        else:
+            log.warning(f"Auto-deploy failed (exit {result.returncode}): {result.stderr.decode()[:200]}")
+    except Exception as e:
+        log.warning(f"Auto-deploy error: {e}")
+
+
 # ============================================================
 # Helpers
 # ============================================================
@@ -561,6 +582,9 @@ def main():
 
         # Push to WeChat
         push_wechat(output)
+
+        # Auto deploy to GitHub Pages
+        auto_deploy()
 
     # Print summary
     log.info("=" * 50)
