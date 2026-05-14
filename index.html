@@ -1009,7 +1009,9 @@ try{
   const resp=await fetch('data/daily/index.json');
   if(resp.ok){
     const index=await resp.json();
-    dates=Object.values(index).sort((a,b)=>b.date.localeCompare(a.date));
+    // Support both array format ["2026-04-15",...] and object format
+    if(Array.isArray(index)){dates=index.sort().reverse();}
+    else{dates=Object.values(index).sort((a,b)=>b.date.localeCompare(a.date));}
   }
 }catch(e){console.warn('History index not available:',e.message);}
 if(dates.length===0){
