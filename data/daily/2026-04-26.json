@@ -1,0 +1,161 @@
+{
+  "date": "2026-04-26",
+  "highlight": "AI 音乐生成引发版权争议，唱片公司联合起诉 AI 训练数据侵权",
+  "articles": [
+    {
+      "id": 1,
+      "cat": "model",
+      "title": "NVIDIA 发布 B300 GPU：算力翻倍，AI 训练市场进一步垄断",
+      "title_en": "",
+      "source": "The Verge",
+      "url": "https://example.com/ai-news/6195",
+      "time": "18天前",
+      "published": "2026-04-26T08:40:00+08:00",
+      "summary": "这是一条关于「NVIDIA 发布 B300 GPU：算力翻倍，AI 训练市场进一步垄断」的详细报道。该事件在 AI 行业引发广泛关注，多位业内人士表示这将深刻影响行业格局。更多细节请查看原文。",
+      "snark": "AI圈日常：今天你发模型，明天我刷榜。"
+    },
+    {
+      "id": 2,
+      "cat": "model",
+      "title": "AutoGPT 3.0 发布：自主 AI Agent 可完成复杂商业任务",
+      "title_en": "",
+      "source": "TechCrunch",
+      "url": "https://example.com/ai-news/1313",
+      "time": "18天前",
+      "published": "2026-04-26T21:26:00+08:00",
+      "summary": "这是一条关于「AutoGPT 3.0 发布：自主 AI Agent 可完成复杂商业任务」的详细报道。该事件在 AI 行业引发广泛关注，多位业内人士表示这将深刻影响行业格局。更多细节请查看原文。",
+      "snark": "AI圈日常：今天你发模型，明天我刷榜。"
+    },
+    {
+      "id": 3,
+      "cat": "model",
+      "title": "Adobe Firefly 4 发布：AI 创意工具全面整合 Photoshop",
+      "title_en": "",
+      "source": "TechCrunch",
+      "url": "https://example.com/ai-news/7277",
+      "time": "18天前",
+      "published": "2026-04-26T17:04:00+08:00",
+      "summary": "这是一条关于「Adobe Firefly 4 发布：AI 创意工具全面整合 Photoshop」的详细报道。该事件在 AI 行业引发广泛关注，多位业内人士表示这将深刻影响行业格局。更多细节请查看原文。",
+      "snark": "这条新闻让同行们集体沉默了3秒，然后继续卷。"
+    },
+    {
+      "id": 4,
+      "cat": "model",
+      "title": "Hugging Face 推出开源推理框架，性能比肩 GPT-4",
+      "title_en": "",
+      "source": "MIT Tech Review",
+      "url": "https://example.com/ai-news/3075",
+      "time": "18天前",
+      "published": "2026-04-26T16:04:00+08:00",
+      "summary": "这是一条关于「Hugging Face 推出开源推理框架，性能比肩 GPT-4」的详细报道。该事件在 AI 行业引发广泛关注，多位业内人士表示这将深刻影响行业格局。更多细节请查看原文。",
+      "snark": "编辑部：这条我们也不知道怎么评价。"
+    },
+    {
+      "id": 5,
+      "cat": "model",
+      "title": "Runway Gen-5 发布：视频生成支持实时物理模拟",
+      "title_en": "",
+      "source": "AI News",
+      "url": "https://example.com/ai-news/8029",
+      "time": "18天前",
+      "published": "2026-04-26T11:09:00+08:00",
+      "summary": "这是一条关于「Runway Gen-5 发布：视频生成支持实时物理模拟」的详细报道。该事件在 AI 行业引发广泛关注，多位业内人士表示这将深刻影响行业格局。更多细节请查看原文。",
+      "snark": "这条新闻让同行们集体沉默了3秒，然后继续卷。"
+    },
+    {
+      "id": 6,
+      "cat": "strategy",
+      "title": "Zapier AI 发布企业自动化 Agent：跨应用工作流零代码搭建",
+      "title_en": "",
+      "source": "MIT Tech Review",
+      "url": "https://example.com/ai-news/4991",
+      "time": "18天前",
+      "published": "2026-04-26T07:04:00+08:00",
+      "summary": "这是一条关于「Zapier AI 发布企业自动化 Agent：跨应用工作流零代码搭建」的详细报道。该事件在 AI 行业引发广泛关注，多位业内人士表示这将深刻影响行业格局。更多细节请查看原文。",
+      "snark": "又双叒叕一个「里程碑」，今年第几个了？"
+    },
+    {
+      "id": 7,
+      "cat": "strategy",
+      "title": "Gemini 2.5 Ultra 发布，多模态基准测试全面领先",
+      "title_en": "",
+      "source": "少数派",
+      "url": "https://example.com/ai-news/9277",
+      "time": "18天前",
+      "published": "2026-04-26T22:52:00+08:00",
+      "summary": "这是一条关于「Gemini 2.5 Ultra 发布，多模态基准测试全面领先」的详细报道。该事件在 AI 行业引发广泛关注，多位业内人士表示这将深刻影响行业格局。更多细节请查看原文。",
+      "snark": "AI圈新闻：今天又是核聚变级别的一天。"
+    },
+    {
+      "id": 8,
+      "cat": "strategy",
+      "title": "Mistral Large 3 发布，欧洲 AI 崛起新标志",
+      "title_en": "",
+      "source": "AI News",
+      "url": "https://example.com/ai-news/6934",
+      "time": "18天前",
+      "published": "2026-04-26T13:51:00+08:00",
+      "summary": "这是一条关于「Mistral Large 3 发布，欧洲 AI 崛起新标志」的详细报道。该事件在 AI 行业引发广泛关注，多位业内人士表示这将深刻影响行业格局。更多细节请查看原文。",
+      "snark": "编辑部：这条我们也不知道怎么评价。"
+    },
+    {
+      "id": 9,
+      "cat": "strategy",
+      "title": "Cursor 2.0 发布：AI 原生 IDE 支持全栈项目自动生成",
+      "title_en": "",
+      "source": "MarkTechPost",
+      "url": "https://example.com/ai-news/1561",
+      "time": "18天前",
+      "published": "2026-04-26T10:57:00+08:00",
+      "summary": "这是一条关于「Cursor 2.0 发布：AI 原生 IDE 支持全栈项目自动生成」的详细报道。该事件在 AI 行业引发广泛关注，多位业内人士表示这将深刻影响行业格局。更多细节请查看原文。",
+      "snark": "这条新闻让同行们集体沉默了3秒，然后继续卷。"
+    },
+    {
+      "id": 10,
+      "cat": "tool",
+      "title": "Cursor 2.0 发布：AI 原生 IDE 支持全栈项目自动生成",
+      "title_en": "",
+      "source": "Synced Review",
+      "url": "https://example.com/ai-news/7164",
+      "time": "18天前",
+      "published": "2026-04-26T19:14:00+08:00",
+      "summary": "这是一条关于「Cursor 2.0 发布：AI 原生 IDE 支持全栈项目自动生成」的详细报道。该事件在 AI 行业引发广泛关注，多位业内人士表示这将深刻影响行业格局。更多细节请查看原文。",
+      "snark": "这条新闻让同行们集体沉默了3秒，然后继续卷。"
+    },
+    {
+      "id": 11,
+      "cat": "tool",
+      "title": "Grok-4 发布：xAI 称推理能力业界第一",
+      "title_en": "",
+      "source": "The Verge",
+      "url": "https://example.com/ai-news/2828",
+      "time": "18天前",
+      "published": "2026-04-26T06:21:00+08:00",
+      "summary": "这是一条关于「Grok-4 发布：xAI 称推理能力业界第一」的详细报道。该事件在 AI 行业引发广泛关注，多位业内人士表示这将深刻影响行业格局。更多细节请查看原文。",
+      "snark": "编辑部：这条我们也不知道怎么评价。"
+    },
+    {
+      "id": 12,
+      "cat": "tool",
+      "title": "Stable Diffusion 4 发布，文生图进入 8K 时代",
+      "title_en": "",
+      "source": "少数派",
+      "url": "https://example.com/ai-news/2499",
+      "time": "18天前",
+      "published": "2026-04-26T20:59:00+08:00",
+      "summary": "这是一条关于「Stable Diffusion 4 发布，文生图进入 8K 时代」的详细报道。该事件在 AI 行业引发广泛关注，多位业内人士表示这将深刻影响行业格局。更多细节请查看原文。",
+      "snark": "AI圈日常：今天你发模型，明天我刷榜。"
+    }
+  ],
+  "stats": {
+    "total": 12,
+    "model_count": 5,
+    "strategy_count": 4,
+    "tool_count": 3
+  },
+  "fun": {
+    "lucky": "Midjourney V8",
+    "advice": "宜：视觉创意\n忌：只看文本模型",
+    "joke": "2026 年的 AI 领域三大谎言：\n1.「我们的模型是开源的」\n2.「AGI 还需要 3 年」\n3.「这个 bug 我会很快修好」"
+  }
+}

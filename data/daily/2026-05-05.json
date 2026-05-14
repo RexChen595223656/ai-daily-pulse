@@ -1,0 +1,161 @@
+{
+  "date": "2026-05-05",
+  "highlight": "AI 医疗影像获批 FDA 三类认证，辅助诊断从试点走向大规模部署",
+  "articles": [
+    {
+      "id": 1,
+      "cat": "model",
+      "title": "AutoGPT 3.0 发布：自主 AI Agent 可完成复杂商业任务",
+      "title_en": "",
+      "source": "MIT Tech Review",
+      "url": "https://example.com/ai-news/1945",
+      "time": "9天前",
+      "published": "2026-05-05T16:27:00+08:00",
+      "summary": "这是一条关于「AutoGPT 3.0 发布：自主 AI Agent 可完成复杂商业任务」的详细报道。该事件在 AI 行业引发广泛关注，多位业内人士表示这将深刻影响行业格局。更多细节请查看原文。",
+      "snark": "又双叒叕一个「里程碑」，今年第几个了？"
+    },
+    {
+      "id": 2,
+      "cat": "model",
+      "title": "Adobe Firefly 4 发布：AI 创意工具全面整合 Photoshop",
+      "title_en": "",
+      "source": "DeepMind Blog",
+      "url": "https://example.com/ai-news/8861",
+      "time": "9天前",
+      "published": "2026-05-05T14:05:00+08:00",
+      "summary": "这是一条关于「Adobe Firefly 4 发布：AI 创意工具全面整合 Photoshop」的详细报道。该事件在 AI 行业引发广泛关注，多位业内人士表示这将深刻影响行业格局。更多细节请查看原文。",
+      "snark": "AI圈新闻：今天又是核聚变级别的一天。"
+    },
+    {
+      "id": 3,
+      "cat": "model",
+      "title": "Stable Diffusion 4 发布，文生图进入 8K 时代",
+      "title_en": "",
+      "source": "Hacker News",
+      "url": "https://example.com/ai-news/1986",
+      "time": "9天前",
+      "published": "2026-05-05T10:36:00+08:00",
+      "summary": "这是一条关于「Stable Diffusion 4 发布，文生图进入 8K 时代」的详细报道。该事件在 AI 行业引发广泛关注，多位业内人士表示这将深刻影响行业格局。更多细节请查看原文。",
+      "snark": "又双叒叕一个「里程碑」，今年第几个了？"
+    },
+    {
+      "id": 4,
+      "cat": "strategy",
+      "title": "OpenAI 完成 400 亿美元新一轮融资，估值突破 3000 亿",
+      "title_en": "",
+      "source": "DeepMind Blog",
+      "url": "https://example.com/ai-news/2782",
+      "time": "9天前",
+      "published": "2026-05-05T17:57:00+08:00",
+      "summary": "这是一条关于「OpenAI 完成 400 亿美元新一轮融资，估值突破 3000 亿」的详细报道。该事件在 AI 行业引发广泛关注，多位业内人士表示这将深刻影响行业格局。更多细节请查看原文。",
+      "snark": "AI圈日常：今天你发模型，明天我刷榜。"
+    },
+    {
+      "id": 5,
+      "cat": "strategy",
+      "title": "GPT-5 发布首个公开预览版，推理能力大幅提升",
+      "title_en": "",
+      "source": "VentureBeat",
+      "url": "https://example.com/ai-news/9725",
+      "time": "9天前",
+      "published": "2026-05-05T20:01:00+08:00",
+      "summary": "这是一条关于「GPT-5 发布首个公开预览版，推理能力大幅提升」的详细报道。该事件在 AI 行业引发广泛关注，多位业内人士表示这将深刻影响行业格局。更多细节请查看原文。",
+      "snark": "AI圈日常：今天你发模型，明天我刷榜。"
+    },
+    {
+      "id": 6,
+      "cat": "strategy",
+      "title": "Notion AI 3.0 发布：AI 原生工作空间，Agent 可自主完成任务",
+      "title_en": "",
+      "source": "OpenAI Blog",
+      "url": "https://example.com/ai-news/2700",
+      "time": "9天前",
+      "published": "2026-05-05T15:50:00+08:00",
+      "summary": "这是一条关于「Notion AI 3.0 发布：AI 原生工作空间，Agent 可自主完成任务」的详细报道。该事件在 AI 行业引发广泛关注，多位业内人士表示这将深刻影响行业格局。更多细节请查看原文。",
+      "snark": "又双叒叕一个「里程碑」，今年第几个了？"
+    },
+    {
+      "id": 7,
+      "cat": "strategy",
+      "title": "字节跳动成立万亿参数大模型团队，目标 2027 年赶超 GPT-6",
+      "title_en": "",
+      "source": "VentureBeat",
+      "url": "https://example.com/ai-news/6487",
+      "time": "9天前",
+      "published": "2026-05-05T16:10:00+08:00",
+      "summary": "这是一条关于「字节跳动成立万亿参数大模型团队，目标 2027 年赶超 GPT-6」的详细报道。该事件在 AI 行业引发广泛关注，多位业内人士表示这将深刻影响行业格局。更多细节请查看原文。",
+      "snark": "AI圈日常：今天你发模型，明天我刷榜。"
+    },
+    {
+      "id": 8,
+      "cat": "strategy",
+      "title": "Anthropic 获 Google 追加 20 亿美元投资，总融资额突破 100 亿",
+      "title_en": "",
+      "source": "36氪",
+      "url": "https://example.com/ai-news/8459",
+      "time": "9天前",
+      "published": "2026-05-05T19:57:00+08:00",
+      "summary": "这是一条关于「Anthropic 获 Google 追加 20 亿美元投资，总融资额突破 100 亿」的详细报道。该事件在 AI 行业引发广泛关注，多位业内人士表示这将深刻影响行业格局。更多细节请查看原文。",
+      "snark": "编辑部：这条我们也不知道怎么评价。"
+    },
+    {
+      "id": 9,
+      "cat": "tool",
+      "title": "Figma AI 2.0：文本生成设计稿，设计师角色被重新定义",
+      "title_en": "",
+      "source": "TechCrunch",
+      "url": "https://example.com/ai-news/3129",
+      "time": "9天前",
+      "published": "2026-05-05T14:06:00+08:00",
+      "summary": "这是一条关于「Figma AI 2.0：文本生成设计稿，设计师角色被重新定义」的详细报道。该事件在 AI 行业引发广泛关注，多位业内人士表示这将深刻影响行业格局。更多细节请查看原文。",
+      "snark": "又双叒叕一个「里程碑」，今年第几个了？"
+    },
+    {
+      "id": 10,
+      "cat": "tool",
+      "title": "Zapier AI 发布企业自动化 Agent：跨应用工作流零代码搭建",
+      "title_en": "",
+      "source": "36氪",
+      "url": "https://example.com/ai-news/7956",
+      "time": "9天前",
+      "published": "2026-05-05T21:39:00+08:00",
+      "summary": "这是一条关于「Zapier AI 发布企业自动化 Agent：跨应用工作流零代码搭建」的详细报道。该事件在 AI 行业引发广泛关注，多位业内人士表示这将深刻影响行业格局。更多细节请查看原文。",
+      "snark": "这条新闻让同行们集体沉默了3秒，然后继续卷。"
+    },
+    {
+      "id": 11,
+      "cat": "tool",
+      "title": "Kimi 2.5 发布：月之暗面称长文本理解能力业界领先",
+      "title_en": "",
+      "source": "TechCrunch",
+      "url": "https://example.com/ai-news/4583",
+      "time": "9天前",
+      "published": "2026-05-05T17:16:00+08:00",
+      "summary": "这是一条关于「Kimi 2.5 发布：月之暗面称长文本理解能力业界领先」的详细报道。该事件在 AI 行业引发广泛关注，多位业内人士表示这将深刻影响行业格局。更多细节请查看原文。",
+      "snark": "又双叒叕一个「里程碑」，今年第几个了？"
+    },
+    {
+      "id": 12,
+      "cat": "tool",
+      "title": "Nous Research 发布 Hermes 4：开源指令遵循模型新标杆",
+      "title_en": "",
+      "source": "TechCrunch",
+      "url": "https://example.com/ai-news/3897",
+      "time": "9天前",
+      "published": "2026-05-05T19:25:00+08:00",
+      "summary": "这是一条关于「Nous Research 发布 Hermes 4：开源指令遵循模型新标杆」的详细报道。该事件在 AI 行业引发广泛关注，多位业内人士表示这将深刻影响行业格局。更多细节请查看原文。",
+      "snark": "AI圈新闻：今天又是核聚变级别的一天。"
+    }
+  ],
+  "stats": {
+    "total": 12,
+    "model_count": 3,
+    "strategy_count": 5,
+    "tool_count": 4
+  },
+  "fun": {
+    "lucky": "GPT-5",
+    "advice": "宜：尝试新模型\n忌：跟老板说 AI 三个月上线",
+    "joke": "问：一个 AI 走进酒吧，点了什么？\n答：一杯 transformer-ade，不加糖，但要 1750 亿个参数。"
+  }
+}
