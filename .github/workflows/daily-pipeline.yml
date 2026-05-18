@@ -2,16 +2,17 @@ name: AI Daily Pipeline
 
 on:
   schedule:
-    # UTC 00:00 = 北京时间 08:00
     - cron: '0 0 * * *'
-  workflow_dispatch:  # 手动触发
+  workflow_dispatch:
+
+permissions:
+  contents: write
+  pages: write
 
 jobs:
   pipeline:
     runs-on: ubuntu-latest
     timeout-minutes: 10
-    permissions:
-      contents: write
 
     steps:
       - name: Checkout
@@ -32,25 +33,22 @@ jobs:
           AI_DAILY_SERVERCHAN_KEY: ${{ secrets.AI_DAILY_SERVERCHAN_KEY }}
         run: python3 pipeline/run.py
 
-      - name: Assemble publish directory
-        run: |
-          mkdir -p publish/data/daily
-          cp prototype/index.html publish/
-          cp data/daily/latest.json publish/data/daily/
-          cp data/daily/index.json publish/data/daily/
-          cp data/daily/20*.json publish/data/daily/ 2>/dev/null || true
-
       - name: Deploy to GitHub Pages
         env:
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
-          set -x
-          cd publish
+          set -e
+          mkdir -p deploy-out/data/daily
+          cp prototype/index.html deploy-out/
+          cp data/daily/latest.json deploy-out/data/daily/
+          cp data/daily/index.json deploy-out/data/daily/
+          cp data/daily/20*.json deploy-out/data/daily/ 2>/dev/null || true
+
+          cd deploy-out
           git init
-          git checkout -b gh-pages
           git config user.name 'github-actions[bot]'
           git config user.email 'github-actions[bot]@users.noreply.github.com'
           git add .
           git commit -m "deploy: $(TZ='Asia/Shanghai' date '+%Y-%m-%d %H:%M')"
-          git remote add origin "https://x-access-token:${GH_TOKEN}@github.com/${{ github.repository }}.git"
-          git push -f origin gh-pages
+          git branch -m gh-pages
+          git push "https://x-access-token:${GH_TOKEN}@github.com/${{ github.repository }}.git" gh-pages -f
