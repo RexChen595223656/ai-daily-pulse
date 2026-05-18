@@ -731,6 +731,24 @@ loadPipelineData().then(d=>{
     applyFunData(d);
   }
 });
+  // Async: fetch real trend data from AA API
+  fetchRealTrendData().then(real=>{
+    if(real){
+      ['llm','image','video'].forEach(mod=>{
+        if(real[mod]&&real[mod].perf&&real[mod].perf.length>0){
+          ['perf','price','speed'].forEach(sub=>{
+            if(real[mod][sub]&&real[mod][sub].length>0) MOCK_TREND[mod][sub]=real[mod][sub];
+          });
+        }
+      });
+      if(real.speech) MOCK_TREND.speech=real.speech;
+      DATA_CONFIG.lastUpdated=new Date().toISOString();
+      document.getElementById('cacheDate').textContent=new Date().toLocaleString('zh-CN');
+      document.getElementById('cacheNotice').classList.remove('hidden');
+      renderTrendSnaps();
+      renderTrends();
+    }
+  });
 }catch(e){console.error('Init error',e);document.getElementById('bpOverlay').innerHTML='<div style="color:var(--magenta);text-align:center;padding:40px;">加载失败，请刷新页面<br><small>'+e.message+'</small></div>';}
 }
 
