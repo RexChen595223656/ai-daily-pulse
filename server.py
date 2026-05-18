@@ -22,7 +22,9 @@ LOCK = threading.Lock()
 _pipeline_running = False
 
 # Simple token to protect refresh endpoint (set via env or use default)
-REFRESH_TOKEN = os.environ.get("AI_DAILY_REFRESH_TOKEN", "zhimai-refresh-2026")
+REFRESH_TOKEN = os.environ.get("AI_DAILY_REFRESH_TOKEN", "")
+if not REFRESH_TOKEN:
+    print("[warn] AI_DAILY_REFRESH_TOKEN not set — refresh endpoint will reject all requests")
 
 
 class AIHandler(SimpleHTTPRequestHandler):

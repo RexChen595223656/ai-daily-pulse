@@ -65,7 +65,8 @@ deploy.sh → gh-pages 分支 → GitHub Pages
 # 本地开发服务器（带 token 保护的刷新）
 python3 server.py
 # → http://localhost:8080/prototype/index.html
-# 手动刷新: GET /api/refresh?token=zhimai-refresh-2026
+# 手动刷新: GET /api/refresh?token=<TOKEN>
+#   Token 通过环境变量 AI_DAILY_REFRESH_TOKEN 设置
 # 状态查询: GET /api/status
 
 # 完整流水线（手动，含自动部署）
@@ -79,6 +80,12 @@ python3 pipeline/run.py --provider claude
 
 # 一键部署（手动触发）
 bash deploy.sh
+
+# 新环境初始化
+bash setup.sh
+
+# 单元测试
+python3 -m pytest tests/ -v
 ```
 
 ## 定时调度

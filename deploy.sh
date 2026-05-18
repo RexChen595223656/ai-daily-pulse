@@ -26,8 +26,8 @@ done
 # 3. Push gh-pages (deploy)
 echo "[3/4] Pushing gh-pages..."
 cd "$DEPLOY_DIR"
-if ! git diff --quiet || ! git diff --cached --quiet || [ -n "$(git ls-files --others --exclude-standard)" ]; then
-  git add -A
+if ! git diff --quiet || ! git diff --cached --quiet || [ -n "$(git ls-files --others --exclude-standard data/daily/)" ]; then
+  git add index.html data/daily/
   git commit -m "部署: $(date '+%Y-%m-%d %H:%M')" || true
   git push origin gh-pages
   echo "  gh-pages ✓"
@@ -38,8 +38,8 @@ fi
 # 4. Push source (main)
 echo "[4/4] Pushing source..."
 cd "$ROOT"
-if ! git diff --quiet || ! git diff --cached --quiet || [ -n "$(git ls-files --others --exclude-standard)" ]; then
-  git add -A
+if ! git diff --quiet || ! git diff --cached --quiet || [ -n "$(git ls-files --others --exclude-standard pipeline/ prototype/ worker/ docs/ data/ *.py *.sh)" ]; then
+  git add pipeline/ prototype/ worker/ docs/ data/ server.py deploy.sh .gitignore CLAUDE.md
   git commit -m "更新: $(date '+%Y-%m-%d %H:%M')" || true
   git push origin main
   echo "  main ✓"

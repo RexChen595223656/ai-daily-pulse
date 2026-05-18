@@ -2,7 +2,11 @@
 
 import os
 from dataclasses import dataclass, field
+from datetime import timedelta, timezone
 from typing import Optional
+
+# Beijing timezone (UTC+8)
+BEIJING_TZ = timezone(timedelta(hours=8))
 
 @dataclass
 class Source:
@@ -79,7 +83,7 @@ DEEPSEEK_BASE_URL = "https://api.deepseek.com/v1"
 CLAUDE_MODEL = "claude-sonnet-4-6"
 
 # Time window: articles published within last N hours
-TIME_WINDOW_HOURS = 24
+TIME_WINDOW_HOURS = 16
 
 # Max articles per source
 MAX_PER_SOURCE = 10

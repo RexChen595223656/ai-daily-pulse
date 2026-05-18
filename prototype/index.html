@@ -4,8 +4,8 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>智脉 - AI 日报 · 今日脉搏</title>
-<script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.0/dist/chart.umd.min.js"></script>
-<script src="https://cdn.jsdelivr.net/npm/html2canvas@1.4.1/dist/html2canvas.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.0/dist/chart.umd.min.js" integrity="sha384-e6nUZLBkQ86NJ6TVVKAeSaK8jWa3NhkYWZFomE39AvDbQWeie9PlQqM3pmYW5d1g" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/html2canvas@1.4.1/dist/html2canvas.min.js" integrity="sha384-ZZ1pncU3bQe8y31yfZdMFdSpttDoPmOZg2wguVK9almUodir1PghgT0eY7Mrty8H" crossorigin="anonymous"></script>
 <style>
 /* ============================================================
    HUD TERMINAL — Sci-Fi Monitoring Dashboard
@@ -490,7 +490,7 @@ body.light::after{background:none}
 <script>
 // ===== Constants =====
 const CAT={MODEL:'model',STRATEGY:'strategy',TOOL:'tool'};
-const CAT_LABELS={[CAT.MODEL]:'新模型',[CAT.STRATEGY]:'大厂战略',[CAT.TOOL]:'工具推荐'};
+const CAT_LABELS={[CAT.MODEL]:'新模型',[CAT.STRATEGY]:'大厂战略',[CAT.TOOL]:'工具推荐',policy:'政策监管'};
 const TREND={PERF:'perf',PRICE:'price',SPEED:'speed'};
 const MODALITY={LLM:'llm',IMAGE:'image',SPEECH:'speech',VIDEO:'video'};
 
@@ -565,20 +565,10 @@ function buildSummary(){
 let STRUCTURED_SUMMARY=[];
 
 // ===== Mock Data =====
-const MOCK_NEWS=[{id:1,cat:CAT.STRATEGY,title:'五角大楼扩大 AI 供应商名单，重新评估 Anthropic 国防角色',source:'Bloomberg',time:'2天前',summary:'美国国防部与微软、Reflection AI、Amazon 和 NVIDIA 签署新协议，这些公司的 AI 产品可用于机密军事行动。同时，五角大楼正在重新评估 Anthropic 在国防 AI 供应链中的角色，安全性和军事适用性的平衡成为核心考量。此举标志着 AI 军事化应用进入新阶段。',url:'https://www.bloomberg.com/technology',snark:'五角大楼：AI 军备竞赛已开始。各国政府：默默打开采购网站。'},
-{id:2,cat:CAT.STRATEGY,title:'Bain：Agentic AI 将催生 1000 亿美元 SaaS 市场',source:'Bain & Company',time:'3天前',summary:'贝恩公司发布报告，预计到 2030 年 Agentic AI 将在美国催生 1000 亿美元的 SaaS 市场。报告指出企业系统中大量"协调工作"可被 AI Agent 自动化，包括跨部门审批、供应链协同和客服路由等。这是贝恩软件行业五部曲报告的第二篇，也是迄今对 Agentic AI 市场规模最激进的预测。',url:'https://www.bain.com/insights/',snark:'1000 亿美元市场？VC：我的 checkbook 在哪里？'},
-{id:3,cat:CAT.MODEL,title:'Hugging Face 出现伪装 OpenAI 的恶意模型，下载量达 24 万',source:'TechCrunch',time:'2天前',summary:'AI 安全公司 HiddenLayer 披露，Hugging Face 上出现冒充 OpenAI 官方发布的恶意仓库，携带信息窃取木马，移除前累计约 24.4 万次下载。攻击者利用社区对 OpenAI 品牌的信任进行供应链攻击。事件暴露了 AI 模型托管平台安全审查机制的严重不足，社区呼吁引入更严格的发布验证流程。',url:'https://techcrunch.com/category/artificial-intelligence/',multiSource:['TechCrunch','HiddenLayer'],snark:'下载 OpenAI 模型？小心下到的不是权重，是木马。'},
-{id:4,cat:CAT.MODEL,title:'Needle：将 Gemini 工具调用能力蒸馏进 26M 参数小模型',source:'GitHub',time:'1天前',summary:'开发者在 HN 展示 Needle 项目，成功将 Google Gemini 的工具调用能力蒸馏到仅有 26M 参数的小模型中，可在边缘设备运行并支持结构化函数调用输出。项目已在 GitHub 开源，引发了大模型能力蒸馏到小模型的技术可行性热议，被视为模型小型化趋势的又一案例。',url:'https://github.com/cactus-compute/needle',snark:'26M 参数就能调用工具？大模型厂商：我们的护城河在蒸发。'},
-{id:5,cat:CAT.TOOL,title:'Laserfiche 发布自然语言 AI Agent，支持企业合规工作流',source:'VentureBeat',time:'2天前',summary:'企业内容管理平台 Laserfiche 推出 AI Agent 功能，用户可通过自然语言指令完成文档管理、审批流程和合规检查。AI 助手在内建安全规则和合规框架下运行，确保敏感数据不泄露。CEO Karl Chan 表示这是企业级 AI 从"助手"到"代理"的关键转折。',url:'https://venturebeat.com/category/ai/',snark:'终于有个 AI 不是用来聊天的，是用来干活的。'},
-{id:6,cat:CAT.TOOL,title:'RingCentral AI 前台接入 Shopify、Calendly、WhatsApp',source:'TechCrunch',time:'4天前',summary:'企业通讯平台 RingCentral 扩展 AI Receptionist 产品，新增 Shopify、Calendly 和 WhatsApp 集成。AI 前台现在不仅能接电话，还可处理电商订单查询、预约日程和 WhatsApp 客服对话。公司试图将产品从基础的来电应答推向更复杂的客户服务自动化，SMB 市场反响积极。',url:'https://techcrunch.com/category/artificial-intelligence/',snark:'AI 前台已上岗，人类前台：我该转岗做 AI 训练师了吗？'},
-{id:7,cat:CAT.STRATEGY,title:'AI 正在缓解英国 NHS 医疗系统压力，影像诊断效率提升 40%',source:'BBC',time:'5天前',summary:'NHS England 引入 AI 技术应对 725 万人候诊积压。新政策推动 AI 辅助影像诊断、自动化分诊和智能排班等应用。初步数据显示 AI 可将部分影像分析时间缩短 40%，让放射科医生更专注复杂病例。但医疗 AI 的数据隐私和误诊责任归属问题仍在争议中，监管框架尚待完善。',url:'https://www.bbc.com/news/technology',snark:'AI：我帮你看病。医生：太好了。AI：但你得先排 3 个月队。'},
-{id:8,cat:CAT.STRATEGY,title:'分析：美国在 AI 商业化领域全面领先，但格局可能在 5 年内改变',source:'The Verge',time:'1天前',summary:'一篇引发热议的分析指出，虽然多国在 AI 基础研究上并驾齐驱，但美国在 AI 商业化落地方面遥遥领先——从芯片/云基础设施、模型 API 平台到应用产品全栈覆盖。但欧盟的监管框架和中国的大规模产业化可能在 5 年内改变格局，尤其是在端侧 AI 和工业应用领域。',url:'https://www.theverge.com/ai-artificial-intelligence',snark:'美国：我们 AI 商业化最强。中国：我们产业化最快。欧洲：我们监管最好。'},
-{id:9,cat:CAT.TOOL,title:'Physical AI 大会硅谷开幕：机器人+自主 AI 走向主流',source:'Forbes',time:'1天前',summary:'Physical AI Conference 将于 5 月在硅谷开幕，汇聚全球机器人、自主系统和物理 AI 领域的工程师与先驱。大会聚焦 AI 智能转化为物理行动的落地场景——工厂自主机器人、自动驾驶配送、农业无人机、建筑自动化。Physical AI Expo North America 同期举办，预计吸引超 3000 名从业者。',url:'https://www.forbes.com/ai/',snark:'AI 终于不只在屏幕上聊天了，开始抢体力活儿的饭碗。'},
-{id:10,cat:CAT.STRATEGY,title:'JBS Dev 专家：AI 落地真正瓶颈不是模型能力，是数据质量与成本',source:'Forbes',time:'2天前',summary:'JBS Dev 总裁 Joe Rose 指出一个行业迷思：企业不需要等数据完美后才启动 AI 工作负载。"AI 系统本身擅长处理不完美数据，真正的最后一公里问题是成本可持续性。"他建议采用渐进式策略——小规模试点验证 ROI，再逐步扩大 AI 覆盖范围，避免一次性大投入带来的风险。',url:'https://www.forbes.com/ai/',snark:'"你的数据不完美。" AI："没关系，我也不是完美的。"'}];
+const MOCK_NEWS=[];  // Placeholder — replaced by pipeline data or empty state
 
 const MOCK_TREND={llm:{perf:[{model:'o3-mini',org:'OpenAI',intelligence:62.9,coding:55.8,math:87.2,reasoning:79.1},{model:'GPT-5',org:'OpenAI',intelligence:61.5,coding:58.3,math:82.1,reasoning:76.8},{model:'Claude 4.7',org:'Anthropic',intelligence:60.2,coding:54.1,math:85.0,reasoning:78.2},{model:'Gemini 2.5 Pro',org:'Google',intelligence:58.7,coding:52.6,math:80.4,reasoning:74.5},{model:'Llama 4 405B',org:'Meta',intelligence:56.3,coding:49.8,math:77.6,reasoning:71.2},{model:'Mistral Large 2',org:'Mistral',intelligence:53.1,coding:47.2,math:72.5,reasoning:68.4},{model:'Qwen 3',org:'Alibaba',intelligence:50.8,coding:44.9,math:70.3,reasoning:65.7},{model:'Claude 4.6',org:'Anthropic',intelligence:58.4,coding:52.0,math:82.3,reasoning:75.9},{model:'GPT-4.5',org:'OpenAI',intelligence:55.2,coding:48.5,math:76.1,reasoning:70.3},{model:'DeepSeek V3',org:'DeepSeek',intelligence:54.6,coding:50.1,math:74.8,reasoning:68.9}],price:[{model:'GPT-5',org:'OpenAI',input:2.50,output:10.00,blended:4.375},{model:'o3-mini',org:'OpenAI',input:1.10,output:4.40,blended:1.925},{model:'Claude 4.7',org:'Anthropic',input:3.00,output:15.00,blended:6.00},{model:'Gemini 2.5 Pro',org:'Google',input:1.25,output:5.00,blended:2.19},{model:'Claude 4.6',org:'Anthropic',input:3.00,output:15.00,blended:6.00},{model:'Llama 4 405B',org:'Meta',input:0.80,output:3.20,blended:1.40},{model:'Mistral Large 2',org:'Mistral',input:1.40,output:5.60,blended:2.45},{model:'Qwen 3',org:'Alibaba',input:0.50,output:2.00,blended:0.875},{model:'GPT-4.5',org:'OpenAI',input:2.50,output:10.00,blended:4.375},{model:'DeepSeek V3',org:'DeepSeek',input:0.27,output:1.10,blended:0.48}],speed:[{model:'GPT-5',org:'OpenAI',outputSpeed:185,ttft:0.82},{model:'o3-mini',org:'OpenAI',outputSpeed:154,ttft:14.94},{model:'Claude 4.7',org:'Anthropic',outputSpeed:142,ttft:1.20},{model:'Gemini 2.5 Pro',org:'Google',outputSpeed:210,ttft:0.65},{model:'Llama 4 405B',org:'Meta',outputSpeed:98,ttft:2.10},{model:'Mistral Large 2',org:'Mistral',outputSpeed:120,ttft:1.50},{model:'Qwen 3',org:'Alibaba',outputSpeed:88,ttft:2.80},{model:'Claude 4.6',org:'Anthropic',outputSpeed:135,ttft:1.35},{model:'GPT-4.5',org:'OpenAI',outputSpeed:160,ttft:1.10},{model:'DeepSeek V3',org:'DeepSeek',outputSpeed:75,ttft:3.20}]},image:{perf:[{model:'Flux.1 Pro',elo:1423,rank:1,org:'Black Forest Labs',date:'2025-06'},{model:'DALL-E 4',elo:1387,rank:2,org:'OpenAI',date:'2025-05'},{model:'Imagen 3',elo:1356,rank:3,org:'Google',date:'2025-04'},{model:'Midjourney V7',elo:1340,rank:4,org:'Midjourney',date:'2025-06'},{model:'SD3.5 Large',elo:1290,rank:5,org:'Stability AI',date:'2025-05'},{model:'Ideogram 3',elo:1265,rank:6,org:'Ideogram',date:'2025-04'},{model:'Recraft V3',elo:1220,rank:7,org:'Recraft',date:'2025-03'},{model:'Playground 3',elo:1180,rank:8,org:'Playground',date:'2025-05'}],price:[{model:'Flux.1 Pro',perImage:0.05,per1k:50,org:'Black Forest Labs'},{model:'DALL-E 4',perImage:0.08,per1k:80,org:'OpenAI'},{model:'Imagen 3',perImage:0.04,per1k:40,org:'Google'},{model:'Midjourney V7',perImage:0.10,per1k:100,org:'Midjourney'},{model:'SD3.5 Large',perImage:0.02,per1k:20,org:'Stability AI'},{model:'Ideogram 3',perImage:0.03,per1k:30,org:'Ideogram'},{model:'Recraft V3',perImage:0.02,per1k:15,org:'Recraft'},{model:'Playground 3',perImage:0.01,per1k:10,org:'Playground'}],speed:[{model:'Flux.1 Pro',avgTime:2.3,fastest:1.1,org:'Black Forest Labs'},{model:'DALL-E 4',avgTime:3.8,fastest:2.5,org:'OpenAI'},{model:'Imagen 3',avgTime:2.1,fastest:1.0,org:'Google'},{model:'Midjourney V7',avgTime:8.5,fastest:5.2,org:'Midjourney'},{model:'SD3.5 Large',avgTime:1.8,fastest:0.9,org:'Stability AI'},{model:'Ideogram 3',avgTime:2.6,fastest:1.4,org:'Ideogram'},{model:'Recraft V3',avgTime:1.5,fastest:0.7,org:'Recraft'},{model:'Playground 3',avgTime:1.2,fastest:0.6,org:'Playground'}]},speech:{perf:[{model:'ElevenLabs Turbo 3',elo:1380,rank:1,org:'ElevenLabs',type:'TTS'},{model:'Hume OCTAVE',elo:1345,rank:2,org:'Hume AI',type:'TTS+情感'},{model:'OpenAI TTS-2',elo:1310,rank:3,org:'OpenAI',type:'TTS'},{model:'Google Chirp 3',elo:1275,rank:4,org:'Google',type:'TTS'},{model:'Fish Audio 1.5',elo:1230,rank:5,org:'Fish Audio',type:'TTS+克隆'},{model:'Cartesia Sonic',elo:1190,rank:6,org:'Cartesia',type:'TTS'},{model:'PlayAI Dialog',elo:1150,rank:7,org:'PlayAI',type:'对话'},{model:'Resemble AI',elo:1100,rank:8,org:'Resemble',type:'TTS+克隆'}],price:[{model:'ElevenLabs Turbo 3',perMChars:15,perHour:5.40,org:'ElevenLabs'},{model:'Hume OCTAVE',perMChars:20,perHour:7.20,org:'Hume AI'},{model:'OpenAI TTS-2',perMChars:15,perHour:5.40,org:'OpenAI'},{model:'Google Chirp 3',perMChars:8,perHour:2.88,org:'Google'},{model:'Fish Audio 1.5',perMChars:5,perHour:1.80,org:'Fish Audio'},{model:'Cartesia Sonic',perMChars:12,perHour:4.32,org:'Cartesia'},{model:'PlayAI Dialog',perMChars:10,perHour:3.60,org:'PlayAI'},{model:'Resemble AI',perMChars:20,perHour:7.20,org:'Resemble'}],speed:[{model:'ElevenLabs Turbo 3',realtimeFactor:50,ttfa:0.15,org:'ElevenLabs'},{model:'Hume OCTAVE',realtimeFactor:35,ttfa:0.25,org:'Hume AI'},{model:'OpenAI TTS-2',realtimeFactor:30,ttfa:0.20,org:'OpenAI'},{model:'Google Chirp 3',realtimeFactor:40,ttfa:0.18,org:'Google'},{model:'Fish Audio 1.5',realtimeFactor:25,ttfa:0.30,org:'Fish Audio'},{model:'Cartesia Sonic',realtimeFactor:60,ttfa:0.10,org:'Cartesia'},{model:'PlayAI Dialog',realtimeFactor:20,ttfa:0.35,org:'PlayAI'},{model:'Resemble AI',realtimeFactor:15,ttfa:0.40,org:'Resemble'}]},video:{perf:[{model:'Sora 2',elo:1450,rank:1,org:'OpenAI',type:'text-to-video'},{model:'Kling 2.0',elo:1410,rank:2,org:'Kuaishou',type:'text-to-video'},{model:'Veo 3',elo:1385,rank:3,org:'Google',type:'text-to-video'},{model:'Runway Gen-4',elo:1350,rank:4,org:'Runway',type:'text-to-video'},{model:'Pika 2.5',elo:1290,rank:5,org:'Pika Labs',type:'text-to-video'},{model:'Hailuo 2',elo:1250,rank:6,org:'MiniMax',type:'text-to-video'},{model:'Luma Dream 2',elo:1200,rank:7,org:'Luma AI',type:'video-to-video'},{model:'Vidu 2.0',elo:1160,rank:8,org:'ShengShu',type:'text-to-video'}],price:[{model:'Sora 2',perSec:0.50,perMin:30,org:'OpenAI'},{model:'Kling 2.0',perSec:0.15,perMin:9,org:'Kuaishou'},{model:'Veo 3',perSec:0.40,perMin:24,org:'Google'},{model:'Runway Gen-4',perSec:0.25,perMin:15,org:'Runway'},{model:'Pika 2.5',perSec:0.10,perMin:6,org:'Pika Labs'},{model:'Hailuo 2',perSec:0.08,perMin:4.80,org:'MiniMax'},{model:'Luma Dream 2',perSec:0.20,perMin:12,org:'Luma AI'},{model:'Vidu 2.0',perSec:0.05,perMin:3,org:'ShengShu'}],speed:[{model:'Sora 2',minPerSecVideo:3.2,shortest:'2分10秒',org:'OpenAI'},{model:'Kling 2.0',minPerSecVideo:1.5,shortest:'1分05秒',org:'Kuaishou'},{model:'Veo 3',minPerSecVideo:2.8,shortest:'1分50秒',org:'Google'},{model:'Runway Gen-4',minPerSecVideo:1.8,shortest:'1分15秒',org:'Runway'},{model:'Pika 2.5',minPerSecVideo:1.2,shortest:'45秒',org:'Pika Labs'},{model:'Hailuo 2',minPerSecVideo:0.9,shortest:'35秒',org:'MiniMax'},{model:'Luma Dream 2',minPerSecVideo:2.0,shortest:'1分30秒',org:'Luma AI'},{model:'Vidu 2.0',minPerSecVideo:0.7,shortest:'28秒',org:'ShengShu'}]}};
 
-const SIMULATED_ERROR=false;
 const chartInstances={};
 
 // ===== Data Layer =====
@@ -719,7 +709,7 @@ document.getElementById('bpIcon').innerHTML=ICONS.heart;
 document.getElementById('fortuneIcon').innerHTML=ICONS.fortune;
 renderHero();renderFortune();renderSummary();renderTrendSnaps();renderNews(MOCK_NEWS);renderHeroJoke();
 setupFilter();setupTrendTabs();renderTrends();setupScrollProgress();setupLogoAnimation();setupEasterEgg();
-if(SIMULATED_ERROR){document.getElementById('newsList').classList.add('hidden');document.getElementById('filterBar').classList.add('hidden');document.getElementById('errorState').classList.remove('hidden');document.getElementById('cacheNotice').classList.remove('hidden');document.getElementById('cacheDate').textContent='2026-05-12 08:00';}
+
 const now=new Date();const dateEl=document.getElementById('pageDate');if(dateEl)dateEl.textContent=now.getFullYear()+'-'+String(now.getMonth()+1).padStart(2,'0')+'-'+String(now.getDate()).padStart(2,'0');
 // Async: try loading pipeline data
 loadPipelineData().then(d=>{
@@ -731,6 +721,24 @@ loadPipelineData().then(d=>{
     applyFunData(d);
   }
 });
+  // Async: fetch real trend data from AA API
+  fetchRealTrendData().then(real=>{
+    if(real){
+      ['llm','image','video'].forEach(mod=>{
+        if(real[mod]&&real[mod].perf&&real[mod].perf.length>0){
+          ['perf','price','speed'].forEach(sub=>{
+            if(real[mod][sub]&&real[mod][sub].length>0) MOCK_TREND[mod][sub]=real[mod][sub];
+          });
+        }
+      });
+      if(real.speech) MOCK_TREND.speech=real.speech;
+      DATA_CONFIG.lastUpdated=new Date().toISOString();
+      document.getElementById('cacheDate').textContent=new Date().toLocaleString('zh-CN');
+      document.getElementById('cacheNotice').classList.remove('hidden');
+      renderTrendSnaps();
+      renderTrends();
+    }
+  });
 }catch(e){console.error('Init error',e);document.getElementById('bpOverlay').innerHTML='<div style="color:var(--magenta);text-align:center;padding:40px;">加载失败，请刷新页面<br><small>'+e.message+'</small></div>';}
 }
 

@@ -15,6 +15,7 @@ import time
 import hashlib
 import argparse
 import logging
+import subprocess
 from pathlib import Path
 from datetime import datetime, timedelta, timezone
 from concurrent.futures import ThreadPoolExecutor, as_completed
@@ -32,16 +33,15 @@ from config import (
     DEEPSEEK_API_KEY, ANTHROPIC_API_KEY,
     TIME_WINDOW_HOURS, MAX_PER_SOURCE, TARGET_ARTICLE_COUNT,
     DEDUP_THRESHOLD, FETCH_TIMEOUT, OUTPUT_DIR,
-    SERVERCHAN_KEY, PUSH_ENABLED,
+    SERVERCHAN_KEY, PUSH_ENABLED, BEIJING_TZ,
 )
 
 # ---- Logging ----
 logging.basicConfig(level=logging.INFO, format="%(asctime)s [%(levelname)s] %(message)s", datefmt="%H:%M:%S")
 log = logging.getLogger("pipeline")
 
-# ---- SSL workaround for macOS ----
-if hasattr(ssl, "_create_unverified_context"):
-    ssl._create_default_https_context = ssl._create_unverified_context
+# ---- SSL workaround for macOS (feedparser) ----
+_SSL_VERIFY = not (hasattr(ssl, "_create_unverified_context"))
 
 # ---- Paths ----
 ROOT = Path(__file__).resolve().parent.parent
@@ -56,7 +56,7 @@ def fetch_source(source) -> list[dict]:
     """Fetch and parse a single RSS source. Returns normalized articles."""
     articles = []
     try:
-        resp = httpx.get(source.url, timeout=FETCH_TIMEOUT, follow_redirects=True)
+        resp = httpx.get(source.url, timeout=FETCH_TIMEOUT, follow_redirects=True, verify=_SSL_VERIFY)
         resp.raise_for_status()
         feed = feedparser.parse(resp.text)
 
@@ -67,6 +67,8 @@ def fetch_source(source) -> list[dict]:
                 continue
 
             # Parse publication date — prefer published over updated
+            # Articles without a parsable date are skipped (no datetime.now() fallback
+            # which would let stale articles bypass the time filter)
             published = None
             tp = entry.get("published_parsed")
             if tp:
@@ -76,7 +78,7 @@ def fetch_source(source) -> list[dict]:
                 if tp:
                     published = datetime(*tp[:6], tzinfo=timezone.utc)
             if not published:
-                published = datetime.now(timezone.utc)
+                continue  # skip articles without a publication date
 
             # Extract text content
             summary = ""
@@ -126,8 +128,8 @@ def fetch_all(sources: list) -> list[dict]:
 # ============================================================
 
 def filter_time(articles: list[dict], hours: int = TIME_WINDOW_HOURS) -> list[dict]:
-    """Keep only articles published within the time window."""
-    cutoff = datetime.now(timezone.utc) - timedelta(hours=hours)
+    """Keep only articles published within the time window (Beijing time)."""
+    cutoff = datetime.now(BEIJING_TZ) - timedelta(hours=hours)
     filtered = [a for a in articles if a["published"] >= cutoff]
     log.info(f"Time filter ({hours}h): {len(articles)} → {len(filtered)}")
     return filtered
@@ -197,8 +199,9 @@ def build_ai_prompt(articles: list[dict]) -> str:
 
 1. **分类打标**: 给每条资讯分配一个分类标签
    - `model` = 新模型发布、模型评测、开源模型、模型技术突破
-   - `strategy` = 大厂战略、融资、政策监管、行业趋势
+   - `strategy` = 大厂战略、融资、行业趋势
    - `tool` = 开发者工具、产品发布、应用落地
+   - `policy` = 政策监管、法规合规、学术伦理、隐私安全
 
 2. **中文摘要**: 每条写 150-250 字中文概要，把技术细节讲清楚
 
@@ -255,17 +258,7 @@ def call_claude(articles: list[dict], api_key: str) -> dict:
     )
 
     text = resp.content[0].text.strip()
-
-    # Remove markdown code block if present
-    if text.startswith("```"):
-        lines = text.split("\n")
-        text = "\n".join(lines[1:]) if lines[0].startswith("```") else text
-        if text.endswith("```"):
-            text = text[:-3]
-
-    result = json.loads(text)
-    log.info(f"Claude processed {len(result.get('articles', []))} articles")
-    return result
+    return _parse_ai_json(text, "Claude")
 
 
 def call_deepseek(articles: list[dict], api_key: str) -> dict:
@@ -287,16 +280,40 @@ def call_deepseek(articles: list[dict], api_key: str) -> dict:
     )
 
     text = resp.choices[0].message.content.strip()
+    return _parse_ai_json(text, "DeepSeek")
 
-    # Remove markdown code block if present
-    if text.startswith("```"):
-        lines = text.split("\n")
-        text = "\n".join(lines[1:]) if lines[0].startswith("```") else text
-        if text.endswith("```"):
-            text = text[:-3]
 
-    result = json.loads(text)
-    log.info(f"DeepSeek processed {len(result.get('articles', []))} articles")
+def _parse_ai_json(text: str, provider: str = "") -> dict:
+    """Parse AI API response JSON, handling markdown code blocks and common edge cases."""
+    import re
+
+    raw = text.strip()
+
+    # Strip markdown code fence (```json ... ``` or ``` ... ```)
+    m = re.match(r"```(?:json)?\s*\n(.*?)\n```", raw, re.DOTALL)
+    if m:
+        raw = m.group(1).strip()
+    elif raw.startswith("```"):
+        lines = raw.split("\n")
+        raw = "\n".join(lines[1:]) if len(lines) > 1 else raw
+        if raw.endswith("```"):
+            raw = raw[:-3]
+
+    # Try to extract JSON object if text has surrounding content
+    brace_start = raw.find("{")
+    brace_end = raw.rfind("}")
+    if brace_start != -1 and brace_end != -1 and brace_end > brace_start:
+        raw = raw[brace_start:brace_end + 1]
+
+    try:
+        result = json.loads(raw)
+    except json.JSONDecodeError as e:
+        log.error(f"{provider} returned invalid JSON: {e}")
+        log.debug(f"Raw response (first 500 chars): {raw[:500]}")
+        raise
+
+    count = len(result.get("articles", []))
+    log.info(f"{provider} processed {count} articles")
     return result
 
 
@@ -329,8 +346,8 @@ def merge_results(articles: list[dict], ai_result: dict) -> list[dict]:
 
 
 def relative_time(dt: datetime) -> str:
-    """Convert datetime to Chinese relative time string."""
-    diff = datetime.now(timezone.utc) - dt
+    """Convert datetime to Chinese relative time string (Beijing time anchor)."""
+    diff = datetime.now(BEIJING_TZ) - dt
     hours = int(diff.total_seconds() / 3600)
     if hours < 1:
         return f"{max(1, int(diff.total_seconds() / 60))}分钟前"
@@ -344,8 +361,8 @@ def build_output(articles: list[dict], ai_result: dict) -> dict:
     """Build the final output JSON."""
     items = merge_results(articles, ai_result)
     return {
-        "date": datetime.now().strftime("%Y-%m-%d"),
-        "generated_at": datetime.now().isoformat(),
+        "date": datetime.now(BEIJING_TZ).strftime("%Y-%m-%d"),
+        "generated_at": datetime.now(BEIJING_TZ).isoformat(),
         "highlight": ai_result.get("highlight", ""),
         "fun": ai_result.get("fun", {}),
         "articles": items,
@@ -567,7 +584,7 @@ def main():
         print(json.dumps(output, ensure_ascii=False, indent=2))
     else:
         OUTPUT_PATH.mkdir(parents=True, exist_ok=True)
-        date_str = datetime.now().strftime("%Y-%m-%d")
+        date_str = datetime.now(BEIJING_TZ).strftime("%Y-%m-%d")
         filepath = OUTPUT_PATH / f"{date_str}.json"
         filepath.write_text(json.dumps(output, ensure_ascii=False, indent=2), encoding="utf-8")
         log.info(f"Output → {filepath}")
