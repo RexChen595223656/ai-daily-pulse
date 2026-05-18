@@ -1,0 +1,49 @@
+name: AI Daily Pipeline
+
+on:
+  schedule:
+    # UTC 00:00 = 北京时间 08:00
+    - cron: '0 0 * * *'
+  workflow_dispatch:  # 手动触发
+
+jobs:
+  pipeline:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      - name: Install dependencies
+        run: pip install feedparser httpx openai anthropic
+
+      - name: Run pipeline
+        env:
+          AI_DAILY_DS_KEY: ${{ secrets.AI_DAILY_DS_KEY }}
+          AI_DAILY_ANTHROPIC_KEY: ${{ secrets.AI_DAILY_ANTHROPIC_KEY }}
+          AI_DAILY_SERVERCHAN_KEY: ${{ secrets.AI_DAILY_SERVERCHAN_KEY }}
+        run: python3 pipeline/run.py
+
+      - name: Assemble publish directory
+        run: |
+          mkdir -p publish/data/daily
+          cp prototype/index.html publish/
+          cp data/daily/latest.json publish/data/daily/
+          cp data/daily/index.json publish/data/daily/
+          cp data/daily/20*.json publish/data/daily/ 2>/dev/null || true
+
+      - name: Deploy to GitHub Pages
+        uses: peaceiris/actions-gh-pages@v4
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: publish
+          publish_branch: gh-pages
+          commit_message: '部署: ${{ github.ref_name }} [skip ci]'
+          user_name: 'github-actions[bot]'
+          user_email: 'github-actions[bot]@users.noreply.github.com'

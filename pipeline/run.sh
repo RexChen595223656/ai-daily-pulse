@@ -5,13 +5,19 @@
 cd "/Users/chenbaijian/my-claude/ai-daily" || exit 1
 mkdir -p data/daily
 
-# Load API keys from macOS Keychain
-export AI_DAILY_DS_KEY=$(security find-generic-password -a chenbaijian -s ai-daily-ds-key -w 2>/dev/null)
-export AI_DAILY_ANTHROPIC_KEY=$(security find-generic-password -a chenbaijian -s ai-daily-anthropic-key -w 2>/dev/null)
-export AI_DAILY_SERVERCHAN_KEY=$(security find-generic-password -a chenbaijian -s ai-daily-serverchan-key -w 2>/dev/null)
+# Load API keys: prefer env vars (CI), fall back to macOS Keychain (local launchd)
+if [ -z "$AI_DAILY_DS_KEY" ]; then
+    export AI_DAILY_DS_KEY=$(security find-generic-password -a chenbaijian -s ai-daily-ds-key -w 2>/dev/null)
+fi
+if [ -z "$AI_DAILY_ANTHROPIC_KEY" ]; then
+    export AI_DAILY_ANTHROPIC_KEY=$(security find-generic-password -a chenbaijian -s ai-daily-anthropic-key -w 2>/dev/null)
+fi
+if [ -z "$AI_DAILY_SERVERCHAN_KEY" ]; then
+    export AI_DAILY_SERVERCHAN_KEY=$(security find-generic-password -a chenbaijian -s ai-daily-serverchan-key -w 2>/dev/null)
+fi
 
 if [ -z "$AI_DAILY_DS_KEY" ]; then
-    echo "[ERROR] Cannot read API keys from Keychain. Run once manually to grant access."
+    echo "[ERROR] No API key found. Set AI_DAILY_DS_KEY env var or store in Keychain."
     exit 1
 fi
 

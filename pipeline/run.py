@@ -40,8 +40,11 @@ from config import (
 logging.basicConfig(level=logging.INFO, format="%(asctime)s [%(levelname)s] %(message)s", datefmt="%H:%M:%S")
 log = logging.getLogger("pipeline")
 
-# ---- SSL workaround for macOS (feedparser) ----
-_SSL_VERIFY = not (hasattr(ssl, "_create_unverified_context"))
+# ---- SSL workaround for macOS ----
+# Use unverified context for RSS fetch to handle misconfigured/missing certs
+_SSL_VERIFY = True
+if hasattr(ssl, "_create_unverified_context"):
+    _SSL_VERIFY = ssl._create_unverified_context()
 
 # ---- Paths ----
 ROOT = Path(__file__).resolve().parent.parent
@@ -466,7 +469,7 @@ def push_wechat(output: dict):
         with urllib.request.urlopen(req, timeout=10) as resp:
             result = json.loads(resp.read())
             if result.get("code") == 0:
-                log.info(f"WeChat push OK → {SERVERCHAN_KEY[:8]}...")
+                log.info(f"WeChat push OK")
             else:
                 log.warning(f"WeChat push failed: {result}")
     except Exception as e:
