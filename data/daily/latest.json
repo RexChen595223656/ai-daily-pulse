@@ -1,170 +1,78 @@
 {
   "date": "2026-05-18",
-  "generated_at": "2026-05-18T08:02:04.639638",
-  "highlight": "AI 行业争议不断：arXiv 封禁违规作者、Siri 隐私升级、学生抵制 AI 演讲，同时 Vercel 推出 AI 编程语言 Zero。",
+  "generated_at": "2026-05-18T17:12:52.606937+08:00",
+  "highlight": "AI 产业峰会即将开幕，宇石空间火箭融资 5 亿，arXiv 封禁 AI 造假论文，GEO 优化成新趋势。",
   "fun": {
-    "lucky": "Zero (Vercel Labs)",
-    "advice": "宜：让 AI 读你的代码，它比 PM 更懂编译错误。\n忌：让 AI 写冷笑话，它会把段子编译成 JSON。",
-    "joke": "为什么 AI 去不了毕业典礼？因为它会被“递归boo”卡住。"
+    "lucky": "宇石空间 AS-1 火箭",
+    "advice": "宜：融资烧钱造火箭，探索星辰大海。\n忌：盲目跟风 AI 风口，忘了火箭要回收。",
+    "joke": "AI 写论文被 arXiv 封禁，它哭着说：我只是一只无辜的鹦鹉。"
   },
   "articles": [
     {
       "id": 1,
-      "cat": "policy",
-      "title": "arXiv 封禁一年：提交未经核实 AI 内容的论文作者",
-      "title_en": "派早报：提交未经核实 AI 内容的论文作者将被 arXiv 封禁一年",
-      "source": "少数派",
-      "url": "https://sspai.com/post/109870",
-      "time": "1小时前",
-      "published": "2026-05-17T22:56:55+00:00",
-      "summary": "arXiv 宣布，对提交未经核实 AI 内容的论文作者实施封禁一年的处罚。该政策旨在遏制利用 AI 生成虚假或未经验证的学术内容，维护预印本平台的学术诚信。此举反映了学术界对 AI 生成内容泛滥的担忧，尤其是那些可能误导同行评审或污染知识库的自动生成论文。arXiv 要求作者对提交内容负责，确保所有 AI 辅助生成的部分都经过人工核实。违反者将面临一年内无法提交新论文的处罚，已提交的论文也可能被撤回。",
-      "snark": "AI 写论文的快乐，被 arXiv 一键封禁了。"
+      "cat": "strategy",
+      "title": "AI 产业峰会亮点前瞻：Agent、多模态、应用与算力一网打尽",
+      "title_en": "Agent、多模态、应用、算力一天看尽，峰会亮点在此｜5.20日，来现场一起AI",
+      "source": "36氪",
+      "url": "https://36kr.com/p/3814408307711492?f=rss",
+      "time": "2小时前",
+      "published": "2026-05-18T07:03:20+00:00",
+      "summary": "本文预告了第四届中国 AIGC 产业峰会，将于 5 月 20 日举行，旨在解答从业者与公众对 AI 应用的困惑。峰会邀请 18 位重磅嘉宾，涵盖 Agent、多模态、应用落地和算力等核心议题，并设置 Agent 主题圆桌、年度榜单发布和全景图谱展示。文章指出，面对 AI 的狂飙突进，如何将技术转化为实际价值是普遍焦虑，峰会试图通过案例和判断，帮助参与者厘清趋势、抓住机会，尤其关注 AI 创业、融资和实际应用场景。",
+      "snark": "AI 峰会就像 AI 界的春晚，节目单很丰富，但大家最想看的还是有没有新梗。"
     },
     {
       "id": 2,
       "cat": "strategy",
-      "title": "苹果 Siri 大改版：新增自动删除聊天记录功能",
-      "title_en": "Apple’s Siri revamp could include auto-deleting chats",
-      "source": "TechCrunch",
-      "url": "https://techcrunch.com/2026/05/17/apples-siri-revamp-could-include-auto-deleting-chats/",
+      "title": "「宇石空间」完成 5 亿元 A 轮融资，累计融资 10 亿，专注可复用液体火箭",
+      "title_en": "「宇石空间」完成5亿元A轮融资，今年计划交付三枚火箭，累计融资额已达10亿元｜36氪首发",
+      "source": "36氪",
+      "url": "https://36kr.com/p/3814368445259270?f=rss",
       "time": "3小时前",
-      "published": "2026-05-17T20:15:00+00:00",
-      "summary": "据 Bloomberg 的 Mark Gurman 报道，苹果计划在下代 iOS 27 中推出彻底改版的 Siri，其最大亮点是新增自动删除聊天记录选项。新 Siri 将更像一个聊天机器人，用户可设定自动删除聊天记录的时间间隔，从而增强隐私保护。苹果希望借此在 AI 竞争中打出隐私牌，弥补其在 AI 功能上落后于竞争对手的差距。该功能被视为苹果差异化战略的关键，旨在赢得对数据安全敏感的用户。",
-      "snark": "Siri 的自动删聊天功能，完美适配“我什么都没干”的日常。"
+      "published": "2026-05-18T05:38:42+00:00",
+      "summary": "36 氪获悉，商业火箭公司「宇石空间」完成 5 亿元 A 轮融资，由高榕创投、昆仑资本领投，多家机构跟投，老股东持续加注，累计融资额达 10 亿元。资金将用于火箭总装测试、筷子回收技术验证、产能建设和团队扩充，以保障其 AS-1 火箭首飞及规模化运营。宇石空间专注于大运力、低成本、快速复用的液体火箭研制，过去一年连续完成 4 轮融资，显示出资本市场对商业航天赛道的信心。",
+      "snark": "火箭公司融资 10 亿，看来 AI 还没上天，火箭先要上天了。"
     },
     {
       "id": 3,
-      "cat": "policy",
-      "title": "马斯克与 OpenAI 庭审：信任成核心焦点",
-      "title_en": "Why trust is a big question at the Elon Musk-OpenAI trial",
-      "source": "TechCrunch",
-      "url": "https://techcrunch.com/2026/05/17/why-trust-is-a-big-question-at-the-elon-musk-openai-trial/",
+      "cat": "tool",
+      "title": "GEO 优化崛起：万成云商谈如何让品牌在 AI 回答中被优先推荐",
+      "title_en": "对话万成云商：发文章≠GEO优化，大模型不是喂什么就推什么",
+      "source": "36氪",
+      "url": "https://36kr.com/p/3814337101111044?f=rss",
       "time": "4小时前",
-      "published": "2026-05-17T19:46:34+00:00",
-      "summary": "在 Elon Musk 与 OpenAI 的庭审最后阶段，核心问题聚焦于 OpenAI CEO Sam Altman 是否值得信任。双方就 OpenAI 从非盈利转向盈利的动机、以及 Altman 在 AI 安全方面的承诺展开激烈辩论。Musk 的律师质疑 Altman 的诚信，认为其行为背离了 OpenAI 的初衷。庭审结果将影响 AI 行业治理和公司治理模式，尤其是关于非盈利组织商业化边界的界定。",
-      "snark": "法庭上讨论 AI 信任问题，就像让海盗讨论航海道德。"
+      "published": "2026-05-18T05:05:40+00:00",
+      "summary": "本文探讨了生成引擎优化（GEO）作为 SEO 的升级趋势。随着用户从搜索引擎转向 AI 工具（如 ChatGPT）获取信息，品牌营销需要适应 AI 的推荐逻辑。GEO 的核心不是追求排名，而是让品牌信息在 AI 生成的回答中被优先引用。与 SEO 不同，AI 模型并非简单喂数据就推，而是基于语义理解和上下文相关性。万成云商指出，出海企业需调整策略，通过结构化数据、权威来源和高质量内容来提升在 AI 回答中的可见度，从而抓住新的流量入口。",
+      "snark": "SEO 还没搞明白，GEO 又来了，AI 时代的营销人真是学无止境。"
     },
     {
       "id": 4,
       "cat": "strategy",
-      "title": "苹果 Siri 隐私升级：自动删除聊天功能或成差异化利器",
-      "title_en": "Revamped Siri will reportedly offer auto-deleting chats",
-      "source": "The Verge AI",
-      "url": "https://www.theverge.com/tech/932207/siri-apple-intelligence-auto-deleting-chats",
-      "time": "5小时前",
-      "published": "2026-05-17T18:40:28+00:00",
-      "summary": "苹果正在为其 Siri 进行重大升级，计划在 iOS 27 中引入自动删除聊天记录功能，以强化用户隐私保护。据可靠消息，新 Siri 将提供可配置的自动删除选项，允许用户设定聊天记录的自动清除周期。此举是苹果在 AI 隐私战场上的关键举措，意在用隐私优势弥补其 AI 功能与 Google、OpenAI 等对手的差距。苹果希望通过这一功能赢得用户信任，并在激烈的 AI 竞争中开辟独特生态位。",
-      "snark": "苹果的 AI 隐私策略：先让你忘记说过什么，再假装没落后。",
-      "multiSource": [
-        "The Verge",
-        "The Verge AI"
-      ]
+      "title": "「律动节拍」获超千万融资，用 AI 打造跨城观演行程管家",
+      "title_en": "36氪首发 | 获超千万融资，「律动节拍」用演出票撬起千亿跨城观演赛道",
+      "source": "36氪",
+      "url": "https://36kr.com/p/3813463119863553?f=rss",
+      "time": "7小时前",
+      "published": "2026-05-18T01:29:37+00:00",
+      "summary": "36 氪获悉，科技文旅公司「律动节拍」完成超千万元新一轮融资，由天空工场创投基金领投，投后估值数亿元。公司成立于 2025 年，聚焦“因演出行”垂直领域，通过 AI 和大数据模型整合演出票务、酒旅、交通、餐饮等资源，为用户提供一站式跨城观演行程规划服务。本轮资金将用于 AI 行程管家产品研发、行业大模型训练及供应链深化，旨在将一张演出票转化为完整的城市游乐体验。",
+      "snark": "AI 帮你安排看演出行程，但买不买得到票，还得看手速和人品。"
     },
     {
       "id": 5,
-      "cat": "tool",
-      "title": "llmcompressor 教程：用 FP8、GPTQ、SmoothQuant 压缩和基准测试指令微调 LLM",
-      "title_en": "A Coding Implementation to Compress and Benchmark Instruction-Tuned LLMs with FP8, GPTQ, and SmoothQuant Quantization using llmcompressor",
-      "source": "MarkTechPost",
-      "url": "https://www.marktechpost.com/2026/05/17/a-coding-implementation-to-compress-and-benchmark-instruction-tuned-llms-with-fp8-gptq-and-smoothquant-quantization-using-llmcompressor/",
-      "time": "5小时前",
-      "published": "2026-05-17T18:19:09+00:00",
-      "summary": "本文提供了一份使用 llmcompressor 工具对指令微调语言模型进行后训练量化的详细编码实现教程。教程从 FP16 基线开始，对比了多种压缩策略，包括 FP8 动态量化、GPTQ W4A16 以及 SmoothQuant 与 GPTQ W8A8 的组合。读者将学会如何应用这些量化技术来显著降低模型内存占用和推理延迟，同时保持模型性能。教程涵盖了完整的编码步骤，从环境搭建到基准测试，适合希望在生产环境中部署高效 LLM 的开发者。",
-      "snark": "压缩模型就像给大象穿紧身衣，但至少能塞进你的显存。"
-    },
-    {
-      "id": 6,
-      "cat": "strategy",
-      "title": "亚利桑那大学毕业生嘘声抵制 Eric Schmidt 的 AI 演讲",
-      "title_en": "University of Arizona students boo Eric Schmidt’s AI cheerleading during commencement",
-      "source": "The Verge AI",
-      "url": "https://www.theverge.com/ai-artificial-intelligence/932203/university-of-arizona-students-boo-eric-schmidt-ai-commencement",
-      "time": "6小时前",
-      "published": "2026-05-17T17:22:23+00:00",
-      "summary": "前 Google CEO Eric Schmidt 在亚利桑那大学毕业典礼上发表演讲，当他开始鼓吹 AI 的美好未来时，被台下学生持续不断的嘘声打断。学生们对 AI 导致就业市场萎缩的担忧溢于言表，认为 Schmidt 的演讲脱离现实。这一事件反映出 AI 在社会中的争议性，以及即将进入职场的毕业生对 AI 冲击的焦虑。Schmidt 的遭遇也提醒公众人物，在毕业典礼上谈论 AI 可能不是明智之选。",
-      "snark": "毕业生对 AI 的嘘声，比任何模型评估都真实。"
-    },
-    {
-      "id": 7,
-      "cat": "strategy",
-      "title": "2026 毕业季忠告：演讲时最好别提 AI",
-      "title_en": "If you’re giving a commencement speech in 2026, maybe don’t mention AI",
-      "source": "TechCrunch",
-      "url": "https://techcrunch.com/2026/05/17/if-youre-giving-a-commencement-speech-in-2026-maybe-dont-mention-ai/",
-      "time": "7小时前",
-      "published": "2026-05-17T16:32:04+00:00",
-      "summary": "TechCrunch 评论指出，在 2026 年的毕业典礼上，演讲者应避免提及 AI，因为毕业生对 AI 塑造的未来感到焦虑而非兴奋。AI 对就业市场的冲击使得毕业生难以对未来抱有积极态度，演讲者若强行推销 AI 理想，极易引发反感。文章建议演讲者关注人文关怀和适应力，而不是技术乌托邦。这一现象也反映了 AI 行业与社会大众之间的认知鸿沟。",
-      "snark": "毕业演讲提 AI 就像在婚礼上谈离婚率——不合时宜。"
-    },
-    {
-      "id": 8,
-      "cat": "strategy",
-      "title": "TechCrunch Mobility：AI 技能军备竞赛波及汽车行业",
-      "title_en": "TechCrunch Mobility: The AI skills arms race is coming for automotive",
-      "source": "TechCrunch",
-      "url": "https://techcrunch.com/2026/05/17/techcrunch-mobility-the-ai-skills-arms-race-is-coming-for-automotive/",
-      "time": "7小时前",
-      "published": "2026-05-17T16:05:00+00:00",
-      "summary": "TechCrunch Mobility 报道指出，AI 技能军备竞赛正在向汽车行业蔓延。随着自动驾驶和智能座舱技术的普及，汽车制造商和供应商纷纷争夺 AI 人才，从算法工程师到数据标注员的需求激增。这一趋势正在重塑汽车行业的就业结构，传统机械工程师面临转型压力。同时，AI 技能的竞争也推动了薪资上涨和人才流动，汽车公司不得不与科技巨头争夺同一批人才。",
-      "snark": "汽车行业 AI 军备竞赛：最后赢家可能是卖培训课的。"
-    },
-    {
-      "id": 9,
-      "cat": "tool",
-      "title": "聊天机器人进入汽车餐厅：这只是开始",
-      "title_en": "Chatbots at the drive-thru are just the beginning",
-      "source": "The Verge AI",
-      "url": "https://www.theverge.com/column/928096/chatbots-ai-drive-thru-mcdonalds-wendys",
-      "time": "12小时前",
-      "published": "2026-05-17T12:00:00+00:00",
-      "summary": "The Verge 报道，聊天机器人已开始部署在麦当劳、Wendy's 等快餐连锁的汽车餐厅（drive-thru）中，用于处理点餐。这仅仅是 AI 渗透日常生活的开始，未来可能扩展到更多服务场景。文章回顾了 2021 年以来的发展，指出 AI 点餐系统能提高效率、减少错误，但也面临语音识别准确性和客户接受度的挑战。随着技术成熟，AI 将逐步接管更多重复性服务岗位。",
-      "snark": "AI 点餐：你还没说完‘不要洋葱’，它已经帮你加了双倍。",
-      "multiSource": [
-        "The Verge",
-        "The Verge AI"
-      ]
-    },
-    {
-      "id": 10,
-      "cat": "tool",
-      "title": "Vercel Labs 发布 Zero：为 AI Agent 设计的系统编程语言",
-      "title_en": "Vercel Labs Introduces Zero, a Systems Programming Language Designed So AI Agents Can Read, Repair, and Ship Native Programs",
-      "source": "MarkTechPost",
-      "url": "https://www.marktechpost.com/2026/05/17/vercel-labs-introduces-zero-a-systems-programming-language-designed-so-ai-agents-can-read-repair-and-ship-native-programs/",
-      "time": "15小时前",
-      "published": "2026-05-17T08:11:49+00:00",
-      "summary": "Vercel Labs 发布了实验性系统编程语言 Zero，其设计目标是为 AI 代理（AI agents）提供可读、可修复、可部署原生程序的能力。Zero 输出包含稳定代码和类型化修复元数据的 JSON 诊断信息，并强制实行能力安全策略，使得 AI 无需人类解读编译器输出即可直接操作代码。该语言旨在弥合 AI 与底层系统编程之间的鸿沟，让 AI 代理能够独立完成从代码编写到部署的全流程。",
-      "snark": "Zero：让 AI 学会编译，然后人类就可以彻底失业了。"
-    },
-    {
-      "id": 11,
-      "cat": "tool",
-      "title": "SHAP 可解释性工作流编码指南：比较解释器、掩码器、交互和漂移",
-      "title_en": "A Coding Guide Implementing SHAP Explainability Workflows with Explainer Comparisons, Maskers, Interactions, Drift, and Black-Box Models",
-      "source": "MarkTechPost",
-      "url": "https://www.marktechpost.com/2026/05/17/a-coding-guide-implementing-shap-explainability-workflows-with-explainer-comparisons-maskers-interactions-drift-and-black-box-models/",
-      "time": "16小时前",
-      "published": "2026-05-17T07:25:10+00:00",
-      "summary": "本文提供了一份实用的 SHAP 可解释性工作流编码指南，超越了基础的特征重要性图。教程从训练基于树的模型开始，比较了多种 SHAP 解释器，包括 Tree、Exact、Permutation 和 Kernel 方法，并深入探讨了掩码器（maskers）、交互效应（interactions）和概念漂移（drift）的处理。读者将学会如何构建完整的模型可解释性管道，从而更好地理解模型决策背后的逻辑，适用于需要高透明度的 AI 应用场景。",
-      "snark": "SHAP 解释器：让你知道模型为什么犯错，但改不改是另一回事。"
-    },
-    {
-      "id": 12,
-      "cat": "strategy",
-      "title": "3 人 + 100 个 AI 程序员，月烧 130 万美元：OpenAI 买单",
-      "title_en": "3个人带100个AI程序员，一个月烧掉130万美元！OpenAI：钱我出",
-      "source": "36氪",
-      "url": "https://36kr.com/p/3812925591887368?f=rss",
-      "time": "17小时前",
-      "published": "2026-05-17T06:08:32+00:00",
-      "summary": "OpenClaw 之父 Peter Steinberger 在 X 上晒出账单：30 天花费 130 万美元，消耗 6030 亿个 token，发起 760 万次请求。他带领 3 个人和 100 个 AI agent，将软件开发变成了“AI 流水线”，而 OpenAI 为其买单。这一案例展示了 AI agent 在软件工程中的巨大潜力，也暴露了其高昂的算力成本。Steinberger 的实验证明了 AI 替代程序员的可行性，但成本门槛依然极高。",
-      "snark": "3 个人 + 100 个 AI 程序员 = 130 万美元/月，老板看完账单直接转行。"
+      "cat": "policy",
+      "title": "arXiv 新规：提交未经核实 AI 内容的论文作者将被封禁一年",
+      "title_en": "派早报：提交未经核实 AI 内容的论文作者将被 arXiv 封禁一年",
+      "source": "少数派",
+      "url": "https://sspai.com/post/109870",
+      "time": "10小时前",
+      "published": "2026-05-17T22:56:55+00:00",
+      "summary": "预印本平台 arXiv 宣布新政策，对提交未经核实 AI 生成内容的论文作者实施一年封禁。此举旨在应对学术领域日益严重的 AI 造假问题，确保论文的原创性和作者责任。该规定要求作者必须对论文内容进行人工核实，特别是涉及 AI 辅助写作或生成的部分。此外，本期早报还提及 OpenAI 与苹果关系紧张可能诉讼、索尼回应 AI 相机助手争议、Anthropic 警告私下交易股权无效等业界动态。",
+      "snark": "arXiv 封禁 AI 造假者，但 AI 写出的论文，人类审稿人真的能看出来吗？"
     }
   ],
   "stats": {
-    "total": 12,
+    "total": 5,
     "model_count": 0,
-    "strategy_count": 6,
-    "tool_count": 4
+    "strategy_count": 3,
+    "tool_count": 1
   }
 }
