@@ -1,0 +1,1350 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>陈百坚 - AI产品经理</title>
+<style>
+  :root {
+    --bg: #0d1116;
+    --surface: #151b22;
+    --text: #c9d1d9;
+    --text-dim: #8b949e;
+    --accent: #58a6ff;
+    --accent2: #3fb950;
+    --accent3: #d2a8ff;
+    --border: #21262d;
+    --highlight: #1f242b;
+    --warn: #d2991d;
+    --red: #f85149;
+    --font-mono: "SF Mono", "Fira Code", "Cascadia Code", "JetBrains Mono", "Source Code Pro", monospace;
+    --font-sans: "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei", sans-serif;
+  }
+
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+
+  body {
+    font-family: var(--font-sans);
+    font-size: 15px;
+    line-height: 1.75;
+    color: var(--text);
+    background: #090c10;
+    -webkit-font-smoothing: antialiased;
+    overflow-x: hidden;
+  }
+
+  /* Scanline overlay */
+  body::after {
+    content: '';
+    position: fixed;
+    top: 0; left: 0; right: 0; bottom: 0;
+    background: repeating-linear-gradient(0deg, transparent, transparent 2px, rgba(0,0,0,0.03) 2px, rgba(0,0,0,0.03) 4px);
+    pointer-events: none;
+    z-index: 999;
+    opacity: 0.3;
+  }
+
+  .page {
+    max-width: 900px;
+    margin: 40px auto;
+    background: var(--bg);
+    border: 1px solid var(--border);
+    position: relative;
+    overflow: hidden;
+    opacity: 0;
+    transform: translateY(12px);
+    animation: pageIn 0.6s ease-out forwards;
+  }
+
+  @keyframes pageIn {
+    to { opacity: 1; transform: translateY(0); }
+  }
+
+  .page::before {
+    content: '';
+    position: absolute;
+    top: 0; left: 0; right: 0;
+    height: 3px;
+    background: linear-gradient(90deg, var(--accent), var(--accent2), var(--accent3), var(--warn));
+    z-index: 2;
+  }
+
+  /* ── Top Bar ── */
+  .topbar {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    padding: 12px 24px;
+    background: var(--surface);
+    border-bottom: 1px solid var(--border);
+    font-family: var(--font-mono);
+    font-size: 11px;
+    color: var(--text-dim);
+  }
+
+  .topbar .dots { display: flex; gap: 8px; }
+  .topbar .dot {
+    width: 10px; height: 10px; border-radius: 50%;
+    cursor: pointer;
+    transition: transform 0.15s;
+    position: relative;
+  }
+  .topbar .dot.red    { background: #f85149; }
+  .topbar .dot.yellow { background: #d2991d; }
+  .topbar .dot.green  { background: #3fb950; }
+  .topbar .dot:hover  { transform: scale(1.3); }
+
+  .topbar .dot[data-tip]:hover::after {
+    content: attr(data-tip);
+    position: absolute;
+    top: 18px;
+    left: 50%;
+    transform: translateX(-50%);
+    white-space: nowrap;
+    font-size: 10px;
+    padding: 3px 8px;
+    background: #1b1f26;
+    border: 1px solid var(--border);
+    color: var(--text-dim);
+    border-radius: 3px;
+    pointer-events: none;
+  }
+
+  .topbar .filename { color: var(--text); margin-left: 12px; }
+
+  /* ── Grid ── */
+  .main-grid {
+    display: grid;
+    grid-template-columns: 260px 1fr;
+    min-height: 0;
+  }
+
+  /* ── Sidebar ── */
+  .sidebar {
+    background: var(--surface);
+    border-right: 1px solid var(--border);
+    padding: 40px 28px 40px;
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+  }
+
+  .avatar-block { text-align: center; }
+
+  .avatar-circle {
+    width: 80px; height: 80px;
+    border-radius: 50%;
+    background: linear-gradient(135deg, var(--accent), var(--accent3));
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 32px;
+    font-weight: 700;
+    color: #fff;
+    margin: 0 auto 16px;
+    letter-spacing: 0.04em;
+    cursor: pointer;
+    transition: transform 0.3s, box-shadow 0.3s;
+    user-select: none;
+    position: relative;
+    animation: avatarGlow 3s ease-in-out infinite;
+  }
+  .avatar-circle::after {
+    content: '戳我';
+    position: absolute;
+    bottom: -22px;
+    left: 50%;
+    transform: translateX(-50%);
+    font-family: var(--font-mono);
+    font-size: 9px;
+    color: var(--warn);
+    opacity: 0.6;
+    letter-spacing: 0.06em;
+    animation: hintPulse 2s ease-in-out infinite;
+    pointer-events: none;
+  }
+  @keyframes avatarGlow {
+    0%, 100% { box-shadow: 0 0 8px rgba(88,166,255,0.1); }
+    50% { box-shadow: 0 0 20px rgba(88,166,255,0.25); }
+  }
+  @keyframes hintPulse {
+    0%, 100% { opacity: 0.3; }
+    50% { opacity: 0.8; }
+  }
+  .avatar-circle:hover {
+    transform: scale(1.06) rotate(-3deg);
+    box-shadow: 0 0 24px rgba(88,166,255,0.25);
+    animation: none;
+  }
+  .avatar-circle:active { transform: scale(0.94) rotate(0deg); }
+
+  .sidebar-name {
+    font-size: 24px;
+    font-weight: 700;
+    color: #fff;
+    letter-spacing: 0.05em;
+    margin-bottom: 4px;
+  }
+
+  .sidebar-role {
+    font-size: 13px;
+    color: var(--accent);
+    font-family: var(--font-mono);
+    letter-spacing: 0.06em;
+    min-height: 20px;
+  }
+
+  .sidebar-section .ss-label {
+    font-family: var(--font-mono);
+    font-size: 11px;
+    letter-spacing: 0.08em;
+    color: var(--text-dim);
+    text-transform: uppercase;
+    margin-bottom: 10px;
+    padding-bottom: 6px;
+    border-bottom: 1px solid var(--border);
+  }
+
+  .sidebar-section .ss-item {
+    display: flex;
+    align-items: flex-start;
+    gap: 8px;
+    margin-bottom: 8px;
+    font-size: 14px;
+    color: var(--text-dim);
+    transition: color 0.2s;
+  }
+  .sidebar-section .ss-item:hover { color: var(--text); }
+
+  .sidebar-section .ss-item .ss-icon {
+    font-family: var(--font-mono);
+    color: var(--accent2);
+    font-size: 12px;
+    flex-shrink: 0;
+    margin-top: 1px;
+  }
+
+  /* Experience hover easter egg */
+  .exp-years {
+    cursor: help;
+    border-bottom: 1px dashed var(--text-dim);
+    position: relative;
+  }
+  .exp-years:hover::after {
+    content: attr(data-joke);
+    position: absolute;
+    bottom: 28px;
+    left: 50%;
+    transform: translateX(-50%);
+    white-space: nowrap;
+    font-family: var(--font-mono);
+    font-size: 10px;
+    padding: 4px 10px;
+    background: #1b1f26;
+    border: 1px solid var(--border);
+    color: var(--warn);
+    border-radius: 3px;
+    pointer-events: none;
+  }
+
+  .sidebar-tags {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 6px;
+  }
+
+  .sidebar-tag {
+    font-family: var(--font-mono);
+    font-size: 11px;
+    padding: 4px 10px;
+    border-radius: 3px;
+    background: var(--highlight);
+    color: var(--accent3);
+    border: 1px solid rgba(210,168,255,0.15);
+    letter-spacing: 0.04em;
+    cursor: default;
+    transition: transform 0.15s, border-color 0.15s;
+    position: relative;
+  }
+  .sidebar-tag:hover {
+    transform: translateY(-2px);
+    z-index: 5;
+  }
+  .sidebar-tag.green {
+    color: var(--accent2);
+    border-color: rgba(63,185,80,0.15);
+  }
+  .sidebar-tag.blue {
+    color: var(--accent);
+    border-color: rgba(88,166,255,0.15);
+  }
+
+  .sidebar-tag[data-tip]:hover::after {
+    content: attr(data-tip);
+    position: absolute;
+    bottom: 28px;
+    left: 50%;
+    transform: translateX(-50%);
+    white-space: nowrap;
+    font-family: var(--font-sans);
+    font-size: 11px;
+    padding: 4px 10px;
+    background: #1b1f26;
+    border: 1px solid var(--border);
+    color: var(--text);
+    border-radius: 3px;
+    pointer-events: none;
+  }
+
+  .sidebar .prompt-line {
+    font-family: var(--font-mono);
+    font-size: 11px;
+    color: var(--accent2);
+    margin-top: auto;
+    opacity: 0.7;
+  }
+
+  .sidebar .prompt-line .cursor {
+    display: inline-block;
+    width: 7px;
+    height: 14px;
+    background: var(--accent2);
+    animation: blink 1s steps(1) infinite;
+    vertical-align: text-bottom;
+    margin-left: 1px;
+  }
+
+  @keyframes blink { 50% { opacity: 0; } }
+
+  /* Floating emoji */
+  .float-emoji {
+    position: fixed;
+    pointer-events: none;
+    font-size: 28px;
+    animation: floatUp 1.8s ease-out forwards;
+    z-index: 1000;
+  }
+  @keyframes floatUp {
+    0% { opacity: 1; transform: translateY(0) scale(0.5) rotate(0deg); }
+    30% { opacity: 1; transform: translateY(-30px) scale(1.2) rotate(10deg); }
+    100% { opacity: 0; transform: translateY(-120px) scale(0.8) rotate(-20deg); }
+  }
+
+  /* ── Content ── */
+  .content { padding: 40px 48px 56px; }
+
+  .hint-banner {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding: 10px 16px;
+    margin-bottom: 28px;
+    background: rgba(210,168,255,0.06);
+    border: 1px solid rgba(210,168,255,0.12);
+    border-radius: 4px;
+    font-size: 13px;
+    color: var(--text-dim);
+    font-family: var(--font-mono);
+    animation: hintBannerIn 0.5s ease-out 1.5s both;
+    opacity: 0;
+  }
+  @keyframes hintBannerIn {
+    to { opacity: 1; }
+  }
+  .hint-banner .hint-icon { font-size: 16px; }
+  .hint-banner .hint-dismiss {
+    margin-left: auto;
+    cursor: pointer;
+    color: var(--text-dim);
+    padding: 4px 8px;
+    transition: color 0.2s;
+    font-size: 12px;
+  }
+  .hint-banner .hint-dismiss:hover { color: var(--red); }
+
+  .content section { margin-bottom: 42px; }
+  .content section:last-child { margin-bottom: 0; }
+
+  .section-head {
+    font-family: var(--font-mono);
+    font-size: 12px;
+    font-weight: 600;
+    letter-spacing: 0.06em;
+    color: var(--accent);
+    margin-bottom: 18px;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+  }
+
+  .section-head .prompt { color: var(--accent2); }
+  .section-head .cmd { color: var(--accent3); transition: color 0.3s; }
+  .section-head .comment { color: var(--text-dim); font-weight: 400; margin-left: auto; font-size: 11px; }
+
+  /* ── Strength grid ── */
+  .strength-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 10px 24px;
+  }
+
+  .strength-item {
+    padding: 16px 18px;
+    background: var(--highlight);
+    border: 1px solid var(--border);
+    font-size: 14px;
+    line-height: 1.6;
+    transition: border-color 0.2s, transform 0.2s;
+    cursor: default;
+  }
+  .strength-item:hover {
+    border-color: #30363d;
+    transform: translateY(-1px);
+  }
+
+  .strength-item .si-key {
+    font-family: var(--font-mono);
+    font-size: 11px;
+    color: var(--accent);
+    letter-spacing: 0.06em;
+    margin-bottom: 6px;
+  }
+
+  /* ── Work blocks ── */
+  .work-block { margin-bottom: 24px; position: relative; }
+  .work-block:last-child { margin-bottom: 0; }
+
+  .work-row1 {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    margin-bottom: 2px;
+  }
+
+  .work-co {
+    font-size: 17px;
+    font-weight: 650;
+    color: #e6edf3;
+  }
+
+  .work-date {
+    font-family: var(--font-mono);
+    font-size: 12px;
+    color: var(--text-dim);
+    white-space: nowrap;
+  }
+
+  .work-role {
+    font-size: 14px;
+    color: var(--accent);
+    margin-bottom: 8px;
+  }
+
+  .work-summary {
+    font-size: 14px;
+    color: var(--text-dim);
+    margin-bottom: 10px;
+    line-height: 1.7;
+    padding: 12px 16px;
+    background: var(--highlight);
+    border-left: 2px solid var(--border);
+    transition: border-color 0.3s;
+  }
+  .work-summary:hover { border-left-color: var(--accent); }
+
+  .work-list {
+    list-style: none;
+    padding: 0;
+  }
+
+  .work-list li {
+    font-size: 14px;
+    color: var(--text);
+    padding-left: 18px;
+    position: relative;
+    margin-bottom: 4px;
+    line-height: 1.65;
+    transition: padding-left 0.2s;
+  }
+  .work-list li:hover { padding-left: 22px; }
+
+  .work-list li::before {
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 10px;
+    width: 6px;
+    height: 6px;
+    background: var(--border);
+    border-radius: 50%;
+    transition: background 0.2s, transform 0.2s;
+  }
+
+  .work-list li:hover::before {
+    background: var(--accent);
+    transform: scale(1.4);
+  }
+
+  .work-minor { margin-bottom: 14px; }
+  .work-minor .work-co { font-size: 13px; font-weight: 550; }
+  .work-minor .work-summary { font-size: 12.5px; margin-bottom: 0; }
+
+  /* ── Projects ── */
+  .proj-block {
+    margin-bottom: 28px;
+    border: 1px solid var(--border);
+    background: var(--surface);
+    transition: border-color 0.2s, transform 0.2s;
+  }
+  .proj-block:hover {
+    border-color: #30363d;
+    transform: translateX(3px);
+  }
+
+  .proj-top {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 14px 18px;
+    border-bottom: 1px solid var(--border);
+    background: var(--highlight);
+    cursor: pointer;
+    user-select: none;
+  }
+  .proj-top:hover .proj-name { color: #fff; }
+
+  .proj-top .proj-name {
+    font-size: 16px;
+    font-weight: 650;
+    color: #e6edf3;
+    transition: color 0.2s;
+    display: inline-flex;
+    align-items: center;
+    gap: 6px;
+  }
+
+  .proj-top .proj-date {
+    font-family: var(--font-mono);
+    font-size: 12px;
+    color: var(--text-dim);
+  }
+
+  .proj-top .proj-toggle {
+    font-family: var(--font-mono);
+    font-size: 20px;
+    color: var(--text-dim);
+    line-height: 1;
+    transition: color 0.2s;
+    position: relative;
+    top: -1px;
+  }
+  .proj-top:hover .proj-toggle { color: var(--accent); }
+
+  .proj-body {
+    padding: 18px 20px;
+    overflow: hidden;
+    max-height: 3000px;
+    transition: max-height 0.4s ease, padding 0.4s ease, opacity 0.3s;
+  }
+  .proj-block:not(.open) .proj-body {
+    max-height: 0;
+    padding-top: 0;
+    padding-bottom: 0;
+    opacity: 0;
+  }
+
+  .proj-seg { margin-bottom: 14px; }
+  .proj-seg:last-child { margin-bottom: 0; }
+
+  .proj-seg-label {
+    font-family: var(--font-mono);
+    font-size: 11px;
+    letter-spacing: 0.06em;
+    color: var(--text-dim);
+    margin-bottom: 6px;
+  }
+
+  .proj-seg .desc {
+    font-size: 14px;
+    color: var(--text-dim);
+    line-height: 1.7;
+  }
+
+  .proj-seg ul { list-style: none; padding: 0; }
+
+  .proj-seg ul li {
+    font-size: 14px;
+    color: var(--text);
+    padding-left: 18px;
+    position: relative;
+    margin-bottom: 5px;
+    line-height: 1.65;
+    transition: padding-left 0.2s;
+  }
+  .proj-seg ul li:hover { padding-left: 20px; }
+
+  .proj-seg ul li::before {
+    content: '→';
+    position: absolute;
+    left: 0;
+    top: 0;
+    color: var(--accent);
+    font-family: var(--font-mono);
+    font-size: 10px;
+    transition: transform 0.2s;
+  }
+  .proj-seg ul li:hover::before { transform: translateX(3px); }
+
+  .proj-seg.result .desc { color: var(--accent2); font-weight: 500; }
+  .proj-seg.result .proj-seg-label { color: var(--accent2); }
+
+  /* ── AI Works ── */
+  .works-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 14px;
+  }
+
+  .work-card {
+    padding: 22px 20px;
+    background: var(--highlight);
+    border: 1px solid var(--border);
+    position: relative;
+    overflow: hidden;
+    transition: transform 0.2s, border-color 0.2s, box-shadow 0.2s;
+    cursor: pointer;
+  }
+  .work-card:hover {
+    transform: translateY(-2px);
+    border-color: #30363d;
+    box-shadow: 0 6px 20px rgba(0,0,0,0.3);
+  }
+
+  .work-card::after {
+    content: '';
+    position: absolute;
+    top: 0; right: 0;
+    width: 50px; height: 50px;
+    background: linear-gradient(135deg, transparent 50%, rgba(88,166,255,0.06) 50%);
+    transition: opacity 0.2s;
+  }
+  .work-card:hover::after { opacity: 0.5; }
+
+  .work-card .wc-icon {
+    font-size: 24px;
+    margin-bottom: 10px;
+    transition: transform 0.2s;
+  }
+  .work-card:hover .wc-icon { transform: scale(1.15); }
+
+  .work-card .wc-name {
+    font-size: 16px;
+    font-weight: 650;
+    color: #e6edf3;
+    margin-bottom: 6px;
+  }
+
+  .work-card .wc-desc {
+    font-size: 14px;
+    color: var(--text-dim);
+    line-height: 1.65;
+  }
+
+  .work-card .wc-link {
+    display: inline-block;
+    margin-top: 8px;
+    font-family: var(--font-mono);
+    font-size: 12px;
+    color: var(--accent);
+    text-decoration: none;
+    border-bottom: 1px dashed var(--accent);
+    transition: color 0.2s, border-color 0.2s;
+  }
+  .work-card .wc-link:hover {
+    color: var(--accent2);
+    border-color: var(--accent2);
+  }
+
+  .work-card .wc-hint {
+    position: absolute;
+    bottom: 10px; right: 12px;
+    font-family: var(--font-mono);
+    font-size: 10px;
+    color: var(--warn);
+    opacity: 0.7;
+    letter-spacing: 0.04em;
+    animation: hintPulse 2s ease-in-out infinite;
+  }
+  @keyframes hintPulse {
+    0%, 100% { opacity: 0.4; }
+    50% { opacity: 0.9; }
+  }
+
+  .work-card .wc-ribbon {
+    position: absolute;
+    top: 8px; right: -28px;
+    font-family: var(--font-mono);
+    font-size: 9px;
+    padding: 2px 28px;
+    background: var(--accent2);
+    color: #0d1116;
+    transform: rotate(45deg);
+    opacity: 0;
+    transition: opacity 0.2s;
+    font-weight: 700;
+    letter-spacing: 0.05em;
+  }
+  .work-card.clicked .wc-ribbon { opacity: 1; }
+
+  .works-footnote {
+    margin-top: 14px;
+    font-family: var(--font-mono);
+    font-size: 12px;
+    color: var(--warn);
+  }
+  .works-footnote .comment-syntax { color: var(--text-dim); }
+
+  /* ── Education ── */
+  .edu-row {
+    display: flex;
+    justify-content: space-between;
+    font-size: 14px;
+    padding: 12px 16px;
+    background: var(--highlight);
+    border: 1px solid var(--border);
+    transition: border-color 0.2s;
+  }
+  .edu-row:hover { border-color: #30363d; }
+
+  .edu-row .edu-date {
+    font-family: var(--font-mono);
+    font-size: 12px;
+    color: var(--text-dim);
+  }
+
+  /* ── Toast ── */
+  .toast {
+    position: fixed;
+    bottom: 32px;
+    left: 50%;
+    transform: translateX(-50%);
+    font-family: var(--font-mono);
+    font-size: 11px;
+    padding: 8px 18px;
+    background: #1b1f26;
+    border: 1px solid var(--border);
+    color: var(--accent2);
+    border-radius: 4px;
+    z-index: 1001;
+    opacity: 0;
+    transition: opacity 0.3s;
+    pointer-events: none;
+  }
+  .toast.show {
+    opacity: 1;
+    transition: opacity 0s;
+  }
+
+  /* ── Print ── */
+  @media print {
+    body { background: #0d1116; -webkit-print-color-adjust: exact; print-color-adjust: exact; }
+    body::after { display: none; }
+    .page { margin: 0; max-width: 100%; border: none; animation: none; opacity: 1; transform: none; }
+    .page::before { height: 3px; }
+    @page { size: A4; margin: 0; }
+    .proj-block:hover, .work-card:hover, .strength-item:hover { transform: none; }
+    .work-list li:hover { padding-left: 16px; }
+    .work-list li:hover::before { background: var(--border); transform: none; }
+    .proj-seg ul li:hover { padding-left: 16px; }
+    .proj-seg ul li:hover::before { transform: none; }
+    .proj-body { max-height: none !important; opacity: 1 !important; overflow: visible !important; }
+    .proj-block:not(.open) .proj-body { max-height: none !important; opacity: 1 !important; padding: 18px 20px !important; }
+    .float-emoji, .toast { display: none; }
+  }
+
+  @media (max-width: 768px) {
+    body { font-size: 14px; }
+    body::after { display: none; }
+
+    .page {
+      margin: 0;
+      max-width: 100%;
+      border: none;
+      animation: none;
+      opacity: 1;
+      transform: none;
+    }
+
+    .topbar { padding: 10px 16px; font-size: 10px; }
+    .topbar .filename { margin-left: 6px; }
+
+    /* Sidebar → compact top card */
+    .main-grid { grid-template-columns: 1fr; }
+    .sidebar {
+      border-right: none;
+      border-bottom: 1px solid var(--border);
+      padding: 20px 20px 16px;
+      gap: 16px;
+      flex-direction: row;
+      flex-wrap: wrap;
+      align-items: center;
+      justify-content: center;
+    }
+
+    .avatar-block {
+      display: flex;
+      align-items: center;
+      gap: 12px;
+      text-align: left;
+      flex-basis: 100%;
+      justify-content: center;
+    }
+    .avatar-circle {
+      width: 48px; height: 48px;
+      font-size: 20px;
+      margin: 0;
+      animation: none;
+    }
+    .avatar-circle::after { display: none; }
+    .sidebar-name { font-size: 18px; }
+    .sidebar-role { font-size: 12px; min-height: auto; }
+
+    /* Inline whoami + contact */
+    .sidebar-section {
+      flex: 1;
+      min-width: 120px;
+    }
+    .sidebar-section .ss-label {
+      font-size: 10px;
+      margin-bottom: 4px;
+      padding-bottom: 3px;
+      border-bottom: none;
+    }
+    .sidebar-section .ss-item {
+      font-size: 12px;
+      margin-bottom: 2px;
+    }
+    .sidebar-section .ss-icon { font-size: 10px; }
+
+    /* Stack tags fill width */
+    .sidebar-section:last-of-type {
+      flex-basis: 100%;
+    }
+    .sidebar-tags {
+      justify-content: center;
+      gap: 4px;
+    }
+    .sidebar-tag {
+      font-size: 10px;
+      padding: 3px 8px;
+    }
+
+    .sidebar .prompt-line {
+      flex-basis: 100%;
+      text-align: center;
+      margin-top: 0;
+      font-size: 11px;
+    }
+
+    /* Content */
+    .content { padding: 20px 16px 32px; }
+
+    .hint-banner {
+      margin-bottom: 16px;
+      font-size: 11px;
+      padding: 10px 12px;
+    }
+
+    .content section { margin-bottom: 28px; }
+
+    .section-head {
+      font-size: 11px;
+      gap: 6px;
+      margin-bottom: 14px;
+    }
+    .section-head .comment { display: none; }
+
+    /* Strength single column */
+    .strength-grid { grid-template-columns: 1fr; gap: 8px; }
+    .strength-item { font-size: 13px; padding: 14px 16px; }
+
+    /* Work blocks */
+    .work-row1 { flex-direction: column; gap: 2px; }
+    .work-co { font-size: 15px; }
+    .work-date { font-size: 11px; align-self: flex-start; }
+    .work-role { font-size: 12px; margin-bottom: 6px; }
+    .work-summary { font-size: 13px; padding: 12px 14px; }
+    .work-list li { font-size: 13px; }
+
+    /* Projects */
+    .proj-block { margin-bottom: 16px; }
+    .proj-block:hover { transform: none; }
+    .proj-top { padding: 12px 14px; }
+    .proj-top .proj-name { font-size: 14px; }
+    .proj-body { padding: 14px 16px; }
+    .proj-seg .desc { font-size: 13px; }
+    .proj-seg ul li { font-size: 13px; }
+
+    /* AI Works */
+    .works-grid { grid-template-columns: 1fr; gap: 10px; }
+    .work-card { padding: 18px 16px; }
+    .work-card .wc-icon { font-size: 20px; }
+    .work-card .wc-name { font-size: 15px; }
+    .work-card .wc-desc { font-size: 13px; }
+    .works-footnote { font-size: 11px; }
+
+    /* Education */
+    .edu-row { flex-direction: column; gap: 4px; font-size: 13px; }
+
+    /* Toast */
+    .toast {
+      bottom: 20px;
+      font-size: 12px;
+      padding: 8px 16px;
+      max-width: 90vw;
+      text-align: center;
+    }
+  }
+
+  @media (max-width: 400px) {
+    .sidebar { padding: 14px 12px 12px; gap: 10px; }
+    .sidebar-section { min-width: 0; flex-basis: auto; }
+    .sidebar-tags { gap: 3px; }
+    .sidebar-tag { font-size: 9px; padding: 2px 6px; }
+    .content { padding: 14px 10px 24px; }
+    .work-co { font-size: 14px; }
+    .proj-top .proj-name { font-size: 13px; }
+    .work-card .wc-name { font-size: 14px; }
+  }
+</style>
+</head>
+<body>
+<div class="page">
+
+  <!-- Top Bar -->
+  <div class="topbar">
+    <span class="dots">
+      <span class="dot red" data-tip="不留痕迹关闭"></span>
+      <span class="dot yellow" data-tip="最小化到托盘"></span>
+      <span class="dot green" data-tip="全屏沉浸式阅读"></span>
+    </span>
+    <span class="filename">chenbaijian—ai-pm.md</span>
+  </div>
+
+  <div class="main-grid">
+
+    <!-- Sidebar -->
+    <aside class="sidebar">
+      <div class="avatar-block">
+        <div class="avatar-circle" id="avatar">陈</div>
+        <div class="sidebar-name">陈百坚</div>
+        <div class="sidebar-role" id="typewriter"></div>
+      </div>
+
+      <div class="sidebar-section">
+        <div class="ss-label">> whoami</div>
+        <div class="ss-item"><span class="ss-icon">⏻</span> 男 · 34 岁</div>
+        <div class="ss-item"><span class="ss-icon">⌂</span> 深圳</div>
+        <div class="ss-item">
+          <span class="ss-icon">⌛</span>
+          <span class="exp-years" data-joke="// 发量尚可，还能再卷十年">11 年经验</span>
+        </div>
+      </div>
+
+      <div class="sidebar-section">
+        <div class="ss-label">> contact</div>
+        <div class="ss-item"><span class="ss-icon">✉</span> 595223656@qq.com</div>
+        <div class="ss-item"><span class="ss-icon">☎</span> 13560029070</div>
+      </div>
+
+      <div class="sidebar-section">
+        <div class="ss-label">> stack</div>
+        <div class="sidebar-tags">
+          <span class="sidebar-tag blue"  data-tip="每天都在跟它聊天">LLM</span>
+          <span class="sidebar-tag blue"  data-tip="知识库界的宜家">RAG</span>
+          <span class="sidebar-tag blue"  data-tip="让 AI 学会用工具">Agent</span>
+          <span class="sidebar-tag blue"  data-tip="拖拉拽工作流大法">Dify</span>
+          <span class="sidebar-tag blue"  data-tip="另一个拖拉拽大法">Coze</span>
+          <span class="sidebar-tag green" data-tip="AI 编码搭子一号">Cursor</span>
+          <span class="sidebar-tag green" data-tip="AI 编码搭子二号">Claude Code</span>
+          <span class="sidebar-tag green" data-tip="AI 编码搭子三号">Codex</span>
+          <span class="sidebar-tag" data-tip="Few-shot / CoT / 花式调教">Prompt Eng.</span>
+          <span class="sidebar-tag" data-tip="Agent 的骨架">Harness</span>
+          <span class="sidebar-tag" data-tip="给 LLM 看例句">Few-shot</span>
+          <span class="sidebar-tag" data-tip="让 LLM 讲道理">CoT</span>
+        </div>
+      </div>
+
+      <div class="prompt-line"><span style="color:#58a6ff">$</span> <span id="status-text">ready</span><span class="cursor"></span></div>
+    </aside>
+
+    <!-- Main Content -->
+    <div class="content">
+
+      <!-- Hint banner -->
+      <div class="hint-banner">
+        <span class="hint-icon">💡</span>
+        <span>可以戳头像、悬停标签、折叠项目卡片、在键盘上瞎敲</span>
+        <span class="hint-dismiss" onclick="this.parentElement.style.display='none'">✕</span>
+      </div>
+
+      <!-- AI 作品 -->
+      <section>
+        <div class="section-head">
+          <span class="prompt">❯</span> <span class="cmd">ls</span> side-projects/
+          <span class="comment">// AI 作品 — 点击卡片有惊喜</span>
+        </div>
+        <div class="works-grid">
+          <div class="work-card" onclick="cardClick(this, '智脉 AI 日报')">
+            <span class="wc-ribbon">✦ DEPLOYED</span>
+            <div class="wc-icon">📰</div>
+            <div class="wc-name">智脉 AI 日报</div>
+            <div class="wc-desc">AI 驱动的行业资讯聚合与推送产品，自动抓取多源信息，经 LLM 提炼摘要后按主题分发</div>
+            <a class="wc-link" href="https://rexchen595223656.github.io/ai-daily-pulse/" target="_blank" onclick="event.stopPropagation()">🔗 在线体验 →</a>
+            <div class="wc-hint">点击有惊喜</div>
+          </div>
+          <div class="work-card" onclick="cardClick(this, 'AI 出题工具')">
+            <span class="wc-ribbon">✦ DEPLOYED</span>
+            <div class="wc-icon">📝</div>
+            <div class="wc-name">AI 出题工具</div>
+            <div class="wc-desc">基于 LLM 生成结构化试题，支持题型配置、难度调节与批量输出，前后端完整可用</div>
+            <div class="wc-hint">点击有惊喜</div>
+          </div>
+        </div>
+        <div class="works-footnote">
+          <span class="comment-syntax">/*</span> Cursor · Claude Code · Codex — 3~5 天独立完成从零到部署上线 <span class="comment-syntax">*/</span>
+        </div>
+      </section>
+
+      <!-- 个人优势 -->
+      <section>
+        <div class="section-head">
+          <span class="prompt">❯</span> <span class="cmd">cat</span> strengths
+          <span class="comment">// 核心能力 — 挑重点看</span>
+        </div>
+        <div class="strength-grid">
+          <div class="strength-item">
+            <div class="si-key">定位</div>
+            11 年产研经验，前端技术出身转型 AI 产品。能独立完成「需求分析 → 方案设计 → 原型验证 → 工程落地」全链路闭环
+          </div>
+          <div class="strength-item">
+            <div class="si-key">AI 产品</div>
+            0 到 1 主导 AI 教练、AI 知识库、AI 助手三条产品线，掌握 Few-shot、CoT 等 Prompt 工程方法，能以此验证方案边界并指导工程化落地
+          </div>
+          <div class="strength-item">
+            <div class="si-key">工程协同</div>
+            理解 Agent 原理与 Harness 架构，熟练 Vibe coding（Cursor、Claude Code、Codex），多次在 Dify / Coze 完成 Agent 方案验证
+          </div>
+          <div class="strength-item">
+            <div class="si-key">交付</div>
+            主导深燃、中海油等大型政企项目交付，具备跨团队统筹与客户管理能力
+          </div>
+        </div>
+      </section>
+
+      <!-- 工作经历 -->
+      <section>
+        <div class="section-head">
+          <span class="prompt">❯</span> <span class="cmd">cat</span> experience
+          <span class="comment">// 工作经历 — 3 年产品 + 7 年研发</span>
+        </div>
+
+        <div class="work-block">
+          <div class="work-row1">
+            <span class="work-co">知学云（北京）科技股份有限公司</span>
+            <span class="work-date" data-tenure="6年5个月 — 职业生涯的主线剧情">2019.08 → 2026.01</span>
+          </div>
+          <div class="work-role">产品经理</div>
+          <div class="work-summary">
+            围绕公司「AI + 企业学习」战略，负责 AI 智能学习产品线从 0 到 1 建设。主导 LLM 方案评估选型与技术融合，打造覆盖「教-学-练-测-用」全场景的智能学习解决方案，服务中海油、深燃等头部央国企客户。
+          </div>
+          <ul class="work-list">
+            <li>完成售前方案演示与需求对接，推动多个头部客户签约，支撑公司 AI 业务线从 0 到 1 拓展</li>
+            <li>统筹内外部资源推进重点交付，管理从需求确认到上线验收的全周期</li>
+            <li>协同研发团队建立 AI 产品评估与迭代机制，通过 A/B 测试驱动方案收敛</li>
+          </ul>
+        </div>
+
+        <div class="work-block work-minor">
+          <div class="work-row1">
+            <span class="work-co">深圳智能制造科技有限公司</span>
+            <span class="work-date" data-tenure="7个月 — 短暂过渡，快速成长">2018.12 → 2019.07</span>
+          </div>
+          <div class="work-role">前端开发工程师</div>
+          <div class="work-summary">负责工艺模块、小程序及官网的开发优化，参与技术选型与前后端联调，保障项目交付质量。</div>
+        </div>
+
+        <div class="work-block work-minor">
+          <div class="work-row1">
+            <span class="work-co">香港天域商业方案策划有限公司</span>
+            <span class="work-date" data-tenure="2年9个月 — 职业生涯的起点">2016.02 → 2018.11</span>
+          </div>
+          <div class="work-role">前端开发工程师</div>
+          <div class="work-summary">负责香港企业及机构网站与业务系统前端开发，参与公共组件搭建，按时保质交付多个项目。</div>
+        </div>
+      </section>
+
+      <!-- 项目经历 -->
+      <section>
+        <div class="section-head">
+          <span class="prompt">❯</span> <span class="cmd">cat</span> projects
+          <span class="comment">// 核心项目 — 点击标题折叠/展开</span>
+        </div>
+
+        <div class="proj-block open">
+          <div class="proj-top" onclick="toggleProj(this)">
+            <span class="proj-name">AI 智能体教练 <span class="proj-toggle">▾</span></span>
+            <span class="proj-date">2025.09 — 12</span>
+          </div>
+          <div class="proj-body">
+            <div class="proj-seg">
+              <div class="proj-seg-label"># 背景</div>
+              <div class="desc">企业销售、客服等岗位的软技能培训（异议处理、沟通谈判）长期依赖线下角色扮演，成本高、无法规模化。</div>
+            </div>
+            <div class="proj-seg">
+              <div class="proj-seg-label"># 方案</div>
+              <ul>
+                <li>设计陪练 + 教练双智能体解耦架构：陪练模拟客户/谈判对手，教练负责评估反馈，对话状态机管控全程演练节奏</li>
+                <li>搭建系统级 / 任务级 / 动态级三层 Prompt 模板库，配套硬规则校验兜底；通过多版本 A/B 测试持续收敛智能体人设</li>
+                <li>基于 Dify 编排对话生成、规则校验、评估全链路工作流</li>
+                <li>构建规则 + 语义双轨评估体系，陪练结束后自动输出结构化能力诊断</li>
+              </ul>
+            </div>
+            <div class="proj-seg result">
+              <div class="proj-seg-label"># 结果</div>
+              <div class="desc">落地 12 个标准化培训场景，覆盖多类岗位核心技能，支撑企业软技能培训规模化迁移</div>
+            </div>
+          </div>
+        </div>
+
+        <div class="proj-block open">
+          <div class="proj-top" onclick="toggleProj(this)">
+            <span class="proj-name">平台 AI 知识库建设 <span class="proj-toggle">▾</span></span>
+            <span class="proj-date">2024.12 — 2025.10</span>
+          </div>
+          <div class="proj-body">
+            <div class="proj-seg">
+              <div class="proj-seg-label"># 背景</div>
+              <div class="desc">AI 助手、AI 陪练等场景共用私域知识，此前各场景独立维护，内容重复、召回质量参差不齐。</div>
+            </div>
+            <div class="proj-seg">
+              <div class="proj-seg-label"># 方案</div>
+              <ul>
+                <li>主导 RAG 全链路产品设计，覆盖文档解析、智能切片、自动打标、向量构建到检索问答的完整闭环</li>
+                <li>推动密集向量 + 稀疏向量双模式落地，语义理解与关键词精准匹配互补</li>
+                <li>设计多路召回 + 融合排序 + 阈值过滤策略，在召回率与准确率之间找平衡</li>
+                <li>完成 PDF、Word、视频等多格式知识的结构化处理，一次入库、多 AI 场景复用</li>
+              </ul>
+            </div>
+            <div class="proj-seg result">
+              <div class="proj-seg-label"># 结果</div>
+              <div class="desc">建成统一私域知识底座，支撑 3 条产品线，解决「问不到、答不准」的核心体验问题</div>
+            </div>
+          </div>
+        </div>
+
+        <div class="proj-block open">
+          <div class="proj-top" onclick="toggleProj(this)">
+            <span class="proj-name">AI 助手 <span class="proj-toggle">▾</span></span>
+            <span class="proj-date">2024.12 — 2025.03</span>
+          </div>
+          <div class="proj-body">
+            <div class="proj-seg">
+              <div class="proj-seg-label"># 背景</div>
+              <div class="desc">企业学习平台资源分散，内部知识无法被通用 AI 调用，学习与内容创作效率低。</div>
+            </div>
+            <div class="proj-seg">
+              <div class="proj-seg-label"># 方案</div>
+              <ul>
+                <li>设计意图识别 → 能力路由 → 工具调用完整工作流，串联各功能模块</li>
+                <li>搭建 RAG 检索模块，打通知识库、课程库与向量检索，实现私域知识精准问答</li>
+                <li>设计专家广场人机协同机制：AI 无法解答时自动转接平台专家</li>
+                <li>按学习场景拆分 Prompt 模板，实现教案、文案、PRD 等内容的结构化生成</li>
+              </ul>
+            </div>
+            <div class="proj-seg result">
+              <div class="proj-seg-label"># 结果</div>
+              <div class="desc">上线后成为平台知识消费的主要入口，用户可在对话中直接完成知识检索、内容生成与任务操作，减少多系统间跳转</div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- 教育经历 -->
+      <section>
+        <div class="section-head">
+          <span class="prompt">❯</span> <span class="cmd">cat</span> education
+          <span class="comment">// 教育背景 — 科班出身，持续自学</span>
+        </div>
+        <div class="edu-row">
+          <span>广东农工商职业技术学院 · 计算机多媒体技术</span>
+          <span class="edu-date">2012 — 2015</span>
+        </div>
+      </section>
+
+    </div>
+  </div>
+
+</div>
+
+<!-- Toast -->
+<div class="toast" id="toast"></div>
+
+<script>
+// ── Typewriter ──
+(function typewriter() {
+  const el = document.getElementById('typewriter');
+  const text = '~/ai-pm $ _';
+  let i = 0;
+  function type() {
+    if (i <= text.length) {
+      el.textContent = text.substring(0, i);
+      i++;
+      setTimeout(type, 60 + Math.random() * 40);
+    } else {
+      setTimeout(() => { i = 0; type(); }, 4000);
+    }
+  }
+  type();
+})();
+
+// ── Status rotation ──
+(function statusRotator() {
+  const el = document.getElementById('status-text');
+  const statuses = [
+    'ready', 'compiling...', 'coffee brewing...', 'PRD v3 修改中...',
+    'lunch break', 'thinking...', '99 little bugs in the code',
+    'rm -rf /problems', 'prompt tuning...', 'git push --force 不敢',
+    'npm install 中... 请稍候', 'waiting for review', 'sudo 摸鱼',
+    'parsing requirements...', 'sync meeting PTSD',
+    'token limit exceeded', 'A/B testing life choices',
+    'deploying to production (just kidding)'
+  ];
+  let idx = 0;
+  setInterval(() => {
+    idx = (idx + 1) % statuses.length;
+    el.style.opacity = '0';
+    setTimeout(() => {
+      el.textContent = statuses[idx];
+      el.style.opacity = '1';
+    }, 200);
+  }, 4000 + Math.random() * 2000);
+  el.style.transition = 'opacity 0.2s';
+})();
+
+// ── Avatar click easter egg ──
+const quips = [
+  '今天不写代码', '需求又改了', '这个需求很简单', 'PRD 写完了吗',
+  'Prompt 调试中…第 47 次', '产品经理没有假期', '正在脑暴中…',
+  '⌘+S 强迫症', '少即是多', '版本号已突破 v37',
+  '画原型不如写代码', 'AI 不会取代你，但会用 AI 的人会',
+  'Debugging my life', '需求评审 PTSD', '这个先不做'
+];
+document.getElementById('avatar').addEventListener('click', function(e) {
+  const quip = quips[Math.floor(Math.random() * quips.length)];
+  showToast(quip);
+  spawnEmoji(e.clientX, e.clientY);
+});
+
+// ── Toast ──
+function showToast(msg) {
+  const t = document.getElementById('toast');
+  t.textContent = msg;
+  t.classList.add('show');
+  clearTimeout(t._tid);
+  t._tid = setTimeout(() => t.classList.remove('show'), 1800);
+}
+
+// ── Floating emoji ──
+function spawnEmoji(x, y) {
+  const emojis = ['💡','🚀','🤔','✨','🔥','💪','🎯','🫡','😮‍💨','🤯','☕','🐛','🦾','⚡'];
+  const e = document.createElement('div');
+  e.className = 'float-emoji';
+  e.textContent = emojis[Math.floor(Math.random() * emojis.length)];
+  e.style.left = x + 'px';
+  e.style.top = y + 'px';
+  document.body.appendChild(e);
+  e.addEventListener('animationend', () => e.remove());
+}
+
+// ── Work date hover tooltip ──
+document.querySelectorAll('.work-date[data-tenure]').forEach(el => {
+  el.addEventListener('mouseenter', function(ev) {
+    showToast(this.dataset.tenure);
+  });
+});
+
+// ── Card click ──
+function cardClick(card, name) {
+  card.classList.toggle('clicked');
+  if (card.classList.contains('clicked')) {
+    spawnEmoji(card.getBoundingClientRect().left + card.offsetWidth/2,
+               card.getBoundingClientRect().top + card.offsetHeight/2);
+    showToast(name + ' — 已部署上线');
+  }
+}
+
+// ── Project toggle ──
+function toggleProj(top) {
+  const block = top.parentElement;
+  const arrow = block.querySelector('.proj-toggle');
+  block.classList.toggle('open');
+  if (arrow) {
+    arrow.textContent = block.classList.contains('open') ? '▾' : '▸';
+  }
+}
+
+// ── Console easter egg ──
+console.log(
+  '%c  🖖 你好，如果你在看这里，说明你也是同行。\n' +
+  '%c  简历链接：chenbaijian.dev  |  邮箱：595223656@qq.com\n' +
+  '%c  这段 console 是故意的 — 因为会看控制台的人，值得单独打个招呼。',
+  'font-size:16px;color:#d2a8ff;',
+  'font-size:12px;color:#58a6ff;',
+  'font-size:11px;color:#8b949e;'
+);
+
+// ── Mobile tap for tooltips (hover doesn't work on touch) ──
+document.querySelectorAll('.sidebar-tag[data-tip]').forEach(tag => {
+  tag.addEventListener('click', function(e) {
+    e.stopPropagation();
+    const tip = this.dataset.tip;
+    if (this._tipped) {
+      this._tipped = false;
+      return;
+    }
+    this._tipped = true;
+    showToast(tip);
+    setTimeout(() => { this._tipped = false; }, 2000);
+  });
+});
+
+document.querySelectorAll('.work-date[data-tenure]').forEach(el => {
+  el.addEventListener('click', function(e) {
+    e.stopPropagation();
+    showToast(this.dataset.tenure);
+  });
+});
+
+// ── Keyboard easter egg ──
+let konami = '';
+document.addEventListener('keydown', function(e) {
+  konami += e.key;
+  if (konami.length > 20) konami = konami.slice(-20);
+  if (konami.endsWith('hello')) {
+    showToast('👋 Hello! 欢迎随时联系');
+    spawnEmoji(window.innerWidth/2, window.innerHeight/2);
+    konami = '';
+  }
+  if (konami.endsWith('shipit')) {
+    document.querySelectorAll('.work-card').forEach(c => {
+      c.classList.add('clicked');
+      setTimeout(() => c.classList.remove('clicked'), 2000);
+    });
+    showToast('🚀 Ship it! Ship it! Ship it!');
+    konami = '';
+  }
+});
+</script>
+</body>
+</html>
