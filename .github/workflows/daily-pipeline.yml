@@ -10,6 +10,8 @@ jobs:
   pipeline:
     runs-on: ubuntu-latest
     timeout-minutes: 10
+    permissions:
+      contents: write
 
     steps:
       - name: Checkout
@@ -44,6 +46,7 @@ jobs:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           publish_dir: publish
           publish_branch: gh-pages
+          force_orphan: true
           commit_message: '部署: ${{ github.ref_name }} [skip ci]'
           user_name: 'github-actions[bot]'
           user_email: 'github-actions[bot]@users.noreply.github.com'
