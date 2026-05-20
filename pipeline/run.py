@@ -130,11 +130,24 @@ def fetch_all(sources: list) -> list[dict]:
 # Phase 2: Filter
 # ============================================================
 
-def filter_time(articles: list[dict], hours: int = TIME_WINDOW_HOURS) -> list[dict]:
-    """Keep only articles published within the time window (Beijing time)."""
-    cutoff = datetime.now(BEIJING_TZ) - timedelta(hours=hours)
-    filtered = [a for a in articles if a["published"] >= cutoff]
-    log.info(f"Time filter ({hours}h): {len(articles)} → {len(filtered)}")
+def filter_time(articles: list[dict], hours: int = TIME_WINDOW_HOURS,
+                 target_date: Optional[str] = None) -> list[dict]:
+    """Keep only articles published within the time window (Beijing time).
+    When target_date is set, uses a wide window back to that date and keeps only
+    articles from that specific date."""
+    if target_date:
+        target_dt = datetime.strptime(target_date, "%Y-%m-%d").replace(tzinfo=BEIJING_TZ)
+        # Wide window: from now back to start of target date
+        hours = max(72, int((datetime.now(BEIJING_TZ) - target_dt).total_seconds() / 3600) + 4)
+        cutoff = datetime.now(BEIJING_TZ) - timedelta(hours=hours)
+        filtered = [a for a in articles
+                    if a["published"] >= cutoff
+                    and a["published"].astimezone(BEIJING_TZ).date() == target_dt.date()]
+        log.info(f"Time filter (backfill {target_date}, {hours}h window): {len(articles)} → {len(filtered)}")
+    else:
+        cutoff = datetime.now(BEIJING_TZ) - timedelta(hours=hours)
+        filtered = [a for a in articles if a["published"] >= cutoff]
+        log.info(f"Time filter ({hours}h): {len(articles)} → {len(filtered)}")
     return filtered
 
 
@@ -360,11 +373,13 @@ def relative_time(dt: datetime) -> str:
         return f"{hours // 24}天前"
 
 
-def build_output(articles: list[dict], ai_result: dict) -> dict:
+def build_output(articles: list[dict], ai_result: dict,
+                  target_date: Optional[str] = None) -> dict:
     """Build the final output JSON."""
     items = merge_results(articles, ai_result)
+    date_str = target_date or datetime.now(BEIJING_TZ).strftime("%Y-%m-%d")
     return {
-        "date": datetime.now(BEIJING_TZ).strftime("%Y-%m-%d"),
+        "date": date_str,
         "generated_at": datetime.now(BEIJING_TZ).isoformat(),
         "highlight": ai_result.get("highlight", ""),
         "fun": ai_result.get("fun", {}),
@@ -519,6 +534,7 @@ def main():
     parser.add_argument("--api-key", help="AI API key override")
     parser.add_argument("--provider", choices=["deepseek", "claude"], help="AI provider: deepseek | claude")
     parser.add_argument("--claude", action="store_true", help="Shortcut for --provider claude")
+    parser.add_argument("--date", help="Target date for backfill (YYYY-MM-DD), overrides time window")
     args = parser.parse_args()
 
     provider = "claude" if args.claude else (args.provider or AI_PROVIDER)
@@ -541,7 +557,7 @@ def main():
         return 1
 
     # Phase 2: Filter
-    articles = filter_time(raw)
+    articles = filter_time(raw, target_date=args.date)
     articles = filter_ai_keywords(articles)
     articles = deduplicate(articles)
 
@@ -581,13 +597,13 @@ def main():
                 })
 
     # Phase 4: Output
-    output = build_output(articles, ai_result)
+    output = build_output(articles, ai_result, target_date=args.date)
 
     if args.output == "stdout":
         print(json.dumps(output, ensure_ascii=False, indent=2))
     else:
         OUTPUT_PATH.mkdir(parents=True, exist_ok=True)
-        date_str = datetime.now(BEIJING_TZ).strftime("%Y-%m-%d")
+        date_str = args.date or datetime.now(BEIJING_TZ).strftime("%Y-%m-%d")
         filepath = OUTPUT_PATH / f"{date_str}.json"
         filepath.write_text(json.dumps(output, ensure_ascii=False, indent=2), encoding="utf-8")
         log.info(f"Output → {filepath}")

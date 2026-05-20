@@ -1,13 +1,13 @@
 {
   "2026-05-20": {
     "date": "2026-05-20",
-    "highlight": "Google I/O 2026 发布 Gemini 3.5 Flash，性能超旗舰、成本减半，AI 竞争白热化。",
-    "count": 12,
+    "highlight": "谷歌发布Gemini 3.5系列模型，AI Agent融资与落地加速，行业关注商业化与隐私安全。",
+    "count": 5,
     "stats": {
-      "total": 12,
+      "total": 5,
       "model_count": 1,
-      "strategy_count": 6,
-      "tool_count": 4
+      "strategy_count": 3,
+      "tool_count": 1
     }
   },
   "2026-05-18": {
