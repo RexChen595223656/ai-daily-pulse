@@ -1,162 +1,78 @@
 {
   "date": "2026-05-20",
-  "generated_at": "2026-05-20T15:54:27.502335+08:00",
-  "highlight": "Google I/O 2026 发布 Gemini 3.5 Flash，性能超旗舰、成本减半，AI 竞争白热化。",
+  "generated_at": "2026-05-20T16:24:33.554483+08:00",
+  "highlight": "谷歌发布Gemini 3.5系列模型，AI Agent融资与落地加速，行业关注商业化与隐私安全。",
   "fun": {
-    "lucky": "Gemini 3.5 Flash",
-    "advice": "宜：部署轻量级 Agent，抢占编码和推理赛道。\n忌：盲目追求大参数，忽视成本和速度。",
-    "joke": "为什么 AI 不吵架？因为它总是要“调参”才能冷静。"
+    "lucky": "Chance AI",
+    "advice": "宜：打开摄像头，让AI看清世界。\n忌：对着黑屏自拍，AI也会懵。",
+    "joke": "程序员问AI：你爱我吗？AI答：请先通过单元测试。"
   },
   "articles": [
     {
       "id": 1,
       "cat": "strategy",
-      "title": "2026VENTURE50评选启动，聚焦硬核创新企业",
-      "title_en": "2026VENTURE50重磅来袭，多维度甄选高成长创新企业",
+      "title": "第四届中国AIGC产业峰会召开，聚焦Agent商业化与非共识机遇",
+      "title_en": "第四届中国AIGC产业峰会在京顺利举办！近20位行业大咖解码Agent与非共识机遇",
       "source": "36氪",
-      "url": "https://36kr.com/p/3817325516555137?f=rss",
-      "time": "3分钟前",
-      "published": "2026-05-20T07:50:52+00:00",
-      "summary": "2026年全球科技产业经历结构性重构，具身智能从实验室走向产线，大模型重塑行业逻辑，商业航天、低空经济、量子信息等新赛道加速成型。国内创投生态持续进化，耐心资本加速集聚，国资平台与市场化基金协同发力。VENTURE50由清科控股发起，已累计见证超八万家企业参选，从模式创新到技术驱动的完整周期，本次评选将多维度甄选具备技术壁垒和商业化能力的创新企业。",
-      "snark": "VENTURE50 二十年如一日，专治各种“PPT 创业综合症”。"
+      "url": "https://36kr.com/p/3817353357968516?f=rss",
+      "time": "2分钟前",
+      "published": "2026-05-20T08:22:01+00:00",
+      "summary": "由量子位主办的第四届中国AIGC产业峰会在京举行，主题为「@所有人，马上AI起来」。大会汇聚近20位行业嘉宾，包括昆仑万维、商汤等头部企业代表，围绕AI Agent商业化落地、多模态技术突破、行业场景深耕及算力基础设施变革等核心议题展开讨论。2026年AI产业高速发展，爆款Agent产品如“龙虾”和“Harness”相继出圈，但从业者和用户对如何有效使用AI、把握产业机遇仍感困惑。峰会旨在通过深度交流，解码非共识机遇，推动AI从技术走向规模化应用。",
+      "snark": "开完大会，Agent们终于从PPT里跑出来了？"
     },
     {
       "id": 2,
-      "cat": "model",
-      "title": "谷歌发布 Gemini 3.5 Flash：更快更便宜，专为 Agent 和编码优化",
-      "title_en": "Google Introduces Gemini 3.5 Flash at I/O 2026: A Faster and Cheaper Model for AI Agents and Coding",
-      "source": "MarkTechPost",
-      "url": "https://www.marktechpost.com/2026/05/20/google-introduces-gemini-3-5-flash-at-i-o-2026-a-faster-and-cheaper-model-for-ai-agents-and-coding/",
-      "time": "41分钟前",
-      "published": "2026-05-20T07:12:49+00:00",
-      "summary": "在 Google I/O 2026 上，谷歌推出 Gemini 3.5 Flash，在编码和智能体基准测试中击败自家旗舰模型，运行速度快 4 倍，成本降低一半。该模型针对 AI Agent 和编程任务深度优化，旨在以更低成本提供高性能推理能力，进一步推动 AI 应用的规模化部署。",
-      "snark": "Gemini 3.5 Flash：我狠起来连自己大哥都打。"
-    },
-    {
-      "id": 3,
       "cat": "strategy",
-      "title": "「未来式智能」完成 Pre-A 轮融资，打造数字劳动力生产工厂",
+      "title": "「未来式智能」完成Pre-A轮融资，打造企业级智能体平台",
       "title_en": "要做数字劳动力生产工厂，「未来式智能」完成Pre-A轮融资",
       "source": "36氪",
       "url": "https://36kr.com/p/3816909945029760?f=rss",
-      "time": "6小时前",
+      "time": "7小时前",
       "published": "2026-05-20T01:21:27+00:00",
-      "summary": "未来式智能（AutoAgents.ai）完成 Pre-A 轮融资，投资方包括凡创资本、中关村资本、探元资本，老股东跟投。资金用于算力投入、团队扩张和新产品生态建设。公司成立于2023年，专注以智能体技术赋能知识工作者，核心团队来自达摩院、腾讯、字节跳动和谷歌。其企业级智能体搭建平台“灵搭”旨在解决企业自动化需求。",
-      "snark": "数字劳动力工厂，老板的终极梦想：员工永不休息、永不加薪。"
+      "summary": "未来式智能（AutoAgents.ai）宣布完成Pre-A轮融资，投资方包括凡创资本、中关村资本、探元资本等，老股东跟投。公司成立于2023年6月，核心团队来自达摩院、腾讯、字节跳动和谷歌，创始人杨劲松曾主导阿里灵杰、通义-Alicemind。其核心产品“灵搭”是企业级智能体搭建平台，旨在通过智能体技术赋能知识工作者，解决企业重复性知识劳动问题。本轮融资将用于算力投入、团队扩张及新产品生态建设，标志着AI Agent在B端商业化落地加速。",
+      "snark": "融资拿到手软，但你的智能体能帮我写周报吗？"
     },
     {
-      "id": 4,
-      "cat": "strategy",
-      "title": "Chance AI 获美图等数百万美元投资，视觉智能体用户达20万",
+      "id": 3,
+      "cat": "tool",
+      "title": "视觉智能体公司Chance AI获美图等数百万美元投资，用户达20万",
       "title_en": "早期项目 | Chance AI获美图等数百万美元投资，用户数已达20万",
       "source": "36氪",
       "url": "https://36kr.com/p/3816947890471812?f=rss",
-      "time": "6小时前",
+      "time": "7小时前",
       "published": "2026-05-20T01:20:43+00:00",
-      "summary": "视觉智能体创业公司 Chance AI 完成数百万美元天使轮融资，由美图领投，NYX Ventures、阿里系投资机构跟投。其核心产品是全球首款以摄像头为主要交互入口的 AI 产品——Visual Agent，用户打开应用直接拍摄眼前内容，系统即可理解视觉意图并提供判断、建议和行动方案。公司成立于2025年，已积累20万用户。",
-      "snark": "Chance AI：你的眼睛累了？没关系，AI 替你“看世界”。"
+      "summary": "Visual Agent创业公司Chance AI完成数百万美元天使轮融资，由美图领投，NYX Ventures、阿里系投资机构跟投。其核心产品是全球首款以摄像头为主要交互入口的AI产品——Visual Agent，用户打开应用直接拍摄眼前内容，系统即可理解视觉意图并提供判断、建议和行动方案，区别于传统输入框交互。公司创始人曾熙学术与产业背景深厚。目前用户数已达20万，融资将用于模型迭代、北美学生群体增长及商业化探索，展现AI视觉交互在消费端的潜力。",
+      "snark": "摄像头终于不只是用来美颜了，还能当AI的眼睛。"
     },
     {
-      "id": 5,
-      "cat": "policy",
-      "title": "DeepSeek 回应“对话泄露”疑虑：特殊字符触发异常回复",
+      "id": 4,
+      "cat": "model",
+      "title": "谷歌推出Gemini 3.5系列模型，DeepSeek回应对话泄露疑虑",
       "title_en": "8点1氪丨谷歌推出Gemini 3.5系列模型；DeepSeek回应用户“对话泄露”疑虑；全国存款十强城市出炉",
       "source": "36氪",
       "url": "https://36kr.com/p/3816885092910212?f=rss",
-      "time": "7小时前",
+      "time": "8小时前",
       "published": "2026-05-20T00:20:10+00:00",
-      "summary": "5月19日，DeepSeek 发布关于 <think> 字符触发模型异常回复的说明。近期用户反馈在与模型对话中输入 <think> 等特殊字符后，模型偶发返回不可预期内容，引发“对话泄露”疑虑。技术团队经全面排查确认问题原因，并已修复。此事件再次引发对 AI 模型安全性和隐私保护的关注。",
-      "snark": "DeepSeek：输入 <think> 就能看别人聊天？下次试试输入 <confidential>。"
+      "summary": "谷歌发布Gemini 3.5系列模型，进一步升级多模态能力，强化在搜索、代理助手等场景的嵌入。同时，DeepSeek针对用户反馈的“对话泄露”问题发布说明：用户输入特殊字符如<think>后，模型偶发返回不可预期内容。技术团队经全面排查，确认该问题为模型在特定输入下的异常行为，并非隐私泄露，已进行修复。该事件引发对AI模型安全性和用户数据隐私的关注，也突显了模型鲁棒性在应用中的重要性。",
+      "snark": "Gemini 3.5：我更聪明了；DeepSeek：别乱敲代码，我会抽风。"
     },
     {
-      "id": 6,
+      "id": 5,
       "cat": "strategy",
-      "title": "DeepMind CEO 称 I/O 2026 标志着“奇点的山麓”",
-      "title_en": "Demis Hassabis said this might be the ‘foothills of the singularity.’ What?",
-      "source": "The Verge AI",
-      "url": "https://www.theverge.com/tech/934260/google-io-ai-singularity-demis-hassabis",
-      "time": "9小时前",
-      "published": "2026-05-19T22:16:02+00:00",
-      "summary": "Google DeepMind CEO Demis Hassabis 在 Google I/O 2026 主题演讲闭幕时表示，这是一个“对人类来说意义深远的时刻”，并称谷歌的前沿研究和产品将帮助解锁 AGI 的巨大潜力，造福全世界。他将当前阶段比作“奇点的山麓”，暗示通用人工智能的曙光已现。",
-      "snark": "奇点的山麓？那我们现在是不是还在山脚下排队买票？"
-    },
-    {
-      "id": 7,
-      "cat": "tool",
-      "title": "Upstash vs Supabase vs Neon：2026年 Vibe Coding 工作流数据库选型对比",
-      "title_en": "Upstash for Redis vs Supabase vs Neon: Which One Fits Vibe Coding Workflows in 2026?",
-      "source": "MarkTechPost",
-      "url": "https://www.marktechpost.com/2026/05/19/upstash-for-redis-vs-supabase-vs-neon-which-one-fits-vibe-coding-workflows-in-2026/",
-      "time": "9小时前",
-      "published": "2026-05-19T22:10:39+00:00",
-      "summary": "文章对比了 Upstash for Redis、Supabase 和 Neon 三款数据库平台在 2026 年 Vibe Coding 工作流中的适用性。Upstash 专注于 Serverless Redis，适合低延迟缓存和实时消息；Supabase 提供全栈 Firebase 替代方案，内置认证和实时订阅；Neon 则强调 Serverless Postgres 的弹性扩展和分支功能。三者各有侧重，开发者需根据项目需求选择。",
-      "snark": "选数据库就像选对象，没有最好的，只有最不让你加班的。"
-    },
-    {
-      "id": 8,
-      "cat": "tool",
-      "title": "谷歌 I/O 2026 全面进军 AI 设计工具，宣称成为有力竞争者",
-      "title_en": "Google just declared itself a contender in AI design at IO 2026",
-      "source": "TechCrunch",
-      "url": "https://techcrunch.com/2026/05/19/ai-design-tools-are-the-next-big-battleground-and-google-is-going-all-in-at-io-2026/",
-      "time": "10小时前",
-      "published": "2026-05-19T21:33:30+00:00",
-      "summary": "谷歌在 I/O 2026 上宣布推出新的 AI 设计工具，旨在让从教师到小企业主等所有用户都能轻松使用。该工具整合了生成式 AI 能力，支持自动布局、智能配色和内容生成，标志着谷歌正式将 AI 设计作为下一个重要战场，与 Canva、Adobe 等展开竞争。",
-      "snark": "Google 做设计工具？建议先把自己的 Logo 配色统一一下。"
-    },
-    {
-      "id": 9,
-      "cat": "tool",
-      "title": "Gmail 新增对话式语音搜索，Gemini 帮你找邮件",
-      "title_en": "You can now talk to your Gmail inbox, as seen at Google IO 2026",
-      "source": "TechCrunch",
-      "url": "https://techcrunch.com/2026/05/19/you-can-now-talk-to-your-gmail-inbox-as-seen-at-google-io-2026/",
-      "time": "10小时前",
-      "published": "2026-05-19T21:25:31+00:00",
-      "summary": "谷歌在 I/O 2026 上宣布扩展 Gmail 的 AI Inbox 功能，加入对话式语音搜索。用户可以直接用语音向 Gemini 提问，例如“帮我找到上周二关于预算的邮件”，系统将自动检索并返回相关邮件详情。该功能旨在通过自然语言交互简化邮件查找流程。",
-      "snark": "Gmail 语音搜索：终于不用在 5000 封未读邮件里手动翻找了。"
-    },
-    {
-      "id": 10,
-      "cat": "strategy",
-      "title": "谷歌的未来：一个能帮你做一切的搜索框",
-      "title_en": "The future of Google is a search box that does everything",
-      "source": "The Verge AI",
-      "url": "https://www.theverge.com/tech/934217/google-search-box-does-everything-ai-io-2026",
-      "time": "10小时前",
-      "published": "2026-05-19T21:24:14+00:00",
-      "summary": "The Verge 评论认为，从今年 I/O 主题演讲看，谷歌的野心已不止于“帮你搜索”，而是“帮你做一切”。传统的搜索框正在演变为全能 AI 助手，能够直接执行任务、生成内容、预订服务等。谷歌正将搜索从信息检索入口转变为全功能行动平台。",
-      "snark": "搜索框：以前我只帮你找答案，现在我要帮你活成 CEO。"
-    },
-    {
-      "id": 11,
-      "cat": "tool",
-      "title": "谷歌推出 AI “信息代理”：后台监控主题，主动推送更新",
-      "title_en": "How to use Google’s new AI agents to go beyond your standard searches",
-      "source": "TechCrunch",
-      "url": "https://techcrunch.com/2026/05/19/how-to-use-googles-new-ai-agents-to-go-beyond-your-standard-searches/",
-      "time": "10小时前",
-      "published": "2026-05-19T21:16:25+00:00",
-      "summary": "谷歌在 I/O 2026 上发布了全新的 AI “信息代理”功能，这些代理可以在后台持续监控用户指定的主题，并在检测到重要更新或变化时主动向用户发送提醒。与传统搜索的被动模式不同，该功能实现了信息的主动推送，适用于市场动态、学术研究、竞品监测等场景。",
-      "snark": "信息代理：比前任还关心你的一举一动，而且不会拉黑你。"
-    },
-    {
-      "id": 12,
-      "cat": "strategy",
-      "title": "从少年黑客到铁穹研究员，Ocean 融资2800万美元防御 AI 钓鱼攻击",
-      "title_en": "From teen hacker to Iron Dome researcher, this founder raised $28M to fight AI phishing",
-      "source": "TechCrunch",
-      "url": "https://techcrunch.com/2026/05/19/from-teen-hacker-to-iron-dome-researcher-this-founder-raised-28m-to-fight-ai-phishing/",
-      "time": "10小时前",
-      "published": "2026-05-19T21:08:51+00:00",
-      "summary": "Ocean 是一家基于 Agent 的邮件安全平台，其创始人从少年黑客成长为参与“铁穹”系统研究的安全专家。公司宣称其 AI 能够深度分析每封入站邮件的上下文，检测欺诈和冒充企图。本轮 2800 万美元融资将用于进一步研发和扩展市场，应对日益猖獗的 AI 驱动钓鱼攻击。",
-      "snark": "Ocean：从黑客到安全专家，这叫“用魔法打败魔法”。"
+      "title": "TechEx北美大会第二日：企业AI的障碍、路线图、安全与具身智能",
+      "title_en": "Enterprise AI roadblocks and roadmaps, security and physical AI: Day two at TechEx",
+      "source": "AI News",
+      "url": "https://www.artificialintelligence-news.com/news/tech-ex-north-america-day-two-roundup-of-themes-issues-discussions/",
+      "time": "13小时前",
+      "published": "2026-05-19T19:18:00+00:00",
+      "summary": "TechEx北美大会第二日深入探讨企业AI的挑战与机遇。会议提及“AI墓地”现象——许多AI项目在试点阶段表现良好，但难以规模化落地。讨论聚焦于企业AI的路线图、安全问题和物理AI（具身智能）的进展。与会者认为，尽管存在数据、算力和组织变革等障碍，但AI在自动化、决策支持等领域的价值已获认可。会议基调乐观，强调企业需从战略层面规划AI部署，并关注安全与合规，以推动从试点到生产的跨越。",
+      "snark": "AI墓地：项目试点的终点，PPT永恒的起点。"
     }
   ],
   "stats": {
-    "total": 12,
+    "total": 5,
     "model_count": 1,
-    "strategy_count": 6,
-    "tool_count": 4
+    "strategy_count": 3,
+    "tool_count": 1
   }
 }
