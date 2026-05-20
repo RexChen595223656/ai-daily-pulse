@@ -29,7 +29,7 @@ cd "$DEPLOY_DIR"
 if ! git diff --quiet || ! git diff --cached --quiet || [ -n "$(git ls-files --others --exclude-standard data/daily/)" ]; then
   git add index.html data/daily/
   git commit -m "部署: $(date '+%Y-%m-%d %H:%M')" || true
-  git push origin gh-pages
+  git push origin gh-pages --force
   echo "  gh-pages ✓"
 else
   echo "  gh-pages (no changes)"

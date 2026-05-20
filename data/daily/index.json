@@ -1,4 +1,15 @@
 {
+  "2026-05-20": {
+    "date": "2026-05-20",
+    "highlight": "Google I/O 2026 发布 Gemini 3.5 Flash，性能超旗舰、成本减半，AI 竞争白热化。",
+    "count": 12,
+    "stats": {
+      "total": 12,
+      "model_count": 1,
+      "strategy_count": 6,
+      "tool_count": 4
+    }
+  },
   "2026-05-18": {
     "date": "2026-05-18",
     "highlight": "AI 产业峰会即将开幕，宇石空间火箭融资 5 亿，arXiv 封禁 AI 造假论文，GEO 优化成新趋势。",

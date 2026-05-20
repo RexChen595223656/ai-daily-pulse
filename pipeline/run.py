@@ -332,7 +332,7 @@ def merge_results(articles: list[dict], ai_result: dict) -> list[dict]:
         ai = ai_articles.get(i, {})
         entry = {
             "id": i + 1,
-            "cat": ai.get("cat", "strategy"),
+            "cat": ai.get("cat") or "strategy",
             "title": ai.get("title_cn", a["title"]),
             "title_en": a["title"],
             "source": a["source"],
@@ -466,7 +466,7 @@ def push_wechat(output: dict):
         url = f"https://sctapi.ftqq.com/{SERVERCHAN_KEY}.send"
         data = urllib.parse.urlencode({"title": title, "desp": desp}).encode()
         req = urllib.request.Request(url, data=data, method="POST")
-        with urllib.request.urlopen(req, timeout=10) as resp:
+        with urllib.request.urlopen(req, timeout=10, context=_SSL_VERIFY) as resp:
             result = json.loads(resp.read())
             if result.get("code") == 0:
                 log.info(f"WeChat push OK")
