@@ -608,10 +608,11 @@ def main():
         filepath.write_text(json.dumps(output, ensure_ascii=False, indent=2), encoding="utf-8")
         log.info(f"Output → {filepath}")
 
-        # Also write latest.json
-        latest_path = OUTPUT_PATH / "latest.json"
-        latest_path.write_text(json.dumps(output, ensure_ascii=False, indent=2), encoding="utf-8")
-        log.info(f"Output → {latest_path}")
+        # Write latest.json only for current day, not backfill
+        if not args.date:
+            latest_path = OUTPUT_PATH / "latest.json"
+            latest_path.write_text(json.dumps(output, ensure_ascii=False, indent=2), encoding="utf-8")
+            log.info(f"Output → {latest_path}")
 
         # Update index.json for history archive
         update_index(output)
