@@ -1,4 +1,15 @@
 {
+  "2026-05-21": {
+    "date": "2026-05-21",
+    "highlight": "英伟达财报炸裂、xAI亏损扩张、Anthropic重金买算力，AI军备竞赛白热化。",
+    "count": 12,
+    "stats": {
+      "total": 12,
+      "model_count": 1,
+      "strategy_count": 7,
+      "tool_count": 3
+    }
+  },
   "2026-05-20": {
     "date": "2026-05-20",
     "highlight": "谷歌发布Gemini 3.5系列模型，AI Agent融资与落地加速，行业关注商业化与隐私安全。",
