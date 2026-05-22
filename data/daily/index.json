@@ -1,4 +1,15 @@
 {
+  "2026-05-22": {
+    "date": "2026-05-22",
+    "highlight": "Qwen发布百万token上下文模型，Cohere开源218B MoE，AI安全监管再遇波折。",
+    "count": 12,
+    "stats": {
+      "total": 12,
+      "model_count": 3,
+      "strategy_count": 2,
+      "tool_count": 4
+    }
+  },
   "2026-05-21": {
     "date": "2026-05-21",
     "highlight": "英伟达财报炸裂、xAI亏损扩张、Anthropic重金买算力，AI军备竞赛白热化。",
