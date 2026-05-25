@@ -11,6 +11,18 @@
       "policy_count": 1
     }
   },
+  "2026-05-24": {
+    "date": "2026-05-24",
+    "highlight": "微软、英伟达、腾讯同日发布AI框架与模型更新，行业技术竞赛加速。",
+    "count": 6,
+    "stats": {
+      "total": 6,
+      "model_count": 2,
+      "strategy_count": 0,
+      "tool_count": 2,
+      "policy_count": 0
+    }
+  },
   "2026-05-23": {
     "date": "2026-05-23",
     "highlight": "Google 发布全能模型 Gemini Omni，Nous Research 开源模型操控新方法，Perplexity 推出安全扫描工具 Bumblebee。",
