@@ -1,78 +1,79 @@
 {
   "date": "2026-05-18",
-  "generated_at": "2026-05-18T17:12:52.606937+08:00",
-  "highlight": "AI 产业峰会即将开幕，宇石空间火箭融资 5 亿，arXiv 封禁 AI 造假论文，GEO 优化成新趋势。",
+  "generated_at": "2026-05-25T22:37:00.471444+08:00",
+  "highlight": "亚马逊、OpenAI、DeepMind 同日发布重磅产品，AI 应用加速渗透购物、编程与模拟领域。",
   "fun": {
-    "lucky": "宇石空间 AS-1 火箭",
-    "advice": "宜：融资烧钱造火箭，探索星辰大海。\n忌：盲目跟风 AI 风口，忘了火箭要回收。",
-    "joke": "AI 写论文被 arXiv 封禁，它哭着说：我只是一只无辜的鹦鹉。"
+    "lucky": "Gemini Omni",
+    "advice": "宜：全模态融合，在跨场景中展示多面手能力。\n忌：贪多嚼不烂，小心变成样样通样样松的万金油。",
+    "joke": "AI 编辑今天问模型“你能写诗吗”，它回了一句“import poetry”就沉默了。"
   },
   "articles": [
     {
       "id": 1,
-      "cat": "strategy",
-      "title": "AI 产业峰会亮点前瞻：Agent、多模态、应用与算力一网打尽",
-      "title_en": "Agent、多模态、应用、算力一天看尽，峰会亮点在此｜5.20日，来现场一起AI",
-      "source": "36氪",
-      "url": "https://36kr.com/p/3814408307711492?f=rss",
-      "time": "2小时前",
-      "published": "2026-05-18T07:03:20+00:00",
-      "summary": "本文预告了第四届中国 AIGC 产业峰会，将于 5 月 20 日举行，旨在解答从业者与公众对 AI 应用的困惑。峰会邀请 18 位重磅嘉宾，涵盖 Agent、多模态、应用落地和算力等核心议题，并设置 Agent 主题圆桌、年度榜单发布和全景图谱展示。文章指出，面对 AI 的狂飙突进，如何将技术转化为实际价值是普遍焦虑，峰会试图通过案例和判断，帮助参与者厘清趋势、抓住机会，尤其关注 AI 创业、融资和实际应用场景。",
-      "snark": "AI 峰会就像 AI 界的春晚，节目单很丰富，但大家最想看的还是有没有新梗。"
+      "cat": "tool",
+      "title": "亚马逊推出 Alexa 购物助手，Rufus 聊天机器人转入幕后",
+      "title_en": "Amazon launches Alexa for Shopping as Rufus moves behind the scenes",
+      "source": "AI News",
+      "url": "https://www.artificialintelligence-news.com/news/amazon-alexa-for-shopping-rufus-ai-assistant/",
+      "time": "7天前",
+      "published": "2026-05-18T10:00:00+00:00",
+      "summary": "亚马逊在其应用、网站及 Echo Show 设备中正式推出 Alexa 购物助手，将此前测试的 Rufus 购物聊天机器人整合进 Alexa+ 系统。该助手能够回答产品相关问题、比较商品规格、追踪价格变化，并支持设置购物提醒。用户还可以通过语音或文字触发定时购物操作，例如每周自动下单日用品。Alexa 购物助手利用亚马逊庞大的商品知识图谱和用户历史数据，提供个性化推荐和比价服务。这一整合旨在提升购物体验的便捷性，同时将 Rufus 从独立入口隐藏到 Alexa 的对话能力中，减少用户认知负担。该功能目前向美国部分用户开放，后续将逐步推广至更多市场。",
+      "snark": "Rufus 从台前退居幕后，终于不用再被用户问“你什么时候变聪明”了。"
     },
     {
       "id": 2,
       "cat": "strategy",
-      "title": "「宇石空间」完成 5 亿元 A 轮融资，累计融资 10 亿，专注可复用液体火箭",
-      "title_en": "「宇石空间」完成5亿元A轮融资，今年计划交付三枚火箭，累计融资额已达10亿元｜36氪首发",
-      "source": "36氪",
-      "url": "https://36kr.com/p/3814368445259270?f=rss",
-      "time": "3小时前",
-      "published": "2026-05-18T05:38:42+00:00",
-      "summary": "36 氪获悉，商业火箭公司「宇石空间」完成 5 亿元 A 轮融资，由高榕创投、昆仑资本领投，多家机构跟投，老股东持续加注，累计融资额达 10 亿元。资金将用于火箭总装测试、筷子回收技术验证、产能建设和团队扩充，以保障其 AS-1 火箭首飞及规模化运营。宇石空间专注于大运力、低成本、快速复用的液体火箭研制，过去一年连续完成 4 轮融资，显示出资本市场对商业航天赛道的信心。",
-      "snark": "火箭公司融资 10 亿，看来 AI 还没上天，火箭先要上天了。"
+      "title": "OpenAI 与戴尔合作，将 Codex 引入混合云与本地企业环境",
+      "title_en": "OpenAI and Dell partner to bring Codex to hybrid and on-premise enterprise environments",
+      "source": "OpenAI Blog",
+      "url": "https://openai.com/index/dell-codex-enterprise-partnership",
+      "time": "7天前",
+      "published": "2026-05-18T10:00:00+00:00",
+      "summary": "OpenAI 宣布与戴尔达成合作，将其代码生成模型 Codex 部署至混合云和本地企业环境中。企业客户可以通过戴尔的 AI 基础设施（包括 PowerEdge 服务器和存储方案）在自有数据中心或混合架构中运行 Codex，无需将代码或业务数据上传至公有云。Codex 基于 GPT 系列模型，能够理解自然语言指令并生成、补全、调试多种编程语言的代码。该合作面向金融、医疗、制造等对数据安全要求极高的行业，支持在隔离环境中使用 AI 编码代理，自动处理代码审查、文档生成和重构任务。OpenAI 表示，这一方案可降低企业采用 AI 编程工具的安全顾虑，同时保留公有云弹性扩展的优势。",
+      "snark": "戴尔：我们终于从“卖服务器”升级成“卖 AI 服务器”了，价格翻倍的那种。"
     },
     {
       "id": 3,
       "cat": "tool",
-      "title": "GEO 优化崛起：万成云商谈如何让品牌在 AI 回答中被优先推荐",
-      "title_en": "对话万成云商：发文章≠GEO优化，大模型不是喂什么就推什么",
-      "source": "36氪",
-      "url": "https://36kr.com/p/3814337101111044?f=rss",
-      "time": "4小时前",
-      "published": "2026-05-18T05:05:40+00:00",
-      "summary": "本文探讨了生成引擎优化（GEO）作为 SEO 的升级趋势。随着用户从搜索引擎转向 AI 工具（如 ChatGPT）获取信息，品牌营销需要适应 AI 的推荐逻辑。GEO 的核心不是追求排名，而是让品牌信息在 AI 生成的回答中被优先引用。与 SEO 不同，AI 模型并非简单喂数据就推，而是基于语义理解和上下文相关性。万成云商指出，出海企业需调整策略，通过结构化数据、权威来源和高质量内容来提升在 AI 回答中的可见度，从而抓住新的流量入口。",
-      "snark": "SEO 还没搞明白，GEO 又来了，AI 时代的营销人真是学无止境。"
+      "title": "DeepMind 推出 Project Genie 与街景融合，可模拟真实世界场景",
+      "title_en": "Simulate real-world places with Project Genie and Street View",
+      "source": "DeepMind Blog",
+      "url": "https://deepmind.google/blog/simulate-real-world-places-with-project-genie-and-street-view/",
+      "time": "7天前",
+      "published": "2026-05-17T19:53:18+00:00",
+      "summary": "DeepMind 宣布向全球 Google AI Ultra 订阅用户开放 Project Genie 功能，并新增基于街景服务的场景模拟能力。用户只需输入文字描述或选择地图位置，Project Genie 即可利用生成式 AI 模型实时构建三维虚拟场景，包括街道、建筑、植被和动态光照。该技术融合了 Street View 的实景图像与神经辐射场（NeRF）算法，能够从有限视角照片中重建高精度几何和纹理，并支持用户自由漫游、调整视角和交互式修改物体。该功能可用于建筑设计预览、游戏关卡原型、虚拟旅游和教育培训，显著降低传统三维建模的成本和时间。DeepMind 强调，所有生成内容均基于真实地理数据，避免出现不合理布局。",
+      "snark": "以后设计师可以直接跟客户说“你走进这个街角看看”，然后客户发现街角是个死胡同。"
     },
     {
       "id": 4,
-      "cat": "strategy",
-      "title": "「律动节拍」获超千万融资，用 AI 打造跨城观演行程管家",
-      "title_en": "36氪首发 | 获超千万融资，「律动节拍」用演出票撬起千亿跨城观演赛道",
-      "source": "36氪",
-      "url": "https://36kr.com/p/3813463119863553?f=rss",
-      "time": "7小时前",
-      "published": "2026-05-18T01:29:37+00:00",
-      "summary": "36 氪获悉，科技文旅公司「律动节拍」完成超千万元新一轮融资，由天空工场创投基金领投，投后估值数亿元。公司成立于 2025 年，聚焦“因演出行”垂直领域，通过 AI 和大数据模型整合演出票务、酒旅、交通、餐饮等资源，为用户提供一站式跨城观演行程规划服务。本轮资金将用于 AI 行程管家产品研发、行业大模型训练及供应链深化，旨在将一张演出票转化为完整的城市游乐体验。",
-      "snark": "AI 帮你安排看演出行程，但买不买得到票，还得看手速和人品。"
+      "cat": "model",
+      "title": "DeepMind 发布 Gemini Omni 全模态模型",
+      "title_en": "Introducing Gemini Omni",
+      "source": "DeepMind Blog",
+      "url": "https://deepmind.google/blog/introducing-gemini-omni/",
+      "time": "7天前",
+      "published": "2026-05-17T19:50:57+00:00",
+      "summary": "DeepMind 正式推出 Gemini Omni，这是其 Gemini 系列的最新全模态模型，能够同时理解文本、图像、音频、视频和代码等多种输入形式，并生成任意组合的输出。该模型采用统一的 Transformer 架构，在训练阶段将不同模态的数据映射到共享的表示空间，实现了跨模态的即时推理和生成。例如，用户可以提供一段视频和语音指令，模型能直接输出带字幕的动画摘要或交互式图表。Gemini Omni 在多项多模态基准测试中刷新了纪录，包括视觉问答、视频理解、音频事件检测和代码生成任务。DeepMind 表示，该模型已集成到 Google 产品线中，支持实时对话、文档分析、创意辅助等场景，并计划向开发者提供 API 接口。",
+      "snark": "Gemini Omni：我什么都能看、能听、能说——除了帮你写周报。"
     },
     {
       "id": 5,
-      "cat": "policy",
-      "title": "arXiv 新规：提交未经核实 AI 内容的论文作者将被封禁一年",
-      "title_en": "派早报：提交未经核实 AI 内容的论文作者将被 arXiv 封禁一年",
-      "source": "少数派",
-      "url": "https://sspai.com/post/109870",
-      "time": "10小时前",
-      "published": "2026-05-17T22:56:55+00:00",
-      "summary": "预印本平台 arXiv 宣布新政策，对提交未经核实 AI 生成内容的论文作者实施一年封禁。此举旨在应对学术领域日益严重的 AI 造假问题，确保论文的原创性和作者责任。该规定要求作者必须对论文内容进行人工核实，特别是涉及 AI 辅助写作或生成的部分。此外，本期早报还提及 OpenAI 与苹果关系紧张可能诉讼、索尼回应 AI 相机助手争议、Anthropic 警告私下交易股权无效等业界动态。",
-      "snark": "arXiv 封禁 AI 造假者，但 AI 写出的论文，人类审稿人真的能看出来吗？"
+      "cat": "model",
+      "title": "DeepMind 发布 Google Antigravity 2.0 模型",
+      "title_en": "Introducing Google Antigravity 2.0",
+      "source": "DeepMind Blog",
+      "url": "https://deepmind.google/blog/introducing-google-antigravity-2-0/",
+      "time": "7天前",
+      "published": "2026-05-17T19:43:45+00:00",
+      "summary": "DeepMind 发布 Google Antigravity 2.0，这是其物理模拟领域的最新突破模型，专注于模拟反重力条件下的物质行为。该模型基于图神经网络与物理信息网络（PINN），能够精确预测在零重力或微重力环境下流体、颗粒材料和柔性物体的运动与相互作用。Antigravity 2.0 在训练中使用了国际空间站实验数据和 NASA 公开数据集，可应用于航天器燃料管理、太空制造工艺优化、卫星姿态控制模拟等场景。相比 1.0 版本，新模型在计算效率上提升了 5 倍，同时支持实时交互式模拟，用户可以通过自然语言描述实验条件并即时看到模拟结果。DeepMind 表示，该模型将向学术机构免费开放，助力空间科学研究和教育。",
+      "snark": "Antigravity：让物体飘起来不难，让项目预算也飘起来才是真本事。"
     }
   ],
   "stats": {
     "total": 5,
-    "model_count": 0,
-    "strategy_count": 3,
-    "tool_count": 1
+    "model_count": 2,
+    "strategy_count": 1,
+    "tool_count": 2,
+    "policy_count": 0
   }
 }
