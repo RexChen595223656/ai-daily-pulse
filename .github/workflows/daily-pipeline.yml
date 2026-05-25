@@ -2,7 +2,8 @@ name: AI Daily Pipeline
 
 on:
   schedule:
-    - cron: '0 1 * * *'  # UTC 01:00 = 北京时间 09:00, 错开 launchd 08:00
+    # UTC 01:00 = 北京时间 09:00 (primary), UTC 04:00 = 北京时间 12:00 (retry)
+    - cron: '0 1,4 * * *'
   workflow_dispatch:
 
 permissions:
@@ -12,7 +13,7 @@ permissions:
 jobs:
   pipeline:
     runs-on: ubuntu-latest
-    timeout-minutes: 10
+    timeout-minutes: 15
 
     steps:
       - name: Checkout
@@ -26,14 +27,44 @@ jobs:
       - name: Install dependencies
         run: pip install feedparser httpx openai anthropic
 
-      - name: Run pipeline
+      - name: Run pipeline (with retry)
+        id: pipeline
         env:
           AI_DAILY_DS_KEY: ${{ secrets.AI_DAILY_DS_KEY }}
           AI_DAILY_ANTHROPIC_KEY: ${{ secrets.AI_DAILY_ANTHROPIC_KEY }}
           AI_DAILY_SERVERCHAN_KEY: ${{ secrets.AI_DAILY_SERVERCHAN_KEY }}
-        run: python3 pipeline/run.py
+        run: |
+          set -e
+          # Try up to 2 times with 30s delay between attempts
+          for attempt in 1 2; do
+            echo "=== Attempt $attempt ==="
+            if python3 pipeline/run.py; then
+              echo "PIPELINE_SUCCESS=true" >> $GITHUB_OUTPUT
+              exit 0
+            fi
+            if [ $attempt -lt 2 ]; then
+              echo "Pipeline failed, retrying in 30s..."
+              sleep 30
+            fi
+          done
+          echo "PIPELINE_SUCCESS=false" >> $GITHUB_OUTPUT
+          echo "Pipeline failed after 2 attempts — check logs above."
+          exit 1
+
+      - name: Verify output exists
+        run: |
+          if [ ! -f data/daily/latest.json ]; then
+            echo "ERROR: latest.json was not generated"
+            exit 1
+          fi
+          ARTICLE_COUNT=$(python3 -c "import json; d=json.load(open('data/daily/latest.json')); print(len(d.get('articles',[])))")
+          echo "Generated $ARTICLE_COUNT articles"
+          if [ "$ARTICLE_COUNT" -lt 3 ]; then
+            echo "WARNING: Only $ARTICLE_COUNT articles — may indicate fetch issues"
+          fi
 
       - name: Deploy to GitHub Pages
+        if: steps.pipeline.outputs.PIPELINE_SUCCESS == 'true'
         env:
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
@@ -49,6 +80,6 @@ jobs:
           git config user.name 'github-actions[bot]'
           git config user.email 'github-actions[bot]@users.noreply.github.com'
           git add .
-          git commit -m "deploy: $(TZ='Asia/Shanghai' date '+%Y-%m-%d %H:%M')"
+          git commit -m "deploy: $(TZ='Asia/Shanghai' date '+%Y-%m-%d %H:%M')" || echo "No changes to commit"
           git branch -m gh-pages
           git push "https://x-access-token:${GH_TOKEN}@github.com/${{ github.repository }}.git" gh-pages -f
