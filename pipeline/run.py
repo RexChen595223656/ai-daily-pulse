@@ -219,7 +219,7 @@ def build_ai_prompt(articles: list[dict]) -> str:
    - `tool` = 开发者工具、产品发布、应用落地
    - `policy` = 政策监管、法规合规、学术伦理、隐私安全
 
-2. **中文摘要**: 每条写 150-250 字中文概要，把技术细节讲清楚
+2. **中文摘要**: 每条写 150-250 字中文概要，把技术细节讲清楚。所有专有名词（公司名、模型名、产品名）也必须翻译成中文，例如 "OpenAI" → "OpenAI"，"Claude" → "Claude"，但技术术语如 "Transformer"、"GPU" 保留英文。确保每段摘要完整收尾，以句号结束。
 
 3. **毒舌评论**: 每条写一句带幽默感的短评（15-30 字中文，像 AI 同行吐槽）
 
@@ -228,6 +228,11 @@ def build_ai_prompt(articles: list[dict]) -> str:
 5. **每日运势**: 从今天的资讯中挑一个模型或公司作为"幸运模型"，写一句"宜...忌..."的运势建议（像星座运势风格，跟 AI 行业相关）
 
 6. **冷笑话**: 写一个 AI 行业的冷笑话，30 字内，带点程序员幽默
+
+## 重要规则
+- 所有 title_cn、summary_cn、snark 必须是纯中文，不要出现英文句子
+- 每条 summary_cn 必须以句号完整结束，不要写到一半截断
+- JSON 必须完整，所有字段都不能缺失
 
 ## 输出格式
 
@@ -269,7 +274,7 @@ def call_claude(articles: list[dict], api_key: str) -> dict:
 
     resp = client.messages.create(
         model=CLAUDE_MODEL,
-        max_tokens=4096,
+        max_tokens=8192,
         messages=[{"role": "user", "content": prompt}],
     )
 
@@ -290,7 +295,7 @@ def call_deepseek(articles: list[dict], api_key: str) -> dict:
 
     resp = client.chat.completions.create(
         model=DEEPSEEK_MODEL,
-        max_tokens=4096,
+        max_tokens=8192,
         temperature=0.7,
         messages=[{"role": "user", "content": prompt}],
     )
@@ -389,6 +394,7 @@ def build_output(articles: list[dict], ai_result: dict,
             "model_count": sum(1 for i in items if i["cat"] == "model"),
             "strategy_count": sum(1 for i in items if i["cat"] == "strategy"),
             "tool_count": sum(1 for i in items if i["cat"] == "tool"),
+            "policy_count": sum(1 for i in items if i["cat"] == "policy"),
         },
     }
 
@@ -458,7 +464,7 @@ def push_wechat(output: dict):
 
     if fun:
         joke = fun.get("joke", "")
-        advice = fun.get("advice", "").replace("\\n", " ")
+        advice = fun.get("advice", "").replace("\n", " ")
         lines.extend([
             "",
             "### 今日冷笑话",
@@ -467,7 +473,7 @@ def push_wechat(output: dict):
 
     lines.extend([
         "",
-        f"📊 共{stats.get('total','?')}条 | 模型{stats.get('model_count','?')} 战略{stats.get('strategy_count','?')} 工具{stats.get('tool_count','?')}",
+        f"📊 共{stats.get('total','?')}条 | 模型{stats.get('model_count','?')} 战略{stats.get('strategy_count','?')} 工具{stats.get('tool_count','?')} 政策{stats.get('policy_count','?')}",
         "",
         "[📖 查看完整日报](https://rexchen595223656.github.io/ai-daily-pulse/)",
     ])
@@ -535,6 +541,7 @@ def main():
     parser.add_argument("--provider", choices=["deepseek", "claude"], help="AI provider: deepseek | claude")
     parser.add_argument("--claude", action="store_true", help="Shortcut for --provider claude")
     parser.add_argument("--date", help="Target date for backfill (YYYY-MM-DD), overrides time window")
+    parser.add_argument("--force", action="store_true", help="Force overwrite even if existing data has more articles")
     args = parser.parse_args()
 
     provider = "claude" if args.claude else (args.provider or AI_PROVIDER)
@@ -585,14 +592,24 @@ def main():
                 ai_result = call_claude(articles, api_key)
         except Exception as e:
             log.error(f"AI API failed ({provider}): {e}")
-            log.info("Falling back to raw output.")
-            ai_result = {"highlight": "", "articles": []}
+            log.info("Falling back to raw output (English titles preserved).")
+            ai_result = {"highlight": "AI 摘要暂时不可用，请稍后刷新", "articles": []}
             for i, a in enumerate(articles):
+                # Detect category from keywords as best-effort fallback
+                text = (a["title"] + " " + a["summary"]).lower()
+                if any(kw in text for kw in ["model", "llm", "gpt", "release", "open source", "benchmark"]):
+                    cat = "model"
+                elif any(kw in text for kw in ["policy", "regulation", "law", "ban", "executive order"]):
+                    cat = "policy"
+                elif any(kw in text for kw in ["tool", "product", "launch", "api", "platform", "app"]):
+                    cat = "tool"
+                else:
+                    cat = "strategy"
                 ai_result["articles"].append({
                     "index": i,
-                    "cat": "strategy",
+                    "cat": cat,
                     "title_cn": a["title"],
-                    "summary_cn": a["summary"][:200],
+                    "summary_cn": a["summary"][:500],
                     "snark": "",
                 })
 
@@ -605,6 +622,23 @@ def main():
         OUTPUT_PATH.mkdir(parents=True, exist_ok=True)
         date_str = args.date or datetime.now(BEIJING_TZ).strftime("%Y-%m-%d")
         filepath = OUTPUT_PATH / f"{date_str}.json"
+
+        # Protect against overwriting a better run with a worse one
+        if filepath.exists() and not args.date and not args.force:
+            try:
+                existing = json.loads(filepath.read_text(encoding="utf-8"))
+                existing_count = len(existing.get("articles", []))
+                new_count = len(output.get("articles", []))
+                if existing_count > new_count and existing_count >= 8:
+                    log.warning(
+                        f"Refusing to overwrite {date_str}.json "
+                        f"({existing_count} articles existing > {new_count} new). "
+                        f"Use --force to override."
+                    )
+                    return 1
+            except Exception:
+                pass
+
         filepath.write_text(json.dumps(output, ensure_ascii=False, indent=2), encoding="utf-8")
         log.info(f"Output → {filepath}")
 
@@ -626,7 +660,7 @@ def main():
     # Print summary
     log.info("=" * 50)
     log.info(f"Date: {output['date']}")
-    log.info(f"Articles: {output['stats']['total']} (模型:{output['stats']['model_count']} 战略:{output['stats']['strategy_count']} 工具:{output['stats']['tool_count']})")
+    log.info(f"Articles: {output['stats']['total']} (模型:{output['stats']['model_count']} 战略:{output['stats']['strategy_count']} 工具:{output['stats']['tool_count']} 政策:{output['stats']['policy_count']})")
     if output["highlight"]:
         log.info(f"Highlight: {output['highlight']}")
     for a in output["articles"]:

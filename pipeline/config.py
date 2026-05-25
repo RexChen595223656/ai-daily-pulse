@@ -83,7 +83,7 @@ DEEPSEEK_BASE_URL = "https://api.deepseek.com/v1"
 CLAUDE_MODEL = "claude-sonnet-4-6"
 
 # Time window: articles published within last N hours
-TIME_WINDOW_HOURS = 16
+TIME_WINDOW_HOURS = 24
 
 # Max articles per source
 MAX_PER_SOURCE = 10
