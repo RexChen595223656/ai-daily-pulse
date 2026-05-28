@@ -1,4 +1,16 @@
 {
+  "2026-05-28": {
+    "date": "2026-05-28",
+    "highlight": "AI投资与应用持续火热：Snowflake与AWS签订60亿美元芯片大单，Cognition融资10亿美元，Meta推出AI订阅计划。",
+    "count": 12,
+    "stats": {
+      "total": 12,
+      "model_count": 1,
+      "strategy_count": 6,
+      "tool_count": 3,
+      "policy_count": 2
+    }
+  },
   "2026-05-27": {
     "date": "2026-05-27",
     "highlight": "谷歌AI搜索引发用户逃离，DuckDuckGo安装量暴涨30%；OpenRouter估值翻倍至13亿美元。",
