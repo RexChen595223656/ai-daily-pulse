@@ -1,4 +1,16 @@
 {
+  "2026-05-29": {
+    "date": "2026-05-29",
+    "highlight": "Anthropic 以 650 亿美元融资逼近万亿估值，同时发布 Claude Opus 4.8，AI 行业步入“大模型+大资本”双轮驱动时代。",
+    "count": 12,
+    "stats": {
+      "total": 12,
+      "model_count": 2,
+      "strategy_count": 5,
+      "tool_count": 3,
+      "policy_count": 2
+    }
+  },
   "2026-05-28": {
     "date": "2026-05-28",
     "highlight": "AI投资与应用持续火热：Snowflake与AWS签订60亿美元芯片大单，Cognition融资10亿美元，Meta推出AI订阅计划。",
