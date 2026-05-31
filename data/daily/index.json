@@ -1,4 +1,16 @@
 {
+  "2026-05-31": {
+    "date": "2026-05-31",
+    "highlight": "软银豪掷750亿欧元建法国数据中心，Meta布局AI挂坠硬件，GitHub Copilot改按token收费引发开发者不满。",
+    "count": 12,
+    "stats": {
+      "total": 12,
+      "model_count": 2,
+      "strategy_count": 5,
+      "tool_count": 4,
+      "policy_count": 1
+    }
+  },
   "2026-05-30": {
     "date": "2026-05-30",
     "highlight": "AI 摘要暂时不可用，请稍后刷新",
