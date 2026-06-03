@@ -1,4 +1,16 @@
 {
+  "2026-06-03": {
+    "date": "2026-06-03",
+    "highlight": "微软Build大会连发多款AI模型与工具，Anthropic提交IPO文件，AI行业加速向企业级应用演进。",
+    "count": 12,
+    "stats": {
+      "total": 12,
+      "model_count": 1,
+      "strategy_count": 4,
+      "tool_count": 6,
+      "policy_count": 1
+    }
+  },
   "2026-06-02": {
     "date": "2026-06-02",
     "highlight": "豆包即将付费、Anthropic 提交 IPO、佛罗里达起诉 OpenAI，AI 商业化与监管风险同步升温。",
