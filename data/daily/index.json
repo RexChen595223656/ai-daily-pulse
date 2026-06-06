@@ -1,4 +1,16 @@
 {
+  "2026-06-06": {
+    "date": "2026-06-06",
+    "highlight": "谷歌每月豪掷9.2亿美元租用SpaceX算力，AI军备竞赛成本失控引发行业反思。",
+    "count": 12,
+    "stats": {
+      "total": 12,
+      "model_count": 1,
+      "strategy_count": 6,
+      "tool_count": 2,
+      "policy_count": 3
+    }
+  },
   "2026-06-04": {
     "date": "2026-06-04",
     "highlight": "Google 发布 Gemma 4 12B 开源多模态模型，同时 Alphabet 创纪录融资 850 亿美元加码 AI。",
