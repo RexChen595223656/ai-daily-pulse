@@ -1,4 +1,16 @@
 {
+  "2026-06-08": {
+    "date": "2026-06-08",
+    "highlight": "OpenAI加速打造超级应用，AI生成内容真假难辨，低代码工具井喷式爆发。",
+    "count": 11,
+    "stats": {
+      "total": 11,
+      "model_count": 1,
+      "strategy_count": 5,
+      "tool_count": 4,
+      "policy_count": 1
+    }
+  },
   "2026-06-07": {
     "date": "2026-06-07",
     "highlight": "今日看点：OpenAI推Lockdown Mode防注入攻击，Meta确认AI聊天机器人致数千账号被盗，安全与商业化的博弈加剧。",
