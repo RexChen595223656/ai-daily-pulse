@@ -1,4 +1,16 @@
 {
+  "2026-06-10": {
+    "date": "2026-06-10",
+    "highlight": "Anthropic发布首个面向公众的Mythos级模型Claude Fable 5，AI竞争进入新阶段。",
+    "count": 12,
+    "stats": {
+      "total": 12,
+      "model_count": 3,
+      "strategy_count": 3,
+      "tool_count": 5,
+      "policy_count": 1
+    }
+  },
   "2026-06-09": {
     "date": "2026-06-09",
     "highlight": "苹果WWDC全面押注AI，OpenAI提交IPO申请，AI行业竞争白热化。",
