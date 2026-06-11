@@ -1,4 +1,16 @@
 {
+  "2026-06-11": {
+    "date": "2026-06-11",
+    "highlight": "AI 军备竞赛白热化：亚马逊举债175亿美元、企业人均月耗7500美元，同时安全诉讼与版权纠纷频发。",
+    "count": 12,
+    "stats": {
+      "total": 12,
+      "model_count": 2,
+      "strategy_count": 4,
+      "tool_count": 3,
+      "policy_count": 3
+    }
+  },
   "2026-06-10": {
     "date": "2026-06-10",
     "highlight": "Anthropic发布首个面向公众的Mythos级模型Claude Fable 5，AI竞争进入新阶段。",
