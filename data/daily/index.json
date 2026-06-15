@@ -1,4 +1,16 @@
 {
+  "2026-06-15": {
+    "date": "2026-06-15",
+    "highlight": "OpenAI 推出合作伙伴网络，Anthropic 因安全担忧暂停模型访问，地缘政治与商业化并行。",
+    "count": 9,
+    "stats": {
+      "total": 9,
+      "model_count": 1,
+      "strategy_count": 4,
+      "tool_count": 2,
+      "policy_count": 2
+    }
+  },
   "2026-06-13": {
     "date": "2026-06-13",
     "highlight": "SpaceX 上市催生首位万亿富豪，Mistral 估值翻倍融资，AI 行业资本狂欢与内部动荡并存。",
