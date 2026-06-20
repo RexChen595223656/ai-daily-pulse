@@ -1,4 +1,16 @@
 {
+  "2026-06-20": {
+    "date": "2026-06-20",
+    "highlight": "AI 摘要暂时不可用，请稍后刷新",
+    "count": 12,
+    "stats": {
+      "total": 12,
+      "model_count": 7,
+      "strategy_count": 3,
+      "tool_count": 0,
+      "policy_count": 2
+    }
+  },
   "2026-06-19": {
     "date": "2026-06-19",
     "highlight": "Perplexity 推出能隔夜自省的工作记忆系统 Brain，AI 开始学会“复盘”了。",
@@ -516,11 +528,6 @@
   "2026-04-19": {
     "date": "2026-04-19",
     "highlight": "视觉 AI 突破：实时视频理解+生成，AR/VR 应用迎来技术奇点",
-    "count": 12
-  },
-  "2026-04-18": {
-    "date": "2026-04-18",
-    "highlight": "AI 教育工具爆发：个性化学习助手覆盖 K12 到高等教育",
     "count": 12
   }
 }
