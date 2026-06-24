@@ -1,4 +1,28 @@
 {
+  "2026-06-24": {
+    "date": "2026-06-24",
+    "highlight": "Mistral 发布 OCR 4 模型，Datalab 开源 9B 视觉模型，AI 在文档理解与医疗健康领域加速落地。",
+    "count": 12,
+    "stats": {
+      "total": 12,
+      "model_count": 2,
+      "strategy_count": 3,
+      "tool_count": 5,
+      "policy_count": 2
+    }
+  },
+  "2026-06-23": {
+    "date": "2026-06-23",
+    "highlight": "今日多家公司发布模型与战略动态，英伟达推节水数据中心设计，xAI与Sakana AI分别发布自主执行与路由模型。",
+    "count": 12,
+    "stats": {
+      "total": 12,
+      "model_count": 1,
+      "strategy_count": 3,
+      "tool_count": 5,
+      "policy_count": 3
+    }
+  },
   "2026-06-22": {
     "date": "2026-06-22",
     "highlight": "三星全员接入ChatGPT与Codex，AI应用在企业级市场加速落地。",
@@ -532,16 +556,6 @@
   "2026-04-23": {
     "date": "2026-04-23",
     "highlight": "大模型价格战持续，推理成本下降 80%，AI 应用爆发临界点临近",
-    "count": 12
-  },
-  "2026-04-22": {
-    "date": "2026-04-22",
-    "highlight": "视频生成模型集中爆发，Sora、Kling、Veo 三强争霸，创意产业迎来变革",
-    "count": 12
-  },
-  "2026-04-21": {
-    "date": "2026-04-21",
-    "highlight": "AI 编程工具覆盖全开发流程，从写代码到部署，人类程序员角色被重新定义",
     "count": 12
   }
 }
