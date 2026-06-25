@@ -1,4 +1,16 @@
 {
+  "2026-06-25": {
+    "date": "2026-06-25",
+    "highlight": "AI 摘要暂时不可用，请稍后刷新",
+    "count": 12,
+    "stats": {
+      "total": 12,
+      "model_count": 2,
+      "strategy_count": 7,
+      "tool_count": 3,
+      "policy_count": 0
+    }
+  },
   "2026-06-24": {
     "date": "2026-06-24",
     "highlight": "Mistral 发布 OCR 4 模型，Datalab 开源 9B 视觉模型，AI 在文档理解与医疗健康领域加速落地。",
@@ -551,11 +563,6 @@
   "2026-04-24": {
     "date": "2026-04-24",
     "highlight": "多模态模型密集发布，人形机器人量产提速，Physical AI 从概念走向落地",
-    "count": 12
-  },
-  "2026-04-23": {
-    "date": "2026-04-23",
-    "highlight": "大模型价格战持续，推理成本下降 80%，AI 应用爆发临界点临近",
     "count": 12
   }
 }
