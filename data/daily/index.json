@@ -1,4 +1,16 @@
 {
+  "2026-06-28": {
+    "date": "2026-06-28",
+    "highlight": "Anthropic的Mythos 5在特朗普政府谈判后有限恢复，DeepSeek开源DSpark加速推理，亚洲AI初创借机崛起。",
+    "count": 12,
+    "stats": {
+      "total": 12,
+      "model_count": 1,
+      "strategy_count": 6,
+      "tool_count": 2,
+      "policy_count": 3
+    }
+  },
   "2026-06-27": {
     "date": "2026-06-27",
     "highlight": "AI 摘要暂时不可用，请稍后刷新",
@@ -572,11 +584,6 @@
   "2026-04-27": {
     "date": "2026-04-27",
     "highlight": "AI 医疗影像获批 FDA 三类认证，辅助诊断从试点走向大规模部署",
-    "count": 12
-  },
-  "2026-04-26": {
-    "date": "2026-04-26",
-    "highlight": "AI 音乐生成引发版权争议，唱片公司联合起诉 AI 训练数据侵权",
     "count": 12
   }
 }
