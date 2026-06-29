@@ -1,4 +1,16 @@
 {
+  "2026-06-29": {
+    "date": "2026-06-29",
+    "highlight": "智谱AI发布GLM-5.2开源模型，宣称在网络安全领域媲美Mythos；Liquid AI推出超小模型LFM2.5-230M，端侧推理速度惊人。",
+    "count": 9,
+    "stats": {
+      "total": 9,
+      "model_count": 2,
+      "strategy_count": 4,
+      "tool_count": 2,
+      "policy_count": 1
+    }
+  },
   "2026-06-28": {
     "date": "2026-06-28",
     "highlight": "Anthropic的Mythos 5在特朗普政府谈判后有限恢复，DeepSeek开源DSpark加速推理，亚洲AI初创借机崛起。",
@@ -579,11 +591,6 @@
   "2026-04-28": {
     "date": "2026-04-28",
     "highlight": "视频生成模型集中爆发，Sora、Kling、Veo 三强争霸，创意产业迎来变革",
-    "count": 12
-  },
-  "2026-04-27": {
-    "date": "2026-04-27",
-    "highlight": "AI 医疗影像获批 FDA 三类认证，辅助诊断从试点走向大规模部署",
     "count": 12
   }
 }
