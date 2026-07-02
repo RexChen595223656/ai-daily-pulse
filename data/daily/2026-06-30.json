@@ -1,0 +1,167 @@
+{
+  "date": "2026-06-30",
+  "generated_at": "2026-06-30T08:16:36.761215+08:00",
+  "highlight": "OpenAI 将推 Codex 专属硬件，Anthropic 半价卖 Claude 给加州政府，AI 硬件与政府市场成为今日焦点。",
+  "fun": {
+    "lucky": "Claude",
+    "advice": "宜：抱紧政府大腿，签长期折扣合同。\n忌：在 Tidal 上发 AI 生成的音乐，不仅没钱拿还被贴标签。",
+    "joke": "AI 面试官问我有什么缺点，我说我偶尔会陷入死循环。它说：你被录取了，去 QA 组报到。"
+  },
+  "articles": [
+    {
+      "id": 1,
+      "cat": "tool",
+      "title": "OpenClaw 发布 iOS 与安卓伴侣节点应用，将手机接入自托管 AI 智能体网关",
+      "title_en": "OpenClaw Releases iOS and Android Companion Node Apps That Connect a Phone to a Self-Hosted AI Agent Gateway",
+      "source": "MarkTechPost",
+      "url": "https://www.marktechpost.com/2026/06/29/openclaw-releases-ios-and-android-companion-node-apps-that-connect-a-phone-to-a-self-hosted-ai-agent-gateway/",
+      "time": "35分钟前",
+      "published": "2026-06-29T23:41:29+00:00",
+      "summary": "OpenClaw 近日推出了面向 iOS 和安卓系统的伴侣节点应用，该应用并非独立的聊天机器人，而是作为节点与用户自托管的网关通过 WebSocket 协议配对。配对后，手机上的摄像头、定位、语音以及 Canvas 画布等硬件能力均可被本地优先的 AI 智能体直接调用。文章详细介绍了其架构设计、功能特性以及在构建此类系统时需要权衡的利弊，为希望将移动设备作为 AI 智能体感知与交互终端的开发者提供了技术参考。",
+      "snark": "手机终于不只是 AI 的聊天窗口了，它现在还是个带摄像头的听话小弟。"
+    },
+    {
+      "id": 2,
+      "cat": "tool",
+      "title": "PyGraphistry 工作流实现交互式图智能管线，用于安全分析与风险调查",
+      "title_en": "PyGraphistry Implementation Workflow for Interactive Graph Intelligence Pipelines in Security Analytics and Risk Investigation",
+      "source": "MarkTechPost",
+      "url": "https://www.marktechpost.com/2026/06/29/pygraphistry-implementation-workflow-for-interactive-graph-intelligence-pipelines-in-security-analytics-and-risk-investigation/",
+      "time": "2小时前",
+      "published": "2026-06-29T21:34:42+00:00",
+      "summary": "本文介绍了一套基于 PyGraphistry 的交互式图分析工作流，该工作流可在 Colab 中直接运行，专门用于处理企业访问数据。开发者首先构建了一个包含用户、设备、IP、服务、角色和地理位置的合成数据集，并将其转换为图结构中的节点和边。随后，通过风险评分、中心性指标和社区检测等算法对图数据进行特征丰富，最终实现可视化的安全分析与风险调查。该方案为网络安全分析师提供了一种低代码、高交互性的图智能管线实现路径。",
+      "snark": "把企业访问数据画成图，安全分析师终于可以像看星座运势一样看风险了。"
+    },
+    {
+      "id": 3,
+      "cat": "tool",
+      "title": "谷歌 Gemini 向美国免费用户开放个性化 AI 图像生成功能",
+      "title_en": "Gemini’s personalized AI image generation is now free for US users",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/06/29/geminis-personalized-ai-image-generation-is-now-free-for-u-s-users/",
+      "time": "4小时前",
+      "published": "2026-06-29T20:12:59+00:00",
+      "summary": "谷歌正在扩大 Gemini 个性化 AI 图像生成功能的覆盖范围，符合条件的美国免费用户现在也可以使用该功能。Gemini 能够根据用户的兴趣爱好以及来自关联谷歌应用的数据，生成定制化的图像。这一举措将原本可能仅限于付费用户的高级功能下放，旨在吸引更多用户体验谷歌的生成式 AI 能力，并进一步提升 Gemini 在消费级市场的竞争力。",
+      "snark": "免费了，但你的搜索历史和相册照片从此在 Gemini 眼里都是绘画素材。"
+    },
+    {
+      "id": 4,
+      "cat": "policy",
+      "title": "Tidal 新政策：不为 AI 生成音乐支付版税，但也不全面封禁",
+      "title_en": "Tidal won’t pay royalties on AI-generated music but isn’t banning it outright",
+      "source": "The Verge AI",
+      "url": "https://www.theverge.com/tech/959211/tidal-ai-music-policy-demonetizingdetect-label",
+      "time": "4小时前",
+      "published": "2026-06-29T19:47:35+00:00",
+      "summary": "音乐流媒体平台 Tidal 今日公布了针对 AI 生成音乐的最新政策。该平台并未选择一刀切的封禁，而是从 7 月 15 日起，对经识别为 100% AI 生成的曲目标注特定图标，以告知听众。与此同时，Tidal 宣布从即日起不再为这些 AI 生成音乐支付版税。此举旨在平衡“保护艺术家”与“告知听众”之间的关系，既为 AI 音乐保留了展示空间，又通过经济手段遏制纯 AI 创作对传统音乐版税体系的冲击。",
+      "snark": "Tidal 对 AI 音乐说：你可以唱，但我不会给你钱，还会给你贴个‘我是假的’标签。"
+    },
+    {
+      "id": 5,
+      "cat": "tool",
+      "title": "英伟达 BioNeMo 智能体工具包：将生物分子模型转化为 AI 智能体可调用的技能",
+      "title_en": "NVIDIA BioNeMo Agent Toolkit Turns Biomolecular Models Into Callable Skills for AI Agents in Drug Discovery",
+      "source": "MarkTechPost",
+      "url": "https://www.marktechpost.com/2026/06/29/nvidia-bionemo-agent-toolkit-turns-biomolecular-models-into-callable-skills-for-ai-agents-in-drug-discovery/",
+      "time": "5小时前",
+      "published": "2026-06-29T19:06:47+00:00",
+      "summary": "英伟达发布了开源的 BioNeMo 智能体工具包，该工具包能够将 OpenFold3、DiffDock 和 GenMol 等生物分子模型封装成带有详细文档的可调用技能，供 AI 智能体使用。每个技能描述都明确了模型的用途、输入、产出物以及失败模式，使得智能体可以自主选择、运行并解释模型结果。在英伟达的内部基准测试中，该工具包展示了在药物发现流程中自动化调用多种生物计算模型的潜力，大幅降低了 AI 驱动药物研发的工程门槛。",
+      "snark": "英伟达：你们别老拿 GPU 挖矿了，来帮药企卷一卷蛋白质折叠吧。"
+    },
+    {
+      "id": 6,
+      "cat": "tool",
+      "title": "OpenAI 预告 Codex 专属硬件设备，将于 7 月 15 日发布",
+      "title_en": "OpenAI is teasing new hardware… for Codex",
+      "source": "The Verge AI",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/959174/openai-codex-hardware-work-louder",
+      "time": "5小时前",
+      "published": "2026-06-29T18:52:03+00:00",
+      "summary": "OpenAI 正在为其 AI 编程工具 Codex 打造一款专属硬件设备。根据 OpenAI 在 X 平台上发布的一段视频，该设备呈方形，配有多个按钮，配文称“你最喜欢的 Codex 快捷键即将升级”。尽管具体功能和定价尚未公布，但此举表明 OpenAI 正尝试从纯软件服务向软硬件一体化方向探索，旨在为开发者提供更高效、更沉浸的 AI 辅助编程体验。不过，这并非此前传闻中神秘的 AI 眼镜或可穿戴设备。",
+      "snark": "OpenAI 终于想通了：光卖 API 不够，还得卖个带按钮的塑料盒子才能赚硬件的钱。",
+      "multiSource": [
+        "The Verge",
+        "The Verge AI"
+      ]
+    },
+    {
+      "id": 7,
+      "cat": "strategy",
+      "title": "Anthropic 与加州州长达成协议：加州政府半价使用 Claude",
+      "title_en": "Anthropic and Gov. Newsom forge deal allowing California government to use Claude at half price",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/06/29/anthropic-and-gov-newsom-forge-deal-allowing-california-government-to-use-claude-at-half-price/",
+      "time": "6小时前",
+      "published": "2026-06-29T18:10:26+00:00",
+      "summary": "Anthropic 与加州州长纽森达成一项合作协议，允许加州政府机构以市场价格的一半使用其 AI 模型 Claude。此举标志着 Anthropic 正在深化与美国地方政府的绑定关系，为其 AI 技术在公共服务领域的落地打开通道。与此同时，报道指出，Anthropic 与加州政府的走近，与其与联邦政府关系的紧张形成了鲜明对比。这一战略布局可能为 AI 公司在政府市场的竞争格局带来新的变数。",
+      "snark": "Anthropic 对加州政府说：半价 Claude，买不了吃亏买不了上当，联邦政府不给的优惠我给。"
+    },
+    {
+      "id": 8,
+      "cat": "strategy",
+      "title": "韩国科技巨头承诺投资超 5500 亿美元，缓解“内存危机”",
+      "title_en": "South Korean tech giants commit over $550B to ease ‘RAMageddon’",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/06/29/south-korean-tech-giants-commit-over-550b-to-ease-ramageddon/",
+      "time": "6小时前",
+      "published": "2026-06-29T18:07:48+00:00",
+      "summary": "全球最大的两家内存芯片公司——三星电子和 SK 海力士——宣布将在韩国投资超过 5500 亿美元，用于建设新的内存实验室和晶圆厂。此举旨在应对因 AI 算力需求爆发式增长而导致的“内存危机”，即高带宽内存（HBM）和 DDR5 等关键芯片的严重短缺。韩国政府也将借此机会巩固其作为全球 AI 硬件技术强国的地位，通过大规模基础设施投资确保供应链自主可控。",
+      "snark": "5500 亿美元砸下去，内存终于不用像春运火车票一样难抢了。"
+    },
+    {
+      "id": 9,
+      "cat": "model",
+      "title": "Micro-Agent：通过模型 API 内部协作击败前沿大模型",
+      "title_en": "Micro-Agent: Beat Frontier Models with Collaboration Inside Model API",
+      "source": "Hacker News",
+      "url": "https://vllm.ai/blog/2026-06-29-micro-agent-frontier-models",
+      "time": "6小时前",
+      "published": "2026-06-29T18:03:26+00:00",
+      "summary": "vLLM 团队在博客中介绍了 Micro-Agent 技术，该技术通过在模型 API 内部实现多个小型智能体之间的协作，达到了超越单一前沿大模型的性能。与传统的调用外部工具或编排多个独立模型不同，Micro-Agent 将协作机制直接嵌入模型推理过程，使得多个小模型能够高效地分工、验证和纠错。实验表明，这种“内聚式”的多智能体协作架构在特定任务上不仅降低了推理成本，还提升了准确率和鲁棒性，为后训练时代的模型能力提升提供了新思路。",
+      "snark": "大模型卷不动了，现在开始流行让一群小模型抱团取暖、互相抄作业。"
+    },
+    {
+      "id": 10,
+      "cat": "policy",
+      "title": "《麻省理工科技评论》发文：AI 智能体不是你的“同事”",
+      "title_en": "AI agents are not your “coworkers”",
+      "source": "MIT Tech Review",
+      "url": "https://www.technologyreview.com/2026/06/29/1139849/ai-agents-are-not-your-coworkers/",
+      "time": "6小时前",
+      "published": "2026-06-29T18:00:00+00:00",
+      "summary": "《麻省理工科技评论》在其 AI 通讯中发表观点文章，指出企业不应将 AI 智能体拟人化为员工的“同事”。文章描述了一个场景：员工上班后发现公司安排了一位名叫 Alex 的新下属，但这位下属实际上是一个 AI 工具。作者认为，将 AI 工具称为“同事”或“团队成员”会模糊人与工具的界限，可能导致责任归属不清、工作伦理混乱以及对人类员工的去价值化。文章呼吁企业在引入 AI 工具时保持透明，并明确其工具属性。",
+      "snark": "别叫 AI 同事了，它不会帮你带咖啡，也不会在团建时跟你抢话筒。"
+    },
+    {
+      "id": 11,
+      "cat": "strategy",
+      "title": "AI 排行榜平台 Arena 估值突破 1 亿美元，商业化仅半年",
+      "title_en": "Arena, the AI leaderboard everyone uses, is now a $100M business",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/06/29/arena-the-ai-leaderboard-everyone-uses-is-now-a-100m-business/",
+      "time": "6小时前",
+      "published": "2026-06-29T17:39:17+00:00",
+      "summary": "Arena，这个业内广泛使用的 AI 模型排行榜平台，如今已发展成为估值 1 亿美元的业务。该初创公司去年 9 月才正式推出商业服务，在短短半年多时间内便实现了从免费工具到盈利商业体的跨越。Arena 通过众包方式收集用户对 AI 模型输出的偏好评分，为业界提供了相对客观的模型能力排名。其商业成功证明了在 AI 基础设施层，评估与基准测试赛道同样具有巨大的变现潜力。",
+      "snark": "做排行榜都能赚一亿，建议大学排名机构也赶紧转型搞 AI 排名。"
+    },
+    {
+      "id": 12,
+      "cat": "model",
+      "title": "Ornith-1.0：面向编程智能体的自改进开源模型发布",
+      "title_en": "Ornith-1.0: self-improving open-source models for agentic coding",
+      "source": "Hacker News",
+      "url": "https://github.com/deepreinforce-ai/Ornith-1",
+      "time": "7小时前",
+      "published": "2026-06-29T17:16:17+00:00",
+      "summary": "开源社区发布了 Ornith-1.0，这是一个具备自我改进能力的编程专用 AI 模型。该模型通过从自身生成的代码反馈中学习，能够持续优化代码生成质量。项目已在 GitHub 上开源，吸引了大量关注（137 点赞，30 条评论）。Ornith-1.0 的出现标志着开源社区在构建自主进化的编程智能体方面迈出了重要一步，为开发者提供了一个不依赖闭源 API 即可拥有持续进步能力代码助手的可能性。",
+      "snark": "Ornith-1.0：我写代码，我改 bug，我迭代我自己，程序员可以彻底去摸鱼了。"
+    }
+  ],
+  "stats": {
+    "total": 12,
+    "model_count": 2,
+    "strategy_count": 3,
+    "tool_count": 5,
+    "policy_count": 2
+  }
+}

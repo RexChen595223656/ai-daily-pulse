@@ -1,4 +1,40 @@
 {
+  "2026-07-02": {
+    "date": "2026-07-02",
+    "highlight": "Anthropic 的 Claude Fable 5 在美国出口管制解除后全球重新上线，同时 SpaceX 和 Venice AI 分别在硬件和隐私赛道有新动作。",
+    "count": 12,
+    "stats": {
+      "total": 12,
+      "model_count": 3,
+      "strategy_count": 4,
+      "tool_count": 3,
+      "policy_count": 2
+    }
+  },
+  "2026-07-01": {
+    "date": "2026-07-01",
+    "highlight": "Anthropic 连发三弹：Claude Fable 5 解禁、Claude Science 发布、Sonnet 5 性能逼近 Opus，AI 科研与编码竞赛白热化。",
+    "count": 12,
+    "stats": {
+      "total": 12,
+      "model_count": 2,
+      "strategy_count": 2,
+      "tool_count": 5,
+      "policy_count": 3
+    }
+  },
+  "2026-06-30": {
+    "date": "2026-06-30",
+    "highlight": "OpenAI 将推 Codex 专属硬件，Anthropic 半价卖 Claude 给加州政府，AI 硬件与政府市场成为今日焦点。",
+    "count": 12,
+    "stats": {
+      "total": 12,
+      "model_count": 2,
+      "strategy_count": 3,
+      "tool_count": 5,
+      "policy_count": 2
+    }
+  },
   "2026-06-29": {
     "date": "2026-06-29",
     "highlight": "智谱AI发布GLM-5.2开源模型，宣称在网络安全领域媲美Mythos；Liquid AI推出超小模型LFM2.5-230M，端侧推理速度惊人。",
@@ -576,21 +612,6 @@
   "2026-05-01": {
     "date": "2026-05-01",
     "highlight": "GPT-5 公测引发行业震动，开源模型快速追赶，AI 芯片博弈白热化",
-    "count": 12
-  },
-  "2026-04-30": {
-    "date": "2026-04-30",
-    "highlight": "中美 AI 人才争夺战升级：硅谷公司为中国工程师开出百万美元年薪",
-    "count": 12
-  },
-  "2026-04-29": {
-    "date": "2026-04-29",
-    "highlight": "Agentic AI 成为新风口，硅谷巨头竞相布局，千亿美元市场争夺战开启",
-    "count": 12
-  },
-  "2026-04-28": {
-    "date": "2026-04-28",
-    "highlight": "视频生成模型集中爆发，Sora、Kling、Veo 三强争霸，创意产业迎来变革",
     "count": 12
   }
 }
