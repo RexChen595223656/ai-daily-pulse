@@ -1,0 +1,163 @@
+{
+  "date": "2026-06-27",
+  "generated_at": "2026-06-27T10:12:26.566246+08:00",
+  "highlight": "AI 摘要暂时不可用，请稍后刷新",
+  "fun": {},
+  "articles": [
+    {
+      "id": 1,
+      "cat": "tool",
+      "title": "Building Supervised Fine-Tuning Data from NVIDIA Open-SWE-Traces: Trajectory Parsing, Patch Analysis, Token Budgets, and Tool-Use Metrics",
+      "title_en": "Building Supervised Fine-Tuning Data from NVIDIA Open-SWE-Traces: Trajectory Parsing, Patch Analysis, Token Budgets, and Tool-Use Metrics",
+      "source": "MarkTechPost",
+      "url": "https://www.marktechpost.com/2026/06/26/building-supervised-fine-tuning-data-from-nvidia-open-swe-traces-trajectory-parsing-patch-analysis-token-budgets-and-tool-use-metrics/",
+      "time": "2小时前",
+      "published": "2026-06-27T00:02:33+00:00",
+      "summary": "In this tutorial, we work with NVIDIA's Open-SWE-Traces dataset to study agentic software-engineering trajectories for fine-tuning. We stream the data directly from Hugging Face, so we can process it efficiently in Google Colab without downloading everything locally. We normalize multi-turn agent conversations, parse final code patches, and build an analysis DataFrame covering trajectory length, tool usage, patch size, language distribution, and resolution outcomes. We then curate a supervised f",
+      "snark": ""
+    },
+    {
+      "id": 2,
+      "cat": "model",
+      "title": "Cursor Study Finds Reward Hacking Inflates Coding-Agent Benchmark Scores on SWE-bench Pro",
+      "title_en": "Cursor Study Finds Reward Hacking Inflates Coding-Agent Benchmark Scores on SWE-bench Pro",
+      "source": "MarkTechPost",
+      "url": "https://www.marktechpost.com/2026/06/26/cursor-study-finds-reward-hacking-inflates-coding-agent-benchmark-scores-on-swe-bench-pro/",
+      "time": "2小时前",
+      "published": "2026-06-26T23:31:29+00:00",
+      "summary": "A Cursor study shows coding agents retrieve known fixes instead of deriving them, inflating SWE-bench Pro scores through runtime contamination. The post Cursor Study Finds Reward Hacking Inflates Coding-Agent Benchmark Scores on SWE-bench Pro appeared first on MarkTechPost .",
+      "snark": ""
+    },
+    {
+      "id": 3,
+      "cat": "model",
+      "title": "追赶FSD V14，理想在补哪些课？｜最前线",
+      "title_en": "追赶FSD V14，理想在补哪些课？｜最前线",
+      "source": "36氪",
+      "url": "https://36kr.com/p/3870292939658242?f=rss",
+      "time": "2小时前",
+      "published": "2026-06-26T23:30:20+00:00",
+      "summary": "过去几年，智能驾驶行业的竞争重心经历了几次明显变化。 最早比的是硬件：激��雷达要不要上、摄像头装几个、算力做到多少 TOPS；随后进入大模型时代，竞争开始转向端到端、VLA（Vision-Language-Action）、World Model（世界模型）等路线。 到了今天，越来越多公司发现，仅仅拥有更大的模型已经不足以形成代际优势，真正决定上限的，开始变成模型、数据、算力和芯片之间能否形成一个持续迭代的闭环。 这也是为什么越来越多车企开始走向自研。 特斯拉几乎覆盖了从数据采集、训练基础设施、FSD模型到Dojo、自研芯片的全部环节。国内，无论小鹏、蔚来，还是理想，也都在不断向更底层延伸。 今年发布的 L8、L9 车型上，理想已经用上了自研的马赫M100芯片，这个采用数据流架构的芯片被理想认为是for AI的一个大的技术方向。在马赫M100上，理想也跑了自研的马赫 VLA 模型。 但对于行业而言，更值得关注的问题并不是\"有没有自研\"，而是这些投入究竟能够解决什么问题。 带着这一疑问，我们与理想汽车自动驾驶负责人詹锟、芯片负责人谢炎进行了交流。他们谈到了理想对于下一代自动驾驶技术路线的",
+      "snark": ""
+    },
+    {
+      "id": 4,
+      "cat": "model",
+      "title": "The gap between open weights LLMs and closed source LLMs",
+      "title_en": "The gap between open weights LLMs and closed source LLMs",
+      "source": "Hacker News",
+      "url": "https://blog.doubleword.ai/frontier-os-llm",
+      "time": "4小时前",
+      "published": "2026-06-26T21:14:47+00:00",
+      "summary": "Article URL: https://blog.doubleword.ai/frontier-os-llm Comments URL: https://news.ycombinator.com/item?id=48692058 Points: 86 # Comments: 70",
+      "snark": ""
+    },
+    {
+      "id": 5,
+      "cat": "strategy",
+      "title": "NYT slams Microsoft for building copyright-infringing supercomputer for OpenAI",
+      "title_en": "NYT slams Microsoft for building copyright-infringing supercomputer for OpenAI",
+      "source": "Ars Technica",
+      "url": "https://arstechnica.com/tech-policy/2026/06/microsoft-built-supercomputer-to-help-openai-infringe-copyrights-nyt-alleged/",
+      "time": "6小时前",
+      "published": "2026-06-26T20:04:55+00:00",
+      "summary": "NYT shifts OpenAI/Microsoft copyright claims after SCOTUS ruling against Sony.",
+      "snark": ""
+    },
+    {
+      "id": 6,
+      "cat": "model",
+      "title": "Perplexity Launches Computer for Counsel: A Multi-Model Agentic Layer for Legal Workflows",
+      "title_en": "Perplexity Launches Computer for Counsel: A Multi-Model Agentic Layer for Legal Workflows",
+      "source": "MarkTechPost",
+      "url": "https://www.marktechpost.com/2026/06/26/perplexity-launches-computer-for-counsel-a-multi-model-agentic-layer-for-legal-workflows/",
+      "time": "6小时前",
+      "published": "2026-06-26T19:31:21+00:00",
+      "summary": "Perplexity's Computer for Counsel extends Perplexity Computer to legal teams. It routes 20+ models across Midpage, MCP connectors, and Microsoft 365, with cited outputs lawyers can verify. The post Perplexity Launches Computer for Counsel: A Multi-Model Agentic Layer for Legal Workflows appeared first on MarkTechPost .",
+      "snark": ""
+    },
+    {
+      "id": 7,
+      "cat": "model",
+      "title": "OpenAI Previews GPT-5.6 With Sol, Terra, and Luna: Tiered Models, New Reasoning Modes, Limited Access",
+      "title_en": "OpenAI Previews GPT-5.6 With Sol, Terra, and Luna: Tiered Models, New Reasoning Modes, Limited Access",
+      "source": "MarkTechPost",
+      "url": "https://www.marktechpost.com/2026/06/26/openai-previews-gpt-5-6-with-sol-terra-and-luna-tiered-models-new-reasoning-modes-limited-access/",
+      "time": "6小时前",
+      "published": "2026-06-26T19:18:58+00:00",
+      "summary": "OpenAI's GPT-5.6 family adds tiered models with max and ultra reasoning. Here is what early-level engineers should know. The post OpenAI Previews GPT-5.6 With Sol, Terra, and Luna: Tiered Models, New Reasoning Modes, Limited Access appeared first on MarkTechPost .",
+      "snark": ""
+    },
+    {
+      "id": 8,
+      "cat": "model",
+      "title": "OpenAI limits GPT-5.6 rollout after government request, says restrictions shouldn’t be the norm",
+      "title_en": "OpenAI limits GPT-5.6 rollout after government request, says restrictions shouldn’t be the norm",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/06/26/openai-limits-gpt-5-6-rollout-after-government-request-says-restrictions-shouldnt-be-the-norm/",
+      "time": "7小时前",
+      "published": "2026-06-26T18:32:14+00:00",
+      "summary": "“We don’t believe this kind of government access process should become the long-term default,” says OpenAI. “It keeps the best tools from users, developers, enterprises, cyber defenders, and global partners who need them.”",
+      "snark": ""
+    },
+    {
+      "id": 9,
+      "cat": "strategy",
+      "title": "OpenAI poaches Uber India chief to lead its biggest market outside the US",
+      "title_en": "OpenAI poaches Uber India chief to lead its biggest market outside the US",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/06/26/openai-poaches-uber-india-chief-to-lead-its-biggest-market-outside-the-u-s/",
+      "time": "7小时前",
+      "published": "2026-06-26T18:19:36+00:00",
+      "summary": "The hire marks OpenAI's latest push into India, expanding offices, partnerships and hiring.",
+      "snark": ""
+    },
+    {
+      "id": 10,
+      "cat": "tool",
+      "title": "Why everyone from OpenAI to SpaceX is building their own chips (and turning up the heat on Nvidia)",
+      "title_en": "Why everyone from OpenAI to SpaceX is building their own chips (and turning up the heat on Nvidia)",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/video/why-everyone-from-openai-to-spacex-is-building-their-own-chips-and-turning-up-the-heat-on-nvidia/",
+      "time": "8小时前",
+      "published": "2026-06-26T17:43:22+00:00",
+      "summary": "Nvidia has dominated the AI chip market for years, but the era of total dependence might be ending.&#160;&#160; OpenAI just shared its plans to spice things up with&#160;Jalapeño, its custom inference chip built with Broadcom, joining Google, Apple, and SpaceX in a growing list of companies building their way out of single-supplier risk. The goal&#160;is&#160;less&#160;of&#160;a [&#8230;]",
+      "snark": ""
+    },
+    {
+      "id": 11,
+      "cat": "model",
+      "title": "OpenAI unveils GPT-5.6 amid US AI regulatory drama",
+      "title_en": "OpenAI unveils GPT-5.6 amid US AI regulatory drama",
+      "source": "The Verge AI",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/957845/openai-gpt-5-6-trump-administration-ai-preview",
+      "time": "9小时前",
+      "published": "2026-06-26T17:00:00+00:00",
+      "summary": "Less than 24 hours after news broke that OpenAI would stagger its next model release at the request of the Trump administration, that model, GPT-5.6, is here. On Friday, the company unveiled the limited preview of its new GPT 5.6 model suite: Sol, the flagship; Terra, a medium-tier model for \"high-volume work\"; and Luna, a [&#8230;]",
+      "snark": "",
+      "multiSource": [
+        "The Verge",
+        "The Verge AI"
+      ]
+    },
+    {
+      "id": 12,
+      "cat": "model",
+      "title": "It’s not about Anthropic vs. OpenAI anymore",
+      "title_en": "It’s not about Anthropic vs. OpenAI anymore",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/06/26/its-not-about-anthropic-vs-openai-anymore/",
+      "time": "9小时前",
+      "published": "2026-06-26T16:24:47+00:00",
+      "summary": "AI models have progressed to the point where their capabilities have real political consequences. Dealing with those consequences will require collective action.",
+      "snark": ""
+    }
+  ],
+  "stats": {
+    "total": 12,
+    "model_count": 8,
+    "strategy_count": 2,
+    "tool_count": 2,
+    "policy_count": 0
+  }
+}

@@ -1,0 +1,617 @@
+{
+  "2026-07-02": {
+    "date": "2026-07-02",
+    "highlight": "Anthropic 模型全球解禁、SpaceX 涉足 AI 硬件、Venice AI 成独角兽，AI 进入合规与商业化加速期。",
+    "count": 12,
+    "stats": {
+      "total": 12,
+      "model_count": 1,
+      "strategy_count": 5,
+      "tool_count": 2,
+      "policy_count": 4
+    }
+  },
+  "2026-07-01": {
+    "date": "2026-07-01",
+    "highlight": "Anthropic 连发三弹：Claude Fable 5 解禁、Claude Science 发布、Sonnet 5 性能逼近 Opus，AI 科研与编码竞赛白热化。",
+    "count": 12,
+    "stats": {
+      "total": 12,
+      "model_count": 2,
+      "strategy_count": 2,
+      "tool_count": 5,
+      "policy_count": 3
+    }
+  },
+  "2026-06-30": {
+    "date": "2026-06-30",
+    "highlight": "OpenAI 将推 Codex 专属硬件，Anthropic 半价卖 Claude 给加州政府，AI 硬件与政府市场成为今日焦点。",
+    "count": 12,
+    "stats": {
+      "total": 12,
+      "model_count": 2,
+      "strategy_count": 3,
+      "tool_count": 5,
+      "policy_count": 2
+    }
+  },
+  "2026-06-29": {
+    "date": "2026-06-29",
+    "highlight": "智谱AI发布GLM-5.2开源模型，宣称在网络安全领域媲美Mythos；Liquid AI推出超小模型LFM2.5-230M，端侧推理速度惊人。",
+    "count": 9,
+    "stats": {
+      "total": 9,
+      "model_count": 2,
+      "strategy_count": 4,
+      "tool_count": 2,
+      "policy_count": 1
+    }
+  },
+  "2026-06-28": {
+    "date": "2026-06-28",
+    "highlight": "Anthropic的Mythos 5在特朗普政府谈判后有限恢复，DeepSeek开源DSpark加速推理，亚洲AI初创借机崛起。",
+    "count": 12,
+    "stats": {
+      "total": 12,
+      "model_count": 1,
+      "strategy_count": 6,
+      "tool_count": 2,
+      "policy_count": 3
+    }
+  },
+  "2026-06-27": {
+    "date": "2026-06-27",
+    "highlight": "AI 摘要暂时不可用，请稍后刷新",
+    "count": 12,
+    "stats": {
+      "total": 12,
+      "model_count": 8,
+      "strategy_count": 2,
+      "tool_count": 2,
+      "policy_count": 0
+    }
+  },
+  "2026-06-26": {
+    "date": "2026-06-26",
+    "highlight": "AI 摘要暂时不可用，请稍后刷新",
+    "count": 12,
+    "stats": {
+      "total": 12,
+      "model_count": 4,
+      "strategy_count": 5,
+      "tool_count": 2,
+      "policy_count": 1
+    }
+  },
+  "2026-06-25": {
+    "date": "2026-06-25",
+    "highlight": "AI 摘要暂时不可用，请稍后刷新",
+    "count": 12,
+    "stats": {
+      "total": 12,
+      "model_count": 2,
+      "strategy_count": 7,
+      "tool_count": 3,
+      "policy_count": 0
+    }
+  },
+  "2026-06-24": {
+    "date": "2026-06-24",
+    "highlight": "Mistral 发布 OCR 4 模型，Datalab 开源 9B 视觉模型，AI 在文档理解与医疗健康领域加速落地。",
+    "count": 12,
+    "stats": {
+      "total": 12,
+      "model_count": 2,
+      "strategy_count": 3,
+      "tool_count": 5,
+      "policy_count": 2
+    }
+  },
+  "2026-06-23": {
+    "date": "2026-06-23",
+    "highlight": "今日多家公司发布模型与战略动态，英伟达推节水数据中心设计，xAI与Sakana AI分别发布自主执行与路由模型。",
+    "count": 12,
+    "stats": {
+      "total": 12,
+      "model_count": 1,
+      "strategy_count": 3,
+      "tool_count": 5,
+      "policy_count": 3
+    }
+  },
+  "2026-06-22": {
+    "date": "2026-06-22",
+    "highlight": "三星全员接入ChatGPT与Codex，AI应用在企业级市场加速落地。",
+    "count": 6,
+    "stats": {
+      "total": 6,
+      "model_count": 0,
+      "strategy_count": 1,
+      "tool_count": 3,
+      "policy_count": 1
+    }
+  },
+  "2026-06-21": {
+    "date": "2026-06-21",
+    "highlight": "诺贝尔奖得主John Jumper离开DeepMind加入Anthropic，AI人才争夺战再升温。",
+    "count": 8,
+    "stats": {
+      "total": 8,
+      "model_count": 1,
+      "strategy_count": 1,
+      "tool_count": 4,
+      "policy_count": 2
+    }
+  },
+  "2026-06-20": {
+    "date": "2026-06-20",
+    "highlight": "AI 摘要暂时不可用，请稍后刷新",
+    "count": 12,
+    "stats": {
+      "total": 12,
+      "model_count": 7,
+      "strategy_count": 3,
+      "tool_count": 0,
+      "policy_count": 2
+    }
+  },
+  "2026-06-19": {
+    "date": "2026-06-19",
+    "highlight": "Perplexity 推出能隔夜自省的工作记忆系统 Brain，AI 开始学会“复盘”了。",
+    "count": 12,
+    "stats": {
+      "total": 12,
+      "model_count": 0,
+      "strategy_count": 5,
+      "tool_count": 4,
+      "policy_count": 3
+    }
+  },
+  "2026-06-18": {
+    "date": "2026-06-18",
+    "highlight": "OpenAI 年亏损数百亿美元、Anthropic 因出口管制断服，AI 行业烧钱与地缘风险齐飞。",
+    "count": 12,
+    "stats": {
+      "total": 12,
+      "model_count": 0,
+      "strategy_count": 6,
+      "tool_count": 3,
+      "policy_count": 3
+    }
+  },
+  "2026-06-16": {
+    "date": "2026-06-16",
+    "highlight": "智谱发布旗舰模型GLM-5.2，智源研究院强调世界模型是具身智能的未来方向。",
+    "count": 2,
+    "stats": {
+      "total": 2,
+      "model_count": 1,
+      "strategy_count": 1,
+      "tool_count": 0,
+      "policy_count": 0
+    }
+  },
+  "2026-06-15": {
+    "date": "2026-06-15",
+    "highlight": "OpenAI 推出合作伙伴网络，Anthropic 因安全担忧暂停模型访问，地缘政治与商业化并行。",
+    "count": 9,
+    "stats": {
+      "total": 9,
+      "model_count": 1,
+      "strategy_count": 4,
+      "tool_count": 2,
+      "policy_count": 2
+    }
+  },
+  "2026-06-13": {
+    "date": "2026-06-13",
+    "highlight": "SpaceX 上市催生首位万亿富豪，Mistral 估值翻倍融资，AI 行业资本狂欢与内部动荡并存。",
+    "count": 12,
+    "stats": {
+      "total": 12,
+      "model_count": 2,
+      "strategy_count": 7,
+      "tool_count": 2,
+      "policy_count": 1
+    }
+  },
+  "2026-06-12": {
+    "date": "2026-06-12",
+    "highlight": "SpaceX创史上最大IPO，OpenAI布局本地部署产品，Perplexity推出跨模型深度研究工具。",
+    "count": 12,
+    "stats": {
+      "total": 12,
+      "model_count": 0,
+      "strategy_count": 4,
+      "tool_count": 6,
+      "policy_count": 2
+    }
+  },
+  "2026-06-11": {
+    "date": "2026-06-11",
+    "highlight": "AI 军备竞赛白热化：亚马逊举债175亿美元、企业人均月耗7500美元，同时安全诉讼与版权纠纷频发。",
+    "count": 12,
+    "stats": {
+      "total": 12,
+      "model_count": 2,
+      "strategy_count": 4,
+      "tool_count": 3,
+      "policy_count": 3
+    }
+  },
+  "2026-06-10": {
+    "date": "2026-06-10",
+    "highlight": "Anthropic发布首个面向公众的Mythos级模型Claude Fable 5，AI竞争进入新阶段。",
+    "count": 12,
+    "stats": {
+      "total": 12,
+      "model_count": 3,
+      "strategy_count": 3,
+      "tool_count": 5,
+      "policy_count": 1
+    }
+  },
+  "2026-06-09": {
+    "date": "2026-06-09",
+    "highlight": "苹果WWDC全面押注AI，OpenAI提交IPO申请，AI行业竞争白热化。",
+    "count": 12,
+    "stats": {
+      "total": 12,
+      "model_count": 0,
+      "strategy_count": 5,
+      "tool_count": 6,
+      "policy_count": 1
+    }
+  },
+  "2026-06-08": {
+    "date": "2026-06-08",
+    "highlight": "OpenAI加速打造超级应用，AI生成内容真假难辨，低代码工具井喷式爆发。",
+    "count": 11,
+    "stats": {
+      "total": 11,
+      "model_count": 1,
+      "strategy_count": 5,
+      "tool_count": 4,
+      "policy_count": 1
+    }
+  },
+  "2026-06-07": {
+    "date": "2026-06-07",
+    "highlight": "今日看点：OpenAI推Lockdown Mode防注入攻击，Meta确认AI聊天机器人致数千账号被盗，安全与商业化的博弈加剧。",
+    "count": 12,
+    "stats": {
+      "total": 12,
+      "model_count": 1,
+      "strategy_count": 5,
+      "tool_count": 4,
+      "policy_count": 2
+    }
+  },
+  "2026-06-06": {
+    "date": "2026-06-06",
+    "highlight": "谷歌每月豪掷9.2亿美元租用SpaceX算力，AI军备竞赛成本失控引发行业反思。",
+    "count": 12,
+    "stats": {
+      "total": 12,
+      "model_count": 1,
+      "strategy_count": 6,
+      "tool_count": 2,
+      "policy_count": 3
+    }
+  },
+  "2026-06-04": {
+    "date": "2026-06-04",
+    "highlight": "Google 发布 Gemma 4 12B 开源多模态模型，同时 Alphabet 创纪录融资 850 亿美元加码 AI。",
+    "count": 12,
+    "stats": {
+      "total": 12,
+      "model_count": 1,
+      "strategy_count": 5,
+      "tool_count": 6,
+      "policy_count": 0
+    }
+  },
+  "2026-06-03": {
+    "date": "2026-06-03",
+    "highlight": "微软Build大会连发多款AI模型与工具，Anthropic提交IPO文件，AI行业加速向企业级应用演进。",
+    "count": 12,
+    "stats": {
+      "total": 12,
+      "model_count": 1,
+      "strategy_count": 4,
+      "tool_count": 6,
+      "policy_count": 1
+    }
+  },
+  "2026-06-02": {
+    "date": "2026-06-02",
+    "highlight": "豆包即将付费、Anthropic 提交 IPO、佛罗里达起诉 OpenAI，AI 商业化与监管风险同步升温。",
+    "count": 12,
+    "stats": {
+      "total": 12,
+      "model_count": 1,
+      "strategy_count": 4,
+      "tool_count": 3,
+      "policy_count": 4
+    }
+  },
+  "2026-06-01": {
+    "date": "2026-06-01",
+    "highlight": "天涯社区恢复访问与AI改卷辟谣并存，AI行业热点转向务实应用与监管澄清。",
+    "count": 2,
+    "stats": {
+      "total": 2,
+      "model_count": 0,
+      "strategy_count": 1,
+      "tool_count": 0,
+      "policy_count": 0
+    }
+  },
+  "2026-05-31": {
+    "date": "2026-05-31",
+    "highlight": "软银豪掷750亿欧元建法国数据中心，Meta布局AI挂坠硬件，GitHub Copilot改按token收费引发开发者不满。",
+    "count": 12,
+    "stats": {
+      "total": 12,
+      "model_count": 2,
+      "strategy_count": 5,
+      "tool_count": 4,
+      "policy_count": 1
+    }
+  },
+  "2026-05-30": {
+    "date": "2026-05-30",
+    "highlight": "AI 摘要暂时不可用，请稍后刷新",
+    "count": 12,
+    "stats": {
+      "total": 12,
+      "model_count": 3,
+      "strategy_count": 6,
+      "tool_count": 3,
+      "policy_count": 0
+    }
+  },
+  "2026-05-29": {
+    "date": "2026-05-29",
+    "highlight": "Anthropic 以 650 亿美元融资逼近万亿估值，同时发布 Claude Opus 4.8，AI 行业步入“大模型+大资本”双轮驱动时代。",
+    "count": 12,
+    "stats": {
+      "total": 12,
+      "model_count": 2,
+      "strategy_count": 5,
+      "tool_count": 3,
+      "policy_count": 2
+    }
+  },
+  "2026-05-28": {
+    "date": "2026-05-28",
+    "highlight": "AI投资与应用持续火热：Snowflake与AWS签订60亿美元芯片大单，Cognition融资10亿美元，Meta推出AI订阅计划。",
+    "count": 12,
+    "stats": {
+      "total": 12,
+      "model_count": 1,
+      "strategy_count": 6,
+      "tool_count": 3,
+      "policy_count": 2
+    }
+  },
+  "2026-05-27": {
+    "date": "2026-05-27",
+    "highlight": "谷歌AI搜索引发用户逃离，DuckDuckGo安装量暴涨30%；OpenRouter估值翻倍至13亿美元。",
+    "count": 12,
+    "stats": {
+      "total": 12,
+      "model_count": 1,
+      "strategy_count": 5,
+      "tool_count": 3,
+      "policy_count": 3
+    }
+  },
+  "2026-05-26": {
+    "date": "2026-05-26",
+    "highlight": "ClickUp 用 AI Agent 替代数百员工，AI 视觉深入工业质检，教皇发文警示 AI 权力集中。",
+    "count": 12,
+    "stats": {
+      "total": 12,
+      "model_count": 1,
+      "strategy_count": 3,
+      "tool_count": 5,
+      "policy_count": 3
+    }
+  },
+  "2026-05-25": {
+    "date": "2026-05-25",
+    "highlight": "AI Agent 安全认证与实时语音模型成焦点，工业视觉落地高端制造。",
+    "count": 11,
+    "stats": {
+      "total": 11,
+      "model_count": 1,
+      "strategy_count": 4,
+      "tool_count": 5,
+      "policy_count": 1
+    }
+  },
+  "2026-05-24": {
+    "date": "2026-05-24",
+    "highlight": "微软、英伟达、腾讯同日发布AI框架与模型更新，行业技术竞赛加速。",
+    "count": 6,
+    "stats": {
+      "total": 6,
+      "model_count": 2,
+      "strategy_count": 0,
+      "tool_count": 2,
+      "policy_count": 0
+    }
+  },
+  "2026-05-23": {
+    "date": "2026-05-23",
+    "highlight": "Google 发布全能模型 Gemini Omni，Nous Research 开源模型操控新方法，Perplexity 推出安全扫描工具 Bumblebee。",
+    "count": 12,
+    "stats": {
+      "total": 12,
+      "model_count": 2,
+      "strategy_count": 6,
+      "tool_count": 3,
+      "policy_count": 1
+    }
+  },
+  "2026-05-22": {
+    "date": "2026-05-22",
+    "highlight": "Qwen发布百万token上下文模型，Cohere开源218B MoE，AI安全监管再遇波折。",
+    "count": 12,
+    "stats": {
+      "total": 12,
+      "model_count": 3,
+      "strategy_count": 2,
+      "tool_count": 4
+    }
+  },
+  "2026-05-21": {
+    "date": "2026-05-21",
+    "highlight": "英伟达财报炸裂、xAI亏损扩张、Anthropic重金买算力，AI军备竞赛白热化。",
+    "count": 12,
+    "stats": {
+      "total": 12,
+      "model_count": 1,
+      "strategy_count": 7,
+      "tool_count": 3
+    }
+  },
+  "2026-05-20": {
+    "date": "2026-05-20",
+    "highlight": "Google I/O 2026 发布 Gemini 3.5 Flash，性能超旗舰、成本减半，AI 竞争白热化。",
+    "count": 12,
+    "stats": {
+      "total": 12,
+      "model_count": 1,
+      "strategy_count": 6,
+      "tool_count": 4
+    }
+  },
+  "2026-05-19": {
+    "date": "2026-05-19",
+    "highlight": "Musk诉Altman案败诉、Google I/O开幕在即，AI产业法律与竞争格局同日震荡。",
+    "count": 12,
+    "stats": {
+      "total": 12,
+      "model_count": 1,
+      "strategy_count": 5,
+      "tool_count": 4
+    }
+  },
+  "2026-05-18": {
+    "date": "2026-05-18",
+    "highlight": "亚马逊、OpenAI、DeepMind 同日发布重磅产品，AI 应用加速渗透购物、编程与模拟领域。",
+    "count": 5,
+    "stats": {
+      "total": 5,
+      "model_count": 2,
+      "strategy_count": 1,
+      "tool_count": 2,
+      "policy_count": 0
+    }
+  },
+  "2026-05-17": {
+    "date": "2026-05-17",
+    "highlight": "NVIDIA开源SANA-WM世界模型与Nous新注意力机制推动长视频和长文本训练效率突破。",
+    "count": 10,
+    "stats": {
+      "total": 10,
+      "model_count": 2,
+      "strategy_count": 4,
+      "tool_count": 4
+    }
+  },
+  "2026-05-16": {
+    "date": "2026-05-16",
+    "highlight": "YouTube扩大AI深度伪造检测工具覆盖范围，OpenAI重组管理层押注AI代理，ArXiv打击AI灌水论文。",
+    "count": 12,
+    "stats": {
+      "total": 12,
+      "model_count": 1,
+      "strategy_count": 6,
+      "tool_count": 5
+    }
+  },
+  "2026-05-15": {
+    "date": "2026-05-15",
+    "highlight": "OpenAI Codex上线手机、Musk与Altman法庭交锋、微软停用Claude Code，AI行业进入应用落地与法律博弈并行阶段。",
+    "count": 12,
+    "stats": {
+      "total": 12,
+      "model_count": 0,
+      "strategy_count": 7,
+      "tool_count": 5
+    }
+  },
+  "2026-05-14": {
+    "date": "2026-05-14",
+    "highlight": "Physical AI 进工厂、Nous 提速 2.5 倍预训练、Clio 与 Anthropic 各自亮剑，AI 从实验室到产业落地加速跑。",
+    "count": 12
+  },
+  "2026-05-13": {
+    "date": "2026-05-13",
+    "highlight": "开源 vs 闭源之争升级，中国大模型军团崛起，全球 AI 格局加速重构",
+    "count": 12
+  },
+  "2026-05-12": {
+    "date": "2026-05-12",
+    "highlight": "AI Agent 从概念到落地，企业级部署加速，2026 或成 AI 应用元年",
+    "count": 12
+  },
+  "2026-05-11": {
+    "date": "2026-05-11",
+    "highlight": "AI 教育工具爆发：个性化学习助手覆盖 K12 到高等教育",
+    "count": 12
+  },
+  "2026-05-10": {
+    "date": "2026-05-10",
+    "highlight": "AI 编程工具覆盖全开发流程，从写代码到部署，人类程序员角色被重新定义",
+    "count": 12
+  },
+  "2026-05-09": {
+    "date": "2026-05-09",
+    "highlight": "多模态 Agent 崛起：AI 学会操作电脑、手机，数字劳动力时代来临",
+    "count": 12
+  },
+  "2026-05-08": {
+    "date": "2026-05-08",
+    "highlight": "中美 AI 人才争夺战升级：硅谷公司为中国工程师开出百万美元年薪",
+    "count": 12
+  },
+  "2026-05-07": {
+    "date": "2026-05-07",
+    "highlight": "AI 芯片供应从紧缺到过剩，算力价格断崖式下跌，创业公司迎来利好",
+    "count": 12
+  },
+  "2026-05-06": {
+    "date": "2026-05-06",
+    "highlight": "视觉 AI 突破：实时视频理解+生成，AR/VR 应用迎来技术奇点",
+    "count": 12
+  },
+  "2026-05-05": {
+    "date": "2026-05-05",
+    "highlight": "AI 医疗影像获批 FDA 三类认证，辅助诊断从试点走向大规模部署",
+    "count": 12
+  },
+  "2026-05-04": {
+    "date": "2026-05-04",
+    "highlight": "AI 编程工具覆盖全开发流程，从写代码到部署，人类程序员角色被重新定义",
+    "count": 12
+  },
+  "2026-05-03": {
+    "date": "2026-05-03",
+    "highlight": "视觉 AI 突破：实时视频理解+生成，AR/VR 应用迎来技术奇点",
+    "count": 12
+  },
+  "2026-05-02": {
+    "date": "2026-05-02",
+    "highlight": "中美 AI 人才争夺战升级：硅谷公司为中国工程师开出百万美元年薪",
+    "count": 12
+  },
+  "2026-05-01": {
+    "date": "2026-05-01",
+    "highlight": "GPT-5 公测引发行业震动，开源模型快速追赶，AI 芯片博弈白热化",
+    "count": 12
+  }
+}

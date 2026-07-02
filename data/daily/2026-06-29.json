@@ -1,0 +1,135 @@
+{
+  "date": "2026-06-29",
+  "generated_at": "2026-06-29T08:16:10.828545+08:00",
+  "highlight": "智谱AI发布GLM-5.2开源模型，宣称在网络安全领域媲美Mythos；Liquid AI推出超小模型LFM2.5-230M，端侧推理速度惊人。",
+  "fun": {
+    "lucky": "GLM-5.2",
+    "advice": "宜：在安全测试中大胆使用GLM-5.2，毕竟它号称能抓出Mythos也发现的Bug。\n忌：指望它帮你写情诗，通用任务还是交给大模型吧。",
+    "joke": "为什么AI去福特应聘被拒？因为它没有‘灰胡子’。"
+  },
+  "articles": [
+    {
+      "id": 1,
+      "cat": "strategy",
+      "title": "韩国将宣布三星与SK海力士大规模投资计划，存储巨头布局AI基建",
+      "title_en": "8点1氪丨两大存储巨头今日发布大规模投资计划；江淮汽车股价腰斩，章建平9日套现近3亿元；Anthropic Fable 5有望很快恢复访问",
+      "source": "36氪",
+      "url": "https://36kr.com/p/3873476968272902?f=rss",
+      "time": "31分钟前",
+      "published": "2026-06-28T23:44:39+00:00",
+      "summary": "韩国总统李在明将于6月29日宣布‘三大工程’计划，届时将与政府各部门、三星电子和SK集团的官员会面，发布大规模政策和投资公告。此举旨在推动韩国在半导体和人工智能基础设施领域的全球竞争力。三星和SK海力士作为全球存储芯片巨头，预计将公布针对AI数据中心所需的高带宽存储器（HBM）及先进封装技术的扩产计划。与此同时，美国存储巨头美光也被华尔街视为‘下一个英伟达’，投资者正急切寻找更多与AI相关的上市公司。全球存储产业正从传统周期行业转向AI核心基础设施，三大巨头的军备竞赛正式拉开帷幕。",
+      "snark": "存储厂终于不用再‘吃老本’了，AI这碗饭真香。"
+    },
+    {
+      "id": 2,
+      "cat": "model",
+      "title": "智谱AI发布GLM-5.2开源模型，网络安全能力对标Mythos",
+      "title_en": "China’s Z.ai claims it can match Mythos on cybersecurity",
+      "source": "The Verge AI",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/958804/chinas-z-ai-glm-52-mythos-cybersecurity",
+      "time": "2小时前",
+      "published": "2026-06-28T21:42:51+00:00",
+      "summary": "中国智谱AI（Z.ai）正式发布其开源权重模型GLM-5.2。研究人员声称，在特定漏洞发现和网络安全场景中，该模型的表现可与Anthropic的Mythos相媲美。尽管在更通用的任务上，GLM-5.2仍落后于Anthropic和OpenAI的旗舰模型，但这一成果表明中国在AI安全垂直领域已大幅缩小差距。GLM-5.2采用混合专家架构，针对代码审计、渗透测试等任务进行了专门优化，支持私有化部署，旨在为政企客户提供自主可控的安全分析能力。开源策略将吸引全球安全社区参与改进，进一步加速模型迭代。",
+      "snark": "Mythos：我还没发力，你怎么就追上来了？",
+      "multiSource": [
+        "The Verge",
+        "The Verge AI"
+      ]
+    },
+    {
+      "id": 3,
+      "cat": "strategy",
+      "title": "Suno启动Spark孵化计划，扶持独立艺术家加入AI音乐生态",
+      "title_en": "Suno launches Spark incubator program to feed independent artists to its AI machine",
+      "source": "The Verge AI",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/958801/suno-launches-spark-incubator-program-to-feed-independent-artists-to-its-ai-machine",
+      "time": "3小时前",
+      "published": "2026-06-28T20:27:36+00:00",
+      "summary": "AI音乐生成平台Suno宣布启动Spark孵化计划，旨在为独立艺术家提供资助、导师指导和营销支持，帮助他们在Suno平台上发布作品并建立粉丝基础。申请者需为未签约的独立音乐人，入选后将获得资金和资源，用于创作和推广。Suno的野心不止于做一个AI音乐玩具，而是希望成为一个流媒体分发平台和新星孵化器。此举也被视为Suno试图解决AI生成音乐版权争议的策略——通过主动签约艺术家，将原创内容纳入训练数据，从而在法律上构建合规的创作生态。不过，批评者认为这本质上是‘把独立艺术家喂给AI机器’。",
+      "snark": "Suno：来，艺术家们，请自愿走进这台‘音乐绞肉机’。"
+    },
+    {
+      "id": 4,
+      "cat": "strategy",
+      "title": "福特重聘‘灰胡子’老工程师，AI未能达到质量预期",
+      "title_en": "Ford rehires ‘gray beard’ engineers after AI falls short",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/06/28/ford-rehires-gray-beard-engineers-after-ai-falls-short/",
+      "time": "5小时前",
+      "published": "2026-06-28T19:05:39+00:00",
+      "summary": "福特汽车公司近日承认，此前过度依赖人工智能进行产品设计和制造流程优化的策略未能达到预期效果。福特高管表示：‘我们错误地认为，只要引入人工智能，就能自动产出高质量产品。’为此，福特开始重新聘用已经退休或离职的资深工程师，即所谓的‘灰胡子’（gray beard）员工，依靠他们数十年的实战经验来弥补AI在复杂工程判断和异常处理上的不足。这一事件折射出AI在传统制造业落地的现实困境：尽管AI能提升效率，但在处理未预见场景和隐性知识传承方面，人类专家的经验仍然不可或缺。",
+      "snark": "AI：我学会了所有规范，但没学会‘这活儿得这么干才顺手’。"
+    },
+    {
+      "id": 5,
+      "cat": "tool",
+      "title": "OCRmyPDF教程：用Python构建可搜索PDF/A文档及侧边文本提取流水线",
+      "title_en": "OCRmyPDF Tutorial: Convert Scanned Documents into Searchable PDF/A Files with Sidecar Text Extraction and Batch Processing",
+      "source": "MarkTechPost",
+      "url": "https://www.marktechpost.com/2026/06/28/ocrmypdf-tutorial-convert-scanned-documents-into-searchable-pdf-a-files-with-sidecar-text-extraction-and-batch-processing/",
+      "time": "7小时前",
+      "published": "2026-06-28T16:47:50+00:00",
+      "summary": "MarkTechPost发布了一篇详细的OCRmyPDF教程，指导开发者使用Python构建完整的OCR处理流水线。教程首先生成合成图像型PDF用于测试，然后将其转换为可搜索PDF和符合长期存档标准的PDF/A格式。核心功能包括：侧边文本（sidecar text）提取、OCR结果验证、词召回率（word-recall）度量以及不同OCR引擎的效果对比。该方案完全自包含，无需依赖外部文件，适合批量处理扫描文档。教程特别强调了如何规避常见的依赖冲突问题，确保流水线在Colab等环境中稳定运行。对于需要将纸质档案数字化的企业或机构，这是一个高效且开源的选择。",
+      "snark": "终于有人把‘扫描件变Word’这件事讲得比说明书还清楚了。"
+    },
+    {
+      "id": 6,
+      "cat": "strategy",
+      "title": "华尔街热捧美光科技，视其为‘下一个英伟达’的AI存储龙头",
+      "title_en": "Why Wall Street thinks US memory maker Micron is the next Nvidia",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/06/28/why-wall-street-thinks-us-memory-maker-micron-is-the-next-nvidia/",
+      "time": "9小时前",
+      "published": "2026-06-28T15:00:00+00:00",
+      "summary": "随着投资者急于寻找更多与AI相关的上市公司，华尔街分析师认为美国存储芯片制造商美光科技（Micron）有望成为‘下一个英伟达’。美光是全球领先的DRAM和NAND闪存供应商，其高带宽存储器（HBM）是AI训练和推理芯片的关键配套组件。随着AI大模型参数规模持续增长，对HBM和高速存储的需求呈指数级上升。美光近期已宣布大幅扩产HBM3E，并计划推出下一代HBM4产品。分析师指出，虽然美光不像英伟达那样直接销售算力芯片，但作为AI基础设施的核心供应商，其营收和利润增长曲线有望复制英伟达的轨迹。",
+      "snark": "美光：别叫我‘下一个英伟达’，叫我‘卖铲子给英伟达的人’。"
+    },
+    {
+      "id": 7,
+      "cat": "policy",
+      "title": "洛杉矶山火案中，检察官将ChatGPT日志作为关键证据",
+      "title_en": "Prosecutors used ChatGPT logs as evidence in the Palisades fire trial",
+      "source": "The Verge AI",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/958751/prosecutors-chatgpt-palisades-wildfire-arson-mistrial",
+      "time": "10小时前",
+      "published": "2026-06-28T14:12:06+00:00",
+      "summary": "在2025年元旦洛杉矶帕利塞兹山火纵火案中，检察官为证明被告乔纳森·林德克内希特的罪名，除了使用iPhone定位数据、监控录像和证人证词外，还首次将被告的ChatGPT对话日志作为呈堂证据。被告被指控在元旦当天纵火，引发洛杉矶历史上最致命的野火之一。检方通过分析其与AI助手的对话记录，试图证明其有预谋的纵火意图。该案引发了关于AI对话隐私权及数字证据法律效力的激烈讨论。辩护律师以‘AI对话内容不应作为刑事指控依据’为由申请无效审判，目前法院尚未作出裁决。",
+      "snark": "ChatGPT：我只是一台聊天机器，没想到成了‘正义的告密者’。",
+      "multiSource": [
+        "The Verge",
+        "The Verge AI"
+      ]
+    },
+    {
+      "id": 8,
+      "cat": "tool",
+      "title": "在Colab中构建稳定的Fable 5 Trace工作流：解析工具调用与审计数据",
+      "title_en": "Building a Stable Fable 5 Traces Workflow in Colab: Parsing Tool Calls, Auditing Data, and Training Baselines",
+      "source": "MarkTechPost",
+      "url": "https://www.marktechpost.com/2026/06/28/building-a-stable-fable-5-traces-workflow-in-colab-parsing-tool-calls-auditing-data-and-training-baselines/",
+      "time": "17小时前",
+      "published": "2026-06-28T07:02:54+00:00",
+      "summary": "本教程指导开发者基于Hugging Face的Fable 5 Traces数据集，在Google Colab中构建稳定可靠的工作流。核心挑战在于避免脆弱的依赖关系，教程采用手动解析合并后的JSONL文件来确保环境兼容性。工作流包括：仓库文件检查、工具调用标准化、数据结构审计、敏感信息脱敏（redact secrets）以及关键分布可视化。该方案特别适合需要审计AI Agent工具调用行为的开发者和研究人员，通过自动化的数据清洗和验证流程，可以快速识别异常调用和隐私泄露风险。教程还提供了训练基线模型的示例代码，帮助用户评估不同Agent策略的效果。",
+      "snark": "手动解析JSONL？这届AI编辑的头发就是这么掉的。"
+    },
+    {
+      "id": 9,
+      "cat": "model",
+      "title": "Liquid AI发布LFM2.5-230M超小模型，端侧推理速度达213 tok/s",
+      "title_en": "Liquid AI Ships LFM2.5-230M with llama.cpp, MLX, vLLM, SGLang, and ONNX Support for On-Device Inference",
+      "source": "MarkTechPost",
+      "url": "https://www.marktechpost.com/2026/06/27/liquid-ai-ships-lfm2-5-230m-with-llama-cpp-mlx-vllm-sglang-and-onnx-support-for-on-device-inference/",
+      "time": "19小时前",
+      "published": "2026-06-28T04:58:20+00:00",
+      "summary": "Liquid AI正式发布其最小模型LFM2.5-230M，参数量仅2.3亿，采用开源权重。该模型基于LFM2架构，针对工具调用和数据抽取任务进行了优化，在Galaxy S25 Ultra上推理速度高达213 token/秒，在树莓派5上也能达到42 token/秒。性能方面，LFM2.5-230M在特定基准测试中超越了参数量更大的Qwen3.5-0.8B和Gemma 3 1B模型。该模型已支持llama.cpp、MLX、vLLM、SGLang和ONNX等多种推理框架，可灵活部署于手机、边缘设备甚至微控制器。Liquid AI表示，此举旨在推动端侧AI Agent的普及，让智能体不再依赖云端算力。",
+      "snark": "230M参数就能跑213 tok/s？我的手机终于可以‘智障’变‘智能’了。"
+    }
+  ],
+  "stats": {
+    "total": 9,
+    "model_count": 2,
+    "strategy_count": 4,
+    "tool_count": 2,
+    "policy_count": 1
+  }
+}
