@@ -1,4 +1,16 @@
 {
+  "2026-07-04": {
+    "date": "2026-07-04",
+    "highlight": "Mistral 发布 Leanstral 1.5 代码模型；Anthropic 进军药物研发；多家 AI 公司与药企达成合作，AI 应用加速落地。",
+    "count": 12,
+    "stats": {
+      "total": 12,
+      "model_count": 1,
+      "strategy_count": 6,
+      "tool_count": 4,
+      "policy_count": 1
+    }
+  },
   "2026-07-03": {
     "date": "2026-07-03",
     "highlight": "宇树科技成为A股人形机器人第一股，Meta承认AI代理进展不及预期，OpenAI提议向美国主权基金捐赠5%股权。",
@@ -614,11 +626,6 @@
   "2026-05-03": {
     "date": "2026-05-03",
     "highlight": "视觉 AI 突破：实时视频理解+生成，AR/VR 应用迎来技术奇点",
-    "count": 12
-  },
-  "2026-05-02": {
-    "date": "2026-05-02",
-    "highlight": "中美 AI 人才争夺战升级：硅谷公司为中国工程师开出百万美元年薪",
     "count": 12
   }
 }
