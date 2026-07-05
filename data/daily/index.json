@@ -1,4 +1,16 @@
 {
+  "2026-07-05": {
+    "date": "2026-07-05",
+    "highlight": "阿里禁用Claude Code、Anthropic推Claude Science、英伟达连发两款AI框架，行业安全与应用创新并行。",
+    "count": 11,
+    "stats": {
+      "total": 11,
+      "model_count": 2,
+      "strategy_count": 3,
+      "tool_count": 2,
+      "policy_count": 4
+    }
+  },
   "2026-07-04": {
     "date": "2026-07-04",
     "highlight": "Mistral 发布 Leanstral 1.5 代码模型；Anthropic 进军药物研发；多家 AI 公司与药企达成合作，AI 应用加速落地。",
@@ -621,11 +633,6 @@
   "2026-05-04": {
     "date": "2026-05-04",
     "highlight": "AI 编程工具覆盖全开发流程，从写代码到部署，人类程序员角色被重新定义",
-    "count": 12
-  },
-  "2026-05-03": {
-    "date": "2026-05-03",
-    "highlight": "视觉 AI 突破：实时视频理解+生成，AR/VR 应用迎来技术奇点",
     "count": 12
   }
 }
