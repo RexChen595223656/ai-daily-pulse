@@ -1,4 +1,16 @@
 {
+  "2026-07-06": {
+    "date": "2026-07-06",
+    "highlight": "美团发布1.6万亿参数开源MoE模型，具身智能赛道融资火热，AI教育引发富人新选择。",
+    "count": 10,
+    "stats": {
+      "total": 10,
+      "model_count": 2,
+      "strategy_count": 5,
+      "tool_count": 2,
+      "policy_count": 1
+    }
+  },
   "2026-07-05": {
     "date": "2026-07-05",
     "highlight": "阿里禁用Claude Code、Anthropic推Claude Science、英伟达连发两款AI框架，行业安全与应用创新并行。",
@@ -628,11 +640,6 @@
   "2026-05-05": {
     "date": "2026-05-05",
     "highlight": "AI 医疗影像获批 FDA 三类认证，辅助诊断从试点走向大规模部署",
-    "count": 12
-  },
-  "2026-05-04": {
-    "date": "2026-05-04",
-    "highlight": "AI 编程工具覆盖全开发流程，从写代码到部署，人类程序员角色被重新定义",
     "count": 12
   }
 }
