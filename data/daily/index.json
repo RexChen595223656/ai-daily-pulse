@@ -1,4 +1,16 @@
 {
+  "2026-07-08": {
+    "date": "2026-07-08",
+    "highlight": "Meta发布Muse图像模型，Anthropic推出Claude Cowork，AI制药进入三期临床，开源方法Antidoom解决推理模型死循环问题。",
+    "count": 12,
+    "stats": {
+      "total": 12,
+      "model_count": 2,
+      "strategy_count": 4,
+      "tool_count": 4,
+      "policy_count": 2
+    }
+  },
   "2026-07-07": {
     "date": "2026-07-07",
     "highlight": "AI 安全与隐私事件频发，业界反思自主性与监管边界。",
@@ -642,11 +654,6 @@
   "2026-05-07": {
     "date": "2026-05-07",
     "highlight": "AI 芯片供应从紧缺到过剩，算力价格断崖式下跌，创业公司迎来利好",
-    "count": 12
-  },
-  "2026-05-06": {
-    "date": "2026-05-06",
-    "highlight": "视觉 AI 突破：实时视频理解+生成，AR/VR 应用迎来技术奇点",
     "count": 12
   }
 }
