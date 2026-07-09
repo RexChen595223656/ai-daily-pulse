@@ -1,4 +1,16 @@
 {
+  "2026-07-09": {
+    "date": "2026-07-09",
+    "highlight": "SpaceXAI 发布 Grok 4.5 号称 Opus 级别，OpenAI 推出全双工语音模型 GPT-Live，AI 军备竞赛再升级。",
+    "count": 12,
+    "stats": {
+      "total": 12,
+      "model_count": 3,
+      "strategy_count": 4,
+      "tool_count": 5,
+      "policy_count": 0
+    }
+  },
   "2026-07-08": {
     "date": "2026-07-08",
     "highlight": "Meta发布Muse图像模型，Anthropic推出Claude Cowork，AI制药进入三期临床，开源方法Antidoom解决推理模型死循环问题。",
@@ -649,11 +661,6 @@
   "2026-05-08": {
     "date": "2026-05-08",
     "highlight": "中美 AI 人才争夺战升级：硅谷公司为中国工程师开出百万美元年薪",
-    "count": 12
-  },
-  "2026-05-07": {
-    "date": "2026-05-07",
-    "highlight": "AI 芯片供应从紧缺到过剩，算力价格断崖式下跌，创业公司迎来利好",
     "count": 12
   }
 }
