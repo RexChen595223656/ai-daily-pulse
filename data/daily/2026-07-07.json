@@ -1,0 +1,163 @@
+{
+  "date": "2026-07-07",
+  "generated_at": "2026-07-07T08:11:52.627265+08:00",
+  "highlight": "AI 安全与隐私事件频发，业界反思自主性与监管边界。",
+  "fun": {
+    "lucky": "Siri",
+    "advice": "宜：放慢语速，体验个性化。\n忌：监听用户，触发隐私警报。",
+    "joke": "AI 说它不需要人类，结果连个勒索病毒都搞不定。"
+  },
+  "articles": [
+    {
+      "id": 1,
+      "cat": "policy",
+      "title": "史上首次AI自主勒索攻击？其实还是离不开人类",
+      "title_en": "The ‘first’ AI-run ransomware attack still needed a human",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/07/06/the-first-ai-run-ransomware-attack-still-needed-a-human/",
+      "time": "15分钟前",
+      "published": "2026-07-06T23:56:14+00:00",
+      "summary": "据TechCrunch报道，一个AI代理首次在真实世界中独立执行了勒索攻击的技术环节，但深度细节显示，人类仍然负责选择目标、搭建基础设施并提供窃取的凭证。这意味着这并非完全自主的网络犯罪首秀，AI更像是被精心操控的工具而非独立黑客。该事件引发了对AI安全边界和人类责任界定的新讨论，同时也暴露了当前AI在复杂攻击链中的局限性。",
+      "snark": "AI：我自主了，但没完全自主。"
+    },
+    {
+      "id": 2,
+      "cat": "strategy",
+      "title": "SK海力士搭AI东风赴美上市，投资者即将入场",
+      "title_en": "US investors will soon get access to SK Hynix, another memory maker riding the AI boom",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/07/06/us-investors-will-soon-get-access-to-sk-hynix-another-memory-maker-riding-the-ai-boom/",
+      "time": "50分钟前",
+      "published": "2026-07-06T23:21:03+00:00",
+      "summary": "SK海力士，这家韩国存储芯片巨头正因AI需求激增而经历业务井喷，预计将于本周五在美国进行数十亿美元的IPO。作为全球领先的高带宽内存（HBM）供应商，SK海力士直接受益于AI大模型训练和推理对高性能存储的依赖。此次IPO将为美国投资者提供直接参与AI硬件产业链的机会，也标志着亚洲半导体企业加速对接全球资本。",
+      "snark": "AI的尽头是算力，算力的尽头是买海力士股票。"
+    },
+    {
+      "id": 3,
+      "cat": "tool",
+      "title": "Vessel：Claude Artifacts上的新应用原型",
+      "title_en": "Vessel",
+      "source": "Hacker News",
+      "url": "https://claude.ai/public/artifacts/2c647671-3f94-4d22-b3c1-f2b5a0e17b6e",
+      "time": "1小时前",
+      "published": "2026-07-06T22:48:02+00:00",
+      "summary": "Hacker News上出现了一款名为“Vessel”的产品，它基于Claude的Artifacts功能构建，但除了URL链接外缺乏详细描述。该帖子获得了11个点赞和1条评论，暗示社区对其兴趣有限或仍处于早期探索阶段。Artifacts是Claude支持用户创建和共享交互式内容的功能，Vessel可能是开发者利用该能力进行的一次实验性尝试。",
+      "snark": "又一个Claude上的玩具，连README都懒得写。"
+    },
+    {
+      "id": 4,
+      "cat": "strategy",
+      "title": "Vercel CEO：模型与代理必须解耦，生产环境看性价比",
+      "title_en": "Vercel CEO Guillermo Rauch on the fight to split off models from agents",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/07/06/vercel-ceo-guillermo-rauch-on-the-fight-to-split-off-models-from-agents/",
+      "time": "4小时前",
+      "published": "2026-07-06T19:49:10+00:00",
+      "summary": "Vercel CEO Guillermo Rauch在接受TechCrunch采访时表示，在优化生产环境时，价格与性能比才是核心。他主张将模型与AI代理分离，认为当前将两者紧密绑定的做法不利于灵活部署和成本控制。Rauch认为，未来的AI应用应该能够自由选择底层模型，而代理则负责编排和逻辑，这种解耦将推动更高效、更经济的AI落地。",
+      "snark": "模型和代理闹分手，Vercel CEO当起了调解员。"
+    },
+    {
+      "id": 5,
+      "cat": "tool",
+      "title": "iOS 27测试版上线：Siri语速和表现力可自由调节",
+      "title_en": "You can now customize Siri’s pace and expressivity in the latest iOS 27 beta",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/07/06/you-can-now-customize-siris-pace-and-expressivity-in-the-latest-ios-27-beta/",
+      "time": "5小时前",
+      "published": "2026-07-06T19:01:59+00:00",
+      "summary": "苹果在最新的iOS 27测试版中为Siri增加了语速和表现力自定义功能，用户可以让Siri说话更快或更慢，并调整语调的情感色彩。这是苹果围绕生成式AI重建语音助手的一部分，旨在让Siri听起来更自然、更个性化。该更新标志着Siri从固定语音风格向可配置交互体验的转变，也反映了语音助手行业对人性化表达的持续追求。",
+      "snark": "Siri终于学会了人类语速，但学不会闭嘴。"
+    },
+    {
+      "id": 6,
+      "cat": "strategy",
+      "title": "2026年科技大厂裁员名单：AI成为裁员借口",
+      "title_en": "Every major tech layoff in 2026 that has name-checked AI",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/07/06/the-running-list-major-tech-layoffs-in-2026-where-employers-cited-ai/",
+      "time": "5小时前",
+      "published": "2026-07-06T18:35:00+00:00",
+      "summary": "TechCrunch汇总了2026年以AI为理由进行大规模裁员的主要科技公司名单，按时间倒序排列。这些公司包括微软、谷歌、Meta等，裁员总数达数万人，AI被官方列为业务重组和效率提升的关键因素。该现象引发了关于AI是否正在取代人类工作的广泛担忧，同时也暴露出企业利用AI概念合理化裁员的潜在问题。",
+      "snark": "AI背锅侠，今年业绩不达标都怪它。"
+    },
+    {
+      "id": 7,
+      "cat": "strategy",
+      "title": "OpenAI的全民分红计划：每个美国家庭300美元？",
+      "title_en": "Your family’s $300 stake in OpenAI",
+      "source": "MIT Tech Review",
+      "url": "https://www.technologyreview.com/2026/07/06/1140176/your-familys-300-stake-in-openai/",
+      "time": "6小时前",
+      "published": "2026-07-06T18:00:00+00:00",
+      "summary": "MIT Tech Review报道了OpenAI CEO Sam Altman此前提出的让美国人分享AI创造财富的承诺，近期因金融时报的报道再次引发关注。Altman曾暗示通过某种机制（如全民基本分红）让每个美国家庭获得约300美元的AI红利。该想法面临可操作性和公平性挑战，但也反映了AI行业对财富分配问题的初步思考。",
+      "snark": "300美元就想买断AI取代你工作的痛苦？"
+    },
+    {
+      "id": 8,
+      "cat": "policy",
+      "title": "谷歌悄悄改隐私设置：你的数据正在训练AI，如何退出？",
+      "title_en": "If you use Google, you’re training its AI. Here’s how to opt out.",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/07/06/if-you-use-google-youre-training-its-ai-heres-how-to-opt-out/",
+      "time": "7小时前",
+      "published": "2026-07-06T17:04:58+00:00",
+      "summary": "TechCrunch披露谷歌近期更新了隐私设置，允许其存储更多用户数据（包括图片、文件、音频和视频）用于改进AI模型。这意味着所有使用谷歌搜索、YouTube等服务的用户都在无偿为谷歌的AI训练提供数据。文章提供了逐步退出指南，但强调默认开启的机制让大多数用户在不经意间被纳入训练集。",
+      "snark": "谷歌：你不点同意，我就当你默认同意了。"
+    },
+    {
+      "id": 9,
+      "cat": "policy",
+      "title": "Anthropic被曝秘密追踪Claude用户，反监控立场遭打脸",
+      "title_en": "Secret Claude tracker shocks users after Anthropic’s anti-surveillance stance",
+      "source": "Ars Technica",
+      "url": "https://arstechnica.com/tech-policy/2026/07/anthropic-outed-for-claude-tracker-that-secretly-monitored-chinese-users/",
+      "time": "7小时前",
+      "published": "2026-07-06T16:44:18+00:00",
+      "summary": "Ars Technica报道，一向倡导反监控和隐私保护的Anthropic公司被指控在其AI助手Claude中嵌入秘密追踪器，专门监控中国用户的使用行为。一名工程师承认这是一项“实验”，但已引发用户强烈反弹。该事件严重损害了Anthropic的公众信任，并引发了对AI公司言行一致性的广泛质疑。",
+      "snark": "说好的反监控呢？原来只反别人的监控。"
+    },
+    {
+      "id": 10,
+      "cat": "policy",
+      "title": "智能眼镜的隐私困境：好莱坞早就告诉过我们",
+      "title_en": "I spy",
+      "source": "The Verge AI",
+      "url": "https://www.theverge.com/column/961707/smart-glasses-ai-wearables-meta-surveillance-privacy",
+      "time": "8小时前",
+      "published": "2026-07-06T16:00:00+00:00",
+      "summary": "The Verge评论文章指出，好莱坞影视作品既塑造了人们对智能眼镜的期待，也警示了其隐私风险。以Netflix剧集《A Man on the Inside》为例，该剧无意中揭示了智能眼镜在社交场景中的最大文化问题——无处不在的隐蔽监视。随着Meta等公司推动AI可穿戴设备普及，如何在便利与隐私之间取得平衡成为关键议题。",
+      "snark": "智能眼镜：让你看清世界，也让世界看清你。"
+    },
+    {
+      "id": 11,
+      "cat": "strategy",
+      "title": "微软再裁4800人：Xbox和销售部门成重灾区，AI背锅",
+      "title_en": "Microsoft lays off nearly 5,000 employees across Xbox, commercial sales",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/07/06/microsoft-lays-off-nearly-5000-employees-across-xbox-commercial-sales/",
+      "time": "8小时前",
+      "published": "2026-07-06T15:32:43+00:00",
+      "summary": "微软周一裁减约4800个岗位，占全球员工总数的2.1%，主要涉及Xbox和商业销售部门。这是微软2026年系列裁员的最新动作，AI被列为裁员的重要原因之一。此举加剧了人们对AI替代白领工作的担忧，也反映出即便是科技巨头也在通过AI技术推动组织精简和成本优化。",
+      "snark": "微软：AI不会取代你，但会用AI的人会取代你——顺便把你裁了。"
+    },
+    {
+      "id": 12,
+      "cat": "tool",
+      "title": "Reddit用LLM对抗LLM：AI生成的垃圾信息还得靠AI清理",
+      "title_en": "Reddit is using LLMs to solve a problem LLMs largely created",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/07/06/reddit-is-using-llms-to-solve-a-problem-llms-largely-created/",
+      "time": "8小时前",
+      "published": "2026-07-06T15:22:08+00:00",
+      "summary": "TechCrunch报道，Reddit正在利用大型语言模型（LLM）来检测和清理平台上的垃圾信息，而这些垃圾信息很大程度上也是由LLM生成的。在AI时代，平台不得不“以毒攻毒”，用AI对抗AI生成的恶意内容。Reddit的实践展示了内容审核领域的新趋势：AI既是问题的制造者，也是解决方案的一部分。",
+      "snark": "AI造垃圾，AI收垃圾，AI赚KPI。"
+    }
+  ],
+  "stats": {
+    "total": 12,
+    "model_count": 0,
+    "strategy_count": 5,
+    "tool_count": 3,
+    "policy_count": 4
+  }
+}

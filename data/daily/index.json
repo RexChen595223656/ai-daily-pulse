@@ -1,4 +1,40 @@
 {
+  "2026-07-09": {
+    "date": "2026-07-09",
+    "highlight": "SpaceXAI 发布 Grok 4.5 号称 Opus 级别，OpenAI 推出全双工语音模型 GPT-Live，AI 军备竞赛再升级。",
+    "count": 12,
+    "stats": {
+      "total": 12,
+      "model_count": 3,
+      "strategy_count": 4,
+      "tool_count": 5,
+      "policy_count": 0
+    }
+  },
+  "2026-07-08": {
+    "date": "2026-07-08",
+    "highlight": "Meta发布Muse图像模型，Anthropic推出Claude Cowork，AI制药进入三期临床，开源方法Antidoom解决推理模型死循环问题。",
+    "count": 12,
+    "stats": {
+      "total": 12,
+      "model_count": 2,
+      "strategy_count": 4,
+      "tool_count": 4,
+      "policy_count": 2
+    }
+  },
+  "2026-07-07": {
+    "date": "2026-07-07",
+    "highlight": "AI 安全与隐私事件频发，业界反思自主性与监管边界。",
+    "count": 12,
+    "stats": {
+      "total": 12,
+      "model_count": 0,
+      "strategy_count": 5,
+      "tool_count": 3,
+      "policy_count": 4
+    }
+  },
   "2026-07-06": {
     "date": "2026-07-06",
     "highlight": "美团发布1.6万亿参数开源MoE模型，具身智能赛道融资火热，AI教育引发富人新选择。",
@@ -625,21 +661,6 @@
   "2026-05-08": {
     "date": "2026-05-08",
     "highlight": "中美 AI 人才争夺战升级：硅谷公司为中国工程师开出百万美元年薪",
-    "count": 12
-  },
-  "2026-05-07": {
-    "date": "2026-05-07",
-    "highlight": "AI 芯片供应从紧缺到过剩，算力价格断崖式下跌，创业公司迎来利好",
-    "count": 12
-  },
-  "2026-05-06": {
-    "date": "2026-05-06",
-    "highlight": "视觉 AI 突破：实时视频理解+生成，AR/VR 应用迎来技术奇点",
-    "count": 12
-  },
-  "2026-05-05": {
-    "date": "2026-05-05",
-    "highlight": "AI 医疗影像获批 FDA 三类认证，辅助诊断从试点走向大规模部署",
     "count": 12
   }
 }
