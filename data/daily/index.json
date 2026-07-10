@@ -1,4 +1,16 @@
 {
+  "2026-07-10": {
+    "date": "2026-07-10",
+    "highlight": "英伟达联手Hugging Face开发机器人开源模型，焊接与能源AI获大额融资，具身智能赛道持续升温。",
+    "count": 6,
+    "stats": {
+      "total": 6,
+      "model_count": 1,
+      "strategy_count": 5,
+      "tool_count": 0,
+      "policy_count": 0
+    }
+  },
   "2026-07-09": {
     "date": "2026-07-09",
     "highlight": "SpaceXAI 发布 Grok 4.5 号称 Opus 级别，OpenAI 推出全双工语音模型 GPT-Live，AI 军备竞赛再升级。",
@@ -656,11 +668,6 @@
   "2026-05-09": {
     "date": "2026-05-09",
     "highlight": "多模态 Agent 崛起：AI 学会操作电脑、手机，数字劳动力时代来临",
-    "count": 12
-  },
-  "2026-05-08": {
-    "date": "2026-05-08",
-    "highlight": "中美 AI 人才争夺战升级：硅谷公司为中国工程师开出百万美元年薪",
     "count": 12
   }
 }
