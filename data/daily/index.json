@@ -1,4 +1,16 @@
 {
+  "2026-07-14": {
+    "date": "2026-07-14",
+    "highlight": "Anthropic发布Claude Sonnet 5缩小与Opus差距，视频生成创企PixVerse融资4.39亿美元，行业模型与应用融资双热。",
+    "count": 12,
+    "stats": {
+      "total": 12,
+      "model_count": 2,
+      "strategy_count": 8,
+      "tool_count": 1,
+      "policy_count": 1
+    }
+  },
   "2026-07-13": {
     "date": "2026-07-13",
     "highlight": "苹果起诉OpenAI窃取商业机密，Anthropic澄清Claude变笨真相，AI数据采集赛道融资热持续。",
@@ -684,11 +696,6 @@
   "2026-05-13": {
     "date": "2026-05-13",
     "highlight": "开源 vs 闭源之争升级，中国大模型军团崛起，全球 AI 格局加速重构",
-    "count": 12
-  },
-  "2026-05-12": {
-    "date": "2026-05-12",
-    "highlight": "AI Agent 从概念到落地，企业级部署加速，2026 或成 AI 应用元年",
     "count": 12
   }
 }
