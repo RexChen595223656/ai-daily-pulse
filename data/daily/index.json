@@ -1,4 +1,16 @@
 {
+  "2026-07-15": {
+    "date": "2026-07-15",
+    "highlight": "OpenAI 硬件首秀、模型翻车与苹果诉讼同日上演，行业热闹非凡。",
+    "count": 12,
+    "stats": {
+      "total": 12,
+      "model_count": 2,
+      "strategy_count": 3,
+      "tool_count": 4,
+      "policy_count": 3
+    }
+  },
   "2026-07-14": {
     "date": "2026-07-14",
     "highlight": "Anthropic发布Claude Sonnet 5缩小与Opus差距，视频生成创企PixVerse融资4.39亿美元，行业模型与应用融资双热。",
@@ -691,11 +703,6 @@
   "2026-05-14": {
     "date": "2026-05-14",
     "highlight": "Physical AI 进工厂、Nous 提速 2.5 倍预训练、Clio 与 Anthropic 各自亮剑，AI 从实验室到产业落地加速跑。",
-    "count": 12
-  },
-  "2026-05-13": {
-    "date": "2026-05-13",
-    "highlight": "开源 vs 闭源之争升级，中国大模型军团崛起，全球 AI 格局加速重构",
     "count": 12
   }
 }
