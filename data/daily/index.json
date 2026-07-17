@@ -1,4 +1,16 @@
 {
+  "2026-07-17": {
+    "date": "2026-07-17",
+    "highlight": "OpenAI 发布自动化红队模型 GPT-Red，以 84% 胜率碾压人类红队；月之暗面开源 2.8 万亿参数 MoE 模型 Kimi K3，AI 安全与规模竞赛同步升级。",
+    "count": 12,
+    "stats": {
+      "total": 12,
+      "model_count": 2,
+      "strategy_count": 3,
+      "tool_count": 5,
+      "policy_count": 2
+    }
+  },
   "2026-07-16": {
     "date": "2026-07-16",
     "highlight": "微软培训销售团队贬低竞品，Thinking Machines Lab 开源 9750 亿参数多模态模型 Inkling，OpenAI 与苹果陷入硬件诉讼。",
@@ -698,17 +710,6 @@
       "total": 12,
       "model_count": 1,
       "strategy_count": 6,
-      "tool_count": 5
-    }
-  },
-  "2026-05-15": {
-    "date": "2026-05-15",
-    "highlight": "OpenAI Codex上线手机、Musk与Altman法庭交锋、微软停用Claude Code，AI行业进入应用落地与法律博弈并行阶段。",
-    "count": 12,
-    "stats": {
-      "total": 12,
-      "model_count": 0,
-      "strategy_count": 7,
       "tool_count": 5
     }
   }
