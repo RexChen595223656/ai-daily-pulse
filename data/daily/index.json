@@ -1,4 +1,16 @@
 {
+  "2026-07-18": {
+    "date": "2026-07-18",
+    "highlight": "苹果起诉OpenAI窃取商业机密，或影响其IPO进程；Databricks估值达1880亿美元，AI第二曲线持续发力。",
+    "count": 12,
+    "stats": {
+      "total": 12,
+      "model_count": 1,
+      "strategy_count": 4,
+      "tool_count": 3,
+      "policy_count": 4
+    }
+  },
   "2026-07-17": {
     "date": "2026-07-17",
     "highlight": "OpenAI 发布自动化红队模型 GPT-Red，以 84% 胜率碾压人类红队；月之暗面开源 2.8 万亿参数 MoE 模型 Kimi K3，AI 安全与规模竞赛同步升级。",
@@ -700,17 +712,6 @@
       "model_count": 2,
       "strategy_count": 4,
       "tool_count": 4
-    }
-  },
-  "2026-05-16": {
-    "date": "2026-05-16",
-    "highlight": "YouTube扩大AI深度伪造检测工具覆盖范围，OpenAI重组管理层押注AI代理，ArXiv打击AI灌水论文。",
-    "count": 12,
-    "stats": {
-      "total": 12,
-      "model_count": 1,
-      "strategy_count": 6,
-      "tool_count": 5
     }
   }
 }
