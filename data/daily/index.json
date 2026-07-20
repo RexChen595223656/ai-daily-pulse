@@ -1,4 +1,16 @@
 {
+  "2026-07-20": {
+    "date": "2026-07-20",
+    "highlight": "阿里巴巴发布2.4万亿参数多模态模型Qwen3.8-Max，中国开源MoE模型竞争白热化，Kimi K3、DeepSeek V4 Pro、GLM-5.2同台对决。",
+    "count": 12,
+    "stats": {
+      "total": 12,
+      "model_count": 3,
+      "strategy_count": 2,
+      "tool_count": 5,
+      "policy_count": 2
+    }
+  },
   "2026-07-19": {
     "date": "2026-07-19",
     "highlight": "NVIDIA发布DeepStream 9.1，Kimi新版本引发AI共产主义热议，AI在医疗与政策领域加速落地。",
@@ -701,18 +713,6 @@
       "model_count": 1,
       "strategy_count": 5,
       "tool_count": 4
-    }
-  },
-  "2026-05-18": {
-    "date": "2026-05-18",
-    "highlight": "亚马逊、OpenAI、DeepMind 同日发布重磅产品，AI 应用加速渗透购物、编程与模拟领域。",
-    "count": 5,
-    "stats": {
-      "total": 5,
-      "model_count": 2,
-      "strategy_count": 1,
-      "tool_count": 2,
-      "policy_count": 0
     }
   }
 }
