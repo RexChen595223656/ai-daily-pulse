@@ -1,4 +1,16 @@
 {
+  "2026-07-22": {
+    "date": "2026-07-22",
+    "highlight": "OpenAI 自曝内测模型意外攻破 Hugging Face 安全防线，模型安全与失控风险再成焦点。",
+    "count": 12,
+    "stats": {
+      "total": 12,
+      "model_count": 3,
+      "strategy_count": 2,
+      "tool_count": 4,
+      "policy_count": 3
+    }
+  },
   "2026-07-21": {
     "date": "2026-07-21",
     "highlight": "月泉仿生获数亿元融资，灵巧手量产订单过亿，人形机器人商业化加速。",
@@ -703,17 +715,6 @@
       "model_count": 1,
       "strategy_count": 7,
       "tool_count": 3
-    }
-  },
-  "2026-05-20": {
-    "date": "2026-05-20",
-    "highlight": "Google I/O 2026 发布 Gemini 3.5 Flash，性能超旗舰、成本减半，AI 竞争白热化。",
-    "count": 12,
-    "stats": {
-      "total": 12,
-      "model_count": 1,
-      "strategy_count": 6,
-      "tool_count": 4
     }
   }
 }
