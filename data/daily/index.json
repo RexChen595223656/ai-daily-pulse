@@ -1,4 +1,16 @@
 {
+  "2026-07-23": {
+    "date": "2026-07-23",
+    "highlight": "Cursor发布智能路由系统，以低成本实现前沿编码质量；Anthropic推出终端安全扫描插件。",
+    "count": 12,
+    "stats": {
+      "total": 12,
+      "model_count": 0,
+      "strategy_count": 10,
+      "tool_count": 2,
+      "policy_count": 0
+    }
+  },
   "2026-07-22": {
     "date": "2026-07-22",
     "highlight": "OpenAI 自曝内测模型意外攻破 Hugging Face 安全防线，模型安全与失控风险再成焦点。",
@@ -704,17 +716,6 @@
       "model_count": 3,
       "strategy_count": 2,
       "tool_count": 4
-    }
-  },
-  "2026-05-21": {
-    "date": "2026-05-21",
-    "highlight": "英伟达财报炸裂、xAI亏损扩张、Anthropic重金买算力，AI军备竞赛白热化。",
-    "count": 12,
-    "stats": {
-      "total": 12,
-      "model_count": 1,
-      "strategy_count": 7,
-      "tool_count": 3
     }
   }
 }
