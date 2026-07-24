@@ -69,10 +69,11 @@ jobs:
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
           set -e
-          mkdir -p deploy-out/data/daily
+          mkdir -p deploy-out/data/daily/trends
           cp prototype/index.html deploy-out/
           cp data/daily/latest.json deploy-out/data/daily/
           cp data/daily/index.json deploy-out/data/daily/
+          cp data/daily/trends/latest.json deploy-out/data/daily/trends/ 2>/dev/null || true
           cp data/daily/20*.json deploy-out/data/daily/ 2>/dev/null || true
 
           cd deploy-out

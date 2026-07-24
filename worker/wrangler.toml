@@ -13,4 +13,4 @@ compatibility_date = "2026-05-14"
 ALLOWED_ORIGIN = "https://rexchen595223656.github.io"
 
 # AA API 地址
-AA_API_BASE = "https://artificialanalysis.ai"
+AA_API_BASE = "https://artificialanalysis.ai/api"

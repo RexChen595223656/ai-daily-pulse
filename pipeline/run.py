@@ -548,14 +548,15 @@ def fetch_trends() -> Optional[dict]:
 
             if llm_json.get("data"):
                 models = llm_json["data"]
+                def _eval(d, key):
+                    v = (d.get("evaluations") or {}).get(key)
+                    return round(v if v is not None else 0, 1)
+
                 sorted_perf = sorted(
                     models,
-                    key=lambda d: (d.get("evaluations") or {}).get("artificial_analysis_intelligence_index", 0),
+                    key=lambda d: _eval(d, "artificial_analysis_intelligence_index"),
                     reverse=True,
                 )[:10]
-
-                def _eval(d, key):
-                    return round((d.get("evaluations") or {}).get(key, 0), 1)
 
                 result["llm"]["perf"] = [
                     {
@@ -564,16 +565,16 @@ def fetch_trends() -> Optional[dict]:
                         "intelligence": _eval(d, "artificial_analysis_intelligence_index"),
                         "coding": _eval(d, "artificial_analysis_coding_index"),
                         "math": _eval(d, "artificial_analysis_math_index"),
-                        "reasoning": round(((d.get("evaluations") or {}).get("gpqa", 0)) * 100, 1),
+                        "reasoning": round((((d.get("evaluations") or {}).get("gpqa") or 0)) * 100, 1),
                     }
                     for d in sorted_perf
                 ]
 
                 def _pricing(d):
                     p = d.get("pricing") or {}
-                    inp = p.get("price_1m_input_tokens", 0)
-                    out = p.get("price_1m_output_tokens", 0)
-                    blended = p.get("price_1m_blended_3_to_1", 0) or (inp * 0.25 + out * 0.75)
+                    inp = p.get("price_1m_input_tokens") or 0
+                    out = p.get("price_1m_output_tokens") or 0
+                    blended = p.get("price_1m_blended_3_to_1") or (inp * 0.25 + out * 0.75)
                     return inp, out, blended
 
                 result["llm"]["price"] = [
@@ -591,8 +592,8 @@ def fetch_trends() -> Optional[dict]:
                     {
                         "model": d.get("name") or d.get("slug", ""),
                         "org": (d.get("model_creator") or {}).get("name", "Unknown"),
-                        "outputSpeed": round(d.get("median_output_tokens_per_second", 0), 1),
-                        "ttft": round(d.get("median_time_to_first_token_seconds", 0), 2),
+                        "outputSpeed": round(d.get("median_output_tokens_per_second") or 0, 1),
+                        "ttft": round(d.get("median_time_to_first_token_seconds") or 0, 2),
                     }
                     for d in sorted_perf
                 ]
