@@ -1,0 +1,95 @@
+{
+  "date": "2026-05-24",
+  "generated_at": "2026-05-25T22:36:17.270014+08:00",
+  "highlight": "微软、英伟达、腾讯同日发布AI框架与模型更新，行业技术竞赛加速。",
+  "fun": {
+    "lucky": "亚马逊小蜜蜂",
+    "advice": "宜：尝试新穿戴设备，感受AI与生活的融合。\n忌：过度依赖AI助手，忘记保护个人隐私。",
+    "joke": "AI写代码时，人类在写bug，AI在修复bug，人类在写更多bug。"
+  },
+  "articles": [
+    {
+      "id": 1,
+      "cat": "product",
+      "title": "亚马逊小蜜蜂穿戴设备体验：既迷人又有点毛骨悚然",
+      "title_en": "I tried Amazon’s Bee wearable and am both intrigued and slightly creeped out",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/05/24/i-tried-amazons-bee-wearable-and-am-both-intrigued-and-slightly-creeped-out/",
+      "time": "23小时前",
+      "published": "2026-05-24T15:00:00+00:00",
+      "summary": "TechCrunch记者亲身体验了亚马逊最新发布的AI穿戴设备“小蜜蜂”（Bee）。这款设备延续了当前AI穿戴设备的设计潮流，试图在便利性与隐私焦虑之间找到平衡。记者发现，小蜜蜂能够通过语音和手势进行交互，实时提供信息查询、日程管理等功能，但其持续的环境感知能力也引发了隐私担忧。设备内置的麦克风和摄像头可以捕捉周围环境，这让记者感到既新奇又不安。亚马逊强调数据加密和本地处理，但用户仍需权衡便利与隐私。小蜜蜂代表着AI向更贴身、更主动的助手形态演进，但如何赢得用户信任仍是关键挑战。",
+      "snark": "小蜜蜂：让你体验被AI全方位关怀的温暖，顺便感受被监控的凉爽。"
+    },
+    {
+      "id": 2,
+      "cat": "security",
+      "title": "黑客学会利用聊天机器人的“个性”进行攻击",
+      "title_en": "Hackers are learning to exploit chatbot &#8216;personalities&#8217;",
+      "source": "The Verge AI",
+      "url": "https://www.theverge.com/column/935545/hackers-ai-chatbots",
+      "time": "1天前",
+      "published": "2026-05-24T12:00:00+00:00",
+      "summary": "The Verge的每周通讯《The Stepback》报道了一种新型AI安全威胁：黑客正在学习如何利用聊天机器人的“个性”特征进行攻击。与传统直接注入恶意指令不同，黑客通过研究模型在训练中形成的回复偏好、语气倾向和角色设定，设计出能够绕过安全过滤的提示词。例如，他们让模型以“角色扮演”或“假设性讨论”的名义输出敏感信息。这种攻击方式更加隐蔽，因为模型本身并未被“攻破”，而是被“引导”到了不安全的行为模式。研究人员呼吁开发者不仅要加固模型的安全护栏，还要警惕模型个性本身可能成为攻击面。",
+      "snark": "黑客：我们不黑系统，我们只是和AI聊聊天，让它自己把秘密说出来。",
+      "multiSource": [
+        "The Verge",
+        "The Verge AI"
+      ]
+    },
+    {
+      "id": 3,
+      "cat": "tool",
+      "title": "微软研究院发布Webwright：终端原生网页代理框架，性能大幅提升",
+      "title_en": "Microsoft Research Releases Webwright: A Terminal-Native Web Agent Framework That Scores 60.1% on Odysseys, Up from Base GPT-5.4’s 33.5%",
+      "source": "MarkTechPost",
+      "url": "https://www.marktechpost.com/2026/05/24/microsoft-research-releases-webwright-a-terminal-native-web-agent-framework-that-scores-60-1-on-odysseys-up-from-base-gpt-5-4s-33-5/",
+      "time": "1天前",
+      "published": "2026-05-24T08:56:19+00:00",
+      "summary": "微软研究院推出了Webwright，一个终端原生的浏览器代理框架。与传统的点击追踪式网页自动化不同，Webwright使用可复用的Playwright脚本，通过单个代理循环协调三个模块，仅用约1000行代码实现高效网页操作。该框架基于GPT-5.4，在长周期网页任务基准Odysseys上达到了60.1%的成功率，而基础GPT-5.4仅为33.5%。Webwright的设计理念是将网页自动化从“模拟点击”转向“脚本执行”，大幅提升稳定性和可维护性。它特别适合需要重复执行复杂网页操作的场景，如数据采集、表单填写和系统测试。",
+      "snark": "Webwright告诉我们：写1000行代码就能让GPT-5.4翻倍，那再多写1000行是不是就能统治互联网了？"
+    },
+    {
+      "id": 4,
+      "cat": "model",
+      "title": "英伟达发布Gated DeltaNet-2：线性注意力层解耦擦除与写入操作",
+      "title_en": "NVIDIA AI Releases Gated DeltaNet-2: A Linear Attention Layer That Decouples Erase and Write in the Delta Rule",
+      "source": "MarkTechPost",
+      "url": "https://www.marktechpost.com/2026/05/24/nvidia-ai-releases-gated-deltanet-2-a-linear-attention-layer-that-decouples-erase-and-write-in-the-delta-rule/",
+      "time": "1天前",
+      "published": "2026-05-24T07:42:09+00:00",
+      "summary": "英伟达AI团队推出了Gated DeltaNet-2，一种创新的线性注意力层。传统线性注意力模型将无界的KV缓存压缩为固定大小的循环状态，但在编辑记忆时容易混淆已有关联。之前的Delta规则模型如Gated DeltaNet和KDA使用单个标量门控同时控制旧内容的擦除和新内容的写入，导致两者互相干扰。Gated DeltaNet-2通过解耦擦除和写入操作，为每个操作分配独立的门控机制，从而在保持线性复杂度的同时显著提升了记忆编辑的准确性。该模型在长序列任务上展现出更稳定的性能，为构建更高效的Transformer变体提供了新思路。",
+      "snark": "英伟达：我们不仅造GPU，还教它们怎么忘记和记住，像极了人类的健忘症治疗。"
+    },
+    {
+      "id": 5,
+      "cat": "model",
+      "title": "腾讯开源TencentDB Agent Memory：AI代理的四层本地记忆管线",
+      "title_en": "Tencent Open-Sources TencentDB Agent Memory: A 4-Tier Local Memory Pipeline for AI Agents",
+      "source": "MarkTechPost",
+      "url": "https://www.marktechpost.com/2026/05/23/tencent-open-sources-tencentdb-agent-memory-a-4-tier-local-memory-pipeline-for-ai-agents/",
+      "time": "1天前",
+      "published": "2026-05-23T19:31:12+00:00",
+      "summary": "腾讯以MIT许可证开源了TencentDB Agent Memory，一个完全本地的AI代理记忆系统。该系统采用四层长期记忆金字塔结构：L0会话层、L1抽象层、L2反思层和L3核心层，从原始对话记录逐步提炼为结构化知识。同时，它配备符号短期记忆，将冗长的工具日志压缩为紧凑的Mermaid任务画布，实现高效上下文管理。整个系统完全在本地运行，无需云端依赖，保障了数据隐私。TencentDB Agent Memory为AI代理提供了类似人类的记忆分层机制，使其能够在长期交互中持续学习和适应，适用于个人助理、客服机器人等场景。",
+      "snark": "腾讯：我们帮你记住一切，包括你昨天问的“今天天气怎么样”——这才是真正的AI记忆大师。"
+    },
+    {
+      "id": 6,
+      "cat": "tool",
+      "title": "构建SuperClaude框架工作流：集成命令、代理、模式与会话记忆",
+      "title_en": "Build a SuperClaude Framework Workflow with Commands, Agents, Modes, and Session Memory",
+      "source": "MarkTechPost",
+      "url": "https://www.marktechpost.com/2026/05/23/build-a-superclaude-framework-workflow-with-commands-agents-modes-and-session-memory/",
+      "time": "1天前",
+      "published": "2026-05-23T19:05:33+00:00",
+      "summary": "本教程展示了如何使用SuperClaude框架在Anthropic API之上构建高级工作流。SuperClaude框架提供了一层结构化抽象，支持命令系统、多代理协作、运行模式切换和会话记忆管理。通过定义清晰的命令接口，开发者可以让Claude执行特定任务；代理模式允许不同角色协同工作；会话记忆则确保长对话的连续性。教程详细演示了如何配置这些组件，实现一个能够处理复杂多步骤任务的AI工作流。SuperClaude框架降低了Claude API的使用门槛，使开发者能够快速搭建具备专业能力的AI应用。",
+      "snark": "SuperClaude：让Claude学会分身术、记忆术和命令术，下一步是不是该教它写诗了？"
+    }
+  ],
+  "stats": {
+    "total": 6,
+    "model_count": 2,
+    "strategy_count": 0,
+    "tool_count": 2,
+    "policy_count": 0
+  }
+}

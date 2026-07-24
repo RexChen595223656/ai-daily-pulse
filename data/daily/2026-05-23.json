@@ -1,0 +1,163 @@
+{
+  "date": "2026-05-23",
+  "generated_at": "2026-05-25T22:35:16.331150+08:00",
+  "highlight": "Google 发布全能模型 Gemini Omni，Nous Research 开源模型操控新方法，Perplexity 推出安全扫描工具 Bumblebee。",
+  "fun": {
+    "lucky": "Bumblebee",
+    "advice": "宜：开源安全工具，加固供应链。\n忌：用 AI 复活逝者语音，挑战伦理红线。",
+    "joke": "AI 复活了飞行员的声音，结果 NTSB 先被吓到宕机了。"
+  },
+  "articles": [
+    {
+      "id": 1,
+      "cat": "strategy",
+      "title": "法拉利联手 IBM 用 AI 打造 F1 超级粉丝体验",
+      "title_en": "Ferrari is using IBM’s AI to create F1 superfans",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/05/23/ferrari-is-using-ai-to-create-f1-superfans/",
+      "time": "1天前",
+      "published": "2026-05-23T15:08:00+00:00",
+      "summary": "法拉利与 IBM 合作，利用 IBM 的 AI 技术重新定义一级方程式赛车迷的观赛体验。该合作旨在通过 AI 驱动的个性化内容、实时数据分析和互动功能，将普通车迷转化为深度参与的“超级粉丝”。IBM 的 AI 平台能够处理海量的赛车数据、车手信息和历史比赛记录，为每位粉丝生成定制化的赛事回顾、预测和互动内容。法拉利希望借助 AI 不仅提升粉丝粘性，还能在商业赞助和品牌忠诚度上获得新突破。这一举措标志着传统体育品牌与科技巨头在 AI 应用上的深度融合，也为其他体育赛事的数字化转型提供了参考。",
+      "snark": "法拉利：我们不光造快车，还造 AI 车迷。"
+    },
+    {
+      "id": 2,
+      "cat": "strategy",
+      "title": "马斯克放弃地球太阳能，xAI 全面押注天然气",
+      "title_en": "Elon Musk has given up on solar power (on Earth)",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/05/23/elon-musk-has-given-up-on-solar-power-on-earth/",
+      "time": "2天前",
+      "published": "2026-05-23T13:00:00+00:00",
+      "summary": "埃隆·马斯克的 AI 公司 xAI 已全面转向天然气能源，而 SpaceX 则痴迷于轨道数据中心。这一转变与他此前倡导的“太阳能电力经济”承诺背道而驰。xAI 的数据中心大量依赖天然气发电，以支撑其大规模模型训练和推理需求，而 SpaceX 则计划将计算基础设施送入太空，利用轨道太阳能板供电。分析人士指出，马斯克此举可能是出于成本、可靠性和算力扩张速度的考量，但无疑与其长期宣扬的可持续能源愿景产生矛盾。这一战略转向引发了业界对 AI 行业能源消耗和环保责任的重新讨论。",
+      "snark": "马斯克：太阳能太慢，天然气真香，真香。"
+    },
+    {
+      "id": 3,
+      "cat": "model",
+      "title": "Google 发布 Gemini Omni：万物皆可 AI 转换的疯狂模型",
+      "title_en": "Google’s new anything-to-anything AI model is wild",
+      "source": "The Verge AI",
+      "url": "https://www.theverge.com/tech/936507/gemini-omni-hands-on-deepfake-ai-video",
+      "time": "2天前",
+      "published": "2026-05-23T11:00:00+00:00",
+      "summary": "Google 推出 Gemini Omni，一种能够实现任意模态之间转换的 AI 模型。该模型不仅支持文本、图像、音频、视频之间的相互生成，还能处理更抽象的数据形式，如 3D 模型、代码和传感器数据。记者亲测利用该模型将孩子的毛绒玩具“深度伪造”成度假视频，展示了其强大的跨模态理解和生成能力。Gemini Omni 的核心在于一个统一的 Transformer 架构，能够同时处理多种输入输出格式，无需专门的编码器或解码器。这一突破意味着 AI 可以真正实现“所见即所得”的任意转换，极大降低了内容创作的门槛，但也引发了关于深度伪造和伦理风险的担忧。",
+      "snark": "Google：你可以把任何东西变成任何东西，包括把大象变成冰箱。"
+    },
+    {
+      "id": 4,
+      "cat": "model",
+      "title": "Nous Research 发布对比神经元归因法：无需训练即可操控模型行为",
+      "title_en": "Nous Research Releases Contrastive Neuron Attribution (CNA): Sparse MLP Circuit Steering Without SAE Training or Weight Modification",
+      "source": "MarkTechPost",
+      "url": "https://www.marktechpost.com/2026/05/23/nous-research-releases-contrastive-neuron-attribution-cna-sparse-mlp-circuit-steering-without-sae-training-or-weight-modification/",
+      "time": "2天前",
+      "published": "2026-05-23T10:32:09+00:00",
+      "summary": "Nous Research 发布了对比神经元归因法，一种无需稀疏自编码器训练或权重修改即可识别并剔除稀疏 MLP 神经元电路的方法。该方法通过对比不同输入下的神经元激活模式，定位对特定行为至关重要的稀疏电路，然后直接屏蔽这些神经元，从而精确控制大语言模型的行为，且不会导致通用能力下降。与传统的模型编辑技术不同，CNA 不需要额外的训练数据或模型微调，计算开销极低，且可解释性强。这一技术为模型安全、偏见消除和可控生成提供了全新的轻量级解决方案，有望被广泛应用于现有开源模型的快速行为调整。",
+      "snark": "Nous：想改模型行为？不用训练，拔根神经就行。"
+    },
+    {
+      "id": 5,
+      "cat": "tool",
+      "title": "Perplexity 开源 Bumblebee：开发者端点供应链只读扫描器",
+      "title_en": "Perplexity Open-Sources Bumblebee: A Read-Only Supply-Chain Scanner for Developer Endpoints",
+      "source": "MarkTechPost",
+      "url": "https://www.marktechpost.com/2026/05/23/perplexity-open-sources-bumblebee-a-read-only-supply-chain-scanner-for-developer-endpoints/",
+      "time": "2天前",
+      "published": "2026-05-23T08:17:27+00:00",
+      "summary": "Perplexity 开源了其内部安全工具 Bumblebee，一款用于保护开发者端点的只读供应链扫描器。Bumblebee 支持 macOS 和 Linux 系统，能够安全地扫描 npm、PyPI、Go 模块、MCP 配置、编辑器扩展等开发依赖，识别已知漏洞和恶意包，而不会对系统进行任何写操作。该工具专为保护 Perplexity 自身搜索产品 Comet 和 Computer 背后的开发者系统而设计，现已面向社区开放。Bumblebee 的只读特性使其非常适合集成到 CI/CD 流水线中，在不影响开发效率的前提下提升供应链安全性。这一举措也反映了企业对软件供应链攻击日益增长的担忧。",
+      "snark": "Perplexity：你的代码依赖可能比你的代码还危险，扫一扫。"
+    },
+    {
+      "id": 6,
+      "cat": "policy",
+      "title": "AI 被用于复活已故飞行员语音，NTSB 紧急封锁系统",
+      "title_en": "AI is being used to resurrect the voices of dead pilots",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/05/22/ai-is-being-used-to-resurrect-the-voices-of-dead-pilots/",
+      "time": "2天前",
+      "published": "2026-05-22T23:03:33+00:00",
+      "summary": "有人利用 AI 技术从驾驶舱录音的频谱图图像中重建了已故飞行员的语音，迫使美国国家运输安全委员会暂时封锁其案卷系统。攻击者通过分析公开的频谱图图像，使用语音合成模型逆向还原出原始音频内容，成功“复活”了事故中死亡飞行员的对话。这一事件引发了严重的隐私和伦理争议，NTSB 担心此类技术可能被用于篡改证据或侵犯逝者尊严，因此紧急关闭了相关文档的公开访问权限。该案例凸显了 AI 在音频重建领域的双刃剑效应，也促使监管机构重新审视公开数据的安全边界。",
+      "snark": "AI：我能让死人说话，但 NTSB 说不行。"
+    },
+    {
+      "id": 7,
+      "cat": "tool",
+      "title": "Google 为 Pixel 主屏添加迪斯科球图标：你们确定要这个？",
+      "title_en": "Google goes for the glitter with disco-ball icons: ‘Are y’all sure you still want this?’",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/05/22/google-goes-for-the-glitter-with-disco-ball-icons-are-yall-sure-you-still-want-this/",
+      "time": "2天前",
+      "published": "2026-05-22T21:02:36+00:00",
+      "summary": "Google 为 Pixel 手机推出了迪斯科球风格的主屏图标主题，用户可以将整个主屏幕应用图标变成闪闪发光的迪斯科球效果。该功能是 Google 在 Material You 设计语言基础上的一次趣味性尝试，通过动态光影和反射效果模拟迪斯科球的视觉特征。Google 在推出时甚至以“你们确定还想要这个？”的调侃口吻征求用户反馈。尽管看起来只是一个无厘头的功能，但它展示了 Google 在系统 UI 层面利用 AI 渲染引擎实现实时动态图标的能力，也为未来的个性化主题设计提供了技术验证。",
+      "snark": "Google：你们要的迪斯科球图标来了，后悔还来得及。"
+    },
+    {
+      "id": 8,
+      "cat": "strategy",
+      "title": "VC 和创始人如何用虚高“ARR”给 AI 初创公司加冕",
+      "title_en": "How VCs and founders use inflated ‘ARR’ to crown AI startups",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/05/22/how-vcs-and-founders-use-inflated-arr-to-kingmake-ai-startups/",
+      "time": "2天前",
+      "published": "2026-05-22T20:40:48+00:00",
+      "summary": "部分 AI 初创公司正在公开宣传中使用膨胀的传统收入指标来夸大自身表现，而它们的投资者对此心知肚明。这些公司通过将非经常性收入、预付款、合作伙伴补贴等一次性收入计入年度经常性收入，从而制造出高速增长的假象。VC 们为了推高估值和吸引后续融资，往往默许甚至鼓励这种做法。这种现象在 AI 领域尤为突出，因为 AI 公司通常需要大量前期投入，真实的可持续收入往往远低于宣传数字。业界呼吁建立更透明的 AI 公司收入披露标准，以帮助投资者区分真正的产品市场契合与财务包装。",
+      "snark": "AI 初创公司：我们的 ARR 是虚构的，但估值是真实的。"
+    },
+    {
+      "id": 9,
+      "cat": "tool",
+      "title": "Google AI 搜索严重翻车：搜索“忽略”竟让 AI 忽略你的需求",
+      "title_en": "Google&#8217;s AI search is so broken it can &#8216;disregard&#8217; what you&#8217;re looking for",
+      "source": "The Verge AI",
+      "url": "https://www.theverge.com/tech/936176/google-ai-overviews-search-disregard",
+      "time": "2天前",
+      "published": "2026-05-22T20:39:54+00:00",
+      "summary": "Google 的 AI Overviews 功能出现了一个有趣的故障：当用户搜索“disregard”一词时，AI 概览部分会像传统聊天机器人一样回复“忽略”指令，而不是显示正常的搜索结果摘要。这意味着如果你搜索“disregard”，AI 会直接忽略你的搜索意图，输出一段类似“我将忽略你的请求”的文本。该问题被用户发现并在 X 平台上传播，暴露出 Google AI 搜索在处理特定关键词时的逻辑缺陷。这一事件再次引发了对 AI 搜索可靠性和意图理解的质疑，Google 尚未对此做出正式回应。",
+      "snark": "Google：你搜‘忽略’，我就真忽略你，没毛病。"
+    },
+    {
+      "id": 10,
+      "cat": "strategy",
+      "title": "马斯克听不到你的声音：SpaceX 1.75 万亿美元 IPO 轰鸣作响",
+      "title_en": "Elon Musk can’t hear you over the sound of his $1.75 trillion IPO",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/podcast/elon-musk-cant-hear-you-over-the-sound-of-his-1-75-trillion-ipo/",
+      "time": "2天前",
+      "published": "2026-05-22T18:17:07+00:00",
+      "summary": "SpaceX 终于提交了 S-1 文件，启动 IPO 进程，估值高达 1.75 万亿美元。文件长达 36 页的风险因素披露，以及高达 28 万亿美元的总可寻址市场目标，展现了马斯克的宏大野心。薪酬方案甚至与建立火星殖民地挂钩，显示出 SpaceX 不仅是一家火箭公司，更是一个星际殖民企业。尽管市场对如此高的估值存在质疑，但 SpaceX 在商业航天领域的垄断地位和星链业务的增长潜力，使得投资者趋之若鹜。这一 IPO 将成为历史上规模最大的科技公司上市事件之一，也将为 AI 和航天交叉领域注入巨额资本。",
+      "snark": "马斯克：1.75 万亿？小目标，先上火星再说。"
+    },
+    {
+      "id": 11,
+      "cat": "strategy",
+      "title": "Google I/O 2026 对话舞台精彩回顾",
+      "title_en": "Catch up on the Dialogues stage at Google I/O 2026.",
+      "source": "Google AI Blog",
+      "url": "https://blog.google/innovation-and-ai/technology/ai/io-2026-dialogues-recap/",
+      "time": "2天前",
+      "published": "2026-05-22T18:00:00+00:00",
+      "summary": "Google I/O 2026 大会的对话舞台环节中，Alphabet 首席执行官桑达尔·皮查伊与多位嘉宾进行了深度对话，探讨了 AI 的未来发展方向。讨论涵盖了 Gemini 模型的最新进展、AI 在医疗和教育领域的应用、以及 Google 对负责任的 AI 开发的承诺。皮查伊强调了多模态 AI 和 Agent 系统的重要性，并展示了 Google 如何将 AI 融入搜索、云服务和消费产品中。此外，还讨论了开源与闭源模型的平衡、AI 能源消耗问题以及全球 AI 监管的协调。此次对话舞台被视为 Google 展示其 AI 领导地位和未来愿景的关键平台。",
+      "snark": "皮查伊：我们 AI 很强，但请放心，我们很负责任。"
+    },
+    {
+      "id": 12,
+      "cat": "strategy",
+      "title": "埃隆，别硬推 Grok 了",
+      "title_en": "Elon, stop trying to make Grok happen",
+      "source": "The Verge AI",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/936219/elon-stop-trying-to-make-grok-happen",
+      "time": "2天前",
+      "published": "2026-05-22T17:17:06+00:00",
+      "summary": "埃隆·马斯克的“求真”AI 聊天机器人 Grok 表现不佳，用户寥寥。根据路透社的报道，Grok 在去年美国政府使用 AI 的联邦记录中几乎找不到踪影，说明其并未获得主流采用。尽管 xAI 投入了大量资源进行推广，但 Grok 在准确性、实用性和用户体验方面均落后于 GPT-4 和 Claude 等竞品。马斯克试图通过将其整合到 X 平台来获取流量，但效果有限。分析人士认为，Grok 的问题在于其“反政治正确”定位过于狭窄，且技术实力不足以支撑其雄心。xAI 需要重新思考产品策略，否则 Grok 可能沦为又一个被遗忘的 AI 玩具。",
+      "snark": "Grok：我是来求真的，不是来求用户数的。"
+    }
+  ],
+  "stats": {
+    "total": 12,
+    "model_count": 2,
+    "strategy_count": 6,
+    "tool_count": 3,
+    "policy_count": 1
+  }
+}

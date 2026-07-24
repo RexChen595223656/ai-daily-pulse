@@ -1,0 +1,167 @@
+{
+  "date": "2026-06-24",
+  "generated_at": "2026-06-24T08:11:20.153874+08:00",
+  "highlight": "Mistral 发布 OCR 4 模型，Datalab 开源 9B 视觉模型，AI 在文档理解与医疗健康领域加速落地。",
+  "fun": {
+    "lucky": "Mistral OCR 4",
+    "advice": "宜：用结构化输出驯服混乱的 PDF。\n忌：指望 AI 看懂手写处方。",
+    "joke": "AI 医生说：你的 T 细胞有点抑郁，建议多和 GPT-5 聊聊。"
+  },
+  "articles": [
+    {
+      "id": 1,
+      "cat": "model",
+      "title": "Mistral OCR 4 发布：为 RAG、智能体和企业搜索带来可引用的结构化输出",
+      "title_en": "Mistral OCR 4 Brings Citation-Ready Structured Output to RAG, Agentic, and Enterprise Search Pipelines",
+      "source": "MarkTechPost",
+      "url": "https://www.marktechpost.com/2026/06/23/mistral-ocr-4/",
+      "time": "27分钟前",
+      "published": "2026-06-23T23:43:43+00:00",
+      "summary": "Mistral AI 于 2026 年 6 月 23 日发布了 OCR 4 模型，从单纯的文本提取升级为结构化文档输出。每个输出块都包含边界框、类型分类以及每页和每词的置信度分数。该模型支持 170 种语言，可在单个自托管容器中运行，并直接输出可引用的结构化数据，非常适合用于检索增强生成（RAG）、智能代理和企业搜索流程。这一进步让非结构化文档能被更精准地解析和索引，显著提升了企业级信息检索系统的可靠性与可追溯性。",
+      "snark": "OCR 终于从“识字”进化到“会做笔记”了，建议下次直接帮老板写周报。"
+    },
+    {
+      "id": 2,
+      "cat": "strategy",
+      "title": "印度 MoEngage 押注未来营销：数百万个 AI 代理服务每一位客户",
+      "title_en": "India’s MoEngage bets that the future of marketing is millions of AI agents",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/06/23/indias-moengage-bets-marketings-future-on-millions-of-ai-agents/",
+      "time": "41分钟前",
+      "published": "2026-06-23T23:30:00+00:00",
+      "summary": "印度营销科技公司 MoEngage 通过全现金交易收购了一项技术，该技术可以为每位客户分配专属的 AI 代理。这些 AI 代理能够独立与客户互动、分析行为数据并执行个性化营销策略，从而将传统的大规模营销转变为超个性化的“一对一”服务。MoEngage 认为，未来的营销核心不再是千人一面的广告投放，而是由数百万个 AI 代理并行工作，实时响应每个消费者的独特需求，从而大幅提升用户转化率和品牌忠诚度。",
+      "snark": "以后给你发促销短信的，可能不是客服，是 AI 在偷偷卷 KPI。"
+    },
+    {
+      "id": 3,
+      "cat": "tool",
+      "title": "Google Home 即将升级：通过衣物识别更精准地认出你",
+      "title_en": "Google Home will soon get better at recognizing you",
+      "source": "The Verge AI",
+      "url": "https://www.theverge.com/tech/955385/google-home-familiar-faces-clothing",
+      "time": "1小时前",
+      "published": "2026-06-23T22:28:19+00:00",
+      "summary": "Google Home 将于 6 月 23 日推出一项更新，扩展其面部识别功能。新功能允许用户标记“熟悉面孔”库中的人物，即使该人背对摄像头，系统也能通过其衣物特征进行持续识别。这意味着当你转身离开时，智能家居摄像头不会再误判你为陌生人。该更新旨在解决传统面部识别在非正面视角下的失效问题，通过融合衣物颜色、纹理等视觉线索，提升家庭安防和个性化场景下的身份识别准确率。",
+      "snark": "以后在家裸奔也会被 AI 认出来，建议 Google 推出“马赛克模式”。"
+    },
+    {
+      "id": 4,
+      "cat": "policy",
+      "title": "好莱坞集体抵制 OpenAI 传记片：Netflix、A24 等巨头拒绝发行",
+      "title_en": "Hollywood is bending the knee to OpenAI",
+      "source": "The Verge AI",
+      "url": "https://www.theverge.com/entertainment/954899/luca-guadagnino-artificial-sam-altman-amazon-a24-neon-mubi-chatgpt",
+      "time": "2小时前",
+      "published": "2026-06-23T22:03:18+00:00",
+      "summary": "据报道，Netflix、A24、Focus Features 以及华纳兄弟的 Clockwork 部门都已决定放弃发行导演卢卡·瓜达尼诺执导的、关于 OpenAI 联合创始人兼 CEO 山姆·奥特曼的传记电影《Artificial》。目前仅剩 Neon 和 Mubi 仍在考虑是否接手。这一集体抵制行为反映出好莱坞传统势力对 OpenAI 及其代表的 AI 产业仍存有戒心，也暗示了科技巨头与影视行业在价值观和利益分配上的深层矛盾。",
+      "snark": "好莱坞：我们拒绝拍关于你的电影。奥特曼：那我用 Sora 自己拍一部。",
+      "multiSource": [
+        "The Verge",
+        "The Verge AI"
+      ]
+    },
+    {
+      "id": 5,
+      "cat": "model",
+      "title": "Datalab 发布 lift：9B 开源视觉模型，根据模式从 PDF 中提取结构化 JSON",
+      "title_en": "Datalab Releases lift: A 9B Open-Weights Vision Model That Extracts Structured JSON From PDFs Using Schemas",
+      "source": "MarkTechPost",
+      "url": "https://www.marktechpost.com/2026/06/23/datalab-releases-lift-a-9b-open-weights-vision-model-that-extracts-structured-json-from-pdfs-using-schemas/",
+      "time": "4小时前",
+      "published": "2026-06-23T19:35:33+00:00",
+      "summary": "Datalab 发布了名为 lift 的 9B 参数开源视觉模型，专门用于将 PDF 和图像转换为符合预设模式（Schema）的 JSON 数据。该模型采用模式约束解码技术，确保输出结构有效；同时引入了训练式“弃权”机制，当字段不存在时返回 null 而非进行幻觉填充。在包含 225 份文档的基准测试中，lift 的字段准确率达到了 90.2%。这一模型为自动化文档处理、数据录入和知识库构建提供了高效且可信的开源解决方案。",
+      "snark": "开源界的“文档翻译官”，专治 PDF 里的花体字和扫描歪斜。"
+    },
+    {
+      "id": 6,
+      "cat": "tool",
+      "title": "如何在 Python 中使用 NVIDIA Canary-1B-v2 进行 ASR、翻译和自动 SRT 字幕导出",
+      "title_en": "How to Use NVIDIA Canary-1B-v2 for ASR, Translation, and Automatic SRT Subtitle Export in Python",
+      "source": "MarkTechPost",
+      "url": "https://www.marktechpost.com/2026/06/23/how-to-use-nvidia-canary-1b-v2-for-asr-translation-and-automatic-srt-subtitle-export-in-python/",
+      "time": "5小时前",
+      "published": "2026-06-23T18:31:36+00:00",
+      "summary": "本教程演示了如何使用 NVIDIA Canary-1B-v2 模型构建多语言语音识别与翻译流水线。具体步骤包括：在支持 GPU 的运行环境中加载模型，将音频预处理为 16kHz 单声道格式，然后运行英语 ASR。接着，模型可将语音翻译为法语、德语、西班牙语和意大利语，并提取词级和片段级的时间戳。最终，用户可以自动导出标准 SRT 字幕文件。该模型为开发者提供了一站式语音转文字、跨语言翻译和字幕生成的完整工具链。",
+      "snark": "字幕组可以集体转行了，以后 AI 不仅听得懂，还翻译得比你快。"
+    },
+    {
+      "id": 7,
+      "cat": "strategy",
+      "title": "Anthropic 的 Claude Tag：通过 Slack 消息学习你的公司",
+      "title_en": "Anthropic’s Claude Tag is learning your company, one Slack message at a time",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/06/23/anthropics-claude-tag-is-learning-your-company-one-slack-message-at-a-time/",
+      "time": "7小时前",
+      "published": "2026-06-23T17:00:00+00:00",
+      "summary": "Anthropic 推出了 Claude Tag，这是一个常驻 Slack 的 AI 队友功能。它不仅能提升团队协作效率，更是一项战略布局：通过持续读取和分析 Slack 消息，Claude Tag 能够捕捉组织上下文、积累机构知识并理解企业工作流。这使得 AI 助手不再只是通用问答工具，而是深度融入公司内部信息生态，成为企业数字资产的“活档案”。Anthropic 此举意在从企业数据源头切入，构建难以被替代的竞争壁垒。",
+      "snark": "Slack 老板：你聊的每个字，都成了 AI 的“公司八卦”素材。"
+    },
+    {
+      "id": 8,
+      "cat": "policy",
+      "title": "企业 AI 超级政治行动委员会为何在地方选举上豪掷 2700 万美元",
+      "title_en": "Why corporate AI super PACs spent $27 million on a local election",
+      "source": "The Verge AI",
+      "url": "https://www.theverge.com/policy/954970/ai-super-pacs-alex-bores-new-york-12th-district",
+      "time": "7小时前",
+      "published": "2026-06-23T17:00:00+00:00",
+      "summary": "本文揭露了企业支持的 AI 超级政治行动委员会（Super PAC）在一场地方选举中投入 2700 万美元的幕后动机。这些资金主要用于影响纽约第 12 选区的选举结果，背后是科技巨头试图通过地方政治布局，为全国性的 AI 监管政策铺路。文章指出，这些超级政治行动委员会利用巨额资金支持或反对特定候选人，旨在塑造一个对 AI 产业更友好的立法环境，从而规避严格的隐私、安全和反垄断法规。",
+      "snark": "AI 公司：我们只是想让议员们“理解”一下 AI，顺便买下他们的灵魂。"
+    },
+    {
+      "id": 9,
+      "cat": "tool",
+      "title": "GPT-5 帮助免疫学家破解困扰三年的 T 细胞之谜",
+      "title_en": "How GPT-5 helped immunologist Derya Unutmaz solve a 3-year-old mystery",
+      "source": "OpenAI Blog",
+      "url": "https://openai.com/index/gpt-5-immunology-mystery",
+      "time": "7小时前",
+      "published": "2026-06-23T17:00:00+00:00",
+      "summary": "免疫学家 Derya Unutmaz 利用 GPT-5 Pro 成功解决了一个困扰其团队三年的免疫学难题，获得了关于 T 细胞行为的关键见解。GPT-5 Pro 通过分析海量的基因表达数据和文献，识别出传统统计方法未能发现的复杂模式，揭示了 T 细胞在特定微环境下的激活与耗竭机制。这一突破有望推动癌症免疫疗法和自身免疫疾病的研究，证明了大型语言模型在加速生物医学发现方面的巨大潜力。",
+      "snark": "免疫学家：三年没想通的问题。GPT-5：建议你换个脑子。"
+    },
+    {
+      "id": 10,
+      "cat": "tool",
+      "title": "Omio 利用 OpenAI 模型规模化旅游产品开发",
+      "title_en": "Omio scales travel product development using OpenAI models",
+      "source": "AI News",
+      "url": "https://www.artificialintelligence-news.com/news/omio-scales-travel-product-development-using-openai-models/",
+      "time": "7小时前",
+      "published": "2026-06-23T16:32:28+00:00",
+      "summary": "多模式旅行平台 Omio 已将 OpenAI 模型深度集成到其工程运营中，用于加速旅游产品开发和推出新的预订界面。Omio 平台协调着横跨 47 个国家、超过 3000 家交通供应商的运营。该公司明确拒绝将 AI 作为肤浅的附加功能，而是将其嵌入核心开发流程，用于优化路线规划、价格预测和个性化推荐。这一实践展示了 AI 在复杂、多边的服务型平台中如何提升开发效率和用户体验。",
+      "snark": "以后订票不用纠结了，AI 会帮你决定：去这里，别问为什么。"
+    },
+    {
+      "id": 11,
+      "cat": "strategy",
+      "title": "Midjourney 转向人体扫描仪：画风有点不对劲",
+      "title_en": "Something&#8217;s off with Midjourney’s pivot to body scanners",
+      "source": "The Verge AI",
+      "url": "https://www.theverge.com/report/954826/midjourney-medical-ai-ultrasound-body-scanner-lacks-evidence",
+      "time": "8小时前",
+      "published": "2026-06-23T15:56:35+00:00",
+      "summary": "以图像生成闻名的 AI 初创公司 Midjourney 上周做出了一项不寻常的转型：进军医学影像领域。该公司宣布推出一款未来派超声波扫描仪，用户需要将自己浸入一缸水中，据说能产生“像 MRI 一样强大”但“像做水疗一样随意”的成像效果。然而，该产品缺乏有力的科学证据支持，且技术路线与传统医学影像设备大相径庭，引发了业界对其可行性和伦理性的广泛质疑。",
+      "snark": "Midjourney：我们不做图了，改泡澡。用户：这水里有 AI 吗？"
+    },
+    {
+      "id": 12,
+      "cat": "tool",
+      "title": "Fitbit Air 对 AI 健康乱象采取了更明智的策略",
+      "title_en": "The Fitbit Air takes a smarter approach to the AI health dumpster fire",
+      "source": "The Verge AI",
+      "url": "https://www.theverge.com/tech/954768/google-fitbit-air-review-fitness-tracker-wearable-ai-health-coach",
+      "time": "9小时前",
+      "published": "2026-06-23T15:00:00+00:00",
+      "summary": "Google 的 Health Coach 功能在 Fitbit Air 上表现激进，不断向用户发出健康警告，例如睡眠不足、心率变异性低于基线、处于湿热环境等，仿佛用户随时会身体崩溃。相比之下，Fitbit Air 本身采取了更温和、更注重长期趋势的 AI 健康管理策略，避免引发用户的健康焦虑。文章评论称，在 AI 健康应用普遍“制造恐慌”的乱象中，Fitbit Air 的做法显得更为理性与可持续。",
+      "snark": "AI 健康教练：你快要死了。Fitbit Air：别怕，它只是话多。"
+    }
+  ],
+  "stats": {
+    "total": 12,
+    "model_count": 2,
+    "strategy_count": 3,
+    "tool_count": 5,
+    "policy_count": 2
+  }
+}

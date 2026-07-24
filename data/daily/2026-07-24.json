@@ -1,0 +1,167 @@
+{
+  "date": "2026-07-24",
+  "generated_at": "2026-07-24T17:08:10.286827+08:00",
+  "highlight": "WAIC 2026 转向应用落地，企业关注 AI 如何真正进入业务流程创造价值。",
+  "fun": {
+    "lucky": "OpenWorker",
+    "advice": "宜：用开源工具替代无效聊天\n忌：把 AI 当聊天框用",
+    "joke": "AI 最终学会了写代码，然后它给自己放了一天假。"
+  },
+  "articles": [
+    {
+      "id": 1,
+      "cat": "strategy",
+      "title": "曾鸣教授谈 AI 时代企业竞争：构建智能复利，让 AI 真正进入业务流程",
+      "title_en": "对话曾鸣教授：AI时代，企业竞争的关键是构建智能复利，让AI真正进入业务流程",
+      "source": "36氪",
+      "url": "https://36kr.com/p/3909358392988806?f=rss",
+      "time": "1小时前",
+      "published": "2026-07-24T08:06:05+00:00",
+      "summary": "在 2026 年世界人工智能大会（WAIC）现场，曾鸣教授接受 36 氪专访，围绕 AI 时代企业增长、组织变革与智能复利等话题展开讨论。他指出，当前产业关注点正从模型参数竞赛转向应用价值创造，核心问题是如何让 AI 真正嵌入企业业务流程。曾鸣强调，企业应构建“智能复利”机制，即通过持续的数据反馈和模型迭代，使 AI 系统在业务中不断自我优化，而非一次性部署。这一观点呼应了本届 WAIC“智能伙伴，共创未来”的主题，也反映出行业对 AI 落地路径的务实思考。",
+      "snark": "曾教授一句话，比某些公司整场发布会都值钱。"
+    },
+    {
+      "id": 2,
+      "cat": "strategy",
+      "title": "OpenAI 推出 Presence 服务：为企业 AI 智能体配备专属工程师",
+      "title_en": "OpenAI Presence sells enterprise AI agents with engineers attached",
+      "source": "AI News",
+      "url": "https://www.artificialintelligence-news.com/news/openai-presence-enterprise-ai-agents/",
+      "time": "1小时前",
+      "published": "2026-07-24T08:00:00+00:00",
+      "summary": "OpenAI 于 7 月 22 日宣布推出 OpenAI Presence，这是一种面向企业的新型托管产品，通过有限通用可用性计划交付。与传统在线购买 AI 智能体不同，Presence 采用“工程师随附”模式，即 OpenAI 派遣工程师协助企业部署和定制 AI 智能体，确保其深度融入业务流程。该服务目前不提供自助式购买选项，强调高端定制化支持。此举标志着 OpenAI 从纯模型提供商向企业级解决方案服务商的战略转型，旨在解决企业 AI 落地中常见的集成与运维难题。",
+      "snark": "买 AI 送工程师，这是卖模型还是卖人力外包？"
+    },
+    {
+      "id": 3,
+      "cat": "tool",
+      "title": "利用百度 Unlimited-OCR 构建端到端 OCR 流水线：高分辨率图像与多页 PDF 解析指南",
+      "title_en": "How to Build an End-to-End OCR Pipeline with Baidu’s Unlimited-OCR for High-Resolution Images and Multi-Page PDF Parsing",
+      "source": "MarkTechPost",
+      "url": "https://www.marktechpost.com/2026/07/23/how-to-build-an-end-to-end-ocr-pipeline-with-baidus-unlimited-ocr-for-high-resolution-images-and-multi-page-pdf-parsing/",
+      "time": "3小时前",
+      "published": "2026-07-24T05:16:28+00:00",
+      "summary": "本文详细介绍了如何构建基于百度 Unlimited-OCR 模型的端到端 OCR 流水线，用于处理高分辨率文档图像和多页 PDF。教程涵盖从 GPU 环境配置到两种推理模式（高细节平铺模式与快速基础模式）的对比，并深入解析了密集布局、表格及跨页内容的处理技巧。Unlimited-OCR 模型在保持高精度的同时，支持超大分辨率图像的无损解析，适用于发票、合同、学术论文等复杂文档场景。该指南为开发者提供了完整的代码实现和性能调优建议。",
+      "snark": "OCR 教程都卷到 GPU 配置了，下一个是不是要教怎么造扫描仪？"
+    },
+    {
+      "id": 4,
+      "cat": "strategy",
+      "title": "DeepSeek 不是理想主义公司，它只是把现实服务于理想",
+      "title_en": "DeepSeek不是理想主义公司，它只是把现实服务于理想",
+      "source": "36氪",
+      "url": "https://36kr.com/p/3909084356433025?f=rss",
+      "time": "4小时前",
+      "published": "2026-07-24T04:26:38+00:00",
+      "summary": "这家以工程师文化著称的 AI 公司 DeepSeek 再次成为焦点。报道指出，DeepSeek 并非纯粹的理想主义者，而是通过解决现实问题来支撑长远目标。公司创始人极少公开露面，团队低调务实，但过去一年频繁以模型发布引爆中文科技圈。其策略是聚焦真实业务场景中的技术难点，通过持续迭代实现从模型到产品的闭环。这种“用现实问题服务理想”的路径，使其在竞争激烈的 AI 赛道中保持独特优势，也引发了对 AI 公司发展模式的深层思考。",
+      "snark": "DeepSeek：我们不画饼，我们只做饼，然后吃掉。"
+    },
+    {
+      "id": 5,
+      "cat": "strategy",
+      "title": "36 氪深入 WAIC 2026：AI 叙事重心从技术展示转向真实场景与商业价值",
+      "title_en": "带着AI去前线！36氪逛透WAIC，带你看懂2026全行业AI最真实走向！",
+      "source": "36氪",
+      "url": "https://36kr.com/p/3909033052722310?f=rss",
+      "time": "6小时前",
+      "published": "2026-07-24T02:37:12+00:00",
+      "summary": "2026 世界人工智能大会在上海落幕，36 氪连续第三年深入现场报道。本届 WAIC 以“智能伙伴，共创未来”为主题，在世博、张江、西岸三地四馆展开。观察发现，AI 叙事重心发生显著变化：技术展示退居幕后，真实场景、系统交付与商业价值被推到台前。过去三年，产业经历了从模型竞速到应用试炼的转向，参数、榜单和 Demo 曾定义行业热度；如今，企业更关注 AI 如何进入业务流程、如何与人协同完成任务、如何在真实环境中创造价值。这一趋势标志着 AI 产业进入应用深化阶段。",
+      "snark": "WAIC 终于从秀肌肉变成了秀肌肉怎么用。"
+    },
+    {
+      "id": 6,
+      "cat": "policy",
+      "title": "AI 安全护栏阻碍进攻性网络安全研究人员工作",
+      "title_en": "How AI guardrails are impeding the work of offensive cybersecurity researchers",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/07/23/how-ai-guardrails-are-impeding-the-work-of-offensive-cybersecurity-researchers/",
+      "time": "8小时前",
+      "published": "2026-07-24T01:00:00+00:00",
+      "summary": "TechCrunch 报道指出，OpenAI 和 Anthropic 等公司设置的 AI 安全护栏（guardrails）正在影响进攻性网络安全研究人员的工作。这些研究人员负责发现未知漏洞并开发利用工具，但 AI 模型的安全限制使他们无法获得必要的技术输出。例如，模型可能拒绝生成用于渗透测试的代码或拒绝分析恶意软件样本。尽管安全护栏旨在防止 AI 被滥用，但过度的限制可能削弱网络安全防御能力，因为研究人员需要 AI 辅助来模拟攻击场景。这引发了关于 AI 安全与开放研究之间平衡的讨论。",
+      "snark": "AI 说：我不能帮你黑系统，但你可以手动黑。"
+    },
+    {
+      "id": 7,
+      "cat": "policy",
+      "title": "欧盟对 Google 处以 8.9 亿欧元罚款，Anthropic 扩展 Claude 语音模式",
+      "title_en": "派早报：Acrab 发布边缘 AI 芯片 GELIX 1 和个人 AI 系统 Agent Box 等",
+      "source": "少数派",
+      "url": "https://sspai.com/post/112677",
+      "time": "8小时前",
+      "published": "2026-07-24T00:33:05+00:00",
+      "summary": "少数派早报汇总了多条 AI 行业动态。欧盟委员会对 Google 处以总计 8.9 亿欧元罚款，涉及反垄断违规行为。同时，Acrab 发布了边缘 AI 芯片 GELIX 1 和个人 AI 系统 Agent Box，标志着 AI 硬件向边缘计算和个性化方向拓展。此外，Anthropic 扩大了 Claude 语音模式的支持范围，将覆盖更多模型和应用场景。这些事件反映了监管、硬件创新与模型能力扩展三条并行的发展主线。",
+      "snark": "Google 交罚款的速度比发布新模型还快。"
+    },
+    {
+      "id": 8,
+      "cat": "strategy",
+      "title": "段永平称 10 年内大概率不卖泡泡玛特，混元多模态负责人胡瀚离职创业",
+      "title_en": "8点1氪丨段永平称10年内大概率不会卖泡泡玛特；中国数学家王虹、邓煜获得菲尔兹奖；宜家回应甩卖8处物业：不代表退出中国市场",
+      "source": "36氪",
+      "url": "https://36kr.com/p/3908881985901959?f=rss",
+      "time": "9小时前",
+      "published": "2026-07-24T00:00:48+00:00",
+      "summary": "36 氪 8 点 1 氪报道了多条热点新闻。知名投资人段永平在雪球上表示，他刚开始买入泡泡玛特，并预测 10 年内大概率不会卖出。此外，腾讯混元多模态理解负责人胡瀚离职创业，原团队或将聚焦世界模型研发。其他消息包括极氪回应“海外锁车”事件、滔搏暴力打折甩卖耐克库存等。这些动态涉及投资决策、人才流动与企业公关，反映出 AI 和消费领域的多元变化。",
+      "snark": "段永平买泡泡玛特，AI 圈表示：这跨界比我写代码还难理解。"
+    },
+    {
+      "id": 9,
+      "cat": "tool",
+      "title": "亚马逊 Alexa Plus 获 AI 更新：可处理更复杂的智能家居指令",
+      "title_en": "Alexa Plus is getting an AI update to handle more complicated instructions",
+      "source": "The Verge AI",
+      "url": "https://www.theverge.com/tech/970399/amazon-alexa-plus-ai-update-smart-home-devices",
+      "time": "11小时前",
+      "published": "2026-07-23T21:15:06+00:00",
+      "summary": "亚马逊为 Alexa Plus 助手推出 AI 更新，目前处于预览阶段。更新后，Alexa Plus 能够以新方式连接智能家居设备，支持博世、Delta、科沃斯、iRobot、Yale Home、惠而浦、Tapo、Eufy 等品牌的设备。新功能允许用户通过更复杂的自然语言指令控制多设备联动场景，例如“如果客厅温度超过 28 度，就关闭窗帘并打开空调”。这一升级标志着语音助手从简单命令执行向情境感知和自动化决策的演进。",
+      "snark": "Alexa 终于学会了连窗帘，下一步是不是要帮人类叠被子？"
+    },
+    {
+      "id": 10,
+      "cat": "model",
+      "title": "AMD 推出 Helios AI 机架级系统，挑战英伟达",
+      "title_en": "AMD takes on Nvidia with its Helios AI rack-scale system",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/07/23/amd-takes-on-nvidia-with-its-helios-ai-rack-scale-system/",
+      "time": "12小时前",
+      "published": "2026-07-23T20:33:02+00:00",
+      "summary": "AMD 发布全新 Helios AI 机架级系统，旨在挑战其芯片竞争对手英伟达。该系统专为大规模 AI 训练和推理设计，集成了 AMD 最新的 GPU 和高速互连技术，预计今年晚些时候开始向客户发货。Helios 采用模块化架构，支持灵活扩展，旨在降低 AI 基础设施的部署成本和功耗。此举是 AMD 在 AI 硬件市场追赶英伟达的重要一步，此前英伟达凭借 H100 等产品占据主导地位。Helios 的推出有望加剧 AI 芯片市场的竞争。",
+      "snark": "AMD 说：英伟达，你的机架够不够我 Helios 撞？"
+    },
+    {
+      "id": 11,
+      "cat": "tool",
+      "title": "吴恩达发布 OpenWorker：开源、本地优先的桌面 AI 协作者",
+      "title_en": "Andrew Ng Just Released OpenWorker: An Open-Source, Local-First Desktop AI Coworker That Returns Finished Deliverables Instead of Chat",
+      "source": "MarkTechPost",
+      "url": "https://www.marktechpost.com/2026/07/23/andrew-ng-just-released-openworker-an-open-source-local-first-desktop-ai-coworker-that-returns-finished-deliverables-instead-of-chat/",
+      "time": "13小时前",
+      "published": "2026-07-23T19:31:59+00:00",
+      "summary": "吴恩达（Andrew Ng）发布了 OpenWorker，一个基于 MIT 许可证的开源桌面 AI 智能体。与传统的聊天式 AI 不同，OpenWorker 直接返回完成的可交付成果（如代码文件、文档、报告），而非聊天回复。它运行在 Tauri 外壳下的本地 Python 智能体服务器，支持 30 种精选工具调用模型以及完全本地的 Ollama 模型。OpenWorker 对每次写入、shell 命令和离机操作都设置了安全门控，确保用户控制权。这一工具旨在将 AI 从“对话助手”转变为“数字同事”，直接产出工作成果。",
+      "snark": "吴恩达说：别再跟 AI 聊天了，让它干活去。"
+    },
+    {
+      "id": 12,
+      "cat": "tool",
+      "title": "Anthropic 将 Claude 语音模式扩展至 Opus 和 Sonnet 模型",
+      "title_en": "Claude’s voice mode is now available for Opus and Sonnet",
+      "source": "The Verge AI",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/970065/anthropic-voice-mode-claude-opus-sonnet-haiku-ai",
+      "time": "14小时前",
+      "published": "2026-07-23T19:00:00+00:00",
+      "summary": "Anthropic 宣布将 Claude 的语音模式从原先仅支持 Haiku 模型，扩展至更强大的 Opus 和 Sonnet 模型。此前，语音模式仅限 Haiku 使用，该模型速度较快但能力较弱。现在，用户可以通过语音与 Opus 和 Sonnet 交互，并获得更高质量的响应。同时，Anthropic 还将语音模式扩展至 Gmail、Slack 和 Canva 等应用，使 Claude 能够直接在常用工具中执行语音指令。这一升级显著提升了 Claude 的实用性和多模态交互能力。",
+      "snark": "Claude 终于能说话了，但希望它别学人类开会时的废话。",
+      "multiSource": [
+        "The Verge",
+        "The Verge AI"
+      ]
+    }
+  ],
+  "stats": {
+    "total": 12,
+    "model_count": 1,
+    "strategy_count": 5,
+    "tool_count": 4,
+    "policy_count": 2
+  }
+}

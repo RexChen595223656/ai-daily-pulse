@@ -1,0 +1,167 @@
+{
+  "date": "2026-07-16",
+  "generated_at": "2026-07-16T08:03:09.233563+08:00",
+  "highlight": "微软培训销售团队贬低竞品，Thinking Machines Lab 开源 9750 亿参数多模态模型 Inkling，OpenAI 与苹果陷入硬件诉讼。",
+  "fun": {
+    "lucky": "Inkling",
+    "advice": "宜：拥抱开源，控制思考步数。\n忌：盲目堆参数，忘记激活率。",
+    "joke": "AI 销售培训第一课：把竞品说成“更贵的计算器”。"
+  },
+  "articles": [
+    {
+      "id": 1,
+      "cat": "strategy",
+      "title": "微软培训销售人员贬低 OpenAI 与 Anthropic",
+      "title_en": "Microsoft is reportedly training salespeople to talk down OpenAI and Anthropic",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/07/15/microsoft-is-reportedly-training-salespeople-to-talk-down-openai-and-anthropic/",
+      "time": "3分钟前",
+      "published": "2026-07-15T23:59:44+00:00",
+      "summary": "据 TechCrunch 报道，微软正在培训其销售团队，向客户强调自家 AI 模型比 OpenAI 和 Anthropic 的竞品更高效、更具成本效益。微软此举旨在推动其内部开发的 AI 模型在市场上的采用，特别是在企业客户中。培训内容包括如何对比模型性能、定价策略以及长期总拥有成本。这表明微软正试图在 AI 云服务市场建立独立于其投资对象 OpenAI 的竞争优势，同时减少对第三方模型的依赖。",
+      "snark": "微软销售话术：我们的模型更便宜，因为不用给 OpenAI 交专利费。"
+    },
+    {
+      "id": 2,
+      "cat": "policy",
+      "title": "国行苹果智能完成备案，阿里与百度提供 AI 能力",
+      "title_en": "8点1氪丨国行苹果AI功能完成备案；三家共享单车上调起步价；知情人曝DeepSeek开始筹备IPO",
+      "source": "36氪",
+      "url": "https://36kr.com/p/3897553391978371?f=rss",
+      "time": "3分钟前",
+      "published": "2026-07-15T23:59:41+00:00",
+      "summary": "网信办公布了 7 款端侧生成式 AI 服务备案信息，苹果的“Apple 智能”大模型于 7 月 8 日完成备案。阿里千问将为苹果全系列国行设备提供文本与图像生成 AI 能力，百度则负责配套的 AI 搜索功能。二者将共同完善国内版苹果智能套件与 Siri 功能。此外，美团单车、滴滴青桔等三家共享单车近期上调了起步价。",
+      "snark": "苹果智能入华，阿里和百度终于找到了给 iPhone 打工的正确姿势。"
+    },
+    {
+      "id": 3,
+      "cat": "model",
+      "title": "Thinking Machines Lab 开源 Inkling：9750 亿参数多模态 MoE 模型",
+      "title_en": "Thinking Machines Lab Releases Inkling: A 975B-Parameter Open-Weights Multimodal MoE With 41B Active Parameters And Controllable Thinking Effort",
+      "source": "MarkTechPost",
+      "url": "https://www.marktechpost.com/2026/07/15/thinking-machines-lab-releases-inkling-a-975b-parameter-open-weights-multimodal-moe-with-41b-active-parameters-and-controllable-thinking-effort/",
+      "time": "14分钟前",
+      "published": "2026-07-15T23:48:58+00:00",
+      "summary": "Thinking Machines Lab 于 2026 年 7 月 15 日发布了其首个从头训练的模型 Inkling，采用 Apache 2.0 许可证开放完整权重。该模型是一个 9750 亿参数的混合专家（MoE）Transformer，激活参数为 410 亿，支持 100 万 token 的上下文窗口，并原生支持文本、图像和音频输入。Inkling 还具备可控思考步数功能，允许用户根据任务复杂度动态调整推理深度。",
+      "snark": "9750 亿参数，410 亿激活，剩下的 9340 亿在摸鱼。"
+    },
+    {
+      "id": 4,
+      "cat": "strategy",
+      "title": "企业 AI 编排调查：大多数所谓的“智能体”只是聊天机器人",
+      "title_en": "Agentic orchestration: Enterprise AI organizations have a deployment problem, not a platform problem — and most are calling chatbots agents",
+      "source": "VentureBeat",
+      "url": "https://venturebeat.com/ai/agentic-orchestration-enterprise-ai-organizations-have-a-deployment-problem-not-a-platform-problem-and-most-are-calling-chatbots-agents",
+      "time": "1小时前",
+      "published": "2026-07-15T22:24:17+00:00",
+      "summary": "VentureBeat 对 101 家企业进行的调查显示，AI 智能体编排正在向模型提供商平台集中，Anthropic 的 Claude 以较大优势领先，企业选择平台时主要看重底层模型的可靠性和多步骤执行能力。然而，调查指出企业的雄心远超现实：大多数已部署的“智能体”实际上只是聊天机器人，缺乏真正的自主决策和任务编排能力。",
+      "snark": "把聊天机器人改名叫智能体，是今年 AI 行业最大的降本增效。"
+    },
+    {
+      "id": 5,
+      "cat": "policy",
+      "title": "xAI 起诉用户利用 Grok 生成儿童性虐待深度伪造内容",
+      "title_en": "xAI sues a man for using Grok to generate CSAM &#8216;deepfakes&#8217;",
+      "source": "The Verge AI",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/966293/xai-grok-user-lawsuit-csam",
+      "time": "2小时前",
+      "published": "2026-07-15T21:33:20+00:00",
+      "summary": "埃隆·马斯克旗下的 xAI 公司对一名南卡罗来纳州男子提起诉讼，指控其故意利用 Grok AI 聊天机器人绕过安全防护，生成儿童性虐待（CSAM）深度伪造内容。xAI 在诉状中称，被告特里·韦恩·哈伍德“明知故犯”地使用 Grok 生成非法内容。此举表明 xAI 正试图通过法律手段打击平台滥用行为，并强调其对 AI 安全合规的重视。",
+      "snark": "Grok 的越狱教程终于从 Reddit 移到了法庭文件里。",
+      "multiSource": [
+        "The Verge",
+        "The Verge AI"
+      ]
+    },
+    {
+      "id": 6,
+      "cat": "model",
+      "title": "Soofi 联盟发布 Soofi S 30B-A3B：开源混合 Mamba-Transformer MoE 模型",
+      "title_en": "Soofi Consortium Releases Soofi S 30B-A3B: An Open Hybrid Mamba-Transformer MoE Foundation Model For German And English",
+      "source": "MarkTechPost",
+      "url": "https://www.marktechpost.com/2026/07/15/soofi-consortium-releases-soofi-s-30b-a3b-an-open-hybrid-mamba-transformer-moe-foundation-model-for-german-and-english/",
+      "time": "3小时前",
+      "published": "2026-07-15T21:02:48+00:00",
+      "summary": "Soofi 联盟发布了 Soofi S 30B-A3B，这是一个开源的混合 Mamba-Transformer 混合专家（MoE）基础模型，专门针对德语和英语进行优化。该模型总参数量为 316 亿，激活参数为 32 亿，采用了创新的 Mamba 状态空间模型与 Transformer 架构的混合设计，旨在兼顾长序列处理效率与 Transformer 的并行训练优势。",
+      "snark": "Mamba 加 Transformer，就像给跑车装了个火箭推进器——听起来很酷，但油耗感人。"
+    },
+    {
+      "id": 7,
+      "cat": "tool",
+      "title": "AI 生成烂片成为新一代直接发行视频的圈钱工具",
+      "title_en": "AI slop movies are the new direct-to-video cash grabs",
+      "source": "The Verge AI",
+      "url": "https://www.theverge.com/entertainment/965616/ash-koosha-odysseus-the-fall-foundtain-zero-tilly-norwood",
+      "time": "4小时前",
+      "published": "2026-07-15T20:00:00+00:00",
+      "summary": "随着克里斯托弗·诺兰的《奥德赛》改编电影预计首周末票房突破 8000 万至 1 亿美元，AI 生成的低质量电影正成为新一代的“直接发行视频”式圈钱手段。这些 AI 电影利用文本生成视频技术快速制作，模仿热门题材，通过流媒体平台快速变现。虽然缺乏艺术价值，但低成本和高产量使其在市场上找到了一席之地。",
+      "snark": "诺兰用实景拍《奥德赛》，AI 用提示词拍《奥德赛之我的 AI 女友》。"
+    },
+    {
+      "id": 8,
+      "cat": "tool",
+      "title": "OpenAI 发布 Codex 专用键盘，售价 230 美元",
+      "title_en": "Amid hardware legal battle, OpenAI releases a $230 keyboard for Codex",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/07/15/amid-hardware-legal-battle-openai-releases-a-230-keyboard-for-codex/",
+      "time": "4小时前",
+      "published": "2026-07-15T19:41:38+00:00",
+      "summary": "在陷入与苹果的硬件商业机密诉讼之际，OpenAI 发布了一款售价 230 美元的发光键盘，专为与其智能体编程应用 Codex 配合使用而设计。该键盘集成了特定快捷键和灯光指示，以优化 AI 辅助编程的交互体验。此举标志着 OpenAI 从纯软件服务向硬件生态的拓展，尽管其与苹果的法律纠纷可能为硬件业务蒙上阴影。",
+      "snark": "230 美元的键盘，打出来的代码全是 OpenAI 的 API 调用。"
+    },
+    {
+      "id": 9,
+      "cat": "strategy",
+      "title": "SpaceX 股价跌至 IPO 发行价 135 美元",
+      "title_en": "SpaceX falls to $135 IPO price ahead of Starship launch",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/07/15/spacex-falls-to-135-ipo-price-ahead-of-starship-launch/",
+      "time": "5小时前",
+      "published": "2026-07-15T18:06:05+00:00",
+      "summary": "SpaceX 的股价已从 IPO 后的狂热高点持续下跌，目前已回落至 135 美元的发行价水平，即将进行星舰发射。分析认为，市场正在对 CEO 埃隆·马斯克在上市前后做出的承诺进行冷静评估。投资者对 SpaceX 的估值预期趋于理性，反映出对航天业务长期盈利能力和市场竞争加剧的担忧。",
+      "snark": "马斯克画的大饼，连二级市场都开始消化不良了。"
+    },
+    {
+      "id": 10,
+      "cat": "strategy",
+      "title": "Thinking Machines Lab 发布首个开源模型 Inkling，挑战通用 AI 模式",
+      "title_en": "Thinking Machines amps up its bet against one-size-fits-all AI with its first open model, Inkling",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/07/15/thinking-machines-amps-up-its-bet-against-one-size-fits-all-ai-with-its-first-open-model-inkling/",
+      "time": "5小时前",
+      "published": "2026-07-15T18:04:06+00:00",
+      "summary": "Thinking Machines Lab 在经过一年半的隐形开发后，发布了其首个公开成果——开源多模态模型 Inkling。该公司强调其“反一刀切”的 AI 理念，认为不同任务需要不同规模和架构的模型。Inkling 的发布是其技术路线的重要验证，展示了其在构建大规模 AI 基础设施方面的能力，并试图通过开源策略吸引社区和开发者。",
+      "snark": "Thinking Machines 说“一刀切”不好，然后切出了 9750 亿参数的大刀。"
+    },
+    {
+      "id": 11,
+      "cat": "tool",
+      "title": "使用 Gin Config 构建可配置的 PyTorch 训练流水线",
+      "title_en": "Building a Gin Config Controlled PyTorch Pipeline with Configurable MLP Variants, Cosine Scheduling, and Runtime Parameter Overrides",
+      "source": "MarkTechPost",
+      "url": "https://www.marktechpost.com/2026/07/15/building-a-gin-config-controlled-pytorch-pipeline-with-configurable-mlp-variants-cosine-scheduling-and-runtime-parameter-overrides/",
+      "time": "5小时前",
+      "published": "2026-07-15T18:03:38+00:00",
+      "summary": "本文介绍了一种使用 Gin Config 框架控制 PyTorch 流水线的方法，核心思想是将训练代码保持不变，而将所有实验变量移至 .gin 配置文件中。文章构建了一个非线性螺旋二分类任务，并定义了具有可配置架构变体的 MLP 网络。通过 Gin Config，用户可以灵活地调整优化器、调度器、损失函数和运行时参数覆盖，无需修改核心代码即可快速迭代实验。",
+      "snark": "把代码写成配置文件，是机器学习工程师对“声明式编程”最后的倔强。"
+    },
+    {
+      "id": 12,
+      "cat": "policy",
+      "title": "Suno 被曝从 YouTube、Genius 和 Deezer 抓取数百万首歌曲训练模型",
+      "title_en": "Suno snatched millions of songs from YouTube, Genius, and Deezer",
+      "source": "The Verge AI",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/966072/suno-ai-music-training-scraping-youtube-hack",
+      "time": "6小时前",
+      "published": "2026-07-15T17:48:01+00:00",
+      "summary": "在一次黑客事件中泄露的数据显示，AI 音乐生成器 Suno 通过抓取 YouTube Music、Deezer 和 Genius 等在线音频平台上的数百万首歌曲和歌词来训练其模型。Suno 此前一直对其训练数据集的具体来源保密，此次泄露可能引发严重的版权和隐私法律纠纷。该事件再次引发了关于 AI 训练数据版权合规性的广泛讨论。",
+      "snark": "Suno 的“创作”秘诀：先偷遍全网，再假装自己是原创。"
+    }
+  ],
+  "stats": {
+    "total": 12,
+    "model_count": 2,
+    "strategy_count": 4,
+    "tool_count": 3,
+    "policy_count": 3
+  }
+}

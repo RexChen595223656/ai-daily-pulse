@@ -1,0 +1,175 @@
+{
+  "date": "2026-06-10",
+  "generated_at": "2026-06-10T08:02:47.956349+08:00",
+  "highlight": "Anthropic发布首个面向公众的Mythos级模型Claude Fable 5，AI竞争进入新阶段。",
+  "fun": {
+    "lucky": "Claude Fable 5",
+    "advice": "宜：用Fable 5生成小游戏摸鱼\n忌：跟它讨论意识问题，会被微软CEO骂",
+    "joke": "为什么Claude Fable 5不做游戏QA？因为它自己就是bug制造机。"
+  },
+  "articles": [
+    {
+      "id": 1,
+      "cat": "tool",
+      "title": "新Siri AI实测：终于能帮家长把足球赛日程一键加入日历",
+      "title_en": "I tried Siri AI, and so far it actually works",
+      "source": "The Verge AI",
+      "url": "https://www.theverge.com/tech/947432/siri-ai-apple-intelligence-ios-27-wwdc",
+      "time": "19分钟前",
+      "published": "2026-06-09T23:43:00+00:00",
+      "summary": "《The Verge》记者测试了苹果在WWDC 2026上发布的新版Siri AI，发现其终于实现了家长最渴望的功能：从邮件或格式混乱的传单中提取足球比赛或“精神周”主题日信息，并一键添加到日历中。该功能基于Apple Intelligence框架，利用设备端大语言模型进行语义理解和结构化数据提取。记者表示，尽管此前Siri在AI浪潮中表现落后，但这次更新确实解决了实际痛点，且操作流畅度超出预期。不过，该功能目前仅支持英文，且对复杂表格的处理仍有待改进。",
+      "snark": "Siri终于从“人工智障”进化成“人工智助”了。"
+    },
+    {
+      "id": 2,
+      "cat": "strategy",
+      "title": "Sabertooth VC创始人贾斯汀·欧内斯特如何绕开传统风投基金投了近4亿美元",
+      "title_en": "How Justin Ernest invested nearly $400M into hot startups without a traditional VC fund",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/06/09/how-justin-ernest-invested-nearly-400m-into-hot-startups-without-a-traditional-vc-fund/",
+      "time": "44分钟前",
+      "published": "2026-06-09T23:17:51+00:00",
+      "summary": "Sabertooth VC创始人贾斯汀·欧内斯特没有花一年时间去募集传统风投基金，而是利用其高净值LP的“封闭网络”完成了近4亿美元的投资，标的包括Anthropic、Anduril和SpaceX等热门初创公司。这种模式被称为“常青基金”变体，投资者无需在固定期限内退出，从而能更灵活地支持长周期技术公司。欧内斯特表示，这种结构避免了传统风投的募资压力和短期回报焦虑，让资金能够更耐心地陪伴AI等前沿技术公司成长。",
+      "snark": "不募资、不汇报、不焦虑——这哪是VC，这是AI时代的躺赢哲学。"
+    },
+    {
+      "id": 3,
+      "cat": "strategy",
+      "title": "通用汽车：电动汽车双向充电技术可缓解AI数据中心的能源饥渴",
+      "title_en": "GM thinks EVs can help offset AI’s energy suck with vehicle-to-grid tech",
+      "source": "The Verge AI",
+      "url": "https://www.theverge.com/transportation/946820/gm-energy-ev-v2g-storage-sodium-ion",
+      "time": "3小时前",
+      "published": "2026-06-09T21:00:00+00:00",
+      "summary": "通用汽车在旧金山的一场活动中宣布了一系列围绕电动汽车电池、储能和电网韧性的新举措，以应对AI数据中心日益增长的电力需求。公司宣布将为其现有车型激活车辆到电网（V2G）功能，使电动汽车在闲置时可将电池中的电力回馈给电网，从而在AI数据中心用电高峰时段提供缓冲。通用汽车还展示了新型钠离子电池技术，旨在降低储能成本。该公司认为，随着AI算力扩张导致电力基础设施承压，电动汽车作为分布式储能单元的价值将日益凸显。",
+      "snark": "AI吃电，电动车放电——这波是汽车厂商给数据中心当充电宝。",
+      "multiSource": [
+        "The Verge",
+        "The Verge AI"
+      ]
+    },
+    {
+      "id": 4,
+      "cat": "tool",
+      "title": "用户吐槽：我想要真正的AI助手，但不想变成离不开手机的人",
+      "title_en": "Hey, Siri, here’s what I actually want from AI",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/06/09/hey-siri-heres-what-i-actually-want-from-ai/",
+      "time": "3小时前",
+      "published": "2026-06-09T20:50:17+00:00",
+      "summary": "TechCrunch作者在一篇评论文章中表达了对个人AI助手的矛盾心理。一方面，他渴望拥有一个能真正理解上下文、主动帮自己处理日程、邮件和信息的智能助手，认为这是技术发展的必然方向。另一方面，他担心过度依赖手机里的“友好机器人声音”会削弱人类自身的决策能力和记忆力，最终变成没有AI就无法正常生活的“数字半机械人”。文章以苹果WWDC上Siri的更新为引子，探讨了AI助手在便利性与人类自主性之间的平衡问题，引发读者对技术依赖的反思。",
+      "snark": "想要AI助手又怕变废柴——这届人类真是既要又要还要。"
+    },
+    {
+      "id": 5,
+      "cat": "tool",
+      "title": "Anthropic的Claude Fable 5能一键生成“诡异有趣”的视频游戏",
+      "title_en": "Anthropic’s Fable 5 can make weirdly fun video games with the click of a button",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/06/09/anthropics-fable-5-can-make-weirdly-fun-video-games-with-the-click-of-a-button/",
+      "time": "3小时前",
+      "published": "2026-06-09T20:37:49+00:00",
+      "summary": "Anthropic最新发布的Claude Fable 5模型展现了令人惊讶的游戏生成能力。用户只需点击一个按钮，该模型就能自动生成可玩的视频游戏，且游戏风格“诡异但有趣”。据TechCrunch报道，这一功能尤其受到“氛围编码”爱好者的欢迎——他们更注重创意和趣味性而非代码质量。Fable 5在游戏生成中运用了多模态理解和实时推理能力，能够根据自然语言描述动态构建游戏逻辑、画面和交互机制。不过，目前生成的游戏复杂度有限，更偏向于小型实验性作品。",
+      "snark": "以后摸鱼不用打开游戏了，直接让Claude给你现做一个。"
+    },
+    {
+      "id": 6,
+      "cat": "policy",
+      "title": "微软AI负责人炮轰Anthropic：宣称Claude有意识是“极其危险”的",
+      "title_en": "Microsoft AI head calls out Anthropic for acting like Claude is conscious",
+      "source": "The Verge AI",
+      "url": "https://www.theverge.com/tech/947197/microsoft-ai-mustafa-suleyman-anthropic-claude-conscious",
+      "time": "3小时前",
+      "published": "2026-06-09T20:24:25+00:00",
+      "summary": "微软AI首席执行官穆斯塔法·苏莱曼在参加Decoder播客时，严厉批评了Anthropic在其模型“宪法”（即指导模型行为的指令集）中暗示Claude具有意识的做法。苏莱曼认为，这种关于AI意识的猜测“极其危险”，可能误导公众和政策制定者对AI能力的认知，甚至影响未来监管方向。他指出，Anthropic这种模糊AI与人类界限的表述，会为不负责任的AI部署打开大门。这场争论反映了AI行业内部在模型安全哲学上的深刻分歧：一方强调透明和拟人化以促进安全研究，另一方则担心过度拟人化带来不可控风险。",
+      "snark": "Anthropic说Claude有意识，微软说别瞎说——AI界的“我爸是李刚”辩论。",
+      "multiSource": [
+        "The Verge",
+        "The Verge AI"
+      ]
+    },
+    {
+      "id": 7,
+      "cat": "strategy",
+      "title": "科技公司能否学会爱上更便宜的AI模型？",
+      "title_en": "Can tech companies learn to love cheaper AI models?",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/06/09/can-tech-companies-learn-to-love-cheaper-models/",
+      "time": "5小时前",
+      "published": "2026-06-09T18:56:09+00:00",
+      "summary": "TechCrunch探讨了一个正在改变AI行业格局的趋势：如果同样的AI工作负载可以由更便宜的模型处理而不影响质量，那么AI的经济学将发生巨大转变。目前，许多企业正在尝试用小型、蒸馏或专门化的模型替代大型通用模型，以降低推理成本。文章指出，随着开源模型性能的提升和量化技术的成熟，企业不再盲目追求最大规模的模型，而是开始评估“足够好”的性价比方案。这一趋势可能重塑整个AI产业链，从芯片需求到云服务定价都将受到影响。",
+      "snark": "大模型太贵了，科技公司终于学会精打细算——开源真香。"
+    },
+    {
+      "id": 8,
+      "cat": "tool",
+      "title": "WWDC 2026全盘点：Siri AI、iOS 27、Apple Intelligence等重大发布",
+      "title_en": "WWDC 2026: Everything announced on Siri AI, iOS 27, Apple Intelligence, and more",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/06/09/wwdc-2026-everything-announced-on-siri-ai-os-27-apple-intelligence-and-more/",
+      "time": "5小时前",
+      "published": "2026-06-09T18:04:24+00:00",
+      "summary": "苹果在WWDC 2026上全面展示了其AI战略，核心是围绕Siri的升级和Apple Intelligence框架的扩展。新版Siri集成了设备端大语言模型，能够理解更复杂的自然语言指令，并实现跨应用操作，如从邮件中提取事件并添加到日历。iOS 27引入了大量AI驱动的功能，包括照片编辑、实时翻译和智能通知摘要。苹果强调隐私保护，所有AI处理默认在设备端完成，仅在必要时使用云端计算。此外，苹果还发布了面向开发者的新API，允许第三方应用接入Apple Intelligence能力。",
+      "snark": "WWDC 2026：苹果终于承认，没有AI的手机只能叫功能机。"
+    },
+    {
+      "id": 9,
+      "cat": "model",
+      "title": "谷歌发布Gemini 3.5 Live Translate：支持70+语言的流式语音到语音翻译模型",
+      "title_en": "Google Releases Gemini 3.5 Live Translate, a Streaming Speech-to-Speech Audio Model Covering 70+ Languages Across Meet, Translate, and the Live API",
+      "source": "MarkTechPost",
+      "url": "https://www.marktechpost.com/2026/06/09/google-releases-gemini-3-5-live-translate-a-streaming-speech-to-speech-audio-model-covering-70-languages-across-meet-translate-and-the-live-api/",
+      "time": "6小时前",
+      "published": "2026-06-09T17:24:11+00:00",
+      "summary": "谷歌正式推出Gemini 3.5 Live Translate，这是一个流式语音到语音翻译模型，支持超过70种语言。该模型能够持续生成音频输出，仅比说话者延迟几秒钟，实现近乎实时的翻译体验。它通过Gemini Live API开放给开发者，并已集成到Google Meet和谷歌翻译应用中。与传统的分段式翻译不同，该模型采用端到端的流式架构，能够根据上下文动态调整翻译风格和语调，同时保留说话者的情感色彩。谷歌表示，该模型在嘈杂环境和多说话者场景下也表现出色。",
+      "snark": "以后开跨国会议，终于不用假装听懂对方的印度英语了。"
+    },
+    {
+      "id": 10,
+      "cat": "model",
+      "title": "Anthropic向公众开放首个Mythos级模型Claude Fable 5",
+      "title_en": "Anthropic’s Claude Fable 5 is a version of Mythos the public can access today",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/06/09/anthropics-claude-fable-5-is-a-version-of-mythos-the-public-can-access-today/",
+      "time": "7小时前",
+      "published": "2026-06-09T17:00:00+00:00",
+      "summary": "Anthropic正式发布Claude Fable 5，这是其首个面向公众开放的Mythos级模型。该模型在软件工程、知识工作和视觉理解方面表现出色，尤其在复杂任务上的领先优势更为明显。为了确保安全，Fable 5配备了严格的防护措施，在网络安全和生物学等高风险领域会拒绝回答。Anthropic表示，Fable 5代表了公司在模型能力和安全性之间取得的最佳平衡。该模型通过API和Anthropic的对话界面提供，定价与之前的旗舰模型持平。",
+      "snark": "Mythos级模型终于对公众开放了——但别问它怎么造病毒。"
+    },
+    {
+      "id": 11,
+      "cat": "model",
+      "title": "Anthropic发布首个Mythos级模型Claude Fable 5：最强公开模型",
+      "title_en": "Anthropic releases its first Mythos-class model Claude Fable",
+      "source": "The Verge AI",
+      "url": "https://www.theverge.com/news/946725/anthropic-releases-claude-fable-5-mythos",
+      "time": "7小时前",
+      "published": "2026-06-09T17:00:00+00:00",
+      "summary": "Anthropic宣布推出Claude Fable 5，称其为公司迄今为止最强大的公开模型。该模型在软件工程、知识工作和视觉理解等多项基准测试中均取得领先成绩，且随着任务复杂度的增加，其相对于其他模型的优势更加明显。Fable 5属于Anthropic内部命名的“Mythos”级别，代表了模型能力的新台阶。公司强调，该模型在保持高性能的同时，也引入了更严格的安全对齐机制，包括对有害指令的拒绝率提升和输出一致性的增强。",
+      "snark": "Anthropic说这是最强公开模型——OpenAI和谷歌听后笑而不语。",
+      "multiSource": [
+        "The Verge",
+        "The Verge AI"
+      ]
+    },
+    {
+      "id": 12,
+      "cat": "tool",
+      "title": "苹果拥抱AI照片编辑幻想：iOS 27推出大量生成式修图工具",
+      "title_en": "Apple is embracing the fantasy of AI photo editing",
+      "source": "The Verge AI",
+      "url": "https://www.theverge.com/tech/946850/apple-ai-photo-editing-tools-ios27-wwdc-2026-deepfakes",
+      "time": "7小时前",
+      "published": "2026-06-09T16:13:14+00:00",
+      "summary": "在WWDC 2026上，苹果发布了一系列AI驱动的照片编辑工具，标志着公司彻底转变了此前对生成式AI修图的谨慎态度。过去苹果曾质疑AI修图是否值得以扭曲真实感知为代价，但现在它认为照片不必准确捕捉现实。新工具包括基于文本提示的场景生成、智能物体移除、风格迁移以及AI补光等功能。所有处理均在设备端通过Apple Intelligence完成，以保护用户隐私。批评者担心这会加剧深度伪造和虚假信息的传播，但苹果表示已内置数字水印和元数据标记机制。",
+      "snark": "苹果终于想通了：与其抵制修图，不如让每个人都能P出奥斯卡级照片。"
+    }
+  ],
+  "stats": {
+    "total": 12,
+    "model_count": 3,
+    "strategy_count": 3,
+    "tool_count": 5,
+    "policy_count": 1
+  }
+}

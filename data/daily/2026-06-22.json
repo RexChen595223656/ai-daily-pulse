@@ -1,0 +1,91 @@
+{
+  "date": "2026-06-22",
+  "generated_at": "2026-06-22T08:05:15.654142+08:00",
+  "highlight": "三星全员接入ChatGPT与Codex，AI应用在企业级市场加速落地。",
+  "fun": {
+    "lucky": "ChatGPT Enterprise",
+    "advice": "宜：拥抱AI工具，提升工作效率。\n忌：盲目依赖，忘记人工复核。",
+    "joke": "程序员问AI：你能帮我写个bug吗？AI说：不用，你写代码时我自动帮你加。"
+  },
+  "articles": [
+    {
+      "id": 1,
+      "cat": "tool",
+      "title": "AI工程师必读：智能体记忆的七种类型技术指南",
+      "title_en": "The 7 Types of Agent Memory: A Technical Guide for AI Engineers",
+      "source": "MarkTechPost",
+      "url": "https://www.marktechpost.com/2026/06/21/the-7-types-of-agent-memory-a-technical-guide-for-ai-engineers/",
+      "time": "52分钟前",
+      "published": "2026-06-21T23:12:31+00:00",
+      "summary": "大型语言模型默认是无状态的，智能体记忆机制解决了这一问题。本文详细拆解了七种记忆类型：工作记忆、语义记忆、情景记忆、程序记忆、检索记忆、参数记忆和前瞻记忆。每种记忆类型都明确了存储内容、存储位置以及适用场景。文章还提供了对比表格和可运行的Python代码示例，帮助工程师在实际项目中构建高效的智能体记忆系统。该指南对于开发具备长期上下文保持能力的AI应用具有重要参考价值。",
+      "snark": "七种记忆，一种都不记得自己上周写的代码。"
+    },
+    {
+      "id": 2,
+      "cat": "strategy",
+      "title": "三星电子在全球员工中部署ChatGPT和Codex",
+      "title_en": "Samsung Electronics brings ChatGPT and Codex to employees",
+      "source": "OpenAI Blog",
+      "url": "https://openai.com/index/samsung-electronics-chatgpt-codex-deployment",
+      "time": "1小时前",
+      "published": "2026-06-21T23:00:00+00:00",
+      "summary": "三星电子宣布在全球范围内向员工部署OpenAI的企业版ChatGPT和代码生成工具Codex。这是OpenAI迄今为止最大规模的企业级AI部署之一，标志着大型科技公司在内部工作流程中全面引入AI辅助工具的趋势。三星员工将能够利用ChatGPT进行日常办公、文档生成和数据分析，同时通过Codex加速软件开发流程。此举不仅提升了内部效率，也为AI在企业级市场的深度应用树立了新标杆。",
+      "snark": "三星员工从此上班摸鱼的方式从刷手机变成了调AI。"
+    },
+    {
+      "id": 3,
+      "cat": "policy",
+      "title": "特朗普政府对Anthropic的打压：谁将从中受益？",
+      "title_en": "When the Trump administration cracks down on Anthropic, who benefits?",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/06/21/when-the-trump-administration-cracks-down-on-anthropic-who-benefits/",
+      "time": "8小时前",
+      "published": "2026-06-21T15:28:17+00:00",
+      "summary": "在最新一期的《Equity》播客中，讨论聚焦于特朗普政府近期对AI公司Anthropic采取的一系列限制措施。分析人士探讨了政府行动的真正动机，以及这些举措对AI生态系统可能产生的连锁反应。打压Anthropic可能会改变AI竞争格局，使其他公司如OpenAI、谷歌等获得相对优势，同时也引发了对政府干预AI行业发展的担忧。这一事件凸显了政策监管对AI行业发展的深远影响。",
+      "snark": "政府打压AI公司，就像家长没收游戏机——只会让孩子更想玩。"
+    },
+    {
+      "id": 4,
+      "cat": "product",
+      "title": "iOS 27实用AI功能揭秘：不止是Siri的升级",
+      "title_en": "Beyond Siri: Here are the practical AI features coming to your iPhone in iOS 27",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/06/21/beyond-siri-here-are-the-practical-ai-features-coming-to-your-iphone-in-ios-27/",
+      "time": "9小时前",
+      "published": "2026-06-21T14:40:28+00:00",
+      "summary": "虽然Siri的AI改造在WWDC上抢尽风头，但苹果在iOS 27中为iPhone带来了更多实用的AI功能。这些功能分布在系统各处，包括更智能的照片编辑、实时文本翻译、上下文感知的快捷指令建议以及增强的隐私保护机制。苹果通过端侧AI处理，在提升用户体验的同时保护用户数据安全。这些功能表明苹果正在将AI深度融入操作系统，而不仅仅是语音助手的升级。",
+      "snark": "Siri终于不再只是天气预报员了，虽然还是经常叫不醒。"
+    },
+    {
+      "id": 5,
+      "cat": "tool",
+      "title": "Python Crawlee教程：构建网页爬取管道实现RAG分块导出",
+      "title_en": "Crawlee for Python: Build a Web Crawling Pipeline with Robots Handling, Link Graphs, and RAG Chunk Export",
+      "source": "MarkTechPost",
+      "url": "https://www.marktechpost.com/2026/06/20/crawlee-for-python-build-a-web-crawling-pipeline-with-robots-handling-link-graphs-and-rag-chunk-export/",
+      "time": "17小时前",
+      "published": "2026-06-21T06:52:10+00:00",
+      "summary": "本教程详细介绍了如何使用Crawlee for Python构建完整的网页爬取工作流程，从环境搭建到生成AI可用输出。教程中创建了一个本地演示网站，然后分别使用BeautifulSoupCrawler、ParselCrawler和PlaywrightCrawler进行爬取，提取标题、元数据、产品字段以及JavaScript渲染的卡片内容。最后实现了完整的链接图构建和RAG（检索增强生成）分块导出功能，为构建AI知识库提供了高效的数据采集方案。",
+      "snark": "爬虫教程千千万，能爬完不被封的才算好汉。"
+    },
+    {
+      "id": 6,
+      "cat": "tool",
+      "title": "AI工作流实践：用100% Vibe Coding完成Game Jam游戏开发",
+      "title_en": "AI 工作流实践：100% Vibe Coding 完成 Game Jam 游戏开发",
+      "source": "少数派",
+      "url": "https://sspai.com/post/110972",
+      "time": "21小时前",
+      "published": "2026-06-21T02:30:10+00:00",
+      "summary": "本文分享了一次完全使用AI辅助编程（Vibe Coding）完成Game Jam游戏开发的实践经验。作者强调，AI智能体和人一样需要闭环反馈机制才能有效工作。通过合理设计提示词和工作流，作者在限定时间内利用AI完成了从游戏概念到可玩版本的完整开发过程。文章详细记录了遇到的挑战和解决方案，展示了当前AI在创意编程领域的实际能力边界，为想要尝试AI辅助开发的游戏开发者提供了宝贵参考。",
+      "snark": "Vibe Coding一时爽，debug火葬场。"
+    }
+  ],
+  "stats": {
+    "total": 6,
+    "model_count": 0,
+    "strategy_count": 1,
+    "tool_count": 3,
+    "policy_count": 1
+  }
+}

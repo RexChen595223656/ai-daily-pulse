@@ -1,0 +1,346 @@
+{
+  "llm": {
+    "perf": [
+      {
+        "model": "Claude Fable 5 (Adaptive Reasoning, Max Effort, Opus 4.8 Fallback)",
+        "org": "Anthropic",
+        "intelligence": 59.9,
+        "coding": 76.5,
+        "math": 0,
+        "reasoning": 92.6
+      },
+      {
+        "model": "GPT-5.6 Sol (max)",
+        "org": "OpenAI",
+        "intelligence": 58.9,
+        "coding": 77.4,
+        "math": 0,
+        "reasoning": 94.1
+      },
+      {
+        "model": "GPT-5.6 Sol (xhigh)",
+        "org": "OpenAI",
+        "intelligence": 57.7,
+        "coding": 78.3,
+        "math": 0,
+        "reasoning": 93.1
+      },
+      {
+        "model": "Kimi K3",
+        "org": "Kimi",
+        "intelligence": 57.1,
+        "coding": 76.2,
+        "math": 0,
+        "reasoning": 93.5
+      },
+      {
+        "model": "GPT-5.6 Sol (high)",
+        "org": "OpenAI",
+        "intelligence": 55.9,
+        "coding": 77.2,
+        "math": 0,
+        "reasoning": 92.8
+      },
+      {
+        "model": "Claude Opus 4.8 (Adaptive Reasoning, Max Effort)",
+        "org": "Anthropic",
+        "intelligence": 55.7,
+        "coding": 74.3,
+        "math": 0,
+        "reasoning": 92.0
+      },
+      {
+        "model": "GPT-5.6 Terra (max)",
+        "org": "OpenAI",
+        "intelligence": 55,
+        "coding": 76.7,
+        "math": 0,
+        "reasoning": 92.5
+      },
+      {
+        "model": "GPT-5.5 (xhigh)",
+        "org": "OpenAI",
+        "intelligence": 54.8,
+        "coding": 74.9,
+        "math": 0,
+        "reasoning": 93.5
+      },
+      {
+        "model": "Grok 4.5 (high)",
+        "org": "SpaceXAI",
+        "intelligence": 53.8,
+        "coding": 72.4,
+        "math": 0,
+        "reasoning": 93.1
+      },
+      {
+        "model": "GPT-5.6 Sol (medium)",
+        "org": "OpenAI",
+        "intelligence": 53.6,
+        "coding": 76.3,
+        "math": 0,
+        "reasoning": 92.6
+      }
+    ],
+    "price": [
+      {
+        "model": "Claude Fable 5 (Adaptive Reasoning, Max Effort, Opus 4.8 Fallback)",
+        "org": "Anthropic",
+        "input": 10,
+        "output": 50,
+        "blended": 20
+      },
+      {
+        "model": "GPT-5.6 Sol (max)",
+        "org": "OpenAI",
+        "input": 5,
+        "output": 30,
+        "blended": 11.25
+      },
+      {
+        "model": "GPT-5.6 Sol (xhigh)",
+        "org": "OpenAI",
+        "input": 5,
+        "output": 30,
+        "blended": 11.25
+      },
+      {
+        "model": "Kimi K3",
+        "org": "Kimi",
+        "input": 3,
+        "output": 15,
+        "blended": 6
+      },
+      {
+        "model": "GPT-5.6 Sol (high)",
+        "org": "OpenAI",
+        "input": 5,
+        "output": 30,
+        "blended": 11.25
+      },
+      {
+        "model": "Claude Opus 4.8 (Adaptive Reasoning, Max Effort)",
+        "org": "Anthropic",
+        "input": 5,
+        "output": 25,
+        "blended": 10
+      },
+      {
+        "model": "GPT-5.6 Terra (max)",
+        "org": "OpenAI",
+        "input": 2.5,
+        "output": 15,
+        "blended": 5.625
+      },
+      {
+        "model": "GPT-5.5 (xhigh)",
+        "org": "OpenAI",
+        "input": 5,
+        "output": 30,
+        "blended": 11.25
+      },
+      {
+        "model": "Grok 4.5 (high)",
+        "org": "SpaceXAI",
+        "input": 2,
+        "output": 6,
+        "blended": 3
+      },
+      {
+        "model": "GPT-5.6 Sol (medium)",
+        "org": "OpenAI",
+        "input": 5,
+        "output": 30,
+        "blended": 11.25
+      }
+    ],
+    "speed": [
+      {
+        "model": "Claude Fable 5 (Adaptive Reasoning, Max Effort, Opus 4.8 Fallback)",
+        "org": "Anthropic",
+        "outputSpeed": 58.9,
+        "ttft": 65.8
+      },
+      {
+        "model": "GPT-5.6 Sol (max)",
+        "org": "OpenAI",
+        "outputSpeed": 61.6,
+        "ttft": 91.32
+      },
+      {
+        "model": "GPT-5.6 Sol (xhigh)",
+        "org": "OpenAI",
+        "outputSpeed": 62.2,
+        "ttft": 31
+      },
+      {
+        "model": "Kimi K3",
+        "org": "Kimi",
+        "outputSpeed": 33.2,
+        "ttft": 9.89
+      },
+      {
+        "model": "GPT-5.6 Sol (high)",
+        "org": "OpenAI",
+        "outputSpeed": 60.0,
+        "ttft": 11.83
+      },
+      {
+        "model": "Claude Opus 4.8 (Adaptive Reasoning, Max Effort)",
+        "org": "Anthropic",
+        "outputSpeed": 60.7,
+        "ttft": 42.9
+      },
+      {
+        "model": "GPT-5.6 Terra (max)",
+        "org": "OpenAI",
+        "outputSpeed": 122.3,
+        "ttft": 118.57
+      },
+      {
+        "model": "GPT-5.5 (xhigh)",
+        "org": "OpenAI",
+        "outputSpeed": 0,
+        "ttft": 0
+      },
+      {
+        "model": "Grok 4.5 (high)",
+        "org": "SpaceXAI",
+        "outputSpeed": 56.0,
+        "ttft": 11.13
+      },
+      {
+        "model": "GPT-5.6 Sol (medium)",
+        "org": "OpenAI",
+        "outputSpeed": 56.9,
+        "ttft": 5.25
+      }
+    ]
+  },
+  "image": {
+    "perf": [
+      {
+        "model": "GPT Image 2 (high)",
+        "elo": 1338,
+        "rank": 1,
+        "org": "OpenAI",
+        "date": "2026-04"
+      },
+      {
+        "model": "Reve 2.1",
+        "elo": 1305,
+        "rank": 2,
+        "org": "Reve",
+        "date": "2026-07"
+      },
+      {
+        "model": "MAI-Image-2.5",
+        "elo": 1265,
+        "rank": 3,
+        "org": "Microsoft AI",
+        "date": "2026-06"
+      },
+      {
+        "model": "HiDream-O1-Image-1.5",
+        "elo": 1263,
+        "rank": 4,
+        "org": "HiDream",
+        "date": "2026-06"
+      },
+      {
+        "model": "Nano Banana 2 Lite (Gemini 3.1 Flash Lite Image)",
+        "elo": 1262,
+        "rank": 5,
+        "org": "Google",
+        "date": "2026-06"
+      },
+      {
+        "model": "GPT Image 1.5 (high)",
+        "elo": 1257,
+        "rank": 6,
+        "org": "OpenAI",
+        "date": "2025-12"
+      },
+      {
+        "model": "Nano Banana 2 (Gemini 3.1 Flash Image Preview)",
+        "elo": 1253,
+        "rank": 7,
+        "org": "Google",
+        "date": "2026-02"
+      },
+      {
+        "model": "Riverflow 2.0",
+        "elo": 1249,
+        "rank": null,
+        "org": "Sourceful",
+        "date": "2026-02"
+      }
+    ],
+    "price": [],
+    "speed": []
+  },
+  "speech": null,
+  "video": {
+    "perf": [
+      {
+        "model": "Gemini Omni Flash",
+        "elo": 1326,
+        "rank": 1,
+        "org": "Google",
+        "type": ""
+      },
+      {
+        "model": "HappyHorse-1.0",
+        "elo": 1288,
+        "rank": 2,
+        "org": "Alibaba-ATH",
+        "type": ""
+      },
+      {
+        "model": "HappyHorse-1.1",
+        "elo": 1273,
+        "rank": 3,
+        "org": "Alibaba-ATH",
+        "type": ""
+      },
+      {
+        "model": "Dreamina Seedance 2.0 720p",
+        "elo": 1272,
+        "rank": 4,
+        "org": "ByteDance Seed",
+        "type": ""
+      },
+      {
+        "model": "Wan2.7-260612",
+        "elo": 1244,
+        "rank": 5,
+        "org": "Alibaba",
+        "type": ""
+      },
+      {
+        "model": "Kling 3.0 1080p (Pro)",
+        "elo": 1243,
+        "rank": 6,
+        "org": "KlingAI",
+        "type": ""
+      },
+      {
+        "model": "Kling 3.0 Omni 1080p (Pro)",
+        "elo": 1230,
+        "rank": 7,
+        "org": "KlingAI",
+        "type": ""
+      },
+      {
+        "model": "grok-imagine-video",
+        "elo": 1227,
+        "rank": 8,
+        "org": "SpaceXAI",
+        "type": ""
+      }
+    ],
+    "price": [],
+    "speed": []
+  },
+  "_fetched_at": "2026-07-24T17:08:12.139401+08:00"
+}
