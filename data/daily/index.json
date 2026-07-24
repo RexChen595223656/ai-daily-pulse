@@ -1,14 +1,14 @@
 {
   "2026-07-24": {
     "date": "2026-07-24",
-    "highlight": "OpenAI 向全美用户开放 ChatGPT 健康功能，Anthropic 升级 Claude 语音模式，AI 应用加速落地。",
+    "highlight": "",
     "count": 12,
     "stats": {
       "total": 12,
-      "model_count": 2,
-      "strategy_count": 3,
-      "tool_count": 5,
-      "policy_count": 2
+      "model_count": 0,
+      "strategy_count": 12,
+      "tool_count": 0,
+      "policy_count": 0
     }
   },
   "2026-07-23": {

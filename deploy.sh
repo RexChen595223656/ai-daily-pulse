@@ -15,9 +15,11 @@ cp "$ROOT/prototype/index.html" "$DEPLOY_DIR/index.html"
 
 # 2. Sync pipeline output data
 echo "[2/4] Syncing data → deploy..."
-mkdir -p "$DEPLOY_DIR/data/daily"
+mkdir -p "$DEPLOY_DIR/data/daily/trends"
 cp "$ROOT/data/daily/latest.json" "$DEPLOY_DIR/data/daily/"
 cp "$ROOT/data/daily/index.json" "$DEPLOY_DIR/data/daily/"
+# Copy trend data
+cp "$ROOT/data/daily/trends/latest.json" "$DEPLOY_DIR/data/daily/trends/" 2>/dev/null || true
 # Copy historical files too
 for f in "$ROOT/data/daily/20"*.json; do
   [ -f "$f" ] && cp "$f" "$DEPLOY_DIR/data/daily/"

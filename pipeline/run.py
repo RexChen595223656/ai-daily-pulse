@@ -519,6 +519,149 @@ def auto_deploy():
 
 
 # ============================================================
+# Phase 5: Trend Data
+# ============================================================
+
+TRENDS_WORKER_URL = "https://ai-daily-trends.rexchen.workers.dev/v2"
+TRENDS_OUTPUT_DIR = "data/daily/trends"
+
+
+def fetch_trends() -> Optional[dict]:
+    """Fetch model trend data from Artificial Analysis API via Cloudflare Worker.
+    Returns data in the same format the frontend expects, or None on failure."""
+    log.info("Fetching trend data from AA API...")
+
+    result = {
+        "llm": {"perf": [], "price": [], "speed": []},
+        "image": {"perf": [], "price": [], "speed": []},
+        "speech": None,
+        "video": {"perf": [], "price": [], "speed": []},
+        "_fetched_at": datetime.now(BEIJING_TZ).isoformat(),
+    }
+
+    try:
+        with httpx.Client(timeout=30) as client:
+            # LLM data
+            llm_resp = client.get(f"{TRENDS_WORKER_URL}/data/llms/models?limit=15")
+            llm_resp.raise_for_status()
+            llm_json = llm_resp.json()
+
+            if llm_json.get("data"):
+                models = llm_json["data"]
+                sorted_perf = sorted(
+                    models,
+                    key=lambda d: (d.get("evaluations") or {}).get("artificial_analysis_intelligence_index", 0),
+                    reverse=True,
+                )[:10]
+
+                def _eval(d, key):
+                    return round((d.get("evaluations") or {}).get(key, 0), 1)
+
+                result["llm"]["perf"] = [
+                    {
+                        "model": d.get("name") or d.get("slug", ""),
+                        "org": (d.get("model_creator") or {}).get("name", "Unknown"),
+                        "intelligence": _eval(d, "artificial_analysis_intelligence_index"),
+                        "coding": _eval(d, "artificial_analysis_coding_index"),
+                        "math": _eval(d, "artificial_analysis_math_index"),
+                        "reasoning": round(((d.get("evaluations") or {}).get("gpqa", 0)) * 100, 1),
+                    }
+                    for d in sorted_perf
+                ]
+
+                def _pricing(d):
+                    p = d.get("pricing") or {}
+                    inp = p.get("price_1m_input_tokens", 0)
+                    out = p.get("price_1m_output_tokens", 0)
+                    blended = p.get("price_1m_blended_3_to_1", 0) or (inp * 0.25 + out * 0.75)
+                    return inp, out, blended
+
+                result["llm"]["price"] = [
+                    {
+                        "model": d.get("name") or d.get("slug", ""),
+                        "org": (d.get("model_creator") or {}).get("name", "Unknown"),
+                        "input": round(_pricing(d)[0], 2),
+                        "output": round(_pricing(d)[1], 2),
+                        "blended": round(_pricing(d)[2], 3),
+                    }
+                    for d in sorted_perf
+                ]
+
+                result["llm"]["speed"] = [
+                    {
+                        "model": d.get("name") or d.get("slug", ""),
+                        "org": (d.get("model_creator") or {}).get("name", "Unknown"),
+                        "outputSpeed": round(d.get("median_output_tokens_per_second", 0), 1),
+                        "ttft": round(d.get("median_time_to_first_token_seconds", 0), 2),
+                    }
+                    for d in sorted_perf
+                ]
+
+            # Image data
+            img_resp = client.get(f"{TRENDS_WORKER_URL}/data/media/text-to-image?limit=10")
+            img_resp.raise_for_status()
+            img_json = img_resp.json()
+
+            if img_json.get("data"):
+                result["image"]["perf"] = [
+                    {
+                        "model": d.get("name") or d.get("slug", ""),
+                        "elo": d.get("elo", 0),
+                        "rank": d.get("rank", 0),
+                        "org": (d.get("model_creator") or {}).get("name", "Unknown"),
+                        "date": d.get("release_date", ""),
+                    }
+                    for d in img_json["data"][:8]
+                ]
+
+            # Video data
+            vid_resp = client.get(f"{TRENDS_WORKER_URL}/data/media/text-to-video?limit=10")
+            vid_resp.raise_for_status()
+            vid_json = vid_resp.json()
+
+            if vid_json.get("data"):
+                result["video"]["perf"] = [
+                    {
+                        "model": d.get("name") or d.get("slug", ""),
+                        "elo": d.get("elo", 0),
+                        "rank": d.get("rank", 0),
+                        "org": (d.get("model_creator") or {}).get("name", "Unknown"),
+                        "type": d.get("categories", [""])[0] if d.get("categories") else "",
+                    }
+                    for d in vid_json["data"][:8]
+                ]
+
+        log.info(
+            f"Trends fetched: LLM perf={len(result['llm']['perf'])}, "
+            f"image={len(result['image']['perf'])}, video={len(result['video']['perf'])}"
+        )
+        return result
+
+    except Exception as e:
+        log.warning(f"Trend fetch failed: {e}")
+        return None
+
+
+def save_trends(trends: dict, target_date: Optional[str] = None):
+    """Save trend data to data/daily/trends/."""
+    trends_dir = ROOT / TRENDS_OUTPUT_DIR
+    trends_dir.mkdir(parents=True, exist_ok=True)
+
+    date_str = target_date or datetime.now(BEIJING_TZ).strftime("%Y-%m-%d")
+
+    # Date-stamped copy
+    dated_path = trends_dir / f"{date_str}.json"
+    dated_path.write_text(json.dumps(trends, ensure_ascii=False, indent=2), encoding="utf-8")
+    log.info(f"Trends → {dated_path}")
+
+    # latest.json (only for current day, not backfill)
+    if not target_date:
+        latest_path = trends_dir / "latest.json"
+        latest_path.write_text(json.dumps(trends, ensure_ascii=False, indent=2), encoding="utf-8")
+        log.info(f"Trends → {latest_path}")
+
+
+# ============================================================
 # Helpers
 # ============================================================
 
@@ -542,6 +685,7 @@ def main():
     parser.add_argument("--claude", action="store_true", help="Shortcut for --provider claude")
     parser.add_argument("--date", help="Target date for backfill (YYYY-MM-DD), overrides time window")
     parser.add_argument("--force", action="store_true", help="Force overwrite even if existing data has more articles")
+    parser.add_argument("--skip-trends", action="store_true", help="Skip trend data fetching")
     args = parser.parse_args()
 
     provider = "claude" if args.claude else (args.provider or AI_PROVIDER)
@@ -653,6 +797,14 @@ def main():
 
         # Push to WeChat
         push_wechat(output)
+
+        # Fetch and save trend data
+        if not args.skip_trends:
+            trends = fetch_trends()
+            if trends:
+                save_trends(trends, target_date=args.date)
+        else:
+            log.info("Skipping trend fetch (--skip-trends)")
 
         # Auto deploy to GitHub Pages
         auto_deploy()

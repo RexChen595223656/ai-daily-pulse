@@ -40,12 +40,13 @@ ai-daily/
 ```
 RSS 源 (15个)
     ↓
-pipeline/run.py (4 阶段 + 自动部署)
+pipeline/run.py (5 阶段 + 自动部署)
     ├── 1. Fetch: httpx 并行抓取，15s 超时
     ├── 2. Filter: 时间窗口(24h) → AI关键词 → 标题去重(0.6)
     ├── 3. AI Process: DeepSeek/Claude 分类+摘要+毒舌+要点+冷笑话
     ├── 4. Output: JSON 写入 → 微信推送(Server酱)
-    └── 5. Auto Deploy: deploy.sh → GitHub Pages 自动更新
+    ├── 5. Trends: AA API → Cloudflare Worker 代理 → 趋势数据持久化
+    └── 6. Auto Deploy: deploy.sh → GitHub Pages 自动更新
     ↓
 data/daily/latest.json  ← 前端 prototype/index.html 加载
     ↓
@@ -54,7 +55,7 @@ deploy.sh → gh-pages 分支 → GitHub Pages
 
 **前端数据源：**
 - 日报资讯：`data/daily/latest.json`（流水线产出）
-- 趋势看板：Cloudflare Worker 代理 → `artificialanalysis.ai` API v2，1000次/天
+- 趋势看板：`data/daily/trends/latest.json`（流水线产出，每日更新）→ 降级到 AA API 实时拉取 → 降级到内联快照
 - 历史：`data/daily/index.json` → 按日期加载 `YYYY-MM-DD.json`
 
 **AI Provider 切换：** 默认 DeepSeek，`--provider claude` 切换。API key 优先级：CLI 参数 > 环境变量 > config.py
