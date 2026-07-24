@@ -1,4 +1,16 @@
 {
+  "2026-07-24": {
+    "date": "2026-07-24",
+    "highlight": "OpenAI 向全美用户开放 ChatGPT 健康功能，Anthropic 升级 Claude 语音模式，AI 应用加速落地。",
+    "count": 12,
+    "stats": {
+      "total": 12,
+      "model_count": 2,
+      "strategy_count": 3,
+      "tool_count": 5,
+      "policy_count": 2
+    }
+  },
   "2026-07-23": {
     "date": "2026-07-23",
     "highlight": "Cursor发布智能路由系统，以低成本实现前沿编码质量；Anthropic推出终端安全扫描插件。",
@@ -705,17 +717,6 @@
       "strategy_count": 6,
       "tool_count": 3,
       "policy_count": 1
-    }
-  },
-  "2026-05-22": {
-    "date": "2026-05-22",
-    "highlight": "Qwen发布百万token上下文模型，Cohere开源218B MoE，AI安全监管再遇波折。",
-    "count": 12,
-    "stats": {
-      "total": 12,
-      "model_count": 3,
-      "strategy_count": 2,
-      "tool_count": 4
     }
   }
 }
