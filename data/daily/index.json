@@ -1,4 +1,16 @@
 {
+  "2026-07-25": {
+    "date": "2026-07-25",
+    "highlight": "AI 摘要暂时不可用，请稍后刷新",
+    "count": 12,
+    "stats": {
+      "total": 12,
+      "model_count": 7,
+      "strategy_count": 3,
+      "tool_count": 2,
+      "policy_count": 0
+    }
+  },
   "2026-07-24": {
     "date": "2026-07-24",
     "highlight": "",
@@ -705,18 +717,6 @@
       "strategy_count": 0,
       "tool_count": 2,
       "policy_count": 0
-    }
-  },
-  "2026-05-23": {
-    "date": "2026-05-23",
-    "highlight": "Google 发布全能模型 Gemini Omni，Nous Research 开源模型操控新方法，Perplexity 推出安全扫描工具 Bumblebee。",
-    "count": 12,
-    "stats": {
-      "total": 12,
-      "model_count": 2,
-      "strategy_count": 6,
-      "tool_count": 3,
-      "policy_count": 1
     }
   }
 }
