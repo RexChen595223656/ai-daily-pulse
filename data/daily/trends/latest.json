@@ -228,7 +228,7 @@
       },
       {
         "model": "Reve 2.1",
-        "elo": 1307,
+        "elo": 1306,
         "rank": 2,
         "org": "Reve",
         "date": "2026-07"
@@ -263,7 +263,7 @@
       },
       {
         "model": "Nano Banana 2 (Gemini 3.1 Flash Image Preview)",
-        "elo": 1253,
+        "elo": 1252,
         "rank": 7,
         "org": "Google",
         "date": "2026-02"
@@ -342,5 +342,5 @@
     "price": [],
     "speed": []
   },
-  "_fetched_at": "2026-07-25T08:02:23.933902+08:00"
+  "_fetched_at": "2026-07-26T08:07:22.663873+08:00"
 }
