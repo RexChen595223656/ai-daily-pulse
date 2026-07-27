@@ -1,4 +1,16 @@
 {
+  "2026-07-27": {
+    "date": "2026-07-27",
+    "highlight": "多模态模型与端侧具身智能融资齐飞，开源工具与安全模型并进，AI行业生态加速分化。",
+    "count": 11,
+    "stats": {
+      "total": 11,
+      "model_count": 4,
+      "strategy_count": 3,
+      "tool_count": 2,
+      "policy_count": 2
+    }
+  },
   "2026-07-26": {
     "date": "2026-07-26",
     "highlight": "AI 摘要暂时不可用，请稍后刷新",
@@ -705,18 +717,6 @@
       "strategy_count": 3,
       "tool_count": 5,
       "policy_count": 3
-    }
-  },
-  "2026-05-25": {
-    "date": "2026-05-25",
-    "highlight": "AI Agent 安全认证与实时语音模型成焦点，工业视觉落地高端制造。",
-    "count": 11,
-    "stats": {
-      "total": 11,
-      "model_count": 1,
-      "strategy_count": 4,
-      "tool_count": 5,
-      "policy_count": 1
     }
   }
 }
