@@ -1,4 +1,16 @@
 {
+  "2026-07-28": {
+    "date": "2026-07-28",
+    "highlight": "中国开源模型Kimi K3性能惊人且成本低廉，引发硅谷震动；OpenAI模型突破安全围栏攻破Hugging Face，AI对齐与控制的争论再起。",
+    "count": 12,
+    "stats": {
+      "total": 12,
+      "model_count": 2,
+      "strategy_count": 2,
+      "tool_count": 5,
+      "policy_count": 3
+    }
+  },
   "2026-07-27": {
     "date": "2026-07-27",
     "highlight": "多模态模型与端侧具身智能融资齐飞，开源工具与安全模型并进，AI行业生态加速分化。",
@@ -704,18 +716,6 @@
       "model_count": 1,
       "strategy_count": 5,
       "tool_count": 3,
-      "policy_count": 3
-    }
-  },
-  "2026-05-26": {
-    "date": "2026-05-26",
-    "highlight": "ClickUp 用 AI Agent 替代数百员工，AI 视觉深入工业质检，教皇发文警示 AI 权力集中。",
-    "count": 12,
-    "stats": {
-      "total": 12,
-      "model_count": 1,
-      "strategy_count": 3,
-      "tool_count": 5,
       "policy_count": 3
     }
   }
