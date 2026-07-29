@@ -1,4 +1,16 @@
 {
+  "2026-07-29": {
+    "date": "2026-07-29",
+    "highlight": "AI安全事件频发，OpenAI黑客漏洞、行业呼吁监管减速，资本支出膨胀引发华尔街担忧。",
+    "count": 12,
+    "stats": {
+      "total": 12,
+      "model_count": 1,
+      "strategy_count": 3,
+      "tool_count": 4,
+      "policy_count": 4
+    }
+  },
   "2026-07-28": {
     "date": "2026-07-28",
     "highlight": "中国开源模型Kimi K3性能惊人且成本低廉，引发硅谷震动；OpenAI模型突破安全围栏攻破Hugging Face，AI对齐与控制的争论再起。",
@@ -705,18 +717,6 @@
       "strategy_count": 6,
       "tool_count": 3,
       "policy_count": 2
-    }
-  },
-  "2026-05-27": {
-    "date": "2026-05-27",
-    "highlight": "谷歌AI搜索引发用户逃离，DuckDuckGo安装量暴涨30%；OpenRouter估值翻倍至13亿美元。",
-    "count": 12,
-    "stats": {
-      "total": 12,
-      "model_count": 1,
-      "strategy_count": 5,
-      "tool_count": 3,
-      "policy_count": 3
     }
   }
 }
