@@ -1,4 +1,16 @@
 {
+  "2026-07-30": {
+    "date": "2026-07-30",
+    "highlight": "AI巨头齐押注个人智能体，微软Copilot超级应用年内登场，行业加速迈向Agent时代。",
+    "count": 12,
+    "stats": {
+      "total": 12,
+      "model_count": 1,
+      "strategy_count": 5,
+      "tool_count": 3,
+      "policy_count": 3
+    }
+  },
   "2026-07-29": {
     "date": "2026-07-29",
     "highlight": "AI安全事件频发，OpenAI黑客漏洞、行业呼吁监管减速，资本支出膨胀引发华尔街担忧。",
@@ -703,18 +715,6 @@
       "total": 12,
       "model_count": 2,
       "strategy_count": 5,
-      "tool_count": 3,
-      "policy_count": 2
-    }
-  },
-  "2026-05-28": {
-    "date": "2026-05-28",
-    "highlight": "AI投资与应用持续火热：Snowflake与AWS签订60亿美元芯片大单，Cognition融资10亿美元，Meta推出AI订阅计划。",
-    "count": 12,
-    "stats": {
-      "total": 12,
-      "model_count": 1,
-      "strategy_count": 6,
       "tool_count": 3,
       "policy_count": 2
     }
