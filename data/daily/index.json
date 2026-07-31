@@ -1,4 +1,16 @@
 {
+  "2026-07-31": {
+    "date": "2026-07-31",
+    "highlight": "AI 行业今日聚焦于监管争议、模型突破与平台治理：法官质疑对 Anthropic 的禁令，DeepMind 发布全身控制机器人模型，LinkedIn 推出“疑似 AI 垃圾”举报按钮。",
+    "count": 12,
+    "stats": {
+      "total": 12,
+      "model_count": 1,
+      "strategy_count": 5,
+      "tool_count": 5,
+      "policy_count": 1
+    }
+  },
   "2026-07-30": {
     "date": "2026-07-30",
     "highlight": "AI巨头齐押注个人智能体，微软Copilot超级应用年内登场，行业加速迈向Agent时代。",
@@ -705,18 +717,6 @@
       "strategy_count": 6,
       "tool_count": 3,
       "policy_count": 0
-    }
-  },
-  "2026-05-29": {
-    "date": "2026-05-29",
-    "highlight": "Anthropic 以 650 亿美元融资逼近万亿估值，同时发布 Claude Opus 4.8，AI 行业步入“大模型+大资本”双轮驱动时代。",
-    "count": 12,
-    "stats": {
-      "total": 12,
-      "model_count": 2,
-      "strategy_count": 5,
-      "tool_count": 3,
-      "policy_count": 2
     }
   }
 }

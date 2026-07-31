@@ -158,62 +158,62 @@
       {
         "model": "Claude Opus 5 (Adaptive Reasoning, Max Effort)",
         "org": "Anthropic",
-        "outputSpeed": 58.7,
-        "ttft": 28.73
+        "outputSpeed": 54.8,
+        "ttft": 24.48
       },
       {
         "model": "Claude Opus 5 (Adaptive Reasoning, Xhigh Effort)",
         "org": "Anthropic",
-        "outputSpeed": 54.6,
-        "ttft": 19.97
+        "outputSpeed": 52.6,
+        "ttft": 19.53
       },
       {
         "model": "Claude Fable 5 (Adaptive Reasoning, Max Effort, Opus 4.8 Fallback)",
         "org": "Anthropic",
-        "outputSpeed": 69.0,
-        "ttft": 61.86
+        "outputSpeed": 57.5,
+        "ttft": 45.12
       },
       {
         "model": "GPT-5.6 Sol (max)",
         "org": "OpenAI",
-        "outputSpeed": 74.6,
-        "ttft": 68.22
+        "outputSpeed": 67.2,
+        "ttft": 56.83
       },
       {
         "model": "Claude Opus 5 (Adaptive Reasoning, High Effort)",
         "org": "Anthropic",
-        "outputSpeed": 54.2,
-        "ttft": 11.76
+        "outputSpeed": 51.5,
+        "ttft": 10.13
       },
       {
         "model": "GPT-5.6 Sol (xhigh)",
         "org": "OpenAI",
-        "outputSpeed": 76.9,
-        "ttft": 28.82
+        "outputSpeed": 60.8,
+        "ttft": 14.57
       },
       {
         "model": "Kimi K3",
         "org": "Kimi",
-        "outputSpeed": 32.5,
-        "ttft": 3.14
+        "outputSpeed": 32.0,
+        "ttft": 3.1
       },
       {
         "model": "Claude Opus 5 (Adaptive Reasoning, Medium Effort)",
         "org": "Anthropic",
-        "outputSpeed": 55.4,
-        "ttft": 6.63
+        "outputSpeed": 53.4,
+        "ttft": 5.5
       },
       {
         "model": "GPT-5.6 Sol (high)",
         "org": "OpenAI",
-        "outputSpeed": 67.9,
-        "ttft": 10.15
+        "outputSpeed": 56.4,
+        "ttft": 8.9
       },
       {
         "model": "Claude Opus 4.8 (Adaptive Reasoning, Max Effort)",
         "org": "Anthropic",
-        "outputSpeed": 63.1,
-        "ttft": 37.06
+        "outputSpeed": 59.6,
+        "ttft": 19.53
       }
     ]
   },
@@ -221,14 +221,14 @@
     "perf": [
       {
         "model": "GPT Image 2 (high)",
-        "elo": 1341,
+        "elo": 1340,
         "rank": 1,
         "org": "OpenAI",
         "date": "2026-04"
       },
       {
         "model": "Reve 2.1",
-        "elo": 1299,
+        "elo": 1300,
         "rank": 2,
         "org": "Reve",
         "date": "2026-07"
@@ -241,11 +241,11 @@
         "date": "2026-06"
       },
       {
-        "model": "GPT Image 1.5 (high)",
-        "elo": 1263,
+        "model": "Nano Banana 2 Lite (Gemini 3.1 Flash Lite Image)",
+        "elo": 1264,
         "rank": 4,
-        "org": "OpenAI",
-        "date": "2025-12"
+        "org": "Google",
+        "date": "2026-06"
       },
       {
         "model": "Nano Banana 2 (Gemini 3.1 Flash Image Preview)",
@@ -255,11 +255,11 @@
         "date": "2026-02"
       },
       {
-        "model": "Nano Banana 2 Lite (Gemini 3.1 Flash Lite Image)",
+        "model": "GPT Image 1.5 (high)",
         "elo": 1263,
         "rank": 6,
-        "org": "Google",
-        "date": "2026-06"
+        "org": "OpenAI",
+        "date": "2025-12"
       },
       {
         "model": "Riverflow 2.0",
@@ -284,37 +284,37 @@
     "perf": [
       {
         "model": "Gemini Omni Flash",
-        "elo": 1322,
+        "elo": 1323,
         "rank": 1,
         "org": "Google",
         "type": ""
       },
       {
+        "model": "MiniMax-H3",
+        "elo": 1305,
+        "rank": 2,
+        "org": "MiniMax",
+        "type": ""
+      },
+      {
         "model": "HappyHorse-1.0",
         "elo": 1284,
-        "rank": 2,
+        "rank": 3,
         "org": "Alibaba-ATH",
         "type": ""
       },
       {
         "model": "Dreamina Seedance 2.0 720p",
-        "elo": 1269,
-        "rank": 3,
+        "elo": 1266,
+        "rank": 4,
         "org": "ByteDance Seed",
         "type": ""
       },
       {
         "model": "HappyHorse-1.1",
         "elo": 1264,
-        "rank": 4,
-        "org": "Alibaba-ATH",
-        "type": ""
-      },
-      {
-        "model": "Kling 3.0 1080p (Pro)",
-        "elo": 1241,
         "rank": 5,
-        "org": "KlingAI",
+        "org": "Alibaba-ATH",
         "type": ""
       },
       {
@@ -325,22 +325,22 @@
         "type": ""
       },
       {
-        "model": "Kling 3.0 Omni 1080p (Pro)",
-        "elo": 1228,
+        "model": "Kling 3.0 1080p (Pro)",
+        "elo": 1240,
         "rank": 7,
         "org": "KlingAI",
         "type": ""
       },
       {
-        "model": "grok-imagine-video",
-        "elo": 1225,
+        "model": "Kling 3.0 Omni 1080p (Pro)",
+        "elo": 1227,
         "rank": 8,
-        "org": "SpaceXAI",
+        "org": "KlingAI",
         "type": ""
       }
     ],
     "price": [],
     "speed": []
   },
-  "_fetched_at": "2026-07-30T08:01:20.856791+08:00"
+  "_fetched_at": "2026-07-31T09:05:28.624537+08:00"
 }
