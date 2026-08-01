@@ -50,7 +50,7 @@
         "reasoning": 93.1
       },
       {
-        "model": "Kimi K3",
+        "model": "Kimi K3 (max)",
         "org": "Kimi",
         "intelligence": 57.1,
         "coding": 76.2,
@@ -126,7 +126,7 @@
         "blended": 11.25
       },
       {
-        "model": "Kimi K3",
+        "model": "Kimi K3 (max)",
         "org": "Kimi",
         "input": 3,
         "output": 15,
@@ -158,62 +158,62 @@
       {
         "model": "Claude Opus 5 (Adaptive Reasoning, Max Effort)",
         "org": "Anthropic",
-        "outputSpeed": 54.8,
-        "ttft": 24.48
+        "outputSpeed": 56.2,
+        "ttft": 27.6
       },
       {
         "model": "Claude Opus 5 (Adaptive Reasoning, Xhigh Effort)",
         "org": "Anthropic",
-        "outputSpeed": 52.6,
-        "ttft": 19.53
+        "outputSpeed": 54.7,
+        "ttft": 24.34
       },
       {
         "model": "Claude Fable 5 (Adaptive Reasoning, Max Effort, Opus 4.8 Fallback)",
         "org": "Anthropic",
-        "outputSpeed": 57.5,
-        "ttft": 45.12
+        "outputSpeed": 62.7,
+        "ttft": 66.63
       },
       {
         "model": "GPT-5.6 Sol (max)",
         "org": "OpenAI",
-        "outputSpeed": 67.2,
-        "ttft": 56.83
+        "outputSpeed": 69.3,
+        "ttft": 77.72
       },
       {
         "model": "Claude Opus 5 (Adaptive Reasoning, High Effort)",
         "org": "Anthropic",
-        "outputSpeed": 51.5,
-        "ttft": 10.13
+        "outputSpeed": 52.3,
+        "ttft": 9.65
       },
       {
         "model": "GPT-5.6 Sol (xhigh)",
         "org": "OpenAI",
-        "outputSpeed": 60.8,
-        "ttft": 14.57
+        "outputSpeed": 62.8,
+        "ttft": 12.34
       },
       {
-        "model": "Kimi K3",
+        "model": "Kimi K3 (max)",
         "org": "Kimi",
-        "outputSpeed": 32.0,
-        "ttft": 3.1
+        "outputSpeed": 33.1,
+        "ttft": 3.67
       },
       {
         "model": "Claude Opus 5 (Adaptive Reasoning, Medium Effort)",
         "org": "Anthropic",
-        "outputSpeed": 53.4,
-        "ttft": 5.5
+        "outputSpeed": 55.2,
+        "ttft": 5.58
       },
       {
         "model": "GPT-5.6 Sol (high)",
         "org": "OpenAI",
-        "outputSpeed": 56.4,
-        "ttft": 8.9
+        "outputSpeed": 59.2,
+        "ttft": 9.48
       },
       {
         "model": "Claude Opus 4.8 (Adaptive Reasoning, Max Effort)",
         "org": "Anthropic",
-        "outputSpeed": 59.6,
-        "ttft": 19.53
+        "outputSpeed": 0,
+        "ttft": 0
       }
     ]
   },
@@ -221,14 +221,14 @@
     "perf": [
       {
         "model": "GPT Image 2 (high)",
-        "elo": 1340,
+        "elo": 1339,
         "rank": 1,
         "org": "OpenAI",
         "date": "2026-04"
       },
       {
         "model": "Reve 2.1",
-        "elo": 1300,
+        "elo": 1299,
         "rank": 2,
         "org": "Reve",
         "date": "2026-07"
@@ -242,24 +242,24 @@
       },
       {
         "model": "Nano Banana 2 Lite (Gemini 3.1 Flash Lite Image)",
-        "elo": 1264,
+        "elo": 1263,
         "rank": 4,
         "org": "Google",
         "date": "2026-06"
       },
       {
-        "model": "Nano Banana 2 (Gemini 3.1 Flash Image Preview)",
-        "elo": 1263,
-        "rank": 5,
-        "org": "Google",
-        "date": "2026-02"
-      },
-      {
         "model": "GPT Image 1.5 (high)",
         "elo": 1263,
-        "rank": 6,
+        "rank": 5,
         "org": "OpenAI",
         "date": "2025-12"
+      },
+      {
+        "model": "Nano Banana 2 (Gemini 3.1 Flash Image Preview)",
+        "elo": 1262,
+        "rank": 6,
+        "org": "Google",
+        "date": "2026-02"
       },
       {
         "model": "Riverflow 2.0",
@@ -270,7 +270,7 @@
       },
       {
         "model": "HiDream-O1-Image-1.5",
-        "elo": 1246,
+        "elo": 1245,
         "rank": 7,
         "org": "HiDream",
         "date": "2026-06"
@@ -290,7 +290,7 @@
         "type": ""
       },
       {
-        "model": "MiniMax-H3",
+        "model": "MiniMax H3",
         "elo": 1305,
         "rank": 2,
         "org": "MiniMax",
@@ -342,5 +342,5 @@
     "price": [],
     "speed": []
   },
-  "_fetched_at": "2026-07-31T09:05:28.624537+08:00"
+  "_fetched_at": "2026-08-01T08:10:25.311938+08:00"
 }
