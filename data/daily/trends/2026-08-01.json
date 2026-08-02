@@ -158,56 +158,56 @@
       {
         "model": "Claude Opus 5 (Adaptive Reasoning, Max Effort)",
         "org": "Anthropic",
-        "outputSpeed": 56.0,
-        "ttft": 25.51
+        "outputSpeed": 56.2,
+        "ttft": 27.6
       },
       {
         "model": "Claude Opus 5 (Adaptive Reasoning, Xhigh Effort)",
         "org": "Anthropic",
-        "outputSpeed": 53.5,
-        "ttft": 24.18
+        "outputSpeed": 54.7,
+        "ttft": 24.34
       },
       {
         "model": "Claude Fable 5 (Adaptive Reasoning, Max Effort, Opus 4.8 Fallback)",
         "org": "Anthropic",
-        "outputSpeed": 60.6,
-        "ttft": 46.87
+        "outputSpeed": 62.7,
+        "ttft": 66.63
       },
       {
         "model": "GPT-5.6 Sol (max)",
         "org": "OpenAI",
-        "outputSpeed": 68.1,
+        "outputSpeed": 69.3,
         "ttft": 77.72
       },
       {
         "model": "Claude Opus 5 (Adaptive Reasoning, High Effort)",
         "org": "Anthropic",
-        "outputSpeed": 54.2,
-        "ttft": 9.99
+        "outputSpeed": 52.3,
+        "ttft": 9.65
       },
       {
         "model": "GPT-5.6 Sol (xhigh)",
         "org": "OpenAI",
-        "outputSpeed": 66.3,
-        "ttft": 16.39
+        "outputSpeed": 62.8,
+        "ttft": 12.34
       },
       {
         "model": "Kimi K3 (max)",
         "org": "Kimi",
-        "outputSpeed": 33.5,
-        "ttft": 4.0
+        "outputSpeed": 33.1,
+        "ttft": 3.67
       },
       {
         "model": "Claude Opus 5 (Adaptive Reasoning, Medium Effort)",
         "org": "Anthropic",
-        "outputSpeed": 52.2,
-        "ttft": 4.01
+        "outputSpeed": 55.2,
+        "ttft": 5.58
       },
       {
         "model": "GPT-5.6 Sol (high)",
         "org": "OpenAI",
-        "outputSpeed": 61.9,
-        "ttft": 8.78
+        "outputSpeed": 59.2,
+        "ttft": 9.48
       },
       {
         "model": "Claude Opus 4.8 (Adaptive Reasoning, Max Effort)",
@@ -342,5 +342,5 @@
     "price": [],
     "speed": []
   },
-  "_fetched_at": "2026-08-02T08:01:25.139059+08:00"
+  "_fetched_at": "2026-08-01T08:10:25.311938+08:00"
 }
