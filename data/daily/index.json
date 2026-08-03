@@ -1,4 +1,16 @@
 {
+  "2026-08-03": {
+    "date": "2026-08-03",
+    "highlight": "今日焦点：OpenAI 掌门人呼吁 AI 减速，与业界加速开源的势头形成鲜明对比。",
+    "count": 8,
+    "stats": {
+      "total": 8,
+      "model_count": 1,
+      "strategy_count": 2,
+      "tool_count": 4,
+      "policy_count": 1
+    }
+  },
   "2026-08-02": {
     "date": "2026-08-02",
     "highlight": "AMD 发布全开源 MoE 模型，MiniMax 推出多模态视频生成模型，AI 应用与监管争议并行。",
@@ -705,18 +717,6 @@
       "strategy_count": 4,
       "tool_count": 3,
       "policy_count": 4
-    }
-  },
-  "2026-06-01": {
-    "date": "2026-06-01",
-    "highlight": "天涯社区恢复访问与AI改卷辟谣并存，AI行业热点转向务实应用与监管澄清。",
-    "count": 2,
-    "stats": {
-      "total": 2,
-      "model_count": 0,
-      "strategy_count": 1,
-      "tool_count": 0,
-      "policy_count": 0
     }
   }
 }
