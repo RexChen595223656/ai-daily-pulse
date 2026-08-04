@@ -1,4 +1,16 @@
 {
+  "2026-08-04": {
+    "date": "2026-08-04",
+    "highlight": "今日AI圈热闹非凡：从Palantir CEO的惊人言论、欧盟AI透明度新规生效，到OpenAI网红豪华游引发争议，行业在狂欢与反思中前行。",
+    "count": 12,
+    "stats": {
+      "total": 12,
+      "model_count": 2,
+      "strategy_count": 5,
+      "tool_count": 3,
+      "policy_count": 2
+    }
+  },
   "2026-08-03": {
     "date": "2026-08-03",
     "highlight": "今日焦点：OpenAI 掌门人呼吁 AI 减速，与业界加速开源的势头形成鲜明对比。",
@@ -705,18 +717,6 @@
       "strategy_count": 4,
       "tool_count": 6,
       "policy_count": 1
-    }
-  },
-  "2026-06-02": {
-    "date": "2026-06-02",
-    "highlight": "豆包即将付费、Anthropic 提交 IPO、佛罗里达起诉 OpenAI，AI 商业化与监管风险同步升温。",
-    "count": 12,
-    "stats": {
-      "total": 12,
-      "model_count": 1,
-      "strategy_count": 4,
-      "tool_count": 3,
-      "policy_count": 4
     }
   }
 }
