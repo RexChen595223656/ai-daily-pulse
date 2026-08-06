@@ -158,56 +158,56 @@
       {
         "model": "Claude Opus 5 (Adaptive Reasoning, Max Effort)",
         "org": "Anthropic",
-        "outputSpeed": 60.7,
-        "ttft": 26.98
+        "outputSpeed": 59.3,
+        "ttft": 30.61
       },
       {
         "model": "Claude Opus 5 (Adaptive Reasoning, Xhigh Effort)",
         "org": "Anthropic",
-        "outputSpeed": 55.7,
-        "ttft": 18.62
+        "outputSpeed": 53.5,
+        "ttft": 26.27
       },
       {
         "model": "Claude Fable 5 (Adaptive Reasoning, Max Effort, Opus 4.8 Fallback)",
         "org": "Anthropic",
-        "outputSpeed": 70.7,
-        "ttft": 74.81
+        "outputSpeed": 67.4,
+        "ttft": 66.04
       },
       {
         "model": "GPT-5.6 Sol (max)",
         "org": "OpenAI",
-        "outputSpeed": 76.5,
-        "ttft": 60.56
+        "outputSpeed": 70.1,
+        "ttft": 99.36
       },
       {
         "model": "Claude Opus 5 (Adaptive Reasoning, High Effort)",
         "org": "Anthropic",
-        "outputSpeed": 56.8,
-        "ttft": 11.86
+        "outputSpeed": 54.5,
+        "ttft": 11.73
       },
       {
         "model": "GPT-5.6 Sol (xhigh)",
         "org": "OpenAI",
-        "outputSpeed": 73.5,
-        "ttft": 22.44
+        "outputSpeed": 62.4,
+        "ttft": 28.95
       },
       {
         "model": "Kimi K3 (max)",
         "org": "Kimi",
-        "outputSpeed": 35.3,
-        "ttft": 2.5
+        "outputSpeed": 36.9,
+        "ttft": 2.77
       },
       {
         "model": "Claude Opus 5 (Adaptive Reasoning, Medium Effort)",
         "org": "Anthropic",
-        "outputSpeed": 58.1,
-        "ttft": 7.27
+        "outputSpeed": 53.1,
+        "ttft": 6.43
       },
       {
         "model": "GPT-5.6 Sol (high)",
         "org": "OpenAI",
-        "outputSpeed": 67.4,
-        "ttft": 11.22
+        "outputSpeed": 57.9,
+        "ttft": 14.07
       },
       {
         "model": "Claude Opus 4.8 (Adaptive Reasoning, Max Effort)",
@@ -284,7 +284,7 @@
     "perf": [
       {
         "model": "Gemini Omni Flash",
-        "elo": 1325,
+        "elo": 1324,
         "rank": 1,
         "org": "Google",
         "type": ""
@@ -342,5 +342,5 @@
     "price": [],
     "speed": []
   },
-  "_fetched_at": "2026-08-05T08:01:02.043375+08:00"
+  "_fetched_at": "2026-08-06T08:02:31.367141+08:00"
 }
