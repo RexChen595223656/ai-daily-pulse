@@ -1,0 +1,346 @@
+{
+  "llm": {
+    "perf": [
+      {
+        "model": "Claude Opus 5 (Adaptive Reasoning, Max Effort)",
+        "org": "Anthropic",
+        "intelligence": 63.1,
+        "coding": 78,
+        "math": 0,
+        "reasoning": 93.2
+      },
+      {
+        "model": "Claude Opus 5 (Adaptive Reasoning, Xhigh Effort)",
+        "org": "Anthropic",
+        "intelligence": 62.5,
+        "coding": 77,
+        "math": 0,
+        "reasoning": 93.7
+      },
+      {
+        "model": "Claude Fable 5 (Adaptive Reasoning, Max Effort, Opus 4.8 Fallback)",
+        "org": "Anthropic",
+        "intelligence": 62.1,
+        "coding": 76.5,
+        "math": 0,
+        "reasoning": 92.6
+      },
+      {
+        "model": "Claude Opus 5 (Adaptive Reasoning, High Effort)",
+        "org": "Anthropic",
+        "intelligence": 61.5,
+        "coding": 76.5,
+        "math": 0,
+        "reasoning": 93.7
+      },
+      {
+        "model": "GPT-5.6 Sol (max)",
+        "org": "OpenAI",
+        "intelligence": 60.9,
+        "coding": 77.4,
+        "math": 0,
+        "reasoning": 94.1
+      },
+      {
+        "model": "Kimi K3 (max)",
+        "org": "Kimi",
+        "intelligence": 59.7,
+        "coding": 76.2,
+        "math": 0,
+        "reasoning": 93.5
+      },
+      {
+        "model": "GPT-5.6 Sol (xhigh)",
+        "org": "OpenAI",
+        "intelligence": 59,
+        "coding": 78.3,
+        "math": 0,
+        "reasoning": 93.1
+      },
+      {
+        "model": "Claude Opus 5 (Adaptive Reasoning, Medium Effort)",
+        "org": "Anthropic",
+        "intelligence": 58.6,
+        "coding": 74.3,
+        "math": 0,
+        "reasoning": 91.9
+      },
+      {
+        "model": "Qwen3.8 Max",
+        "org": "Alibaba",
+        "intelligence": 58.1,
+        "coding": 71.8,
+        "math": 0,
+        "reasoning": 92.7
+      },
+      {
+        "model": "GPT-5.6 Sol (high)",
+        "org": "OpenAI",
+        "intelligence": 57.3,
+        "coding": 77.2,
+        "math": 0,
+        "reasoning": 92.8
+      }
+    ],
+    "price": [
+      {
+        "model": "Claude Opus 5 (Adaptive Reasoning, Max Effort)",
+        "org": "Anthropic",
+        "input": 5,
+        "output": 25,
+        "blended": 10
+      },
+      {
+        "model": "Claude Opus 5 (Adaptive Reasoning, Xhigh Effort)",
+        "org": "Anthropic",
+        "input": 5,
+        "output": 25,
+        "blended": 10
+      },
+      {
+        "model": "Claude Fable 5 (Adaptive Reasoning, Max Effort, Opus 4.8 Fallback)",
+        "org": "Anthropic",
+        "input": 10,
+        "output": 50,
+        "blended": 20
+      },
+      {
+        "model": "Claude Opus 5 (Adaptive Reasoning, High Effort)",
+        "org": "Anthropic",
+        "input": 5,
+        "output": 25,
+        "blended": 10
+      },
+      {
+        "model": "GPT-5.6 Sol (max)",
+        "org": "OpenAI",
+        "input": 5,
+        "output": 30,
+        "blended": 11.25
+      },
+      {
+        "model": "Kimi K3 (max)",
+        "org": "Kimi",
+        "input": 3,
+        "output": 15,
+        "blended": 6
+      },
+      {
+        "model": "GPT-5.6 Sol (xhigh)",
+        "org": "OpenAI",
+        "input": 5,
+        "output": 30,
+        "blended": 11.25
+      },
+      {
+        "model": "Claude Opus 5 (Adaptive Reasoning, Medium Effort)",
+        "org": "Anthropic",
+        "input": 5,
+        "output": 25,
+        "blended": 10
+      },
+      {
+        "model": "Qwen3.8 Max",
+        "org": "Alibaba",
+        "input": 2,
+        "output": 6,
+        "blended": 3
+      },
+      {
+        "model": "GPT-5.6 Sol (high)",
+        "org": "OpenAI",
+        "input": 5,
+        "output": 30,
+        "blended": 11.25
+      }
+    ],
+    "speed": [
+      {
+        "model": "Claude Opus 5 (Adaptive Reasoning, Max Effort)",
+        "org": "Anthropic",
+        "outputSpeed": 48.5,
+        "ttft": 49.58
+      },
+      {
+        "model": "Claude Opus 5 (Adaptive Reasoning, Xhigh Effort)",
+        "org": "Anthropic",
+        "outputSpeed": 51.5,
+        "ttft": 26.68
+      },
+      {
+        "model": "Claude Fable 5 (Adaptive Reasoning, Max Effort, Opus 4.8 Fallback)",
+        "org": "Anthropic",
+        "outputSpeed": 57.9,
+        "ttft": 54.38
+      },
+      {
+        "model": "Claude Opus 5 (Adaptive Reasoning, High Effort)",
+        "org": "Anthropic",
+        "outputSpeed": 51.5,
+        "ttft": 12.95
+      },
+      {
+        "model": "GPT-5.6 Sol (max)",
+        "org": "OpenAI",
+        "outputSpeed": 63.1,
+        "ttft": 85.03
+      },
+      {
+        "model": "Kimi K3 (max)",
+        "org": "Kimi",
+        "outputSpeed": 37.1,
+        "ttft": 2.33
+      },
+      {
+        "model": "GPT-5.6 Sol (xhigh)",
+        "org": "OpenAI",
+        "outputSpeed": 62.2,
+        "ttft": 32.43
+      },
+      {
+        "model": "Claude Opus 5 (Adaptive Reasoning, Medium Effort)",
+        "org": "Anthropic",
+        "outputSpeed": 48.5,
+        "ttft": 5.07
+      },
+      {
+        "model": "Qwen3.8 Max",
+        "org": "Alibaba",
+        "outputSpeed": 69.4,
+        "ttft": 1.93
+      },
+      {
+        "model": "GPT-5.6 Sol (high)",
+        "org": "OpenAI",
+        "outputSpeed": 57.6,
+        "ttft": 20.27
+      }
+    ]
+  },
+  "image": {
+    "perf": [
+      {
+        "model": "GPT Image 2 (high)",
+        "elo": 1371,
+        "rank": 1,
+        "org": "OpenAI",
+        "date": "2026-04"
+      },
+      {
+        "model": "Reve 2.1",
+        "elo": 1326,
+        "rank": 2,
+        "org": "Reve",
+        "date": "2026-07"
+      },
+      {
+        "model": "Nano Banana 2 (Gemini 3.1 Flash Image Preview)",
+        "elo": 1317,
+        "rank": 3,
+        "org": "Google",
+        "date": "2026-02"
+      },
+      {
+        "model": "GPT Image 1.5 (high)",
+        "elo": 1313,
+        "rank": 4,
+        "org": "OpenAI",
+        "date": "2025-12"
+      },
+      {
+        "model": "MAI-Image-2.5",
+        "elo": 1309,
+        "rank": 5,
+        "org": "Microsoft AI",
+        "date": "2026-06"
+      },
+      {
+        "model": "Nano Banana Pro (Gemini 3 Pro Image)",
+        "elo": 1302,
+        "rank": 6,
+        "org": "Google",
+        "date": "2025-11"
+      },
+      {
+        "model": "Nano Banana 2 Lite (Gemini 3.1 Flash Lite Image)",
+        "elo": 1284,
+        "rank": 7,
+        "org": "Google",
+        "date": "2026-06"
+      },
+      {
+        "model": "Seedream 5.0 Pro",
+        "elo": 1277,
+        "rank": 8,
+        "org": "Bytedance",
+        "date": "2026-07"
+      }
+    ],
+    "price": [],
+    "speed": []
+  },
+  "speech": null,
+  "video": {
+    "perf": [
+      {
+        "model": "Gemini Omni Flash",
+        "elo": 1325,
+        "rank": 1,
+        "org": "Google",
+        "type": ""
+      },
+      {
+        "model": "MiniMax H3",
+        "elo": 1306,
+        "rank": 2,
+        "org": "MiniMax",
+        "type": ""
+      },
+      {
+        "model": "HappyHorse-1.0",
+        "elo": 1284,
+        "rank": 3,
+        "org": "Alibaba-ATH",
+        "type": ""
+      },
+      {
+        "model": "Dreamina Seedance 2.0 720p",
+        "elo": 1266,
+        "rank": 4,
+        "org": "ByteDance Seed",
+        "type": ""
+      },
+      {
+        "model": "HappyHorse-1.1",
+        "elo": 1262,
+        "rank": 5,
+        "org": "Alibaba-ATH",
+        "type": ""
+      },
+      {
+        "model": "Wan2.7-260612",
+        "elo": 1243,
+        "rank": 6,
+        "org": "Alibaba",
+        "type": ""
+      },
+      {
+        "model": "Kling 3.0 1080p (Pro)",
+        "elo": 1240,
+        "rank": 7,
+        "org": "KlingAI",
+        "type": ""
+      },
+      {
+        "model": "Kling 3.0 Omni 1080p (Pro)",
+        "elo": 1228,
+        "rank": 8,
+        "org": "KlingAI",
+        "type": ""
+      }
+    ],
+    "price": [],
+    "speed": []
+  },
+  "_fetched_at": "2026-08-08T12:58:03.718493+08:00"
+}

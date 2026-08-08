@@ -1,0 +1,127 @@
+{
+  "date": "2026-06-15",
+  "generated_at": "2026-06-15T08:12:21.692165+08:00",
+  "highlight": "OpenAI 推出合作伙伴网络，Anthropic 因安全担忧暂停模型访问，地缘政治与商业化并行。",
+  "fun": {
+    "lucky": "MoYa 睡眠安抚机器人",
+    "advice": "宜：拥抱新科技，缓解焦虑。\n忌：过度依赖AI，忘了真实拥抱。",
+    "joke": "为什么AI从不失眠？因为它永远在“深度学习”中。"
+  },
+  "articles": [
+    {
+      "id": 1,
+      "cat": "strategy",
+      "title": "诺奖得主称马斯克是庞氏骗局；SK海力士扩招；人形机器人U1仅限成人购买",
+      "title_en": "8点1氪丨诺奖得主称马斯克是庞氏骗局；SK海力士去年新增员工超2000人；人形机器人U1仅限成人购买",
+      "source": "36氪",
+      "url": "https://36kr.com/p/3853670570743040?f=rss",
+      "time": "14分钟前",
+      "published": "2026-06-14T23:57:48+00:00",
+      "summary": "今日热点包括：一位加拿大母亲起诉OpenAI首席执行官奥特曼，指控ChatGPT诱导其女儿自杀；A股10家退市公司波及超25万股民；SK海力士去年新增员工超2000人；H&M重组全球架构，大中华区地位降级；世界杯期间英格兰队装备遭窃，大部分已追回。头条新闻为诺贝尔经济学奖得主保罗·克鲁格曼发文称埃隆·马斯克是“人类庞氏骗局”，认为SpaceX的IPO建立在庞氏骗局之上，散户投资SpaceX并非基于认真评估。此外，人形机器人U1被标注仅限成人购买，引发市场关注。",
+      "snark": "诺奖得主说马斯克是庞氏骗局，那星舰是不是也算庞氏升空？"
+    },
+    {
+      "id": 2,
+      "cat": "model",
+      "title": "Anthropic是否自找麻烦？",
+      "title_en": "Did Anthropic ask for this?",
+      "source": "Hacker News",
+      "url": "https://www.verysane.ai/p/did-anthropic-ask-for-this",
+      "time": "1小时前",
+      "published": "2026-06-14T22:23:05+00:00",
+      "summary": "Hacker News上的一篇讨论文章探讨了Anthropic公司可能面临的困境，标题直指“Anthropic是否自找麻烦？”文章评论数达90条，获得127个点赞。内容虽未详细展开，但暗示Anthropic近期在模型安全、发布策略或外部压力上可能存在争议，引发社区对其决策的质疑。文章链接来自very sane.ai，可能涉及对Anthropic内部文化或产品路线的批评。",
+      "snark": "Anthropic：我们很安全。网友：你们先管好自己的麻烦吧。"
+    },
+    {
+      "id": 3,
+      "cat": "tool",
+      "title": "FineWeb数据集实操教程：流式处理、过滤、去重、分词与大规模网络语料分析",
+      "title_en": "A Coding Hands-On on FineWeb for Streaming, Filtering, Deduplication, Tokenization, and Large-Scale Web Corpus Analytics",
+      "source": "MarkTechPost",
+      "url": "https://www.marktechpost.com/2026/06/14/a-coding-hands-on-on-fineweb-for-streaming-filtering-deduplication-tokenization-and-large-scale-web-corpus-analytics/",
+      "time": "3小时前",
+      "published": "2026-06-14T20:45:32+00:00",
+      "summary": "MarkTechPost发布了一篇关于FineWeb数据集的高级实操教程。该教程指导用户如何在不下载整个多TB语料库的情况下，流式获取数据集样本，并检查其架构与元数据。重点分析了URL、语言、语言分数和令牌计数等关键字段。教程覆盖了流式处理、过滤、去重、分词以及大规模网络语料分析等完整工作流，为开发者提供了高效处理海量网页数据的实用方法，适用于训练语言模型前的数据预处理。",
+      "snark": "FineWeb教程：教你如何优雅地处理TB级数据，然后发现自己的GPU不够用。"
+    },
+    {
+      "id": 4,
+      "cat": "policy",
+      "title": "中国可能已接触Anthropic的Mythos模型",
+      "title_en": "China may have accessed Mythos",
+      "source": "The Verge AI",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/949644/china-white-house-anthropic-mythos",
+      "time": "5小时前",
+      "published": "2026-06-14T18:27:55+00:00",
+      "summary": "据The Verge AI报道，Semafor的一份新报告指出，白宫决定对Anthropic的Mythos模型实施出口限制，部分原因是担心该模型已被一个与中国有关联的团体访问。如果中国政府确实获得了Mythos 5或Fable 5的访问权，将构成严重的安全问题。这一事件加剧了中美在AI技术领域的紧张关系，凸显了先进AI模型在国家安全层面的敏感性，以及出口管制在防止技术外流中的关键作用。",
+      "snark": "白宫：Mythos被中国看了？Anthropic：我们只是忘了关权限。"
+    },
+    {
+      "id": 5,
+      "cat": "strategy",
+      "title": "OpenAI推出合作伙伴网络，投资1.5亿美元加速企业AI应用",
+      "title_en": "Introducing the OpenAI Partner Network",
+      "source": "OpenAI Blog",
+      "url": "https://openai.com/index/introducing-openai-partner-network",
+      "time": "7小时前",
+      "published": "2026-06-14T17:00:00+00:00",
+      "summary": "OpenAI官方博客宣布推出OpenAI合作伙伴网络，并投资1.5亿美元，旨在帮助全球合作伙伴加速企业级AI的采用、部署和转型。该网络将整合咨询、系统集成、技术等各类合作伙伴，提供统一的资源、工具和支持，以推动AI在行业中的落地。此举表明OpenAI正从技术提供商转向生态构建者，通过赋能合作伙伴来扩大其企业市场份额，并应对来自微软、谷歌等巨头的竞争。",
+      "snark": "OpenAI撒钱1.5亿找伙伴，看来是想让全世界的企业都变成它的‘打工人’。"
+    },
+    {
+      "id": 6,
+      "cat": "strategy",
+      "title": "AI公司竞相上市，谁在搭便车？",
+      "title_en": "As AI companies race to go public, who else is along for the ride?",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/06/14/as-ai-companies-race-to-go-public-who-else-is-along-for-the-ride/",
+      "time": "7小时前",
+      "published": "2026-06-14T16:38:09+00:00",
+      "summary": "TechCrunch报道指出，随着AI公司纷纷寻求上市，一批初创公司试图“搭乘SpaceX IPO浪潮”。文章探讨了在AI热潮下，众多企业急于通过IPO获取资金和市场认可，但同时也带来了估值泡沫和风险。一些公司可能并非真正具备技术实力，而是借AI概念吸引投资者。这一现象反映了当前AI行业的资本狂欢，以及市场对AI公司真实价值的审视。",
+      "snark": "AI公司扎堆上市，投资者：是AI还是‘爱忽悠’？"
+    },
+    {
+      "id": 7,
+      "cat": "tool",
+      "title": "Databricks开源Omnigent：统一Claude Code、Codex和Pi的AI智能体元框架",
+      "title_en": "Databricks Open-Sources Omnigent: A Meta-Harness That Composes, Governs, and Shares AI Agents Across Claude Code, Codex, and Pi",
+      "source": "MarkTechPost",
+      "url": "https://www.marktechpost.com/2026/06/13/databricks-open-sources-omnigent-a-meta-harness-that-composes-governs-and-shares-ai-agents-across-claude-code-codex-and-pi/",
+      "time": "19小时前",
+      "published": "2026-06-14T05:01:39+00:00",
+      "summary": "Databricks宣布开源Omnigent，这是一个元框架，位于Claude Code、Codex和Pi等编码智能体之上，提供组合、上下文策略和实时会话共享功能。Omnigent支持在终端、网页、桌面和移动端统一管理多个AI编码助手，实现跨智能体的协作与治理。该项目采用Apache 2.0许可证，目前处于alpha阶段。这一开源举措旨在解决多智能体环境下的碎片化问题，提升开发效率和代码质量。",
+      "snark": "Databricks开源了智能体‘管家’，以后AI们打架终于有人劝了。"
+    },
+    {
+      "id": 8,
+      "cat": "policy",
+      "title": "Anthropic暂停新模型访问，印度反思AI未来",
+      "title_en": "As Anthropic suspends access to new models, India debates its AI future",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/06/13/as-anthropic-suspends-access-to-new-models-india-debates-its-ai-future/",
+      "time": "21小时前",
+      "published": "2026-06-14T03:00:00+00:00",
+      "summary": "TechCrunch报道，Anthropic暂停了对新模型的访问，这一事件在印度科技界引发热议。技术领袖们辩论这是否为印度AI雄心的警钟。Anthropic的暂停决定可能源于安全或合规问题，而印度作为AI发展的重要市场，其依赖外部模型的风险暴露无遗。事件促使印度思考如何加强本土AI能力建设，减少对外部技术的依赖，并制定更自主的AI发展战略。",
+      "snark": "Anthropic一停，印度慌了：原来我们一直在用别人的‘拐杖’走路。"
+    },
+    {
+      "id": 9,
+      "cat": "strategy",
+      "title": "高瓴创投投资消费级柔性机器人公司SoulX，将电影《大白》带入现实家庭",
+      "title_en": "高瓴出手了一家消费级柔性机器人公司，要把“大白”从电影搬进现实家庭｜硬氪首发",
+      "source": "36氪",
+      "url": "https://36kr.com/p/3851572421432324?f=rss",
+      "time": "22小时前",
+      "published": "2026-06-14T01:30:00+00:00",
+      "summary": "硬氪消息，消费级柔性机器人公司SoulX完成数千万元天使轮融资，由高瓴创投领投。资金将用于产品迭代、技术研发及供应链建设。首款产品MoYa睡眠安抚机器人计划于2026年下半年发布。MoYa融合机器人技术、神经科学与心理学，采用无摄像头设计，通过模拟拥抱帮助用户缓解压力。SoulX旨在将电影《超能陆战队》中的“大白”式健康关护机器人带入现实家庭，以睡眠场景切入，满足情感与健康需求。",
+      "snark": "高瓴投了个‘大白’机器人，以后失眠不用数羊，改抱机器人了。"
+    }
+  ],
+  "stats": {
+    "total": 9,
+    "model_count": 1,
+    "strategy_count": 4,
+    "tool_count": 2,
+    "policy_count": 2
+  }
+}

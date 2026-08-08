@@ -1,0 +1,174 @@
+{
+  "date": "2026-05-15",
+  "generated_at": "2026-05-15T08:03:24.688282",
+  "highlight": "OpenAI Codex上线手机、Musk与Altman法庭交锋、微软停用Claude Code，AI行业进入应用落地与法律博弈并行阶段。",
+  "fun": {
+    "lucky": "CuPy",
+    "advice": "宜：深入GPU编程底层，优化性能瓶颈。\n忌：在法庭上把对手名字叫成自己老板。",
+    "joke": "为什么AI律师总输官司？因为它把“objection”写成了“abjection”。"
+  },
+  "articles": [
+    {
+      "id": 1,
+      "cat": "tool",
+      "title": "CuPy实战教程：GPU计算从入门到性能剖析",
+      "title_en": "A Coding Implementation to Master GPU Computing with CuPy, Custom CUDA Kernels, Streams, Sparse Matrices, and Profiling",
+      "source": "MarkTechPost",
+      "url": "https://www.marktechpost.com/2026/05/14/a-coding-implementation-to-master-gpu-computing-with-cupy-custom-cuda-kernels-streams-sparse-matrices-and-profiling/",
+      "time": "42分钟前",
+      "published": "2026-05-14T23:21:09+00:00",
+      "summary": "MarkTechPost发布了一篇全面的CuPy教程，详细展示了如何利用CuPy在Python中实现GPU加速数值计算。教程从检查CUDA设备、CuPy版本、运行时细节、GPU内存和计算能力等基础环境配置入手，逐步覆盖自定义CUDA内核编写、流（Streams）并发处理、稀疏矩阵操作以及性能剖析（Profiling）等高级主题。通过实际代码示例，读者可以掌握如何将NumPy代码无缝迁移到GPU上，并利用CUDA特性大幅提升矩阵运算、深度学习预处理等任务的执行效率。",
+      "snark": "看完这篇教程，我的CPU终于可以退休去当暖宝宝了。"
+    },
+    {
+      "id": 2,
+      "cat": "tool",
+      "title": "Cline开源Agent运行时SDK：统一CLI、看板与IDE扩展",
+      "title_en": "Cline Releases Cline SDK: An Open-Source Agent Runtime Now Powering Its CLI and Kanban, With IDE Extensions Being Migrated",
+      "source": "MarkTechPost",
+      "url": "https://www.marktechpost.com/2026/05/14/cline-releases-cline-sdk-an-open-source-agent-runtime-now-powering-its-cli-and-kanban-with-ide-extensions-being-migrated/",
+      "time": "1小时前",
+      "published": "2026-05-14T22:57:17+00:00",
+      "summary": "Cline将其内部Agent引擎提取为开源TypeScript SDK（@cline/sdk），该运行时现已支撑其CLI和Kanban产品，VS Code与JetBrains扩展正在迁移中。SDK采用四层架构：@cline/shared（共享工具）、@cline/llms（大模型接口）、@cline/agents（智能体逻辑）和顶层应用。开发者可利用此SDK快速构建自定义Agent工作流，复用Cline在生产环境中验证过的并发控制、上下文管理和工具调用能力，降低从零搭建Agent系统的门槛。",
+      "snark": "开源SDK就像自助餐，你自己拿菜，但Cline已经把厨房都搭好了。"
+    },
+    {
+      "id": 3,
+      "cat": "strategy",
+      "title": "Musk诉Altman案：陪审团到底要判什么？",
+      "title_en": "What the jury will actually decide in the case of Elon Musk vs. Sam Altman",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/05/14/what-the-jury-will-actually-decide-in-the-case-of-elon-musk-vs-sam-altman/",
+      "time": "1小时前",
+      "published": "2026-05-14T22:47:51+00:00",
+      "summary": "TechCrunch详解了今年科技界最大法庭案件——Elon Musk起诉Sam Altman的核心争议点。Musk指控Altman及OpenAI董事会违背了公司创立时非营利、安全优先的初衷，转而追求商业利润，并涉嫌自我交易。陪审团需要决定：OpenAI在转向营利模式时是否违反了信托义务？Altman是否利用内部信息牟利？以及Musk作为联合创始人兼早期捐赠者，是否有权要求赔偿或公司重组。案件结果可能重塑AI公司的治理结构。",
+      "snark": "建议陪审团直接判决二人合拍一季《硅谷离婚真人秀》。"
+    },
+    {
+      "id": 4,
+      "cat": "strategy",
+      "title": "Musk诉Altman结案陈词：律师口误连连，场面混乱",
+      "title_en": "Closing time",
+      "source": "The Verge AI",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/931006/musk-v-altman-closing-arguments-analysis",
+      "time": "1小时前",
+      "published": "2026-05-14T22:21:46+00:00",
+      "summary": "The Verge记者描述了Musk诉Altman案结案陈词的混乱场面。Musk的律师Steven Molo表现失常，多次口误，甚至将共同被告Greg Brockman误称为“Greg Altman”，并错误声称Musk从未参与OpenAI的早期治理。Altman团队则抓住机会强调OpenAI的独立性和Musk退出后的商业决策合理性。法官Yvonne Gonzalez Rogers多次打断律师发言，要求聚焦证据。整个庭审被形容为一场“难以置信的 demolition derby”，双方情绪激烈但法律论证薄弱。",
+      "snark": "律师连名字都念错，这案子怕不是用ChatGPT写的辩护词。"
+    },
+    {
+      "id": 5,
+      "cat": "strategy",
+      "title": "SpaceXAI合并后人才流失：50+员工离职潮",
+      "title_en": "Elon Musk’s SpaceXAI has been bleeding staff since its merger",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/05/14/elon-musks-spacexai-has-been-bleeding-staff-since-its-merger/",
+      "time": "2小时前",
+      "published": "2026-05-14T21:30:44+00:00",
+      "summary": "据TechCrunch报道，自2月份SpaceX与xAI合并成立SpaceXAI以来，已有超过50名员工离职。知情人士透露，离职原因包括合并后的文化冲突、马斯克的高压管理风格、关键领导层变动，以及竞争对手的挖角。此外，合并带来的股权流动性事件使得一些早期员工提前套现，削弱了长期留任的财务激励。离职潮引发外界对SpaceXAI能否维持AI研发竞争力的担忧，尤其是在与OpenAI和Anthropic的人才争夺战中。",
+      "snark": "马斯克：我们要去火星！员工：我们先去下一家公司。"
+    },
+    {
+      "id": 6,
+      "cat": "strategy",
+      "title": "法庭惊现“混蛋奖杯”：OpenAI员工赠Musk讽刺纪念品",
+      "title_en": "Behold, the Elon Musk jackass trophy",
+      "source": "The Verge AI",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/930893/elon-musk-sam-altman-trial-ai-safety-jackass-statue",
+      "time": "3小时前",
+      "published": "2026-05-14T20:59:23+00:00",
+      "summary": "在Musk诉Altman案庭审期间，Altman团队向法庭展示了一座看似少年棒球联盟奖杯的物件，实为OpenAI员工赠送给Musk的讽刺礼物。法官要求律师当众宣读铭文：“永远不要停止做一个混蛋”（Never stop being a jackass）。这座奖杯据称是为了纪念Musk在OpenAI早期对安全问题的“贡献”，但如今被用作证明Musk与OpenAI之间长期紧张关系的证据。Altman团队试图以此说明Musk的诉讼更多是个人恩怨而非法律诉求。",
+      "snark": "建议Musk把奖杯摆在家里，顺便申请吉尼斯‘最实至名归奖项’。",
+      "multiSource": [
+        "The Verge",
+        "The Verge AI"
+      ]
+    },
+    {
+      "id": 7,
+      "cat": "tool",
+      "title": "OpenAI宣布Codex即将登陆手机端",
+      "title_en": "OpenAI says Codex is coming to your phone",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/05/14/openai-says-codex-is-coming-to-your-phone/",
+      "time": "3小时前",
+      "published": "2026-05-14T20:58:55+00:00",
+      "summary": "OpenAI宣布其桌面AI编程工具Codex将扩展至ChatGPT移动应用。用户可直接在手机上通过自然语言指令让Codex编写代码、操作应用程序或自动化工作流。此举旨在追赶Anthropic Claude Code在移动端的热度。Codex移动版将支持代码片段生成、API调用、文件操作等核心功能，并针对小屏幕优化了交互界面。OpenAI还计划通过手机端Codex吸引更多非专业开发者，降低编程门槛。",
+      "snark": "以后在厕所里也能写代码了，产品经理狂喜。"
+    },
+    {
+      "id": 8,
+      "cat": "tool",
+      "title": "OpenAI Codex正式入驻ChatGPT手机App",
+      "title_en": "OpenAI’s Codex is now in the ChatGPT mobile app",
+      "source": "The Verge AI",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/930763/openai-codex-chatgpt-ios-android-app-preview",
+      "time": "4小时前",
+      "published": "2026-05-14T20:00:00+00:00",
+      "summary": "OpenAI正式将Codex集成到ChatGPT的iOS和Android应用中。此前Codex仅限桌面端使用，此次移动端上线后，用户可以通过手机语音或文字指令让AI执行代码编写、文件编辑、网页操作等任务。这一更新紧随Anthropic Claude Code的移动端流行趋势。OpenAI为此削减了部分非核心项目以加速开发。初期版本支持Python、JavaScript等主流语言，并可与GitHub仓库直接交互。",
+      "snark": "Anthropic：我们刚把Claude Code搬上手机。OpenAI：跟！",
+      "multiSource": [
+        "The Verge",
+        "The Verge AI"
+      ]
+    },
+    {
+      "id": 9,
+      "cat": "strategy",
+      "title": "Richard Socher获6.5亿美元融资：打造能自我改进的AI",
+      "title_en": "What happens when AI starts building itself?",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/05/14/what-happens-when-ai-starts-building-itself/",
+      "time": "4小时前",
+      "published": "2026-05-14T19:57:20+00:00",
+      "summary": "前Salesforce首席科学家Richard Socher创立的新公司获得6.5亿美元巨额融资，目标是构建一个能够自主研究和持续自我改进的AI系统。与当前依赖人类反馈的模型不同，该系统被设计为可以自动设计实验、分析结果、修改自身架构，并无限迭代优化。Socher承诺该AI不会停留在实验室，而是会实际交付可用的产品。融资规模之大反映出投资者对“AI自我进化”路线的强烈信心，但也引发了对安全性和可控性的担忧。",
+      "snark": "6.5亿美元赌AI能自己写论文，然后发现它只会生成请假条。"
+    },
+    {
+      "id": 10,
+      "cat": "strategy",
+      "title": "OpenAI拟起诉苹果：ChatGPT集成未达预期引发法律纠纷",
+      "title_en": "OpenAI is reportedly preparing legal action against Apple; it wouldn’t be the first partner to feel burned",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/05/14/openai-is-reportedly-preparing-legal-action-against-apple-it-wouldnt-be-the-first-partner-to-feel-burned/",
+      "time": "4小时前",
+      "published": "2026-05-14T19:12:03+00:00",
+      "summary": "据TechCrunch报道，OpenAI正考虑对苹果采取法律行动，原因是双方在ChatGPT与iOS系统的集成合作中产生严重分歧。OpenAI抱怨苹果未能提供预期的订阅用户转化率和产品显眼位置，导致合作收益远低于预期。这并非苹果首次与AI合作伙伴闹僵，此前多家公司也曾抱怨苹果在合作中过于强势且收益分配不公。若诉讼成行，将给本就紧张的科技巨头合作关系再添变数。",
+      "snark": "苹果：我们只是把ChatGPT藏在了设置第5级菜单里。OpenAI：告！"
+    },
+    {
+      "id": 11,
+      "cat": "tool",
+      "title": "Clawdmeter：开源桌面仪表盘，实时监控Claude Code用量",
+      "title_en": "Clawdmeter turns your Claude Code usage stats into a tiny desktop dashboard",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/05/14/clawdmeter-turns-your-claude-code-usage-stats-into-a-tiny-desktop-dashboard/",
+      "time": "4小时前",
+      "published": "2026-05-14T19:05:01+00:00",
+      "summary": "一款名为Clawdmeter的开源小工具问世，它可以将Claude Code的使用统计数据转化为一个迷你的桌面仪表盘。该工具专为AI编程重度用户设计，能够实时显示API调用次数、令牌消耗、代码生成量、错误率等关键指标。Clawdmeter基于Electron构建，支持自定义主题和报警阈值。对于需要管理多个Claude Code实例或控制成本的开发团队来说，这款工具提供了直观的监控手段。",
+      "snark": "有了它，你终于可以盯着仪表盘焦虑地看自己花了多少钱。"
+    },
+    {
+      "id": 12,
+      "cat": "strategy",
+      "title": "微软开始取消Claude Code许可证：内部AI工具战略转向",
+      "title_en": "Microsoft starts canceling Claude Code licenses",
+      "source": "The Verge AI",
+      "url": "https://www.theverge.com/tech/930447/microsoft-claude-code-discontinued-notepad",
+      "time": "5小时前",
+      "published": "2026-05-14T19:00:00+00:00",
+      "summary": "据The Verge报道，微软已开始大规模取消内部员工使用的Claude Code许可证。去年12月微软曾邀请数千名员工（包括项目经理、设计师等非程序员）试用Anthropic的AI编程工具，以推动全民编程实验。但如今微软决定停止这一项目，转而推广自家基于Azure OpenAI的Copilot工具。部分员工表示Claude Code的取消令他们失望，因为该工具在降低编程门槛方面效果显著。此举反映出科技巨头在AI工具选择上的战略博弈。",
+      "snark": "微软：我们试了别人的AI，还是自家的香——虽然可能没那么香。",
+      "multiSource": [
+        "The Verge",
+        "The Verge AI"
+      ]
+    }
+  ],
+  "stats": {
+    "total": 12,
+    "model_count": 0,
+    "strategy_count": 7,
+    "tool_count": 5
+  }
+}
