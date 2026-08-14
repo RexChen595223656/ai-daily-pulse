@@ -1,4 +1,28 @@
 {
+  "2026-08-14": {
+    "date": "2026-08-14",
+    "highlight": "AI 摘要暂时不可用，请稍后刷新",
+    "count": 12,
+    "stats": {
+      "total": 12,
+      "model_count": 3,
+      "strategy_count": 6,
+      "tool_count": 3,
+      "policy_count": 0
+    }
+  },
+  "2026-08-13": {
+    "date": "2026-08-13",
+    "highlight": "今日AI圈冰火两重天：亚马逊默认拿主播数据训练引众怒，Cognition估值飙至400亿美元，AI安全与开放之争再起波澜。",
+    "count": 12,
+    "stats": {
+      "total": 12,
+      "model_count": 1,
+      "strategy_count": 4,
+      "tool_count": 3,
+      "policy_count": 4
+    }
+  },
   "2026-08-12": {
     "date": "2026-08-12",
     "highlight": "今日AI界风起云涌：Gemini与ChatGPT双双突破十亿用户，Anthropic未发布模型攻克数学难题，OpenAI高管离职潮持续。",
@@ -692,30 +716,6 @@
       "model_count": 1,
       "strategy_count": 4,
       "tool_count": 2,
-      "policy_count": 2
-    }
-  },
-  "2026-06-13": {
-    "date": "2026-06-13",
-    "highlight": "SpaceX 上市催生首位万亿富豪，Mistral 估值翻倍融资，AI 行业资本狂欢与内部动荡并存。",
-    "count": 12,
-    "stats": {
-      "total": 12,
-      "model_count": 2,
-      "strategy_count": 7,
-      "tool_count": 2,
-      "policy_count": 1
-    }
-  },
-  "2026-06-12": {
-    "date": "2026-06-12",
-    "highlight": "SpaceX创史上最大IPO，OpenAI布局本地部署产品，Perplexity推出跨模型深度研究工具。",
-    "count": 12,
-    "stats": {
-      "total": 12,
-      "model_count": 0,
-      "strategy_count": 4,
-      "tool_count": 6,
       "policy_count": 2
     }
   }
