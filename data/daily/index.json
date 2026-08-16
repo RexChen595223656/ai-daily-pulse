@@ -1,4 +1,16 @@
 {
+  "2026-08-16": {
+    "date": "2026-08-16",
+    "highlight": "AI安全与滥用问题成今日焦点：深度伪造滥用指控、内容水印技术、AI工具应用与模型微调教程并存。",
+    "count": 5,
+    "stats": {
+      "total": 5,
+      "model_count": 1,
+      "strategy_count": 1,
+      "tool_count": 1,
+      "policy_count": 2
+    }
+  },
   "2026-08-15": {
     "date": "2026-08-15",
     "highlight": "AI 摘要暂时不可用，请稍后刷新",
@@ -705,18 +717,6 @@
       "strategy_count": 6,
       "tool_count": 3,
       "policy_count": 3
-    }
-  },
-  "2026-06-16": {
-    "date": "2026-06-16",
-    "highlight": "智谱发布旗舰模型GLM-5.2，智源研究院强调世界模型是具身智能的未来方向。",
-    "count": 2,
-    "stats": {
-      "total": 2,
-      "model_count": 1,
-      "strategy_count": 1,
-      "tool_count": 0,
-      "policy_count": 0
     }
   }
 }
