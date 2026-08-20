@@ -158,62 +158,62 @@
       {
         "model": "Claude Opus 5 (Adaptive Reasoning, Max Effort)",
         "org": "Anthropic",
-        "outputSpeed": 52.6,
-        "ttft": 35.51
+        "outputSpeed": 54.4,
+        "ttft": 36.98
       },
       {
         "model": "Claude Opus 5 (Adaptive Reasoning, Xhigh Effort)",
         "org": "Anthropic",
-        "outputSpeed": 52.0,
-        "ttft": 24.47
+        "outputSpeed": 53.5,
+        "ttft": 26.69
       },
       {
         "model": "Claude Fable 5 (Adaptive Reasoning, Max Effort, Opus 4.8 Fallback)",
         "org": "Anthropic",
-        "outputSpeed": 66.4,
-        "ttft": 56.5
+        "outputSpeed": 67.5,
+        "ttft": 57.98
       },
       {
         "model": "Claude Opus 5 (Adaptive Reasoning, High Effort)",
         "org": "Anthropic",
-        "outputSpeed": 50.3,
-        "ttft": 9.64
+        "outputSpeed": 51.1,
+        "ttft": 10.32
       },
       {
         "model": "GPT-5.6 Sol (max)",
         "org": "OpenAI",
-        "outputSpeed": 70.6,
+        "outputSpeed": 68.7,
         "ttft": 75.25
       },
       {
         "model": "Grok 4.6 (high)",
         "org": "SpaceXAI",
-        "outputSpeed": 70.3,
-        "ttft": 40.24
+        "outputSpeed": 66.0,
+        "ttft": 39.82
       },
       {
         "model": "Kimi K3 (max)",
         "org": "Kimi",
-        "outputSpeed": 37.8,
-        "ttft": 2.52
+        "outputSpeed": 38.6,
+        "ttft": 2.58
       },
       {
         "model": "GLM-5.3 (max)",
         "org": "Z AI",
-        "outputSpeed": 80.4,
-        "ttft": 1.53
+        "outputSpeed": 79.6,
+        "ttft": 1.51
       },
       {
         "model": "GPT-5.6 Sol (xhigh)",
         "org": "OpenAI",
-        "outputSpeed": 61.8,
-        "ttft": 29.39
+        "outputSpeed": 64.5,
+        "ttft": 31.32
       },
       {
         "model": "Claude Opus 5 (Adaptive Reasoning, Medium Effort)",
         "org": "Anthropic",
-        "outputSpeed": 49.0,
-        "ttft": 4.42
+        "outputSpeed": 50.5,
+        "ttft": 6.91
       }
     ]
   },
@@ -221,21 +221,21 @@
     "perf": [
       {
         "model": "GPT Image 2 (high)",
-        "elo": 1369,
+        "elo": 1368,
         "rank": 1,
         "org": "OpenAI",
         "date": "2026-04"
       },
       {
         "model": "Reve 2.1",
-        "elo": 1322,
+        "elo": 1321,
         "rank": 2,
         "org": "Reve",
         "date": "2026-07"
       },
       {
         "model": "Nano Banana 2 (Gemini 3.1 Flash Image Preview)",
-        "elo": 1320,
+        "elo": 1319,
         "rank": 3,
         "org": "Google",
         "date": "2026-02"
@@ -256,7 +256,7 @@
       },
       {
         "model": "Nano Banana Pro (Gemini 3 Pro Image)",
-        "elo": 1296,
+        "elo": 1295,
         "rank": 6,
         "org": "Google",
         "date": "2025-11"
@@ -342,5 +342,5 @@
     "price": [],
     "speed": []
   },
-  "_fetched_at": "2026-08-19T08:01:00.687261+08:00"
+  "_fetched_at": "2026-08-20T08:03:18.821476+08:00"
 }
