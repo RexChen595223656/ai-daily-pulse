@@ -1,4 +1,16 @@
 {
+  "2026-08-20": {
+    "date": "2026-08-20",
+    "highlight": "OpenAI 放缓开发节奏并强化数据隐私，同时谷歌借开学季密集推出 AI 学习工具，行业巨头在安全与市场之间展开新一轮角力。",
+    "count": 12,
+    "stats": {
+      "total": 12,
+      "model_count": 0,
+      "strategy_count": 4,
+      "tool_count": 5,
+      "policy_count": 3
+    }
+  },
   "2026-08-19": {
     "date": "2026-08-19",
     "highlight": "今日最值得关注的是 OpenAI 在 Hugging Face 安全事件后推出系列安全改革，并呼吁企业加速 AI 防御建设。",
@@ -705,18 +717,6 @@
       "strategy_count": 1,
       "tool_count": 3,
       "policy_count": 1
-    }
-  },
-  "2026-06-21": {
-    "date": "2026-06-21",
-    "highlight": "诺贝尔奖得主John Jumper离开DeepMind加入Anthropic，AI人才争夺战再升温。",
-    "count": 8,
-    "stats": {
-      "total": 8,
-      "model_count": 1,
-      "strategy_count": 1,
-      "tool_count": 4,
-      "policy_count": 2
     }
   }
 }
