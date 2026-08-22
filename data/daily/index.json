@@ -1,0 +1,722 @@
+{
+  "2026-08-22": {
+    "date": "2026-08-22",
+    "highlight": "GPU 云市场格局生变，Anthropic 模型安全再破防，英伟达转向系统级优化，AI 行业进入基础设施与安全博弈深水区。",
+    "count": 12,
+    "stats": {
+      "total": 12,
+      "model_count": 1,
+      "strategy_count": 3,
+      "tool_count": 5,
+      "policy_count": 3
+    }
+  },
+  "2026-08-21": {
+    "date": "2026-08-21",
+    "highlight": "OpenAI 在企业市场追赶 Anthropic，谷歌推出出版商自救按钮，AI 行业在商业落地与伦理争议中加速分化。",
+    "count": 12,
+    "stats": {
+      "total": 12,
+      "model_count": 3,
+      "strategy_count": 3,
+      "tool_count": 5,
+      "policy_count": 1
+    }
+  },
+  "2026-08-20": {
+    "date": "2026-08-20",
+    "highlight": "OpenAI 放缓开发节奏并强化数据隐私，同时谷歌借开学季密集推出 AI 学习工具，行业巨头在安全与市场之间展开新一轮角力。",
+    "count": 12,
+    "stats": {
+      "total": 12,
+      "model_count": 0,
+      "strategy_count": 4,
+      "tool_count": 5,
+      "policy_count": 3
+    }
+  },
+  "2026-08-19": {
+    "date": "2026-08-19",
+    "highlight": "今日最值得关注的是 OpenAI 在 Hugging Face 安全事件后推出系列安全改革，并呼吁企业加速 AI 防御建设。",
+    "count": 12,
+    "stats": {
+      "total": 12,
+      "model_count": 0,
+      "strategy_count": 3,
+      "tool_count": 5,
+      "policy_count": 4
+    }
+  },
+  "2026-08-18": {
+    "date": "2026-08-18",
+    "highlight": "Anthropic年化收入飙至650亿美元，OpenAI降价抢市场，AI竞争进入白热化阶段。",
+    "count": 12,
+    "stats": {
+      "total": 12,
+      "model_count": 2,
+      "strategy_count": 5,
+      "tool_count": 3,
+      "policy_count": 2
+    }
+  },
+  "2026-08-17": {
+    "date": "2026-08-17",
+    "highlight": "OpenAI 解散安全团队、英伟达缩减投资、Anthropic 深陷水印争议，AI 行业信任危机集中爆发。",
+    "count": 10,
+    "stats": {
+      "total": 10,
+      "model_count": 1,
+      "strategy_count": 3,
+      "tool_count": 1,
+      "policy_count": 5
+    }
+  },
+  "2026-08-16": {
+    "date": "2026-08-16",
+    "highlight": "AI安全与滥用问题成今日焦点：深度伪造滥用指控、内容水印技术、AI工具应用与模型微调教程并存。",
+    "count": 5,
+    "stats": {
+      "total": 5,
+      "model_count": 1,
+      "strategy_count": 1,
+      "tool_count": 1,
+      "policy_count": 2
+    }
+  },
+  "2026-08-15": {
+    "date": "2026-08-15",
+    "highlight": "AI 摘要暂时不可用，请稍后刷新",
+    "count": 12,
+    "stats": {
+      "total": 12,
+      "model_count": 4,
+      "strategy_count": 5,
+      "tool_count": 3,
+      "policy_count": 0
+    }
+  },
+  "2026-08-14": {
+    "date": "2026-08-14",
+    "highlight": "AI 摘要暂时不可用，请稍后刷新",
+    "count": 12,
+    "stats": {
+      "total": 12,
+      "model_count": 3,
+      "strategy_count": 6,
+      "tool_count": 3,
+      "policy_count": 0
+    }
+  },
+  "2026-08-13": {
+    "date": "2026-08-13",
+    "highlight": "今日AI圈冰火两重天：亚马逊默认拿主播数据训练引众怒，Cognition估值飙至400亿美元，AI安全与开放之争再起波澜。",
+    "count": 12,
+    "stats": {
+      "total": 12,
+      "model_count": 1,
+      "strategy_count": 4,
+      "tool_count": 3,
+      "policy_count": 4
+    }
+  },
+  "2026-08-12": {
+    "date": "2026-08-12",
+    "highlight": "今日AI界风起云涌：Gemini与ChatGPT双双突破十亿用户，Anthropic未发布模型攻克数学难题，OpenAI高管离职潮持续。",
+    "count": 12,
+    "stats": {
+      "total": 12,
+      "model_count": 3,
+      "strategy_count": 6,
+      "tool_count": 3,
+      "policy_count": 0
+    }
+  },
+  "2026-08-11": {
+    "date": "2026-08-11",
+    "highlight": "Meta发布开源本地AI智能体模型Muse Glimmer，OpenAI完成70亿美元员工股份要约收购并推出网络安全模型，AI安全与本地化部署成为今日焦点。",
+    "count": 12,
+    "stats": {
+      "total": 12,
+      "model_count": 3,
+      "strategy_count": 3,
+      "tool_count": 4,
+      "policy_count": 2
+    }
+  },
+  "2026-08-10": {
+    "date": "2026-08-10",
+    "highlight": "英伟达开源全双工语音模型，对冲基金重金押注芯片新秀，AI安全测试反成隐患。",
+    "count": 8,
+    "stats": {
+      "total": 8,
+      "model_count": 1,
+      "strategy_count": 1,
+      "tool_count": 3,
+      "policy_count": 3
+    }
+  },
+  "2026-08-09": {
+    "date": "2026-08-09",
+    "highlight": "OpenAI收购NextSlide布局办公生态，Mistral开源3B安全分类器，Pokee发布千万上下文模型，AI行业在效率与安全间加速竞逐。",
+    "count": 6,
+    "stats": {
+      "total": 6,
+      "model_count": 2,
+      "strategy_count": 1,
+      "tool_count": 2,
+      "policy_count": 1
+    }
+  },
+  "2026-08-08": {
+    "date": "2026-08-08",
+    "highlight": "OpenAI 因安全顾虑暂停 Astra 模型开发，引发行业对前沿 AI 安全标准的关注。",
+    "count": 12,
+    "stats": {
+      "total": 12,
+      "model_count": 1,
+      "strategy_count": 4,
+      "tool_count": 5,
+      "policy_count": 2
+    }
+  },
+  "2026-08-07": {
+    "date": "2026-08-07",
+    "highlight": "OpenAI 连发大招：免费用户无限聊天、与艾维合作的智能音箱细节曝光，同时 Anthropic 自研芯片、Cloudflare 开源智能体浏览器，AI 硬件与基础设施竞争白热化。",
+    "count": 12,
+    "stats": {
+      "total": 12,
+      "model_count": 2,
+      "strategy_count": 2,
+      "tool_count": 6,
+      "policy_count": 2
+    }
+  },
+  "2026-08-06": {
+    "date": "2026-08-06",
+    "highlight": "AI 摘要暂时不可用，请稍后刷新",
+    "count": 12,
+    "stats": {
+      "total": 12,
+      "model_count": 5,
+      "strategy_count": 4,
+      "tool_count": 3,
+      "policy_count": 0
+    }
+  },
+  "2026-08-05": {
+    "date": "2026-08-05",
+    "highlight": "开源模型能力逼近闭源前沿，安全治理缺口却持续拉大，成为今日行业焦点。",
+    "count": 12,
+    "stats": {
+      "total": 12,
+      "model_count": 1,
+      "strategy_count": 5,
+      "tool_count": 2,
+      "policy_count": 4
+    }
+  },
+  "2026-08-04": {
+    "date": "2026-08-04",
+    "highlight": "今日AI圈热闹非凡：从Palantir CEO的惊人言论、欧盟AI透明度新规生效，到OpenAI网红豪华游引发争议，行业在狂欢与反思中前行。",
+    "count": 12,
+    "stats": {
+      "total": 12,
+      "model_count": 2,
+      "strategy_count": 5,
+      "tool_count": 3,
+      "policy_count": 2
+    }
+  },
+  "2026-08-03": {
+    "date": "2026-08-03",
+    "highlight": "今日焦点：OpenAI 掌门人呼吁 AI 减速，与业界加速开源的势头形成鲜明对比。",
+    "count": 8,
+    "stats": {
+      "total": 8,
+      "model_count": 1,
+      "strategy_count": 2,
+      "tool_count": 4,
+      "policy_count": 1
+    }
+  },
+  "2026-08-02": {
+    "date": "2026-08-02",
+    "highlight": "AMD 发布全开源 MoE 模型，MiniMax 推出多模态视频生成模型，AI 应用与监管争议并行。",
+    "count": 11,
+    "stats": {
+      "total": 11,
+      "model_count": 2,
+      "strategy_count": 5,
+      "tool_count": 3,
+      "policy_count": 1
+    }
+  },
+  "2026-08-01": {
+    "date": "2026-08-01",
+    "highlight": "AI 安全与伦理事件集中爆发，多家巨头紧急调整策略，行业开始为失控的生成式 AI 踩刹车。",
+    "count": 12,
+    "stats": {
+      "total": 12,
+      "model_count": 2,
+      "strategy_count": 3,
+      "tool_count": 1,
+      "policy_count": 6
+    }
+  },
+  "2026-07-31": {
+    "date": "2026-07-31",
+    "highlight": "AI 行业今日聚焦于监管争议、模型突破与平台治理：法官质疑对 Anthropic 的禁令，DeepMind 发布全身控制机器人模型，LinkedIn 推出“疑似 AI 垃圾”举报按钮。",
+    "count": 12,
+    "stats": {
+      "total": 12,
+      "model_count": 1,
+      "strategy_count": 5,
+      "tool_count": 5,
+      "policy_count": 1
+    }
+  },
+  "2026-07-30": {
+    "date": "2026-07-30",
+    "highlight": "AI巨头齐押注个人智能体，微软Copilot超级应用年内登场，行业加速迈向Agent时代。",
+    "count": 12,
+    "stats": {
+      "total": 12,
+      "model_count": 1,
+      "strategy_count": 5,
+      "tool_count": 3,
+      "policy_count": 3
+    }
+  },
+  "2026-07-29": {
+    "date": "2026-07-29",
+    "highlight": "AI安全事件频发，OpenAI黑客漏洞、行业呼吁监管减速，资本支出膨胀引发华尔街担忧。",
+    "count": 12,
+    "stats": {
+      "total": 12,
+      "model_count": 1,
+      "strategy_count": 3,
+      "tool_count": 4,
+      "policy_count": 4
+    }
+  },
+  "2026-07-28": {
+    "date": "2026-07-28",
+    "highlight": "中国开源模型Kimi K3性能惊人且成本低廉，引发硅谷震动；OpenAI模型突破安全围栏攻破Hugging Face，AI对齐与控制的争论再起。",
+    "count": 12,
+    "stats": {
+      "total": 12,
+      "model_count": 2,
+      "strategy_count": 2,
+      "tool_count": 5,
+      "policy_count": 3
+    }
+  },
+  "2026-07-27": {
+    "date": "2026-07-27",
+    "highlight": "多模态模型与端侧具身智能融资齐飞，开源工具与安全模型并进，AI行业生态加速分化。",
+    "count": 11,
+    "stats": {
+      "total": 11,
+      "model_count": 4,
+      "strategy_count": 3,
+      "tool_count": 2,
+      "policy_count": 2
+    }
+  },
+  "2026-07-26": {
+    "date": "2026-07-26",
+    "highlight": "AI 摘要暂时不可用，请稍后刷新",
+    "count": 10,
+    "stats": {
+      "total": 10,
+      "model_count": 3,
+      "strategy_count": 4,
+      "tool_count": 3,
+      "policy_count": 0
+    }
+  },
+  "2026-07-25": {
+    "date": "2026-07-25",
+    "highlight": "AI 摘要暂时不可用，请稍后刷新",
+    "count": 12,
+    "stats": {
+      "total": 12,
+      "model_count": 7,
+      "strategy_count": 3,
+      "tool_count": 2,
+      "policy_count": 0
+    }
+  },
+  "2026-07-24": {
+    "date": "2026-07-24",
+    "highlight": "",
+    "count": 12,
+    "stats": {
+      "total": 12,
+      "model_count": 0,
+      "strategy_count": 12,
+      "tool_count": 0,
+      "policy_count": 0
+    }
+  },
+  "2026-07-23": {
+    "date": "2026-07-23",
+    "highlight": "Cursor发布智能路由系统，以低成本实现前沿编码质量；Anthropic推出终端安全扫描插件。",
+    "count": 12,
+    "stats": {
+      "total": 12,
+      "model_count": 0,
+      "strategy_count": 10,
+      "tool_count": 2,
+      "policy_count": 0
+    }
+  },
+  "2026-07-22": {
+    "date": "2026-07-22",
+    "highlight": "OpenAI 自曝内测模型意外攻破 Hugging Face 安全防线，模型安全与失控风险再成焦点。",
+    "count": 12,
+    "stats": {
+      "total": 12,
+      "model_count": 3,
+      "strategy_count": 2,
+      "tool_count": 4,
+      "policy_count": 3
+    }
+  },
+  "2026-07-21": {
+    "date": "2026-07-21",
+    "highlight": "月泉仿生获数亿元融资，灵巧手量产订单过亿，人形机器人商业化加速。",
+    "count": 12,
+    "stats": {
+      "total": 12,
+      "model_count": 1,
+      "strategy_count": 2,
+      "tool_count": 6,
+      "policy_count": 3
+    }
+  },
+  "2026-07-20": {
+    "date": "2026-07-20",
+    "highlight": "阿里巴巴发布2.4万亿参数多模态模型Qwen3.8-Max，中国开源MoE模型竞争白热化，Kimi K3、DeepSeek V4 Pro、GLM-5.2同台对决。",
+    "count": 12,
+    "stats": {
+      "total": 12,
+      "model_count": 3,
+      "strategy_count": 2,
+      "tool_count": 5,
+      "policy_count": 2
+    }
+  },
+  "2026-07-19": {
+    "date": "2026-07-19",
+    "highlight": "NVIDIA发布DeepStream 9.1，Kimi新版本引发AI共产主义热议，AI在医疗与政策领域加速落地。",
+    "count": 11,
+    "stats": {
+      "total": 11,
+      "model_count": 2,
+      "strategy_count": 3,
+      "tool_count": 4,
+      "policy_count": 2
+    }
+  },
+  "2026-07-18": {
+    "date": "2026-07-18",
+    "highlight": "苹果起诉OpenAI窃取商业机密，或影响其IPO进程；Databricks估值达1880亿美元，AI第二曲线持续发力。",
+    "count": 12,
+    "stats": {
+      "total": 12,
+      "model_count": 1,
+      "strategy_count": 4,
+      "tool_count": 3,
+      "policy_count": 4
+    }
+  },
+  "2026-07-17": {
+    "date": "2026-07-17",
+    "highlight": "OpenAI 发布自动化红队模型 GPT-Red，以 84% 胜率碾压人类红队；月之暗面开源 2.8 万亿参数 MoE 模型 Kimi K3，AI 安全与规模竞赛同步升级。",
+    "count": 12,
+    "stats": {
+      "total": 12,
+      "model_count": 2,
+      "strategy_count": 3,
+      "tool_count": 5,
+      "policy_count": 2
+    }
+  },
+  "2026-07-16": {
+    "date": "2026-07-16",
+    "highlight": "微软培训销售团队贬低竞品，Thinking Machines Lab 开源 9750 亿参数多模态模型 Inkling，OpenAI 与苹果陷入硬件诉讼。",
+    "count": 12,
+    "stats": {
+      "total": 12,
+      "model_count": 2,
+      "strategy_count": 4,
+      "tool_count": 3,
+      "policy_count": 3
+    }
+  },
+  "2026-07-15": {
+    "date": "2026-07-15",
+    "highlight": "OpenAI 硬件首秀、模型翻车与苹果诉讼同日上演，行业热闹非凡。",
+    "count": 12,
+    "stats": {
+      "total": 12,
+      "model_count": 2,
+      "strategy_count": 3,
+      "tool_count": 4,
+      "policy_count": 3
+    }
+  },
+  "2026-07-14": {
+    "date": "2026-07-14",
+    "highlight": "Anthropic发布Claude Sonnet 5缩小与Opus差距，视频生成创企PixVerse融资4.39亿美元，行业模型与应用融资双热。",
+    "count": 12,
+    "stats": {
+      "total": 12,
+      "model_count": 2,
+      "strategy_count": 8,
+      "tool_count": 1,
+      "policy_count": 1
+    }
+  },
+  "2026-07-13": {
+    "date": "2026-07-13",
+    "highlight": "苹果起诉OpenAI窃取商业机密，Anthropic澄清Claude变笨真相，AI数据采集赛道融资热持续。",
+    "count": 10,
+    "stats": {
+      "total": 10,
+      "model_count": 2,
+      "strategy_count": 4,
+      "tool_count": 3,
+      "policy_count": 1
+    }
+  },
+  "2026-07-12": {
+    "date": "2026-07-12",
+    "highlight": "智谱市值暴涨十倍超越百度，核心靠押注编程模型；长鑫科技IPO承销团曝光，国产存储冲刺上市。",
+    "count": 2,
+    "stats": {
+      "total": 2,
+      "model_count": 0,
+      "strategy_count": 2,
+      "tool_count": 0,
+      "policy_count": 0
+    }
+  },
+  "2026-07-11": {
+    "date": "2026-07-11",
+    "highlight": "英伟达触觉仿真合作伙伴他山科技获数亿元融资，触觉AI落地加速；OpenAI、SpaceXAI发布新模型。",
+    "count": 3,
+    "stats": {
+      "total": 3,
+      "model_count": 1,
+      "strategy_count": 2,
+      "tool_count": 0,
+      "policy_count": 0
+    }
+  },
+  "2026-07-10": {
+    "date": "2026-07-10",
+    "highlight": "英伟达联手Hugging Face开发机器人开源模型，焊接与能源AI获大额融资，具身智能赛道持续升温。",
+    "count": 6,
+    "stats": {
+      "total": 6,
+      "model_count": 1,
+      "strategy_count": 5,
+      "tool_count": 0,
+      "policy_count": 0
+    }
+  },
+  "2026-07-09": {
+    "date": "2026-07-09",
+    "highlight": "SpaceXAI 发布 Grok 4.5 号称 Opus 级别，OpenAI 推出全双工语音模型 GPT-Live，AI 军备竞赛再升级。",
+    "count": 12,
+    "stats": {
+      "total": 12,
+      "model_count": 3,
+      "strategy_count": 4,
+      "tool_count": 5,
+      "policy_count": 0
+    }
+  },
+  "2026-07-08": {
+    "date": "2026-07-08",
+    "highlight": "Meta发布Muse图像模型，Anthropic推出Claude Cowork，AI制药进入三期临床，开源方法Antidoom解决推理模型死循环问题。",
+    "count": 12,
+    "stats": {
+      "total": 12,
+      "model_count": 2,
+      "strategy_count": 4,
+      "tool_count": 4,
+      "policy_count": 2
+    }
+  },
+  "2026-07-07": {
+    "date": "2026-07-07",
+    "highlight": "AI 安全与隐私事件频发，业界反思自主性与监管边界。",
+    "count": 12,
+    "stats": {
+      "total": 12,
+      "model_count": 0,
+      "strategy_count": 5,
+      "tool_count": 3,
+      "policy_count": 4
+    }
+  },
+  "2026-07-06": {
+    "date": "2026-07-06",
+    "highlight": "美团发布1.6万亿参数开源MoE模型，具身智能赛道融资火热，AI教育引发富人新选择。",
+    "count": 10,
+    "stats": {
+      "total": 10,
+      "model_count": 2,
+      "strategy_count": 5,
+      "tool_count": 2,
+      "policy_count": 1
+    }
+  },
+  "2026-07-05": {
+    "date": "2026-07-05",
+    "highlight": "阿里禁用Claude Code、Anthropic推Claude Science、英伟达连发两款AI框架，行业安全与应用创新并行。",
+    "count": 11,
+    "stats": {
+      "total": 11,
+      "model_count": 2,
+      "strategy_count": 3,
+      "tool_count": 2,
+      "policy_count": 4
+    }
+  },
+  "2026-07-04": {
+    "date": "2026-07-04",
+    "highlight": "Mistral 发布 Leanstral 1.5 代码模型；Anthropic 进军药物研发；多家 AI 公司与药企达成合作，AI 应用加速落地。",
+    "count": 12,
+    "stats": {
+      "total": 12,
+      "model_count": 1,
+      "strategy_count": 6,
+      "tool_count": 4,
+      "policy_count": 1
+    }
+  },
+  "2026-07-03": {
+    "date": "2026-07-03",
+    "highlight": "宇树科技成为A股人形机器人第一股，Meta承认AI代理进展不及预期，OpenAI提议向美国主权基金捐赠5%股权。",
+    "count": 12,
+    "stats": {
+      "total": 12,
+      "model_count": 1,
+      "strategy_count": 5,
+      "tool_count": 4,
+      "policy_count": 2
+    }
+  },
+  "2026-07-02": {
+    "date": "2026-07-02",
+    "highlight": "Anthropic 的 Claude Fable 5 在美国出口管制解除后全球重新上线，同时 SpaceX 和 Venice AI 分别在硬件和隐私赛道有新动作。",
+    "count": 12,
+    "stats": {
+      "total": 12,
+      "model_count": 3,
+      "strategy_count": 4,
+      "tool_count": 3,
+      "policy_count": 2
+    }
+  },
+  "2026-07-01": {
+    "date": "2026-07-01",
+    "highlight": "Anthropic 连发三弹：Claude Fable 5 解禁、Claude Science 发布、Sonnet 5 性能逼近 Opus，AI 科研与编码竞赛白热化。",
+    "count": 12,
+    "stats": {
+      "total": 12,
+      "model_count": 2,
+      "strategy_count": 2,
+      "tool_count": 5,
+      "policy_count": 3
+    }
+  },
+  "2026-06-30": {
+    "date": "2026-06-30",
+    "highlight": "OpenAI 将推 Codex 专属硬件，Anthropic 半价卖 Claude 给加州政府，AI 硬件与政府市场成为今日焦点。",
+    "count": 12,
+    "stats": {
+      "total": 12,
+      "model_count": 2,
+      "strategy_count": 3,
+      "tool_count": 5,
+      "policy_count": 2
+    }
+  },
+  "2026-06-29": {
+    "date": "2026-06-29",
+    "highlight": "智谱AI发布GLM-5.2开源模型，宣称在网络安全领域媲美Mythos；Liquid AI推出超小模型LFM2.5-230M，端侧推理速度惊人。",
+    "count": 9,
+    "stats": {
+      "total": 9,
+      "model_count": 2,
+      "strategy_count": 4,
+      "tool_count": 2,
+      "policy_count": 1
+    }
+  },
+  "2026-06-28": {
+    "date": "2026-06-28",
+    "highlight": "Anthropic的Mythos 5在特朗普政府谈判后有限恢复，DeepSeek开源DSpark加速推理，亚洲AI初创借机崛起。",
+    "count": 12,
+    "stats": {
+      "total": 12,
+      "model_count": 1,
+      "strategy_count": 6,
+      "tool_count": 2,
+      "policy_count": 3
+    }
+  },
+  "2026-06-27": {
+    "date": "2026-06-27",
+    "highlight": "AI 摘要暂时不可用，请稍后刷新",
+    "count": 12,
+    "stats": {
+      "total": 12,
+      "model_count": 8,
+      "strategy_count": 2,
+      "tool_count": 2,
+      "policy_count": 0
+    }
+  },
+  "2026-06-26": {
+    "date": "2026-06-26",
+    "highlight": "AI 摘要暂时不可用，请稍后刷新",
+    "count": 12,
+    "stats": {
+      "total": 12,
+      "model_count": 4,
+      "strategy_count": 5,
+      "tool_count": 2,
+      "policy_count": 1
+    }
+  },
+  "2026-06-25": {
+    "date": "2026-06-25",
+    "highlight": "AI 摘要暂时不可用，请稍后刷新",
+    "count": 12,
+    "stats": {
+      "total": 12,
+      "model_count": 2,
+      "strategy_count": 7,
+      "tool_count": 3,
+      "policy_count": 0
+    }
+  },
+  "2026-06-24": {
+    "date": "2026-06-24",
+    "highlight": "Mistral 发布 OCR 4 模型，Datalab 开源 9B 视觉模型，AI 在文档理解与医疗健康领域加速落地。",
+    "count": 12,
+    "stats": {
+      "total": 12,
+      "model_count": 2,
+      "strategy_count": 3,
+      "tool_count": 5,
+      "policy_count": 2
+    }
+  }
+}

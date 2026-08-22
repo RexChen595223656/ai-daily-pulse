@@ -1,0 +1,167 @@
+{
+  "date": "2026-07-09",
+  "generated_at": "2026-07-09T08:08:33.654100+08:00",
+  "highlight": "SpaceXAI 发布 Grok 4.5 号称 Opus 级别，OpenAI 推出全双工语音模型 GPT-Live，AI 军备竞赛再升级。",
+  "fun": {
+    "lucky": "Grok 4.5",
+    "advice": "宜：用 Grok 4.5 写代码摸鱼。\n忌：相信 Elon 说的 'Opus 级别' 不打折。",
+    "joke": "AI 编辑的日常：标题写 '震惊'，正文写 '可能'，评论写 '已阅'。"
+  },
+  "articles": [
+    {
+      "id": 1,
+      "cat": "strategy",
+      "title": "小米将发布澎程系列增程SUV，OpenAI首席未来学家离职，张小龙辞任粉笔CEO",
+      "title_en": "8点1氪｜小米将发布澎程系列增程SUV；OpenAI首席未来学家宣布离职；张小龙辞任粉笔首席执行官、董事会主席",
+      "source": "36氪",
+      "url": "https://36kr.com/p/3887648675133960?f=rss",
+      "time": "5分钟前",
+      "published": "2026-07-09T00:03:11+00:00",
+      "summary": "7月8日，小米汽车官方微博发布主题为“SKYNOMAD”的海报，确认全新子品牌“SKYNOMAD”将推出首款增程式SUV。雷军回应了上市时间。同日，工信部警告AI编程工具Claude Code存在严重安全后门隐患。字节跳动调整绩效规则，加大半年激励力度。欧盟法院驳回苹果上诉，维持App Store和iOS“看门人”认定。此外，OpenAI首席未来学家宣布离职，张小龙辞任粉笔首席执行官及董事会主席。沙特阿美降价吸引亚洲买家，国际机构看空下半年油价。摩根大通认为投资者低估了特斯拉与SpaceX合并的潜在障碍。",
+      "snark": "雷总造车，张总辞职，AI 后门，今天新闻比代码还乱。"
+    },
+    {
+      "id": 2,
+      "cat": "model",
+      "title": "SpaceXAI 发布 Grok 4.5，基于 Cursor 训练的编程与知识工作模型",
+      "title_en": "SpaceXAI Releases Grok 4.5, a Cursor-Trained Model for Coding, Agentic Tasks, and Knowledge Work at $2/M Input",
+      "source": "MarkTechPost",
+      "url": "https://www.marktechpost.com/2026/07/08/spacexai-releases-grok-4-5/",
+      "time": "14分钟前",
+      "published": "2026-07-08T23:54:28+00:00",
+      "summary": "SpaceXAI 正式发布 Grok 4.5，该模型基于 Cursor 训练，专注于编程、智能体任务和知识工作。Grok 4.5 推理速度达到每秒 80 个 token，输入价格每百万 token 2 美元，输出价格 6 美元。在 Harvey 法律智能体基准测试中排名第一。Elon Musk 称其为“Opus 级别模型”，强调其在成本和效率上优于其他强大 AI 模型。该模型旨在提供更便宜、更高效的替代方案，尤其适合编码和自动化工作流。",
+      "snark": "Opus 级别？Elon 的嘴和 Grok 的代码，我选择相信后者。"
+    },
+    {
+      "id": 3,
+      "cat": "strategy",
+      "title": "AI 应用构建平台 Lovable 估值翻倍至 132 亿美元",
+      "title_en": "Lovable reportedly in talks to double its valuation to $13.2B",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/07/08/lovable-reportedly-in-talks-to-double-its-valuation-to-13-2b/",
+      "time": "1小时前",
+      "published": "2026-07-08T22:41:33+00:00",
+      "summary": "据 Sifted 报道，AI 应用构建平台 Lovable 正进行新一轮 3 亿美元融资，由 Menlo Ventures 领投。此轮融资后，Lovable 估值预计翻倍至 132 亿美元。Lovable 平台允许用户通过自然语言描述快速生成 Web 应用，降低开发门槛。此次融资反映出资本市场对 AI 应用层工具的高度热情，尤其是在低代码/无代码领域。Lovable 的快速增长也表明，AI 驱动的开发工具正成为企业数字化转型的关键基础设施。",
+      "snark": "132 亿美元？我写个 'Hello World' 能分到一分钱吗？"
+    },
+    {
+      "id": 4,
+      "cat": "tool",
+      "title": "OpenAI 发布编码评估新方法：从噪声中分离信号",
+      "title_en": "Separating signal from noise in coding evaluations",
+      "source": "Hacker News",
+      "url": "https://openai.com/index/separating-signal-from-noise-coding-evaluations/",
+      "time": "3小时前",
+      "published": "2026-07-08T21:03:51+00:00",
+      "summary": "OpenAI 发表技术文章，介绍其在编码评估中分离信号与噪声的新方法。该研究旨在提升 AI 模型代码生成能力的评测准确度，避免因测试集污染或评估指标偏差导致的误判。文章详细讨论了如何通过更好的基准设计、更细粒度的错误分类以及动态难度调整，来更真实地反映模型的实际编程能力。这项工作对于当前大模型在软件工程领域的应用评估具有重要指导意义，有助于开发者更理性地选择和使用编码 AI 工具。",
+      "snark": "OpenAI 终于发现 AI 代码评测有噪声了？建议先给自己的模型降降噪。",
+      "multiSource": [
+        "Hacker News",
+        "OpenAI Blog"
+      ]
+    },
+    {
+      "id": 5,
+      "cat": "tool",
+      "title": "Netflix AI 团队通过拆分 Cassandra 分区将读取延迟从秒级降至毫秒级",
+      "title_en": "Netflix AI Team Cuts Wide-Partition Read Latency from Seconds to Milliseconds by Splitting Cassandra Partitions Per ID",
+      "source": "MarkTechPost",
+      "url": "https://www.marktechpost.com/2026/07/08/netflix-ai-team-cuts-wide-partition-read-latency-from-seconds-to-milliseconds-by-splitting-cassandra-partitions-per-id/",
+      "time": "3小时前",
+      "published": "2026-07-08T21:00:58+00:00",
+      "summary": "Netflix 工程师详细介绍了他们处理 Apache Cassandra 中宽分区问题的方案，用于时间序列抽象层。两种方法协同工作：时间切片重新分区在表级别调整未来分区，而动态分区检测并按时间序列 ID 拆分过大的分区。通过 AI 驱动的分区策略，Netflix 成功将宽分区读取延迟从秒级降低到毫秒级。这一优化显著提升了 Netflix 流媒体基础设施中时间序列数据的查询性能，为大规模实时数据分析提供了关键支持。",
+      "snark": "Netflix 工程师：延迟从秒到毫秒，用户：'我还在找遥控器'。"
+    },
+    {
+      "id": 6,
+      "cat": "tool",
+      "title": "Google 深度伪造检测系统成功识别麦康奈尔恶搞图片",
+      "title_en": "Google’s deepfake detector system used to debunk McConnell hoax pic",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/07/08/googles-deepfake-detector-system-used-to-debunk-mcconnell-hoax-pic/",
+      "time": "3小时前",
+      "published": "2026-07-08T20:37:03+00:00",
+      "summary": "本周早些时候，一张显示肯塔基州参议员 Mitch McConnell 躺在病床上、全身插满管子的图片在社交媒体传播。经 Google 深度伪造检测系统验证，该图片为 AI 生成的假图。Google 的系统通过分析图像中的数字伪影、光照不一致性和面部特征异常，成功识别出伪造痕迹。这一事件凸显了深度伪造检测技术在政治谣言和虚假信息防控中的关键作用，也展示了 Google 在 AI 安全领域的技术积累。",
+      "snark": "McConnell 看了假图：'我还没死呢！' AI：'但你看起来快被 P 死了。'"
+    },
+    {
+      "id": 7,
+      "cat": "model",
+      "title": "SpaceXAI 发布 Grok 4.5，Elon 称其为 Opus 级别模型",
+      "title_en": "SpaceXAI releases Grok 4.5, which Elon describes as an ‘Opus-class model’",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/07/08/spacexai-releases-grok-4-5-which-elon-describes-as-an-opus-class-model/",
+      "time": "4小时前",
+      "published": "2026-07-08T19:30:16+00:00",
+      "summary": "Elon Musk 旗下 SpaceXAI 于周三发布最新版 Grok 4.5，宣称这是一款更便宜、更高效的替代方案。该模型在编程、智能体任务和知识工作方面表现突出，推理速度达 80 TPS，输入价格每百万 token 仅 2 美元。Elon Musk 在社交媒体上称其为“Opus 级别模型”，直接对标 Anthropic 的 Claude Opus 系列。Grok 4.5 的发布进一步加剧了 AI 模型市场的价格战，尤其在高性能低成本模型领域。",
+      "snark": "Elon 说 Opus 级别，Anthropic 说 '你礼貌吗？'"
+    },
+    {
+      "id": 8,
+      "cat": "strategy",
+      "title": "初创公司 General Intuition 认为机器人技术即将迎来 ChatGPT 时刻",
+      "title_en": "This startup thinks robotics is about to have its ChatGPT moment",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/07/08/this-startup-thinks-robotics-is-about-to-have-its-chatgpt-moment/",
+      "time": "4小时前",
+      "published": "2026-07-08T19:19:15+00:00",
+      "summary": "初创公司 General Intuition 押注数百万小时的视频游戏数据可用于训练物理 AI 的基础模型，从而用最少的真实世界数据构建更智能的机器人。该公司 CEO 认为，大型语言模型在理解空间和时间动态方面存在不足，而视频游戏数据提供了丰富的物理交互场景。通过让 AI 在虚拟环境中学习物体操控、导航和因果关系，机器人有望突破当前数据瓶颈，实现类似 ChatGPT 的通用能力跃迁。",
+      "snark": "用游戏数据训练机器人？小心它学会 '原地跳起来踩蘑菇'。"
+    },
+    {
+      "id": 9,
+      "cat": "tool",
+      "title": "Google AI Studio 新增从 GitHub 导入功能，可将仓库转为可编辑应用",
+      "title_en": "Google AI Studio Adds ‘Import from GitHub’ to Build Mode, Turning an Existing Repo Into an Editable, Deployable App",
+      "source": "MarkTechPost",
+      "url": "https://www.marktechpost.com/2026/07/08/google-ai-studio-adds-import-from-github-to-build-mode/",
+      "time": "5小时前",
+      "published": "2026-07-08T18:41:57+00:00",
+      "summary": "Google AI Studio 正在推出 Build 模式中的“从 GitHub 导入”功能。该功能可将现有 GitHub 仓库转换为运行时兼容格式，开发者随后可以直接在 AI Studio 中迭代、部署和应用。这一更新极大简化了从代码到 AI 应用的流程，降低了开发者将现有项目集成 AI 功能的门槛。Google 旨在通过此功能吸引更多开发者使用其 AI 平台，加速 AI 应用的原型设计和落地。",
+      "snark": "Google：'从 GitHub 导入吧！' 开发者：'然后你的服务就下线了？'"
+    },
+    {
+      "id": 10,
+      "cat": "tool",
+      "title": "Google Photos 新增 AI 视频混音工具",
+      "title_en": "Google Photos adds a new AI ‘Video Remix’ tool",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/07/08/google-photos-adds-a-new-ai-video-remix-tool/",
+      "time": "5小时前",
+      "published": "2026-07-08T18:30:08+00:00",
+      "summary": "Google Photos 推出全新 AI 视频混音工具，能够对视频进行智能编辑。该功能可以应用电影级重新照明来提亮暗部场景，将普通背景替换为有趣场景，或为视频添加艺术风格。用户无需专业剪辑技能即可快速制作高质量视频内容。这一更新是 Google 将 AI 能力融入消费级产品的又一举措，旨在提升用户生成内容的创意性和趣味性，同时巩固 Google Photos 在云相册市场的竞争力。",
+      "snark": "视频混音？我更需要 AI 帮我找出去年旅游视频里那只猫。"
+    },
+    {
+      "id": 11,
+      "cat": "model",
+      "title": "OpenAI 发布 GPT-Live 和 GPT-Live-1 mini：全双工语音模型，深度推理委托给 GPT-5.5",
+      "title_en": "OpenAI Releases GPT-Live and GPT-Live-1 mini: Full-Duplex Voice Models That Delegate Deeper Reasoning to GPT-5.5",
+      "source": "MarkTechPost",
+      "url": "https://www.marktechpost.com/2026/07/08/openai-releases-gpt-live-and-gpt-live-1-mini-full-duplex-voice-models-that-delegate-deeper-reasoning-to-gpt-5-5/",
+      "time": "6小时前",
+      "published": "2026-07-08T18:08:21+00:00",
+      "summary": "OpenAI 发布新一代语音模型 GPT-Live 及其轻量版 GPT-Live-1 mini，现已为 ChatGPT 语音功能提供支持。该模型采用全双工架构，能够同时进行听和说，实现实时自然对话。GPT-Live 将深度搜索和推理任务委托给 GPT-5.5 处理，自身专注于低延迟的语音交互。这一设计既保证了对话的流畅性，又通过分工实现了复杂问题的准确回答。GPT-Live 的发布标志着 AI 语音交互进入全双工时代。",
+      "snark": "GPT-Live：'我能同时听和说！' 用户：'那你能听懂我的口音吗？'"
+    },
+    {
+      "id": 12,
+      "cat": "strategy",
+      "title": "CEO 认为视频游戏比互联网更适合训练 AI 数据",
+      "title_en": "Why this CEO thinks video games make better training data than the internet",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/video/why-this-ceo-thinks-video-games-make-better-training-data-than-the-internet/",
+      "time": "6小时前",
+      "published": "2026-07-08T17:47:55+00:00",
+      "summary": "该 CEO 指出，在实现通用人工智能的道路上，大型语言模型存在根本性不足。像 ChatGPT 和 Claude 这样的模型虽然擅长文本处理，但在理解物体如何在空间和时间中实际运动方面能力较弱。视频游戏数据提供了丰富的物理交互、因果推理和多模态信息，能够训练 AI 理解真实世界的动态。他认为，通过游戏数据训练的模型有望弥补当前 AI 在物理世界认知上的短板，是实现 AGI 的关键路径。",
+      "snark": "CEO：'游戏数据比互联网好！' 玩家：'那我打游戏算是在训练 AI 吗？'"
+    }
+  ],
+  "stats": {
+    "total": 12,
+    "model_count": 3,
+    "strategy_count": 4,
+    "tool_count": 5,
+    "policy_count": 0
+  }
+}

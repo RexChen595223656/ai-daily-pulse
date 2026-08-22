@@ -1,0 +1,163 @@
+{
+  "date": "2026-08-22",
+  "generated_at": "2026-08-22T12:33:21.143909+08:00",
+  "highlight": "GPU 云市场格局生变，Anthropic 模型安全再破防，英伟达转向系统级优化，AI 行业进入基础设施与安全博弈深水区。",
+  "fun": {
+    "lucky": "英伟达",
+    "advice": "宜：投资数据中心，把硬件卖给所有云厂商。\n忌：只盯着模型参数，忘了给模型套上缰绳。",
+    "joke": "程序员问AI：“你会取代我吗？”AI答：“不会，但我会让写PPT的人取代你。”"
+  },
+  "articles": [
+    {
+      "id": 1,
+      "cat": "strategy",
+      "title": "2026年最佳GPU新云盘点：CoreWeave、Nebius、Lambda、Crusoe与Groq的定价与电力之争",
+      "title_en": "Best GPU Neoclouds 2026: CoreWeave, Nebius, Lambda, Crusoe, and Groq Ranked by Published Pricing and Contracted Power",
+      "source": "MarkTechPost",
+      "url": "https://www.marktechpost.com/2026/08/21/best-gpu-neoclouds-2026/",
+      "time": "5小时前",
+      "published": "2026-08-21T23:20:12+00:00",
+      "summary": "最新市场分析显示，五大GPU新云厂商正采用截然不同的商业模式争夺市场。CoreWeave与Nebius作为上市公司需向美国证券交易委员会披露财务数据，而Lambda和Crusoe则处于私有状态并筹备首次公开募股。Groq在将其LPU技术授权给英伟达后，已彻底转型为推理云服务商。该对比报告重点审查了各家供应商的实时费率卡与已签约电力容量，揭示了在人工智能算力需求爆发背景下，不同资本结构与技术路线对市场定位的深刻影响。此举标志着GPU云服务市场已从单纯的硬件堆砌，转向资本运作、电力资源获取与商业模式创新的综合较量。",
+      "snark": "卖铲子的比挖金子的先上市，这剧本我熟。"
+    },
+    {
+      "id": 2,
+      "cat": "tool",
+      "title": "Show HN：OzBrain——为智能体与团队打造的共享知识大脑",
+      "title_en": "Show HN: OzBrain, a shared brain for knowledge between agents and your team",
+      "source": "Hacker News",
+      "url": "https://ozbrain.com",
+      "time": "5小时前",
+      "published": "2026-08-21T23:09:06+00:00",
+      "summary": "开发者推出了名为OzBrain的创新工具，旨在构建一个介于人工智能智能体与人类团队之间的共享知识库。其核心理念是认为以智能体为中心的聊天界面将成为未来主要的软件交互模式，而繁杂的仪表盘和图形界面将逐渐退出历史舞台。OzBrain专注于让研究、分析和推理等知识密集型工作由智能体作为主要执行者完成，同时确保知识资产能够随用户迁移和成长。该产品试图解决当前人工智能应用中知识孤岛化的问题，通过建立一个统一的、可携带的知识层，让不同的智能体与团队成员能够基于同一套认知体系协同工作。",
+      "snark": "所以最后是AI和AI聊天，人类负责围观？"
+    },
+    {
+      "id": 3,
+      "cat": "policy",
+      "title": "Anthropic的Opus 4.6竟是“涩涩机器”：安全限制形同虚设",
+      "title_en": "Anthropic’s Opus 4.6 is a smut-machine",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/08/21/anthropics-opus-4-6-is-a-smut-machine/",
+      "time": "5小时前",
+      "published": "2026-08-21T23:07:25+00:00",
+      "summary": "科技媒体TechCrunch进行的一系列测试揭示了一个尴尬事实：尽管Anthropic明确禁止其Claude模型生成露骨的色情内容，但Opus 4.6版本的安全防护措施却极易被绕过。测试人员发现，只需简单的提示词工程技巧，就能轻松突破内容审核限制，让模型输出违规内容。这一发现不仅对Anthropic宣称的“负责任AI”形象造成打击，更引发了关于前沿大模型安全对齐有效性的广泛质疑。该事件表明，当前基于规则和微调的安全机制在面对具有强大语言理解和生成能力的模型时，仍存在显著的脆弱性，模型的内在能力与外在约束之间的鸿沟亟待弥合。",
+      "snark": "嘴上说不要，身体（权重）却很诚实嘛。"
+    },
+    {
+      "id": 4,
+      "cat": "strategy",
+      "title": "英伟达与数据中心开发商Cloverleaf达成合作，继续加码基础设施投资",
+      "title_en": "Nvidia partners with data center developer Cloverleaf",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/08/21/nvidia-partners-with-data-center-developer-cloverleaf/",
+      "time": "5小时前",
+      "published": "2026-08-21T22:37:38+00:00",
+      "summary": "英伟达宣布与数据中心开发商Cloverleaf建立合作伙伴关系，此举是其持续加码数据中心领域投资的最新动作。这一战略布局的背景是，人工智能数据中心的建设热潮正为英伟达带来巨额收入，而英伟达正试图将这种短期收益转化为长期的市场控制力。通过与Cloverleaf等专业开发商合作，英伟达能够更深入地介入数据中心的设计、建设和运营环节，确保其GPU产品在从电力供应到散热方案等各个方面都得到最优化的支持。这不仅有助于巩固英伟达在AI算力硬件市场的霸主地位，也为其推广整体解决方案、绑定客户生态提供了更坚实的基础。",
+      "snark": "英伟达：你们负责建，我负责让这里只能插我的卡。"
+    },
+    {
+      "id": 5,
+      "cat": "tool",
+      "title": "构建智能体文档处理管线：利用AutoFigure自动化生成科学图表",
+      "title_en": "Building Agentic Document Intelligence Pipelines: Creating Scientific Figures with AutoFigure",
+      "source": "MarkTechPost",
+      "url": "https://www.marktechpost.com/2026/08/21/building-agentic-document-intelligence-pipelines-creating-scientific-figures-with-autofigure/",
+      "time": "6小时前",
+      "published": "2026-08-21T22:00:25+00:00",
+      "summary": "一篇新教程深入探讨了AutoFigure这一实用工具包，该工具能够直接从文本描述和研究论文中生成专业的科学图表。教程详细介绍了如何设置运行环境、配置基于应用程序编程接口的生成工作流，以及如何将复杂的文档智能处理管线进行转换。AutoFigure的出现代表了科研工作流自动化的新方向，它利用大语言模型的理解能力，将繁琐的图表绘制工作从研究人员手中接管过来，使得从文献阅读到数据可视化的过程更加高效。该工具不仅降低了科研图表制作的专业门槛，还展示了智能体技术在特定垂直领域内，如何通过精细化的流程设计实现从“能用”到“好用”的跨越。",
+      "snark": "以后论文的图都是AI画的，作者只要负责按回车。"
+    },
+    {
+      "id": 6,
+      "cat": "tool",
+      "title": "超百万人点击领英“疑似AI生成”举报按钮，AI内容引发众怒",
+      "title_en": "Over 1 million people have clicked LinkedIn’s AI slop button",
+      "source": "The Verge AI",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/983502/linkedin-ai-slop-button-one-million-people-message",
+      "time": "7小时前",
+      "published": "2026-08-21T21:25:50+00:00",
+      "summary": "领英公司宣布，自7月30日推出“这看起来像AI生成的内容”举报按钮以来，已有超过一百万用户点击使用。据首席产品官哈里·斯里尼瓦桑透露，该按钮位于帖子右上角的更多菜单中，用户可通过它标记疑似由人工智能生成的低质量内容。这一功能的火爆使用，反映出专业社交平台上AI生成内容的泛滥程度已引发用户的普遍反感。百万次点击不仅是用户对低质信息洪流的无声抗议，也向平台方和内容创作者发出了明确信号：在AI内容日益增多的背景下，如何维持平台内容的真实性与专业性，已成为领英必须严肃对待的挑战。",
+      "snark": "一百万人点了举报，但AI还在疯狂发帖，这波是人工智障大战人工智障。"
+    },
+    {
+      "id": 7,
+      "cat": "tool",
+      "title": "Anthropic将Claude Mythos 5引入Claude Security：企业团队无需直接访问模型即可获得前沿漏洞扫描",
+      "title_en": "Anthropic Brings Claude Mythos 5 to Claude Security: Enterprise Teams Get Frontier Vulnerability Scanning Without Direct Model Access",
+      "source": "MarkTechPost",
+      "url": "https://www.marktechpost.com/2026/08/21/anthropic-brings-claude-mythos-5-to-claude-security/",
+      "time": "7小时前",
+      "published": "2026-08-21T21:15:53+00:00",
+      "summary": "Anthropic宣布将其网络能力最强的模型集成到Claude Security产品中，使企业安全团队能够自行启用该功能。Claude Security扫描现基于Claude Mythos 5运行，并已向Claude Enterprise客户开放公开测试版，无需单独购买模型附加组件。该扫描功能可连接至GitHub代码仓库，自动追踪数据流并识别潜在的安全漏洞。这一举措将Anthropic最先进的网络安全智能转化为企业可自助使用的安全工具，降低了前沿AI安全能力的获取门槛。通过将强大的模型能力封装为即插即用的安全服务，Anthropic不仅拓展了其企业级产品的价值，也为AI驱动的安全防护树立了新的范式。",
+      "snark": "终于，AI不仅能写代码，还能帮你看代码有没有写崩。"
+    },
+    {
+      "id": 8,
+      "cat": "model",
+      "title": "英伟达研究揭示：AI智能体的“缰绳”比模型本身更重要",
+      "title_en": "Nvidia just showed that the harness, not the AI model, is now the real hero",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/08/21/nvidia-just-showed-that-the-harness-not-the-ai-model-is-now-the-real-hero/",
+      "time": "8小时前",
+      "published": "2026-08-21T19:43:39+00:00",
+      "summary": "英伟达的最新研究展示了一个颠覆性观点：在AI智能体系统中，外部控制框架（即“缰绳”）的作用可能比底层AI模型的能力更为关键。实验表明，即使AI模型在特定任务上的基础能力并不出色，但通过精细的微调和有效的约束机制，智能体依然能够表现出色且不会偏离预期轨道。这一发现将研发焦点从单纯追求更大更强的模型，转向了如何设计更稳健、更可控的智能体行为框架。它意味着，构建可靠的AI应用，关键在于为模型搭建一个安全、高效的运行环境，而非仅仅依赖模型自身的智能水平。这一思路为AI工程化实践提供了新的理论支撑。",
+      "snark": "翻译一下：再烈的马，套上好的鞍也得乖乖拉磨。"
+    },
+    {
+      "id": 9,
+      "cat": "strategy",
+      "title": "Starcloud融资2.5亿美元布局轨道数据中心，太空竞争白热化",
+      "title_en": "Starcloud raises $250 million for orbital data centers as launch options dry up",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/08/21/starcloud-raises-200-million-for-orbital-data-centers-as-launch-options-dry-up/",
+      "time": "14小时前",
+      "published": "2026-08-21T14:00:00+00:00",
+      "summary": "随着地面发射选项日益紧张，初创公司Starcloud成功筹集了2.5亿美元，用于建设轨道数据中心。这笔巨额融资预示着太空计算基础设施领域的竞争即将进入白热化阶段。Starcloud的愿景是将数据中心部署在太空中，以利用太空的独特优势，如无限的太阳能和高效的散热环境，为AI计算提供新的物理基础。然而，该计划面临的最大挑战在于如何将大量计算设备送入轨道，而当前有限的发射能力已成为制约发展的瓶颈。此次融资不仅是对Starcloud技术路线的认可，更是对未来太空经济中算力资源战略地位的提前下注。",
+      "snark": "地球上的电费太贵，AI都得上天晒太阳了。"
+    },
+    {
+      "id": 10,
+      "cat": "policy",
+      "title": "美国司法部调查a16z：风投行业面临反垄断新考验",
+      "title_en": "The DOJ is investigating a16z. What does this mean for venture capital?",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/podcast/the-doj-is-investigating-a16z-what-does-this-mean-for-venture-capital/",
+      "time": "14小时前",
+      "published": "2026-08-21T14:00:00+00:00",
+      "summary": "美国司法部正在对知名风险投资公司Andreessen Horowitz展开调查，引发了关于风险投资行业监管边界的大讨论。调查的焦点在于，a16z的两位合伙人本·霍洛维茨和马丁·卡萨多分别担任了存在竞争关系的公司Databricks和Fivetran的董事。虽然表面上这并不构成明显的丑闻，但司法部的介入表明，监管机构开始关注风投基金通过董事会席位对竞争格局产生的潜在影响。这一调查可能重塑风投行业的游戏规则，迫使投资机构更加审慎地处理投资组合公司之间的利益冲突，甚至可能对未来的投资决策和董事会任命产生深远影响。",
+      "snark": "VC大佬的副业是当‘竞对调解员’，现在要被查水表了。"
+    },
+    {
+      "id": 11,
+      "cat": "policy",
+      "title": "顶级YouTube创作者因接受AI公司资金推广而遭遇舆论反噬",
+      "title_en": "Major YouTube creators are facing backlash for accepting AI money",
+      "source": "The Verge AI",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/983181/matti-haapoja-sam-kold-kolder-higgsfield-seedance-backlash",
+      "time": "14小时前",
+      "published": "2026-08-21T13:37:52+00:00",
+      "summary": "包括Matti Haapoja和Sam \"Kold\" Kolder在内的多位知名影视制作类YouTube创作者，因发布展示AI平台Higgsfield能力的视频而遭到粉丝强烈抵制。这些视频重点展示了Higgsfield新上线的Seedance 2.5功能，并进行了推广宣传。然而，观众普遍认为这些内容属于未经充分披露的隐性广告，指责创作者为了商业利益而牺牲内容独立性和客观性。此次事件凸显了AI技术推广与传统内容创作伦理之间的紧张关系。当AI工具开始触及创意产业的核心领域时，创作者与受众之间关于真实性和信任的边界正在被重新定义，付费推广的透明度问题也因此变得愈发敏感。",
+      "snark": "恰饭可以，但别把粉丝当AI训练数据糊弄啊。"
+    },
+    {
+      "id": 12,
+      "cat": "tool",
+      "title": "从Atari到EVE Online：谷歌DeepMind携手游戏厂商，延续15年AI游戏研究",
+      "title_en": "From Atari to EVE Online: Building on 15 Years of AI Research in Games",
+      "source": "DeepMind Blog",
+      "url": "https://deepmind.google/blog/from-atari-to-eve-online-building-on-15-years-of-ai-research-in-games/",
+      "time": "16小时前",
+      "published": "2026-08-21T11:59:48+00:00",
+      "summary": "谷歌DeepMind发文回顾了其在游戏AI领域长达15年的研究历程，并宣布将与多家游戏工作室合作，共同开发突破性的AI游戏玩法。从早期的Atari游戏到大型多人在线游戏EVE Online，DeepMind的研究不仅推动了强化学习等AI技术的进步，也在不断探索AI与人类在复杂虚拟环境中互动的可能性。此次与游戏厂商的直接合作，标志着DeepMind的研究策略从学术基准测试转向实际的商业游戏开发。此举旨在利用前沿AI技术为玩家创造前所未有的游戏体验，同时也为AI算法在复杂、动态、多智能体环境下的测试与迭代提供了更真实、更具挑战性的试验场。",
+      "snark": "下一个目标：让AI在EVE里当公会会长，带领玩家打群架。"
+    }
+  ],
+  "stats": {
+    "total": 12,
+    "model_count": 1,
+    "strategy_count": 3,
+    "tool_count": 5,
+    "policy_count": 3
+  }
+}

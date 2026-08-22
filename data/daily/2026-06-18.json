@@ -1,0 +1,167 @@
+{
+  "date": "2026-06-18",
+  "generated_at": "2026-06-18T08:08:05.453465+08:00",
+  "highlight": "OpenAI 年亏损数百亿美元、Anthropic 因出口管制断服，AI 行业烧钱与地缘风险齐飞。",
+  "fun": {
+    "lucky": "Anthropic Claude",
+    "advice": "宜：研究碳抵消方案，给模型买份政治保险。\n忌：把服务器全放美国，小心被一键关机。",
+    "joke": "AI 写代码时自言自语：'这个 bug 我改不了，但可以生成一个能改它的 AI。'"
+  },
+  "articles": [
+    {
+      "id": 1,
+      "cat": "policy",
+      "title": "外卖平台新规征求意见：不得以长期大额补贴扰乱市场秩序",
+      "title_en": "8点1氪丨山姆首席采购官张青已提交辞呈；豆包每天收入不足百万；不得以长期、大额补贴扰乱市场秩序，外卖平台新规公开征求意见",
+      "source": "36氪",
+      "url": "https://36kr.com/p/3857925631104004?f=rss",
+      "time": "1分钟前",
+      "published": "2026-06-18T00:07:03+00:00",
+      "summary": "今日热点导览涵盖多个领域，包括 SpaceX 华裔女工程师辟谣、国内成品油价即将两连跌、必胜客中国对外投资超 60 家企业、苹果拟明年推出带摄像头的 AirPods 和新一代折叠屏 iPhone，以及 OpenAI 在 2026 年前三个月烧钱 37 亿美元。监管约谈山姆后，沃尔玛中国多位高管变动：山姆首席采购官张青已提交辞呈，现任沃尔玛国际部战略副总裁 Tony Paladinetti 将加入沃尔玛中国担任战略副总裁，直接向朱晓静汇报，预计 2026 年 8 月正式入职。",
+      "snark": "补贴大战还没打完，监管就先喊停了，外卖小哥表示：那我到底该跑哪家？"
+    },
+    {
+      "id": 2,
+      "cat": "strategy",
+      "title": "泄露财务文件显示 OpenAI 每年亏损数十亿美元",
+      "title_en": "Leaked financial docs show OpenAI is losing billions of dollars a year",
+      "source": "Hacker News",
+      "url": "https://arstechnica.com/ai/2026/06/leaked-financial-docs-show-openai-is-losing-billions-of-dollars-a-year/",
+      "time": "2小时前",
+      "published": "2026-06-17T21:31:35+00:00",
+      "summary": "Ars Technica 报道，一份泄露的财务文件显示 OpenAI 正以每年数十亿美元的规模持续亏损。尽管 ChatGPT 和 API 业务收入增长迅猛，但高昂的 GPU 算力成本、模型训练费用以及人才薪酬让公司入不敷出。2026 年前三个月烧钱 37 亿美元的数据与此吻合。这揭示了当前 AI 头部公司普遍面临的盈利困境：技术领先不等于商业成功，烧钱换市场的模式正面临越来越大的财务压力。",
+      "snark": "OpenAI 的亏损速度比 GPT-5 的推理速度还快，建议改行卖 GPU 租赁。"
+    },
+    {
+      "id": 3,
+      "cat": "tool",
+      "title": "机器人朝你跑来：你希望它运行 Claude 还是 Grok？",
+      "title_en": "A robot is sprinting towards you. Do you want it running on Claude or Grok?",
+      "source": "Hacker News",
+      "url": "https://openrouter.ai/blog/insights/royale-last-agent-standing/",
+      "time": "3小时前",
+      "published": "2026-06-17T21:00:07+00:00",
+      "summary": "OpenRouter 发布了一项趣味性对比测试，让 Claude 和 Grok 分别控制机器人执行紧急避障与目标追踪任务。结果显示，Claude 在安全性和决策可解释性上更优，倾向于保守停障；而 Grok 则更激进，追求高速冲刺但偶尔撞墙。该实验旨在探讨不同大模型作为机器人“大脑”时的行为差异，为具身智能的模型选型提供参考。",
+      "snark": "选 Claude 的机器人会礼貌地请你让路，选 Grok 的直接把你撞飞再道歉。"
+    },
+    {
+      "id": 4,
+      "cat": "strategy",
+      "title": "前红杉资本合伙人 Roelof Botha 加入 SpaceX 董事会",
+      "title_en": "Roelof Botha joins SpaceX’s board of directors",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/06/17/roelof-botha-joins-spacexs-board-of-directors/",
+      "time": "3小时前",
+      "published": "2026-06-17T20:32:52+00:00",
+      "summary": "TechCrunch 消息，前红杉资本全球管理合伙人 Roelof Botha 已正式加入 SpaceX 董事会，填补一个“现有空缺”。就在几天前，SpaceX 完成了史上最大规模的 IPO。Botha 拥有丰富的科技投资经验，曾主导对 YouTube、Square 等公司的投资。他的加入被视为 SpaceX 在上市后强化公司治理、推动商业航天业务多元化的关键一步。",
+      "snark": "SpaceX 董事会终于凑齐了懂火箭的人和懂钱的人，就差一个懂火星房地产的了。"
+    },
+    {
+      "id": 5,
+      "cat": "strategy",
+      "title": "Snap 发布天价 AR 眼镜后股价大跌",
+      "title_en": "After unveiling ridiculously expensive AR glasses, Snap’s stock takes a dive",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/06/17/after-unveiling-ridiculously-expensive-ar-glasses-snaps-stock-takes-a-dive/",
+      "time": "3小时前",
+      "published": "2026-06-17T20:24:28+00:00",
+      "summary": "Snap 公司终于发布了备受期待的增强现实智能眼镜，但其高昂的定价令市场大失所望，导致股价应声下跌。该眼镜集成了先进的波导显示和手势识别技术，但售价远超 Meta 和苹果的同类产品。分析师指出，在消费者对 AR 硬件接受度仍有限的当下，过高的定价策略难以打开大众市场，Snap 的 AR 转型之路面临严峻挑战。",
+      "snark": "Snap 的 AR 眼镜定价让用户流泪，让股东流血，让竞争对手笑醒。"
+    },
+    {
+      "id": 6,
+      "cat": "strategy",
+      "title": "NEA 投资人：企业仍在摸索 AI 投资回报率",
+      "title_en": "NEA’s Tiffany Luck says enterprises are still figuring out their AI ROI",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/video/neas-tiffany-luck-says-enterprises-are-still-figuring-out-their-ai-roi/",
+      "time": "3小时前",
+      "published": "2026-06-17T20:17:38+00:00",
+      "summary": "NEA 合伙人 Tiffany Luck 在 TechCrunch 访谈中指出，企业界正经历一场“AI ROI 清算”。此前硅谷流行“Tokenmaxxing”运动，CEO 们鼓励员工无上限使用 AI 工具，结果 Uber 等公司数月内烧光全年 AI 预算。如今企业纷纷削减 Claude 等产品的许可证数量，开始认真计算每笔 AI 支出的实际回报。她认为，AI 应用落地必须从“炫技”转向“降本增效”的务实阶段。",
+      "snark": "Tokenmaxxing 的本质：让员工用 AI 写诗，然后 CFO 用 Excel 算亏了多少钱。"
+    },
+    {
+      "id": 7,
+      "cat": "tool",
+      "title": "AI 编程智能体教会机器人安装 GPU 和剪扎带",
+      "title_en": "AI coding agents taught robots how to install GPUs and cut zip ties",
+      "source": "Ars Technica",
+      "url": "https://arstechnica.com/ai/2026/06/ai-coding-agents-can-autonomously-direct-robot-training/",
+      "time": "4小时前",
+      "published": "2026-06-17T19:25:19+00:00",
+      "summary": "Nvidia 推出了一项自我改进的机器人训练计划，利用多组 AI 编程智能体协同工作。这些智能体可以自主编写训练脚本、调整强化学习参数，并指导实体机器人完成精细操作任务，包括安装 GPU 和剪断扎带。与传统人工编写训练代码相比，该方法大幅降低了机器人部署的人力成本，展示了 AI 智能体在自动化训练流水线中的巨大潜力。",
+      "snark": "以后机器人造反的第一步：拔掉自己的 GPU 再装回去，以示抗议。"
+    },
+    {
+      "id": 8,
+      "cat": "policy",
+      "title": "各国领导人担忧美国 AI 被“一键关闭”",
+      "title_en": "World leaders want American AI. They just don’t want America to be able to turn it off.",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/06/17/world-leaders-want-american-ai-they-just-dont-want-america-to-be-able-to-turn-it-off/",
+      "time": "5小时前",
+      "published": "2026-06-17T19:01:19+00:00",
+      "summary": "在 G7 峰会上，法国总统马克龙和印度总理莫迪发出警告，担忧美国可能随时切断对盟友的 AI 服务访问。这一担忧因 Anthropic 近期因出口管制导致全球服务中断事件而变得更加真实。领导人们呼吁建立更分散的 AI 基础设施，减少对单一国家技术栈的依赖，确保关键 AI 服务的连续性和主权可控性。",
+      "snark": "美国 AI 的开关现在比核按钮还敏感，建议加个儿童安全锁。"
+    },
+    {
+      "id": 9,
+      "cat": "strategy",
+      "title": "Anthropic 成为首家加入 Frontier 碳去除联盟的 AI 公司",
+      "title_en": "Anthropic becomes first AI startup to join the Frontier carbon removal coalition",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/06/17/anthropic-becomes-first-ai-startup-to-join-the-frontier-carbon-removal-coalition/",
+      "time": "5小时前",
+      "published": "2026-06-17T18:30:56+00:00",
+      "summary": "Anthropic 宣布加入 Frontier 碳去除联盟，该联盟刚刚获得 9.15 亿美元的额外承诺资金，用于资助直接空气捕获等碳去除技术项目。作为第一家参与该联盟的 AI 初创公司，Anthropic 希望通过购买碳去除信用额来抵消其日益增长的算力碳排放。此举也反映了 AI 行业在环保压力下寻求绿色转型的趋势。",
+      "snark": "Anthropic 一边烧电训练模型，一边花钱买碳信用，精神分裂式环保。"
+    },
+    {
+      "id": 10,
+      "cat": "policy",
+      "title": "Anthropic 遭模糊出口管制重创，被迫全球断服",
+      "title_en": "Anthropic got hit by export rules nobody understands",
+      "source": "The Verge AI",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/951703/anthropic-shutdown-export-controls",
+      "time": "5小时前",
+      "published": "2026-06-17T18:28:50+00:00",
+      "summary": "The Verge 报道，特朗普政府突然发布行政命令，要求 Anthropic 切断对所有外国国民的模型访问权限，包括美国境内的外国用户和公司外籍员工。Anthropic 被迫紧急下线其最新模型 Fable 5 和 Mythos 5，全球服务陷入混乱。公司高管表示，出口管制规则定义极其模糊，合规成本高昂，且严重损害了公司国际业务和开源生态。",
+      "snark": "Anthropic 的模型现在比国家机密还机密，连自己员工都得先查护照。",
+      "multiSource": [
+        "The Verge",
+        "The Verge AI"
+      ]
+    },
+    {
+      "id": 11,
+      "cat": "tool",
+      "title": "社交媒体下一站：用户可控算法推荐",
+      "title_en": "Social media’s next evolution: user-controlled algorithms",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/06/17/social-medias-next-evolution-user-controlled-algorithms/",
+      "time": "5小时前",
+      "published": "2026-06-17T18:19:48+00:00",
+      "summary": "Threads、Instagram 和 TikTok 等平台正在推出新功能，允许用户直接调整推荐算法。例如用户可设置内容偏好权重、屏蔽特定话题或选择“探索模式”与“熟悉模式”。这一趋势标志着社交媒体从“算法黑箱”向“用户可控”的转变，旨在缓解信息茧房效应并提升用户满意度。背后依赖可解释 AI 和在线学习技术的进步。",
+      "snark": "终于可以手动把推荐算法调成“只看猫片”模式了，人类文明倒退回猫奴时代。"
+    },
+    {
+      "id": 12,
+      "cat": "strategy",
+      "title": "NEA 投资人谈 AI IPO、个人智能体与 ROI 算账",
+      "title_en": "NEA’s Tiffany Luck on AI IPOs, personal agents, and the ROI reckoning",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/podcast/neas-tiffany-luck-on-ai-ipos-personal-agents-and-the-roi-reckoning/",
+      "time": "6小时前",
+      "published": "2026-06-17T18:00:00+00:00",
+      "summary": "在 TechCrunch 播客中，NEA 合伙人 Tiffany Luck 深入讨论了 AI 行业的 IPO 前景、个人智能体发展趋势以及企业 ROI 清算。她指出，当前 AI 公司上市面临估值过高和盈利能力不足的双重压力，而个人智能体将成为下一个杀手级应用场景。同时，她警告企业必须建立清晰的 AI 成本核算体系，避免重蹈 Uber 数月烧光 AI 预算的覆辙。",
+      "snark": "AI IPO 的秘诀：先学会算账，再学会讲故事，最后学会别烧钱太快。"
+    }
+  ],
+  "stats": {
+    "total": 12,
+    "model_count": 0,
+    "strategy_count": 6,
+    "tool_count": 3,
+    "policy_count": 3
+  }
+}

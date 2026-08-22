@@ -1,0 +1,161 @@
+{
+  "date": "2026-04-17",
+  "highlight": "大模型安全对齐成为焦点，欧盟和美国同步推进 AI 监管立法",
+  "articles": [
+    {
+      "id": 1,
+      "cat": "model",
+      "title": "Sora 2 公测：OpenAI 视频生成时长扩展至 2 分钟",
+      "title_en": "",
+      "source": "Google AI Blog",
+      "url": "https://example.com/ai-news/6482",
+      "time": "27天前",
+      "published": "2026-04-17T10:55:00+08:00",
+      "summary": "这是一条关于「Sora 2 公测：OpenAI 视频生成时长扩展至 2 分钟」的详细报道。该事件在 AI 行业引发广泛关注，多位业内人士表示这将深刻影响行业格局。更多细节请查看原文。",
+      "snark": "AI圈新闻：今天又是核聚变级别的一天。"
+    },
+    {
+      "id": 2,
+      "cat": "model",
+      "title": "AutoGPT 3.0 发布：自主 AI Agent 可完成复杂商业任务",
+      "title_en": "",
+      "source": "The Verge",
+      "url": "https://example.com/ai-news/1313",
+      "time": "27天前",
+      "published": "2026-04-17T06:19:00+08:00",
+      "summary": "这是一条关于「AutoGPT 3.0 发布：自主 AI Agent 可完成复杂商业任务」的详细报道。该事件在 AI 行业引发广泛关注，多位业内人士表示这将深刻影响行业格局。更多细节请查看原文。",
+      "snark": "AI圈日常：今天你发模型，明天我刷榜。"
+    },
+    {
+      "id": 3,
+      "cat": "model",
+      "title": "GPT-5 发布首个公开预览版，推理能力大幅提升",
+      "title_en": "",
+      "source": "MIT Tech Review",
+      "url": "https://example.com/ai-news/5345",
+      "time": "27天前",
+      "published": "2026-04-17T14:02:00+08:00",
+      "summary": "这是一条关于「GPT-5 发布首个公开预览版，推理能力大幅提升」的详细报道。该事件在 AI 行业引发广泛关注，多位业内人士表示这将深刻影响行业格局。更多细节请查看原文。",
+      "snark": "又双叒叕一个「里程碑」，今年第几个了？"
+    },
+    {
+      "id": 4,
+      "cat": "model",
+      "title": "Mistral Large 3 发布，欧洲 AI 崛起新标志",
+      "title_en": "",
+      "source": "少数派",
+      "url": "https://example.com/ai-news/2023",
+      "time": "27天前",
+      "published": "2026-04-17T19:23:00+08:00",
+      "summary": "这是一条关于「Mistral Large 3 发布，欧洲 AI 崛起新标志」的详细报道。该事件在 AI 行业引发广泛关注，多位业内人士表示这将深刻影响行业格局。更多细节请查看原文。",
+      "snark": "又双叒叕一个「里程碑」，今年第几个了？"
+    },
+    {
+      "id": 5,
+      "cat": "model",
+      "title": "Gemini 2.5 Ultra 发布，多模态基准测试全面领先",
+      "title_en": "",
+      "source": "TechCrunch",
+      "url": "https://example.com/ai-news/2225",
+      "time": "27天前",
+      "published": "2026-04-17T16:14:00+08:00",
+      "summary": "这是一条关于「Gemini 2.5 Ultra 发布，多模态基准测试全面领先」的详细报道。该事件在 AI 行业引发广泛关注，多位业内人士表示这将深刻影响行业格局。更多细节请查看原文。",
+      "snark": "又双叒叕一个「里程碑」，今年第几个了？"
+    },
+    {
+      "id": 6,
+      "cat": "strategy",
+      "title": "AutoGPT 3.0 发布：自主 AI Agent 可完成复杂商业任务",
+      "title_en": "",
+      "source": "Hacker News",
+      "url": "https://example.com/ai-news/7489",
+      "time": "27天前",
+      "published": "2026-04-17T15:45:00+08:00",
+      "summary": "这是一条关于「AutoGPT 3.0 发布：自主 AI Agent 可完成复杂商业任务」的详细报道。该事件在 AI 行业引发广泛关注，多位业内人士表示这将深刻影响行业格局。更多细节请查看原文。",
+      "snark": "这条新闻让同行们集体沉默了3秒，然后继续卷。"
+    },
+    {
+      "id": 7,
+      "cat": "strategy",
+      "title": "ElevenLabs 发布语音克隆 API 2.0：2 秒音频即可完美克隆",
+      "title_en": "",
+      "source": "VentureBeat",
+      "url": "https://example.com/ai-news/2367",
+      "time": "27天前",
+      "published": "2026-04-17T22:23:00+08:00",
+      "summary": "这是一条关于「ElevenLabs 发布语音克隆 API 2.0：2 秒音频即可完美克隆」的详细报道。该事件在 AI 行业引发广泛关注，多位业内人士表示这将深刻影响行业格局。更多细节请查看原文。",
+      "snark": "这条新闻让同行们集体沉默了3秒，然后继续卷。"
+    },
+    {
+      "id": 8,
+      "cat": "strategy",
+      "title": "OpenAI 完成 400 亿美元新一轮融资，估值突破 3000 亿",
+      "title_en": "",
+      "source": "Google AI Blog",
+      "url": "https://example.com/ai-news/1814",
+      "time": "27天前",
+      "published": "2026-04-17T13:57:00+08:00",
+      "summary": "这是一条关于「OpenAI 完成 400 亿美元新一轮融资，估值突破 3000 亿」的详细报道。该事件在 AI 行业引发广泛关注，多位业内人士表示这将深刻影响行业格局。更多细节请查看原文。",
+      "snark": "这条新闻让同行们集体沉默了3秒，然后继续卷。"
+    },
+    {
+      "id": 9,
+      "cat": "strategy",
+      "title": "Stable Diffusion 4 发布，文生图进入 8K 时代",
+      "title_en": "",
+      "source": "The Verge AI",
+      "url": "https://example.com/ai-news/7277",
+      "time": "27天前",
+      "published": "2026-04-17T19:14:00+08:00",
+      "summary": "这是一条关于「Stable Diffusion 4 发布，文生图进入 8K 时代」的详细报道。该事件在 AI 行业引发广泛关注，多位业内人士表示这将深刻影响行业格局。更多细节请查看原文。",
+      "snark": "又双叒叕一个「里程碑」，今年第几个了？"
+    },
+    {
+      "id": 10,
+      "cat": "tool",
+      "title": "Mistral Large 3 发布，欧洲 AI 崛起新标志",
+      "title_en": "",
+      "source": "少数派",
+      "url": "https://example.com/ai-news/8408",
+      "time": "27天前",
+      "published": "2026-04-17T06:15:00+08:00",
+      "summary": "这是一条关于「Mistral Large 3 发布，欧洲 AI 崛起新标志」的详细报道。该事件在 AI 行业引发广泛关注，多位业内人士表示这将深刻影响行业格局。更多细节请查看原文。",
+      "snark": "AI圈新闻：今天又是核聚变级别的一天。"
+    },
+    {
+      "id": 11,
+      "cat": "tool",
+      "title": "Grok-4 发布：xAI 称推理能力业界第一",
+      "title_en": "",
+      "source": "AI News",
+      "url": "https://example.com/ai-news/9971",
+      "time": "27天前",
+      "published": "2026-04-17T12:13:00+08:00",
+      "summary": "这是一条关于「Grok-4 发布：xAI 称推理能力业界第一」的详细报道。该事件在 AI 行业引发广泛关注，多位业内人士表示这将深刻影响行业格局。更多细节请查看原文。",
+      "snark": "又双叒叕一个「里程碑」，今年第几个了？"
+    },
+    {
+      "id": 12,
+      "cat": "tool",
+      "title": "Google DeepMind 重组：AI 研究团队与产品团队合并",
+      "title_en": "",
+      "source": "Ars Technica",
+      "url": "https://example.com/ai-news/7326",
+      "time": "27天前",
+      "published": "2026-04-17T13:13:00+08:00",
+      "summary": "这是一条关于「Google DeepMind 重组：AI 研究团队与产品团队合并」的详细报道。该事件在 AI 行业引发广泛关注，多位业内人士表示这将深刻影响行业格局。更多细节请查看原文。",
+      "snark": "AI圈新闻：今天又是核聚变级别的一天。"
+    }
+  ],
+  "stats": {
+    "total": 12,
+    "model_count": 5,
+    "strategy_count": 4,
+    "tool_count": 3
+  },
+  "fun": {
+    "lucky": "Llama 4 405B",
+    "advice": "宜：开源贡献\n忌：重复造轮子",
+    "joke": "问：前端工程师最怕什么？\n答：产品经理说「就加一个 AI 功能，很简单的」。"
+  }
+}

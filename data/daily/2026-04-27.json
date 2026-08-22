@@ -1,0 +1,161 @@
+{
+  "date": "2026-04-27",
+  "highlight": "AI 医疗影像获批 FDA 三类认证，辅助诊断从试点走向大规模部署",
+  "articles": [
+    {
+      "id": 1,
+      "cat": "model",
+      "title": "中国发布大模型训练新规：数据安全和内容审核成焦点",
+      "title_en": "",
+      "source": "DeepMind Blog",
+      "url": "https://example.com/ai-news/7437",
+      "time": "17天前",
+      "published": "2026-04-27T21:24:00+08:00",
+      "summary": "这是一条关于「中国发布大模型训练新规：数据安全和内容审核成焦点」的详细报道。该事件在 AI 行业引发广泛关注，多位业内人士表示这将深刻影响行业格局。更多细节请查看原文。",
+      "snark": "编辑部：这条我们也不知道怎么评价。"
+    },
+    {
+      "id": 2,
+      "cat": "model",
+      "title": "Cloudflare Workers AI 上线：边缘推理延迟降至 10ms",
+      "title_en": "",
+      "source": "AI News",
+      "url": "https://example.com/ai-news/4836",
+      "time": "17天前",
+      "published": "2026-04-27T22:27:00+08:00",
+      "summary": "这是一条关于「Cloudflare Workers AI 上线：边缘推理延迟降至 10ms」的详细报道。该事件在 AI 行业引发广泛关注，多位业内人士表示这将深刻影响行业格局。更多细节请查看原文。",
+      "snark": "AI圈日常：今天你发模型，明天我刷榜。"
+    },
+    {
+      "id": 3,
+      "cat": "model",
+      "title": "Mistral Large 3 发布，欧洲 AI 崛起新标志",
+      "title_en": "",
+      "source": "TechCrunch",
+      "url": "https://example.com/ai-news/9610",
+      "time": "17天前",
+      "published": "2026-04-27T09:36:00+08:00",
+      "summary": "这是一条关于「Mistral Large 3 发布，欧洲 AI 崛起新标志」的详细报道。该事件在 AI 行业引发广泛关注，多位业内人士表示这将深刻影响行业格局。更多细节请查看原文。",
+      "snark": "这条新闻让同行们集体沉默了3秒，然后继续卷。"
+    },
+    {
+      "id": 4,
+      "cat": "strategy",
+      "title": "Stable Diffusion 4 发布，文生图进入 8K 时代",
+      "title_en": "",
+      "source": "TechCrunch",
+      "url": "https://example.com/ai-news/4076",
+      "time": "17天前",
+      "published": "2026-04-27T11:56:00+08:00",
+      "summary": "这是一条关于「Stable Diffusion 4 发布，文生图进入 8K 时代」的详细报道。该事件在 AI 行业引发广泛关注，多位业内人士表示这将深刻影响行业格局。更多细节请查看原文。",
+      "snark": "又双叒叕一个「里程碑」，今年第几个了？"
+    },
+    {
+      "id": 5,
+      "cat": "strategy",
+      "title": "字节跳动成立万亿参数大模型团队，目标 2027 年赶超 GPT-6",
+      "title_en": "",
+      "source": "DeepMind Blog",
+      "url": "https://example.com/ai-news/7082",
+      "time": "17天前",
+      "published": "2026-04-27T10:24:00+08:00",
+      "summary": "这是一条关于「字节跳动成立万亿参数大模型团队，目标 2027 年赶超 GPT-6」的详细报道。该事件在 AI 行业引发广泛关注，多位业内人士表示这将深刻影响行业格局。更多细节请查看原文。",
+      "snark": "AI圈新闻：今天又是核聚变级别的一天。"
+    },
+    {
+      "id": 6,
+      "cat": "strategy",
+      "title": "中国发布大模型训练新规：数据安全和内容审核成焦点",
+      "title_en": "",
+      "source": "少数派",
+      "url": "https://example.com/ai-news/4887",
+      "time": "17天前",
+      "published": "2026-04-27T11:19:00+08:00",
+      "summary": "这是一条关于「中国发布大模型训练新规：数据安全和内容审核成焦点」的详细报道。该事件在 AI 行业引发广泛关注，多位业内人士表示这将深刻影响行业格局。更多细节请查看原文。",
+      "snark": "AI圈日常：今天你发模型，明天我刷榜。"
+    },
+    {
+      "id": 7,
+      "cat": "strategy",
+      "title": "Notion AI 3.0 发布：AI 原生工作空间，Agent 可自主完成任务",
+      "title_en": "",
+      "source": "DeepMind Blog",
+      "url": "https://example.com/ai-news/4483",
+      "time": "17天前",
+      "published": "2026-04-27T14:10:00+08:00",
+      "summary": "这是一条关于「Notion AI 3.0 发布：AI 原生工作空间，Agent 可自主完成任务」的详细报道。该事件在 AI 行业引发广泛关注，多位业内人士表示这将深刻影响行业格局。更多细节请查看原文。",
+      "snark": "这条新闻让同行们集体沉默了3秒，然后继续卷。"
+    },
+    {
+      "id": 8,
+      "cat": "tool",
+      "title": "AutoGPT 3.0 发布：自主 AI Agent 可完成复杂商业任务",
+      "title_en": "",
+      "source": "Google AI Blog",
+      "url": "https://example.com/ai-news/9890",
+      "time": "17天前",
+      "published": "2026-04-27T09:24:00+08:00",
+      "summary": "这是一条关于「AutoGPT 3.0 发布：自主 AI Agent 可完成复杂商业任务」的详细报道。该事件在 AI 行业引发广泛关注，多位业内人士表示这将深刻影响行业格局。更多细节请查看原文。",
+      "snark": "又双叒叕一个「里程碑」，今年第几个了？"
+    },
+    {
+      "id": 9,
+      "cat": "tool",
+      "title": "Nous Research 发布 Hermes 4：开源指令遵循模型新标杆",
+      "title_en": "",
+      "source": "The Verge AI",
+      "url": "https://example.com/ai-news/7080",
+      "time": "17天前",
+      "published": "2026-04-27T18:20:00+08:00",
+      "summary": "这是一条关于「Nous Research 发布 Hermes 4：开源指令遵循模型新标杆」的详细报道。该事件在 AI 行业引发广泛关注，多位业内人士表示这将深刻影响行业格局。更多细节请查看原文。",
+      "snark": "AI圈新闻：今天又是核聚变级别的一天。"
+    },
+    {
+      "id": 10,
+      "cat": "tool",
+      "title": "Canva AI 推出视频自动剪辑功能：一句话生成完整视频",
+      "title_en": "",
+      "source": "MIT Tech Review",
+      "url": "https://example.com/ai-news/9940",
+      "time": "17天前",
+      "published": "2026-04-27T11:25:00+08:00",
+      "summary": "这是一条关于「Canva AI 推出视频自动剪辑功能：一句话生成完整视频」的详细报道。该事件在 AI 行业引发广泛关注，多位业内人士表示这将深刻影响行业格局。更多细节请查看原文。",
+      "snark": "编辑部：这条我们也不知道怎么评价。"
+    },
+    {
+      "id": 11,
+      "cat": "tool",
+      "title": "xAI 完成 60 亿美元融资，Elon Musk 称将建全球最大 GPU 集群",
+      "title_en": "",
+      "source": "Google AI Blog",
+      "url": "https://example.com/ai-news/1629",
+      "time": "17天前",
+      "published": "2026-04-27T13:59:00+08:00",
+      "summary": "这是一条关于「xAI 完成 60 亿美元融资，Elon Musk 称将建全球最大 GPU 集群」的详细报道。该事件在 AI 行业引发广泛关注，多位业内人士表示这将深刻影响行业格局。更多细节请查看原文。",
+      "snark": "这条新闻让同行们集体沉默了3秒，然后继续卷。"
+    },
+    {
+      "id": 12,
+      "cat": "tool",
+      "title": "AI 编程工具 Copilot 年收入突破 50 亿美元",
+      "title_en": "",
+      "source": "MarkTechPost",
+      "url": "https://example.com/ai-news/5511",
+      "time": "17天前",
+      "published": "2026-04-27T08:53:00+08:00",
+      "summary": "这是一条关于「AI 编程工具 Copilot 年收入突破 50 亿美元」的详细报道。该事件在 AI 行业引发广泛关注，多位业内人士表示这将深刻影响行业格局。更多细节请查看原文。",
+      "snark": "AI圈新闻：今天又是核聚变级别的一天。"
+    }
+  ],
+  "stats": {
+    "total": 12,
+    "model_count": 3,
+    "strategy_count": 4,
+    "tool_count": 5
+  },
+  "fun": {
+    "lucky": "Sora 2",
+    "advice": "宜：视频创作\n忌：忽略版权风险",
+    "joke": "问：前端工程师最怕什么？\n答：产品经理说「就加一个 AI 功能，很简单的」。"
+  }
+}
