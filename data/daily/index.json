@@ -1,4 +1,16 @@
 {
+  "2026-08-22": {
+    "date": "2026-08-22",
+    "highlight": "GPU 云服务商竞争白热化、英伟达布局数据中心、Anthropic 模型安全漏洞引发关注，AI 基础设施与安全成今日焦点。",
+    "count": 12,
+    "stats": {
+      "total": 12,
+      "model_count": 1,
+      "strategy_count": 4,
+      "tool_count": 4,
+      "policy_count": 3
+    }
+  },
   "2026-08-21": {
     "date": "2026-08-21",
     "highlight": "OpenAI 在企业市场追赶 Anthropic，谷歌推出出版商自救按钮，AI 行业在商业落地与伦理争议中加速分化。",
@@ -705,18 +717,6 @@
       "strategy_count": 3,
       "tool_count": 5,
       "policy_count": 2
-    }
-  },
-  "2026-06-23": {
-    "date": "2026-06-23",
-    "highlight": "今日多家公司发布模型与战略动态，英伟达推节水数据中心设计，xAI与Sakana AI分别发布自主执行与路由模型。",
-    "count": 12,
-    "stats": {
-      "total": 12,
-      "model_count": 1,
-      "strategy_count": 3,
-      "tool_count": 5,
-      "policy_count": 3
     }
   }
 }
