@@ -1,4 +1,16 @@
 {
+  "2026-08-23": {
+    "date": "2026-08-23",
+    "highlight": "前沿AI实验室安全策略缺失与OpenAI立场反转成焦点，同时AI智能体在科研复制领域展现超预期能力。",
+    "count": 9,
+    "stats": {
+      "total": 9,
+      "model_count": 3,
+      "strategy_count": 1,
+      "tool_count": 3,
+      "policy_count": 2
+    }
+  },
   "2026-08-22": {
     "date": "2026-08-22",
     "highlight": "GPU 云服务商竞争白热化、英伟达布局数据中心、Anthropic 模型安全漏洞引发关注，AI 基础设施与安全成今日焦点。",
@@ -705,18 +717,6 @@
       "strategy_count": 7,
       "tool_count": 3,
       "policy_count": 0
-    }
-  },
-  "2026-06-24": {
-    "date": "2026-06-24",
-    "highlight": "Mistral 发布 OCR 4 模型，Datalab 开源 9B 视觉模型，AI 在文档理解与医疗健康领域加速落地。",
-    "count": 12,
-    "stats": {
-      "total": 12,
-      "model_count": 2,
-      "strategy_count": 3,
-      "tool_count": 5,
-      "policy_count": 2
     }
   }
 }
