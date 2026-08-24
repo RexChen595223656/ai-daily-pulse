@@ -1,4 +1,16 @@
 {
+  "2026-08-24": {
+    "date": "2026-08-24",
+    "highlight": "神秘模型Ox Alpha引发猜测，Harvey发布法律专用模型，FreeToken实现单GPU运行千亿级模型，AI应用与争议并存。",
+    "count": 8,
+    "stats": {
+      "total": 8,
+      "model_count": 2,
+      "strategy_count": 0,
+      "tool_count": 4,
+      "policy_count": 2
+    }
+  },
   "2026-08-23": {
     "date": "2026-08-23",
     "highlight": "前沿AI实验室安全策略缺失与OpenAI立场反转成焦点，同时AI智能体在科研复制领域展现超预期能力。",
@@ -705,18 +717,6 @@
       "strategy_count": 5,
       "tool_count": 2,
       "policy_count": 1
-    }
-  },
-  "2026-06-25": {
-    "date": "2026-06-25",
-    "highlight": "AI 摘要暂时不可用，请稍后刷新",
-    "count": 12,
-    "stats": {
-      "total": 12,
-      "model_count": 2,
-      "strategy_count": 7,
-      "tool_count": 3,
-      "policy_count": 0
     }
   }
 }
