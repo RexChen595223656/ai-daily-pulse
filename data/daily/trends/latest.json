@@ -50,6 +50,14 @@
         "reasoning": 94.9
       },
       {
+        "model": "Grok 4.6 (xhigh)",
+        "org": "SpaceXAI",
+        "intelligence": 60,
+        "coding": 75.9,
+        "math": 0,
+        "reasoning": 93.5
+      },
+      {
         "model": "Kimi K3 (max)",
         "org": "Kimi",
         "intelligence": 59.7,
@@ -72,14 +80,6 @@
         "coding": 78.3,
         "math": 0,
         "reasoning": 93.1
-      },
-      {
-        "model": "Claude Opus 5 (Adaptive Reasoning, Medium Effort)",
-        "org": "Anthropic",
-        "intelligence": 58.6,
-        "coding": 74.3,
-        "math": 0,
-        "reasoning": 91.9
       }
     ],
     "price": [
@@ -126,6 +126,13 @@
         "blended": 3
       },
       {
+        "model": "Grok 4.6 (xhigh)",
+        "org": "SpaceXAI",
+        "input": 2,
+        "output": 6,
+        "blended": 3
+      },
+      {
         "model": "Kimi K3 (max)",
         "org": "Kimi",
         "input": 3,
@@ -145,75 +152,68 @@
         "input": 5,
         "output": 30,
         "blended": 11.25
-      },
-      {
-        "model": "Claude Opus 5 (Adaptive Reasoning, Medium Effort)",
-        "org": "Anthropic",
-        "input": 5,
-        "output": 25,
-        "blended": 10
       }
     ],
     "speed": [
       {
         "model": "Claude Opus 5 (Adaptive Reasoning, Max Effort)",
         "org": "Anthropic",
-        "outputSpeed": 55.9,
-        "ttft": 35.99
+        "outputSpeed": 53.4,
+        "ttft": 30.3
       },
       {
         "model": "Claude Opus 5 (Adaptive Reasoning, Xhigh Effort)",
         "org": "Anthropic",
-        "outputSpeed": 54.9,
-        "ttft": 23.74
+        "outputSpeed": 51.8,
+        "ttft": 11.77
       },
       {
         "model": "Claude Fable 5 (Adaptive Reasoning, Max Effort, Opus 4.8 Fallback)",
         "org": "Anthropic",
-        "outputSpeed": 68.4,
-        "ttft": 67.41
+        "outputSpeed": 66.8,
+        "ttft": 48.43
       },
       {
         "model": "Claude Opus 5 (Adaptive Reasoning, High Effort)",
         "org": "Anthropic",
-        "outputSpeed": 53.4,
-        "ttft": 12.72
+        "outputSpeed": 48.9,
+        "ttft": 7.92
       },
       {
         "model": "GPT-5.6 Sol (max)",
         "org": "OpenAI",
-        "outputSpeed": 74.9,
-        "ttft": 108.11
+        "outputSpeed": 78.3,
+        "ttft": 76.98
       },
       {
         "model": "Grok 4.6 (high)",
         "org": "SpaceXAI",
-        "outputSpeed": 62.2,
-        "ttft": 40.45
+        "outputSpeed": 57.7,
+        "ttft": 38.79
+      },
+      {
+        "model": "Grok 4.6 (xhigh)",
+        "org": "SpaceXAI",
+        "outputSpeed": 66.2,
+        "ttft": 42.93
       },
       {
         "model": "Kimi K3 (max)",
         "org": "Kimi",
-        "outputSpeed": 39.0,
-        "ttft": 2.62
+        "outputSpeed": 35.0,
+        "ttft": 2.29
       },
       {
         "model": "GLM-5.3 (max)",
         "org": "Z AI",
-        "outputSpeed": 78.8,
-        "ttft": 1.53
+        "outputSpeed": 0,
+        "ttft": 0
       },
       {
         "model": "GPT-5.6 Sol (xhigh)",
         "org": "OpenAI",
-        "outputSpeed": 73.3,
-        "ttft": 36.77
-      },
-      {
-        "model": "Claude Opus 5 (Adaptive Reasoning, Medium Effort)",
-        "org": "Anthropic",
-        "outputSpeed": 52.9,
-        "ttft": 6.61
+        "outputSpeed": 70.0,
+        "ttft": 25.46
       }
     ]
   },
@@ -342,5 +342,5 @@
     "price": [],
     "speed": []
   },
-  "_fetched_at": "2026-08-23T08:00:37.557971+08:00"
+  "_fetched_at": "2026-08-24T08:00:47.868430+08:00"
 }
