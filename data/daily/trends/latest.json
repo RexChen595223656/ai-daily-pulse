@@ -114,9 +114,9 @@
       {
         "model": "GPT-5.6 Sol (max)",
         "org": "OpenAI",
-        "input": 5,
-        "output": 30,
-        "blended": 11.25
+        "input": 4,
+        "output": 20,
+        "blended": 8
       },
       {
         "model": "Grok 4.6 (high)",
@@ -149,59 +149,59 @@
       {
         "model": "GPT-5.6 Sol (xhigh)",
         "org": "OpenAI",
-        "input": 5,
-        "output": 30,
-        "blended": 11.25
+        "input": 4,
+        "output": 20,
+        "blended": 8
       }
     ],
     "speed": [
       {
         "model": "Claude Opus 5 (Adaptive Reasoning, Max Effort)",
         "org": "Anthropic",
-        "outputSpeed": 53.4,
-        "ttft": 30.3
+        "outputSpeed": 53.9,
+        "ttft": 34.98
       },
       {
         "model": "Claude Opus 5 (Adaptive Reasoning, Xhigh Effort)",
         "org": "Anthropic",
-        "outputSpeed": 51.8,
-        "ttft": 11.77
+        "outputSpeed": 51.1,
+        "ttft": 21.51
       },
       {
         "model": "Claude Fable 5 (Adaptive Reasoning, Max Effort, Opus 4.8 Fallback)",
         "org": "Anthropic",
-        "outputSpeed": 66.8,
-        "ttft": 48.43
+        "outputSpeed": 65.8,
+        "ttft": 49.62
       },
       {
         "model": "Claude Opus 5 (Adaptive Reasoning, High Effort)",
         "org": "Anthropic",
-        "outputSpeed": 48.9,
-        "ttft": 7.92
+        "outputSpeed": 47.8,
+        "ttft": 10.79
       },
       {
         "model": "GPT-5.6 Sol (max)",
         "org": "OpenAI",
-        "outputSpeed": 78.3,
-        "ttft": 76.98
+        "outputSpeed": 62.2,
+        "ttft": 97.58
       },
       {
         "model": "Grok 4.6 (high)",
         "org": "SpaceXAI",
-        "outputSpeed": 57.7,
-        "ttft": 38.79
+        "outputSpeed": 53.8,
+        "ttft": 35.68
       },
       {
         "model": "Grok 4.6 (xhigh)",
         "org": "SpaceXAI",
-        "outputSpeed": 66.2,
-        "ttft": 42.93
+        "outputSpeed": 52.8,
+        "ttft": 34.81
       },
       {
         "model": "Kimi K3 (max)",
         "org": "Kimi",
-        "outputSpeed": 35.0,
-        "ttft": 2.29
+        "outputSpeed": 35.3,
+        "ttft": 2.92
       },
       {
         "model": "GLM-5.3 (max)",
@@ -212,8 +212,8 @@
       {
         "model": "GPT-5.6 Sol (xhigh)",
         "org": "OpenAI",
-        "outputSpeed": 70.0,
-        "ttft": 25.46
+        "outputSpeed": 63.8,
+        "ttft": 33.6
       }
     ]
   },
@@ -221,21 +221,21 @@
     "perf": [
       {
         "model": "GPT Image 2 (high)",
-        "elo": 1368,
+        "elo": 1369,
         "rank": 1,
         "org": "OpenAI",
         "date": "2026-04"
       },
       {
         "model": "Reve 2.1",
-        "elo": 1321,
+        "elo": 1322,
         "rank": 2,
         "org": "Reve",
         "date": "2026-07"
       },
       {
         "model": "Nano Banana 2 (Gemini 3.1 Flash Image Preview)",
-        "elo": 1319,
+        "elo": 1321,
         "rank": 3,
         "org": "Google",
         "date": "2026-02"
@@ -249,31 +249,31 @@
       },
       {
         "model": "MAI-Image-2.5",
-        "elo": 1303,
+        "elo": 1304,
         "rank": 5,
         "org": "Microsoft AI",
         "date": "2026-06"
       },
       {
         "model": "Nano Banana Pro (Gemini 3 Pro Image)",
-        "elo": 1295,
+        "elo": 1298,
         "rank": 6,
         "org": "Google",
         "date": "2025-11"
       },
       {
-        "model": "Nano Banana 2 Lite (Gemini 3.1 Flash Lite Image)",
-        "elo": 1290,
+        "model": "MAI-Image-2.5-Pro",
+        "elo": 1293,
         "rank": 7,
-        "org": "Google",
-        "date": "2026-06"
+        "org": "Microsoft AI",
+        "date": "2026-07"
       },
       {
-        "model": "Qwen-Image-3.0-Pro",
-        "elo": 1284,
+        "model": "Nano Banana 2 Lite (Gemini 3.1 Flash Lite Image)",
+        "elo": 1288,
         "rank": 8,
-        "org": "Alibaba",
-        "date": "2026-07"
+        "org": "Google",
+        "date": "2026-06"
       }
     ],
     "price": [],
@@ -291,7 +291,7 @@
       },
       {
         "model": "MiniMax H3",
-        "elo": 1305,
+        "elo": 1303,
         "rank": 2,
         "org": "MiniMax",
         "type": ""
@@ -305,14 +305,14 @@
       },
       {
         "model": "Dreamina Seedance 2.0 720p",
-        "elo": 1265,
+        "elo": 1267,
         "rank": 4,
         "org": "ByteDance Seed",
         "type": ""
       },
       {
         "model": "HappyHorse-1.1",
-        "elo": 1262,
+        "elo": 1261,
         "rank": 5,
         "org": "Alibaba-ATH",
         "type": ""
@@ -326,7 +326,7 @@
       },
       {
         "model": "Kling 3.0 1080p (Pro)",
-        "elo": 1239,
+        "elo": 1238,
         "rank": 7,
         "org": "KlingAI",
         "type": ""
@@ -342,5 +342,5 @@
     "price": [],
     "speed": []
   },
-  "_fetched_at": "2026-08-24T08:00:47.868430+08:00"
+  "_fetched_at": "2026-08-25T08:00:41.376643+08:00"
 }
