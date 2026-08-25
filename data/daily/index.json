@@ -1,4 +1,16 @@
 {
+  "2026-08-25": {
+    "date": "2026-08-25",
+    "highlight": "具身智能赛道迎来资本热潮，小鹏机器人融资超九亿美元，通用智能获六十亿美元估值，机器人基础模型同日双发。",
+    "count": 12,
+    "stats": {
+      "total": 12,
+      "model_count": 3,
+      "strategy_count": 5,
+      "tool_count": 0,
+      "policy_count": 4
+    }
+  },
   "2026-08-24": {
     "date": "2026-08-24",
     "highlight": "神秘模型Ox Alpha引发猜测，Harvey发布法律专用模型，FreeToken实现单GPU运行千亿级模型，AI应用与争议并存。",
@@ -705,18 +717,6 @@
       "strategy_count": 2,
       "tool_count": 2,
       "policy_count": 0
-    }
-  },
-  "2026-06-26": {
-    "date": "2026-06-26",
-    "highlight": "AI 摘要暂时不可用，请稍后刷新",
-    "count": 12,
-    "stats": {
-      "total": 12,
-      "model_count": 4,
-      "strategy_count": 5,
-      "tool_count": 2,
-      "policy_count": 1
     }
   }
 }
