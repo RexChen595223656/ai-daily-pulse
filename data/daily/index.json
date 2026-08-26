@@ -1,4 +1,16 @@
 {
+  "2026-08-26": {
+    "date": "2026-08-26",
+    "highlight": "今日AI界多点开花：Liquid AI开源端侧评测工具、OpenAI发布自研推理芯片Jalapeño、Perplexity推出本地计算机，端侧与硬件成为焦点。",
+    "count": 12,
+    "stats": {
+      "total": 12,
+      "model_count": 4,
+      "strategy_count": 3,
+      "tool_count": 4,
+      "policy_count": 1
+    }
+  },
   "2026-08-25": {
     "date": "2026-08-25",
     "highlight": "具身智能赛道迎来资本热潮，小鹏机器人融资超九亿美元，通用智能获六十亿美元估值，机器人基础模型同日双发。",
@@ -705,18 +717,6 @@
       "strategy_count": 6,
       "tool_count": 2,
       "policy_count": 3
-    }
-  },
-  "2026-06-27": {
-    "date": "2026-06-27",
-    "highlight": "AI 摘要暂时不可用，请稍后刷新",
-    "count": 12,
-    "stats": {
-      "total": 12,
-      "model_count": 8,
-      "strategy_count": 2,
-      "tool_count": 2,
-      "policy_count": 0
     }
   }
 }
