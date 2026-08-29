@@ -1,4 +1,16 @@
 {
+  "2026-08-29": {
+    "date": "2026-08-29",
+    "highlight": "今日AI圈风云变幻：Lambda举债买芯片、Anthropic胜诉五角大楼、GLM与Qwen架构殊途同归，开源模型成收购香饽饽。",
+    "count": 12,
+    "stats": {
+      "total": 12,
+      "model_count": 3,
+      "strategy_count": 4,
+      "tool_count": 2,
+      "policy_count": 3
+    }
+  },
   "2026-08-28": {
     "date": "2026-08-28",
     "highlight": "",
@@ -705,18 +717,6 @@
       "strategy_count": 2,
       "tool_count": 5,
       "policy_count": 3
-    }
-  },
-  "2026-06-30": {
-    "date": "2026-06-30",
-    "highlight": "OpenAI 将推 Codex 专属硬件，Anthropic 半价卖 Claude 给加州政府，AI 硬件与政府市场成为今日焦点。",
-    "count": 12,
-    "stats": {
-      "total": 12,
-      "model_count": 2,
-      "strategy_count": 3,
-      "tool_count": 5,
-      "policy_count": 2
     }
   }
 }
