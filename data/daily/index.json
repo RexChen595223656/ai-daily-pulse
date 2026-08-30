@@ -1,4 +1,16 @@
 {
+  "2026-08-30": {
+    "date": "2026-08-30",
+    "highlight": "今日焦点：索尼音乐与华纳联合起诉Anthropic版权侵权，同时Google发布Gemini Omni 1.1 Flash视频模型，英伟达加速布局GPU之外的数据中心智能。",
+    "count": 9,
+    "stats": {
+      "total": 9,
+      "model_count": 1,
+      "strategy_count": 2,
+      "tool_count": 4,
+      "policy_count": 2
+    }
+  },
   "2026-08-29": {
     "date": "2026-08-29",
     "highlight": "今日AI圈风云变幻：Lambda举债买芯片、Anthropic胜诉五角大楼、GLM与Qwen架构殊途同归，开源模型成收购香饽饽。",
@@ -705,18 +717,6 @@
       "strategy_count": 4,
       "tool_count": 3,
       "policy_count": 2
-    }
-  },
-  "2026-07-01": {
-    "date": "2026-07-01",
-    "highlight": "Anthropic 连发三弹：Claude Fable 5 解禁、Claude Science 发布、Sonnet 5 性能逼近 Opus，AI 科研与编码竞赛白热化。",
-    "count": 12,
-    "stats": {
-      "total": 12,
-      "model_count": 2,
-      "strategy_count": 2,
-      "tool_count": 5,
-      "policy_count": 3
     }
   }
 }
