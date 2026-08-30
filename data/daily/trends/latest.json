@@ -158,62 +158,62 @@
       {
         "model": "Claude Opus 5 (Adaptive Reasoning, Max Effort)",
         "org": "Anthropic",
-        "outputSpeed": 53.9,
-        "ttft": 31.52
+        "outputSpeed": 52.6,
+        "ttft": 33.49
       },
       {
         "model": "Claude Opus 5 (Adaptive Reasoning, Xhigh Effort)",
         "org": "Anthropic",
-        "outputSpeed": 51.6,
-        "ttft": 17.53
+        "outputSpeed": 53.4,
+        "ttft": 17.83
       },
       {
         "model": "Claude Fable 5 (Adaptive Reasoning, Max Effort, Opus 4.8 Fallback)",
         "org": "Anthropic",
-        "outputSpeed": 69.1,
-        "ttft": 42.27
+        "outputSpeed": 65.5,
+        "ttft": 45.47
       },
       {
         "model": "Claude Opus 5 (Adaptive Reasoning, High Effort)",
         "org": "Anthropic",
-        "outputSpeed": 47.4,
-        "ttft": 9.28
+        "outputSpeed": 48.0,
+        "ttft": 11.13
       },
       {
         "model": "GPT-5.6 Sol (max)",
         "org": "OpenAI",
-        "outputSpeed": 79.9,
-        "ttft": 58.79
+        "outputSpeed": 81.1,
+        "ttft": 58.49
       },
       {
         "model": "Grok 4.6 (high)",
         "org": "SpaceXAI",
-        "outputSpeed": 61.9,
-        "ttft": 30.91
+        "outputSpeed": 59.9,
+        "ttft": 36.1
       },
       {
         "model": "Grok 4.6 (xhigh)",
         "org": "SpaceXAI",
-        "outputSpeed": 60.8,
-        "ttft": 33.48
+        "outputSpeed": 60.4,
+        "ttft": 34.68
       },
       {
         "model": "Kimi K3 (max)",
         "org": "Kimi",
-        "outputSpeed": 36.6,
-        "ttft": 5.0
+        "outputSpeed": 35.8,
+        "ttft": 5.23
       },
       {
         "model": "GLM-5.3 (max)",
         "org": "Z AI",
-        "outputSpeed": 58.7,
-        "ttft": 1.57
+        "outputSpeed": 74.5,
+        "ttft": 1.94
       },
       {
         "model": "GPT-5.6 Sol (xhigh)",
         "org": "OpenAI",
-        "outputSpeed": 70.5,
-        "ttft": 20.61
+        "outputSpeed": 74.5,
+        "ttft": 20.28
       }
     ]
   },
@@ -228,21 +228,21 @@
       },
       {
         "model": "MAI-Image-2.6-Preview",
-        "elo": 1353,
+        "elo": 1352,
         "rank": 2,
         "org": "Microsoft AI",
         "date": "2026-08"
       },
       {
         "model": "Reve 2.1",
-        "elo": 1324,
+        "elo": 1323,
         "rank": 3,
         "org": "Reve",
         "date": "2026-07"
       },
       {
         "model": "Nano Banana 2 (Gemini 3.1 Flash Image Preview)",
-        "elo": 1322,
+        "elo": 1321,
         "rank": 4,
         "org": "Google",
         "date": "2026-02"
@@ -256,21 +256,21 @@
       },
       {
         "model": "MAI-Image-2.5",
-        "elo": 1304,
+        "elo": 1303,
         "rank": 6,
         "org": "Microsoft AI",
         "date": "2026-06"
       },
       {
         "model": "Nano Banana Pro (Gemini 3 Pro Image)",
-        "elo": 1298,
+        "elo": 1297,
         "rank": 7,
         "org": "Google",
         "date": "2025-11"
       },
       {
         "model": "MAI-Image-2.5-Pro",
-        "elo": 1295,
+        "elo": 1294,
         "rank": 8,
         "org": "Microsoft AI",
         "date": "2026-07"
@@ -342,5 +342,5 @@
     "price": [],
     "speed": []
   },
-  "_fetched_at": "2026-08-29T08:03:49.029066+08:00"
+  "_fetched_at": "2026-08-30T08:12:23.805114+08:00"
 }
