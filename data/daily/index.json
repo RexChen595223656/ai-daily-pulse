@@ -1,4 +1,16 @@
 {
+  "2026-08-31": {
+    "date": "2026-08-31",
+    "highlight": "今日焦点：Anthropic 开放模型硬件标准预览，让智能体安全操控实体设备；同时多篇研究聚焦智能体环境自适应与物理世界推理，AI 正加速从数字走向物理。",
+    "count": 10,
+    "stats": {
+      "total": 10,
+      "model_count": 2,
+      "strategy_count": 3,
+      "tool_count": 4,
+      "policy_count": 1
+    }
+  },
   "2026-08-30": {
     "date": "2026-08-30",
     "highlight": "今日焦点：索尼音乐与华纳联合起诉Anthropic版权侵权，同时Google发布Gemini Omni 1.1 Flash视频模型，英伟达加速布局GPU之外的数据中心智能。",
@@ -704,18 +716,6 @@
       "model_count": 1,
       "strategy_count": 5,
       "tool_count": 4,
-      "policy_count": 2
-    }
-  },
-  "2026-07-02": {
-    "date": "2026-07-02",
-    "highlight": "Anthropic 的 Claude Fable 5 在美国出口管制解除后全球重新上线，同时 SpaceX 和 Venice AI 分别在硬件和隐私赛道有新动作。",
-    "count": 12,
-    "stats": {
-      "total": 12,
-      "model_count": 3,
-      "strategy_count": 4,
-      "tool_count": 3,
       "policy_count": 2
     }
   }
