@@ -1,4 +1,16 @@
 {
+  "2026-09-01": {
+    "date": "2026-09-01",
+    "highlight": "今日最值得关注的是英伟达35亿美元投资联发科，以应对大科技公司自研AI芯片的挑战，这一战略布局可能重塑AI硬件竞争格局。",
+    "count": 12,
+    "stats": {
+      "total": 12,
+      "model_count": 1,
+      "strategy_count": 1,
+      "tool_count": 4,
+      "policy_count": 6
+    }
+  },
   "2026-08-31": {
     "date": "2026-08-31",
     "highlight": "今日焦点：Anthropic 开放模型硬件标准预览，让智能体安全操控实体设备；同时多篇研究聚焦智能体环境自适应与物理世界推理，AI 正加速从数字走向物理。",
@@ -705,18 +717,6 @@
       "strategy_count": 6,
       "tool_count": 4,
       "policy_count": 1
-    }
-  },
-  "2026-07-03": {
-    "date": "2026-07-03",
-    "highlight": "宇树科技成为A股人形机器人第一股，Meta承认AI代理进展不及预期，OpenAI提议向美国主权基金捐赠5%股权。",
-    "count": 12,
-    "stats": {
-      "total": 12,
-      "model_count": 1,
-      "strategy_count": 5,
-      "tool_count": 4,
-      "policy_count": 2
     }
   }
 }
