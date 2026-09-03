@@ -1,4 +1,16 @@
 {
+  "2026-09-03": {
+    "date": "2026-09-03",
+    "highlight": "AI 摘要暂时不可用，请稍后刷新",
+    "count": 12,
+    "stats": {
+      "total": 12,
+      "model_count": 5,
+      "strategy_count": 5,
+      "tool_count": 2,
+      "policy_count": 0
+    }
+  },
   "2026-09-02": {
     "date": "2026-09-02",
     "highlight": "AI 摘要暂时不可用，请稍后刷新",
@@ -705,18 +717,6 @@
       "strategy_count": 5,
       "tool_count": 2,
       "policy_count": 1
-    }
-  },
-  "2026-07-05": {
-    "date": "2026-07-05",
-    "highlight": "阿里禁用Claude Code、Anthropic推Claude Science、英伟达连发两款AI框架，行业安全与应用创新并行。",
-    "count": 11,
-    "stats": {
-      "total": 11,
-      "model_count": 2,
-      "strategy_count": 3,
-      "tool_count": 2,
-      "policy_count": 4
     }
   }
 }
