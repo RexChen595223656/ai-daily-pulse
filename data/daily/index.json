@@ -1,4 +1,16 @@
 {
+  "2026-09-04": {
+    "date": "2026-09-04",
+    "highlight": "GPT-6 Astra 发布与安全门槛争议，Meta 与 Anthropic 同推新模型与开源蓝图，AI 智能体竞争白热化。",
+    "count": 12,
+    "stats": {
+      "total": 12,
+      "model_count": 5,
+      "strategy_count": 3,
+      "tool_count": 3,
+      "policy_count": 1
+    }
+  },
   "2026-09-03": {
     "date": "2026-09-03",
     "highlight": "AI 摘要暂时不可用，请稍后刷新",
@@ -705,18 +717,6 @@
       "strategy_count": 5,
       "tool_count": 3,
       "policy_count": 4
-    }
-  },
-  "2026-07-06": {
-    "date": "2026-07-06",
-    "highlight": "美团发布1.6万亿参数开源MoE模型，具身智能赛道融资火热，AI教育引发富人新选择。",
-    "count": 10,
-    "stats": {
-      "total": 10,
-      "model_count": 2,
-      "strategy_count": 5,
-      "tool_count": 2,
-      "policy_count": 1
     }
   }
 }
