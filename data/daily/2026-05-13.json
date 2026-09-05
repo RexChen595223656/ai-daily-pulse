@@ -1,0 +1,161 @@
+{
+  "date": "2026-05-13",
+  "highlight": "开源 vs 闭源之争升级，中国大模型军团崛起，全球 AI 格局加速重构",
+  "articles": [
+    {
+      "id": 1,
+      "cat": "model",
+      "title": "Cursor 2.0 发布：AI 原生 IDE 支持全栈项目自动生成",
+      "title_en": "",
+      "source": "Hacker News",
+      "url": "https://example.com/ai-news/5901",
+      "time": "1天前",
+      "published": "2026-05-13T21:16:00+08:00",
+      "summary": "这是一条关于「Cursor 2.0 发布：AI 原生 IDE 支持全栈项目自动生成」的详细报道。该事件在 AI 行业引发广泛关注，多位业内人士表示这将深刻影响行业格局。更多细节请查看原文。",
+      "snark": "这条新闻让同行们集体沉默了3秒，然后继续卷。"
+    },
+    {
+      "id": 2,
+      "cat": "model",
+      "title": "Mistral Large 3 发布，欧洲 AI 崛起新标志",
+      "title_en": "",
+      "source": "The Verge",
+      "url": "https://example.com/ai-news/2611",
+      "time": "1天前",
+      "published": "2026-05-13T17:56:00+08:00",
+      "summary": "这是一条关于「Mistral Large 3 发布，欧洲 AI 崛起新标志」的详细报道。该事件在 AI 行业引发广泛关注，多位业内人士表示这将深刻影响行业格局。更多细节请查看原文。",
+      "snark": "AI圈日常：今天你发模型，明天我刷榜。"
+    },
+    {
+      "id": 3,
+      "cat": "model",
+      "title": "GPT-5 发布首个公开预览版，推理能力大幅提升",
+      "title_en": "",
+      "source": "AI News",
+      "url": "https://example.com/ai-news/8294",
+      "time": "1天前",
+      "published": "2026-05-13T13:53:00+08:00",
+      "summary": "这是一条关于「GPT-5 发布首个公开预览版，推理能力大幅提升」的详细报道。该事件在 AI 行业引发广泛关注，多位业内人士表示这将深刻影响行业格局。更多细节请查看原文。",
+      "snark": "AI圈日常：今天你发模型，明天我刷榜。"
+    },
+    {
+      "id": 4,
+      "cat": "model",
+      "title": "Grok-4 发布：xAI 称推理能力业界第一",
+      "title_en": "",
+      "source": "Synced Review",
+      "url": "https://example.com/ai-news/1871",
+      "time": "1天前",
+      "published": "2026-05-13T15:37:00+08:00",
+      "summary": "这是一条关于「Grok-4 发布：xAI 称推理能力业界第一」的详细报道。该事件在 AI 行业引发广泛关注，多位业内人士表示这将深刻影响行业格局。更多细节请查看原文。",
+      "snark": "AI圈新闻：今天又是核聚变级别的一天。"
+    },
+    {
+      "id": 5,
+      "cat": "strategy",
+      "title": "Cursor 2.0 发布：AI 原生 IDE 支持全栈项目自动生成",
+      "title_en": "",
+      "source": "The Verge",
+      "url": "https://example.com/ai-news/8900",
+      "time": "1天前",
+      "published": "2026-05-13T06:13:00+08:00",
+      "summary": "这是一条关于「Cursor 2.0 发布：AI 原生 IDE 支持全栈项目自动生成」的详细报道。该事件在 AI 行业引发广泛关注，多位业内人士表示这将深刻影响行业格局。更多细节请查看原文。",
+      "snark": "这条新闻让同行们集体沉默了3秒，然后继续卷。"
+    },
+    {
+      "id": 6,
+      "cat": "strategy",
+      "title": "LangChain 发布生产级 Agent 框架：支持多模型协作",
+      "title_en": "",
+      "source": "DeepMind Blog",
+      "url": "https://example.com/ai-news/1171",
+      "time": "1天前",
+      "published": "2026-05-13T09:55:00+08:00",
+      "summary": "这是一条关于「LangChain 发布生产级 Agent 框架：支持多模型协作」的详细报道。该事件在 AI 行业引发广泛关注，多位业内人士表示这将深刻影响行业格局。更多细节请查看原文。",
+      "snark": "AI圈日常：今天你发模型，明天我刷榜。"
+    },
+    {
+      "id": 7,
+      "cat": "strategy",
+      "title": "Anthropic 获 Google 追加 20 亿美元投资，总融资额突破 100 亿",
+      "title_en": "",
+      "source": "VentureBeat",
+      "url": "https://example.com/ai-news/2352",
+      "time": "1天前",
+      "published": "2026-05-13T09:09:00+08:00",
+      "summary": "这是一条关于「Anthropic 获 Google 追加 20 亿美元投资，总融资额突破 100 亿」的详细报道。该事件在 AI 行业引发广泛关注，多位业内人士表示这将深刻影响行业格局。更多细节请查看原文。",
+      "snark": "AI圈日常：今天你发模型，明天我刷榜。"
+    },
+    {
+      "id": 8,
+      "cat": "strategy",
+      "title": "字节跳动成立万亿参数大模型团队，目标 2027 年赶超 GPT-6",
+      "title_en": "",
+      "source": "The Verge AI",
+      "url": "https://example.com/ai-news/5896",
+      "time": "1天前",
+      "published": "2026-05-13T21:57:00+08:00",
+      "summary": "这是一条关于「字节跳动成立万亿参数大模型团队，目标 2027 年赶超 GPT-6」的详细报道。该事件在 AI 行业引发广泛关注，多位业内人士表示这将深刻影响行业格局。更多细节请查看原文。",
+      "snark": "AI圈日常：今天你发模型，明天我刷榜。"
+    },
+    {
+      "id": 9,
+      "cat": "strategy",
+      "title": "Mistral Large 3 发布，欧洲 AI 崛起新标志",
+      "title_en": "",
+      "source": "Hacker News",
+      "url": "https://example.com/ai-news/7573",
+      "time": "1天前",
+      "published": "2026-05-13T09:10:00+08:00",
+      "summary": "这是一条关于「Mistral Large 3 发布，欧洲 AI 崛起新标志」的详细报道。该事件在 AI 行业引发广泛关注，多位业内人士表示这将深刻影响行业格局。更多细节请查看原文。",
+      "snark": "又双叒叕一个「里程碑」，今年第几个了？"
+    },
+    {
+      "id": 10,
+      "cat": "tool",
+      "title": "欧盟 AI 法案正式生效：高风险 AI 系统需第三方审计",
+      "title_en": "",
+      "source": "DeepMind Blog",
+      "url": "https://example.com/ai-news/1657",
+      "time": "1天前",
+      "published": "2026-05-13T06:51:00+08:00",
+      "summary": "这是一条关于「欧盟 AI 法案正式生效：高风险 AI 系统需第三方审计」的详细报道。该事件在 AI 行业引发广泛关注，多位业内人士表示这将深刻影响行业格局。更多细节请查看原文。",
+      "snark": "编辑部：这条我们也不知道怎么评价。"
+    },
+    {
+      "id": 11,
+      "cat": "tool",
+      "title": "Amazon 推出 Nova 2.0：自研大模型开始对外商用",
+      "title_en": "",
+      "source": "Synced Review",
+      "url": "https://example.com/ai-news/2517",
+      "time": "1天前",
+      "published": "2026-05-13T22:35:00+08:00",
+      "summary": "这是一条关于「Amazon 推出 Nova 2.0：自研大模型开始对外商用」的详细报道。该事件在 AI 行业引发广泛关注，多位业内人士表示这将深刻影响行业格局。更多细节请查看原文。",
+      "snark": "AI圈日常：今天你发模型，明天我刷榜。"
+    },
+    {
+      "id": 12,
+      "cat": "tool",
+      "title": "Stable Diffusion 4 发布，文生图进入 8K 时代",
+      "title_en": "",
+      "source": "MarkTechPost",
+      "url": "https://example.com/ai-news/1566",
+      "time": "1天前",
+      "published": "2026-05-13T21:37:00+08:00",
+      "summary": "这是一条关于「Stable Diffusion 4 发布，文生图进入 8K 时代」的详细报道。该事件在 AI 行业引发广泛关注，多位业内人士表示这将深刻影响行业格局。更多细节请查看原文。",
+      "snark": "AI圈新闻：今天又是核聚变级别的一天。"
+    }
+  ],
+  "stats": {
+    "total": 12,
+    "model_count": 4,
+    "strategy_count": 5,
+    "tool_count": 3
+  },
+  "fun": {
+    "lucky": "Sora 2",
+    "advice": "宜：视频创作\n忌：忽略版权风险",
+    "joke": "问：AI 行业什么时候会降温？\n答：当 NVIDIA 开始做促销的时候。"
+  }
+}

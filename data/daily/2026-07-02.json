@@ -1,0 +1,163 @@
+{
+  "date": "2026-07-02",
+  "generated_at": "2026-07-02T08:01:52.639581+08:00",
+  "highlight": "Anthropic 的 Claude Fable 5 在美国出口管制解除后全球重新上线，同时 SpaceX 和 Venice AI 分别在硬件和隐私赛道有新动作。",
+  "fun": {
+    "lucky": "Claude Fable 5",
+    "advice": "宜：趁热上线，抢占全球市场。\n忌：忘记安全分类器，让黑客钻空子。",
+    "joke": "为什么大模型不喜欢随机数？因为 7 已经被它们内定了。"
+  },
+  "articles": [
+    {
+      "id": 1,
+      "cat": "tool",
+      "title": "使用 Lift 将研究 PDF 转换为结构化 JSON 并实现受控模式引导的字段级评估",
+      "title_en": "Using Lift to Turn Research PDFs into Structured JSON with Controlled, Schema-Guided Field-Level Evaluation",
+      "source": "MarkTechPost",
+      "url": "https://www.marktechpost.com/2026/07/01/using-lift-to-turn-research-pdfs-into-structured-json-with-controlled-schema-guided-field-level-evaluation/",
+      "time": "2小时前",
+      "published": "2026-07-01T21:09:53+00:00",
+      "summary": "本教程展示了一个完整的 PDF 转结构化数据工作流，核心工具是 Lift，专为受控评估而非一次性演示设计。开发者需准备 Colab GPU 环境，以 4 位 NF4 精度加载 Lift 模型，并生成包含故意干扰项的合成研究报告。随后运行模式引导的字段级提取，将非结构化 PDF 内容转换为 JSON 格式，同时支持对每个字段的提取质量进行独立评估。该方法特别适合需要高可靠性数据解析的科研文献管理场景，能有效过滤噪声并保持输出格式一致性。",
+      "snark": "PDF 转 JSON，科研狗终于不用手抄论文了。"
+    },
+    {
+      "id": 2,
+      "cat": "model",
+      "title": "Anthropic 在美国出口管制解除后于 7 月 1 日重新部署 Claude Fable 5，并新增网络安全分类器",
+      "title_en": "Anthropic Redeploys Claude Fable 5 on July 1 After US Export Controls Lift, Adds New Cybersecurity Classifier",
+      "source": "MarkTechPost",
+      "url": "https://www.marktechpost.com/2026/07/01/anthropic-redeploys-claude-fable-5-on-july-1-after-us-export-controls-lift-adds-new-cybersecurity-classifier/",
+      "time": "3小时前",
+      "published": "2026-07-01T20:41:56+00:00",
+      "summary": "Anthropic 于 7 月 1 日在美国出口管制解除后重新上线 Claude Fable 5。新引入的安全分类器能够阻断亚马逊报告中提及的特定攻击技术，成功率超过 99%，并将可疑请求路由至 Opus 4.8 模型处理。同时，Anthropic 与亚马逊联合提出了一套四维度的越狱严重性评估框架，用于标准化模型安全测试。此次重新部署标志着 Anthropic 在合规与安全方面的重大升级，也反映出美国政府对先进 AI 模型出口政策的松动。",
+      "snark": "Fable 5 回来了，安全分类器比春运安检还严。"
+    },
+    {
+      "id": 3,
+      "cat": "model",
+      "title": "Fable 5 正式回归",
+      "title_en": "Fable 5 Is Back",
+      "source": "Hacker News",
+      "url": "https://twitter.com/claudeai/status/2072402636813607381",
+      "time": "4小时前",
+      "published": "2026-07-01T19:35:57+00:00",
+      "summary": "Anthropic 旗下 Claude 系列模型 Fable 5 在经历短暂的出口管制后正式恢复上线。Hacker News 上该消息获得 285 个点赞和 264 条评论，社区反响热烈。Fable 5 此前因安全顾虑被限制出口，如今随着美国政策调整和 Anthropic 新增的安全措施，模型得以重新面向全球用户开放。此次回归不仅展示了 Anthropic 在模型安全方面的改进，也反映了 AI 行业在国际合规与技术创新之间的平衡。",
+      "snark": "Fable 5 回归，Hacker News 评论区比发布会还热闹。"
+    },
+    {
+      "id": 4,
+      "cat": "strategy",
+      "title": "SpaceX 展示 AI 设备原型，外观类似手机",
+      "title_en": "SpaceX has an AI device prototype, and it sure sounds phone-ish",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/07/01/spacex-has-an-ai-device-prototype-and-it-sure-sounds-phone-ish/",
+      "time": "5小时前",
+      "published": "2026-07-01T18:54:18+00:00",
+      "summary": "SpaceX 在上市前向投资者展示了一款“类似手持设备”的 AI 原型机，引发市场关注。该设备被描述为“手机形态”，暗示 SpaceX 可能进一步拓展无线通信业务。虽然目前尚不清楚具体功能，但这一举动表明 SpaceX 正从航天领域向消费硬件和 AI 终端延伸。结合其星链网络，该设备有望整合卫星通信与 AI 助手，打造差异化竞争力。不过原型机仍处于早期阶段，量产和商业化尚需时日。",
+      "snark": "马斯克又要造手机？这次是 AI 版的星链遥控器吧。"
+    },
+    {
+      "id": 5,
+      "cat": "strategy",
+      "title": "Ashton Kutcher 离开 Sound Ventures，与 Morgan Beller 共同创立新 VC",
+      "title_en": "Ashton Kutcher leaving Sound Ventures to launch new VC firm with Morgan Beller",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/07/01/ashton-kutcher-leaving-sound-ventures-to-launch-new-vc-firm-with-morgan-beller/",
+      "time": "5小时前",
+      "published": "2026-07-01T18:47:22+00:00",
+      "summary": "Ashton Kutcher 宣布离开 Sound Ventures，并与前合伙人 Morgan Beller 共同成立新的风险投资公司。Sound Ventures 此前以对顶级 AI 实验室的集中高信心押注而闻名，而 Kutcher 的新基金则将目光转向 AI 基础设施和能源领域——即支撑这些实验室的底层技术。这反映出风险投资界对 AI 产业链的认知正在深化：从追逐模型本身，转向支持其运行所需的算力、数据和能源基础设施。",
+      "snark": "Kutcher 从追星 AI 实验室，改行给 AI 挖矿了。"
+    },
+    {
+      "id": 6,
+      "cat": "strategy",
+      "title": "Google 公布 2026 年 6 月 AI 新动态汇总",
+      "title_en": "The latest AI news we announced in June 2026",
+      "source": "Google AI Blog",
+      "url": "https://blog.google/innovation-and-ai/technology/ai/google-ai-updates-june-2026/",
+      "time": "5小时前",
+      "published": "2026-07-01T18:15:00+00:00",
+      "summary": "Google 在其 AI 博客中汇总了 2026 年 6 月的 AI 相关更新，重点包括 Pixel Drop 功能更新。虽然具体细节未完全披露，但此次更新涵盖了 Google 在移动端 AI 应用的最新进展，如增强的语音助手、智能相机功能以及更深度集成的 Gemini 模型。Google 持续通过 Pixel 系列推动 AI 技术在消费端的落地，强调端侧 AI 与云端协同的发展方向。更多技术细节预计将在后续开发者文档中公布。",
+      "snark": "Google 发了个预告片，但正片还得等。"
+    },
+    {
+      "id": 7,
+      "cat": "policy",
+      "title": "Cloudflare 新政策推动 AI 公司为出版商内容付费",
+      "title_en": "Cloudflare’s new policy pushes AI companies to pay for publishers’ content",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/07/01/cloudflares-new-policy-pushes-ai-companies-to-pay-for-publishers-content/",
+      "time": "6小时前",
+      "published": "2026-07-01T17:48:37+00:00",
+      "summary": "Cloudflare 发布新政策，要求 AI 公司在 9 月 15 日前将用于搜索的网络爬虫与用于 AI 训练和智能体的爬虫分离，否则将在众多出版商网站上默认被屏蔽。这一举措旨在保护出版商的内容权益，防止 AI 公司未经授权抓取内容用于模型训练。Cloudflare 作为全球最大的 CDN 服务商之一，其政策将直接影响大量 AI 公司的数据获取方式，推动行业建立更透明的内容使用协议和付费机制。",
+      "snark": "Cloudflare 说：爬虫不分开？那就别爬了。"
+    },
+    {
+      "id": 8,
+      "cat": "policy",
+      "title": "在促使特朗普政府进行安全测试后，Anthropic AI 模型获准全球发布",
+      "title_en": "After spooking Trump into safety testing, Anthropic AI models get global release",
+      "source": "Ars Technica",
+      "url": "https://arstechnica.com/tech-policy/2026/07/after-spooking-trump-into-safety-testing-anthropic-ai-models-get-global-release/",
+      "time": "7小时前",
+      "published": "2026-07-01T16:44:18+00:00",
+      "summary": "美国解除对 Anthropic 先进模型 Fable 和 Mythos 的出口限制，允许其全球发布。此前，Anthropic 曾因安全担忧促使特朗普政府启动安全测试程序。在通过测试并新增安全分类器后，模型得以解禁。这一事件标志着美国政府在对先进 AI 模型的监管上采取了更审慎但最终放行的态度，也反映出 Anthropic 在安全合规方面的努力获得了认可。全球 AI 治理的博弈正在加速。",
+      "snark": "特朗普被 AI 吓到后，又把它放出来了。"
+    },
+    {
+      "id": 9,
+      "cat": "tool",
+      "title": "纽约市教育界与行业领袖在 Google 办公室共商 AI 进课堂",
+      "title_en": "New York City educators and industry leaders gathered at Google’s offices to shape the future of AI in classrooms.",
+      "source": "Google AI Blog",
+      "url": "https://blog.google/products-and-platforms/products/education/nyc-ai-summit/",
+      "time": "8小时前",
+      "published": "2026-07-01T16:00:00+00:00",
+      "summary": "Google 联合纽约就业 CEO 委员会和 Urban Assembly 在 Google 办公室举办了一场 AI 峰会，吸引了 150 位教育界和行业领袖参与。会议聚焦如何将 AI 技术安全有效地融入课堂教学，包括个性化学习、AI 辅助评估以及教师培训等议题。与会者强调了 AI 在缩小教育差距方面的潜力，同时也讨论了数据隐私、算法偏见等挑战。此次峰会为纽约市乃至全美的 AI 教育政策制定提供了参考。",
+      "snark": "AI 进课堂，老师终于可以不用改作业了？"
+    },
+    {
+      "id": 10,
+      "cat": "tool",
+      "title": "部署零售 AI 以规模化实现个性化和客户洞察",
+      "title_en": "Deploying retail AI to scale personalisation and customer insight",
+      "source": "AI News",
+      "url": "https://www.artificialintelligence-news.com/news/deploying-retail-ai-to-scale-personalisation-customer-insight/",
+      "time": "8小时前",
+      "published": "2026-07-01T15:58:43+00:00",
+      "summary": "优化零售 AI 基础设施是成功部署个性化系统和实时客户洞察的关键。行业领导者正用数据管道替代静态客户交互模式，这些管道能够在实时会话中动态修改用户界面。传统的静态布局和宽泛的用户分群正在被基于实时行为分析的动态内容替换。通过整合点击流、购买历史和上下文数据，零售 AI 能够在毫秒级调整推荐、定价和促销策略，从而显著提升转化率和客户满意度。",
+      "snark": "AI 导购比你妈还懂你想买啥。"
+    },
+    {
+      "id": 11,
+      "cat": "model",
+      "title": "大模型陷入群体思维困境，这家初创公司试图打破僵局",
+      "title_en": "LLMs are stuck in a groupthink groove. This startup is trying to get them out.",
+      "source": "MIT Tech Review",
+      "url": "https://www.technologyreview.com/2026/07/01/1140003/llms-are-stuck-in-a-groupthink-rut-this-startup-is-trying-to-get-them-out/",
+      "time": "9小时前",
+      "published": "2026-07-01T14:35:16+00:00",
+      "summary": "MIT 技术评论报道了一个有趣现象：当你让 Claude、ChatGPT 或 Gemini 随机生成一个 1 到 10 之间的数字，它们几乎总是回答 7。再问一次，会得到 3 或 4；第三次则是 8 或 9。这种高度可预测的“群体思维”模式暴露了当前大模型在创造性任务上的局限性。一家初创公司正在开发新方法，通过引入对抗性提示和多样性激励机制，迫使模型跳出训练数据的统计惯性，生成更不可预测的输出。",
+      "snark": "大模型选数字：7 是它们的舒适区。"
+    },
+    {
+      "id": 12,
+      "cat": "strategy",
+      "title": "Venice AI 获 6500 万美元 A 轮融资，隐私优先平台估值突破独角兽",
+      "title_en": "Venice AI becomes a unicorn with $65M Series A as its privacy-first AI platform takes off",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/07/01/venice-ai-becomes-a-unicorn-with-65m-series-a-as-its-privacy-first-ai-platform-takes-off/",
+      "time": "9小时前",
+      "published": "2026-07-01T14:25:23+00:00",
+      "summary": "Venice AI 宣布完成 6500 万美元 A 轮融资，估值达到独角兽级别。CEO Erik Voorhees 透露公司已实现盈利，年化经常性收入超过 7000 万美元。Venice AI 主打隐私优先的 AI 平台，不同于主流模型收集用户数据的模式，其承诺不存储用户对话记录，并采用端到端加密。在数据隐私日益受重视的背景下，该定位吸引了大量对安全性敏感的企业用户。此次融资将用于扩大团队和提升模型能力。",
+      "snark": "Venice AI 赚钱又保护隐私，其他大模型学学。"
+    }
+  ],
+  "stats": {
+    "total": 12,
+    "model_count": 3,
+    "strategy_count": 4,
+    "tool_count": 3,
+    "policy_count": 2
+  }
+}

@@ -1,0 +1,163 @@
+{
+  "date": "2026-06-12",
+  "generated_at": "2026-06-12T08:15:11.208971+08:00",
+  "highlight": "SpaceX创史上最大IPO，OpenAI布局本地部署产品，Perplexity推出跨模型深度研究工具。",
+  "fun": {
+    "lucky": "Perplexity Computer",
+    "advice": "宜：跨模型协作，充分利用多模型优势。\n忌：过度依赖单一模型，避免知识盲区。",
+    "joke": "AI写诗：GPU风扇转，代码跑得欢，突然报错：'CUDA out of memory'。"
+  },
+  "articles": [
+    {
+      "id": 1,
+      "cat": "strategy",
+      "title": "SpaceX上市在即，马斯克或成全球首位万亿富翁；92年技术极客陈宇森接任钉钉CEO",
+      "title_en": "8点1氪丨SpaceX上市在即，马斯克或成全球首位万亿富翁；92年技术极客陈宇森接任钉钉CEO；比尔·盖茨就爱泼斯坦案出席国会听证",
+      "source": "36氪",
+      "url": "https://36kr.com/p/3849431503869187?f=rss",
+      "time": "10分钟前",
+      "published": "2026-06-12T00:04:29+00:00",
+      "summary": "今日热点导览：OpenAI正考虑大幅下调产品价格，预判将与Anthropic展开用户之争。全球两大预测平台世界杯冠军合约成交额破20亿美元，有望刷新单项纪录。SK海力士设备供应商要求涨价，端午前机票价格跳水。SpaceX上市前夕，美股太空股提前狂欢。SpaceX将于美东时间6月12日在纳斯达克挂牌交易，股票代码SPCX。根据SpaceX 6月11日在官网发布的声明，公司此次IPO发行5.556亿股，发行价为每股135美元，募资总额达750亿美元。此次IPO募资规模是沙特阿美2019年创下的294亿美元上市纪录的两倍多，成为史上最大IPO。",
+      "snark": "SpaceX上市，马斯克离万亿富翁只差一个火箭了。"
+    },
+    {
+      "id": 2,
+      "cat": "strategy",
+      "title": "OpenAI准备推出本地部署产品",
+      "title_en": "OpenAI Prepping for On-Prem Product?",
+      "source": "Hacker News",
+      "url": "https://ledger.somantix.ai/posts/open-ai-lays-groundwork-for-on-prem-product/",
+      "time": "1小时前",
+      "published": "2026-06-11T22:28:01+00:00",
+      "summary": "据Hacker News报道，OpenAI正在为其本地部署产品做准备。该产品将允许企业客户在自己的基础设施上运行OpenAI的模型，而不是依赖云端服务。这一举措旨在满足对数据隐私和安全有严格要求的客户需求，特别是金融、医疗等受监管行业。本地部署产品将提供与云端服务相同的模型能力，但客户可以完全控制数据存储和计算环境。OpenAI此举可能加剧与Anthropic等竞争对手在企业市场的争夺，因为后者已经提供了类似的本地部署选项。目前尚不清楚该产品的定价和具体发布时间。",
+      "snark": "OpenAI终于学会‘本地部署’这个词了，企业客户感动得想哭。"
+    },
+    {
+      "id": 3,
+      "cat": "tool",
+      "title": "Perplexity将深度研究功能整合进计算机，跨20多个前沿模型路由研究子任务",
+      "title_en": "Perplexity Moves Deep Research Into Computer, Routing Research Subtasks Across 20+ Frontier Models For Reports, Decks, And Dashboards",
+      "source": "MarkTechPost",
+      "url": "https://www.marktechpost.com/2026/06/11/perplexity-moves-deep-research-into-computer-routing-research-subtasks-across-20-frontier-models-for-reports-decks-and-dashboards/",
+      "time": "1小时前",
+      "published": "2026-06-11T22:21:32+00:00",
+      "summary": "Perplexity宣布将其深度研究功能整合进Perplexity Computer中。该功能能够将复杂问题分解为多个子任务，并跨20多个前沿模型进行路由，以生成报告、演示文稿和仪表盘。用户只需提出一个宽泛的问题，系统会自动调用不同模型处理不同方面：例如用Claude进行逻辑推理，用GPT-4进行文本生成，用Gemini进行多模态分析等。最终结果以结构化报告或可视化仪表盘形式呈现。这一功能大幅提升了多模型协作效率，使研究人员和商业分析师能够快速获取跨领域的综合洞察。Perplexity Computer目前支持订阅用户使用。",
+      "snark": "Perplexity：我们不是模型，我们是模型的‘包工头’。"
+    },
+    {
+      "id": 4,
+      "cat": "tool",
+      "title": "xAI发布Grok Build插件市场，首批集成MongoDB、Vercel、Sentry等",
+      "title_en": "xAI Ships Grok Build Plugin Marketplace With MongoDB, Vercel, Sentry, Chrome DevTools, Cloudflare, and Superpowers Plugins at Launch",
+      "source": "MarkTechPost",
+      "url": "https://www.marktechpost.com/2026/06/11/xai-ships-grok-build-plugin-marketplace-with-mongodb-vercel-sentry-chrome-devtools-cloudflare-and-superpowers-plugins-at-launch/",
+      "time": "2小时前",
+      "published": "2026-06-11T21:30:31+00:00",
+      "summary": "xAI推出了Grok Build的插件市场，这是一个终端内的插件市场，集成了技能、代理、钩子和MCP服务器。首批合作伙伴包括MongoDB、Vercel、Sentry、Chrome DevTools、Cloudflare等。每个远程插件都经过提交SHA验证，确保安全性和完整性。开发者可以通过简单的命令安装插件，扩展Grok在代码开发、调试、部署等场景的能力。例如，MongoDB插件允许直接用自然语言查询数据库，Vercel插件支持一键部署。Grok Build插件市场标志着xAI在开发者工具生态上的重要布局，旨在与GitHub Copilot等竞争。",
+      "snark": "Grok Build插件市场：让AI帮你写代码，顺便帮你把Bug也写了。"
+    },
+    {
+      "id": 5,
+      "cat": "strategy",
+      "title": "SpaceX正式将IPO定价为每股135美元，为史上最大IPO",
+      "title_en": "SpaceX officially prices shares at $135 in the largest IPO ever",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/06/11/spacex-officially-prices-shares-at-135-in-the-largest-ipo-ever/",
+      "time": "3小时前",
+      "published": "2026-06-11T20:33:10+00:00",
+      "summary": "SpaceX正式宣布其IPO定价为每股135美元，发行5.556亿股，募资总额达750亿美元，成为史上最大IPO。这一规模是此前纪录保持者沙特阿美2019年294亿美元IPO的两倍多。SpaceX将于美东时间6月12日在纳斯达克上市，股票代码SPCX。此次上市吸引了大量机构投资者和散户关注，市场对太空经济的前景持乐观态度。SpaceX的上市也将推动太空相关股票的整体上涨，此前美股太空股已经提前狂欢。马斯克个人财富将因此大幅增长，有望成为全球首位万亿富翁。",
+      "snark": "SpaceX上市：人类离火星还远，但离‘太空股’很近了。"
+    },
+    {
+      "id": 6,
+      "cat": "tool",
+      "title": "TunnelMind：IP、ASN和广告技术供应链的声誉API",
+      "title_en": "Show HN: TunnelMind – reputation API for IPs, ASNs, and ad-tech supply chains",
+      "source": "Hacker News",
+      "url": "https://tunnelmind.ai/",
+      "time": "3小时前",
+      "published": "2026-06-11T20:27:59+00:00",
+      "summary": "TunnelMind是一个网络工程师开发的声誉API，覆盖IP地址、ASN、域名和实体，以JSON API形式提供。用户可以通过curl命令查询任何IP的声誉评分，例如curl https://api.tunnelmind.ai/v1/check/1.1.1.1。每个查询结果都经过签名验证，确保数据可信。该工具旨在帮助网络安全团队、广告技术公司和云服务提供商识别恶意流量、垃圾邮件源和欺诈行为。TunnelMind通过构建一个统一的声誉图，将不同来源的威胁情报整合在一起，提供实时、可靠的网络实体评估。目前该API免费提供基本查询功能。",
+      "snark": "TunnelMind：给IP打分，比给网红打分更靠谱。"
+    },
+    {
+      "id": 7,
+      "cat": "policy",
+      "title": "Google在弗吉尼亚州的新社区投资支持当地就业和扩大能源可负担性",
+      "title_en": "Our new community investments in Virginia support local jobs and expand energy affordability.",
+      "source": "Google AI Blog",
+      "url": "https://blog.google/innovation-and-ai/infrastructure-and-cloud/global-network/virginia-community-investments/",
+      "time": "4小时前",
+      "published": "2026-06-11T20:00:00+00:00",
+      "summary": "Google宣布在弗吉尼亚州进行新的社区投资，旨在帮助建设该州下一代劳动力队伍，并投资于能源项目。这些投资将支持当地就业，同时扩大能源可负担性。具体措施包括与当地教育机构合作开展AI和数据中心技术培训，以及资助可再生能源项目以降低数据中心运营成本。弗吉尼亚州是Google数据中心的重要所在地，此次投资回应了当地社区对数据中心能源消耗和就业机会的关切。Google表示，这些投资是其长期承诺的一部分，旨在确保技术发展惠及当地居民并减少环境影响。",
+      "snark": "Google投资弗吉尼亚：一边用能源，一边买‘赎罪券’。"
+    },
+    {
+      "id": 8,
+      "cat": "strategy",
+      "title": "SpaceX SPV投资者在IPO锁定期解除前无法知晓真实持股量",
+      "title_en": "SpaceX SPV investors won’t know their true holdings until post-IPO lock-ups lift",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/06/11/spacex-spv-investors-wont-know-their-true-holdings-until-post-ipo-lock-ups-lift/",
+      "time": "4小时前",
+      "published": "2026-06-11T19:58:01+00:00",
+      "summary": "TechCrunch报道指出，SpaceX的特殊目的载体投资者在IPO后锁定期解除前，无法知晓其真实持股量。这些通过SPV（特殊目的载体）间接投资SpaceX的投资者面临隐藏费用、漫长的支付延迟以及潜在的欺诈风险。SPV通常由中介机构设立，用于汇集散户资金投资未上市公司。由于SPV结构复杂，投资者往往不清楚自己实际持有的股份数量，也无法直接参与公司治理。SpaceX上市后，这些SPV投资者可能需要等待6个月或更长时间才能出售股份，且最终收益可能因中介费用而大幅缩水。",
+      "snark": "SPV投资者：买了SpaceX，却像买了个盲盒。"
+    },
+    {
+      "id": 9,
+      "cat": "policy",
+      "title": "亚马逊数据中心去年用水25亿加仑",
+      "title_en": "Amazon&#8217;s data centers used 2.5 billion gallons of water last year",
+      "source": "The Verge AI",
+      "url": "https://www.theverge.com/tech/948534/amazon-data-centers-water-use",
+      "time": "6小时前",
+      "published": "2026-06-11T17:26:57+00:00",
+      "summary": "据The Verge报道，亚马逊首次公开其数据中心的用水量数据：去年共消耗25亿加仑水。这一披露恰逢西雅图市实施为期一年的数据中心建设暂停令，该暂停令部分由亚马逊员工推动。随着AI数据中心建设的争论加剧，水资源消耗和能源使用成为焦点。亚马逊的数据中心用水主要用于冷却系统，尤其在高热环境下。25亿加仑相当于约3.8万个奥运游泳池的水量。环保组织呼吁科技公司采用更高效的冷却技术，如液体冷却和循环水系统，以减少对当地水资源的压力。",
+      "snark": "亚马逊数据中心：AI没喝到水，水全给GPU降温了。"
+    },
+    {
+      "id": 10,
+      "cat": "tool",
+      "title": "Deezer推出新工具可识别Spotify、Apple Music等平台上的AI音乐",
+      "title_en": "Deezer’s new tool can identify AI music from Spotify, Apple Music, and others",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/06/11/deezers-new-tool-can-identify-ai-music-from-spotify-apple-music-and-others/",
+      "time": "7小时前",
+      "published": "2026-06-11T16:36:20+00:00",
+      "summary": "音乐流媒体平台Deezer推出了一款新工具，能够扫描Spotify、Apple Music等平台的播放列表，识别其中的AI生成音乐。该工具通过分析音频特征和元数据，检测是否存在AI生成的曲目。随着AI音乐生成技术的普及，大量AI生成的歌曲涌入流媒体平台，引发了版权和真实性争议。Deezer的工具旨在帮助用户和平台识别这些内容，保护原创音乐人的权益。目前该工具处于测试阶段，Deezer计划未来将其整合到自己的平台中，为用户提供AI音乐标签。",
+      "snark": "Deezer：AI音乐？我听听就知道是‘人造’还是‘机造’。"
+    },
+    {
+      "id": 11,
+      "cat": "tool",
+      "title": "Pool新应用将截图转化为可搜索的记忆库",
+      "title_en": "Pool’s new app turns your screenshots into something useful",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/06/11/pools-new-app-turns-your-screenshots-into-a-searchable-memory-bank/",
+      "time": "8小时前",
+      "published": "2026-06-11T15:30:00+00:00",
+      "summary": "Pool推出了一款新应用，能够自动将用户的截图分类到个性化收藏中，追踪保存内容背后的原始链接，并帮助用户重新发现产品、食谱、旅行灵感等。该应用利用AI视觉识别技术，分析截图中的内容，自动提取关键信息并建立索引。用户可以通过自然语言搜索找到之前保存的截图，例如搜索“那家意大利餐厅”即可找到对应的菜单截图。Pool还支持从截图中提取链接、价格等结构化数据，方便用户直接访问原始内容。该应用目前已在iOS和Android上线。",
+      "snark": "Pool：你的截图终于不再是‘电子垃圾’了。"
+    },
+    {
+      "id": 12,
+      "cat": "tool",
+      "title": "DoorDash推出AI聊天机器人，支持通过提示词和照片下单",
+      "title_en": "DoorDash’s new AI chatbot lets you order with prompts and photos",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/06/11/doordashs-new-ai-chatbot-lets-you-order-with-prompts-and-photos/",
+      "time": "9小时前",
+      "published": "2026-06-11T14:23:43+00:00",
+      "summary": "DoorDash推出了一款名为Ask DoorDash的AI聊天机器人，允许用户用自己的语言搜索应用，而无需滚动浏览餐厅和商店来构建购物车。用户可以通过文本提示词或上传照片来下单，例如说“给我来一份上次吃过的那个辣汉堡”或者拍一张食物照片，AI会识别并匹配相应的菜单项。该聊天机器人基于大型语言模型构建，能够理解上下文和用户偏好，提供个性化推荐。Ask DoorDash目前在美国部分城市上线，DoorDash计划未来扩展到更多地区。",
+      "snark": "DoorDash AI：你说‘随便’，它真的能给你点个‘随便’。"
+    }
+  ],
+  "stats": {
+    "total": 12,
+    "model_count": 0,
+    "strategy_count": 4,
+    "tool_count": 6,
+    "policy_count": 2
+  }
+}

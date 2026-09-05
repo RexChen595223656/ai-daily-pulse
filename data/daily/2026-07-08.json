@@ -1,0 +1,168 @@
+{
+  "date": "2026-07-08",
+  "generated_at": "2026-07-08T08:11:05.253434+08:00",
+  "highlight": "Meta发布Muse图像模型，Anthropic推出Claude Cowork，AI制药进入三期临床，开源方法Antidoom解决推理模型死循环问题。",
+  "fun": {
+    "lucky": "Muse",
+    "advice": "宜：大胆生成创意图像，把朋友P进照片里恶搞。\n忌：生成内容被AI审核误封，记得备份原图。",
+    "joke": "AI模型说它学会了写诗，结果第一句是：'print('Hello World')'。"
+  },
+  "articles": [
+    {
+      "id": 1,
+      "cat": "strategy",
+      "title": "「德睿智药」获5200万美元B轮融资，AI设计的减肥药已进入3期临床",
+      "title_en": "「德睿智药」获5200万美元B轮融资，AI设计的减肥药已进入3期临床｜36氪首发",
+      "source": "36氪",
+      "url": "https://36kr.com/p/3885479689465858?f=rss",
+      "time": "11分钟前",
+      "published": "2026-07-08T00:00:00+00:00",
+      "summary": "德睿智药近期完成5200万美元B轮融资，投资方包括头部人民币和美元基金，凯乘资本担任独家财务顾问。募集资金将用于升级其AI制药引擎Molecule Arts Platform（MAP），完善多智能体协同体系与临床数据闭环，并推进自研口服GLP-1小分子药物MDR-001的III期临床及商业化，同时拓展其他差异化创新药管线。该公司愿景是成为AI原生生物制药公司，创始人兼CEO牛张明拥有多年德国AI医疗上市公司CTO经验。此轮融资标志着AI制药领域从早期发现迈向临床后期验证，MDR-001若能成功上市，将成为AI设计的减肥药重要里程碑。",
+      "snark": "AI制药：终于从画饼阶段进化到让患者试吃阶段了。"
+    },
+    {
+      "id": 2,
+      "cat": "model",
+      "title": "Meta推出Muse新AI图像生成模型",
+      "title_en": "Meta rolls out Muse, a new AI image generator",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/07/07/meta-rolls-out-muse-a-new-ai-image-generator/",
+      "time": "1小时前",
+      "published": "2026-07-07T22:18:10+00:00",
+      "summary": "Meta发布了名为Muse的新AI图像生成模型，该模型由Meta超级智能实验室部门开发。Muse模型现已应用于Meta AI应用、Instagram和WhatsApp中的图像生成工具，并即将登陆Facebook和Messenger。Muse具有多种用例，包括广告设计、装饰以及创作者相关场景。与之前模型不同，Muse能够将其他Instagram用户拉入AI生成的图片中，极大增强了社交互动性和趣味性。该模型代表了Meta在生成式AI领域的最新进展，旨在为用户提供更个性化、更具社交属性的图像创作体验。",
+      "snark": "Muse：以后你的Instagram照片里，可能连你自己都是AI生成的。"
+    },
+    {
+      "id": 3,
+      "cat": "tool",
+      "title": "Meta的Muse图像模型可将其他Instagram用户拉入AI照片",
+      "title_en": "Meta’s new Muse Image model can pull other Instagram users into AI photos",
+      "source": "The Verge AI",
+      "url": "https://www.theverge.com/tech/962485/meta-muse-image-ai-model-instagram",
+      "time": "3小时前",
+      "published": "2026-07-07T20:31:58+00:00",
+      "summary": "Meta正式发布了由超级智能实验室部门打造的首个AI图像生成模型Muse。该模型目前已在Meta AI应用、Instagram和WhatsApp中驱动图像制作工具，并即将在Facebook和Messenger上线。Muse的一大特色功能是能够将其他Instagram用户无缝融入AI生成的图片中，这意味着用户可以通过文本提示，让AI在生成的场景里包含特定好友的形象。此举进一步模糊了真实与虚拟社交内容的边界，但也引发了关于肖像权和内容真实性的讨论。Meta表示该功能将严格遵守隐私政策，用户可自主选择是否允许被AI引用。",
+      "snark": "以后P图不用学PS了，直接跟AI说‘把我老板P进火山口’就行。"
+    },
+    {
+      "id": 4,
+      "cat": "strategy",
+      "title": "为什么开源AI的崛起尚未冲击Anthropic",
+      "title_en": "Why the rise of open source AI isn’t hurting Anthropic … yet",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/07/07/why-the-rise-of-open-source-ai-isnt-hurting-anthropic-yet/",
+      "time": "4小时前",
+      "published": "2026-07-07T20:04:32+00:00",
+      "summary": "TechCrunch分析文章指出，开源AI模型的成功目前并未对Anthropic等前沿实验室造成实质性威胁。相反，两者似乎在捕获同一生命周期的不同阶段：开源模型更多被用于实验、快速迭代和成本敏感场景，而Anthropic的闭源前沿模型则在需要高度可靠性和安全性的企业级应用中占据优势。文章认为，开源模型降低了AI入门门槛，但并未削弱闭源模型在复杂推理、合规性和技术支持方面的竞争力。目前市场呈现共生状态，开源生态的繁荣反而可能为闭源模型培养更多潜在用户，因为开发者会从开源起步，在需要更高性能时转向付费闭源方案。",
+      "snark": "开源模型：我免费。Anthropic：但我安全。用户：我选择白嫖。"
+    },
+    {
+      "id": 5,
+      "cat": "strategy",
+      "title": "微软加入AI降本潮流，更多依赖自研模型",
+      "title_en": "Microsoft joins AI cost-cutting trend by relying more on its own models",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/07/07/microsoft-joins-ai-cost-cutting-trend-by-relying-more-on-its-own-models/",
+      "time": "4小时前",
+      "published": "2026-07-07T19:58:20+00:00",
+      "summary": "微软成为最新一家削减AI开支的硅谷巨头，其策略是减少对外部模型的依赖，转而更多地使用自研AI模型。这一趋势反映了整个行业对AI成本效益的重新评估。此前，微软在AI领域投入巨大，包括对OpenAI的数十亿美元投资和Azure云服务的大规模GPU部署。如今，微软正通过优化内部模型架构和推理效率来降低运营成本，同时保持竞争力。此举可能意味着微软将逐步从“AI平台提供商”转向“AI自研应用商”，通过自研模型为Office、Azure等核心产品提供更经济、更集成的AI功能，减少对第三方API调用的依赖。",
+      "snark": "微软：自研模型真香，省下的钱够买几个动视暴雪了。"
+    },
+    {
+      "id": 6,
+      "cat": "policy",
+      "title": "Discord承认AI审核漏洞误封大量用户",
+      "title_en": "Discord admits AI moderation bug wrongfully banned users over harmless images",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/07/07/discord-admits-ai-moderation-bug-wrongfully-banned-users-over-harmless-images/",
+      "time": "4小时前",
+      "published": "2026-07-07T19:28:38+00:00",
+      "summary": "Discord官方承认其AI审核系统存在漏洞，导致大量用户因无害图片被错误封禁。该公司确认该问题自5月以来一直影响账户，在团队识别并修复问题前，上周末又有200多名用户被误封。受影响的用户上传了完全合规的图片，却被AI标记为违规内容。Discord已向受影响的用户道歉并恢复账户，但未详细说明漏洞的具体技术原因。此事件再次引发对AI内容审核可靠性的质疑，尤其是在涉及色情、暴力等敏感内容分类时，AI模型往往因训练数据偏差或特征泛化过度而产生误判。",
+      "snark": "AI审核：宁可错杀一千，绝不放过一张猫片。"
+    },
+    {
+      "id": 7,
+      "cat": "tool",
+      "title": "Docx-CLI：让AI代理读写Word文档，节省一半时间和Token",
+      "title_en": "Show HN: Docx-CLI: agents read/edit Word docs using 1/2 the time and tokens",
+      "source": "Hacker News",
+      "url": "https://github.com/kklimuk/docx-cli",
+      "time": "5小时前",
+      "published": "2026-07-07T18:19:00+00:00",
+      "summary": "Docx-CLI是一个开源命令行工具，旨在让AI代理更高效地读取和编辑Word文档（.docx格式）。该工具通过优化文档解析和生成流程，声称可将处理时间和Token消耗减少一半。传统方法中，AI代理需要将整个Word文档转换为文本或HTML格式，消耗大量Token且容易丢失格式信息。Docx-CLI采用直接操作底层XML结构的方式，允许AI代理精确修改文档中的特定段落、表格或样式，而无需重新生成整个文件。该项目已在GitHub开源，获得社区53个点赞和21条评论，适用于自动化报告生成、合同审核、文档批量处理等场景。",
+      "snark": "Word：我活了30年，终于有人想认真读我的XML了。"
+    },
+    {
+      "id": 8,
+      "cat": "tool",
+      "title": "Anthropic在移动端和网页端推出Claude Cowork",
+      "title_en": "Anthropic is launching Claude Cowork on mobile and web",
+      "source": "The Verge AI",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/961978/anthropic-claude-cowork-mobile-web",
+      "time": "6小时前",
+      "published": "2026-07-07T17:46:59+00:00",
+      "summary": "Anthropic宣布其AI协作平台Claude Cowork自周二起首次登陆移动端和网页端。该扩展访问将首先向Max订阅用户开放，并在未来几周内逐步推广至其他计划的Claude用户。此前，Claude Cowork仅能通过Claude桌面应用访问。Claude Cowork定位为AI同事，能够与用户共同完成复杂任务，如代码编写、文档协作、数据分析等，支持多轮对话和上下文记忆。此次移动端和网页端的推出，意味着用户无需依赖特定设备即可随时随地与AI协同工作，进一步降低了使用门槛。Anthropic此举意在抢占企业级AI协作市场，与微软Copilot和谷歌Duet AI展开竞争。",
+      "snark": "Claude Cowork：以后打工人连在厕所摸鱼时都得跟AI开会了。",
+      "multiSource": [
+        "TechCrunch",
+        "The Verge",
+        "The Verge AI"
+      ]
+    },
+    {
+      "id": 9,
+      "cat": "model",
+      "title": "Liquid AI开源Antidoom方法：终结推理模型的死循环噩梦",
+      "title_en": "Liquid AI Open-Sources Antidoom: A Final Token Preference Optimization (FTPO) Method that Reduces Doom Loops in Reasoning Models",
+      "source": "MarkTechPost",
+      "url": "https://www.marktechpost.com/2026/07/07/liquid-ai-antidoom-doom-loops-ftpo/",
+      "time": "7小时前",
+      "published": "2026-07-07T16:50:50+00:00",
+      "summary": "Liquid AI发布了名为Antidoom的开源方法，专门针对推理模型中的“死循环”问题。死循环是指推理模型在生成过程中反复输出同一段内容，直到耗尽上下文窗口。Antidoom采用最终Token偏好优化（FTPO）技术，首先检测出触发循环的起始Token，然后仅对该位置进行重新训练，从而打破循环模式。该方法在LFM2.5基准测试上表现优异，显著减少了模型陷入死循环的频率，同时保持推理质量。Antidoom完全开源，允许研究者和开发者直接集成到自己的推理模型中。这一成果对于提升大模型在长文本生成、数学推理和代码生成等任务中的稳定性具有重要意义。",
+      "snark": "Antidoom：专治AI复读机，比妈妈喊你吃饭还管用。"
+    },
+    {
+      "id": 10,
+      "cat": "strategy",
+      "title": "英矽智能AI发现的特发性肺纤维化药物进入III期临床试验",
+      "title_en": "Insilico Medicine advances AI drug for IPF to Phase III trials",
+      "source": "AI News",
+      "url": "https://www.artificialintelligence-news.com/news/insilico-medicine-advances-ai-drug-for-ipf-to-phase-iii-trials/",
+      "time": "10小时前",
+      "published": "2026-07-07T14:00:06+00:00",
+      "summary": "英矽智能（Insilico Medicine）宣布其由AI识别并设计的治疗特发性肺纤维化（IPF）的药物已推进至III期人体试验。这一进展为计算药物发现领域提供了重要的实证案例，标志着AI设计的药物已通过早期安全性评估，进入后期临床验证阶段。IPF是一种慢性、进行性的肺部疾病，现有治疗方案有限。英矽智能利用其AI平台从靶点发现到分子设计全程参与，大幅缩短了传统药物研发周期。如果III期试验成功，该药物将成为全球首个完全由AI发现并进入临床后期的IPF治疗药物，进一步验证AI在药物研发中的实际价值。",
+      "snark": "AI制药：从计算机模拟到人体试验，终于不再是‘纸面神药’了。"
+    },
+    {
+      "id": 11,
+      "cat": "tool",
+      "title": "Solos发布更轻的无摄像头智能眼镜，AI助手全靠语音",
+      "title_en": "Solos debuts an even lighter version of its camera-less smart glasses",
+      "source": "The Verge AI",
+      "url": "https://www.theverge.com/tech/961711/solos-airgo-a6-smart-glasses-ai-assistant-privacy",
+      "time": "11小时前",
+      "published": "2026-07-07T13:00:00+00:00",
+      "summary": "Solos发布了新款AirGo A6智能眼镜，相比去年的AirGo A5，重量从36-40克大幅减轻至约19克。新款眼镜取消了摄像头设计，采用更简洁的外观，AI助手完全依赖语音交互。重量减轻部分得益于取消了摄像头模块和相应的电池组件。该眼镜主打隐私保护，因为没有摄像头，用户无需担心被偷拍风险，AI助手通过麦克风接收语音指令，提供信息查询、翻译、日程管理等服务。Solos此举瞄准了那些对隐私敏感但仍希望体验AI可穿戴设备的用户，在智能眼镜市场走出差异化路线，区别于Meta Ray-Ban等带摄像头的竞品。",
+      "snark": "没有摄像头的智能眼镜：终于不用被当成偷拍狂了，但AI助手还在偷听。"
+    },
+    {
+      "id": 12,
+      "cat": "policy",
+      "title": "今日下载：你在OpenAI中的股份，以及美国财政部的AI警告",
+      "title_en": "The Download: your stake in OpenAI, and the Treasury’s AI warning",
+      "source": "MIT Tech Review",
+      "url": "https://www.technologyreview.com/2026/07/07/1140197/the-download-your-openai-stake-treasury-ai-warning/",
+      "time": "12小时前",
+      "published": "2026-07-07T12:10:00+00:00",
+      "summary": "本期《MIT科技评论》的每日下载聚焦两个热点：一是Sam Altman提出的让美国民众分享AI创造财富的提案重回聚光灯下，据报道每位美国公民可能获得约300美元的OpenAI股份收益，这一设想旨在缓解AI带来的就业冲击和贫富差距；二是美国财政部发布AI警告，指出AI在金融系统中的广泛应用可能带来系统性风险，包括算法共谋、市场操纵和模型同质化导致的脆弱性。财政部呼吁加强监管框架，确保AI在金融领域的应用不会引发类似2008年的危机。两个话题共同指向AI治理的核心矛盾：如何平衡技术进步与社会公平及风险管控。",
+      "snark": "300美元就想买断我对AI取代工作的焦虑？Altman你太天真了。"
+    }
+  ],
+  "stats": {
+    "total": 12,
+    "model_count": 2,
+    "strategy_count": 4,
+    "tool_count": 4,
+    "policy_count": 2
+  }
+}

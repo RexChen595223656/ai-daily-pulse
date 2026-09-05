@@ -1,0 +1,163 @@
+{
+  "date": "2026-06-06",
+  "generated_at": "2026-06-06T08:40:15.382844+08:00",
+  "highlight": "谷歌每月豪掷9.2亿美元租用SpaceX算力，AI军备竞赛成本失控引发行业反思。",
+  "fun": {
+    "lucky": "Gemma 4 QAT",
+    "advice": "宜：量化剪枝，轻装上阵。\n忌：盲目烧钱，算力成瘾。",
+    "joke": "AI写诗说“床前明月光”，GPU看了一眼：“这词向量没对齐，重写。”"
+  },
+  "articles": [
+    {
+      "id": 1,
+      "cat": "tool",
+      "title": "高通AI Hub实战教程：从分类、检测到硬件感知部署",
+      "title_en": "A Hands-On Coding Tutorial on Qualcomm AI Hub Models for Classification, Object Detection, and Hardware-Aware Deployment",
+      "source": "MarkTechPost",
+      "url": "https://www.marktechpost.com/2026/06/05/a-hands-on-coding-tutorial-on-qualcomm-ai-hub-models-for-classification-object-detection-and-hardware-aware-deployment/",
+      "time": "2小时前",
+      "published": "2026-06-05T22:32:51+00:00",
+      "summary": "MarkTechPost发布了一篇高通AI Hub的实战编码教程，详细演示了如何在该平台上部署MobileNet-V2进行图像分类推理、运行YOLOv7进行目标检测，并最终将模型编译到真实设备上。教程重点强调了硬件感知部署的流程，包括模型量化、算子适配以及针对高通骁龙等移动芯片的优化技巧，帮助开发者将云端训练好的模型高效迁移至边缘端。文章还提供了完整的代码示例和性能调优建议，覆盖从模型选择到端侧推理的全链路工程实践。对于希望利用高通AI Hub加速移动端AI落地的开发者而言，这是一份不可多得的实操指南。",
+      "snark": "教程很好，但我缺的不是代码，是高通芯片的手机。"
+    },
+    {
+      "id": 2,
+      "cat": "strategy",
+      "title": "创业战场200强申请通道三天后关闭",
+      "title_en": "Startup Battlefield 200 applications officially close in 3 days",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/06/05/startup-battlefield-200-applications-officially-close-in-3-days/",
+      "time": "4小时前",
+      "published": "2026-06-05T20:00:00+00:00",
+      "summary": "TechCrunch宣布，其年度旗舰活动“创业战场200”的申请通道将于太平洋时间6月8日晚上11点59分正式关闭。入选的初创公司将有机会在今年10月于旧金山莫斯康中心举行的TechCrunch Disrupt 2026大会上登台竞技，向顶级投资人和行业领袖展示项目。该活动历来是AI、硬科技等领域新锐公司的曝光圣地，过去曾走出多家独角兽企业。对于还在犹豫的创业者而言，这是最后三天争取聚光灯下“五分钟改变命运”的机会。",
+      "snark": "创业战场：要么上台被VC拷打，要么在台下看别人被拷打。"
+    },
+    {
+      "id": 3,
+      "cat": "model",
+      "title": "谷歌DeepMind发布Gemma 4 QAT检查点：Q4_0与移动端格式大幅降低内存占用",
+      "title_en": "Google DeepMind Releases Gemma 4 QAT Checkpoints: Q4_0 and a New Mobile Format Cut On-Device Memory",
+      "source": "MarkTechPost",
+      "url": "https://www.marktechpost.com/2026/06/05/google-deepmind-releases-gemma-4-qat-checkpoints-q4_0-and-a-new-mobile-format-cut-on-device-memory/",
+      "time": "5小时前",
+      "published": "2026-06-05T18:59:38+00:00",
+      "summary": "谷歌DeepMind发布了Gemma 4系列的量化感知训练检查点，推出Q4_0和移动端QAT两种新格式，显著降低了模型在设备上的内存占用。与原有的BF16格式相比，Q4_0通过4-bit量化将模型体积压缩至四分之一，而专为移动端设计的QAT格式在保持推理精度的同时进一步优化了内存带宽。文章详细对比了三种格式的内存占用数据与设计取舍：BF16保留最高精度但体积最大，Q4_0在精度与压缩间取得平衡，移动端QAT则牺牲少量精度换取极致的端侧部署效率。这一发布为在手机、平板等资源受限设备上运行大语言模型提供了更实用的选择。",
+      "snark": "BF16到Q4_0，像从住大别墅搬到胶囊旅馆——但好歹能住。"
+    },
+    {
+      "id": 4,
+      "cat": "strategy",
+      "title": "谷歌每月向SpaceX支付9.2亿美元用于算力租赁",
+      "title_en": "Google will pay SpaceX $920M per month for compute",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/06/05/google-will-pay-spacex-920m-per-month-for-compute/",
+      "time": "5小时前",
+      "published": "2026-06-05T18:57:20+00:00",
+      "summary": "据TechCrunch披露，谷歌与SpaceX达成一项天价算力租赁协议，每月支付高达9.2亿美元以获取SpaceX的云计算资源。谷歌发言人在声明中表示，这笔交易源于其近期推出的AI产品需求远超预期，现有数据中心难以承载激增的推理与训练任务。SpaceX凭借其星链卫星网络和地面数据中心，正成为AI算力市场的新兴供应商。这一合作不仅反映了谷歌对算力的饥渴程度，也标志着AI军备竞赛已从模型算法层面蔓延至基础设施的疯狂争夺，每月近百亿美元的成本可能进一步推高行业准入门槛。",
+      "snark": "谷歌：算力不够？那就买下整个太空。"
+    },
+    {
+      "id": 5,
+      "cat": "policy",
+      "title": "标普500拒绝SpaceX快速纳入，OpenAI和Anthropic也遭封堵",
+      "title_en": "S&P 500 rejects SpaceX, also blocking entry for OpenAI and Anthropic",
+      "source": "Ars Technica",
+      "url": "https://arstechnica.com/tech-policy/2026/06/sp-500-blocks-fast-spacex-entry-wont-waive-rule-for-unprofitable-ai-firms/",
+      "time": "5小时前",
+      "published": "2026-06-05T18:45:20+00:00",
+      "summary": "标普500指数委员会拒绝了SpaceX快速纳入的申请，同时明确表示不会为OpenAI和Anthropic等未盈利AI公司豁免上市规则。这意味着这些高估值但持续亏损的AI巨头将无法轻松获得被动投资者带来的数十亿美元资金流入。标普500的规则要求公司必须在最近四个季度连续盈利，而SpaceX、OpenAI和Anthropic均因巨额研发投入而未能达标。此举给AI行业的资本狂欢泼了一盆冷水，表明传统资本市场对AI公司烧钱换增长的商业模式仍持审慎态度。",
+      "snark": "标普500：想进来？先把利润表填平再说。"
+    },
+    {
+      "id": 6,
+      "cat": "strategy",
+      "title": "反潮流创业：最有趣的初创公司正试图让你放下手机",
+      "title_en": "The most interesting startups right now want to get you off your phone",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/video/the-most-interesting-startups-right-now-want-to-get-you-off-your-phone/",
+      "time": "7小时前",
+      "published": "2026-06-05T17:17:06+00:00",
+      "summary": "在AI融资机器不断打破纪录的同时，一批反其道而行之的初创公司正在崛起。Mirror创始人布莱恩·普特南刚刚为她的新公司Board融资，该产品专注于通过线下桌游和社交体验将人们聚在一起。另一家名为Cyberdeck的初创公司则主打低科技含量的实体交互设备。这些“反屏幕”创业项目在AI狂潮中显得格外另类，却获得了投资人的青睐。文章认为，当AI应用越来越让人沉迷于数字世界时，帮助人们回归真实社交的“共聚科技”可能成为2026年最具吸引力的创业赌注。",
+      "snark": "AI让你沉迷屏幕，反AI创业让你放下屏幕——最后你发现还是刷手机香。"
+    },
+    {
+      "id": 7,
+      "cat": "tool",
+      "title": "这就是你的笔记本电脑……装上AI之后",
+      "title_en": "This is your laptop… on AI",
+      "source": "The Verge AI",
+      "url": "https://www.theverge.com/podcast/944058/ai-laptop-nvidia-build-gemini-spark-vergecast",
+      "time": "8小时前",
+      "published": "2026-06-05T16:39:07+00:00",
+      "summary": "The Verge在其播客中深入探讨了当前开发者大会季的一个核心主题：大型科技公司坚信AI将彻底改变我们使用电脑的方式。英伟达CEO黄仁勋在本周的演讲中描绘了一幅全新计算图景，认为AI将重塑从操作系统到应用程序的每一层。节目对比了英伟达的AI PC方案、谷歌的Gemini集成以及英特尔的Spark平台，讨论了这些技术如何让笔记本电脑从被动工具变为主动助手。然而，主持人也质疑了这种“AI无处不在”的叙事是否真的能带来实质性的效率提升，还是仅仅制造了新的交互复杂性。",
+      "snark": "AI笔记本：以前是电脑卡，现在是AI帮你卡得更智能。"
+    },
+    {
+      "id": 8,
+      "cat": "policy",
+      "title": "机场手机被没收怎么办？美国海关边境保护局搜查引发隐私担忧",
+      "title_en": "What happens when your phone is confiscated at the airport",
+      "source": "The Verge",
+      "url": "https://www.theverge.com/report/944076/cbp-airport-phone-searches-seizure-minneapolis-activists",
+      "time": "8小时前",
+      "published": "2026-06-05T16:15:00+00:00",
+      "summary": "The Verge报道了美国海关边境保护局在机场对旅客手机进行搜查和扣押的案例。明尼苏达州劳工组织者珍妮特·扎希亚·科塞利乌斯在结束欧洲旅行返回美国时，被边境官员强行扣押手机并检查数据，即使她作为美国公民也毫无反抗之力。报道指出，尽管旅客并未涉嫌任何违法行为，但边境官员拥有广泛的搜查权力，可以无理由要求解锁设备。随着AI技术使数据挖掘能力大幅提升，手机中的个人信息、聊天记录和AI应用数据面临被滥用的风险，引发了公民隐私团体对数字时代边境执法边界的强烈抗议。",
+      "snark": "手机被没收时，你的AI助手会替你喊“我要求见律师”吗？"
+    },
+    {
+      "id": 9,
+      "cat": "policy",
+      "title": "纽约州议会通过新数据中心一年禁令",
+      "title_en": "New York lawmakers pass one-year ban on new data centers",
+      "source": "The Verge AI",
+      "url": "https://www.theverge.com/policy/944041/new-york-data-center-moratorium",
+      "time": "9小时前",
+      "published": "2026-06-05T15:25:10+00:00",
+      "summary": "纽约州议会通过了一项法案，将暂停新建大型数据中心一年，这是全美首个全州范围的此类禁令。如果民主党州长凯西·霍楚签署生效，该禁令将给予政策制定者时间评估数据中心对电网负荷、环境可持续性和社区影响。法案发起人表示，AI热潮导致的数据中心建设狂潮已使纽约州电力供应承压，并推高了居民用电成本。该禁令可能引发连锁反应，其他面临能源压力的州或将效仿。对于正在全美疯狂圈地建数据中心的AI公司而言，这一政策无异于当头一棒。",
+      "snark": "纽约：先别建数据中心了，让我们的电网喘口气。"
+    },
+    {
+      "id": 10,
+      "cat": "strategy",
+      "title": "Token账单到期：AI行业为失控成本紧急刹车",
+      "title_en": "The token bill comes due: Inside the industry scramble to manage AI’s runaway costs",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/06/05/the-token-bill-comes-due-inside-the-industry-scramble-to-manage-ais-runaway-costs/",
+      "time": "9小时前",
+      "published": "2026-06-05T14:49:12+00:00",
+      "summary": "TechCrunch深度报道了AI行业从“疯狂堆token”到“紧急控成本”的集体转向。随着大模型训练和推理的算力消耗呈指数级增长，多家公司的月度GPU账单已突破数亿美元。文章引用业内人士的话称：“整个讨论从‘最大化token’和‘加速前进’转向了‘我们需要护栏，如何控制这一切？’”企业开始重新审视模型架构、采用更高效的量化技术、优化推理缓存，甚至限制内部AI工具的使用频率。这场成本危机正在重塑AI行业的游戏规则，从比拼模型大小转向比拼成本效率。",
+      "snark": "以前比谁的模型大，现在比谁的账单小。"
+    },
+    {
+      "id": 11,
+      "cat": "strategy",
+      "title": "谷歌AI 2026年5月动态汇总",
+      "title_en": "The latest AI news we announced in May 2026",
+      "source": "Google AI Blog",
+      "url": "https://blog.google/innovation-and-ai/technology/ai/google-ai-updates-may-2026/",
+      "time": "9小时前",
+      "published": "2026-06-05T14:45:00+00:00",
+      "summary": "谷歌AI博客发布了2026年5月的产品与研究成果汇总。本月重点包括Gemini模型的持续迭代、Google Cloud AI平台的新工具发布，以及搜索、广告等核心产品中AI功能的深度集成。具体更新涉及多模态理解能力的提升、代码生成工具的性能优化，以及面向企业客户的定制化模型服务。谷歌还强调了其在负责任AI方面的进展，包括新的安全评估框架和透明度报告。不过，这篇博客更像是一份月度简报，缺乏突破性的技术细节，更多是巩固现有生态的渐进式更新。",
+      "snark": "谷歌AI五月汇总：没啥大新闻，但PPT做得挺漂亮。"
+    },
+    {
+      "id": 12,
+      "cat": "strategy",
+      "title": "“共聚科技”浪潮：2026年最有趣的创业赌注",
+      "title_en": "The ‘together tech’ wave might be the most intriguing startup bet of 2026",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/podcast/the-together-tech-wave-might-be-the-most-intriguing-startup-bet-of-2026/",
+      "time": "10小时前",
+      "published": "2026-06-05T14:00:00+00:00",
+      "summary": "TechCrunch播客探讨了“共聚科技”这一新兴创业趋势。在AI疯狂吸金的背景下，一些创始人反其道而行之，专注于通过实体互动和线下体验将人们连接起来。Mirror创始人布莱恩·普特南的新公司Board主打真人桌游社交，Cyberdeck则开发低科技交互设备。这些项目试图对抗AI带来的数字孤独感，强调真实世界的“共聚”价值。投资人认为，当AI让虚拟交互变得过于廉价和泛滥时，稀缺的真实社交体验反而成为新的价值洼地。这一趋势可能标志着科技创业从“连接所有人”向“让人们真正在一起”的范式转变。",
+      "snark": "AI让你和机器人聊天，共聚科技让你和真人玩桌游——然后你发现机器人更好聊。"
+    }
+  ],
+  "stats": {
+    "total": 12,
+    "model_count": 1,
+    "strategy_count": 6,
+    "tool_count": 2,
+    "policy_count": 3
+  }
+}

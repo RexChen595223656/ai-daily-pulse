@@ -1,0 +1,163 @@
+{
+  "date": "2026-06-19",
+  "generated_at": "2026-06-19T08:02:30.185729+08:00",
+  "highlight": "Perplexity 推出能隔夜自省的工作记忆系统 Brain，AI 开始学会“复盘”了。",
+  "fun": {
+    "lucky": "Perplexity Brain",
+    "advice": "宜：让 AI 夜里自己跑复盘。\n忌：白天不干活，指望 AI 晚上自动学会。",
+    "joke": "AI 半夜偷偷学习，醒来告诉老板：我昨天梦到了 Transformer。"
+  },
+  "articles": [
+    {
+      "id": 1,
+      "cat": "strategy",
+      "title": "AI 推理创企 Baseten 传出再融 15 亿美元，估值达 130 亿",
+      "title_en": "AI inference startup Baseten reportedly raising $1.5B months after its last mega-round",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/06/18/ai-inference-startup-baseten-reportedly-raising-1-5b-months-after-its-last-mega-round/",
+      "time": "2小时前",
+      "published": "2026-06-18T21:20:13+00:00",
+      "summary": "AI 推理初创公司 Baseten 被曝正在完成一轮约 15 亿美元的融资，估值高达 130 亿美元。这距离其上一轮巨额融资仅过去几个月。随着大模型部署需求爆发，推理（inference）环节成为新的“淘金热”，Baseten 作为提供模型推理基础设施的平台，正乘着这波浪潮快速扩张。本轮融资将进一步支持其 GPU 集群扩展和全球节点布局，帮助客户降低推理延迟与成本。",
+      "snark": "推理公司融的钱，够把全世界的 GPU 都插上翅膀。"
+    },
+    {
+      "id": 2,
+      "cat": "strategy",
+      "title": "Snap 剥离 AI 视频团队成立新公司 Dotmo，为降本增效",
+      "title_en": "Snap spins off AI video team into new company, Dotmo, due to costs",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/06/18/snap-spins-off-ai-video-team-into-new-company-dotmo-due-to-costs/",
+      "time": "3小时前",
+      "published": "2026-06-18T20:30:00+00:00",
+      "summary": "Snapchat 母公司 Snap 宣布将内部 AI 视频团队分拆为独立公司 Dotmo，原团队员工将离开 Snap 专注于 AI 视频技术开发。此举主要出于成本控制考虑，Snap 希望在不放弃 AI 视频赛道的前提下，通过外部融资减轻母公司的财务压力。Dotmo 将专注于生成式 AI 视频编辑与特效工具，可能面向创作者经济提供新解决方案。",
+      "snark": "亲儿子养不起，只好送出去当干儿子。"
+    },
+    {
+      "id": 3,
+      "cat": "tool",
+      "title": "Perplexity 发布 Brain：能自我改进的记忆系统，隔夜学习工作上下文",
+      "title_en": "Perplexity Launches Brain, a Self-Improving Memory System That Builds a Context Graph of an Agent’s Work and Learns Overnight",
+      "source": "MarkTechPost",
+      "url": "https://www.marktechpost.com/2026/06/18/perplexity-launches-brain/",
+      "time": "3小时前",
+      "published": "2026-06-18T20:26:20+00:00",
+      "summary": "Perplexity 推出名为 Brain 的自我改进记忆系统，专为其 Computer Agent 设计。与普通记忆系统不同，Brain 不记忆用户偏好，而是记录 Agent 自身的工作过程——哪些操作成功、哪些失败、哪些修正被采纳。它构建一个可追溯的上下文图（context graph），并在夜间自动复盘学习。早期测试显示，Brain 在任务正确率和修正效率上均有显著提升，这标志着 AI Agent 开始具备“工作记忆”和“经验积累”能力。",
+      "snark": "AI 开始写工作日报了，人类还有什么优势？"
+    },
+    {
+      "id": 4,
+      "cat": "strategy",
+      "title": "OpenAI IPO 前招兵买马：Transformer 发明者 Noam Shazeer 加入",
+      "title_en": "OpenAI is bringing on some big guns in the lead-up to its IPO",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/06/18/openai-is-bringing-on-some-big-guns-in-the-lead-up-to-its-ipo/",
+      "time": "4小时前",
+      "published": "2026-06-18T19:59:22+00:00",
+      "summary": "OpenAI 在 IPO 前夕密集引入重量级人才。本周内接连拿下 Transformer 架构共同发明人 Noam Shazeer（来自 Google DeepMind）和前特朗普政府 AI 政策官员 Dean Ball。Noam Shazeer 的加入将为 OpenAI 在底层模型架构上带来顶级技术视野，而 Dean Ball 则有助于 OpenAI 应对日益复杂的全球 AI 监管环境。这一系列动作被外界解读为 OpenAI 为上市做合规和技术双重背书。",
+      "snark": "IPO 前挖来 Transformer 亲爹，这波估值不涨说不过去。"
+    },
+    {
+      "id": 5,
+      "cat": "policy",
+      "title": "Match 调查：近半数美国单身人士反感 AI 参与约会",
+      "title_en": "Almost half of US singles feel negatively about AI in dating, Match says",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/06/18/almost-half-of-u-s-singles-feel-negatively-about-ai-in-dating-match-says/",
+      "time": "5小时前",
+      "published": "2026-06-18T18:51:46+00:00",
+      "summary": "Match 集团最新调查显示，约 47% 的美国单身人士对 AI 在约会中的应用持负面态度。不过，不少约会应用用户愿意接受 AI 帮助优化个人资料文案和提供开场白建议。这种矛盾心态反映了公众对 AI 介入亲密关系的警惕与实用主义并存。调查还发现，年轻一代对 AI 辅助的接受度相对更高，但普遍不希望 AI 代替真人进行匹配决策或聊天。",
+      "snark": "AI 帮你写开场白可以，替你谈恋爱不行。"
+    },
+    {
+      "id": 6,
+      "cat": "strategy",
+      "title": "亚马逊计划向外部数据中心出售自研 AI 芯片，正面挑战英伟达",
+      "title_en": "Amazon hopes to challenge Nvidia more directly by selling its AI chips",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/06/18/amazon-hopes-to-challenge-nvidia-more-directly-by-selling-its-ai-chips/",
+      "time": "5小时前",
+      "published": "2026-06-18T18:22:13+00:00",
+      "summary": "AWS 正在谈判将其自研 AI 芯片（如 Trainium 和 Inferentia）出售给其他数据中心运营商。CEO Andy Jassy 表示，这代表着一个 500 亿美元的市场机会。此举意味着亚马逊不再满足于内部使用，而是希望成为英伟达在 AI 芯片领域的直接竞争对手。如果落地，将大幅降低行业对英伟达 GPU 的依赖，并推动 AI 算力市场走向多元化。",
+      "snark": "英伟达：你们一个个的，都想当我的平替？"
+    },
+    {
+      "id": 7,
+      "cat": "policy",
+      "title": "美国联邦能源监管委员会下令：AI 数据中心可快速接入电网",
+      "title_en": "AI data centers just got a government-mandated fast lane to the grid",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/06/18/ai-data-centers-just-got-a-government-mandated-fast-lane-to-the-grid/",
+      "time": "6小时前",
+      "published": "2026-06-18T17:49:23+00:00",
+      "summary": "美国联邦能源监管委员会（FERC）下令电网运营商为 AI 数据中心开设并网“快速通道”，简化审批流程，缩短接入周期。但该命令并未解决电力供应短缺的根本问题，意味着数据中心虽然能更快连上电网，却可能加剧局部电力紧张。这一政策被批评为“治标不治本”，可能推高其他用户的用电成本，并给电网稳定性带来新挑战。",
+      "snark": "电网：你尽管接，电不够算我输。"
+    },
+    {
+      "id": 8,
+      "cat": "tool",
+      "title": "智能手机时代引发注意力危机，“慢科技”运动正在兴起",
+      "title_en": "The smartphone era created an attention crisis. Slowtech is fixing it",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/06/18/the-smartphone-era-created-an-attention-crisis-slowtech-is-fixing-it/",
+      "time": "6小时前",
+      "published": "2026-06-18T17:16:30+00:00",
+      "summary": "随着智能手机和社交媒体的深度渗透，人们正面临前所未有的注意力危机。一批“慢科技”（Slowtech）产品应运而生，它们通过限制功能、减少通知、简化界面等方式帮助用户夺回时间和注意力。这些产品不追求用户停留时长，而是强调“用完即走”。文章指出，越来越多用户愿意为这种克制型技术买单，反映了数字健康需求的爆发式增长。",
+      "snark": "慢科技：比你的 AI 助手更懂什么叫“少即是多”。"
+    },
+    {
+      "id": 9,
+      "cat": "tool",
+      "title": "OpenAI 为 ChatGPT Enterprise 推出用量分析与支出管控新功能",
+      "title_en": "New usage analytics and updated spend controls for enterprises",
+      "source": "OpenAI Blog",
+      "url": "https://openai.com/index/chatgpt-enterprise-spend-controls",
+      "time": "7小时前",
+      "published": "2026-06-18T17:00:00+00:00",
+      "summary": "OpenAI 宣布为 ChatGPT Enterprise 新增使用量分析和支出控制功能。企业管理员现在可以查看详细的 API 调用次数、Token 消耗分布、活跃用户统计等指标，并设置预算上限和自动告警。这些功能旨在帮助企业更精准地管理 AI 支出，避免因员工滥用或模型调用失控导致的意外账单。OpenAI 表示，这是回应企业客户对成本透明度和治理能力强烈需求的直接举措。",
+      "snark": "老板终于能知道，AI 到底是在干活还是在摸鱼了。"
+    },
+    {
+      "id": 10,
+      "cat": "tool",
+      "title": "《粉雄救兵》明星 Karamo Brown 推出 AI 数字分身健康应用 Kē",
+      "title_en": "‘Queer Eye’s’ life coach Karamo Brown launches Kē, a wellness app featuring his AI digital clone",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/06/18/queer-eyes-life-coach-karamo-brown-launches-ke-a-wellness-app-featuring-his-ai-digital-clone/",
+      "time": "7小时前",
+      "published": "2026-06-18T16:55:04+00:00",
+      "summary": "Netflix 真人秀《粉雄救兵》中的生活教练 Karamo Brown 推出健康应用 Kē，内置其 AI 数字克隆。该应用涵盖健身、营养、冥想、戒酒、人际关系和个人成长等模块，用户可与 AI 版 Karamo 进行对话式指导。Karamo 表示，这款应用基于他一年半的自我成长实践开发，旨在将真人教练的共情能力与 AI 的可及性结合。",
+      "snark": "AI 数字分身当人生导师，比真人便宜还不会累。"
+    },
+    {
+      "id": 11,
+      "cat": "policy",
+      "title": "亚马逊员工因支持数据中心限建令面临解雇，指控公司政治报复",
+      "title_en": "Amazon employees say they’re facing termination for backing data center limits",
+      "source": "The Verge AI",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/952180/amazon-seattle-data-center-moratorium-aecj-disciplinary-action",
+      "time": "8小时前",
+      "published": "2026-06-18T16:00:00+00:00",
+      "summary": "三名亚马逊软件工程师本月早些时候在西雅图市议会听证会上作证支持数据中心建设限制令，并在发言时援引了该市禁止因政治言论歧视雇员的法令。如今他们指控亚马逊违反该法，对他们进行报复性处分，甚至面临解雇。争议焦点在于数据中心对当地电力、水资源和环境的压力。此案可能成为科技公司员工政治言论权利的标志性事件。",
+      "snark": "亚马逊：你可以有政治观点，但不能影响我赚钱。"
+    },
+    {
+      "id": 12,
+      "cat": "strategy",
+      "title": "AI 创企 General Intuition 估值 20 亿美元，拟融资 3 亿美元",
+      "title_en": "General Intuition in talks to raise $300M at around $2B valuation",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/06/18/general-intuition-in-talks-to-raise-300m-at-around-2b-valuation/",
+      "time": "8小时前",
+      "published": "2026-06-18T15:20:37+00:00",
+      "summary": "General Intuition 正在洽谈新一轮 3 亿美元融资，估值约 20 亿美元。该公司利用 Medal 平台每年 20 亿个视频的数据集（来自 1000 万月活用户）训练具身 AI 和世界模型。其技术路线聚焦于让 AI 通过观察大量人类行为视频来理解物理世界交互规律，从而为机器人、自动驾驶等场景提供更通用的智能基础。",
+      "snark": "看了 20 亿个视频才学会开门，这学费交得真值。"
+    }
+  ],
+  "stats": {
+    "total": 12,
+    "model_count": 0,
+    "strategy_count": 5,
+    "tool_count": 4,
+    "policy_count": 3
+  }
+}
