@@ -1,4 +1,16 @@
 {
+  "2026-09-06": {
+    "date": "2026-09-06",
+    "highlight": "AI 摘要暂时不可用，请稍后刷新",
+    "count": 10,
+    "stats": {
+      "total": 10,
+      "model_count": 6,
+      "strategy_count": 4,
+      "tool_count": 0,
+      "policy_count": 0
+    }
+  },
   "2026-09-05": {
     "date": "2026-09-05",
     "highlight": "AI 摘要暂时不可用，请稍后刷新",
@@ -705,18 +717,6 @@
       "strategy_count": 4,
       "tool_count": 5,
       "policy_count": 0
-    }
-  },
-  "2026-07-08": {
-    "date": "2026-07-08",
-    "highlight": "Meta发布Muse图像模型，Anthropic推出Claude Cowork，AI制药进入三期临床，开源方法Antidoom解决推理模型死循环问题。",
-    "count": 12,
-    "stats": {
-      "total": 12,
-      "model_count": 2,
-      "strategy_count": 4,
-      "tool_count": 4,
-      "policy_count": 2
     }
   }
 }
