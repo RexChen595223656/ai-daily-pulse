@@ -1,4 +1,16 @@
 {
+  "2026-09-07": {
+    "date": "2026-09-07",
+    "highlight": "今日焦点：两大传统媒体起诉OpenAI与微软侵权，同时OpenAI内部发文反思AI对齐问题，行业争议与自我审视并存。",
+    "count": 10,
+    "stats": {
+      "total": 10,
+      "model_count": 2,
+      "strategy_count": 1,
+      "tool_count": 4,
+      "policy_count": 3
+    }
+  },
   "2026-09-06": {
     "date": "2026-09-06",
     "highlight": "AI 摘要暂时不可用，请稍后刷新",
@@ -704,18 +716,6 @@
       "model_count": 1,
       "strategy_count": 5,
       "tool_count": 0,
-      "policy_count": 0
-    }
-  },
-  "2026-07-09": {
-    "date": "2026-07-09",
-    "highlight": "SpaceXAI 发布 Grok 4.5 号称 Opus 级别，OpenAI 推出全双工语音模型 GPT-Live，AI 军备竞赛再升级。",
-    "count": 12,
-    "stats": {
-      "total": 12,
-      "model_count": 3,
-      "strategy_count": 4,
-      "tool_count": 5,
       "policy_count": 0
     }
   }
