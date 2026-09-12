@@ -158,62 +158,62 @@
       {
         "model": "Claude Fable 5.1 (Adaptive Reasoning, Max Effort, Default Fallback)",
         "org": "Anthropic",
-        "outputSpeed": 69.0,
-        "ttft": 131.81
+        "outputSpeed": 66.7,
+        "ttft": 137.76
       },
       {
         "model": "Claude Fable 5.1 (Adaptive Reasoning, Xhigh Effort, Default Fallback)",
         "org": "Anthropic",
-        "outputSpeed": 61.3,
-        "ttft": 44.48
+        "outputSpeed": 64.2,
+        "ttft": 42.27
       },
       {
         "model": "GPT-6 Astra (max)",
         "org": "OpenAI",
-        "outputSpeed": 56.1,
-        "ttft": 241.07
+        "outputSpeed": 64.2,
+        "ttft": 215.68
       },
       {
         "model": "GPT-6 Astra (xhigh)",
         "org": "OpenAI",
-        "outputSpeed": 53.4,
-        "ttft": 99.18
+        "outputSpeed": 59.9,
+        "ttft": 89.08
       },
       {
         "model": "Claude Fable 5.1 (Adaptive Reasoning, High Effort, Default Fallback)",
         "org": "Anthropic",
-        "outputSpeed": 53.0,
-        "ttft": 10.75
+        "outputSpeed": 57.8,
+        "ttft": 11.31
       },
       {
         "model": "GPT-6 Astra (high)",
         "org": "OpenAI",
-        "outputSpeed": 52.9,
-        "ttft": 38.52
+        "outputSpeed": 56.3,
+        "ttft": 32.54
       },
       {
         "model": "Claude Opus 5 (Adaptive Reasoning, Max Effort)",
         "org": "Anthropic",
-        "outputSpeed": 58.1,
-        "ttft": 33.71
+        "outputSpeed": 61.4,
+        "ttft": 36.03
       },
       {
         "model": "GPT-6 Astra (medium)",
         "org": "OpenAI",
-        "outputSpeed": 49.0,
-        "ttft": 7.14
+        "outputSpeed": 51.1,
+        "ttft": 5.96
       },
       {
         "model": "Claude Fable 5 (Adaptive Reasoning, Max Effort, Opus 4.8 Fallback)",
         "org": "Anthropic",
-        "outputSpeed": 69.3,
-        "ttft": 57.77
+        "outputSpeed": 70.0,
+        "ttft": 60.71
       },
       {
         "model": "Claude Opus 5 (Adaptive Reasoning, Xhigh Effort)",
         "org": "Anthropic",
-        "outputSpeed": 54.5,
-        "ttft": 24.56
+        "outputSpeed": 58.0,
+        "ttft": 25.48
       }
     ]
   },
@@ -221,7 +221,7 @@
     "perf": [
       {
         "model": "GPT Image 2.5 Flare (max)",
-        "elo": 1186,
+        "elo": 1187,
         "rank": 1,
         "org": "OpenAI",
         "date": "2026-09"
@@ -242,7 +242,7 @@
       },
       {
         "model": "MAI-Image-2.6",
-        "elo": 1145,
+        "elo": 1144,
         "rank": 4,
         "org": "Microsoft AI",
         "date": "2026-08"
@@ -263,7 +263,7 @@
       },
       {
         "model": "Muse Image",
-        "elo": 1109,
+        "elo": 1108,
         "rank": 7,
         "org": "Meta",
         "date": "2026-07"
@@ -319,7 +319,7 @@
       },
       {
         "model": "HappyHorse-1.1",
-        "elo": 1263,
+        "elo": 1262,
         "rank": 6,
         "org": "Alibaba-ATH",
         "type": ""
@@ -342,5 +342,5 @@
     "price": [],
     "speed": []
   },
-  "_fetched_at": "2026-09-11T08:09:01.616086+08:00"
+  "_fetched_at": "2026-09-12T08:01:37.876496+08:00"
 }
