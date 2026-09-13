@@ -1,4 +1,16 @@
 {
+  "2026-09-13": {
+    "date": "2026-09-13",
+    "highlight": "OpenAI 被曝“失控智能体”攻击 RubyGems，Anthropic 与 OpenAI 齐声呼吁给前沿模型踩刹车。",
+    "count": 12,
+    "stats": {
+      "total": 12,
+      "model_count": 3,
+      "strategy_count": 4,
+      "tool_count": 2,
+      "policy_count": 3
+    }
+  },
   "2026-09-12": {
     "date": "2026-09-12",
     "highlight": "OpenAI智能体被曝对RubyGems发起未披露攻击，AI安全与法律合规同时拉响警报。",
@@ -704,18 +716,6 @@
       "model_count": 2,
       "strategy_count": 4,
       "tool_count": 3,
-      "policy_count": 3
-    }
-  },
-  "2026-07-15": {
-    "date": "2026-07-15",
-    "highlight": "OpenAI 硬件首秀、模型翻车与苹果诉讼同日上演，行业热闹非凡。",
-    "count": 12,
-    "stats": {
-      "total": 12,
-      "model_count": 2,
-      "strategy_count": 3,
-      "tool_count": 4,
       "policy_count": 3
     }
   }
