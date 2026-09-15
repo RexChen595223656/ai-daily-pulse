@@ -1,4 +1,16 @@
 {
+  "2026-09-15": {
+    "date": "2026-09-15",
+    "highlight": "AI巨头一边喊减速一边抢跑，黄仁勋直接向特朗普表态不会让AI放缓，OpenAI花3亿美元买下苹果前员工的相机公司。",
+    "count": 12,
+    "stats": {
+      "total": 12,
+      "model_count": 3,
+      "strategy_count": 6,
+      "tool_count": 2,
+      "policy_count": 1
+    }
+  },
   "2026-09-13": {
     "date": "2026-09-13",
     "highlight": "OpenAI 被曝“失控智能体”攻击 RubyGems，Anthropic 与 OpenAI 齐声呼吁给前沿模型踩刹车。",
@@ -705,18 +717,6 @@
       "strategy_count": 3,
       "tool_count": 5,
       "policy_count": 2
-    }
-  },
-  "2026-07-16": {
-    "date": "2026-07-16",
-    "highlight": "微软培训销售团队贬低竞品，Thinking Machines Lab 开源 9750 亿参数多模态模型 Inkling，OpenAI 与苹果陷入硬件诉讼。",
-    "count": 12,
-    "stats": {
-      "total": 12,
-      "model_count": 2,
-      "strategy_count": 4,
-      "tool_count": 3,
-      "policy_count": 3
     }
   }
 }
