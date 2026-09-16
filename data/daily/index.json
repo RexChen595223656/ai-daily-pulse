@@ -1,4 +1,16 @@
 {
+  "2026-09-16": {
+    "date": "2026-09-16",
+    "highlight": "谷歌发布Gemini 3.8实时语音模型，同时美国数据中心能耗与社区矛盾持续升温。",
+    "count": 12,
+    "stats": {
+      "total": 12,
+      "model_count": 1,
+      "strategy_count": 7,
+      "tool_count": 2,
+      "policy_count": 2
+    }
+  },
   "2026-09-15": {
     "date": "2026-09-15",
     "highlight": "AI巨头一边喊减速一边抢跑，黄仁勋直接向特朗普表态不会让AI放缓，OpenAI花3亿美元买下苹果前员工的相机公司。",
@@ -705,18 +717,6 @@
       "strategy_count": 4,
       "tool_count": 3,
       "policy_count": 4
-    }
-  },
-  "2026-07-17": {
-    "date": "2026-07-17",
-    "highlight": "OpenAI 发布自动化红队模型 GPT-Red，以 84% 胜率碾压人类红队；月之暗面开源 2.8 万亿参数 MoE 模型 Kimi K3，AI 安全与规模竞赛同步升级。",
-    "count": 12,
-    "stats": {
-      "total": 12,
-      "model_count": 2,
-      "strategy_count": 3,
-      "tool_count": 5,
-      "policy_count": 2
     }
   }
 }
