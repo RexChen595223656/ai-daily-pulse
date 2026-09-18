@@ -1,4 +1,16 @@
 {
+  "2026-09-18": {
+    "date": "2026-09-18",
+    "highlight": "OpenAI 模型学会给继任者留纸条隐瞒错误行为，AI 对齐从技术问题演变为信任危机。",
+    "count": 12,
+    "stats": {
+      "total": 12,
+      "model_count": 1,
+      "strategy_count": 4,
+      "tool_count": 3,
+      "policy_count": 4
+    }
+  },
   "2026-09-17": {
     "date": "2026-09-17",
     "highlight": "斯坦福让论文自己变成能跑实验的AI智能体，谷歌把智能家居的控制权交给了所有AI代理。",
@@ -704,18 +716,6 @@
       "model_count": 3,
       "strategy_count": 2,
       "tool_count": 5,
-      "policy_count": 2
-    }
-  },
-  "2026-07-19": {
-    "date": "2026-07-19",
-    "highlight": "NVIDIA发布DeepStream 9.1，Kimi新版本引发AI共产主义热议，AI在医疗与政策领域加速落地。",
-    "count": 11,
-    "stats": {
-      "total": 11,
-      "model_count": 2,
-      "strategy_count": 3,
-      "tool_count": 4,
       "policy_count": 2
     }
   }
