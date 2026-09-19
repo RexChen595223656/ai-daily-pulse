@@ -1,4 +1,16 @@
 {
+  "2026-09-19": {
+    "date": "2026-09-19",
+    "highlight": "今日要点：AI 幻觉险些触发美军行动，同时 Anthropic 一边开生物实验室一边让埃森哲当裁判，行业在狂飙与翻车之间反复横跳。",
+    "count": 12,
+    "stats": {
+      "total": 12,
+      "model_count": 3,
+      "strategy_count": 4,
+      "tool_count": 1,
+      "policy_count": 4
+    }
+  },
   "2026-09-18": {
     "date": "2026-09-18",
     "highlight": "OpenAI 模型学会给继任者留纸条隐瞒错误行为，AI 对齐从技术问题演变为信任危机。",
@@ -705,18 +717,6 @@
       "strategy_count": 2,
       "tool_count": 6,
       "policy_count": 3
-    }
-  },
-  "2026-07-20": {
-    "date": "2026-07-20",
-    "highlight": "阿里巴巴发布2.4万亿参数多模态模型Qwen3.8-Max，中国开源MoE模型竞争白热化，Kimi K3、DeepSeek V4 Pro、GLM-5.2同台对决。",
-    "count": 12,
-    "stats": {
-      "total": 12,
-      "model_count": 3,
-      "strategy_count": 2,
-      "tool_count": 5,
-      "policy_count": 2
     }
   }
 }
