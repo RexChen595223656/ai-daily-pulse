@@ -1,0 +1,167 @@
+{
+  "date": "2026-05-26",
+  "generated_at": "2026-05-26T08:00:41.664524+08:00",
+  "highlight": "ClickUp 用 AI Agent 替代数百员工，AI 视觉深入工业质检，教皇发文警示 AI 权力集中。",
+  "fun": {
+    "lucky": "OSCAR",
+    "advice": "宜：压缩KV缓存，省钱省力。\n忌：迷信旋转矩阵，忘了注意力。",
+    "joke": "AI 说它要替代人类，结果先学会了写周报。"
+  },
+  "articles": [
+    {
+      "id": 1,
+      "cat": "tool",
+      "title": "OpenBrief：本地优先的视频下载与摘要工具",
+      "title_en": "Show HN: OpenBrief – Local-first video downloader/summarizer",
+      "source": "Hacker News",
+      "url": "https://github.com/tantara/openbrief",
+      "time": "2小时前",
+      "published": "2026-05-25T21:50:03+00:00",
+      "summary": "OpenBrief 是一个基于 yt-dlp 的图形界面工具，内置本地 AI 能力。用户粘贴视频链接后，工具会在本地完成下载、转录和语音生成，所有处理均在本地机器上运行，无需上传数据到云端。摘要生成和基于转录的对话功能则依赖大语言模型，目前需要用户自行提供 API 密钥。该项目完全开源免费，适合注重隐私的用户离线处理视频内容。通过集成本地 AI 模型，OpenBrief 实现了从视频下载到信息提取的全流程本地化，避免了云端传输的隐私风险。",
+      "snark": "本地运行是好事，但自己带钥匙这事儿，跟自带酒水去酒吧差不多。"
+    },
+    {
+      "id": 2,
+      "cat": "model",
+      "title": "Together AI 开源 OSCAR：面向长上下文 LLM 服务的注意力感知 2 位 KV 缓存量化系统",
+      "title_en": "Together AI Open-Sources OSCAR: An Attention-Aware 2-Bit KV Cache Quantization System for Long-Context LLM Serving",
+      "source": "MarkTechPost",
+      "url": "https://www.marktechpost.com/2026/05/25/together-ai-open-sources-oscar-an-attention-aware-2-bit-kv-cache-quantization-system-for-long-context-llm-serving/",
+      "time": "2小时前",
+      "published": "2026-05-25T21:24:31+00:00",
+      "summary": "Together AI 发布了 OSCAR（离线谱协方差感知旋转），一种 INT2 精度的 KV 缓存量化方法，专为长上下文大语言模型推理服务优化。与以往基于数据无关的 Hadamard 变换的旋转方法不同，OSCAR 通过注意力感知的方式为键和值分别推导出独立的旋转矩阵，从而更有效地保留注意力分布中的关键信息。该方法在极低比特量化下显著降低了长序列推理时的显存占用，同时保持了模型生成质量。Together AI 已将其开源，供社区在长上下文场景中部署使用。",
+      "snark": "2 位量化还能保住注意力，比某些人开会的注意力强多了。"
+    },
+    {
+      "id": 3,
+      "cat": "tool",
+      "title": "使用 NVIDIA FLARE 在非独立同分布 CIFAR-10 上构建并比较 FedAvg 与 FedProx 联邦学习",
+      "title_en": "Step by Step Guide to Build and Compare FedAvg and FedProx Federated Learning on Non-IID CIFAR-10 with NVIDIA FLARE",
+      "source": "MarkTechPost",
+      "url": "https://www.marktechpost.com/2026/05/25/step-by-step-guide-to-build-and-compare-fedavg-and-fedprox-federated-learning-on-non-iid-cifar-10-with-nvidia-flare/",
+      "time": "3小时前",
+      "published": "2026-05-25T20:26:40+00:00",
+      "summary": "本教程详细介绍了如何利用 NVIDIA FLARE 框架构建一个高级联邦学习实验，并在非独立同分布的 CIFAR-10 数据集上比较 FedAvg 和 FedProx 两种聚合算法的性能。实验中，客户端数据通过狄利克雷分布进行划分，以模拟真实场景下各联邦站点之间的标签分布不均衡问题。教程使用 NVFlare Job API 定义实验流程，涵盖了从数据准备、模型定义到训练与评估的完整步骤，为研究人员和工程师提供了在异构数据环境下优化联邦学习算法的实践指南。",
+      "snark": "非独立同分布？这不就是现实世界的数据分布嘛，干净数据只在论文里。"
+    },
+    {
+      "id": 4,
+      "cat": "policy",
+      "title": "Cox Media 因吹嘘通过手机秘密监听用户被罚款",
+      "title_en": "Cox Media fined after bragging it spied on users through their phones",
+      "source": "The Verge",
+      "url": "https://www.theverge.com/policy/937027/cox-media-marketing-ai-powered-phone-spying-ads-ftc-fine",
+      "time": "5小时前",
+      "published": "2026-05-25T18:28:30+00:00",
+      "summary": "美国联邦贸易委员会宣布对 Cox Media、MindSift 等营销公司处以罚款，原因是它们声称能够通过手机和智能设备秘密监听用户对话，并据此投放定向广告。尽管缺乏确凿证据证明其实际能力，但这些公司利用该说法进行商业宣传，引发了严重的隐私争议。联邦贸易委员会认为这种虚假且具有侵入性的营销行为违反了消费者保护法规。此次处罚再次警示行业，在 AI 驱动的广告技术中，隐私合规与诚信宣传是不可逾越的红线。",
+      "snark": "监听用户没证据，吹牛倒是证据确凿，这波罚得不冤。"
+    },
+    {
+      "id": 5,
+      "cat": "strategy",
+      "title": "ClickUp 大规模裁员揭示未来工作走向",
+      "title_en": "What ClickUp’s mass layoff tells us about the future of work",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/05/25/what-clickups-mass-layoff-tells-us-about-the-future-of-work/",
+      "time": "8小时前",
+      "published": "2026-05-25T16:00:00+00:00",
+      "summary": "成立九年的项目管理初创公司 ClickUp 宣布裁减数百名员工，并计划引入数千个 AI 代理来替代被裁撤的岗位。这一举措反映了 AI 在企业运营中从辅助工具向核心生产力的转变。公司认为 AI 代理能够更高效地完成原本由人类承担的任务，尤其是在重复性高、流程化的工作领域。此举引发了关于未来就业结构和社会影响的广泛讨论，也标志着科技公司正在加速将 AI 深度嵌入组织架构，以追求更高的运营效率和成本优势。",
+      "snark": "裁人换 AI，以后团建就是给 Agent 升级系统了。"
+    },
+    {
+      "id": 6,
+      "cat": "policy",
+      "title": "教皇的 AI 通谕实际上并非关于 AI",
+      "title_en": "The pope’s AI encyclical isn’t really about AI",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/05/25/the-popes-ai-encyclical-isnt-really-about-ai/",
+      "time": "8小时前",
+      "published": "2026-05-25T15:09:41+00:00",
+      "summary": "教皇利奥十四世在其首份通谕中，以人工智能为切入点，深入探讨了更为根本的社会问题：权力过度集中、民主制度侵蚀以及科技精英阶层按照自身利益塑造世界秩序。通谕指出，AI 本身并非问题的根源，而是放大了既有社会矛盾和技术权力失衡。教皇呼吁警惕技术精英对公共话语和决策的垄断，强调技术发展必须服务于全人类的共同福祉，而非少数人的利益。这份文件实际上是对当代技术资本主义的伦理反思。",
+      "snark": "教皇说 AI 不是问题，权力才是——建议硅谷大佬们去读读圣经。"
+    },
+    {
+      "id": 7,
+      "cat": "policy",
+      "title": "教皇利奥呼吁在 AI 时代保持‘深刻的人性’",
+      "title_en": "Pope Leo calls for being ‘profoundly human’ in the age of AI",
+      "source": "The Verge AI",
+      "url": "https://www.theverge.com/news/936945/pope-leo-letter-encyclical-ai-anthropic-labor-warfare",
+      "time": "8小时前",
+      "published": "2026-05-25T15:05:07+00:00",
+      "summary": "教皇利奥十四世在其首份重要教宗文件《Magnifica Humanitas》中，警告了人工智能及不受约束的技术权力所带来的风险。该文件被视为教皇关于“在人工智能时代捍卫人类尊严”的宣言，详细讨论了 AI 驱动战争、劳动力替代以及社会控制等方面的危险。教皇强调，技术发展必须始终以人性为核心，防止算法和自动化系统侵蚀人类的基本权利和道德责任。通谕呼吁全球领导者建立更严格的 AI 治理框架，确保技术服务于人类而非奴役人类。",
+      "snark": "教皇都开始操心 AI 了，硅谷的伦理委员会也该上班了吧。",
+      "multiSource": [
+        "The Verge",
+        "The Verge AI"
+      ]
+    },
+    {
+      "id": 8,
+      "cat": "strategy",
+      "title": "Startup Battlefield 200 申请即将截止",
+      "title_en": "Startup Battlefield 200 applications close in days: Apply before May 27",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/05/25/startup-battlefield-200-applications-close-in-days-apply-before-may-27/",
+      "time": "9小时前",
+      "published": "2026-05-25T14:30:00+00:00",
+      "summary": "TechCrunch 举办的 Startup Battlefield 200 创业大赛申请截止日期为 5 月 27 日，仅剩数天时间。该赛事为早期创业公司提供接触风险投资、获得全球曝光、TechCrunch 媒体报道以及 10 万美元奖金的机会。入选的初创企业将有机会在 TechCrunch Disrupt 大会上展示产品，与顶级投资人面对面交流。对于寻求加速成长的 AI 及相关领域的初创团队而言，这是一个不可多得的跳板。",
+      "snark": "10 万美元够不够烧三个月 GPU？不管了，先报名再说。"
+    },
+    {
+      "id": 9,
+      "cat": "strategy",
+      "title": "TechCrunch Disrupt 2026 早鸟优惠仅剩 5 天",
+      "title_en": "5 days left: Save up to $410 on TechCrunch Disrupt 2026 passes before prices increase",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/05/25/5-days-left-save-up-to-410-on-techcrunch-disrupt-2026-passes-before-prices-increase/",
+      "time": "10小时前",
+      "published": "2026-05-25T14:00:00+00:00",
+      "summary": "TechCrunch Disrupt 2026 大会早鸟注册优惠将于太平洋时间 5 月 29 日晚上 11:59 结束，届时票价将上涨。目前购票可节省高达 410 美元。该大会将在旧金山举行，汇聚全球科技创业者、投资者和行业领袖，是 AI 领域最新产品、战略和趋势的集中展示平台。主办方提醒有意参会的业内人士抓紧最后机会注册，以享受最低价格。",
+      "snark": "省 410 美元，够买半张 H100 的租赁券了。"
+    },
+    {
+      "id": 10,
+      "cat": "tool",
+      "title": "2026 年 AI 代理与 MCP 服务器最佳认证平台排名",
+      "title_en": "Best Authentication Platforms for AI Agents and MCP Servers in 2026",
+      "source": "MarkTechPost",
+      "url": "https://www.marktechpost.com/2026/05/25/best-authentication-platforms-for-ai-agents-and-mcp-servers-in-2026/",
+      "time": "13小时前",
+      "published": "2026-05-25T10:34:02+00:00",
+      "summary": "随着 MCP 协议月 SDK 下载量突破 9700 万次，AI 代理正式进入生产工作流，身份认证成为团队面临的最关键基础设施决策。本文对 WorkOS、Stytch、Auth0 by Okta、Composio、Nango、Arcade、TrueFoundry 和 Cloudflare 八大平台进行了全面评测，从安全性、易用性、MCP 集成度、扩展性等维度给出排名。报告指出，在代理自主执行任务的场景下，传统的 API 密钥管理已无法满足需求，需要专门的代理认证方案来确保用户身份与权限的精确控制。",
+      "snark": "9700 万下载量，看来代理们比人类更懂注册账号。"
+    },
+    {
+      "id": 11,
+      "cat": "tool",
+      "title": "WorkOS 发布 auth.md：基于 OAuth 标准的开放代理注册协议",
+      "title_en": "WorkOS Releases auth.md: An Open Agent Registration Protocol Built on OAuth Standards",
+      "source": "MarkTechPost",
+      "url": "https://www.marktechpost.com/2026/05/25/workos-releases-auth-md-an-open-agent-registration-protocol-built-on-oauth-standards/",
+      "time": "16小时前",
+      "published": "2026-05-25T07:38:15+00:00",
+      "summary": "WorkOS 推出了 auth.md 协议，旨在解决当前大多数 Web 应用缺乏结构化 AI 代理注册方式的问题。该协议提出了一种简单方案：应用在其域名下发布一个 Markdown 文件，文件中明确告知代理支持哪些注册流程、需要请求哪些权限范围以及如何获取与真实用户绑定的凭据——整个过程无需人工填写表单。auth.md 基于 OAuth 标准构建，降低了代理与应用之间身份集成的门槛，为 AI 代理的规模化部署提供了标准化的注册入口。",
+      "snark": "Markdown 文件当注册入口，这下连表单验证工程师都要失业了。"
+    },
+    {
+      "id": 12,
+      "cat": "tool",
+      "title": "AI 视觉重构高端制造质量防线：工业质检实战",
+      "title_en": "搞定工业质检：AI视觉如何重构高端制造质量防线| 2026AI Partner·北京亦庄AI+产业大会",
+      "source": "36氪",
+      "url": "https://36kr.com/p/3824158896312709?f=rss",
+      "time": "17小时前",
+      "published": "2026-05-25T06:26:35+00:00",
+      "summary": "广州因特智能科技在 2026 AI Partner·北京亦庄 AI+产业大会上展示了 AI 视觉在高端制造质检领域的落地成果。针对半导体光罩纳米级缺陷和玻璃基板微米级钻孔等检测难题，该公司采用软硬一体化的方案，将 AI 视觉算法与自研光学检测设备深度结合，解决了中国在半导体检测装备领域的卡脖子问题。公司孵化自西安电子科技大学广州研究院，已为半导体、光通信、新能源三大领域的头部客户提供高端检测装备，实现了从实验室算法到产线部署的跨越。",
+      "snark": "AI 视觉下产线，比某些只会写 PPT 的咨询公司靠谱多了。"
+    }
+  ],
+  "stats": {
+    "total": 12,
+    "model_count": 1,
+    "strategy_count": 3,
+    "tool_count": 5,
+    "policy_count": 3
+  }
+}

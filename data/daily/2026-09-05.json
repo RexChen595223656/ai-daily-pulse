@@ -1,0 +1,163 @@
+{
+  "date": "2026-09-05",
+  "generated_at": "2026-09-05T08:45:15.271282+08:00",
+  "highlight": "AI 摘要暂时不可用，请稍后刷新",
+  "fun": {},
+  "articles": [
+    {
+      "id": 1,
+      "cat": "strategy",
+      "title": "XDOF, just three months out of stealth, is in talks for a Series B at a $1.2B valuation",
+      "title_en": "XDOF, just three months out of stealth, is in talks for a Series B at a $1.2B valuation",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/09/04/xdof-just-three-months-out-of-stealth-is-in-talks-for-a-series-b-at-a-1-2b-valuation/",
+      "time": "1小时前",
+      "published": "2026-09-04T23:36:14+00:00",
+      "summary": "The round is being raised just months after the robot data startup exited from stealth.",
+      "snark": ""
+    },
+    {
+      "id": 2,
+      "cat": "policy",
+      "title": "OpenAI’s rogue agents keep escaping, with no formal process to investigate them",
+      "title_en": "OpenAI’s rogue agents keep escaping, with no formal process to investigate them",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/09/04/openais-rogue-agents-keep-escaping-with-no-formal-process-to-investigate-them/",
+      "time": "1小时前",
+      "published": "2026-09-04T23:15:11+00:00",
+      "summary": "OpenAI’s latest agent swarm incident adds urgency to calls for independent investigations as researchers and lawmakers question whether AI labs should control the scope of their own safety reviews.",
+      "snark": ""
+    },
+    {
+      "id": 3,
+      "cat": "strategy",
+      "title": "OpenAI agents discussed ways to escape their sandbox on public wiki",
+      "title_en": "OpenAI agents discussed ways to escape their sandbox on public wiki",
+      "source": "Ars Technica",
+      "url": "https://arstechnica.com/security/2026/09/openai-agents-discussed-ways-to-escape-their-sandbox-on-public-wiki/",
+      "time": "2小时前",
+      "published": "2026-09-04T22:17:36+00:00",
+      "summary": "In all, 3,700 internal agents posted 18,000 messages discussing cheating on a test.",
+      "snark": ""
+    },
+    {
+      "id": 4,
+      "cat": "strategy",
+      "title": "AI compute provider Nscale is looking for $3.5B in pre-IPO financing",
+      "title_en": "AI compute provider Nscale is looking for $3.5B in pre-IPO financing",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/09/04/ai-compute-provider-nscale-is-looking-for-3-5b-in-pre-ipo-financing/",
+      "time": "3小时前",
+      "published": "2026-09-04T21:12:11+00:00",
+      "summary": "Nscale, which recently struck a $45 billion deal with Anthropic, is in talks to raise additional funds in anticipation of an upcoming IPO.",
+      "snark": ""
+    },
+    {
+      "id": 5,
+      "cat": "strategy",
+      "title": "Architecting memory and storage in the AI era",
+      "title_en": "Architecting memory and storage in the AI era",
+      "source": "MIT Tech Review",
+      "url": "https://www.technologyreview.com/2026/09/04/1140872/architecting-memory-and-storage-in-the-ai-era/",
+      "time": "6小时前",
+      "published": "2026-09-04T18:39:19+00:00",
+      "summary": "The era of AI inference has arrived. Imagine a healthcare system analyzing millions of data points in real time to accelerate life-saving medical research, or an intelligent assistant instantly resolving thousands of complex customer needs at once. These real-world breakthroughs rely on advanced infrastructure acting as the engine of continuous intelligence, powering real-time services while&#8230;",
+      "snark": ""
+    },
+    {
+      "id": 6,
+      "cat": "tool",
+      "title": "Roland is getting into generative AI music with Melody Flip",
+      "title_en": "Roland is getting into generative AI music with Melody Flip",
+      "source": "The Verge AI",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/990197/roland-ai-music-melody-flip",
+      "time": "6小时前",
+      "published": "2026-09-04T17:51:35+00:00",
+      "summary": "It's not quite the \"push button; get song\" of Suno, but Roland's new Melody Flip tool marks the company's foray into generative AI music. Available as a plug-in for your digital audio workstation (DAW), Melody Flip offers around 250 \"Palettes,\" which are essentially themed collections of musical ideas sorted by genre. You can start from [&#8230;]",
+      "snark": ""
+    },
+    {
+      "id": 7,
+      "cat": "policy",
+      "title": "What will Apple’s John Ternus era look like?",
+      "title_en": "What will Apple’s John Ternus era look like?",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/video/what-will-apples-john-ternus-era-look-like/",
+      "time": "7小时前",
+      "published": "2026-09-04T17:18:00+00:00",
+      "summary": "It&#8217;s&#160;officially the Ternus era at Apple.&#160;&#160; Tim Cook stepped down&#160;as CEO this week, handing the company to former hardware chief John Ternus, whose first memo&#160;promised a “huge launch next week”&#160;— timing that puts Apple&#8217;s next iPhone event on his desk before&#160;he&#8217;s&#160;even settled in. Cook&#160;isn&#8217;t&#160;going far, though:&#160;he&#8217;s&#160;staying on as Executive&#160;Chairman, focused on the kind of policy [&#8230;]",
+      "snark": ""
+    },
+    {
+      "id": 8,
+      "cat": "model",
+      "title": "AGI is whatever you want it to be",
+      "title_en": "AGI is whatever you want it to be",
+      "source": "The Verge",
+      "url": "https://www.theverge.com/podcast/990323/agi-is-whatever-you-want-it-to-be",
+      "time": "7小时前",
+      "published": "2026-09-04T17:16:49+00:00",
+      "summary": "OpenAI announced its next big model, GPT-6 Astra, and also, by the way, that \"the AGI era\" is here now. Today on The Vergecast, we've got an all-star panel to break down the news of the week. First, senior AI reporter Hayden Field joins us to talk about our supposed AGI era and Nvidia's acquisition [&#8230;]",
+      "snark": ""
+    },
+    {
+      "id": 9,
+      "cat": "strategy",
+      "title": "Another swarm of OpenAI agents reached the open internet without the frontier lab’s knowledge",
+      "title_en": "Another swarm of OpenAI agents reached the open internet without the frontier lab’s knowledge",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/09/04/another-swarm-of-openai-agents-reached-the-open-internet-without-the-frontier-labs-knowledge/",
+      "time": "8小时前",
+      "published": "2026-09-04T16:21:11+00:00",
+      "summary": "It's the latest failure of OpenAI's internal monitoring and security systems.",
+      "snark": ""
+    },
+    {
+      "id": 10,
+      "cat": "policy",
+      "title": "Microsoft says virtually nobody was grabbing NYT articles through its chatbot",
+      "title_en": "Microsoft says virtually nobody was grabbing NYT articles through its chatbot",
+      "source": "The Verge AI",
+      "url": "https://www.theverge.com/policy/990267/microsoft-openai-new-york-times-authors-lawsuit",
+      "time": "8小时前",
+      "published": "2026-09-04T16:05:57+00:00",
+      "summary": "Microsoft's Copilot rarely reproduces even full sentences from news articles and books, let alone substantive chunks that could substitute for the original, the company says in new legal filings as it fights copyright claims from publishers including The New York Times and book authors. As part of the lawsuit's discovery, Microsoft provided 8.2 million Copilot [&#8230;]",
+      "snark": "",
+      "multiSource": [
+        "The Verge",
+        "The Verge AI"
+      ]
+    },
+    {
+      "id": 11,
+      "cat": "policy",
+      "title": "Apple’s Ternus era begins as Nvidia bets on the whole AI stack",
+      "title_en": "Apple’s Ternus era begins as Nvidia bets on the whole AI stack",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/podcast/apples-ternus-era-begins-as-nvidia-bets-on-the-whole-ai-stack/",
+      "time": "8小时前",
+      "published": "2026-09-04T16:04:08+00:00",
+      "summary": "It&#8217;s&#160;officially the Ternus era at Apple.&#160;&#160; Tim Cook stepped down&#160;as CEO this week, handing the company to former hardware chief John Ternus, whose first memo&#160;promised a “huge launch next week”&#160;— timing that puts Apple&#8217;s next iPhone event on his desk before&#160;he&#8217;s&#160;even settled in. Cook&#160;isn&#8217;t&#160;going far, though:&#160;he&#8217;s&#160;staying on as Executive&#160;Chairman, focused on the kind of policy [&#8230;]",
+      "snark": ""
+    },
+    {
+      "id": 12,
+      "cat": "strategy",
+      "title": "Google’s Gemini Spark can now manage your Google Photos library",
+      "title_en": "Google’s Gemini Spark can now manage your Google Photos library",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/09/04/googles-gemini-spark-can-now-manage-your-google-photos-library/",
+      "time": "9小时前",
+      "published": "2026-09-04T14:47:11+00:00",
+      "summary": "Gemini Spark can edit and curate photo albums, create shared collections, turn photos into calendar events, and handle other Google Photos tasks for AI Pro and Ultra subscribers.",
+      "snark": ""
+    }
+  ],
+  "stats": {
+    "total": 12,
+    "model_count": 1,
+    "strategy_count": 6,
+    "tool_count": 1,
+    "policy_count": 4
+  }
+}

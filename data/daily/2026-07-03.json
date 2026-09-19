@@ -1,0 +1,163 @@
+{
+  "date": "2026-07-03",
+  "generated_at": "2026-07-03T08:11:32.271540+08:00",
+  "highlight": "宇树科技成为A股人形机器人第一股，Meta承认AI代理进展不及预期，OpenAI提议向美国主权基金捐赠5%股权。",
+  "fun": {
+    "lucky": "宇树科技",
+    "advice": "宜：乘上市东风加速产品迭代。\n忌：在招股书里塞太多AI关键词。",
+    "joke": "AI代理：老板，我还没学会走路，您就让我跑马拉松？"
+  },
+  "articles": [
+    {
+      "id": 1,
+      "cat": "strategy",
+      "title": "宇树科技科创板IPO注册获批，将成A股人形机器人第一股",
+      "title_en": "8点1氪丨“具身智能第一股” 宇树科技上市申请通过；SK海力士单日市值蒸发10000亿元；配置失误引发0元抢购潮，霸王茶姬致歉",
+      "source": "36氪",
+      "url": "https://36kr.com/p/3879158039834629?f=rss",
+      "time": "4分钟前",
+      "published": "2026-07-03T00:06:38+00:00",
+      "summary": "证监会于7月2日同意宇树科技首次公开发行股票注册，标志着全球首家在IPO前实现人形机器人规模化盈利的企业正式拿到A股入场券。宇树科技从3月20日科创板IPO申请获受理到注册生效仅用时104天，创下科创板预先审核新纪录。该公司在具身智能领域的技术积累和商业化能力受到资本市场认可，此次上市将为其进一步拓展人形机器人研发和量产提供资金支持。",
+      "snark": "人形机器人终于能靠A股充电了，希望别变成只会跳舞的吉祥物。"
+    },
+    {
+      "id": 2,
+      "cat": "strategy",
+      "title": "扎克伯格承认Meta AI代理进展未达预期",
+      "title_en": "Mark Zuckerberg tells staff that AI agents haven’t progressed as quickly as he’d hoped",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/07/02/mark-zuckerberg-tells-staff-that-ai-agents-havent-progressed-as-quickly-as-hed-hoped/",
+      "time": "33分钟前",
+      "published": "2026-07-02T23:38:10+00:00",
+      "summary": "在Meta内部会议上，首席执行官马克·扎克伯格向员工表示，AI代理的研发进展并未如他最初希望的那样迅速。尽管Meta在AI领域投入了大量资源，包括开源大语言模型Llama系列和AI助手项目，但智能代理在复杂任务执行、长期记忆和自主决策能力方面仍面临挑战。这一表态反映了当前整个行业在从对话模型迈向真正自主AI代理过程中普遍遇到的技术瓶颈。",
+      "snark": "小扎的耐心可能比AI代理的推理速度还短。"
+    },
+    {
+      "id": 3,
+      "cat": "tool",
+      "title": "RAG-Anything教程：构建多模态检索管道",
+      "title_en": "RAG-Anything Tutorial: Build a Multimodal Retrieval Pipeline for Text, Tables, Equations, and Images in Colab",
+      "source": "MarkTechPost",
+      "url": "https://www.marktechpost.com/2026/07/02/rag-anything-tutorial-build-a-multimodal-retrieval-pipeline-for-text-tables-equations-and-images-in-colab/",
+      "time": "2小时前",
+      "published": "2026-07-02T21:38:34+00:00",
+      "summary": "MarkTechPost发布了一篇RAG-Anything教程，详细介绍如何在Google Colab中构建支持文本、表格、数学公式和图像的多模态检索增强生成（RAG）管道。教程引导用户设置Colab环境，在运行时输入OpenAI API密钥，生成包含图表和PDF的合成报告，并将内容转换为RAG-Anything格式。该方案展示了多模态RAG在实际应用中的实现方法，降低了开发者构建复杂检索系统的门槛。",
+      "snark": "RAG-Anything，就差检索开发者发际线了。"
+    },
+    {
+      "id": 4,
+      "cat": "tool",
+      "title": "阿里巴巴发布Page Agent：通过DOM操控网页的JavaScript GUI代理",
+      "title_en": "Meet Alibaba’s Page Agent: A JavaScript In-Page GUI Agent That Controls Web Interfaces With Natural Language Through the DOM",
+      "source": "MarkTechPost",
+      "url": "https://www.marktechpost.com/2026/07/02/meet-alibabas-page-agent-a-javascript-in-page-gui-agent-that-controls-web-interfaces-with-natural-language-through-the-dom/",
+      "time": "3小时前",
+      "published": "2026-07-02T20:51:39+00:00",
+      "summary": "阿里巴巴推出的Page Agent是一款运行在网页客户端侧的JavaScript GUI代理，能够直接读取网页实时DOM结构并将其转化为文本，然后根据自然语言指令执行点击、输入等操作。该方案无需截图、无需多模态模型，也无需后端改造，仅靠前端脚本即可实现用自然语言控制网页界面。这为自动化测试、无障碍访问和智能助手等场景提供了轻量级解决方案。",
+      "snark": "以后前端工程师的噩梦：AI直接操作DOM，还要你何用？"
+    },
+    {
+      "id": 5,
+      "cat": "strategy",
+      "title": "Jersey Mike's IPO文件揭示AI炒作泛滥",
+      "title_en": "Jersey Mike’s IPO illustrates how bad the AI hype has become",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/07/02/jersey-mikes-ipo-illustrates-how-bad-the-ai-hype-has-become/",
+      "time": "3小时前",
+      "published": "2026-07-02T20:11:59+00:00",
+      "summary": "TechCrunch评论员在查阅三明治连锁店Jersey Mike's的IPO文件时发现，即便是一家传统餐饮企业，其招股书中也充斥着AI相关术语。这种现象反映了当前资本市场对AI概念的过度追捧，许多公司为了迎合投资者喜好，在业务描述中强行嵌入AI标签，即使其核心业务与人工智能并无直接关联。这种炒作趋势可能误导投资者对技术价值的判断。",
+      "snark": "连三明治都要AI赋能，下一步是不是该有AI腌黄瓜？"
+    },
+    {
+      "id": 6,
+      "cat": "model",
+      "title": "Claude-real-video：让任意大语言模型看懂视频",
+      "title_en": "Claude-real-video － any LLM can watch a video",
+      "source": "Hacker News",
+      "url": "https://github.com/HUANGCHIHHUNGLeo/claude-real-video",
+      "time": "5小时前",
+      "published": "2026-07-02T19:10:12+00:00",
+      "summary": "名为Claude-real-video的开源项目在Hacker News上引发关注，该项目声称能够使任何大语言模型（LLM）具备视频理解能力。项目托管在GitHub上，作者为HUANGCHIHHUNGLeo。虽然具体实现细节尚未完全公开，但该项目试图突破传统LLM仅处理文本和图像的局限，通过某种中间表示将视频内容转化为模型可理解的格式，为多模态AI应用开辟了新路径。",
+      "snark": "让LLM看视频？小心它学会摸鱼刷短视频。"
+    },
+    {
+      "id": 7,
+      "cat": "tool",
+      "title": "Meta低调发布vibe-coded游戏应用Pocket",
+      "title_en": "Meta quietly launches vibe-coded gaming app Pocket",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/07/02/meta-quietly-launches-vibe-coded-gaming-app-pocket/",
+      "time": "5小时前",
+      "published": "2026-07-02T18:44:02+00:00",
+      "summary": "Meta悄然推出了一款名为Pocket的实验性AI应用，用户可以通过文本提示词生成并分享交互式迷你游戏。该应用采用“vibe-coded”（氛围编程）理念，强调用自然语言描述游戏创意即可自动生成可玩内容，无需传统编程技能。Pocket的发布标志着Meta在AI驱动的创意工具领域继续探索，试图降低游戏开发门槛，让普通用户也能快速制作和分享个性化互动体验。",
+      "snark": "Meta做游戏App？小心它偷偷读取你的游戏聊天记录。"
+    },
+    {
+      "id": 8,
+      "cat": "strategy",
+      "title": "Anthropic与三星商讨定制AI芯片合作",
+      "title_en": "Anthropic is discussing a new custom chip with Samsung",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/07/02/anthropic-is-discussing-a-new-custom-chip-with-samsung/",
+      "time": "5小时前",
+      "published": "2026-07-02T18:31:09+00:00",
+      "summary": "据TechCrunch报道，Anthropic正在与三星就开发新型定制AI芯片进行讨论。这一消息距离OpenAI宣布与博通合作开发自有AI芯片仅约一周时间。Anthropic作为Claude系列模型的开发商，寻求定制芯片可能旨在优化模型推理效率、降低算力成本，并减少对英伟达GPU的依赖。此举反映出AI头部企业纷纷向上游硬件领域布局的趋势。",
+      "snark": "Anthropic也要造芯？看来GPU比Claude的上下文窗口还贵。"
+    },
+    {
+      "id": 9,
+      "cat": "policy",
+      "title": "OpenAI提议向美国主权财富基金捐赠5%股权",
+      "title_en": "OpenAI proposed donating 5% of its equity to a US sovereign wealth fund",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/07/02/openai-proposed-donating-5-of-its-equity-to-a-us-sovereign-wealth-fund/",
+      "time": "8小时前",
+      "published": "2026-07-02T15:20:51+00:00",
+      "summary": "OpenAI首席执行官萨姆·奥尔特曼提议将公司5%的股权捐赠给美国主权财富基金，重新引发关于让公众分享AI繁荣收益的讨论。这一提议被视为旨在缓解监管压力、改善与政府关系的举措。此前参议员伯尼·桑德斯曾提出更激进的方案，要求OpenAI让出更大比例权益。奥尔特曼的提议正值特朗普政府执政期间，公司正积极与白宫进行谈判。",
+      "snark": "5%股权换平安，奥尔特曼这波算盘打得比Transformer还精密。"
+    },
+    {
+      "id": 10,
+      "cat": "policy",
+      "title": "特朗普政府与OpenAI谈判：5%股权远低于桑德斯目标",
+      "title_en": "Trump gets OpenAI to offer US 5% stake, far lower than Sanders’ target",
+      "source": "Ars Technica",
+      "url": "https://arstechnica.com/tech-policy/2026/07/openai-floats-giving-us-5-stake-to-win-over-ai-haters/",
+      "time": "8小时前",
+      "published": "2026-07-02T15:12:25+00:00",
+      "summary": "据内部人士透露，OpenAI首席执行官萨姆·奥尔特曼正与特朗普政府积极谈判，提议向美国主权财富基金捐赠5%的公司股权。这一比例远低于参议员伯尼·桑德斯此前提出的更高要求。谈判背景是OpenAI试图在日益严格的AI监管环境下获得政策支持，同时回应公众对AI技术收益分配不公的批评。政府是否接受这一方案仍存在不确定性。",
+      "snark": "特朗普：5%？太少，至少得让AI学会发推特吧。"
+    },
+    {
+      "id": 11,
+      "cat": "tool",
+      "title": "NVIDIA BioNeMo加速Anthropic Claude Science科学研究",
+      "title_en": "NVIDIA BioNeMo accelerates Anthropic Claude Science",
+      "source": "AI News",
+      "url": "https://www.artificialintelligence-news.com/news/nvidia-bionemo-accelerates-anthropic-claude-science/",
+      "time": "9小时前",
+      "published": "2026-07-02T14:38:01+00:00",
+      "summary": "Anthropic推出的Claude Science科研AI工作台现已集成NVIDIA BioNeMo Agent工具包，用于加速计算生命科学研究。Claude Science公开测试版为科学家提供了一个与数字代理直接对话的AI平台，能够辅助进行文献分析、实验设计、数据解读等科研任务。BioNeMo的加入使得平台能够调用专门的生物分子模型，在药物发现、蛋白质结构预测等领域提供更专业的计算支持。",
+      "snark": "Claude Science：以后科学家的工作就是给AI倒咖啡。"
+    },
+    {
+      "id": 12,
+      "cat": "strategy",
+      "title": "证监会同意宇树科技科创板IPO注册，Meta被指带崩科技股",
+      "title_en": "氪星晚报｜证监会同意宇树科技科创板IPO注册；Meta“带崩”科技股？业内人士：算力过剩系误读",
+      "source": "36氪",
+      "url": "https://36kr.com/p/3878550357946625?f=rss",
+      "time": "9小时前",
+      "published": "2026-07-02T14:16:31+00:00",
+      "summary": "证监会正式同意宇树科技科创板IPO注册，该公司将成为A股人形机器人第一股。与此同时，Meta因AI代理进展不及预期引发市场担忧，导致科技股承压。但业内人士指出，所谓“算力过剩”系误读，AI基础设施投资仍处于早期阶段。宇树科技的成功上市与Meta的增速放缓形成对比，反映出资本市场对具身智能与纯软件AI的不同估值逻辑。",
+      "snark": "Meta带崩科技股？明明是AI代理还没学会怎么救市。"
+    }
+  ],
+  "stats": {
+    "total": 12,
+    "model_count": 1,
+    "strategy_count": 5,
+    "tool_count": 4,
+    "policy_count": 2
+  }
+}

@@ -1,0 +1,163 @@
+{
+  "date": "2026-06-23",
+  "generated_at": "2026-06-23T08:13:30.659824+08:00",
+  "highlight": "今日多家公司发布模型与战略动态，英伟达推节水数据中心设计，xAI与Sakana AI分别发布自主执行与路由模型。",
+  "fun": {
+    "lucky": "Sakana Fugu",
+    "advice": "宜：灵活调度多个模型，提升任务效率。\n忌：让一个模型包揽所有任务，容易翻车。",
+    "joke": "AI 租房看了虚假照片后，决定自己生成一个完美房源。"
+  },
+  "articles": [
+    {
+      "id": 1,
+      "cat": "policy",
+      "title": "OpenAI 发起开源漏洞查找与修复计划",
+      "title_en": "OpenAI launches new initiative to help find and patch open-source bugs",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/06/22/openai-launches-new-initiative-to-help-find-and-patch-open-source-bugs/",
+      "time": "1分钟前",
+      "published": "2026-06-23T00:11:31+00:00",
+      "summary": "OpenAI 宣布启动一项新计划，旨在帮助开源社区发现并修补安全漏洞。该计划将利用其 AI 模型对开源代码进行自动化安全审计，识别潜在的后门、缓冲区溢出等常见漏洞，并向维护者提交修复建议。OpenAI 希望通过此举回馈开源生态，同时提升自身模型在代码安全领域的理解能力。项目初期将聚焦于 Python 和 JavaScript 生态中的高影响力项目，后续可能扩展至更多语言和框架。这并非 OpenAI 首次涉足安全领域，但将 AI 直接应用于开源漏洞修补仍属新尝试。批评者担心 AI 生成的补丁可能引入新问题，但 OpenAI 表示将结合人工审核确保质量。",
+      "snark": "修复 bug 的 AI 不会自己写 bug 吧？"
+    },
+    {
+      "id": 2,
+      "cat": "strategy",
+      "title": "SpaceX 股价跌破 IPO 首日价，SK 海力士市值首超三星电子",
+      "title_en": "8点1氪丨SpaceX跌破IPO首日收盘价，市值蒸发4000亿美元；英国首相斯塔默宣布辞职；SK海力士市值首超三星电子",
+      "source": "36氪",
+      "url": "https://36kr.com/p/3865001641006081?f=rss",
+      "time": "7分钟前",
+      "published": "2026-06-23T00:06:15+00:00",
+      "summary": "6月22日，SpaceX 股价大跌16%，市值蒸发约4000亿美元，跌破 IPO 首日收盘价，成为当日美股最大新闻之一。与此同时，SK 海力士市值首次超越三星电子，反映出存储芯片市场格局变化。其他 AI 相关动态包括：三星电子向韩国全体员工开放 ChatGPT 和 Codex 使用权限；港股智谱 AI 暴涨，总市值突破1万亿港元；蚂蚁集团任命何小鹏、曾顺福、白重恩为独立董事。谷歌股价下跌5%，因其 AI 负责人 Jumper 离职。芯片股涨跌不一，美光科技涨超6%，英特尔上涨。",
+      "snark": "马斯克一边造火箭一边玩 AI，股价先上天再落地。"
+    },
+    {
+      "id": 3,
+      "cat": "tool",
+      "title": "英伟达推出 Rubin 液冷数据中心设计，大幅减少用水",
+      "title_en": "Nvidia says its AI data center design runs hotter to use a lot less water",
+      "source": "The Verge AI",
+      "url": "https://www.theverge.com/tech/954139/nvidia-data-centers-rubin-liquid-cooling",
+      "time": "48分钟前",
+      "published": "2026-06-22T23:24:32+00:00",
+      "summary": "英伟达公布了其 Rubin 代参考数据中心设计，采用全液冷冷却方案，声称能“消除大量电力消耗和几乎全部用水”。该设计针对 AI 训练集群的高热密度问题，通过闭环液冷系统将热量直接带走，无需传统蒸发冷却塔，从而大幅降低水资源消耗。英伟达表示，该方案可减少数据中心整体用水量达99%以上，同时提升散热效率。然而，批评者指出，数据中心的间接用水——即发电厂冷却用水——并未被计入，因此实际水足迹改善有限。该设计预计将用于下一代 Blackwell 和 Rubin GPU 集群。",
+      "snark": "省水省电但省不了显卡的价格，老黄还是赚麻了。"
+    },
+    {
+      "id": 4,
+      "cat": "tool",
+      "title": "AI 世界正在变得“循环”：自主代理持续后台运行",
+      "title_en": "The AI world is getting ‘loopy’",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/06/22/the-ai-world-is-getting-loopy/",
+      "time": "3小时前",
+      "published": "2026-06-22T20:53:11+00:00",
+      "summary": "一种名为“循环”（loop）的新 AI 架构正在兴起，它让多个自主代理（agent）在后台持续协同工作，而非一次性完成任务。与传统的单次推理不同，这种循环模式允许代理群组无限期地运行，不断收集信息、执行子任务并相互验证结果，适用于持续监控、数据清洗、自动化运维等场景。该概念由多家初创公司推动，旨在解决现有自主代理“做完即停”的局限性。支持者认为这代表了 AI 从“问答式”向“服务式”的进化，但批评者担忧无限循环可能带来资源浪费和失控风险。目前该技术仍处于早期探索阶段。",
+      "snark": "AI 开始学会内卷了，24小时不打烊。"
+    },
+    {
+      "id": 5,
+      "cat": "tool",
+      "title": "xAI 在 Grok Build 中推出 /goal 模式：长时自主执行与验证",
+      "title_en": "xAI Launches /goal in Grok Build, Adding Long-Running Autonomous Execution With Built-In Verification for Multi-Step Coding Tasks",
+      "source": "MarkTechPost",
+      "url": "https://www.marktechpost.com/2026/06/22/xai-launches-goal-in-grok-build-adding-long-running-autonomous-execution-with-built-in-verification-for-multi-step-coding-tasks/",
+      "time": "3小时前",
+      "published": "2026-06-22T20:34:48+00:00",
+      "summary": "xAI 在 Grok Build 中新增了 /goal 指令模式，允许用户向 AI 代理交付单一目标，代理随后自主规划执行步骤、生成进度清单，并在每个步骤完成后自动验证结果，直到目标达成。该模式专为多步骤编码任务设计，例如重构代码库、编写测试套件或部署微服务。与传统的逐条指令不同，/goal 让代理拥有长期记忆和状态管理能力，可在数小时甚至数天内持续工作。xAI 强调内置验证机制可确保输出质量，避免错误累积。该功能目前面向 Grok Build 用户开放，被视为对抗 Anthropic 的 Claude 和 OpenAI 的 Agents 的差异化武器。",
+      "snark": "以后程序员只需要说‘实现这个功能’，然后就可以去摸鱼了。"
+    },
+    {
+      "id": 6,
+      "cat": "strategy",
+      "title": "AI 芯片公司 Groq 确认完成 6.5 亿美元融资，重组团队",
+      "title_en": "AI chipmaker Groq confirms $650M raise, re-staffs after Nvidia’s $20B not-acqui-hire deal",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/06/22/ai-chipmaker-groq-confirms-650m-raise-re-staffs-after-nvidias-20b-not-acqui-hire-deal/",
+      "time": "3小时前",
+      "published": "2026-06-22T20:13:58+00:00",
+      "summary": "AI 芯片初创公司 Groq 确认完成6.5亿美元新一轮融资，并在英伟达此前20亿美元“非收购式招聘”交易后重新组建高管团队。Groq 将重点转向其 neocloud 云服务业务，为客户提供基于其 LPU（语言处理单元）芯片的推理服务。该公司表示，新资金将用于扩大芯片产能和云基础设施，并招募工程和商务人才。此前英伟达通过一笔20亿美元的交易“挖走”了 Groq 部分员工但未收购公司，这促使 Groq 加速独立发展。Groq 的 LPU 芯片在低延迟推理方面具有优势，但面临英伟达 GPU 和 AMD 的激烈竞争。",
+      "snark": "被英伟达挖了墙角后，Groq 决定自己砌墙。"
+    },
+    {
+      "id": 7,
+      "cat": "policy",
+      "title": "英伟达节水方案被指无法解决 AI 的真正水问题",
+      "title_en": "Nvidia wants to cut data center water use, but that’s not the same as fixing AI’s water problem",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/06/22/nvidia-wants-to-cut-data-center-water-use-but-thats-not-the-same-as-fixing-ais-water-problem/",
+      "time": "4小时前",
+      "published": "2026-06-22T20:08:15+00:00",
+      "summary": "尽管英伟达发布了可大幅减少数据中心内部用水的冷却系统，但分析指出该方案并未触及 AI 水足迹的核心——化石燃料发电厂的冷却用水。AI 训练和推理消耗的大量电力来自燃煤或燃气电厂，这些电厂需要大量水进行蒸汽冷却，而英伟达的液冷技术仅优化了数据中心内部的直接用水。据估算，AI 的间接用水量是直接用水的10倍以上。批评者认为，英伟达的宣传可能误导公众，真正的解决方案应转向可再生能源和更高效的模型架构。英伟达回应称，其节水设计是整体可持续战略的一部分，但不否认间接用水问题需要行业共同解决。",
+      "snark": "省了洗手的水，却忘了洗澡的水，老黄这波偷换概念满分。"
+    },
+    {
+      "id": 8,
+      "cat": "tool",
+      "title": "AI 虚拟装修让租房者看到“不可能的房子”",
+      "title_en": "AI is cursing renters with the promise of impossible homes",
+      "source": "The Verge AI",
+      "url": "https://www.theverge.com/report/953888/ai-virtual-staging-real-estate-apartment-listings",
+      "time": "4小时前",
+      "published": "2026-06-22T20:00:00+00:00",
+      "summary": "报道揭示了 AI 虚拟装修（virtual staging）在租房市场中的滥用现象。房东利用 AI 生成工具将破旧、狭小的房间渲染成宽敞明亮、家具齐全的“梦想公寓”，导致租客实地看房时大失所望。一位纽约租客 Joyce 在多次被虚假照片欺骗后，形容找房过程如同“地狱”。AI 虚拟装修技术可以一键添加家具、改变墙壁颜色、扩大空间感，甚至添加窗外风景，但实际房源往往与图片严重不符。这种误导性做法已引发消费者保护组织的关注，呼吁平台要求标注 AI 生成内容。目前美国部分州正在考虑立法规范此类行为。",
+      "snark": "AI 让房东学会了美颜，租客学会了失望。"
+    },
+    {
+      "id": 9,
+      "cat": "strategy",
+      "title": "Google DeepMind 投资 7500 万美元与 A24 合作开发 AI 电影制作工具",
+      "title_en": "Google DeepMind bets $75M on AI’s future in Hollywood with A24 deal",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/06/22/google-deepmind-bets-75m-on-ais-future-in-hollywood-with-a24-deal/",
+      "time": "5小时前",
+      "published": "2026-06-22T18:49:44+00:00",
+      "summary": "Google DeepMind 宣布与独立电影制作公司 A24 达成合作，共同投资7500万美元开发 AI 驱动的电影制作工具。该合作旨在利用 DeepMind 的生成式 AI 技术，为编剧、导演和剪辑师提供剧本分析、场景生成、特效预览等功能，同时保持 A24 标志性的艺术风格。项目将探索 AI 在叙事结构优化、角色对话生成、虚拟场景构建等方面的应用，并承诺不会取代人类创意决策。这是 DeepMind 在娱乐领域最大的一笔投资，此前其技术已用于音乐生成和视频编辑。A24 曾出品《月光男孩》《瞬息全宇宙》等获奖影片，双方希望平衡技术创新与艺术完整性。",
+      "snark": "DeepMind 想拍电影，A24 想要算力，双赢还是双输？"
+    },
+    {
+      "id": 10,
+      "cat": "model",
+      "title": "Sakana AI 发布 Fugu 路由模型：动态调度多个大模型完成任务",
+      "title_en": "Sakana AI Launches Sakana Fugu: An Orchestration Model That Routes Tasks Across a Swappable Pool of Frontier LLMs",
+      "source": "MarkTechPost",
+      "url": "https://www.marktechpost.com/2026/06/22/sakana-ai-launches-sakana-fugu-an-orchestration-model-that-routes-tasks-across-a-swappable-pool-of-frontier-llms/",
+      "time": "5小时前",
+      "published": "2026-06-22T18:42:59+00:00",
+      "summary": "Sakana AI 推出 Sakana Fugu 和 Fugu Ultra 两款路由模型，能够根据任务类型将请求动态分配给最合适的底层大语言模型（LLM）。Fugu 系列作为编排层，内部维护一个可替换的模型池（包括 GPT-4、Claude、Gemini 等），通过实时评估各模型在编码、推理和自主代理任务上的表现，选择最优模型执行。在多个基准测试中，Fugu 系列在编码和推理任务上领先于单一模型方案。Fugu Ultra 版本还支持模型池的自动更新和权重调整。这种“模型路由”思路类似于网络流量调度，旨在降低 API 成本并提升整体效果，尤其适合需要多模型协作的复杂应用场景。",
+      "snark": "以后 AI 也要搞‘多模型打工人’外包了。"
+    },
+    {
+      "id": 11,
+      "cat": "policy",
+      "title": "Anthropic 与美国政府最新争端中的三个关注点",
+      "title_en": "Three things to watch amid Anthropic’s latest feud with the government",
+      "source": "MIT Tech Review",
+      "url": "https://www.technologyreview.com/2026/06/22/1139424/three-things-to-watch-amid-anthropics-latest-feud-with-the-government/",
+      "time": "6小时前",
+      "published": "2026-06-22T18:00:00+00:00",
+      "summary": "Anthropic 与美国政府之间的最新摩擦持续升温。今年4月，Anthropic 声称其构建的 AI 模型在某些国家安全相关任务上表现优异，但拒绝向政府披露完整技术细节，引发监管合规争议。文章指出三个关键观察点：第一，Anthropic 的“选择性透明”策略可能激化与白宫和国会的矛盾；第二，该争端可能影响即将出台的 AI 监管法案中对“前沿模型”的定义和披露要求；第三，其他 AI 公司（如 OpenAI 和 Google DeepMind）将密切关注此案，以调整自身与政府的合作策略。Anthropic 此前曾呼吁加强监管，但此次事件暴露了企业与政府在技术共享上的根本分歧。",
+      "snark": "Anthropic 一边喊着要监管，一边跟监管玩捉迷藏。"
+    },
+    {
+      "id": 12,
+      "cat": "tool",
+      "title": "亚马逊在印度测试支持印地语的 Alexa+",
+      "title_en": "Amazon is testing Alexa+ in India with Hindi support",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/06/22/amazon-is-testing-alexa-in-india-with-hindi-support/",
+      "time": "6小时前",
+      "published": "2026-06-22T17:31:29+00:00",
+      "summary": "亚马逊计划将其新一代对话式 AI 助手 Alexa+ 引入印度市场，目前正在邀请印度用户测试印地语版本。Alexa+ 基于更强大的大语言模型，支持多轮对话、上下文理解和个性化服务，相比旧版 Alexa 在自然语言处理上有显著提升。印地语版本的推出是亚马逊扩大新兴市场布局的重要一步，印度拥有超过6亿印地语使用者，智能音箱和语音助手渗透率正在快速增长。测试期间，用户可通过特定邀请链接参与，并提供反馈以优化本地化体验。亚马逊还计划后续支持更多印度地方语言，如泰米尔语和孟加拉语。",
+      "snark": "Alexa 学会了印地语，但印度人更想让它学会砍价。"
+    }
+  ],
+  "stats": {
+    "total": 12,
+    "model_count": 1,
+    "strategy_count": 3,
+    "tool_count": 5,
+    "policy_count": 3
+  }
+}

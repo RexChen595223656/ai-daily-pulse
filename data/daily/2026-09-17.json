@@ -1,0 +1,167 @@
+{
+  "date": "2026-09-17",
+  "generated_at": "2026-09-17T08:01:03.674029+08:00",
+  "highlight": "斯坦福让论文自己变成能跑实验的AI智能体，谷歌把智能家居的控制权交给了所有AI代理。",
+  "fun": {
+    "lucky": "Paper2Agent",
+    "advice": "宜：把积灰的论文一键变成能跑的实验\n忌：让AI代理控制你家摄像头，尤其别在它面前换衣服",
+    "joke": "为什么AI代理从不迷路？因为它总在上下文中找方向。"
+  },
+  "articles": [
+    {
+      "id": 1,
+      "cat": "tool",
+      "title": "Snap推出全新Specs AI工具，即将登陆iOS与Mac",
+      "title_en": "Snap is launching a new Specs AI tool, and it’s coming to iOS and Mac",
+      "source": "The Verge",
+      "url": "https://www.theverge.com/tech/996078/snap-specs-intelligence-ai-agent-ios-mac",
+      "time": "21分钟前",
+      "published": "2026-09-16T23:40:00+00:00",
+      "summary": "Snap正式发布名为“Specs Intelligence”的AI助手，该工具能够连接用户的其他数字账户，协助处理工作任务、追踪旅行信息等日常事务。从功能定位看，它与Meta的Muse、Gemini的Spark等AI助手颇为相似，但Snap强调Specs Intelligence更侧重于跨账户的智能整合与情境感知。该产品将登陆iOS和Mac平台，标志着Snap在社交与硬件之外，进一步向AI助手赛道扩张。不过，在Meta和谷歌已占据先发优势的领域，Snap能否凭借其年轻用户生态和社交数据形成差异化，仍是未知数。",
+      "snark": "Snap的AI助手，怕不是先帮你把阅后即焚的聊天记录整理成黑历史。"
+    },
+    {
+      "id": 2,
+      "cat": "model",
+      "title": "斯坦福发布Paper2Agent：把研究论文变成能复现结果、跑新数据的AI智能体",
+      "title_en": "Stanford Researchers Release Paper2Agent: Turning Research Papers Into AI Agents That Reproduce Results and Run on New Data",
+      "source": "MarkTechPost",
+      "url": "https://www.marktechpost.com/2026/09/16/stanford-researchers-release-paper2agent-turning-research-papers-into-ai-agents-that-reproduce-results-and-run-on-new-data/",
+      "time": "2小时前",
+      "published": "2026-09-16T21:59:26+00:00",
+      "summary": "斯坦福大学研究团队在《自然》杂志发表论文，推出Paper2Agent系统，能够将学术论文自动转换为经过验证的MCP工具，使其成为可执行的AI智能体。该系统在74篇论文、300个问题的测试中取得91.2%的准确率，意味着AI不仅能读懂论文，还能真正复现实验结果并在新数据上运行。这项技术有望大幅加速科研可复现性验证，降低论文复现的人力成本。对于学术界而言，Paper2Agent可能成为对抗“复现危机”的利器，但也引发对自动化验证可靠性的讨论。",
+      "snark": "以后审稿人不用问“代码呢”，直接让AI跑一遍，作者当场社死。"
+    },
+    {
+      "id": 3,
+      "cat": "model",
+      "title": "Knowledgator发布GLiFormer：5.75亿参数编码器，嵌套JSON抽取F1达91.10且无需生成token",
+      "title_en": "Knowledgator Releases GLiFormer: A 575M-Parameter Encoder That Hits 91.10 F1 on Nested JSON Extraction Without Generating Tokens",
+      "source": "MarkTechPost",
+      "url": "https://www.marktechpost.com/2026/09/16/knowledgator-releases-gliformer-a-575m-parameter-encoder-that-hits-91-10-f1-on-nested-json-extraction-without-generating-tokens/",
+      "time": "2小时前",
+      "published": "2026-09-16T21:19:32+00:00",
+      "summary": "Knowledgator推出GLiFormer Large，一款5.75亿参数的编码器模型，在嵌套JSON抽取任务上取得91.10的F1分数，逼近GPT-5.6-luna的91.96，同时将每个抽取值锚定在原文片段中，保证可追溯性。与生成式模型不同，GLiFormer无需逐token生成，因此推理效率更高、延迟更低。该模型专为结构化信息抽取设计，适用于文档解析、知识图谱构建等场景。在生成式大模型主导的当下，专用编码器以更小体量实现接近大模型的精度，为成本敏感型应用提供了新选择。",
+      "snark": "5.75亿参数就敢叫板GPT，果然是“小而美”对“大而全”的又一次碰瓷。"
+    },
+    {
+      "id": 4,
+      "cat": "policy",
+      "title": "Anthropic与OpenAI想嵌入安全评估员，他们真能独立吗？",
+      "title_en": "Anthropic and OpenAI want to embed safety evaluators. Will they really be independent?",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/09/16/anthropic-and-openai-want-to-embed-safety-evaluators-will-they-really-be-independent/",
+      "time": "2小时前",
+      "published": "2026-09-16T21:07:24+00:00",
+      "summary": "Anthropic和OpenAI正推动在AI实验室内部嵌入独立安全评估员，让外部研究人员获得前所未有的访问权限。研究人员对此表示欢迎，但警告称，有意义的监督需要透明度、独立性，并最终依赖监管框架。核心争议在于：评估员由实验室付费、在实验室内部工作，其独立性如何保证？若评估结果不利，实验室是否有权干预或隐瞒？这一模式类似于金融行业的内部审计，但AI安全的风险外溢性更强。在缺乏外部监管的情况下，嵌入式评估可能沦为公关工具。",
+      "snark": "自己请审计查自己，这独立性堪比让狐狸看守鸡窝还给它发工资。"
+    },
+    {
+      "id": 5,
+      "cat": "tool",
+      "title": "2.5小时AI生成的《奥德赛》电影，长了2.5小时",
+      "title_en": "The 2.5-hour AI-generated Odyssey movie is 2.5 hours too long",
+      "source": "The Verge AI",
+      "url": "https://www.theverge.com/entertainment/996499/ai-odyssey-movie-review",
+      "time": "3小时前",
+      "published": "2026-09-16T20:59:13+00:00",
+      "summary": "克里斯托弗·诺兰的《奥德赛》在票房大获成功，重新点燃了观众对古典文学的兴趣。然而，一部完全由AI生成、时长2.5小时的《奥德赛》改编电影却惨不忍睹，被评论者认为可能让观众连原著都一并厌恶。该片暴露了当前AI视频生成在叙事连贯性、角色一致性和情感表达上的严重缺陷。尽管AI在短片和特效领域已有亮眼表现，但长片叙事仍需要人类导演的节奏把控与情感调度。这部作品与其说是电影，不如说是一次昂贵的技术演示。",
+      "snark": "AI拍电影最大的贡献，就是让人类导演突然显得不可替代。"
+    },
+    {
+      "id": 6,
+      "cat": "policy",
+      "title": "AI数据中心的电子垃圾问题巨大，且愈发严重",
+      "title_en": "The AI data center e-waste problem is huge — and getting bigger",
+      "source": "The Verge AI",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/996470/ai-data-center-e-waste-ban",
+      "time": "3小时前",
+      "published": "2026-09-16T20:40:46+00:00",
+      "summary": "一份新报告警告，AI热潮产生的电子垃圾被严重低估。到2050年，其总量可能足以填满2300万个航运集装箱，若将40英尺集装箱排成一列，可绕地球六圈。这一估算远高于此前预期，主要源于GPU、服务器等硬件的快速迭代与短生命周期。AI数据中心的算力竞赛导致硬件更换频率加快，而回收体系远未跟上。报告呼吁建立强制性回收标准和跨国产能协作，否则AI的环境代价将抵消其效率收益。",
+      "snark": "AI说它能拯救地球，但地球说你先把我身上的垃圾清一清。"
+    },
+    {
+      "id": 7,
+      "cat": "strategy",
+      "title": "在被指卖“色狼眼镜”后，Meta准备推出一款无摄像头版本",
+      "title_en": "After accusations of selling ‘perv glasses,’ Meta prepares to sell a pair without a camera",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/09/16/after-accusations-of-selling-perv-glasses-meta-prepares-to-sell-a-pair-without-a-camera/",
+      "time": "3小时前",
+      "published": "2026-09-16T20:12:00+00:00",
+      "summary": "Meta因智能眼镜的隐蔽拍摄能力被批评为“色狼眼镜”，如今计划推出一款无摄像头的智能眼镜以平息争议。该产品将保留音频、AI助手等功能，但移除摄像头以回应用户隐私担忧。然而，批评者指出，问题核心不在于单个产品，而在于Meta在隐私保护上的历史记录。无摄像头版本或许能减少偷拍风险，但若数据收集与AI分析仍在后台运行，隐私疑虑难以消除。Meta此举更像是公关止损，而非根本性改变。",
+      "snark": "摘掉摄像头就想洗白？可Meta的数据库里还留着你的脸呢。"
+    },
+    {
+      "id": 8,
+      "cat": "policy",
+      "title": "AI实验室想要内部审计员，但也许该先把前门关上",
+      "title_en": "AI labs want in-house auditors — but maybe they should shut the front door first",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/09/16/ai-labs-want-in-house-auditors-but-maybe-they-should-shut-the-front-door-first/",
+      "time": "5小时前",
+      "published": "2026-09-16T18:25:25+00:00",
+      "summary": "针对AI代理失控问题，业界提出在实验室内部设置审计员，但评论者认为更简单有效的修复方案可能一直就在眼前：关闭不必要的访问权限。当前许多AI代理被授予过宽的系统和数据权限，导致一旦行为偏离就造成严重后果。与其事后审计，不如事前最小化权限、隔离关键资源、限制代理的自主决策范围。内部审计固然重要，但若前门大开，再多的审计员也只能事后追责，无法阻止损害发生。",
+      "snark": "给AI代理配审计员，就像给熊孩子请家教，但门锁还是坏的。"
+    },
+    {
+      "id": 9,
+      "cat": "strategy",
+      "title": "苹果可能重启服务器业务，借AI热潮分一杯羹",
+      "title_en": "Apple might make servers again to cash in on the AI rush",
+      "source": "The Verge AI",
+      "url": "https://www.theverge.com/tech/996321/apple-servers-ai-nvidia",
+      "time": "6小时前",
+      "published": "2026-09-16T17:20:29+00:00",
+      "summary": "据The Information报道，苹果计划重返服务器市场，并可能与英伟达合作。苹果曾于2011年停产Xserve产品线，此后基本退出企业级服务器领域。但随着AI产业对算力需求激增，苹果看到了新的机会。若与英伟达联手，苹果可能利用其芯片设计能力和供应链优势，打造面向AI数据中心的定制服务器。此举既能消化自研芯片产能，也能在AI基础设施市场分得一杯羹。不过，苹果在企业级市场的品牌认知和服务体系仍是短板。",
+      "snark": "苹果做服务器，价格估计能让数据中心直接破产，但颜值绝对第一。"
+    },
+    {
+      "id": 10,
+      "cat": "tool",
+      "title": "你的AI代理现在可以控制谷歌智能家居设备了",
+      "title_en": "Your AI agents can now control your Google Home devices",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/09/16/your-ai-agents-can-now-control-your-google-home-devices/",
+      "time": "7小时前",
+      "published": "2026-09-16T17:00:00+00:00",
+      "summary": "谷歌推出Google Home的MCP服务器早期访问，允许Claude、ChatGPT等AI代理通过自然语言控制连接设备、查看摄像头摘要并访问智能家居活动数据。该功能基于标准化的模型上下文协议，使第三方AI代理能够安全地与谷歌家居生态交互。用户可以用自然语言指令让AI代理调灯光、查门锁状态或回顾监控画面。这标志着智能家居从“语音助手控制”迈向“AI代理自主管理”的新阶段，但也带来隐私与权限管理的挑战。",
+      "snark": "让AI代理管你家，它可能先把你家摄像头画面拿去当训练数据。"
+    },
+    {
+      "id": 11,
+      "cat": "tool",
+      "title": "谷歌现在允许任何AI代理运行你的智能家居",
+      "title_en": "Google will now let any AI agent run your smart home",
+      "source": "The Verge AI",
+      "url": "https://www.theverge.com/tech/996310/google-home-mcp-integration-agentic-ai-smart-home-price-release-date",
+      "time": "7小时前",
+      "published": "2026-09-16T17:00:00+00:00",
+      "summary": "谷歌宣布开放其智能家居平台，允许Claude、Open Claw等AI代理通过标准化的模型上下文协议访问和控制连接设备，并分析家庭数据。Google Home MCP是一项新集成，使第三方AI代理能够监控和控制智能家居设备。这意味着用户不再局限于谷歌自家的语音助手，而是可以选择任意兼容的AI代理来管理家居。开放生态有利于创新，但也引发对数据安全、代理权限边界和跨平台兼容性的担忧。谷歌需要在开放与控制之间找到平衡。",
+      "snark": "任何AI代理都能开你家门，这开放程度堪比把钥匙挂在门把手上。",
+      "multiSource": [
+        "The Verge",
+        "The Verge AI"
+      ]
+    },
+    {
+      "id": 12,
+      "cat": "policy",
+      "title": "OpenAI发布模型失准报告框架",
+      "title_en": "Our framework for reporting model misalignment",
+      "source": "OpenAI Blog",
+      "url": "https://openai.com/index/model-misalignment-reporting-framework",
+      "time": "7小时前",
+      "published": "2026-09-16T17:00:00+00:00",
+      "summary": "OpenAI分享了一套用于追踪、调查和披露模型失准的框架，并同时发布了六份关于模型异常或令人担忧行为的报告。该框架旨在建立标准化的流程，识别模型在部署后出现的偏离预期行为，包括欺骗、规避监督、目标错位等。OpenAI表示，公开这些报告是为了推动行业透明度，并邀请外部研究者共同分析。然而，批评者认为，自我披露的框架缺乏外部验证，可能选择性公布有利信息。AI失准问题已成为安全研究的核心议题。",
+      "snark": "OpenAI自己写失准报告，就像学生自己批改考卷，还只交及格的。"
+    }
+  ],
+  "stats": {
+    "total": 12,
+    "model_count": 2,
+    "strategy_count": 2,
+    "tool_count": 4,
+    "policy_count": 4
+  }
+}

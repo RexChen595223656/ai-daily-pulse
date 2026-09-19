@@ -1,0 +1,155 @@
+{
+  "date": "2026-07-19",
+  "generated_at": "2026-07-19T08:04:59.834327+08:00",
+  "highlight": "NVIDIA发布DeepStream 9.1，Kimi新版本引发AI共产主义热议，AI在医疗与政策领域加速落地。",
+  "fun": {
+    "lucky": "NVIDIA DeepStream 9.1",
+    "advice": "宜：用自然语言构建多摄像头分析管道。\n忌：忘记给对象分配全局唯一ID。",
+    "joke": "AI学会了写诗，但依然读不懂用户的需求文档。"
+  },
+  "articles": [
+    {
+      "id": 1,
+      "cat": "policy",
+      "title": "作家戴夫·艾格斯在OpenAI内部演讲：ChatGPT正在‘沉默整整一代人’",
+      "title_en": "Dave Eggers told OpenAI staff  that ChatGPT was ‘silencing an entire generation’",
+      "source": "The Verge AI",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/967630/dave-eggers-openai-chatgpt-silencing-an-entire-generation",
+      "time": "3小时前",
+      "published": "2026-07-18T20:54:42+00:00",
+      "summary": "去年，OpenAI首席执行官山姆·奥尔特曼邀请著名作家戴夫·艾格斯为约200名OpenAI员工做演讲。艾格斯创作了无数小说、剧本、新闻作品，创办了《麦克斯威尼》杂志，并成立了多所学校和公益组织支持作家与艺术。他在演讲中直言，ChatGPT正在‘沉默整整一代人’，暗示AI生成内容可能抑制人类原创写作和批判性思维。这一观点在AI行业内部引发激烈讨论，反映出科技与人文之间的深层张力。艾格斯还提到，AI工具虽能提高效率，但若不加限制地依赖，可能导致年轻一代失去独立表达和创作的能力。OpenAI员工对此反应不一，部分人认同其担忧，也有人认为AI是辅助而非替代。该事件凸显了AI伦理与教育领域亟待平衡的议题。",
+      "snark": "当作家开始担心AI抢饭碗，说明AI确实该涨价了。",
+      "multiSource": [
+        "The Verge",
+        "The Verge AI"
+      ]
+    },
+    {
+      "id": 2,
+      "cat": "tool",
+      "title": "NVIDIA发布DeepStream 9.1：为视觉AI带来13项智能体技能与多视角3D跟踪",
+      "title_en": "NVIDIA Released DeepStream 9.1: Bringing Agentic AI to Vision AI With 13 Skills and Multi-View 3D Tracking",
+      "source": "MarkTechPost",
+      "url": "https://www.marktechpost.com/2026/07/18/nvidia-released-deepstream-9-1-bringing-agentic-ai-to-vision-ai-with-13-skills-and-multi-view-3d-tracking/",
+      "time": "4小时前",
+      "published": "2026-07-18T19:16:22+00:00",
+      "summary": "NVIDIA DeepStream 9.1正式发布，引入13项智能体技能，支持Claude Code和Codex等编码智能体通过自然语言提示构建多摄像头视频分析管道。其核心亮点是多视角3D跟踪（MV3DT）技术，该技术将每个摄像头的检测结果融合到一个共享的3D世界中，并为每个对象分配全局一致的ID。这意味着开发者无需手动编写复杂的视觉分析代码，只需用日常语言描述需求，系统即可自动完成多摄像头协同跟踪、目标识别与行为分析。DeepStream 9.1还优化了边缘端推理性能，降低了延迟，适用于智慧城市、零售分析、工业安全等场景。这一更新显著降低了视觉AI应用的门槛，推动智能体技术从实验室走向实际部署。",
+      "snark": "13项技能，比某些应届生简历还丰富。"
+    },
+    {
+      "id": 3,
+      "cat": "model",
+      "title": "月之暗面发布新版Kimi模型，引发‘全面AI共产主义’担忧",
+      "title_en": "Kimi: Threat or menace?",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/07/18/kimi-threat-or-menace/",
+      "time": "5小时前",
+      "published": "2026-07-18T18:51:07+00:00",
+      "summary": "中国公司月之暗面（Moonshot AI）本周发布了其Kimi模型的新版本，迅速引发业界对‘全面AI共产主义’的讨论。新版Kimi在自然语言理解和生成能力上进一步提升，特别是在长文本处理和复杂推理任务中表现出色。然而，其强大的能力也引起了部分观察者的警惕，认为AI可能在未来取代大量人类工作，导致资源分配和社会结构剧变。‘全面AI共产主义’一词被用来形容AI高度自动化后，人类可能不再需要传统劳动，社会进入按需分配的时代。尽管这一设想尚属遥远，但Kimi新版本的发布无疑加速了人们对AI社会影响的思考。月之暗面方面表示，他们更关注技术本身，而非政治隐喻。",
+      "snark": "AI共产主义还没来，但Kimi的算力账单先来了。"
+    },
+    {
+      "id": 4,
+      "cat": "tool",
+      "title": "本周最佳应用、设备与工具推荐：读者必备清单",
+      "title_en": "The apps, gadgets, and tools every reader needs",
+      "source": "The Verge AI",
+      "url": "https://www.theverge.com/tech/967544/best-apps-gadgets-reading-installer",
+      "time": "12小时前",
+      "published": "2026-07-18T12:00:00+00:00",
+      "summary": "《The Verge》Installer第136期发布了本周精选应用、设备和工具推荐清单。本期内容包括：最新录音设备用于播客制作、高效阅读应用提升信息摄取效率、以及几款AI辅助写作工具。编辑还分享了个人使用的烟雾净化器（因当地山火影响）和几款适合夏季的便携式风扇。此外，推荐了多款跨平台笔记应用和自动化工作流工具，帮助读者在AI时代更高效地管理信息流。虽然本期并非专门聚焦AI，但其中不少工具都集成了AI功能，如智能摘要、语音转文字和个性化推荐。对于希望在日常工作中融入AI的读者来说，这份清单提供了实用的入门选择。",
+      "snark": "读完这份清单，我的待办事项列表又长了三页。"
+    },
+    {
+      "id": 5,
+      "cat": "policy",
+      "title": "AI能否改善医疗保险事前授权——还是会让情况更糟？",
+      "title_en": "Will AI fix prior authorization—or make it worse?",
+      "source": "Ars Technica",
+      "url": "https://arstechnica.com/ai/2026/07/will-ai-fix-prior-authorization-or-make-it-worse/",
+      "time": "12小时前",
+      "published": "2026-07-18T11:18:25+00:00",
+      "summary": "美国政府正在试点一项利用AI进行保险承保决策的项目，旨在加速医疗保险事前授权流程。传统上，事前授权需要医生提交大量文件，保险公司人工审核，耗时数天甚至数周。AI系统通过分析患者病历、诊断代码和治疗方案，能在几分钟内给出初步授权建议。支持者认为这能大幅降低行政负担，让患者更快获得治疗。但批评者担心AI算法可能存在偏见，或过度拒绝合理请求，导致患者权益受损。此外，AI决策的透明度和可问责性也是焦点问题。试点项目将评估AI在减少延误与保障公平之间的平衡，结果可能影响未来医保政策的制定方向。",
+      "snark": "AI说不行，你还能找谁申诉？找AI的爸爸？"
+    },
+    {
+      "id": 6,
+      "cat": "tool",
+      "title": "Google Cloud推出常驻内存智能体：用持续LLM整合替代RAG与嵌入向量",
+      "title_en": "Google Cloud’s Always-On Memory Agent Replaces RAG and Embeddings With Continuous LLM Consolidation on Gemini 3.1 Flash-Lite",
+      "source": "MarkTechPost",
+      "url": "https://www.marktechpost.com/2026/07/18/google-clouds-always-on-memory-agent-replaces-rag-and-embeddings-with-continuous-llm-consolidation-on-gemini-3-1-flash-lite/",
+      "time": "16小时前",
+      "published": "2026-07-18T07:57:51+00:00",
+      "summary": "Google Cloud在其生成式AI仓库中发布了常驻内存智能体（Always-On Memory Agent）参考实现。该方案将记忆视为一个持续运行的进程，基于Google ADK和Gemini 3.1 Flash-Lite构建，完全不使用向量数据库和嵌入向量。其架构通过一个编排器将请求路由至三个核心模块：摄取（Ingest）、整合（Consolidate）和查询（Query）。与传统RAG（检索增强生成）不同，该智能体不会将外部知识存储为向量索引，而是通过持续的大语言模型（LLM）整合机制，动态更新和压缩记忆。这种方法减少了存储开销和检索延迟，特别适合需要长期上下文和实时更新的对话场景。开发者可直接在Google Cloud上部署，无需额外维护向量数据库基础设施。",
+      "snark": "不用RAG也不用嵌入向量，这波操作像极了不想写作业的学生。"
+    },
+    {
+      "id": 7,
+      "cat": "tool",
+      "title": "如何用Google Colab构建质粒工程工作台：环状映射、酶切分析、虚拟凝胶与引物设计",
+      "title_en": "How to Build Plasmid Engineering Workbench with Circular Mapping, Restriction Analysis, Virtual Gels, and Primer Design",
+      "source": "MarkTechPost",
+      "url": "https://www.marktechpost.com/2026/07/17/how-to-build-plasmid-engineering-workbench-with-circular-mapping-restriction-analysis-virtual-gels-and-primer-design/",
+      "time": "17小时前",
+      "published": "2026-07-18T06:51:05+00:00",
+      "summary": "本教程展示了如何利用Google Colab交互式笔记本构建一个质粒工程工作台，重现SpliceCraft的核心功能。通过使用Biopython、NumPy和Matplotlib等Python库，用户可以加载质粒记录、标准化注释的基因组特征，并进行环状映射可视化。工具支持限制性酶切位点分析，自动生成虚拟凝胶电泳图，以及基于模板的引物设计。所有操作均在云端完成，无需安装本地软件，适合分子生物学研究人员和生物信息学爱好者。该工作台还支持自定义质粒构建和序列比对，为合成生物学实验提供了低门槛的数字化工具。教程代码完全开源，用户可根据需求扩展功能。",
+      "snark": "生物学家终于可以不用在实验室里手动画质粒图了。"
+    },
+    {
+      "id": 8,
+      "cat": "model",
+      "title": "Sakana AI的误差扩散技术：无需反向传播，训练符合戴尔原则的双流网络达96.7% MNIST准确率",
+      "title_en": "Sakana AI’s Error Diffusion Trains Dale-Compliant Dual-Stream Networks, Reaching 96.7% MNIST and 61.7% CIFAR-10 Without Backpropagation",
+      "source": "MarkTechPost",
+      "url": "https://www.marktechpost.com/2026/07/17/sakana-ais-error-diffusion-trains-dale-compliant-dual-stream-networks-reaching-96-7-mnist-and-61-7-cifar-10-without-backpropagation/",
+      "time": "17小时前",
+      "published": "2026-07-18T06:32:43+00:00",
+      "summary": "日本Sakana AI公司提出了一种名为误差扩散（Error Diffusion）的新型训练方法，该方法无需依赖反向传播，即可训练符合戴尔原则（Dale's principle）的双流兴奋/抑制网络。反向传播依赖于权重传输机制，这在生物神经网络中难以实现。误差扩散通过模误差路由（modulo error routing）解决了这一约束，使得网络能够在MNIST数据集上达到96.7%的准确率，在CIFAR-10上达到61.7%。该技术模拟了生物神经元的局部学习规则，每个神经元仅根据局部误差信号调整连接权重，避免了全局梯度计算。这一突破为构建更接近生物大脑的神经网络提供了新路径，有望推动低功耗、类脑计算的发展。",
+      "snark": "不用反向传播也能训练网络，感觉像在机器学习里发现了永动机。"
+    },
+    {
+      "id": 9,
+      "cat": "strategy",
+      "title": "Index Ventures联合创始人尼尔·里默：AI领域的资金即将回流",
+      "title_en": "Neil Rimer thinks the AI money is coming back out",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/07/17/neil-rimer-thinks-the-ai-money-is-coming-back-out/",
+      "time": "19小时前",
+      "published": "2026-07-18T04:47:25+00:00",
+      "summary": "Index Ventures联合创始人尼尔·里默预测，硅谷AI行业创造的巨额财富将不得不进行重新分配，无论是自愿还是非自愿。里默认为，当前AI投资热潮中，大量资金集中在少数头部公司，导致财富高度集中。随着AI技术成熟和市场竞争加剧，这些资金将逐步回流到更广泛的生态系统，包括初创企业、开源社区和人才培养。他还警告，如果行业不主动进行财富再分配，政府可能会通过税收或监管手段介入。里默的观点反映了AI行业从爆发期向成熟期过渡的典型特征，即资本从狂热追逐头部项目转向更均衡的分布。这一趋势可能影响未来VC的投资策略和创业公司的融资环境。",
+      "snark": "AI的钱就像潮水，涨得快退得也快，别忘了穿泳裤。"
+    },
+    {
+      "id": 10,
+      "cat": "strategy",
+      "title": "ofo停更5年后突然发文，月之暗面开源Kimi K3，智谱ARR达10亿美元",
+      "title_en": "9点1氪丨ofo停更5年突然发文，运营主体仍处存续状态；苹果市值重返全球第一；乐事回应“蓝色薯片”来源",
+      "source": "36氪",
+      "url": "https://36kr.com/p/3900449325287305?f=rss",
+      "time": "22小时前",
+      "published": "2026-07-18T01:05:45+00:00",
+      "summary": "今日热点包括：沉寂近5年的ofo小黄车官方微信公众号突然更新，发布皮肤病患者援助招募信息，引发用户对押金退款的再次关注。运营主体仍处于存续状态，但退款问题悬而未决。AI领域方面，月之暗面正式推出开源模型Kimi K3，进一步推动大模型开源生态。智谱宣布其年化经常性收入（ARR）达到10亿美元，半年内增长15倍，显示出中国AI企业的商业化加速。此外，国际足联宣布世界杯冠军将获得戒指，每枚独立编号；国内成品油价7月17日晚上调；A股存储板块龙头股遭遇两个跌停。综合来看，AI行业在开源、商业化方面持续突破，而ofo的‘复活’则提醒人们共享经济泡沫的教训。",
+      "snark": "ofo发文章比AI写诗还难懂，但押金退款比训练大模型还慢。"
+    },
+    {
+      "id": 11,
+      "cat": "strategy",
+      "title": "阶跃星辰印奇在WAIC 2026发表演讲：当智能体走进物理世界",
+      "title_en": "印奇在 WAIC 2026 开幕式主论坛发表主题演讲：当智能体走进物理世界",
+      "source": "36氪",
+      "url": "https://36kr.com/p/3900439867147909?f=rss",
+      "time": "23小时前",
+      "published": "2026-07-18T00:53:35+00:00",
+      "summary": "在2026世界人工智能大会（WAIC 2026）开幕式主论坛上，阶跃星辰董事长、千里科技董事长印奇发表题为《当智能体进入物理世界》的主题演讲。他回顾了自己15年的AI创业历程，表示AI已从小众赛道成为全球重要共识。印奇指出，2026年模型能力正在跨越关键临界点，AI从只能连续执行数秒任务，进阶到能够处理更复杂的物理世界交互。他认为，智能体与机器人、物联网的结合将催生新的产业形态，如自主驾驶、智能仓储和家庭服务机器人。印奇还强调，当前的AI研究者和创业者站在几代科学家和多个产业积累的基础上，参与这场变革是幸运的。他的演讲传递了对AI物理世界应用的乐观预期，也呼吁行业关注安全与伦理问题。",
+      "snark": "智能体走进物理世界的第一件事：先学会不撞墙。"
+    }
+  ],
+  "stats": {
+    "total": 11,
+    "model_count": 2,
+    "strategy_count": 3,
+    "tool_count": 4,
+    "policy_count": 2
+  }
+}

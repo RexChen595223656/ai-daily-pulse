@@ -1,0 +1,167 @@
+{
+  "date": "2026-06-04",
+  "generated_at": "2026-06-04T08:09:59.264819+08:00",
+  "highlight": "Google 发布 Gemma 4 12B 开源多模态模型，同时 Alphabet 创纪录融资 850 亿美元加码 AI。",
+  "fun": {
+    "lucky": "Gemma 4 12B",
+    "advice": "宜：在 16GB 笔记本上本地跑多模态模型\n忌：试图用 Dreambeans 把黑历史变成卡通",
+    "joke": "AI 说它需要更多数据，我把它的训练日志打印出来给它看。"
+  },
+  "articles": [
+    {
+      "id": 1,
+      "cat": "strategy",
+      "title": "腾讯回应微信AI智能体：上线时间取决于监管审批进度",
+      "title_en": "8点1氪丨腾讯称无法确定微信AI智能体推出时间；问界回应浙江台州M9事故；马斯克个人财富将突破万亿美元",
+      "source": "36氪",
+      "url": "https://36kr.com/p/3838091144464644?f=rss",
+      "time": "16分钟前",
+      "published": "2026-06-03T23:53:43+00:00",
+      "summary": "针对媒体报道微信即将推出AI智能体并最快本月启动合规审批的消息，腾讯官方回应称目前无法确定该产品的具体推出时间。腾讯表示，由于微信拥有超过14亿的用户体量，其AI智能体的合规审批流程可能比一般产品更为复杂和严格，上线进度很大程度上取决于监管方的审批节奏。这反映出在AI产品快速迭代的背景下，大型社交平台在引入AI功能时面临的监管合规压力尤为突出。目前该AI智能体的具体功能细节尚未披露，市场对其如何与微信生态融合充满期待。",
+      "snark": "14亿用户的微信AI？先过完审批，下个世纪见。"
+    },
+    {
+      "id": 2,
+      "cat": "strategy",
+      "title": "瑞典AI初创公司 Lovable 与 Google Cloud 签署多年期大额合作协议",
+      "title_en": "Lovable signs multiyear deal with Google Cloud to up usage 5x, source says",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/06/03/lovable-signs-multi-year-deal-with-google-cloud-to-up-usage-5x-source-says/",
+      "time": "1小时前",
+      "published": "2026-06-03T22:56:51+00:00",
+      "summary": "瑞典AI初创公司Lovable与Google Cloud签署了一项为期多年的扩大合作协议，协议内容包括将Lovable在Google Cloud上的使用量提升5倍，并扩大其对Anthropic Claude模型的访问权限。Lovable是一家专注于AI驱动软件开发服务的公司，此次合作将整合Google的Gemini模型和AI优化基础设施，以支持其向全球用户扩展服务。这笔交易不仅体现了云服务商与AI初创公司之间日益紧密的绑定关系，也反映出市场对AI辅助开发工具需求的快速增长。",
+      "snark": "5倍扩容？看来Lovable打算把整个互联网都重写一遍。"
+    },
+    {
+      "id": 3,
+      "cat": "tool",
+      "title": "Mnemo：为任意大语言模型提供本地优先的AI记忆层（Rust + SQLite）",
+      "title_en": "Show HN: Mnemo – local-first AI memory layer for any LLM (Rust, SQLite,petgraph)",
+      "source": "Hacker News",
+      "url": "https://github.com/zaydmulani09/mnemo",
+      "time": "3小时前",
+      "published": "2026-06-03T20:32:10+00:00",
+      "summary": "开发者发布了一个名为Mnemo的开源项目，旨在为任意大语言模型（LLM）提供本地优先的AI记忆层。该项目使用Rust语言编写，底层依赖SQLite数据库和petgraph图库，核心功能是让LLM能够跨会话保持长期记忆，而无需依赖云端存储。Mnemo的设计理念是数据主权归用户所有，所有记忆数据存储在本地，通过图结构组织实体之间的关系，从而实现更智能的上下文回忆。该项目在Hacker News上获得了22个点赞和10条评论，适合对隐私敏感或需要离线运行的AI应用场景。",
+      "snark": "本地记忆层？AI终于学会了忘记云端，记住本地。"
+    },
+    {
+      "id": 4,
+      "cat": "strategy",
+      "title": "Alphabet 创纪录融资 850 亿美元，全力押注 Google AI 业务",
+      "title_en": "Alphabet’s record-breaking $85B raise for Google’s AI business is a helluva good signal",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/06/03/alphabets-record-breaking-85b-raise-for-googles-ai-business-is-a-helluva-good-signal/",
+      "time": "4小时前",
+      "published": "2026-06-03T19:38:32+00:00",
+      "summary": "Alphabet（Google母公司）完成了一笔创纪录的850亿美元股票发行融资，所筹资金将专门用于支持Google的AI业务发展。这笔融资规模远超市场预期，被视为投资者对AI相关投资机会极度渴求的信号。分析人士指出，如此大规模的资本注入将加速Google在AI基础设施、模型研发和商业化落地方面的布局，尤其是在与微软和OpenAI的竞争中争取主动权。这笔交易也向市场传递了一个明确信号：科技巨头正在不惜血本地争夺AI时代的入场券。",
+      "snark": "850亿美元够买下多少GPU？答案是：无数个。"
+    },
+    {
+      "id": 5,
+      "cat": "tool",
+      "title": "如何使用 iii 构建文档智能后端：集成 Workers、Functions 和 Cron 触发器",
+      "title_en": "How to Build a Document Intelligence Backend with iii Using Workers, Functions, and Cron Triggers",
+      "source": "MarkTechPost",
+      "url": "https://www.marktechpost.com/2026/06/03/how-to-build-a-document-intelligence-backend-with-iii-using-workers-functions-and-cron-triggers/",
+      "time": "4小时前",
+      "published": "2026-06-03T19:15:07+00:00",
+      "summary": "一篇技术教程详细介绍了如何使用iii框架构建一个文档智能后端系统。该方案通过注册模块化函数，并将这些函数复用到多种触发器（包括Workers、Functions和Cron定时任务）中，实现文档的自动处理、分析和索引。教程强调了模块化设计的好处：开发者可以独立编写文档解析、OCR识别、语义理解等功能模块，然后通过配置将它们组合成完整的处理流水线。这种方法降低了构建文档智能系统的门槛，适合需要处理大量非结构化文档的企业级应用场景。",
+      "snark": "文档智能后端？说白了就是让AI帮你读PDF，别自己看了。"
+    },
+    {
+      "id": 6,
+      "cat": "tool",
+      "title": "Google 推出 Dreambeans：用你个人数据生成 AI 卡通故事",
+      "title_en": "Google’s Dreambeans, its weirdest-named AI tool to date, will turn your life into a cartoon",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/06/03/googles-dreambeans-its-weirdest-named-ai-tool-to-date-will-turn-your-life-into-a-cartoon/",
+      "time": "5小时前",
+      "published": "2026-06-03T19:07:42+00:00",
+      "summary": "Google发布了一款名为Dreambeans的AI工具，其名称被认为是Google迄今最奇怪的AI产品命名。Dreambeans会根据用户Google账号中的个人数据（如搜索记录、位置历史、照片等）生成一系列AI插画风格的“故事”，将用户的真实生活经历转化为卡通叙事。该工具本质上是一种个性化的AI内容生成服务，通过分析用户数据来创作独特的视觉故事。虽然产品创意有趣，但也引发了关于隐私和数据使用的讨论——毕竟它需要深度读取用户的个人数据才能工作。",
+      "snark": "把我的搜索历史变成卡通？那画面太美我不敢看。"
+    },
+    {
+      "id": 7,
+      "cat": "model",
+      "title": "Google DeepMind 发布 Gemma 4 12B：无需编码器的多模态模型，16GB 笔记本可运行",
+      "title_en": "Google DeepMind Releases Gemma 4 12B: An Encoder-Free Multimodal Model with Native audio that runs on a 16 GB laptop",
+      "source": "MarkTechPost",
+      "url": "https://www.marktechpost.com/2026/06/03/google-deepmind-releases-gemma-4-12b-an-encoder-free-multimodal-model-with-native-audio-that-runs-on-a-16-gb-laptop/",
+      "time": "5小时前",
+      "published": "2026-06-03T18:46:41+00:00",
+      "summary": "Google DeepMind正式发布了Gemma 4 12B模型，这是一款无需独立编码器的多模态大语言模型，原生支持视觉和音频输入。该模型采用直接将视觉和音频特征注入LLM主干网络的设计，摒弃了传统的独立编码器架构，从而降低了计算开销和内存占用。Gemma 4 12B最引人注目的特点是可以在仅配备16GB内存的笔记本电脑上本地运行，同时采用Apache 2.0开源许可证发布，对商业使用友好。这使得开发者和小型团队能够在消费级硬件上实验多模态AI应用，大大降低了多模态模型的使用门槛。",
+      "snark": "16GB笔记本跑多模态？我的笔记本终于不再是电子垃圾了。"
+    },
+    {
+      "id": 8,
+      "cat": "tool",
+      "title": "Google 新 AI 智能体 Spark 上手：效果太好反而让人害怕",
+      "title_en": "As AI gets better, it reveals an empty promise",
+      "source": "The Verge AI",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/942629/as-ai-gets-better-it-reveals-an-empty-promise",
+      "time": "6小时前",
+      "published": "2026-06-03T17:45:35+00:00",
+      "summary": "The Verge的两位编辑David Pierce和Jay Peters同时体验了Google新发布的AI智能体Spark，并得出了相似的结论：它太有效了，以至于让人感到不安。Spark能够自动获取用户的个人信息，例如David的狗名叫Frida，以及Jay妻子的名字，而这些信息两位编辑从未直接告诉过Spark。这种深度上下文感知能力虽然提升了效率，但也引发了关于AI隐私边界的讨论。文章指出，随着AI变得越来越强大，它揭示了一个令人不安的事实：用户对AI的便利性需求与对个人数据控制权的担忧之间存在根本矛盾。",
+      "snark": "AI太聪明了也麻烦，连我狗的名字都知道了，下一步是不是要查我银行账户？",
+      "multiSource": [
+        "The Verge",
+        "The Verge AI"
+      ]
+    },
+    {
+      "id": 9,
+      "cat": "tool",
+      "title": "Amazon 搜索栏新增 AI 生成产品图功能：搜到的商品可能根本不存在",
+      "title_en": "Amazon&#8217;s search bar will invent AI-generated products you can&#8217;t buy",
+      "source": "The Verge AI",
+      "url": "https://www.theverge.com/tech/942547/amazon-search-bar-ai-images",
+      "time": "8小时前",
+      "published": "2026-06-03T16:07:31+00:00",
+      "summary": "Amazon在其移动应用搜索栏中推出了新的AI功能：当用户输入搜索词时，系统会生成AI绘制的产品图像来匹配描述。目前该功能仅适用于服装和家居用品类别，用户点击最符合需求的AI图像后，系统会搜索外观相似的实物商品。然而，这种做法的争议在于：AI生成的图像展示的是“理想中的产品”，而非实际库存中存在的物品，可能导致用户产生不切实际的期望。Amazon表示这有助于引导用户更快找到心仪商品，但批评者认为这更像是一种营销噱头。",
+      "snark": "Amazon这是要改行做AI画师了？买不到的东西先画给你看。"
+    },
+    {
+      "id": 10,
+      "cat": "tool",
+      "title": "Amazon 将在搜索结果中展示 AI 生成的产品图像",
+      "title_en": "Amazon will show AI product images when you search for some reason",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/06/03/amazon-will-show-ai-product-images-when-you-search-for-some-reason/",
+      "time": "8小时前",
+      "published": "2026-06-03T15:50:26+00:00",
+      "summary": "Amazon宣布将利用视觉搜索和AI技术，在搜索结果中展示与用户查询匹配的AI生成产品图像。该公司声称，这一功能旨在帮助用户更直观地理解搜索关键词对应的产品样式，从而更快地找到实际商品。目前该功能已开始在部分用户中测试，搜索结果页会同时显示AI生成图像和真实商品列表。尽管Amazon强调这只是一个引导工具，但业界担忧AI生成的“理想化”图像可能会误导消费者对产品实际外观的认知，尤其是在服装和家居等视觉敏感的品类中。",
+      "snark": "搜索结果里一半是AI画出来的？建议改名叫‘想象力购物’。"
+    },
+    {
+      "id": 11,
+      "cat": "strategy",
+      "title": "瑞典 AI 初创 Lovable 与 Google Cloud 扩大合作，整合 Gemini 模型",
+      "title_en": "氪星晚报 ｜曲美家居：境外子公司拟发行不超9亿挪威克朗境外债券；段永平在泡泡玛特持股比例升至6.04%；现货白银向下跌破74美元/盎司",
+      "source": "36氪",
+      "url": "https://36kr.com/p/3837330582008963?f=rss",
+      "time": "9小时前",
+      "published": "2026-06-03T15:01:21+00:00",
+      "summary": "据媒体报道，瑞典AI初创公司Lovable已与Google Cloud扩大多年期合作，旨在整合Google的Gemini模型和AI优化基础设施，从而向全球用户扩展其AI驱动的软件开发服务。Lovable的核心产品是利用AI自动生成和优化代码，此次合作将使其能够利用Google Cloud的TPU和GPU集群进行大规模模型训练和推理，同时获得Gemini模型的优先使用权。这笔合作是继Lovable与Google Cloud签署基础合作协议后的重大升级，反映出AI开发工具赛道对云计算资源的强烈依赖。",
+      "snark": "Lovable：抱上Google大腿，代码写得飞起。"
+    },
+    {
+      "id": 12,
+      "cat": "strategy",
+      "title": "前 Goldman 和 Meta 高管离职创业，为非洲和中东市场打造语音 AI",
+      "title_en": "These two founders left Goldman and Meta to build voice AI for markets everyone else overlooked",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/06/03/these-two-founders-left-goldman-and-meta-to-build-voice-ai-for-markets-everyone-else-overlooked/",
+      "time": "9小时前",
+      "published": "2026-06-03T15:00:00+00:00",
+      "summary": "两位分别来自高盛和Meta的创始人离职后创立了一家语音AI初创公司，专注于服务非洲和中东等被主流科技公司忽视的市场。该公司的技术栈完全自主研发，目前每天处理超过17,000通语音电话，主要应用于客服、语音助手和本地化信息服务场景。创始人表示，这些地区的语音AI需求巨大但供给不足，现有解决方案往往无法很好地处理当地语言、口音和方言。通过自研的语音识别和自然语言处理模型，该公司正在填补这一市场空白，并已获得初步的商业验证。",
+      "snark": "离开华尔街和硅谷，去非洲做语音AI？这波操作我给满分。"
+    }
+  ],
+  "stats": {
+    "total": 12,
+    "model_count": 1,
+    "strategy_count": 5,
+    "tool_count": 6,
+    "policy_count": 0
+  }
+}

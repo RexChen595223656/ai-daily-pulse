@@ -1,0 +1,161 @@
+{
+  "date": "2026-05-08",
+  "highlight": "中美 AI 人才争夺战升级：硅谷公司为中国工程师开出百万美元年薪",
+  "articles": [
+    {
+      "id": 1,
+      "cat": "model",
+      "title": "Midjourney V8 上线，支持实时协作和 3D 场景生成",
+      "title_en": "",
+      "source": "少数派",
+      "url": "https://example.com/ai-news/3872",
+      "time": "6天前",
+      "published": "2026-05-08T13:45:00+08:00",
+      "summary": "这是一条关于「Midjourney V8 上线，支持实时协作和 3D 场景生成」的详细报道。该事件在 AI 行业引发广泛关注，多位业内人士表示这将深刻影响行业格局。更多细节请查看原文。",
+      "snark": "AI圈日常：今天你发模型，明天我刷榜。"
+    },
+    {
+      "id": 2,
+      "cat": "model",
+      "title": "AutoGPT 3.0 发布：自主 AI Agent 可完成复杂商业任务",
+      "title_en": "",
+      "source": "The Verge AI",
+      "url": "https://example.com/ai-news/3594",
+      "time": "6天前",
+      "published": "2026-05-08T13:28:00+08:00",
+      "summary": "这是一条关于「AutoGPT 3.0 发布：自主 AI Agent 可完成复杂商业任务」的详细报道。该事件在 AI 行业引发广泛关注，多位业内人士表示这将深刻影响行业格局。更多细节请查看原文。",
+      "snark": "AI圈日常：今天你发模型，明天我刷榜。"
+    },
+    {
+      "id": 3,
+      "cat": "model",
+      "title": "中国发布大模型训练新规：数据安全和内容审核成焦点",
+      "title_en": "",
+      "source": "Synced Review",
+      "url": "https://example.com/ai-news/2430",
+      "time": "6天前",
+      "published": "2026-05-08T14:38:00+08:00",
+      "summary": "这是一条关于「中国发布大模型训练新规：数据安全和内容审核成焦点」的详细报道。该事件在 AI 行业引发广泛关注，多位业内人士表示这将深刻影响行业格局。更多细节请查看原文。",
+      "snark": "又双叒叕一个「里程碑」，今年第几个了？"
+    },
+    {
+      "id": 4,
+      "cat": "model",
+      "title": "Hugging Face 推出开源推理框架，性能比肩 GPT-4",
+      "title_en": "",
+      "source": "MarkTechPost",
+      "url": "https://example.com/ai-news/3562",
+      "time": "6天前",
+      "published": "2026-05-08T15:28:00+08:00",
+      "summary": "这是一条关于「Hugging Face 推出开源推理框架，性能比肩 GPT-4」的详细报道。该事件在 AI 行业引发广泛关注，多位业内人士表示这将深刻影响行业格局。更多细节请查看原文。",
+      "snark": "编辑部：这条我们也不知道怎么评价。"
+    },
+    {
+      "id": 5,
+      "cat": "strategy",
+      "title": "欧盟 AI 法案正式生效：高风险 AI 系统需第三方审计",
+      "title_en": "",
+      "source": "The Verge",
+      "url": "https://example.com/ai-news/5020",
+      "time": "6天前",
+      "published": "2026-05-08T22:36:00+08:00",
+      "summary": "这是一条关于「欧盟 AI 法案正式生效：高风险 AI 系统需第三方审计」的详细报道。该事件在 AI 行业引发广泛关注，多位业内人士表示这将深刻影响行业格局。更多细节请查看原文。",
+      "snark": "又双叒叕一个「里程碑」，今年第几个了？"
+    },
+    {
+      "id": 6,
+      "cat": "strategy",
+      "title": "xAI 完成 60 亿美元融资，Elon Musk 称将建全球最大 GPU 集群",
+      "title_en": "",
+      "source": "TechCrunch",
+      "url": "https://example.com/ai-news/8332",
+      "time": "6天前",
+      "published": "2026-05-08T10:39:00+08:00",
+      "summary": "这是一条关于「xAI 完成 60 亿美元融资，Elon Musk 称将建全球最大 GPU 集群」的详细报道。该事件在 AI 行业引发广泛关注，多位业内人士表示这将深刻影响行业格局。更多细节请查看原文。",
+      "snark": "这条新闻让同行们集体沉默了3秒，然后继续卷。"
+    },
+    {
+      "id": 7,
+      "cat": "strategy",
+      "title": "GPT-5 发布首个公开预览版，推理能力大幅提升",
+      "title_en": "",
+      "source": "MIT Tech Review",
+      "url": "https://example.com/ai-news/1969",
+      "time": "6天前",
+      "published": "2026-05-08T11:13:00+08:00",
+      "summary": "这是一条关于「GPT-5 发布首个公开预览版，推理能力大幅提升」的详细报道。该事件在 AI 行业引发广泛关注，多位业内人士表示这将深刻影响行业格局。更多细节请查看原文。",
+      "snark": "又双叒叕一个「里程碑」，今年第几个了？"
+    },
+    {
+      "id": 8,
+      "cat": "strategy",
+      "title": "Zapier AI 发布企业自动化 Agent：跨应用工作流零代码搭建",
+      "title_en": "",
+      "source": "Synced Review",
+      "url": "https://example.com/ai-news/9974",
+      "time": "6天前",
+      "published": "2026-05-08T06:05:00+08:00",
+      "summary": "这是一条关于「Zapier AI 发布企业自动化 Agent：跨应用工作流零代码搭建」的详细报道。该事件在 AI 行业引发广泛关注，多位业内人士表示这将深刻影响行业格局。更多细节请查看原文。",
+      "snark": "这条新闻让同行们集体沉默了3秒，然后继续卷。"
+    },
+    {
+      "id": 9,
+      "cat": "strategy",
+      "title": "Runway Gen-5 发布：视频生成支持实时物理模拟",
+      "title_en": "",
+      "source": "Synced Review",
+      "url": "https://example.com/ai-news/4343",
+      "time": "6天前",
+      "published": "2026-05-08T11:40:00+08:00",
+      "summary": "这是一条关于「Runway Gen-5 发布：视频生成支持实时物理模拟」的详细报道。该事件在 AI 行业引发广泛关注，多位业内人士表示这将深刻影响行业格局。更多细节请查看原文。",
+      "snark": "编辑部：这条我们也不知道怎么评价。"
+    },
+    {
+      "id": 10,
+      "cat": "tool",
+      "title": "AutoGPT 3.0 发布：自主 AI Agent 可完成复杂商业任务",
+      "title_en": "",
+      "source": "MIT Tech Review",
+      "url": "https://example.com/ai-news/6539",
+      "time": "6天前",
+      "published": "2026-05-08T18:16:00+08:00",
+      "summary": "这是一条关于「AutoGPT 3.0 发布：自主 AI Agent 可完成复杂商业任务」的详细报道。该事件在 AI 行业引发广泛关注，多位业内人士表示这将深刻影响行业格局。更多细节请查看原文。",
+      "snark": "编辑部：这条我们也不知道怎么评价。"
+    },
+    {
+      "id": 11,
+      "cat": "tool",
+      "title": "Mistral Large 3 发布，欧洲 AI 崛起新标志",
+      "title_en": "",
+      "source": "MarkTechPost",
+      "url": "https://example.com/ai-news/3164",
+      "time": "6天前",
+      "published": "2026-05-08T18:21:00+08:00",
+      "summary": "这是一条关于「Mistral Large 3 发布，欧洲 AI 崛起新标志」的详细报道。该事件在 AI 行业引发广泛关注，多位业内人士表示这将深刻影响行业格局。更多细节请查看原文。",
+      "snark": "AI圈新闻：今天又是核聚变级别的一天。"
+    },
+    {
+      "id": 12,
+      "cat": "tool",
+      "title": "GPT-5 发布首个公开预览版，推理能力大幅提升",
+      "title_en": "",
+      "source": "TechCrunch",
+      "url": "https://example.com/ai-news/6058",
+      "time": "6天前",
+      "published": "2026-05-08T11:56:00+08:00",
+      "summary": "这是一条关于「GPT-5 发布首个公开预览版，推理能力大幅提升」的详细报道。该事件在 AI 行业引发广泛关注，多位业内人士表示这将深刻影响行业格局。更多细节请查看原文。",
+      "snark": "又双叒叕一个「里程碑」，今年第几个了？"
+    }
+  ],
+  "stats": {
+    "total": 12,
+    "model_count": 4,
+    "strategy_count": 5,
+    "tool_count": 3
+  },
+  "fun": {
+    "lucky": "Llama 4 405B",
+    "advice": "宜：开源贡献\n忌：重复造轮子",
+    "joke": "AI 公司的商业计划书：\n1. 训练一个大模型\n2. ???\n3. 盈利\n投资人：第二步呢？\n创始人：第二步就是找个产品经理。"
+  }
+}

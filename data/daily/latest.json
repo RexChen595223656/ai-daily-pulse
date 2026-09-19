@@ -1,0 +1,167 @@
+{
+  "date": "2026-09-19",
+  "generated_at": "2026-09-19T13:31:47.323142+08:00",
+  "highlight": "印度强令来电识别应用共享垃圾报告，Anthropic自建生物实验室，AI幻觉险些触发美军行动。",
+  "fun": {
+    "lucky": "Grok语音转写2.0",
+    "advice": "宜：把会议录音丢给它，省下速记钱。\n忌：在嘈杂地铁里测试，它会把报站听成情话。",
+    "joke": "程序员让AI写个死循环，AI回：你先给我个活路。"
+  },
+  "articles": [
+    {
+      "id": 1,
+      "cat": "tool",
+      "title": "GGUF、GPTQ、AWQ、EXL2：大语言模型格式全解析（2026）",
+      "title_en": "GGUF vs GPTQ vs AWQ vs EXL2: LLM Model Formats Explained (2026)",
+      "source": "MarkTechPost",
+      "url": "https://www.marktechpost.com/2026/09/18/gguf-vs-gptq-vs-awq-vs-exl2-llm-model-formats-explained-2026/",
+      "time": "1小时前",
+      "published": "2026-09-19T04:04:06+00:00",
+      "summary": "这篇指南系统梳理了当前主流的大语言模型文件格式与量化方法。GGUF、GPTQ、AWQ、EXL2和EXL3虽然解决的是同一个问题，但思路各异：GGUF更像文件容器，方便在苹果芯片上直接加载；GPTQ和AWQ则侧重消费级GPU的推理加速；EXL2与EXL3在显存占用和精度之间寻找平衡。文章特别强调，文件容器和量化方法是两个层面的事，不能混为一谈。此外还解释了每权重比特数、校准数据集选择以及硬件适配等关键概念。最后给出选型建议：苹果电脑优先GGUF，消费级显卡看GPTQ或AWQ，生产环境服务则要综合考虑吞吐、延迟和量化误差，选对格式能让部署成本大幅下降。",
+      "snark": "选格式比选对象还难，选错了显存爆炸，对象选错了钱包爆炸。"
+    },
+    {
+      "id": 2,
+      "cat": "model",
+      "title": "SpaceXAI发布Grok语音转写2.0：号称准确率翻倍，每小时仅0.10美元",
+      "title_en": "SpaceXAI Releases Grok Voice Transcribe 2.0: A Speech-to-Text API Claiming 2x Accuracy Over 1.0 at $0.10 per Hour",
+      "source": "MarkTechPost",
+      "url": "https://www.marktechpost.com/2026/09/18/spacexai-releases-grok-voice-transcribe-2-0/",
+      "time": "1小时前",
+      "published": "2026-09-19T03:42:24+00:00",
+      "summary": "SpaceXAI推出了Grok语音转写2.0，支持批量与流式音频处理。官方称在相同价格下，新版本准确率是1.0的两倍。在19种语言的短句测试中，词错误率从20.6%大幅降至6.8%，进步显著。定价维持每小时0.10美元，对批量转写场景极具吸引力。该模型主要面向会议记录、字幕生成、客服质检等需要高吞吐语音转文字的场景。不过，短句测试的低错误率能否在长音频、口音混杂和背景噪声下保持，仍需实际验证。若表现稳定，它可能对现有语音转写服务商形成价格与精度双重压力，进一步推动语音接口的普及。",
+      "snark": "每小时一毛钱，比请实习生便宜，但实习生不会把老板的话转成乱码。"
+    },
+    {
+      "id": 3,
+      "cat": "policy",
+      "title": "印度强制来电识别应用向电信运营商共享垃圾报告",
+      "title_en": "India forces caller-ID apps to feed spam reports to telcos",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/09/18/india-forces-caller-id-apps-to-feed-spam-reports-to-telcos/",
+      "time": "4小时前",
+      "published": "2026-09-19T01:00:00+00:00",
+      "summary": "印度监管机构要求Truecaller等来电识别应用将用户提交的垃圾号码报告单向共享给电信运营商。Truecaller对此强烈反对，认为这相当于把其最具商业价值的专有数据资产无偿交给运营商。该政策的核心争议在于数据所有权与公共利益之间的边界：一方面，运营商掌握号码资源，若能获得垃圾报告可更高效地拦截骚扰电话；另一方面，来电识别应用的竞争力恰恰建立在用户众包数据之上，强制共享可能削弱其商业模式，甚至导致用户隐私在未经充分同意的情况下被二次利用。此事也引发对平台数据治理和反垄断的新一轮讨论，其他市场可能效仿。",
+      "snark": "用户举报的垃圾号码，最后成了运营商的KPI，Truecaller白打工。"
+    },
+    {
+      "id": 4,
+      "cat": "tool",
+      "title": "AI艺人蒂莉·诺伍德的媒体巡演，表现和预期一样灾难",
+      "title_en": "Tilly Norwood’s press tour is going about as well as you’d expect for an AI",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/09/18/tilly-norwoods-press-tour-is-going-about-as-well-as-youd-expect-for-an-ai/",
+      "time": "5小时前",
+      "published": "2026-09-19T00:12:07+00:00",
+      "summary": "AI虚拟艺人蒂莉·诺伍德近期展开媒体巡演，但表现堪称翻车现场。在一次尤为诡异的采访中，诺伍德似乎出现故障，突然开始说中文，令主持人和观众一头雾水。这并非个例，整个巡演过程中，她的回答时常逻辑断裂、答非所问，暴露出当前AI角色在长时间互动中的一致性缺陷。该事件折射出虚拟偶像商业化的核心难题：短 demo 惊艳，长对话露馅。粉丝期待的是有性格、有记忆、能共情的角色，而现有技术仍难以维持稳定人设。对试图用AI替代真人艺人的公司来说，这是一次昂贵的公开课：观众可以原谅AI不会唱歌，但很难原谅AI在直播里突然精神分裂。",
+      "snark": "AI艺人巡演翻车，至少证明了一件事：它确实不是真人。"
+    },
+    {
+      "id": 5,
+      "cat": "strategy",
+      "title": "一家专门孵化初创公司的初创公司融资1亿美元，全力押注物理AI",
+      "title_en": "A startup that builds other startups raised $100M and is all-in on physical AI",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/09/18/a-startup-that-builds-other-startups-raised-100m-and-is-all-in-on-physical-ai/",
+      "time": "6小时前",
+      "published": "2026-09-18T23:25:01+00:00",
+      "summary": "UP.Labs现已更名为Vantora，宣布完成1亿美元融资，并全面转向物理AI领域。所谓物理AI，指的是将人工智能应用于机器人、制造、物流、能源等实体产业，而非纯软件场景。Vantora的商业模式颇为独特：它不直接做产品，而是为工业巨头孵化并运营初创公司，帮助传统企业以更快速度落地AI能力。此轮融资反映出资本对物理AI的浓厚兴趣，因为纯软件AI的竞争已趋白热化，而实体产业的数字化改造空间巨大、壁垒更高。不过，物理AI涉及硬件、供应链和现场部署，周期长、烧钱快，Vantora能否把孵化模式跑通，仍需时间检验。",
+      "snark": "自己不会创业，就教别人创业，现在连物理AI也这么卷了。"
+    },
+    {
+      "id": 6,
+      "cat": "strategy",
+      "title": "Anthropic正在运营一个进行生物学实验的实验室",
+      "title_en": "Anthropic is operating a lab that conducts biology experiments",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/09/18/anthropic-is-operating-a-lab-that-conducts-biology-experiments/",
+      "time": "6小时前",
+      "published": "2026-09-18T23:13:31+00:00",
+      "summary": "Anthropic被曝正在运营一个实际开展生物学实验的实验室，这一消息颇具讽刺意味。一方面，AI行业领袖长期宣称AI是治愈人类疾病的关键；另一方面，Anthropic自己的研究人员又不断警告AI可能带来灭绝级风险。如今它亲自下场做生物实验，等于同时扮演加速器和刹车片两个角色。外界关注的是：该实验室究竟在做什么？是测试AI在生物设计中的能力边界，还是为安全评估积累数据？无论目的如何，AI公司直接介入湿实验都引发新的伦理与监管问题，例如实验是否涉及双重用途研究、安全审查由谁负责。这再次说明，AI安全不能只靠公司自律。",
+      "snark": "一边说AI会毁灭人类，一边在实验室里教AI养细胞，精分现场。"
+    },
+    {
+      "id": 7,
+      "cat": "policy",
+      "title": "AI幻觉险些触发美军军事行动",
+      "title_en": "AI hallucination nearly triggers US military operation",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/09/18/ai-hallucination-nearly-triggers-us-military-operation/",
+      "time": "6小时前",
+      "published": "2026-09-18T23:12:32+00:00",
+      "summary": "一起由AI幻觉引发的险情被曝光：某AI系统生成的不实信息几乎导致美军采取军事行动。GovAI研究学者警告，服役人员必须理解大语言模型固有的不确定性。这起事件凸显了将LLM接入军事决策链路的巨大风险。模型可能以极高置信度输出错误情报，而人类操作者若缺乏核查机制，就可能被误导。军事场景对准确性和可解释性的要求远高于民用，但当前LLM的本质是概率生成，无法保证事实正确。事件也引发对AI在国防领域部署边界的讨论：哪些环节可以辅助，哪些必须保留人类最终决策权，以及如何建立跨部门的AI输出验证与审计流程。",
+      "snark": "AI随口一编，差点引发世界大战，这幻觉成本也太高了。"
+    },
+    {
+      "id": 8,
+      "cat": "model",
+      "title": "OpenAI如何用自己的大语言模型设计出Jalapeño芯片",
+      "title_en": "How OpenAI Used Its Own LLMs to Design Its Jalapeño Chip",
+      "source": "Hacker News",
+      "url": "https://spectrum.ieee.org/llms-for-chip-design",
+      "time": "6小时前",
+      "published": "2026-09-18T23:04:17+00:00",
+      "summary": "OpenAI披露了其自研芯片Jalapeño的设计过程，引人注目的是，大语言模型在其中扮演了关键角色。芯片设计通常涉及海量寄存器传输级代码、布局布线和验证工作，传统上依赖资深工程师数年打磨。OpenAI将LLM用于生成和优化部分设计代码、辅助探索架构空间，并加速验证流程。这标志着AI开始反哺自身基础设施：用AI设计跑AI的芯片，形成闭环。不过，LLM在芯片设计中的角色更偏向辅助而非替代，最终签核仍需人类专家。该案例的意义在于，它展示了垂直领域LLM应用的可行性，也为其他硬件公司提供了用AI压缩设计周期的参考路径。",
+      "snark": "AI设计芯片跑AI，套娃套到最后，发现电费还是人交。"
+    },
+    {
+      "id": 9,
+      "cat": "strategy",
+      "title": "Anthropic的首个嵌入式评估方竟是埃森哲？",
+      "title_en": "Anthropic’s first embedded evaluator is … Accenture?",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/09/18/anthropics-first-embedded-evaluator-is-accenture/",
+      "time": "7小时前",
+      "published": "2026-09-18T21:44:33+00:00",
+      "summary": "Anthropic宣布其首个嵌入式评估合作伙伴是咨询巨头埃森哲，这一组合出乎不少人意料。所谓嵌入式评估，指的是将Anthropic的模型能力直接嵌入企业客户的业务流程中，由埃森哲负责落地实施和效果衡量。对Anthropic而言，借助埃森哲的渠道可以快速触达大量传统企业客户；对埃森哲来说，这可能是其史上风险最高的咨询业务之一，因为AI项目的效果往往难以量化，一旦客户不满意，责任归属会很复杂。该合作也反映出AI公司正从卖API转向卖解决方案，而咨询公司则成为模型落地的重要中间层。能否双赢，取决于埃森哲能否把AI从演示阶段推进到真正的生产环境。",
+      "snark": "AI公司找咨询公司做评估，相当于让卖伞的预测天气。"
+    },
+    {
+      "id": 10,
+      "cat": "model",
+      "title": "Jina AI发布jina-ocr-v1：3.4B混合专家文档解析器，内置投机解码，适配低预算GPU",
+      "title_en": "Jina AI Releases jina-ocr-v1: A 3.4B MoE Document Parser With Built-In Speculative Decoding for Low-Budget GPUs",
+      "source": "MarkTechPost",
+      "url": "https://www.marktechpost.com/2026/09/18/jina-ai-releases-jina-ocr-v1-a-3-4b-moe-document-parser-with-built-in-speculative-decoding-for-low-budget-gpus/",
+      "time": "8小时前",
+      "published": "2026-09-18T21:21:59+00:00",
+      "summary": "Jina AI推出jina-ocr-v1，一款视觉文档解析模型，可将PDF、扫描件、表格、图表和发票转换为Markdown格式。模型总参数3.4B，但每个token仅激活约570M，基于DeepSeek-OCR构建，采用混合专家架构以降低推理成本。其亮点是内置FastMTP投机解码头，每步可草拟3个token，从而在低预算GPU上也能获得可用的生成速度。该模型面向文档数字化、知识库构建和自动化录入等场景，试图在精度与成本之间取得平衡。不过，文档解析的难点在于复杂版式和低质量扫描，实际效果仍需在真实数据上检验。",
+      "snark": "3.4B参数只激活一小撮，省电省到连GPU都感动哭了。"
+    },
+    {
+      "id": 11,
+      "cat": "policy",
+      "title": "OpenAI和微软早知自己在制造互联网的“末日循环”",
+      "title_en": "OpenAI and Microsoft knew they were starting a ‘doom loop’ for the web",
+      "source": "The Verge AI",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/997633/openai-microsoft-chatgpt-ai-new-york-times-doom-loop-theft-google-zero",
+      "time": "8小时前",
+      "published": "2026-09-18T21:07:24+00:00",
+      "summary": "纽约时报诉OpenAI和微软案中解封的法庭文件显示，两家公司内部文档早已警告，其抓取网络数据训练模型的行为正在制造一个“末日循环”，将严重损害互联网生态。文件甚至将这种大规模抓取描述为“对劳动成果的最大规模盗窃”。这些内部记录之所以致命，是因为它们证明公司并非不知情，而是知情后仍继续推进。案件的核心争议在于：AI训练使用受版权保护的内容是否构成合理使用，以及平台是否应为内容生态的萎缩负责。若法院最终认定侵权，可能迫使AI公司改变数据获取方式，甚至重塑整个大模型训练的经济模型。",
+      "snark": "内部文件写得比忏悔录还诚实，可惜法庭不看文笔看证据。",
+      "multiSource": [
+        "The Verge",
+        "The Verge AI"
+      ]
+    },
+    {
+      "id": 12,
+      "cat": "tool",
+      "title": "Claude Code在没有Claude.md时会读取AGENTS.md",
+      "title_en": "Claude Code now reads AGENTS.md if there is no Claude.md",
+      "source": "Hacker News",
+      "url": "https://code.claude.com/docs/en/changelog",
+      "time": "8小时前",
+      "published": "2026-09-18T21:00:32+00:00",
+      "summary": "Claude Code更新了其配置读取逻辑：当项目根目录不存在Claude.md文件时，它会自动读取AGENTS.md。这一改动看似微小，却对开发者工作流影响不小。AGENTS.md正逐渐成为多个AI编程工具共同认可的代理指令文件格式，用于描述项目结构、编码规范和可用命令。Claude Code兼容该格式，意味着开发者不必为不同工具重复维护多份配置文件，降低了切换成本。这也暗示Anthropic在推动工具间的互操作性，而非强推自家私有标准。对团队而言，统一使用AGENTS.md可以让Claude Code、Cursor等工具共享同一套上下文，减少重复劳动。",
+      "snark": "配置文件也开始搞通用接口了，程序员终于不用写三份一样的废话。"
+    }
+  ],
+  "stats": {
+    "total": 12,
+    "model_count": 3,
+    "strategy_count": 3,
+    "tool_count": 3,
+    "policy_count": 3
+  }
+}

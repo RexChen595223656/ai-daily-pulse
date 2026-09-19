@@ -1,0 +1,166 @@
+{
+  "date": "2026-05-22",
+  "generated_at": "2026-05-22T08:12:46.568005+08:00",
+  "highlight": "Qwen发布百万token上下文模型，Cohere开源218B MoE，AI安全监管再遇波折。",
+  "fun": {
+    "lucky": "Qwen3.7-Max",
+    "advice": "宜：用百万token上下文一口气读完《三体》三部曲。\n忌：在上下文窗口里塞满废话，让模型当场崩溃。",
+    "joke": "AI写代码，程序员写Bug，我们都有光明的未来。"
+  },
+  "articles": [
+    {
+      "id": 1,
+      "cat": "tool",
+      "title": "用户吐槽AI生成答案：全是废话，还会传播恶意软件",
+      "title_en": "Tell HN: I'm tired of AI-generated answers",
+      "source": "Hacker News",
+      "url": "https://news.ycombinator.com/item?id=48230104",
+      "time": "35分钟前",
+      "published": "2026-05-21T23:37:14+00:00",
+      "summary": "一位Hacker News用户发帖抱怨AI生成的答案毫无用处。他发现GitHub上有仓库在传播恶意软件，于是向AI求助，但得到的建议毫无价值。随后他在GitHub上发起讨论，有人回复了，但回复内容竟然和AI之前给出的答案一模一样。当他指出这一点后，该评论被删除，紧接着另一个人又给出了相同的AI式回复。该用户认为，AI生成的千篇一律的垃圾内容正在污染互联网，甚至可能被用来伪装成正常讨论，掩盖恶意行为。",
+      "snark": "AI：我帮你复制粘贴了我自己。用户：谢谢你，AI侠。"
+    },
+    {
+      "id": 2,
+      "cat": "tool",
+      "title": "CopilotKit 2026年更新：重新定义Agentic AI开发栈",
+      "title_en": "How CopilotKit Is Redefining the Agentic AI Stack in 2026",
+      "source": "MarkTechPost",
+      "url": "https://www.marktechpost.com/2026/05/21/how-copilotkit-is-redefining-the-agentic-ai-stack-in-2026/",
+      "time": "49分钟前",
+      "published": "2026-05-21T23:23:07+00:00",
+      "summary": "CopilotKit发布了2026年的产品更新，旨在为开发者提供构建Agentic AI应用的生产级架构。核心更新包括：AG-UI协议，用于标准化AI与用户界面之间的交互；AIMock测试套件，帮助开发者在模拟环境中测试AI行为；以及Pathfinder服务器，负责复杂的任务编排和路径规划。这些工具试图解决当前Agent开发中缺乏标准化和测试困难的问题，让开发者能更轻松地构建可靠的AI代理应用。",
+      "snark": "AG-UI协议，听起来像是给AI配了个遥控器，但开发者才是真正的操盘手。"
+    },
+    {
+      "id": 3,
+      "cat": "tool",
+      "title": "Anker发布Liberty 5 Pro耳机：首款搭载自研AI降噪芯片",
+      "title_en": "Anker’s new earbuds are the first with its AI chip that boosts noise reduction",
+      "source": "The Verge",
+      "url": "https://www.theverge.com/tech/934621/anker-liberty-5-pro-max-wireless-headphones-earbuds-ai-thus-chip",
+      "time": "1小时前",
+      "published": "2026-05-21T23:00:00+00:00",
+      "summary": "Anker发布了其旗舰耳机Soundcore Liberty Pro系列的最新款——Liberty 5 Pro。这款耳机最大的亮点是搭载了Anker上月发布的Thus AI音频芯片，这也是首款应用该芯片的产品。该芯片主要用于增强降噪能力，并确保通话时用户的声音能被清晰捕捉。此外，耳机还支持空间音频和个性化听力配置文件，通过AI算法实时优化音频输出，以适应用户的听觉环境。",
+      "snark": "AI芯片都塞进耳机了，下一步是不是要给我的牙刷也装个GPT？"
+    },
+    {
+      "id": 4,
+      "cat": "model",
+      "title": "阿里发布Qwen3.7-Max：百万Token上下文的推理Agent模型",
+      "title_en": "Qwen Introduces Qwen3.7-Max: A Reasoning Agent Model With a 1M-Token Context Window",
+      "source": "MarkTechPost",
+      "url": "https://www.marktechpost.com/2026/05/21/qwen-introduces-qwen3-7-max-a-reasoning-agent-model-with-a-1m-token-context-window/",
+      "time": "1小时前",
+      "published": "2026-05-21T22:33:10+00:00",
+      "summary": "阿里巴巴通义千问团队在2026年阿里云峰会上正式发布了Qwen3.7-Max，号称是其迄今为止最先进、最全面的Agent模型。该模型拥有高达100万Token的上下文窗口，并引入了扩展思考模式，专门用于处理需要长期规划的任务，如复杂代码编写、深度调试和多步骤推理。这一超大上下文窗口意味着模型可以一次性处理大量文本信息，例如整本书或整个代码库，从而在长文本理解和多轮对话中表现出更强的连贯性和准确性。",
+      "snark": "100万Token上下文，这下终于可以一次性读完《百年孤独》再也不用担心忘记谁是谁了。"
+    },
+    {
+      "id": 5,
+      "cat": "model",
+      "title": "Cohere开源Command A+：218B稀疏MoE模型，两张H100即可运行",
+      "title_en": "Cohere Releases Command A+: A 218B Sparse MoE Model for Agentic Workflows That Runs on as Few as Two H100 GPUs",
+      "source": "MarkTechPost",
+      "url": "https://www.marktechpost.com/2026/05/21/cohere-releases-command-a-a-218b-sparse-moe-model-for-agentic-workflows-that-runs-on-as-few-as-two-h100-gpus/",
+      "time": "2小时前",
+      "published": "2026-05-21T21:47:00+00:00",
+      "summary": "Cohere发布了Command A+，一个开源的2180亿参数稀疏混合专家模型。该模型整合了之前四个Command A变体，通过稀疏MoE架构，在推理时只激活部分参数，因此效率极高。它支持W4A4量化，最低仅需两张H100 GPU即可运行，大幅降低了部署门槛。Command A+是Cohere首个多模态推理模型，支持48种语言，并针对Agent工作流进行了优化，能够更好地进行工具调用和任务分解。",
+      "snark": "218B的模型两张卡就跑起来了，建议其他公司学学什么叫真正的‘开源’和‘省钱’。"
+    },
+    {
+      "id": 6,
+      "cat": "model",
+      "title": "圆桌讨论：AI能否学会理解真实世界？",
+      "title_en": "Roundtables: Can AI Learn to Understand the World?",
+      "source": "MIT Tech Review",
+      "url": "https://www.technologyreview.com/2026/05/21/1137756/roundtables-can-ai-learn-to-understand-the-world/",
+      "time": "3小时前",
+      "published": "2026-05-21T20:41:05+00:00",
+      "summary": "MIT科技评论举办了一场圆桌讨论，探讨AI能否超越大语言模型的局限性，真正理解外部世界。与会专家认为，虽然LLM在文本生成上表现出色，但它们缺乏对物理世界因果关系的真正理解。最近，世界模型成为了AI领域的前沿话题。这类模型试图构建对环境的内部表征，从而进行预测和推理。讨论指出，让AI具备世界理解能力是实现通用人工智能的关键一步，但目前仍面临巨大挑战。",
+      "snark": "AI：我理解世界，世界就是一堆Token。人类：不，那是你的幻觉。"
+    },
+    {
+      "id": 7,
+      "cat": "strategy",
+      "title": "马斯克与奥特曼对簿公堂：OpenAI未来走向何方？",
+      "title_en": "All of the updates from Elon Musk and Sam Altman’s battle over OpenAI",
+      "source": "The Verge AI",
+      "url": "https://www.theverge.com/tech/917225/sam-altman-elon-musk-openai-lawsuit",
+      "time": "3小时前",
+      "published": "2026-05-21T20:15:18+00:00",
+      "summary": "山姆·奥特曼和埃隆·马斯克之间的法律战进入白热化阶段，这场高风险的审判可能改变OpenAI及其旗舰产品ChatGPT的未来。马斯克于2024年提起诉讼，指控OpenAI背离了其创立时“造福人类”的使命，转而专注于追求利润。这场诉讼的核心争议在于AI技术的控制权、营利与非营利的边界问题，以及谁有权决定AI的发展方向。审判结果将对整个AI行业的治理模式产生深远影响。",
+      "snark": "两个亿万富翁吵架，最后买单的可能是全人类，这剧情我好像在电影里看过。",
+      "multiSource": [
+        "The Verge",
+        "The Verge AI"
+      ]
+    },
+    {
+      "id": 8,
+      "cat": "policy",
+      "title": "毕业典礼变吐槽大会：毕业生集体嘘声AI高管",
+      "title_en": "In desperate times, graduates find hope in humiliating tech CEOs",
+      "source": "The Verge AI",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/935602/graduates-boo-ai-ceos",
+      "time": "4小时前",
+      "published": "2026-05-21T20:00:06+00:00",
+      "summary": "在2026年的毕业典礼上，越来越多的大学毕业生开始对宣扬AI的科技公司高管报以嘘声和起哄。一系列视频显示，当演讲者，如前谷歌CEO埃里克·施密特，在台上大谈AI带来的美好未来时，台下的毕业生们并不买账。学生们认为，这些高管在鼓吹AI的同时，却忽视了AI对就业市场造成的冲击。这种公开的对抗反映了年轻一代对技术乌托邦叙事的反感，以及对自身职业前景的焦虑。",
+      "snark": "毕业生：别跟我谈AI理想，我只关心我的饭碗。CEO：那我们来谈谈AI如何帮你找饭碗？"
+    },
+    {
+      "id": 9,
+      "cat": "strategy",
+      "title": "Google DeepMind在亚太启动加速器，用AI应对环境风险",
+      "title_en": "We’re launching the Google DeepMind Accelerator program in Asia Pacific to tackle environmental risks",
+      "source": "DeepMind Blog",
+      "url": "https://deepmind.google/blog/were-launching-the-google-deepmind-accelerator-program-in-asia-pacific-to-tackle-environmental-risks/",
+      "time": "4小时前",
+      "published": "2026-05-21T19:46:42+00:00",
+      "summary": "Google DeepMind宣布在亚太地区启动一个新的加速器项目，旨在利用人工智能技术应对紧迫的环境挑战。该项目将支持初创企业和研究团队，利用AI在气候变化预测、生物多样性保护、资源优化管理等领域开发解决方案。DeepMind将提供技术指导、计算资源和资金支持，帮助这些项目将AI研究成果转化为实际的环境保护工具。此举标志着DeepMind在将AI应用于社会公益方面的又一重要布局。",
+      "snark": "DeepMind：AI拯救世界。其他人：AI先帮我把PPT写完再说吧。"
+    },
+    {
+      "id": 10,
+      "cat": "policy",
+      "title": "Spotify与环球音乐达成协议：允许粉丝用AI制作翻唱和混音",
+      "title_en": "Spotify and Universal Music strike deal allowing fan-made AI covers and remixes",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/05/21/spotify-and-universal-music-strike-deal-allowing-fan-made-ai-covers-and-remixes/",
+      "time": "4小时前",
+      "published": "2026-05-21T19:45:00+00:00",
+      "summary": "Spotify宣布与环球音乐集团达成一项重要合作协议，允许其Premium订阅用户使用AI工具生成歌曲的翻唱和混音版本。根据协议，参与合作的艺术家将获得由此产生的收入分成。这一举措旨在平衡AI创作与版权保护之间的矛盾，为AI音乐内容开辟一条合法的商业化路径。这标志着主流音乐平台首次正式拥抱AI生成内容，并试图建立一个让艺术家、平台和用户都能获益的生态系统。",
+      "snark": "以后AI翻唱比原唱还火，歌手们是不是该考虑给AI交版权费了？"
+    },
+    {
+      "id": 11,
+      "cat": "tool",
+      "title": "谷歌不再是以前的谷歌：六款替代搜索引擎推荐",
+      "title_en": "Six search engines worth trying now that Google isn’t really Google anymore",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/05/21/six-search-engines-worth-trying-now-that-google-isnt-really-google-anymore/",
+      "time": "4小时前",
+      "published": "2026-05-21T19:19:05+00:00",
+      "summary": "随着谷歌搜索结果中AI概览（AI Overview）功能的全面铺开，其传统搜索结果页面发生了巨大变化。对于不喜欢AI概览的用户来说，谷歌已经变得面目全非。TechCrunch为此推荐了六款值得尝试的替代搜索引擎，包括专注于隐私的DuckDuckGo、由AI驱动的Perplexity、注重用户贡献的Kagi、以及开源搜索引擎SearXNG等。这些搜索引擎各有侧重，为用户提供了不同的搜索体验选择。",
+      "snark": "谷歌：我帮你总结好了，不用点链接了。用户：那我搜索的意义是什么？"
+    },
+    {
+      "id": 12,
+      "cat": "policy",
+      "title": "特朗普推迟签署AI安全行政令：担心阻碍技术领先地位",
+      "title_en": "Trump delays AI security executive order, saying language ‘could have been a blocker’",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/05/21/trump-delays-ai-security-executive-order-i-dont-want-to-get-in-the-way-of-that-leading/",
+      "time": "6小时前",
+      "published": "2026-05-21T17:30:45+00:00",
+      "summary": "美国总统特朗普推迟签署一项旨在加强AI安全监管的行政命令。该命令原本要求AI模型在发布前必须接受政府的预发布安全审查。特朗普表示，他对该命令的措辞不满意，认为其“可能成为障碍”，并强调他不想阻碍美国在AI领域的领先地位。这一决定反映了美国政府内部在AI监管与创新之间的持续博弈，也意味着针对前沿AI模型的安全审查制度短期内可能无法落地。",
+      "snark": "安全审查？先放一放，让AI再飞一会儿，等它把活都干完了我们再谈安全。"
+    }
+  ],
+  "stats": {
+    "total": 12,
+    "model_count": 3,
+    "strategy_count": 2,
+    "tool_count": 4
+  }
+}

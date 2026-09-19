@@ -1,0 +1,167 @@
+{
+  "date": "2026-07-18",
+  "generated_at": "2026-07-18T08:02:47.411440+08:00",
+  "highlight": "苹果起诉OpenAI窃取商业机密，或影响其IPO进程；Databricks估值达1880亿美元，AI第二曲线持续发力。",
+  "fun": {
+    "lucky": "ZUNA1.1",
+    "advice": "宜：读取脑电波，预测同事下一步要甩锅。\n忌：试图用脑机接口写代码，容易被老板发现你在摸鱼。",
+    "joke": "AI写周报：'今天优化了0.0001%的参数，建议奖励算力。'人类：'你被开除了。'"
+  },
+  "articles": [
+    {
+      "id": 1,
+      "cat": "tool",
+      "title": "Vertu推出6880美元AI手机，实测表现平平",
+      "title_en": "Vertu wants executives to pay $6,880 for an AI agent — here’s how it actually performs",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/07/17/vertu-wants-executives-to-pay-6880-for-an-ai-agent-heres-how-it-actually-performs/",
+      "time": "1小时前",
+      "published": "2026-07-17T22:55:09+00:00",
+      "summary": "奢侈手机品牌Vertu推出一款售价高达6880美元的折叠屏手机，主打内置AI智能体功能，目标用户为企业高管。TechCrunch的实测显示，该设备在AI工作流、电池续航和安全性能方面的表现并未达到其高昂售价的预期。尽管手机外观奢华，但AI智能体的响应速度、任务完成准确率以及多模态交互能力均显平庸，与市面上主流的AI手机相比并无显著优势。评测者指出，这款产品更像是将奢侈品概念与AI噱头结合的产物，而非真正解决高管办公痛点的实用工具。",
+      "snark": "6880美元买个AI秘书？不如花68块请个实习生。"
+    },
+    {
+      "id": 2,
+      "cat": "tool",
+      "title": "MongoDB Atlas联合Voyage和LangGraph构建智能活动场地运营智能体",
+      "title_en": "Build an Agentic Event Venue Operator with MongoDB Atlas, Voyage, and LangGraph",
+      "source": "MarkTechPost",
+      "url": "https://www.marktechpost.com/2026/07/17/build-an-agentic-event-venue-operator-with-mongodb-atlas-voyage-and-langgraph/",
+      "time": "1小时前",
+      "published": "2026-07-17T22:12:57+00:00",
+      "summary": "MarkTechPost发布教程，展示如何利用MongoDB Atlas、Voyage向量搜索和LangGraph框架构建一个具备持久记忆和操作上下文的智能活动场地运营智能体。该智能体不仅能够查询天气或生成通用计划，还能记录场地使用历史、维护日志和客户偏好，实现真正的闭环运营管理。通过将事件数据持久化存储并利用向量检索进行上下文感知，智能体可以主动推荐场地布置方案、预测设备故障并自动调度维护任务。教程强调了从演示级智能体到生产级系统的关键差异：记忆、操作上下文和回写能力。",
+      "snark": "以后活动场地运营可以全自动了，但AI可能把婚礼场地租给葬礼。"
+    },
+    {
+      "id": 3,
+      "cat": "strategy",
+      "title": "Databricks估值达1880亿美元，AI转型成果显著",
+      "title_en": "Databricks hits $188B valuation, extending its run as AI’s favorite second act",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/07/17/databricks-hits-188b-valuation-extending-its-run-as-ais-favorite-second-act/",
+      "time": "1小时前",
+      "published": "2026-07-17T22:12:56+00:00",
+      "summary": "数据与AI平台Databricks宣布完成新一轮融资，估值达到惊人的1880亿美元，巩固了其在AI领域的第二曲线地位。该公司成功从大数据分析平台转型为AI公司，并发布了关于开源权重AI模型在编码任务中成本节约的研究报告。Databricks的崛起证明了企业级AI基础设施市场的巨大潜力，其统一数据、分析和AI的平台策略吸引了大量企业客户。此次估值飙升也反映了资本市场对能够将AI技术落地到实际业务场景的平台公司的高度追捧。",
+      "snark": "1880亿估值，看来AI的泡沫比奶茶店的珍珠还多。"
+    },
+    {
+      "id": 4,
+      "cat": "model",
+      "title": "Zyphra发布ZUNA1.1：开源脑电图基础模型，支持可变长度输入",
+      "title_en": "Zyphra Releases ZUNA1.1: An Apache 2.0 EEG Foundation Model With Variable-Length Inputs From 0.5 To 30 Seconds",
+      "source": "MarkTechPost",
+      "url": "https://www.marktechpost.com/2026/07/17/zyphra-releases-zuna1-1-an-apache-2-0-eeg-foundation-model-with-variable-length-inputs-from-0-5-to-30-seconds/",
+      "time": "2小时前",
+      "published": "2026-07-17T21:35:27+00:00",
+      "summary": "Zyphra公司于2026年7月16日发布ZUNA1.1，这是一个基于Apache 2.0许可证开源的脑电图（EEG）基础模型。该模型采用380M参数的掩码扩散自编码器架构，能够对任意通道布局的头皮脑电图信号进行重建、去噪和上采样。相比上一代ZUNA1仅支持固定的5秒输入，ZUNA1.1支持从0.5秒到30秒的可变长度输入，极大提升了在临床和研究场景中的灵活性。模型在标准化均方误差（NMSE）指标上表现优异，为脑机接口和神经科学领域提供了强大的预训练基础。",
+      "snark": "以后摸鱼时戴个脑电波帽子，AI就知道你是在思考还是在睡觉。"
+    },
+    {
+      "id": 5,
+      "cat": "policy",
+      "title": "Zoom曝出'禁止录制'漏洞，引发隐私争议",
+      "title_en": "The Zoom hack that says, ‘Don’t record me’",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/07/17/the-zoom-hack-that-says-dont-record-me/",
+      "time": "2小时前",
+      "published": "2026-07-17T21:20:47+00:00",
+      "summary": "TechCrunch报道了一则关于Zoom的隐私安全漏洞：用户可以通过某种黑客手段向会议发送'不要录制我'的信号。该漏洞引发了关于会议转录和总结功能滥用风险的讨论。随着AI会议助手普及，每一次闲聊、茶水间对话甚至约会都被自动转录和总结，但真正阅读这些记录的人却寥寥无几。该事件暴露了当前AI转录工具在隐私边界和知情同意方面的缺失，用户可能在不自知的情况下被永久记录和分析。",
+      "snark": "Zoom：'我们记录了你的所有会议。'用户：'我没同意啊！'Zoom：'AI同意的。'"
+    },
+    {
+      "id": 6,
+      "cat": "strategy",
+      "title": "Agility Robotics在特斯拉后院开设人形机器人训练中心",
+      "title_en": "Agility Robotics plants its flag in Tesla’s backyard",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/07/17/agility-robotics-plants-its-flag-in-teslas-backyard/",
+      "time": "3小时前",
+      "published": "2026-07-17T20:19:49+00:00",
+      "summary": "人形机器人公司Agility Robotics宣布在加利福尼亚州弗里蒙特（特斯拉总部所在地）开设新的Digit机器人训练中心。该中心将专门用于训练其双足人形机器人Digit在仓储、物流和制造环境中的操作能力。选址在特斯拉后院，被视为Agility有意与特斯拉的人形机器人Optimus直接竞争。训练中心配备了模拟真实仓库的设施，Digit将在此学习搬运、分拣和导航等技能，为大规模商业部署做准备。",
+      "snark": "在马斯克眼皮底下开训练营，Agility这是要抢特斯拉的机器人饭碗啊。"
+    },
+    {
+      "id": 7,
+      "cat": "strategy",
+      "title": "AI驱动内存需求激增，冲击印度智能手机市场",
+      "title_en": "AI-driven memory crunch jolts India’s smartphone market",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/07/17/ai-driven-memory-crunch-jolts-indias-smartphone-market/",
+      "time": "3小时前",
+      "published": "2026-07-17T20:09:27+00:00",
+      "summary": "TechCrunch分析指出，AI功能对手机内存（RAM和存储）的旺盛需求正在重塑印度智能手机市场。随着端侧AI模型（如大语言模型和图像生成模型）的普及，智能手机需要更大的内存来运行这些模型，导致手机成本上升和价格结构调整。印度市场原本以低价手机为主，但AI功能迫使厂商提升硬件配置，从而推高了平均售价。消费者面临两难：要么购买昂贵的AI手机，要么放弃AI功能。这一趋势正在改变印度手机市场的定价策略和产品规划。",
+      "snark": "AI：'我要8GB内存。'印度消费者：'我只要8000卢比。'"
+    },
+    {
+      "id": 8,
+      "cat": "tool",
+      "title": "TikTok测试AI肖像检测工具，打击深度伪造",
+      "title_en": "TikTok is testing an AI likeness detection tool",
+      "source": "The Verge AI",
+      "url": "https://www.theverge.com/tech/967486/tiktok-ai-likeness-detection-tool",
+      "time": "4小时前",
+      "published": "2026-07-17T19:34:30+00:00",
+      "summary": "TikTok开始测试一项新的AI肖像检测工具，该工具允许创作者主动扫描并报告使用其肖像的AI生成内容。据社交媒体顾问Matt Navarra发现，该工具目前仅向部分美国创作者开放。TikTok美国发言人Zachary Kizer证实了这项测试。该功能旨在应对日益泛滥的AI深度伪造视频和图像，保护创作者的数字身份。此前YouTube等平台已推出类似功能，但TikTok的加入意味着短视频平台正在集体加强AI内容治理。",
+      "snark": "AI肖像检测工具：'这张脸是AI的。'创作者：'那是我素颜。'"
+    },
+    {
+      "id": 9,
+      "cat": "policy",
+      "title": "苹果起诉OpenAI窃取商业机密，或搅乱其IPO计划",
+      "title_en": "How Apple’s big lawsuit could disrupt OpenAI’s IPO plans",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/video/how-apples-big-lawsuit-could-disrupt-openais-ipo-plans/",
+      "time": "6小时前",
+      "published": "2026-07-17T17:45:46+00:00",
+      "summary": "苹果公司上周五对OpenAI提起商业秘密诉讼，指控其存在系统性不当行为，涉及OpenAI首席硬件官以及超过400名前苹果员工。诉讼文件内容详细且语气强硬，指控OpenAI利用苹果前员工窃取关键硬件和AI技术。法律专家认为，尽管部分指控属于行业常见做法，但诉讼规模之大足以对OpenAI的IPO计划造成严重干扰。若苹果胜诉，OpenAI可能面临巨额赔偿和技术禁令，进而影响其上市估值和投资者信心。",
+      "snark": "苹果：'OpenAI偷了我的人。'OpenAI：'那是他们自己跳槽的。'法官：'先开庭再说。'"
+    },
+    {
+      "id": 10,
+      "cat": "policy",
+      "title": "苹果起诉OpenAI内幕：意图何在？",
+      "title_en": "Apple’s plot to crush OpenAI",
+      "source": "The Verge AI",
+      "url": "https://www.theverge.com/podcast/967244/apple-openai-lawsuit-vergecast",
+      "time": "6小时前",
+      "published": "2026-07-17T17:41:32+00:00",
+      "summary": "The Verge播客深入分析苹果起诉OpenAI一案。苹果的诉讼指控OpenAI系统性挖角苹果员工并窃取商业机密，但多位法律专家认为部分指控描述的行为在科技行业实属常见。播客探讨了苹果的真实意图：是真心维权，还是意在通过法律手段阻碍OpenAI的IPO进程，或是在AI人才争夺战中施加压力？苹果选择如此公开地与OpenAI对抗，可能还有更深层的战略考量，包括巩固自身AI人才库和向其他AI公司发出警告。",
+      "snark": "苹果：'我要告到你IPO失败。'OpenAI：'那你得先证明我偷了什么。'",
+      "multiSource": [
+        "The Verge",
+        "The Verge AI"
+      ]
+    },
+    {
+      "id": 11,
+      "cat": "strategy",
+      "title": "Bunkerhill Health融资5500万美元，推动医疗AI智能体规模化",
+      "title_en": "Bunkerhill raises $55M to scale agentic AI across health systems",
+      "source": "AI News",
+      "url": "https://www.artificialintelligence-news.com/news/bunkerhill-raises-55m-scale-agentic-ai-health-systems/",
+      "time": "8小时前",
+      "published": "2026-07-17T16:00:30+00:00",
+      "summary": "医疗AI公司Bunkerhill Health宣布完成5500万美元B轮融资，用于扩大其智能体AI平台Carebricks的规模。本轮融资由红杉资本、Felicis、Optum Ventures和Y Combinator等知名机构持续跟投。Carebricks平台旨在通过AI智能体自动化医疗系统中的行政、诊断和患者管理流程，提高医疗效率并降低运营成本。然而，文章指出，融资总额并不能回答关键问题：AI智能体在医疗场景中的实际临床效果、数据隐私合规以及医生接受度。",
+      "snark": "5500万美元的AI医疗智能体，希望它别把感冒诊断成绝症。"
+    },
+    {
+      "id": 12,
+      "cat": "policy",
+      "title": "Patreon放弃'请勿爬取'转向主动屏蔽AI爬虫",
+      "title_en": "Patreon stops asking AI bots not to scrape — and starts blocking them",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/07/17/patreon-stops-asking-ai-bots-not-to-scrape-and-starts-blocking-them/",
+      "time": "8小时前",
+      "published": "2026-07-17T15:21:17+00:00",
+      "summary": "创作者订阅平台Patreon宣布与Cloudflare合作，加强防御AI爬虫的力度。此前Patreon主要依靠robots.txt文件请求AI公司不要爬取创作者内容，但效果不佳。现在Patreon将主动使用Cloudflare的bot管理功能，实时检测并阻止未经授权的AI训练爬虫。这一转变标志着内容平台从'礼貌请求'转向'技术封堵'，以保护创作者的知识产权。此举可能引发更多平台效仿，进一步加剧AI公司与内容创作者之间的数据使用权争端。",
+      "snark": "Patreon：'以前我求你，现在我打你。'AI爬虫：'换个IP再来。'"
+    }
+  ],
+  "stats": {
+    "total": 12,
+    "model_count": 1,
+    "strategy_count": 4,
+    "tool_count": 3,
+    "policy_count": 4
+  }
+}

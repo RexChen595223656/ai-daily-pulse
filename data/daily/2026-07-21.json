@@ -1,0 +1,163 @@
+{
+  "date": "2026-07-21",
+  "generated_at": "2026-07-21T08:00:59.459521+08:00",
+  "highlight": "月泉仿生获数亿元融资，灵巧手量产订单过亿，人形机器人商业化加速。",
+  "fun": {
+    "lucky": "月泉仿生灵巧手",
+    "advice": "宜：押注具身智能，量产灵巧手。\n忌：只画样机大饼，不交现货。",
+    "joke": "AI 写诗被索尼告侵权，法官问：你抄了哪句？AI 答：我只是学会了人类的押韵。"
+  },
+  "articles": [
+    {
+      "id": 1,
+      "cat": "strategy",
+      "title": "「月泉仿生」获数亿元融资，仿生拉压体灵巧手万台量产、订单过亿",
+      "title_en": "「月泉仿生」获数亿元融资，仿生拉压体灵巧手万台量产、订单过亿｜36氪首发",
+      "source": "36氪",
+      "url": "https://36kr.com/p/3899174356387718?f=rss",
+      "time": "1分钟前",
+      "published": "2026-07-21T00:00:00+00:00",
+      "summary": "月泉仿生完成数亿元Pre-A+轮融资，由长发基金、华控基金、华夏基金等联合投资，老股东中关村启航投资跟投。资金将用于团队建设、核心产品研发及产能提升，强化全栈自研能力，推动超仿生神经骨骼肌肉机器人研发，打造“大脑-身体-环境”一体化的仿生具身智能体系。当前人形机器人赛道已从样机展示迈入商业化拐点，灵巧手作为机器人与现实世界交互的核心部件，成为资本重点押注方向。仅今年一季度，国内灵巧手类企业融资总额已接近5亿元，月泉仿生率先实现万台量产和过亿订单，标志着仿生机器人硬件正式进入规模交付阶段。",
+      "snark": "融资数亿只为造一只手，这手比很多人的身价都贵。"
+    },
+    {
+      "id": 2,
+      "cat": "policy",
+      "title": "特朗普最新任命的AI政策主管已辞职",
+      "title_en": "Trump’s latest AI czar has already resigned",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/07/20/trumps-latest-ai-czar-has-already-resigned/",
+      "time": "1小时前",
+      "published": "2026-07-20T22:21:04+00:00",
+      "summary": "美国人工智能标准与创新中心（CAISI）主任职位再次出现人员更迭，继大卫·萨克斯（David Sacks）离职后，最新一任AI政策主管也已辞职。该中心自成立以来，领导岗位频繁变动，成为典型的“旋转门”职位。这一现象反映出美国在AI政策制定和标准化推进方面面临内部协调困难与人才流失问题。尽管AI技术快速发展，但政府层面的监管与标准制定工作因人事动荡而进展缓慢，可能影响美国在全球AI治理中的话语权和政策连贯性。",
+      "snark": "AI政策主管换得比模型版本还快，下一个是不是该招个GPT来干？"
+    },
+    {
+      "id": 3,
+      "cat": "policy",
+      "title": "索尼起诉AI音乐生成器Udio，指控侵权超过3万首歌曲",
+      "title_en": "Here are the 30,000 songs Sony is suing Udio&#8217;s AI music generator over",
+      "source": "The Verge AI",
+      "url": "https://www.theverge.com/tech/968375/sony-udio-lawsuit-songs-ai-copyright",
+      "time": "1小时前",
+      "published": "2026-07-20T22:19:12+00:00",
+      "summary": "索尼音乐娱乐公司对AI音乐生成器Udio提起新一轮诉讼，指控其侵犯了超过3万首歌曲的版权，涉及曲目从猫王的《猎犬》到碧昂丝的《Say My Name》以及哈里·斯泰尔斯的《As It Was》等。该诉讼已在纽约法院提交。这是继此前针对AI音乐生成领域的法律行动后，索尼再次大规模维权。案件核心争议在于AI模型在训练和生成过程中是否构成对已有音乐作品的复制与改编，将可能为AI音乐创作的法律边界设立重要判例。",
+      "snark": "Udio抄了3万首歌，AI音乐人的创作流程：Ctrl+C, Ctrl+V。"
+    },
+    {
+      "id": 4,
+      "cat": "tool",
+      "title": "谷歌正在研发新型AI芯片，旨在提升Gemini模型运行效率",
+      "title_en": "Google is working on a new AI chip designed to make Gemini more efficient",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/07/20/google-is-working-on-a-new-ai-chip-designed-to-make-gemini-more-efficient/",
+      "time": "2小时前",
+      "published": "2026-07-20T21:21:15+00:00",
+      "summary": "据TechCrunch报道，谷歌母公司Alphabet正在研发一款新型AI芯片，专门针对其Gemini系列模型进行优化，旨在显著提升模型运行效率。目前谷歌已拥有自研的TPU（张量处理单元）系列芯片，但新芯片的设计目标更加聚焦于Gemini模型的计算特性，可能通过定制化架构降低推理延迟和能耗。此举表明谷歌正加速自研芯片战略，以减少对英伟达等外部GPU供应商的依赖，同时为大规模部署生成式AI服务提供更经济、高效的硬件基础。",
+      "snark": "谷歌做芯片的速度终于赶上了Gemini改名字的速度。"
+    },
+    {
+      "id": 5,
+      "cat": "model",
+      "title": "阿里通义实验室发布Qwen-Audio-3.0-TTS，支持16种语言的文本转语音模型",
+      "title_en": "Alibaba’s Tongyi Lab Releases Qwen-Audio-3.0-TTS, a Hosted Text-to-Speech Model in Flash and Plus Tiers Across 16 Languages",
+      "source": "MarkTechPost",
+      "url": "https://www.marktechpost.com/2026/07/20/alibabas-tongyi-lab-releases-qwen-audio-3-0-tts-a-hosted-text-to-speech-model-in-flash-and-plus-tiers-across-16-languages/",
+      "time": "2小时前",
+      "published": "2026-07-20T21:14:19+00:00",
+      "summary": "阿里巴巴通义实验室正式发布Qwen-Audio-3.0-TTS，这是一个面向生产的文本转语音（TTS）系统。该模型提供两种变体：Flash版本面向实时交互场景，追求低延迟；Plus版本面向高质量生成，注重音质和自然度。两种变体均通过阿里云MaaS平台以托管模型形式交付，支持16种语言。Qwen-Audio-3.0-TTS在语音合成的自然度、多语言覆盖和响应速度上均有显著提升，可广泛应用于语音助手、有声内容生成、无障碍辅助等场景，标志着阿里在语音生成领域的技术进一步成熟。",
+      "snark": "16种语言的TTS，终于能让Siri用东北话骂人了。"
+    },
+    {
+      "id": 6,
+      "cat": "strategy",
+      "title": "SpaceX被快速纳入纳斯达克100指数，指数基金投资者被动持有",
+      "title_en": "SpaceX in your index fund, explained",
+      "source": "The Verge AI",
+      "url": "https://www.theverge.com/business/968257/spacex-in-your-index-fund-explained",
+      "time": "3小时前",
+      "published": "2026-07-20T21:00:00+00:00",
+      "summary": "SpaceX被快速纳入纳斯达克100指数，意味着大量跟踪该指数的被动型指数基金将自动买入其股票。文章评论认为SpaceX是一只高风险、估值过高的投资标的，但其被纳入指数后，普通指数基金投资者将被动持有该公司股份。这一现象引发了对指数基金“被动投资”本质的讨论：当高波动性、未盈利公司被纳入主流指数时，原本追求稳健的指数基金投资者将被迫承担超出预期的风险。这也凸显了指数编制规则与市场现实之间的张力。",
+      "snark": "买指数基金本想躺平，结果被SpaceX发射到了火星。"
+    },
+    {
+      "id": 7,
+      "cat": "tool",
+      "title": "AI最重要的协议迎来改进：会话管理将采用无状态模式",
+      "title_en": "AI’s most important protocol is getting a little bit easier to use",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/07/20/ais-most-important-protocol-is-getting-a-little-bit-easier-to-use/",
+      "time": "3小时前",
+      "published": "2026-07-20T20:50:40+00:00",
+      "summary": "AI领域最重要的协议之一——通常指用于模型推理和代理通信的会话协议——正在进行关键改进。新系统将采用更宽松的“无状态”方式处理服务端的会话ID，这与大多数普通网站已经采用的工作方式类似。无状态会话管理意味着服务器不再需要持久化保存每个会话的上下文信息，从而降低服务器负载、提高扩展性，并简化跨请求的通信流程。这一改进将使得AI服务的部署更加灵活高效，尤其有利于大规模分布式AI系统的构建和运维。",
+      "snark": "AI协议终于学会了HTTP早就玩腻的套路。"
+    },
+    {
+      "id": 8,
+      "cat": "tool",
+      "title": "PlayStation复刻装饰品：致敬伟大但脆弱的经典主机",
+      "title_en": "The PlayStation replica ornament is an homage to a great, yet fragile console",
+      "source": "The Verge",
+      "url": "https://www.theverge.com/tech/967989/hallmark-keepsake-playstation-ornament-hands-on",
+      "time": "3小时前",
+      "published": "2026-07-20T20:06:40+00:00",
+      "summary": "Hallmark推出了一款PlayStation复刻装饰品，致敬这款经典但脆弱的游戏主机。该装饰品还原了PlayStation标志性的开机音效，该音效实际上是一个多段式铃声：先是合成器部分配合白色背景显示“Sony Computer Entertainment”，随后进入带有回声的铃声和彩色PlayStation标志画面。这款装饰品面向怀旧玩家群体，虽然不具备实际游戏功能，但其精细的还原细节和对主机文化的致敬，引发了游戏社区的广泛关注。",
+      "snark": "致敬脆弱主机？建议同时附赠一张蓝屏死机贴纸。"
+    },
+    {
+      "id": 9,
+      "cat": "tool",
+      "title": "X（原推特）经过一年努力，重新发布重构版Android应用",
+      "title_en": "X relaunches a rebuilt Android app after year-long effort",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/07/20/x-relaunches-a-rebuilt-android-app-after-year-long-effort/",
+      "time": "4小时前",
+      "published": "2026-07-20T19:37:39+00:00",
+      "summary": "X（原推特）宣布，经过长达一年的开发和测试，其重构版Android应用现已面向全球用户推出。此次重构涉及底层架构的全面重写，旨在提升应用性能、减少崩溃率并改善用户体验。此前X在Android平台上的应用因代码臃肿、Bug频发而饱受用户批评。新版本采用更现代的架构设计，优化了启动速度和滚动流畅度，并整合了X平台新增的支付、长文发布等功能。这一更新标志着X在移动端体验上的一次重要迭代。",
+      "snark": "重写一年就为了不闪退，马斯克的时间管理跟他的火箭一样快。"
+    },
+    {
+      "id": 10,
+      "cat": "policy",
+      "title": "OpenAI对开源权重模型感到恐惧，美国是否也应担忧？",
+      "title_en": "OpenAI is scared of open-weight models. Should the US be?",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/07/20/openai-is-scared-of-open-weight-models-should-the-us-be/",
+      "time": "4小时前",
+      "published": "2026-07-20T19:33:25+00:00",
+      "summary": "文章讨论了对中国制造的开源权重大语言模型（LLM）实施禁令的呼声，揭示了将AI转化为可持续商业模式的根本挑战。OpenAI等闭源AI公司对开源权重模型日益增长的竞争力感到不安，因为开源模型在性能迅速追赶的同时，还具备免费、可定制、透明等优势。美国政策制定者面临两难：一方面担忧开源模型可能被对手用于恶意目的，另一方面过度限制开源生态可能扼杀创新并损害美国AI产业的全球竞争力。",
+      "snark": "OpenAI怕的不是开源，是怕用户发现开源模型也能写诗。"
+    },
+    {
+      "id": 11,
+      "cat": "tool",
+      "title": "LG显示器被曝向Windows用户静默安装McAfee弹窗广告",
+      "title_en": "LG’s monitors come with an unwanted addition for Windows: McAfee pop-up ads",
+      "source": "The Verge",
+      "url": "https://www.theverge.com/tech/967983/lg-monitors-mcafee-adware-gamers-nexus",
+      "time": "7小时前",
+      "published": "2026-07-20T16:14:58+00:00",
+      "summary": "据Gamers Nexus视频揭露，当用户将新款LG UltraGear显示器首次连接到运行Windows 11的PC时，Windows Update会在未经用户许可或弹窗通知的情况下，静默安装LG驱动程序更新和LG Monitor App Installer。该应用不会在开始菜单或应用列表中显示，但会在后台推送McAfee弹窗广告。这一行为被指侵犯用户知情权和选择权，属于典型的广告软件（Adware）行为。LG尚未就此事件发表官方回应，但已引发用户对硬件厂商利用驱动更新植入广告的广泛批评。",
+      "snark": "LG显示器点亮的第一屏不是桌面，是McAfee续费提醒。"
+    },
+    {
+      "id": 12,
+      "cat": "tool",
+      "title": "Adobe“自然外观”相机应用转向生成式AI",
+      "title_en": "Adobe’s ‘natural look’ camera app embraces generative AI",
+      "source": "The Verge AI",
+      "url": "https://www.theverge.com/tech/967791/adobe-indigo-camera-app-ai-playground-update",
+      "time": "8小时前",
+      "published": "2026-07-20T16:00:00+00:00",
+      "summary": "Adobe的实验性相机应用Project Indigo迎来意外转向。该应用最初于去年推出，旨在为iPhone摄影提供“更自然的单反风格”拍摄效果。现在Indigo相机应用被更新，加入了一套生成式AI工具。值得注意的是，这些AI功能并非依赖Adobe自家的Firefly模型，而是集成了第三方AI能力。这一转变表明Adobe正在探索将生成式AI融入移动端摄影工作流，用户可以直接在拍摄过程中调用AI进行图像增强、风格迁移或内容生成，模糊了传统摄影与AI创作的边界。",
+      "snark": "说好的自然风格呢？现在拍个照AI直接帮你P成科幻片。"
+    }
+  ],
+  "stats": {
+    "total": 12,
+    "model_count": 1,
+    "strategy_count": 2,
+    "tool_count": 6,
+    "policy_count": 3
+  }
+}

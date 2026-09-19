@@ -1,0 +1,163 @@
+{
+  "date": "2026-05-31",
+  "generated_at": "2026-05-31T08:02:23.019398+08:00",
+  "highlight": "软银豪掷750亿欧元建法国数据中心，Meta布局AI挂坠硬件，GitHub Copilot改按token收费引发开发者不满。",
+  "fun": {
+    "lucky": "Genesis World 1.0",
+    "advice": "宜：在仿真环境中反复试错。\n忌：在真实机器人上直接跑未经测试的策略。",
+    "joke": "程序员问AI：“你帮我写个bug吧。”AI回答：“你已经是了。”"
+  },
+  "articles": [
+    {
+      "id": 1,
+      "cat": "strategy",
+      "title": "软银宣布投资高达750亿欧元建设法国数据中心",
+      "title_en": "SoftBank says it will invest up to €75 billion to build French data centers",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/05/30/softbank-says-it-will-invest-up-to-e75-billion-to-build-french-data-centers/",
+      "time": "2小时前",
+      "published": "2026-05-30T21:45:00+00:00",
+      "summary": "软银集团宣布将在法国投资高达750亿欧元，用于建设和运营数据中心，目标新增5吉瓦（GW）的数据中心容量。这笔巨额投资旨在满足欧洲日益增长的云计算和人工智能算力需求，特别是为大型语言模型训练和推理提供基础设施支持。软银表示，这些数据中心将采用最新的液冷技术和高效能源管理方案，并优先使用可再生能源。此举标志着软银在全球AI基础设施布局上的又一重大举措，也反映出数据中心作为AI时代“新石油”的战略价值。法国政府对此表示欢迎，认为这将巩固法国作为欧洲数字枢纽的地位。",
+      "snark": "软银：先定一个小目标，花它750亿欧元。"
+    },
+    {
+      "id": 2,
+      "cat": "model",
+      "title": "2026年最佳文本转语音TTS模型基准对比",
+      "title_en": "Best Text-to-Speech TTS Models in 2026: A Benchmark-Based Comparison",
+      "source": "MarkTechPost",
+      "url": "https://www.marktechpost.com/2026/05/30/best-text-to-speech-tts-models-in-2026-a-benchmark-based-comparison/",
+      "time": "2小时前",
+      "published": "2026-05-30T21:26:24+00:00",
+      "summary": "MarkTechPost发布了一份2026年文本转语音（TTS）模型的基准对比指南，对主流商业和开源TTS模型进行了全面评测。评测维度包括语音质量、延迟、成本、语言覆盖范围和许可证类型。结果显示，新一代基于扩散模型和神经编解码器的TTS系统在自然度和情感表达上显著超越传统拼接和参数合成方法。例如，某些模型在零样本语音克隆任务上达到接近真人的相似度，而另一些则专注于极低延迟场景，适合实时对话应用。该指南为工程师们提供了根据具体应用场景（如有声书、虚拟助手、游戏配音）选择最合适模型的参考依据。",
+      "snark": "TTS模型评测：终于有人把“像人说话”和“像机器人说话”量化了。"
+    },
+    {
+      "id": 3,
+      "cat": "tool",
+      "title": "GitHub Copilot改用基于token的计费模式引发开发者强烈不满",
+      "title_en": "‘What a joke’: Github Copilot’s new token-based billing spurs consternation among devs",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/05/30/what-a-joke-github-copilots-new-token-based-billing-spurs-consternation-among-devs/",
+      "time": "7小时前",
+      "published": "2026-05-30T16:30:00+00:00",
+      "summary": "微软旗下GitHub宣布其AI编程助手Copilot将采用新的基于token的计费模式，取代原有的固定订阅制。新模式下，开发者需要为每次代码补全或对话消耗的token付费，这导致重度用户的使用成本大幅上升。许多开发者在社交媒体上吐槽这一变化“像个笑话”，认为微软在“收割”忠实用户。据分析，对于频繁使用Copilot的团队，月账单可能从原来的固定费用暴涨数倍。GitHub官方解释称此举是为了更公平地反映资源消耗，但社区普遍认为这是变相涨价，可能促使部分用户转向其他AI编程工具。",
+      "snark": "微软：我们觉得你写的代码不值那么多，但每个token值。"
+    },
+    {
+      "id": 4,
+      "cat": "strategy",
+      "title": "Meta被曝正在开发AI挂坠硬件",
+      "title_en": "Meta is reportedly developing an AI pendant",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/05/30/meta-is-reportedly-developing-an-ai-pendant/",
+      "time": "8小时前",
+      "published": "2026-05-30T15:59:58+00:00",
+      "summary": "据TechCrunch报道，Meta正在开发一款AI挂坠（AI Pendant）硬件设备，进一步押注AI可穿戴设备。这款挂坠预计将内置麦克风、摄像头和AI助手功能，可以全天候佩戴，用于记录生活、辅助记忆、实时翻译等场景。Meta此前已在Ray-Ban智能眼镜上积累了AI硬件经验，此次挂坠产品可能更侧重于轻便和隐私保护。消息人士称，该设备将深度整合Meta的Llama模型，并能与Meta的社交平台联动。不过，外界对其隐私安全性表示担忧，毕竟一个全天候佩戴的录音录像设备可能引发新的争议。",
+      "snark": "Meta：你的脖子准备好了吗？AI挂坠即将上岗。"
+    },
+    {
+      "id": 5,
+      "cat": "tool",
+      "title": "Google全天候AI助手Gemini Spark实测：确实有用但为何单独推出？",
+      "title_en": "I put Google’s 24/7 AI assistant Gemini Spark to work, and it’s actually pretty useful",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/05/30/i-put-googles-24-7-ai-assistant-gemini-spark-to-work-and-its-actually-pretty-useful/",
+      "time": "8小时前",
+      "published": "2026-05-30T15:30:00+00:00",
+      "summary": "TechCrunch编辑对Google新推出的24/7 AI助手Gemini Spark进行了实际体验。Gemini Spark能够自动完成收件箱摘要、本地活动规划、日程管理等日常任务，并且支持持续对话和主动提醒。在测试中，它能够准确理解上下文并执行多步操作，例如根据邮件内容自动创建日历事件并发送邀请。然而，编辑也指出Gemini Spark的功能与Google Assistant和Bard已有部分重叠，令人疑惑Google为何要将其作为独立产品推出。这可能反映了Google内部在AI助手产品线上的混乱布局，但也可能是为了探索更深度、更个性化的AI助理形态。",
+      "snark": "Google：我们做了一个新AI助手，它叫……等等，我们之前那个叫什么来着？"
+    },
+    {
+      "id": 6,
+      "cat": "strategy",
+      "title": "一位创始人的“老派网络”赌注正在获得回报",
+      "title_en": "How one founder’s bet on ‘the old school web’ is paying off",
+      "source": "The Verge AI",
+      "url": "https://www.theverge.com/tech/938245/past-maps-website-google-zero-ai",
+      "time": "11小时前",
+      "published": "2026-05-30T13:00:00+00:00",
+      "summary": "前Meta工程师兼连续创业者克雷格·坎贝尔（Craig Campbell）选择了一条与众不同的路：他拒绝了涌入AI领域的投资者资金，转而创建了一个纯粹的网站。坎贝尔在2022年出售了自己的上一家电商工具公司后，没有追逐AI热潮，而是专注于构建一个基于“老派网络”（old school web）理念的网站。该网站强调内容质量、用户隐私和去中心化，与当前AI驱动的个性化推荐和数据收集模式形成鲜明对比。令人意外的是，这个反潮流的项目居然获得了可观的用户增长和收入，证明在AI喧嚣之外，仍然存在对简洁、透明互联网体验的强劲需求。",
+      "snark": "当所有人都在追AI风口时，这位老哥选择建个网站——结果还赢了。"
+    },
+    {
+      "id": 7,
+      "cat": "policy",
+      "title": "AI骗子利用生成虚假黑人形象在TikTok上销售Shein商品",
+      "title_en": "AI grifters are creating fake Black people to sell Shein junk",
+      "source": "The Verge AI",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/938844/ai-tiktok-shop-blackface-shein-dropshipping",
+      "time": "11小时前",
+      "published": "2026-05-30T13:00:00+00:00",
+      "summary": "The Verge揭露了一种新型AI欺诈行为：有人利用AI生成虚假的黑人形象（包括面部特征和肤色），在TikTok上扮演真实用户，以“手工艺品”为名推广Shein等快时尚品牌的廉价商品。这些AI生成的“黑皮肤”形象通常搭配感人的故事（如“作为黑人女性，我相信白人女性会支持我”），以博取同情和流量。报道指出，这种“AI黑脸”（AI blackface）行为不仅涉及虚假宣传和身份盗窃，还利用种族议题进行商业欺诈，同时加剧了社交媒体上的信任危机。目前TikTok和Shein尚未对此作出正式回应，但此事已引发关于AI生成内容伦理和平台监管的广泛讨论。",
+      "snark": "AI黑脸卖Shein：这波操作，连种族议题都学会自动化了。"
+    },
+    {
+      "id": 8,
+      "cat": "tool",
+      "title": "浏览器大战升温：2026年Chrome和Safari的最佳替代品盘点",
+      "title_en": "As the browser wars heat up, here are the hottest alternatives to Chrome and Safari in 2026",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/05/30/as-the-browser-wars-heat-up-here-are-the-hottest-alternatives-to-chrome-and-safari-in-2026/",
+      "time": "11小时前",
+      "published": "2026-05-30T13:00:00+00:00",
+      "summary": "随着浏览器市场竞争日益激烈，TechCrunch盘点了2026年Chrome和Safari之外的最佳替代浏览器。这些新兴浏览器各具特色：有的主打隐私保护，内置广告拦截和反追踪功能；有的集成AI助手，可自动总结网页、翻译内容；还有的采用去中心化架构，让用户掌控自己的数据。例如，Arc浏览器以其侧边栏和工作空间管理获得好评；Brave继续强化隐私和加密货币集成；而SigmaOS则专注于多任务处理。这些替代品试图通过差异化功能吸引从Chrome和Safari流失的用户，但兼容性和扩展生态仍是它们面临的挑战。",
+      "snark": "浏览器大战：Chrome和Safari表示，你们尽管卷，用户还是我。"
+    },
+    {
+      "id": 9,
+      "cat": "strategy",
+      "title": "SpaceX IPO：对马斯克是好事，对你是灾难",
+      "title_en": "The SpaceX IPO is great for Elon Musk and terrible for you",
+      "source": "The Verge AI",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/940001/elon-musk-spacex-ipo-ai",
+      "time": "12小时前",
+      "published": "2026-05-30T12:00:00+00:00",
+      "summary": "The Verge发表评论文章，尖锐批评埃隆·马斯克（Elon Musk）提交的SpaceX首次公开募股（IPO）文件。文章称，这是自WeWork IPO以来最愚蠢的招股书，但比WeWork更具威胁性。SpaceX的估值被吹得极高，但业务风险巨大，包括星舰（Starship）开发的不确定性、星链（Starlink）的盈利前景模糊，以及马斯克本人争议性言论对品牌的影响。文章警告普通投资者不要成为“接盘侠”（bagholder），认为这次IPO主要让马斯克及其银行家获利，而散户很可能被套牢。这则新闻也反映出AI和航天领域资本泡沫的隐忧。",
+      "snark": "SpaceX IPO：让马斯克先上火星，你在地球上接盘。"
+    },
+    {
+      "id": 10,
+      "cat": "model",
+      "title": "Genesis AI发布Nyx、Quadrants和Genesis World 1.0物理平台用于可扩展机器人基础模型评估",
+      "title_en": "Genesis AI Releases Nyx, Quadrants, and Genesis World 1.0 Physics Platform for Scalable Robotics Foundation Model Evaluation",
+      "source": "MarkTechPost",
+      "url": "https://www.marktechpost.com/2026/05/30/genesis-ai-releases-nyx-quadrants-and-genesis-world-1-0-physics-platform-for-scalable-robotics-foundation-model-evaluation/",
+      "time": "14小时前",
+      "published": "2026-05-30T09:25:14+00:00",
+      "summary": "Genesis AI于2026年5月27日发布了Genesis World 1.0，这是一个包含物理模拟、渲染、编译和工具链四个组件的综合仿真平台。该平台的核心创新在于其高保真物理引擎，实现了仿真与真实机器人部署之间高达0.8996的皮尔逊相关系数，大幅缩小了Sim-to-Real差距。同时，该平台将策略评估时间从超过200小时缩短至数小时，极大提升了机器人基础模型的研发效率。随平台一同发布的还有Nyx（神经物理引擎）和Quadrants（多模态数据集）两个子项目。这为具身智能和机器人学习领域提供了一个可扩展、标准化的评估基准。",
+      "snark": "Genesis World 1.0：让机器人在虚拟世界先摔个够，别在现实里摔坏我的钱包。"
+    },
+    {
+      "id": 11,
+      "cat": "tool",
+      "title": "Hermes Agent为MCP协议推出工具搜索功能：Anthropic评估显示Opus 4准确率提升49%至74%",
+      "title_en": "Hermes Agent Ships Tool Search for MCP: Anthropic Evals Show 49% to 74% Accuracy Gain on Opus 4",
+      "source": "MarkTechPost",
+      "url": "https://www.marktechpost.com/2026/05/29/hermes-agent-ships-tool-search-for-mcp-anthropic-evals-show-49-to-74-accuracy-gain-on-opus-4/",
+      "time": "20小时前",
+      "published": "2026-05-30T03:11:59+00:00",
+      "summary": "Nous Research为其Hermes Agent框架推出了Tool Search功能，旨在解决MCP（模型上下文协议）中的上下文膨胀问题。该功能采用BM25渐进式模式披露算法，智能地在大量工具定义中检索最相关的工具，避免将所有工具定义塞入上下文窗口。根据Anthropic的评估，在Opus 4模型上应用Tool Search后，任务准确率提升了49%至74%。这意味着智能体可以在不消耗过多token的情况下，更高效地调用合适的工具完成任务，对于构建复杂的多工具AI应用具有重要意义。该功能现已开源，可供开发者集成。",
+      "snark": "Hermes Agent：工具太多？我帮你搜，省token更省心。"
+    },
+    {
+      "id": 12,
+      "cat": "strategy",
+      "title": "服务富士康，半年营收超两千万的机器人解决方案商“乘物机器人”完成天使轮融资",
+      "title_en": "36氪首发 | 服务富士康，半年营收超两千万的机器人解决方案商完成天使轮融资",
+      "source": "36氪",
+      "url": "https://36kr.com/p/3831135917107075?f=rss",
+      "time": "22小时前",
+      "published": "2026-05-30T01:53:46+00:00",
+      "summary": "国内工业具身智能公司乘物机器人（深圳）有限公司宣布完成天使轮融资，由中国台湾工业自动化与智能机器人龙头企业和椿科技战略投资，华君资本担任独家财务顾问。乘物机器人成立于2025年，总部位于深圳，专注于工业具身智能技术研发，具备从软硬件研发、数据采集、模型训练到场景部署与维护的一体化能力。公司创始人黄金龙拥有十余年机器人全栈研发经验，联合创始人单玉虎博士曾任职于腾讯、小鹏、美团等企业。目前公司已服务富士康等制造业客户，半年营收超过两千万元，本轮融资将用于技术迭代和产能扩张。",
+      "snark": "乘物机器人：给富士康打工半年赚两千万，这才是真正的“打工人”。"
+    }
+  ],
+  "stats": {
+    "total": 12,
+    "model_count": 2,
+    "strategy_count": 5,
+    "tool_count": 4,
+    "policy_count": 1
+  }
+}

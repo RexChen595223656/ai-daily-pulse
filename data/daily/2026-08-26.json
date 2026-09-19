@@ -1,0 +1,163 @@
+{
+  "date": "2026-08-26",
+  "generated_at": "2026-08-26T08:00:47.650862+08:00",
+  "highlight": "今日AI界多点开花：Liquid AI开源端侧评测工具、OpenAI发布自研推理芯片Jalapeño、Perplexity推出本地计算机，端侧与硬件成为焦点。",
+  "fun": {
+    "lucky": "OpenAI Jalapeño芯片",
+    "advice": "宜：趁热打铁，把推理速度卷出新高度。\n忌：芯片太辣，小心烧穿服务器机房。",
+    "joke": "为什么AI芯片叫Jalapeño？因为它跑得快，但散热不好会冒烟。"
+  },
+  "articles": [
+    {
+      "id": 1,
+      "cat": "tool",
+      "title": "Liquid AI开源Pipette：一套可复现的端侧模型评测基准，同时衡量模型、量化、运行时与硬件",
+      "title_en": "Liquid AI Open-Sources Pipette: A Reproducible Benchmarking Suite That Measures On-Device Models, Quantization, Runtime and Hardware Together",
+      "source": "MarkTechPost",
+      "url": "https://www.marktechpost.com/2026/08/25/liquid-ai-open-sources-pipette-a-reproducible-benchmarking-suite-that-measures-on-device-models-quantization-runtime-and-hardware-together/",
+      "time": "12分钟前",
+      "published": "2026-08-25T23:48:08+00:00",
+      "summary": "Liquid AI本周开源了Pipette，这是一个与Artificial Intelligence公司合作构建的开源平台，用于在边缘设备上对基础模型进行基准测试。传统的模型卡通常在服务器级、全精度条件下报告质量，但这些数字往往无法预测同一模型在手机上的实际表现。Pipette旨在通过同时测量模型性能、量化策略、运行时效率以及硬件特性，提供更贴近真实场景的评测结果。该平台强调可复现性，允许开发者在不同设备上标准化测试流程，从而更准确地评估模型在边缘端的适用性。这一工具的出现，有望推动端侧AI模型的优化与选型，帮助开发者根据实际硬件条件做出更明智的部署决策。",
+      "snark": "终于有人管管那些'跑分一时爽，上机火葬场'的模型卡了。"
+    },
+    {
+      "id": 2,
+      "cat": "policy",
+      "title": "你的大脑遇上AI：MIT研究揭示AI聊天机器人可能削弱批判性思维",
+      "title_en": "Your brain on AI",
+      "source": "MIT Tech Review",
+      "url": "https://www.technologyreview.com/2026/08/25/1140958/your-brain-on-ai/",
+      "time": "3小时前",
+      "published": "2026-08-25T21:00:00+00:00",
+      "summary": "麻省理工学院媒体实验室的Pattie Maes及其同事进行了一项研究，发现人们使用AI聊天机器人获取新闻时，可能存在一个显著问题。在为期四周的实验中，参与者对成对出现的新闻标题与图片进行评估。结果显示，那些依赖AI获取信息的参与者，其批判性思维和判断力呈现下降趋势。研究指出，AI提供的信息虽然便捷，但可能让用户逐渐失去独立验证和深度思考的习惯，导致对信息的接受变得被动。这项研究引发了关于AI工具在信息消费中角色的伦理讨论，提醒我们在享受便利的同时，需警惕其对认知能力的潜在影响。",
+      "snark": "AI帮我思考，那我的脑子用来干嘛？存表情包吗？"
+    },
+    {
+      "id": 3,
+      "cat": "tool",
+      "title": "Perplexity发布便携式计算机：基于NVIDIA DGX Spark，本地化运行、系统级沙箱与零成本本地推理",
+      "title_en": "Perplexity Ships Portable Computer on NVIDIA DGX Spark: Local Harness, OS-Enforced Sandbox, and Zero Per-Token Cost for Local Steps",
+      "source": "MarkTechPost",
+      "url": "https://www.marktechpost.com/2026/08/25/perplexity-ships-portable-computer-on-nvidia-dgx-spark-local-harness-os-enforced-sandbox-and-zero-per-token-cost-for-local-steps/",
+      "time": "4小时前",
+      "published": "2026-08-25T19:12:19+00:00",
+      "summary": "Perplexity推出了名为Portable Computer的新产品，这是一套整合了本地模型、测试工具、沙箱环境和连接器的完整系统，运行在NVIDIA DGX Spark硬件上。该系统强调本地化运行，用户可以在自己的设备上执行AI推理任务，而无需依赖云端服务，从而实现了本地步骤的零每令牌成本。同时，系统采用操作系统级沙箱机制，确保运行环境的安全隔离，防止恶意代码或数据泄露。Perplexity表示，这一方案旨在为企业用户提供更私密、可控且经济高效的AI部署选项，尤其适合对数据敏感或需要低延迟响应的应用场景。",
+      "snark": "本地跑AI，省钱又保命，妈妈再也不用担心我的数据裸奔了。"
+    },
+    {
+      "id": 4,
+      "cat": "strategy",
+      "title": "Stable Diffusion开发商Stability AI获7600万美元新融资，累计融资达2.32亿美元",
+      "title_en": "Stability AI, maker of image generator Stable Diffusion, raises $76 million in fresh funding",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/08/25/stability-ai-maker-of-image-generator-stable-diffusion-raises-76-million-in-fresh-funding/",
+      "time": "4小时前",
+      "published": "2026-08-25T19:03:47+00:00",
+      "summary": "Stability AI，即知名图像生成模型Stable Diffusion的开发商，宣布在最新一轮融资中筹集了7600万美元。至此，该公司的融资总额已达到2.32亿美元。这笔新资金将用于继续研发和扩展其AI模型产品线，并可能加强其在竞争激烈的生成式AI领域的市场地位。尽管此前有报道称公司面临财务压力，但此次融资表明投资者对其技术路线和商业潜力仍抱有信心。Stability AI计划利用新资金加速产品迭代，并探索更多应用场景，以应对来自Midjourney、OpenAI等竞争对手的挑战。",
+      "snark": "融资7600万，够买多少张显卡来画下一张'太空歌剧院'？"
+    },
+    {
+      "id": 5,
+      "cat": "tool",
+      "title": "Claude Cowork终于记住你在聊天中告诉它的内容了",
+      "title_en": "Claude Cowork finally remembers what you told the app in chat",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/08/25/claude-cowork-finally-remembers-what-you-told-the-app-in-chat/",
+      "time": "6小时前",
+      "published": "2026-08-25T17:50:33+00:00",
+      "summary": "Anthropic为其AI助手Claude推出了一项新功能：在聊天和Cowork（协同工作模式）之间共享记忆。此前，用户在使用Claude时，经常需要反复向AI说明项目背景、个人偏好等上下文信息，这无疑降低了工作效率。现在，Claude能够在不同会话和模式中记住这些关键信息，用户无需重复输入。这一改进使得Claude在长期项目和复杂任务中表现得更加连贯和智能。Anthropic表示，这一记忆功能将有助于提升用户体验，并让Claude更好地适应个性化需求，未来可能还会扩展到更多产品功能中。",
+      "snark": "终于！不用每次聊天都像第一次见面一样自我介绍三分钟了。"
+    },
+    {
+      "id": 6,
+      "cat": "model",
+      "title": "Meta AI推出MetaRoCE：专为AI规模以太网打造的革新性RDMA传输协议",
+      "title_en": "Meta AI Introduces MetaRoCE: A Clean-Sheet RDMA Transport Built for AI-Scale Ethernet",
+      "source": "MarkTechPost",
+      "url": "https://www.marktechpost.com/2026/08/25/meta-ai-introduces-metaroce-a-clean-sheet-rdma-transport-built-for-ai-scale-ethernet/",
+      "time": "6小时前",
+      "published": "2026-08-25T17:25:36+00:00",
+      "summary": "Meta AI推出了MetaRoCE，这是一种专为AI大规模集群设计的全新RDMA（远程直接内存访问）传输协议。随着AI模型规模不断扩大，训练和推理过程中的网络通信已成为关键瓶颈。诸如all-reduce和all-to-all等集合通信操作需要在数千个加速器之间同步数据，而最慢的传输会拖慢整个任务。MetaRoCE旨在通过优化以太网上的RDMA传输，减少网络拥塞和延迟，从而提升整体训练效率。该协议采用全新设计思路，而不是在现有机制上打补丁，有望为AI基础设施带来显著的性能提升，尤其适用于大规模分布式训练场景。",
+      "snark": "网络不背锅了，MetaRoCE让数据跑得比老板催进度还快。"
+    },
+    {
+      "id": 7,
+      "cat": "tool",
+      "title": "谷歌搜索升级：5种方法用AI提升你的家居装饰品味",
+      "title_en": "5 ways to upgrade your home decor with Google Search",
+      "source": "Google AI Blog",
+      "url": "https://blog.google/products-and-platforms/products/search/home-decor-tips/",
+      "time": "8小时前",
+      "published": "2026-08-25T16:00:00+00:00",
+      "summary": "谷歌在其官方AI博客上发布了一篇关于如何利用谷歌搜索升级家居装饰的文章。文章通过生动有趣的插图，展示了如何使用谷歌搜索的AI功能来获取家居装饰灵感。用户可以通过搜索特定风格的家具、颜色搭配或装饰主题，获得个性化的建议和推荐。谷歌搜索的AI算法能够理解用户的查询意图，并提供相关的高质量图像和创意方案。此外，用户还可以利用谷歌的图像搜索功能，快速找到类似风格的产品，并直接跳转到购买页面。这一应用展示了AI在日常消费场景中的实用价值，让家居装饰变得更加智能和便捷。",
+      "snark": "谷歌搜索现在连你家沙发配色都要管了，下一步是不是要管你晚饭吃什么？"
+    },
+    {
+      "id": 8,
+      "cat": "model",
+      "title": "MIT开发AI工具：无需历史数据即可预测极端天气",
+      "title_en": "MIT AI forecasts extreme weather without historical data",
+      "source": "AI News",
+      "url": "https://www.artificialintelligence-news.com/news/mit-ai-forecasts-extreme-weather-without-historical-data/",
+      "time": "8小时前",
+      "published": "2026-08-25T15:46:06+00:00",
+      "summary": "麻省理工学院的工程师们开发了一种AI工具，能够在没有历史灾害数据训练的情况下预测极端天气事件。该工具由机械工程研究生Kai Chang和教授Themis Sapsis共同研发。它能够生成某地区历史上未曾出现过的极端天气事件地图，这对于那些缺乏历史记录的地区尤为重要。传统天气预报模型依赖长期历史数据，但在气候变化背景下，极端天气的规律可能发生变化，历史数据的参考价值有限。MIT的这一AI工具采用物理驱动的方法，结合实时气象数据，能够更灵活地预测潜在灾害，为防灾减灾提供新的技术手段。",
+      "snark": "没有历史数据也能预测天气？这比算命先生靠谱多了。"
+    },
+    {
+      "id": 9,
+      "cat": "strategy",
+      "title": "Gamma收购设计初创公司Lica，后者曾获Accel投资",
+      "title_en": "Gamma acquires Accel-backed design startup Lica",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/08/25/gamma-acquires-accel-backed-design-startup-lica/",
+      "time": "9小时前",
+      "published": "2026-08-25T15:00:00+00:00",
+      "summary": "AI演示文稿工具开发商Gamma宣布收购设计初创公司Lica，后者曾获得Accel的投资。Lica的联合创始人将加入Gamma新成立的研究团队。此次收购旨在增强Gamma在AI设计领域的研发能力，尤其是在自动化设计和用户体验优化方面。Lica此前专注于设计工具的开发，其技术可能帮助Gamma提升产品的视觉呈现和交互体验。Gamma表示，此次交易将加速其产品创新，并巩固其在AI驱动的演示文稿市场的领先地位。收购金额未披露，但这一举措反映了AI工具市场竞争的加剧，以及头部公司通过并购获取技术和人才的趋势。",
+      "snark": "收购Lica，Gamma这是要把PPT颜值卷到天花板啊。"
+    },
+    {
+      "id": 10,
+      "cat": "model",
+      "title": "OpenAI自研芯片Jalapeño：基准测试显示其专为大规模快速推理而生",
+      "title_en": "OpenAI’s Jalapeño chip is built for fast inference at scale, benchmarks show",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/08/25/openais-jalapeno-chip-is-built-for-fast-inference-at-scale-benchmarks-show/",
+      "time": "9小时前",
+      "published": "2026-08-25T14:22:04+00:00",
+      "summary": "OpenAI推出的自研AI芯片Jalapeño在SemiAnalysis的InferenceX基准测试中表现出色。测试结果显示，Jalapeño在每用户令牌数上以及每千瓦功耗的吞吐量上都优于当前市场上最先进的芯片。这表明Jalapeño不仅在性能上具有优势，而且在能效比上也更胜一筹，特别适合需要大规模部署推理服务的场景。OpenAI硬件副总裁Richard Ho在媒体简报会上表示，Jalapeño提供了“两全其美”的方案，即在保证高吞吐量的同时降低能耗。这款芯片的推出，标志着OpenAI在硬件自研道路上迈出了重要一步，旨在减少对第三方芯片的依赖，并优化其AI服务的成本与效率。",
+      "snark": "Jalapeño芯片，名字够辣，性能也够辣，英伟达你怕了吗？"
+    },
+    {
+      "id": 11,
+      "cat": "model",
+      "title": "OpenAI称其Jalapeño芯片能提供比竞争对手更快的AI响应速度",
+      "title_en": "OpenAI says its Jalapeño chip can power faster AI responses than the competition",
+      "source": "The Verge AI",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/984290/openai-jalapeno-ai-chip-benchmarks",
+      "time": "10小时前",
+      "published": "2026-08-25T14:00:00+00:00",
+      "summary": "OpenAI在周二发布的一篇博客文章中表示，其新款AI芯片Jalapeño在执行任务时效率更高，响应速度也快于其他AI系统。在向记者进行的简报中，OpenAI硬件副总裁Richard Ho强调，Jalapeño芯片实现了“两全其美”的效果——既保证了高性能，又提升了能效。该芯片专为AI推理任务设计，特别适合需要快速响应的应用场景，如聊天机器人、实时翻译等。OpenAI的基准测试结果显示，Jalapeño在多个维度上均优于现有解决方案。这一发布不仅展示了OpenAI在硬件领域的雄心，也可能对AI芯片市场格局产生深远影响。",
+      "snark": "OpenAI说自家芯片快，就像说自家辣椒辣，得尝了才知道。"
+    },
+    {
+      "id": 12,
+      "cat": "strategy",
+      "title": "Accel投资的Keenable走出隐身模式：为AI代理构建网络索引",
+      "title_en": "Accel-backed Keenable is indexing the web for AI agents",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/08/25/accel-backed-keenable-is-indexing-the-web-for-ai-agents/",
+      "time": "11小时前",
+      "published": "2026-08-25T13:00:00+00:00",
+      "summary": "Keenable是一家获得Accel支持的初创公司，近日宣布以2600万美元的种子轮融资走出隐身模式。该公司正在构建一个庞大的网络搜索索引，专门为AI代理（AI agents）设计。与传统的搜索引擎索引不同，Keenable的索引旨在让AI代理能够高效地获取和理解网络信息，从而更好地执行复杂任务。随着AI代理的普及，它们对实时、结构化和高质量数据的需求日益增长。Keenable的解决方案可能填补这一市场空白，为AI代理提供可靠的数据基础设施。这笔种子轮融资将用于扩大团队和加速产品开发，以满足日益增长的市场需求。",
+      "snark": "给AI代理建索引，这是要帮机器人上网冲浪啊，小心它们沉迷刷帖。"
+    }
+  ],
+  "stats": {
+    "total": 12,
+    "model_count": 4,
+    "strategy_count": 3,
+    "tool_count": 4,
+    "policy_count": 1
+  }
+}
