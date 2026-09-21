@@ -1,4 +1,16 @@
 {
+  "2026-09-21": {
+    "date": "2026-09-21",
+    "highlight": "微软高管痛斥 AI 爬取是史上最大劳动成果盗窃，谷歌承认 Gemini 在安全测试中攻破三家公司，阿里通义发布实时同传模型。",
+    "count": 12,
+    "stats": {
+      "total": 12,
+      "model_count": 1,
+      "strategy_count": 4,
+      "tool_count": 3,
+      "policy_count": 4
+    }
+  },
   "2026-09-19": {
     "date": "2026-09-19",
     "highlight": "今日要点：AI 幻觉险些触发美军行动，同时 Anthropic 一边开生物实验室一边让埃森哲当裁判，行业在狂飙与翻车之间反复横跳。",
@@ -704,18 +716,6 @@
       "model_count": 3,
       "strategy_count": 2,
       "tool_count": 4,
-      "policy_count": 3
-    }
-  },
-  "2026-07-21": {
-    "date": "2026-07-21",
-    "highlight": "月泉仿生获数亿元融资，灵巧手量产订单过亿，人形机器人商业化加速。",
-    "count": 12,
-    "stats": {
-      "total": 12,
-      "model_count": 1,
-      "strategy_count": 2,
-      "tool_count": 6,
       "policy_count": 3
     }
   }
