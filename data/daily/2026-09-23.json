@@ -1,0 +1,167 @@
+{
+  "date": "2026-09-23",
+  "generated_at": "2026-09-23T08:05:07.848585+08:00",
+  "highlight": "OpenAI 发布 GPT-6 双版本与提示缓存升级，Anthropic 同步降价应战，前线模型竞赛进入性价比比拼阶段。",
+  "fun": {
+    "lucky": "GPT-6 Sol",
+    "advice": "宜：把长提示词反复利用，坐等缓存命中省钱；忌：在价格战正酣时冲动续费旧模型套餐。",
+    "joke": "程序员问：为什么 GPT-6 的缓存命中率这么高？答：因为它记得你上次也问过同样的问题。"
+  },
+  "articles": [
+    {
+      "id": 1,
+      "cat": "strategy",
+      "title": "TechCrunch 创始人峰会日程揭晓：11 月 4 日波士顿解锁融资、招聘与 AI 洞察",
+      "title_en": "TechCrunch Founder Summit’s agenda revealed: Unlock fundraising, hiring, and AI insights in Boston on November 4",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/09/22/techcrunch-founder-summits-agenda-revealed-unlock-fundraising-hiring-and-ai-insights-in-boston-on-november-4/",
+      "time": "43分钟前",
+      "published": "2026-09-22T23:21:49+00:00",
+      "summary": "TechCrunch 公布了其创始人峰会的完整议程，活动定于 11 月 4 日在波士顿举行。峰会围绕创业公司最棘手的三大命题展开：融资策略、团队招聘以及人工智能带来的行业洞察。主办方表示，创始人不应以最痛苦的方式学习最惨痛的教训，峰会旨在把创业路上的坑提前摊开，让挑战变得更容易应对，让高光时刻更加值得。对于正在寻找资金和人才的早期团队而言，这类把投资人、技术专家和同行聚在一起的线下活动，仍然是建立信任和获取一手经验的高效渠道，尤其在 AI 创业热潮下，融资节奏和人才争夺都变得异常激烈。",
+      "snark": "又是波士顿，又是 AI 洞察，创业者听完还是得自己熬夜写 BP。"
+    },
+    {
+      "id": 2,
+      "cat": "strategy",
+      "title": "Snorkel AI 估值翻三倍至 35 亿美元，AI 训练数据需求井喷",
+      "title_en": "Snorkel AI triples valuation to $3.5B as demand for AI training data booms",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/09/22/snorkel-ai-triples-valuation-to-3-5b-as-demand-for-ai-training-data-booms/",
+      "time": "2小时前",
+      "published": "2026-09-22T21:56:43+00:00",
+      "summary": "成立七年的数据标注与训练数据服务公司 Snorkel AI 完成了 3.5 亿美元的 E 轮融资，估值随之翻三倍达到 35 亿美元。该公司主打“数据即服务”模式，帮助企业把原始数据转化为可用于训练和微调大模型的高质量数据集。随着各家模型厂商在参数规模之外越来越重视数据质量、数据多样性和合规性，训练数据供应链正成为 AI 产业链上利润丰厚的一环。Snorkel AI 的融资表明，资本市场认为即便模型能力趋于同质化，谁能掌握高质量、可追溯、可定制的数据管道，谁就能在落地场景中建立护城河。",
+      "snark": "模型卷完参数开始卷数据，标注工人成了 AI 时代最抢手的隐形英雄。"
+    },
+    {
+      "id": 3,
+      "cat": "model",
+      "title": "Anthropic 与 OpenAI 新模型许下同一承诺：多一点能力，少很多钱",
+      "title_en": "New Anthropic, OpenAI models make same promise: A little more for a lot less money",
+      "source": "Ars Technica",
+      "url": "https://arstechnica.com/ai/2026/09/new-anthropic-openai-models-make-same-promise-a-little-more-for-a-lot-less-money/",
+      "time": "2小时前",
+      "published": "2026-09-22T21:25:18+00:00",
+      "summary": "Anthropic 和 OpenAI 相继发布新一代模型，两家公司不约而同地把卖点放在性价比上：用更低的推理成本换来更强的能力。报道指出，前沿模型竞赛已经进入“比价购物”阶段，厂商不再只强调跑分和参数，而是比拼每百万 token 的价格、延迟和稳定性。这一转变意味着大模型正在从实验室奇观变成企业采购清单上的标准商品，客户会像挑选云服务器一样比较各家报价。对开发者而言，模型降价和缓存优化直接降低了应用成本，但同时也让技术选型变得更加复杂，需要持续跟踪各家价格与能力的变化。",
+      "snark": "以前比谁更聪明，现在比谁更便宜，大模型终于活成了云计算的樣子。"
+    },
+    {
+      "id": 4,
+      "cat": "tool",
+      "title": "GPT-6 的提示缓存变得更好了",
+      "title_en": "Better prompt caching for GPT-6",
+      "source": "OpenAI Blog",
+      "url": "https://openai.com/index/better-prompt-caching-for-gpt-6",
+      "time": "3小时前",
+      "published": "2026-09-22T21:00:00+00:00",
+      "summary": "OpenAI 介绍了 GPT-6 在提示缓存方面的多项改进，包括更高的缓存命中率、新的诊断工具、显式断点以及更精细的控制选项，目标是降低延迟和成本。提示缓存的核心思路是把重复出现的提示前缀计算结果保存下来，后续请求直接复用，从而避免重复计算。对于需要反复传入长系统提示、知识库或固定上下文的开发者来说，命中率提升意味着账单明显下降。新增的诊断和断点控制则让开发者能更清楚地看到哪些部分被缓存、哪些没有，便于优化提示结构。这类工程优化虽然不如新模型发布吸睛，却是让大模型应用真正跑得起量的关键基础设施。",
+      "snark": "缓存命中率上去了，程序员的钱包保住了，OpenAI 的财报也更好看了。"
+    },
+    {
+      "id": 5,
+      "cat": "tool",
+      "title": "Rabbit 的新 AI 智能体不再需要 R1 硬件",
+      "title_en": "Rabbit’s new AI agent doesn’t need an R1 to run",
+      "source": "The Verge AI",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/999094/rabbit-ai-agent-os3",
+      "time": "3小时前",
+      "published": "2026-09-22T20:52:40+00:00",
+      "summary": "曾因 R1 设备表现不佳而备受争议的 Rabbit 公司，推出了一款独立的 AI 智能体产品，用户无需购买其硬件即可使用。这款名为 OS3 的“智能体操作系统”运行在云端，但可以在 Windows、Mac 和 Linux 设备上以本地方式操作。Rabbit 试图从硬件公司的定位转向软件与智能体服务，让 AI 代替用户完成跨应用的操作任务。此前 R1 因功能有限、响应缓慢而遭到大量批评，如今转向纯软件路线，既能避开硬件供应链和品控难题，也能借助现有 PC 生态快速触达用户，但能否兑现“智能体操作系统”的承诺仍待观察。",
+      "snark": "硬件翻车后改卖软件，Rabbit 用实际行动诠释了什么叫“打不过就换赛道”。",
+      "multiSource": [
+        "The Verge",
+        "The Verge AI"
+      ]
+    },
+    {
+      "id": 6,
+      "cat": "model",
+      "title": "高通发布两款主打 AI 的智能手机芯片",
+      "title_en": "Qualcomm launches two new smartphone chips with emphasis on AI",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/09/22/qualcomm-launches-two-new-smartphone-chips-with-emphasis-on-ai/",
+      "time": "4小时前",
+      "published": "2026-09-22T20:00:00+00:00",
+      "summary": "高通推出两款新的智能手机芯片，重点强化端侧 AI 能力。其中旗舰型号可以在本地运行 300 亿参数的混合专家模型，这意味着部分大模型推理不再必须依赖云端，可以在手机端完成，从而提升响应速度并改善隐私。混合专家架构通过每次只激活部分参数来降低计算量，使大模型在功耗和内存受限的手机上运行成为可能。端侧运行大模型对手机厂商来说是一个重要卖点，既能减少对网络和云服务的依赖，也能在离线场景下提供 AI 功能，但实际体验仍取决于内存带宽、散热和电池续航等硬约束。",
+      "snark": "手机跑 300 亿参数模型，发烫的时候还能顺便当暖手宝用。"
+    },
+    {
+      "id": 7,
+      "cat": "model",
+      "title": "高通骁龙 8 精英版第六代还推出了 Extreme 版本",
+      "title_en": "Qualcomm’s Snapdragon 8 Elite Gen 6 comes in an Extreme version too",
+      "source": "The Verge",
+      "url": "https://www.theverge.com/gadgets/998842/qualcomm-snapdragon-8-elite-extreme-gen-6",
+      "time": "4小时前",
+      "published": "2026-09-22T20:00:00+00:00",
+      "summary": "高通正式发布骁龙 8 精英版第六代，并首次增加骁龙 8 精英 Extreme 第六代版本。高通将两款芯片都定位为旗舰，规格差异相对有限，主要集中在 AI 处理能力、视频拍摄和游戏性能上，Extreme 版本在这些方面更强。这种双旗舰策略让手机厂商可以根据产品定位选择不同档次，同时也把“AI 性能”作为核心营销点。对消费者而言，普通版和 Extreme 版在日常使用中的差距可能并不明显，但在运行端侧大模型、实时图像处理和大型游戏时，Extreme 版本的冗余算力会更有优势，当然价格通常也会更高。",
+      "snark": "普通版和 Extreme 版的区别，大概就是跑分多几分、价格多几千。"
+    },
+    {
+      "id": 8,
+      "cat": "tool",
+      "title": "摩托罗拉造型大胆的 Signature 27 搭载高通新 Extreme 芯片",
+      "title_en": "Motorola’s wild-looking Signature 27 runs Qualcomm’s new Extreme chipset",
+      "source": "The Verge",
+      "url": "https://www.theverge.com/tech/998844/motorola-signature-27-specs-snapdragon-8-elite-extreme-gen-6",
+      "time": "4小时前",
+      "published": "2026-09-22T20:00:00+00:00",
+      "summary": "摩托罗拉成为首家宣布搭载高通顶级骁龙 8 精英 Extreme 第六代芯片的手机厂商，新机名为 Signature 27。报道称这可能是摩托罗拉多年来最先进的旗舰产品，外观设计也相当大胆，但目前完整规格、价格和发售日期尚未公布。对摩托罗拉而言，抢先首发高通最强芯片有助于重塑其高端品牌形象，在竞争激烈的旗舰市场中争取存在感。不过首发芯片并不等于产品成功，影像调校、系统体验和渠道能力同样关键，消费者在购买前还需要等待更完整的评测和定价信息。",
+      "snark": "首发芯片抢到了，接下来就看摩托罗拉能不能把系统也调明白。"
+    },
+    {
+      "id": 9,
+      "cat": "policy",
+      "title": "微软捣毁 AI 辅助平台，该平台曾入侵 1.2 万个账户",
+      "title_en": "Microsoft disrupts AI-assisted platform that compromised 12,000 accounts",
+      "source": "Ars Technica",
+      "url": "https://arstechnica.com/security/2026/09/microsoft-disrupts-ai-assisted-platform-that-compromised-12000/",
+      "time": "4小时前",
+      "published": "2026-09-22T19:45:47+00:00",
+      "summary": "微软成功捣毁了一个名为 EvilTokens 的 AI 辅助恶意平台，该平台提供端到端的账户入侵服务，使大规模攻击变得更快更容易，已导致约 1.2 万个账户被攻破。这类平台把钓鱼、令牌窃取和自动化攻击工具打包成服务，降低了网络犯罪的技术门槛。AI 的加入进一步提升了攻击的自动化和欺骗性，例如生成更逼真的钓鱼内容或绕过检测。微软的 disruption 行动表明，平台级安全厂商正在把打击重点从单个攻击者转向提供犯罪基础设施的服务商，但攻防对抗仍会长期持续，企业需要加强多因素认证和令牌保护。",
+      "snark": "AI 让钓鱼邮件写得更通顺了，可惜用在了骗人上。"
+    },
+    {
+      "id": 10,
+      "cat": "policy",
+      "title": "诉讼要求 OpenAI 为一起校园枪击案后新建学校买单",
+      "title_en": "Lawsuit demands OpenAI pay for new school after ChatGPT used in shooting",
+      "source": "Ars Technica",
+      "url": "https://arstechnica.com/tech-policy/2026/09/lawsuit-demands-openai-pay-for-new-school-after-chatgpt-used-in-shooting/",
+      "time": "4小时前",
+      "published": "2026-09-22T19:28:23+00:00",
+      "summary": "加拿大不列颠哥伦比亚省对 OpenAI 提起诉讼，要求其提供 Tumbler Ridge 枪击案凶手的 ChatGPT 对话记录，并主张 OpenAI 应为新建一所学校支付费用。案件的核心争议在于，当用户利用 AI 工具策划或实施暴力行为时，模型提供方应承担何种责任。原告认为 OpenAI 在内容审核和风险预警方面存在失职，因此应承担相应后果。此案可能对 AI 行业的责任边界产生重要影响，涉及平台是否负有主动监测和上报义务、用户隐私与公共安全如何平衡等问题。无论结果如何，它都会成为 AI 法律与伦理讨论中的重要判例参考。",
+      "snark": "ChatGPT 没拦住悲剧，现在要掏钱盖学校，这责任边界比模型参数还难调。"
+    },
+    {
+      "id": 11,
+      "cat": "strategy",
+      "title": "Meta 承认 Muse 与 OpenClaw 的相似并非巧合",
+      "title_en": "Meta admits Muse’s likeness to OpenClaw isn’t a coincidence",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/09/22/meta-admits-muses-likeness-to-openclaw-isnt-a-coincidence/",
+      "time": "4小时前",
+      "published": "2026-09-22T19:09:11+00:00",
+      "summary": "Meta 承认其 AI 助手 Muse 与 OpenClaw 的相似并非巧合。Meta 表示 Muse 是从零开始构建的，但承认该助手“深受 OpenClaw 启发”，甚至连部分工作区文件名和内容都相似。这一表态让外界对 Meta 在 AI 产品上的原创性产生质疑，也反映出当前 AI 助手赛道在产品形态、交互范式上高度趋同。对开发者社区而言，开源项目被大厂“借鉴”并不罕见，但若涉及文件名和内容层面的高度雷同，就可能引发版权和许可争议。Meta 的回应既是在淡化抄袭指控，也间接承认了 OpenClaw 在产品设计上的影响力。",
+      "snark": "从零开始构建，连文件名都从零开始抄，这零可真是万能的零。"
+    },
+    {
+      "id": 12,
+      "cat": "model",
+      "title": "OpenAI 发布 GPT-6 Sol 与 Luna，主打更低成本和更少错误",
+      "title_en": "OpenAI launches GPT-6 Sol and Luna, boasting lower cost and fewer mistakes",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/09/22/openai-launches-gpt-6-sol-and-luna/",
+      "time": "6小时前",
+      "published": "2026-09-22T18:00:00+00:00",
+      "summary": "OpenAI 正式推出 GPT-6 系列中的两款新模型 Sol 和 Luna，并宣称它们与 Astra 同源，具有更低的调用成本和更少的错误率。OpenAI 表示这两款模型在保持能力的同时优化了推理效率，适合需要大规模部署的企业和开发者。结合此前 GPT-6 提示缓存的改进，可以看出 OpenAI 正在把竞争重点从单纯的能力提升转向成本、稳定性和工程可用性。对用户来说，模型选择变得更加细分：Sol 和 Luna 可能分别面向不同任务和预算，开发者需要根据延迟、准确率和价格做权衡，而不是一味追求最强模型。",
+      "snark": "Sol 和 Luna 听起来像双子星，实际是 OpenAI 用来掏空你钱包的两只手。"
+    }
+  ],
+  "stats": {
+    "total": 12,
+    "model_count": 4,
+    "strategy_count": 3,
+    "tool_count": 3,
+    "policy_count": 2
+  }
+}

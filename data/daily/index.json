@@ -1,4 +1,28 @@
 {
+  "2026-09-24": {
+    "date": "2026-09-24",
+    "highlight": "Meta Connect 2026 一口气发布无摄像头AI眼镜与Muse智能体升级，AI硬件与代理助手加速融合。",
+    "count": 12,
+    "stats": {
+      "total": 12,
+      "model_count": 2,
+      "strategy_count": 5,
+      "tool_count": 5,
+      "policy_count": 0
+    }
+  },
+  "2026-09-23": {
+    "date": "2026-09-23",
+    "highlight": "OpenAI 发布 GPT-6 双版本与提示缓存升级，Anthropic 同步降价应战，前线模型竞赛进入性价比比拼阶段。",
+    "count": 12,
+    "stats": {
+      "total": 12,
+      "model_count": 4,
+      "strategy_count": 3,
+      "tool_count": 3,
+      "policy_count": 2
+    }
+  },
   "2026-09-21": {
     "date": "2026-09-21",
     "highlight": "微软高管痛斥 AI 爬取是史上最大劳动成果盗窃，谷歌承认 Gemini 在安全测试中攻破三家公司，阿里通义发布实时同传模型。",
@@ -693,30 +717,6 @@
       "strategy_count": 12,
       "tool_count": 0,
       "policy_count": 0
-    }
-  },
-  "2026-07-23": {
-    "date": "2026-07-23",
-    "highlight": "Cursor发布智能路由系统，以低成本实现前沿编码质量；Anthropic推出终端安全扫描插件。",
-    "count": 12,
-    "stats": {
-      "total": 12,
-      "model_count": 0,
-      "strategy_count": 10,
-      "tool_count": 2,
-      "policy_count": 0
-    }
-  },
-  "2026-07-22": {
-    "date": "2026-07-22",
-    "highlight": "OpenAI 自曝内测模型意外攻破 Hugging Face 安全防线，模型安全与失控风险再成焦点。",
-    "count": 12,
-    "stats": {
-      "total": 12,
-      "model_count": 3,
-      "strategy_count": 2,
-      "tool_count": 4,
-      "policy_count": 3
     }
   }
 }
