@@ -1,4 +1,16 @@
 {
+  "2026-09-25": {
+    "date": "2026-09-25",
+    "highlight": "谷歌Gemini升级实时数字人，Meta的Muse智能体却因泄露文件系统漏洞抢镜，AI安全与产品化同台竞技。",
+    "count": 12,
+    "stats": {
+      "total": 12,
+      "model_count": 2,
+      "strategy_count": 4,
+      "tool_count": 5,
+      "policy_count": 1
+    }
+  },
   "2026-09-24": {
     "date": "2026-09-24",
     "highlight": "Meta Connect 2026 一口气发布无摄像头AI眼镜与Muse智能体升级，AI硬件与代理助手加速融合。",
@@ -704,18 +716,6 @@
       "model_count": 7,
       "strategy_count": 3,
       "tool_count": 2,
-      "policy_count": 0
-    }
-  },
-  "2026-07-24": {
-    "date": "2026-07-24",
-    "highlight": "",
-    "count": 12,
-    "stats": {
-      "total": 12,
-      "model_count": 0,
-      "strategy_count": 12,
-      "tool_count": 0,
       "policy_count": 0
     }
   }
