@@ -1,0 +1,171 @@
+{
+  "date": "2026-06-11",
+  "generated_at": "2026-06-11T08:11:11.654177+08:00",
+  "highlight": "AI 军备竞赛白热化：亚马逊举债175亿美元、企业人均月耗7500美元，同时安全诉讼与版权纠纷频发。",
+  "fun": {
+    "lucky": "DiffusionGemma",
+    "advice": "宜：本地部署，体验4倍速的快乐。\n忌：问它生物学问题，它会直接挂机。",
+    "joke": "AI 的省钱秘诀：不回答不会的问题，这样就不用消耗算力了。"
+  },
+  "articles": [
+    {
+      "id": 1,
+      "cat": "tool",
+      "title": "天体物理学家利用 Codex 模拟黑洞",
+      "title_en": "How an astrophysicist uses Codex to help simulate black holes",
+      "source": "OpenAI Blog",
+      "url": "https://openai.com/index/using-codex-to-simulate-black-holes",
+      "time": "11分钟前",
+      "published": "2026-06-11T00:00:00+00:00",
+      "summary": "OpenAI 博客发布文章，介绍天体物理学家 Chi-kwan Chan 如何使用 Codex（OpenAI 的代码生成模型）来构建黑洞模拟程序。通过 Codex 自动生成和优化代码，科学家能够更高效地研究极端物理现象，并对爱因斯坦的广义相对论进行检验。该应用展示了大型语言模型在科学计算领域的实用价值，不仅降低了编程门槛，还加速了科研探索过程。Codex 能够理解自然语言指令并生成对应的数值模拟代码，帮助研究人员专注于物理问题而非调试细节。",
+      "snark": "以后天文学家不用看星星了，改看 Codex 生成的代码有没有 bug。"
+    },
+    {
+      "id": 2,
+      "cat": "tool",
+      "title": "苹果新版 Siri AI 学会“闭嘴”了",
+      "title_en": "Apple’s new Siri AI knows when to shut up",
+      "source": "The Verge",
+      "url": "https://www.theverge.com/tech/948155/apple-siri-ai-chatbot-personality",
+      "time": "1小时前",
+      "published": "2026-06-10T22:52:17+00:00",
+      "summary": "据 The Verge 报道，苹果新版 Siri AI 已开始向部分用户推送。测试者发现，新版 Siri 最大的特点是变得非常“简短”，不再像其他 AI 聊天机器人那样热情洋溢、长篇大论。这种克制反而被评价为一种优点，因为用户更希望快速获取答案而非听机器人唠叨。苹果似乎在有意塑造一种冷静、高效的 AI 人格，与 OpenAI 的 ChatGPT 或 Anthropic 的 Claude 形成鲜明对比。目前该功能仍处于早期测试阶段，正式上线时间未定。",
+      "snark": "Siri 终于学会了人类社交精髓：能不说话就不说话。"
+    },
+    {
+      "id": 3,
+      "cat": "policy",
+      "title": "xAI 前工程师因举报 Grok 安全问题遭解雇并起诉",
+      "title_en": "xAI fired an engineer who raised alarms about Grok safety, new lawsuit claims",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/06/10/xai-fired-an-engineer-who-raised-alarms-about-grok-safety-new-lawsuit-claims/",
+      "time": "1小时前",
+      "published": "2026-06-10T22:31:19+00:00",
+      "summary": "TechCrunch 报道，一名前 xAI 工程师提起诉讼，指控公司及 SpaceX 因其在 SpaceX 历史性 IPO 前几日提出 Grok 模型的安全隐患而将其解雇。原告声称，他曾向管理层反映 Grok 存在潜在风险，但随后遭到报复性解雇。该诉讼引发了对 AI 公司内部举报人保护机制的广泛讨论，也再次将 AI 安全与公司商业利益之间的冲突推向台前。目前 xAI 和 SpaceX 尚未对此事做出正式回应。",
+      "snark": "在 xAI，提安全建议的后果比 Grok 的幻觉还要严重。"
+    },
+    {
+      "id": 4,
+      "cat": "tool",
+      "title": "微软 SkillOpt 实现端到端提示词优化与技能进化分析",
+      "title_en": "A Coding Implementation on Microsoft SkillOpt for Instrumented Prompt Optimization, Skill Evolution Analysis, and Baseline Comparison",
+      "source": "MarkTechPost",
+      "url": "https://www.marktechpost.com/2026/06/10/a-coding-implementation-on-microsoft-skillopt-for-instrumented-prompt-optimization-skill-evolution-analysis-and-baseline-comparison/",
+      "time": "2小时前",
+      "published": "2026-06-10T22:07:13+00:00",
+      "summary": "MarkTechPost 发布了一篇关于微软 SkillOpt 工具的实现教程。文章详细介绍了如何搭建完整的仪器化工作流，包括连接兼容 OpenAI 接口的模型、配置优化器与目标模型、评估基线种子技能，以及执行包含回滚、反思、聚合等步骤的真实优化循环。SkillOpt 旨在自动化提示词优化过程，并分析技能的演化趋势，帮助开发者更高效地调整 AI 模型行为。该工具对于需要频繁迭代提示词的应用场景具有重要参考价值。",
+      "snark": "提示词工程师的饭碗还没捂热，微软就端出了自动优化器。"
+    },
+    {
+      "id": 5,
+      "cat": "strategy",
+      "title": "亚马逊刚发完债券又向银行借款175亿美元用于 AI 投入",
+      "title_en": "Fresh off bond sale, Amazon borrows $17.5B from banks as AI spending continues",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/06/10/fresh-off-bond-sale-amazon-borrows-17-5-billion-from-banks-as-ai-spending-continues/",
+      "time": "3小时前",
+      "published": "2026-06-10T20:19:31+00:00",
+      "summary": "TechCrunch 报道，亚马逊在刚刚完成债券发行后，又向银行借贷了175亿美元。这笔巨额资金将主要用于 AI 领域的持续投入。报道指出，各大科技公司为了在 AI 竞赛中不落人后，正在以惊人的速度消耗资金，债务水平不断攀升。亚马逊此举反映出 AI 基础设施建设（如数据中心、芯片采购）的高昂成本，以及巨头们对市场份额的焦虑。分析师警告，这种烧钱模式可能难以长期持续。",
+      "snark": "亚马逊的财务策略：先借钱，再借钱，然后继续借钱买 GPU。"
+    },
+    {
+      "id": 6,
+      "cat": "strategy",
+      "title": "OpenAI 模型及 Codex 可通过 Oracle 云承诺额度访问",
+      "title_en": "Access OpenAI models and Codex through your Oracle cloud commitment",
+      "source": "OpenAI Blog",
+      "url": "https://openai.com/index/openai-on-oracle-cloud",
+      "time": "4小时前",
+      "published": "2026-06-10T20:00:00+00:00",
+      "summary": "OpenAI 宣布与 Oracle 云达成合作，企业客户现在可以使用其在 Oracle 云的既有承诺额度来访问 OpenAI 模型和 Codex。这意味着企业无需额外采购，即可在 Oracle 云上构建和部署 AI 应用，同时享受企业级安全与治理能力。此举降低了企业采用 OpenAI 技术的门槛，也标志着 OpenAI 在云渠道拓展上的重要进展。该合作特别适合已有 Oracle 云投入的大型企业客户。",
+      "snark": "Oracle 云用户终于可以理直气壮地说：我们也在用 OpenAI。"
+    },
+    {
+      "id": 7,
+      "cat": "model",
+      "title": "谷歌 DeepMind 发布 DiffusionGemma，本地 AI 推理速度提升4倍",
+      "title_en": "Google DeepMind releases DiffusionGemma, a model that runs local AI 4x faster",
+      "source": "Ars Technica",
+      "url": "https://arstechnica.com/google/2026/06/googles-latest-diffusiongemma-open-ai-model-comes-with-a-4x-speed-boost/",
+      "time": "4小时前",
+      "published": "2026-06-10T19:29:21+00:00",
+      "summary": "Ars Technica 报道，谷歌 DeepMind 发布了 DiffusionGemma，这是一款基于扩散模型的开放 AI 模型。不同于传统自回归模型逐 token 生成文本，DiffusionGemma 采用并行生成策略，在本地运行时速度可达前代的4倍。该模型主要面向文本生成任务，但扩散架构本身在图像生成领域更为常见。DeepMind 将 DiffusionGemma 开源，旨在推动更高效的本地 AI 推理方案，降低对云端算力的依赖。",
+      "snark": "4倍速的代价是：你永远猜不到它下一句会不会跑出一张图片来。",
+      "multiSource": [
+        "Ars Technica",
+        "MarkTechPost"
+      ]
+    },
+    {
+      "id": 8,
+      "cat": "model",
+      "title": "Claude Fable 拒绝回答基础生物学问题",
+      "title_en": "Claude Fable won’t answer basic biology questions",
+      "source": "The Verge AI",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/947973/fable-wont-answer-basic-biology-questions",
+      "time": "5小时前",
+      "published": "2026-06-10T18:43:34+00:00",
+      "summary": "The Verge 报道，Anthropic 刚刚发布了号称史上最强大的 Claude Fable 5 模型，并特别称赞了其在生物学领域的表现。然而测试发现，该模型在面对基础生物学问题时——例如高中生水平的知识——竟然拒绝回答，而是将问题转接给外部工具。这一矛盾行为引发了用户对模型能力边界和设计哲学的质疑。Anthropic 尚未解释为何一个“最强模型”会在简单问题上选择“甩锅”。",
+      "snark": "Claude Fable：我太强了，所以不屑于回答高中题。",
+      "multiSource": [
+        "The Verge",
+        "The Verge AI"
+      ]
+    },
+    {
+      "id": 9,
+      "cat": "strategy",
+      "title": "微软回应毕业生对 AI 演讲者的嘘声：呼吁对话",
+      "title_en": "Microsoft, like, totally gets why students are booing AI-pilled graduation speakers",
+      "source": "The Verge AI",
+      "url": "https://www.theverge.com/news/947831/college-speakers-booed-ai-microsoft",
+      "time": "6小时前",
+      "published": "2026-06-10T17:45:11+00:00",
+      "summary": "The Verge AI 报道，近期美国多所大学的毕业典礼上，毕业生对在演讲中大肆鼓吹 AI 的嘉宾报以嘘声和起哄。微软副总裁兼总裁 Brad Smith 发布了一篇超过3100字的博文，试图缓和这一局面。他呼吁各方进行理性对话，理解年轻人对 AI 取代工作的担忧，同时也强调 AI 的积极潜力。这一事件反映了公众，尤其是年轻一代，对 AI 快速渗透社会的复杂情绪。",
+      "snark": "微软：别嘘了，听我写3100字论文解释为什么不该嘘。"
+    },
+    {
+      "id": 10,
+      "cat": "policy",
+      "title": "AI 监管的未来：奇怪而焦虑的联盟正在形成",
+      "title_en": "The future of AI regulation is courting the strangest, most anxious bedfellows",
+      "source": "The Verge AI",
+      "url": "https://www.theverge.com/column/947838/washington-ai-network-honors-2026-midterms",
+      "time": "6小时前",
+      "published": "2026-06-10T17:38:00+00:00",
+      "summary": "The Verge AI 的 Regulator 专栏探讨了当前美国 AI 监管的政治格局。文章指出，在2026年中期选举前夕，华盛顿特区围绕 AI 政策正形成各种意想不到的同盟——从科技自由派到保守派，从行业巨头到民间组织，各方都在焦虑中寻找共识。监管的复杂性和紧迫性使得传统政治阵营的界限变得模糊。文章认为，这种混乱的博弈过程可能催生出一种既非严格管制也非完全放任的“美国式”AI 治理模式。",
+      "snark": "AI 监管会议：一群互相看不顺眼的人，为了同一个看不懂的东西坐在一起。"
+    },
+    {
+      "id": 11,
+      "cat": "policy",
+      "title": "谷歌被诉用 YouTube 创作者作品训练音乐 AI Lyria",
+      "title_en": "Google won’t just admit it’s feeding YouTube creators to its music AI",
+      "source": "The Verge AI",
+      "url": "https://www.theverge.com/tech/947770/google-lyria-music-ai-lawsuit-youtube",
+      "time": "6小时前",
+      "published": "2026-06-10T17:20:36+00:00",
+      "summary": "The Verge AI 报道，一群独立音乐人起诉谷歌，指控其未经许可使用上传至 YouTube 的歌曲来训练 Lyria 3 音乐生成模型。原告认为，谷歌明知这些作品受版权保护，却仍将其纳入训练数据集。谷歌方面尚未明确承认这一做法，但法律文件显示，谷歌可能认为 YouTube 上的公开上传内容属于合理使用范畴。此案将成为 AI 训练数据版权问题的又一重要判例，影响整个音乐 AI 行业。",
+      "snark": "谷歌：你上传到 YouTube 就是同意给我当 AI 老师，合同在用户协议第520页。"
+    },
+    {
+      "id": 12,
+      "cat": "strategy",
+      "title": "“AI 上瘾”企业每月为每名员工花费7500美元在 AI 上",
+      "title_en": "‘AI-pilled’ firms spend $7,500 per employee each month on AI",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/06/10/ai-pilled-firms-spend-7500-per-employee-each-month-on-ai/",
+      "time": "7小时前",
+      "published": "2026-06-10T17:07:35+00:00",
+      "summary": "TechCrunch 援引 Ramp AI Index 的数据报道，最热衷于 AI 的企业平均每月为每名员工支出约7500美元用于 AI 相关工具和服务。这一数字虽然尚未超过一名工程师的月薪，但已相当可观。报告指出，这些“AI-pilled”（AI 上瘾）企业主要集中在科技和金融领域，大量资金用于购买 API 调用、AI 平台订阅以及自研模型训练。分析师警告，企业需谨慎评估 ROI，避免盲目跟风导致成本失控。",
+      "snark": "7500美元一个月，够雇一个实习生帮你手动处理数据了。"
+    }
+  ],
+  "stats": {
+    "total": 12,
+    "model_count": 2,
+    "strategy_count": 4,
+    "tool_count": 3,
+    "policy_count": 3
+  }
+}

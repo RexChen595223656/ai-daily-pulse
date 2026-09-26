@@ -1,0 +1,162 @@
+{
+  "date": "2026-05-21",
+  "generated_at": "2026-05-21T08:03:51.537841+08:00",
+  "highlight": "英伟达财报炸裂、xAI亏损扩张、Anthropic重金买算力，AI军备竞赛白热化。",
+  "fun": {
+    "lucky": "Nvidia",
+    "advice": "宜：继续囤显卡，坐等财报新高。\n忌：跟xAI比烧钱，小心发电机冒烟。",
+    "joke": "AI 的终极梦想是取代人类，但现阶段连我的 bug 都修不好。"
+  },
+  "articles": [
+    {
+      "id": 1,
+      "cat": "strategy",
+      "title": "英伟达 Q1 净利润 583 亿美元，谷歌 Gemini 月活达 9 亿",
+      "title_en": "8点1氪丨英伟达Q1净利润583亿美元；谷歌CEO：Gemini月活跃用户达9亿；寿司郎回应“盘子抽检10抽10脏”",
+      "source": "36氪",
+      "url": "https://36kr.com/p/3818280989443202?f=rss",
+      "time": "4分钟前",
+      "published": "2026-05-20T23:59:19+00:00",
+      "summary": "英伟达发布 2027 财年 Q1 财报，营收 816.2 亿美元同比增长 85%，净利润 583.2 亿美元同比增长 211%，再创纪录。同时谷歌 CEO 皮查伊在 I/O 大会上宣布 Gemini 月活跃用户达 9 亿，日请求量增长超 7 倍。两大巨头在 AI 算力与应用端均展现强劲增长，英伟达还披露持有 430 亿美元初创公司股权，生态布局持续深化。",
+      "snark": "英伟达的财报就像 AI 界的《复联》——每次都觉得该结束了，结果下一部更猛。"
+    },
+    {
+      "id": 2,
+      "cat": "tool",
+      "title": "视频剪辑初创公司 Clouted 获 700 万美元种子轮融资",
+      "title_en": "Clouted wants to take the guesswork out of making short videos go viral",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/05/20/clouted-wants-to-take-the-guesswork-out-of-making-short-videos-go-viral/",
+      "time": "1小时前",
+      "published": "2026-05-20T22:30:45+00:00",
+      "summary": "Clouted 是一家致力于让短视频自动爆火的 AI 初创公司，近日宣布获得由 Slow Ventures 领投的 700 万美元种子轮融资。该公司通过 AI 分析用户行为与内容特征，自动剪辑出最可能 viral 的片段，帮助创作者降低试错成本。目前短视频赛道竞争激烈，AI 驱动的“爆款预测”工具正成为新热点。",
+      "snark": "700 万刀就想买爆款公式？建议先问问 TikTok 的玄学算法。"
+    },
+    {
+      "id": 3,
+      "cat": "strategy",
+      "title": "xAI 去年烧掉 64 亿美元，SpaceX 招股书揭示扩张野心",
+      "title_en": "xAI burned $6.4B last year — SpaceX’s IPO filing shows why the spending is far from over",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/05/20/xai-burned-6-4b-last-year-spacexs-ipo-filing-shows-why-the-spending-is-far-from-over/",
+      "time": "1小时前",
+      "published": "2026-05-20T22:26:08+00:00",
+      "summary": "据 SpaceX IPO 文件披露，马斯克旗下 xAI 在 2025 年亏损高达 64 亿美元，同时计划大规模扩展 Grok 模型。这是 xAI 财务数据首次公开，显示其算力与数据中心投入巨大。尽管亏损严重，xAI 仍在持续加码，近期还宣布未来三年将斥资 28 亿美元购买天然气涡轮机用于数据中心供电。",
+      "snark": "64 亿美金的亏损，换来了一个会讲冷笑话的 Grok，值吗？"
+    },
+    {
+      "id": 4,
+      "cat": "strategy",
+      "title": "英伟达再创季度营收纪录，披露 430 亿美元初创投资组合",
+      "title_en": "Nvidia posts another record quarter, reveals $43B of holdings in startups",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/05/20/nvidia-posts-another-record-quarter-reveals-43-billion-of-holdings-in-startups/",
+      "time": "2小时前",
+      "published": "2026-05-20T22:03:51+00:00",
+      "summary": "英伟达在周三盘后公布又一创纪录季度营收，但警告下季度增速将放缓。同时公司首次披露持有 430 亿美元初创公司股权，涵盖 AI、自动驾驶、生物科技等领域。这表明英伟达不仅靠卖显卡赚钱，还通过投资深度绑定整个 AI 生态，成为行业“隐形庄家”。",
+      "snark": "英伟达：卖铲子只是副业，买铲子的人才是我真正的理财产品。"
+    },
+    {
+      "id": 5,
+      "cat": "policy",
+      "title": "xAI 因数据中心发电机被起诉，反手再买 28 亿美元涡轮机",
+      "title_en": "Musk’s xAI is being sued over its data center generators — now it’s buying $2.8B more",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/05/20/musks-xai-is-being-sued-over-its-data-center-generators-now-its-buying-2-8b-more/",
+      "time": "2小时前",
+      "published": "2026-05-20T21:55:49+00:00",
+      "summary": "马斯克的 xAI 正因数据中心发电机噪音与污染问题被起诉，但 SpaceX IPO 文件显示，xAI 计划未来三年斥资 28 亿美元购买天然气涡轮机，进一步扩大算力基础设施。此举引发环保组织与当地社区的强烈反对，xAI 在算力扩张与合规之间的冲突日益激化。",
+      "snark": "被起诉就买新发电机，xAI 的解决方案永远是：加钱，加涡轮。"
+    },
+    {
+      "id": 6,
+      "cat": "tool",
+      "title": "Turbovec：基于 Google TurboQuant 的 Rust 向量索引库",
+      "title_en": "Meet Turbovec: A Rust Vector Index with Python Bindings, and Built on Google’s TurboQuant Algorithm",
+      "source": "MarkTechPost",
+      "url": "https://www.marktechpost.com/2026/05/20/meet-turbovec-a-rust-vector-index-with-python-bindings-and-built-on-googles-turboquant-algorithm/",
+      "time": "2小时前",
+      "published": "2026-05-20T21:42:31+00:00",
+      "summary": "Turbovec 是一个用 Rust 编写的高性能向量索引库，提供 Python 绑定，核心采用 Google Research 的 TurboQuant 量化算法。它实现了 16 倍压缩率且无需码本训练，显著降低了 RAG 流水线中的内存占用与检索延迟。对于需要大规模向量搜索的 AI 应用，Turbovec 提供了高效且易集成的解决方案。",
+      "snark": "Rust + 16 倍压缩，这是要把向量数据库卷成压缩饼干啊。"
+    },
+    {
+      "id": 7,
+      "cat": "strategy",
+      "title": "Anthropic 每月向 xAI 支付 12.5 亿美元购买算力",
+      "title_en": "Anthropic will pay xAI $1.25B per month for compute",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/05/20/anthropic-will-pay-xai-1-25-billion-per-month-for-compute/",
+      "time": "2小时前",
+      "published": "2026-05-20T21:29:22+00:00",
+      "summary": "据 TechCrunch 报道，Anthropic 与 xAI 达成了一项巨额算力采购协议，每月支付 12.5 亿美元使用 xAI 的数据中心算力。这笔交易金额惊人，反映出顶级 AI 实验室对算力的极度渴求，也意味着 xAI 在亏损中找到了重要的收入来源。两家竞争对手之间的合作，凸显了 AI 算力市场的供需失衡。",
+      "snark": "Anthropic：我们打不过就加入，每月 12.5 亿当 xAI 的 VIP 客户。"
+    },
+    {
+      "id": 8,
+      "cat": "strategy",
+      "title": "Google I/O 2026：Gemini for Science 与 AlphaFold 新进展",
+      "title_en": "‘Solve all diseases,’ you say?",
+      "source": "The Verge AI",
+      "url": "https://www.theverge.com/column/935021/google-io-gemini-for-science-alphafold-alphagenome-ai-health",
+      "time": "2小时前",
+      "published": "2026-05-20T21:06:35+00:00",
+      "summary": "The Verge 报道了 Google I/O 2026 上关于 AI 健康领域的重要发布，包括 Gemini for Science 计划以及 AlphaFold、AlphaGenome 等项目的更新。Google 展示了 AI 在疾病预测、基因组分析、药物发现等方面的突破，目标是“解决所有疾病”。虽然愿景宏大，但实际落地仍面临数据、伦理和监管等多重挑战。",
+      "snark": "解决所有疾病？先让 AI 学会不把感冒诊断成癌症再说吧。"
+    },
+    {
+      "id": 9,
+      "cat": "strategy",
+      "title": "Google 宣布在密苏里州投资下一代 workforce 与能源项目",
+      "title_en": "We’re announcing new community investments in Missouri.",
+      "source": "Google AI Blog",
+      "url": "https://blog.google/innovation-and-ai/infrastructure-and-cloud/global-network/missouri-programs/",
+      "time": "3小时前",
+      "published": "2026-05-20T20:40:00+00:00",
+      "summary": "Google AI 博客宣布，将在密苏里州进行新的社区投资，重点培养下一代 AI 人才并投资清洁能源项目。这是 Google 全美数据中心与 AI 基础设施扩张的一部分，旨在平衡算力增长与可持续发展。具体投资金额未披露，但体现了科技巨头在区域经济与能源转型中的角色。",
+      "snark": "Google：我们不仅偷你的数据，还要帮你的州建发电站。"
+    },
+    {
+      "id": 10,
+      "cat": "model",
+      "title": "OpenAI 宣称解决 80 年未解的数学难题，这次数学家背书了",
+      "title_en": "OpenAI claims it solved an 80-year-old math problem — for real this time",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/05/20/openai-claims-it-solved-an-80-year-old-math-problem-for-real-this-time/",
+      "time": "3小时前",
+      "published": "2026-05-20T20:28:27+00:00",
+      "summary": "OpenAI 声称其推理模型成功推翻了一个自 1946 年以来悬而未决的几何猜想，并且这次得到了此前揭露其错误声称的数学家的认可。该成果被视为 AI 在数学推理领域的重大突破，证明大模型不仅能解题，还能发现新定理。不过 OpenAI 尚未公开完整证明过程，学界仍在等待验证。",
+      "snark": "上次翻车被全网嘲，这次 OpenAI 学乖了，先让数学家签个名。"
+    },
+    {
+      "id": 11,
+      "cat": "tool",
+      "title": "吴恩达投资的 IrisGo：想做你的 AI 桌面管家",
+      "title_en": "IrisGo, a startup backed by Andrew Ng, looks to become the AI desktop buddy you never knew you needed",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/05/20/irisgo-a-startup-backed-by-andrew-ng-looks-to-become-the-ai-desktop-buddy-you-never-knew-you-needed/",
+      "time": "4小时前",
+      "published": "2026-05-20T19:47:20+00:00",
+      "summary": "由吴恩达投资的 IrisGo 定位于 AI 桌面助手，能实时观察用户屏幕操作，自动学习并替用户完成重复性任务，例如文件整理、数据录入、表单填写等。其创始人称其为“AI 管家”，但隐私问题引发关注。该产品目前处于早期阶段，旨在成为 PC 上的智能自动化层。",
+      "snark": "AI 桌面管家？听起来就像老板装了个屏幕监控软件。"
+    },
+    {
+      "id": 12,
+      "cat": "strategy",
+      "title": "Google I/O 2026 发布 100 项新内容，Gemini 生态全面铺开",
+      "title_en": "100 things we announced at I/O 2026",
+      "source": "Google AI Blog",
+      "url": "https://blog.google/innovation-and-ai/technology/ai/google-io-2026-all-our-announcements/",
+      "time": "4小时前",
+      "published": "2026-05-20T19:30:00+00:00",
+      "summary": "Google 在 I/O 2026 上宣布了 100 项新功能与产品更新，涵盖 Gemini 模型、开发者工具、硬件设备、云服务等。重点包括 Gemini 月活破 9 亿、TurboQuant 算法开源、AI 健康计划以及密苏里州投资。Google 正全力构建从底层算力到上层应用的完整 AI 生态，与 OpenAI/Microsoft 形成全面竞争。",
+      "snark": "100 项更新？我连去年的新功能都还没用明白呢。"
+    }
+  ],
+  "stats": {
+    "total": 12,
+    "model_count": 1,
+    "strategy_count": 7,
+    "tool_count": 3
+  }
+}

@@ -1,0 +1,115 @@
+{
+  "date": "2026-08-24",
+  "generated_at": "2026-08-24T08:00:46.563788+08:00",
+  "highlight": "神秘模型Ox Alpha引发猜测，Harvey发布法律专用模型，FreeToken实现单GPU运行千亿级模型，AI应用与争议并存。",
+  "fun": {
+    "lucky": "FreeToken",
+    "advice": "宜：大胆尝试在单张显卡上运行大模型，享受技术突破的乐趣。\n忌：盲目跟风神秘模型，小心被营销号带节奏。",
+    "joke": "程序员问AI：'你为什么总在半夜更新？' AI答：'因为白天你们都在改需求。'"
+  },
+  "articles": [
+    {
+      "id": 1,
+      "cat": "model",
+      "title": "神秘新模型Ox Alpha背后是谁？",
+      "title_en": "Who’s behind the new ‘stealth model’ Ox Alpha?",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/08/23/whos-behind-the-new-stealth-model-ox-alpha/",
+      "time": "3小时前",
+      "published": "2026-08-23T20:01:36+00:00",
+      "summary": "一个名为Ox Alpha的神秘新AI模型在互联网上引发了大量猜测。该模型据称具备强大的推理能力，但尚未有官方机构或公司公开认领其开发身份。技术社区对其架构、训练数据和潜在用途进行了各种推测，有人认为它可能是某家科技巨头秘密研发的成果，也有人猜测它来自独立研究团队。目前，Ox Alpha仅通过API提供有限访问，其性能表现被部分测试者描述为“令人惊艳”，但缺乏公开的技术报告和基准测试数据，使得外界难以验证其真实水平。这一神秘现象反映了AI领域对突破性技术的狂热关注，同时也引发了关于透明度和可验证性的讨论。Ox Alpha的出现是否会改变现有AI竞争格局，仍需进一步观察。",
+      "snark": "神秘模型？先跑个分再说话，不然就是营销号狂欢。"
+    },
+    {
+      "id": 2,
+      "cat": "tool",
+      "title": "Linkdaze智能日历：不只是日程表，更是家庭管家",
+      "title_en": "Linkdaze’s smart calendar is built to run a household, not just track a schedule",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/08/23/linkdazes-smart-calendar-is-built-to-run-a-household-not-just-track-a-schedule/",
+      "time": "4小时前",
+      "published": "2026-08-23T19:14:08+00:00",
+      "summary": "Linkdaze推出了一款智能数字日历，其独特之处在于不将功能置于付费墙之后，而是免费提供包括AI餐食规划器在内的多项工具。该日历不仅能够管理个人日程，还能协调家庭成员的各项活动，如安排家务、提醒购物清单、规划每周菜单等。AI餐食规划器可根据用户的饮食偏好和冰箱库存生成食谱建议，并自动生成购物清单，极大简化了家庭生活管理。与其他同类产品相比，Linkdaze强调其AI功能的实用性和易用性，且无隐藏费用，旨在通过免费策略吸引更多家庭用户。该产品的推出反映了AI技术正逐渐渗透到家庭生活场景，从单一的生产力工具向生活助手转变。",
+      "snark": "智能日历管三餐？下一步是不是要接管我的钱包了。"
+    },
+    {
+      "id": 3,
+      "cat": "model",
+      "title": "Harvey发布Harvey Tenet：基于Kimi K3微调的法律专用智能体模型",
+      "title_en": "Harvey Introduces Harvey Tenet: A Kimi K3 Base Post-Trained with Fireworks for Long-Horizon Legal Agent Work",
+      "source": "MarkTechPost",
+      "url": "https://www.marktechpost.com/2026/08/23/harvey-tenet-post-trained-kimi-k3-legal-agent-model/",
+      "time": "6小时前",
+      "published": "2026-08-23T17:51:56+00:00",
+      "summary": "法律科技公司Harvey发布了其首个微调模型Harvey Tenet，该模型基于Kimi K3基础模型，并采用Fireworks技术进行后训练，旨在提升长周期法律智能体任务的表现。据官方介绍，Harvey Tenet在实验室任务完成率上几乎翻倍，但值得注意的是，目前仅有一项基准测试结果通过了独立验证。这一情况引发了外界对其性能真实性的质疑。Harvey表示，该模型专门针对法律文档分析、案例检索和合同审查等复杂场景优化，能够处理多步骤推理任务。尽管存在独立验证不足的问题，Harvey仍强调其模型在特定任务上的优势，并计划持续推进透明化验证。法律AI领域的竞争日益激烈，Harvey Tenet的发布能否获得市场认可，还需更多实证数据支撑。",
+      "snark": "模型性能全靠自吹？独立验证只有一项，这公关水平有待提高。"
+    },
+    {
+      "id": 4,
+      "cat": "policy",
+      "title": "Flock CEO呼吁“妥协”，监控技术公司面临公众抗议",
+      "title_en": "Flock CEO calls for ‘compromise’ as surveillance company faces growing backlash",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/08/23/flock-ceo-calls-for-compromise-as-surveillance-company-faces-growing-backlash/",
+      "time": "8小时前",
+      "published": "2026-08-23T15:30:00+00:00",
+      "summary": "美国监控技术公司Flock Safety因其产品可能被滥用的风险而面临日益增长的公众反对声音。该公司主要向警方和社区提供车牌识别摄像头和监控系统，但隐私倡导者担心这些技术可能侵犯公民隐私，甚至被用于不当监控。面对舆论压力，Flock CEO公开呼吁“妥协”，表示愿意与社区和立法者合作，制定更严格的使用规范，以平衡公共安全与个人隐私。然而，批评者认为这种表态缺乏实质行动，要求公司停止向执法部门出售敏感数据。这一事件凸显了AI监控技术在商业利益与社会责任之间的紧张关系，也反映了公众对AI伦理问题的关注度正在上升。如何在技术发展与个人权利之间找到平衡点，成为行业亟需解决的课题。",
+      "snark": "监控公司谈妥协？先把摄像头拆了再说吧。"
+    },
+    {
+      "id": 5,
+      "cat": "policy",
+      "title": "用版权书籍训练AI模型合法吗？答案很复杂",
+      "title_en": "Is it legal to train AI models on copyrighted books? It’s complicated",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/08/23/is-it-legal-to-train-ai-models-on-copyrighted-books-its-complicated/",
+      "time": "9小时前",
+      "published": "2026-08-23T15:00:00+00:00",
+      "summary": "关于AI模型训练使用受版权保护的书籍是否合法的问题，法律界和科技界存在广泛争议。大多数已出版的作者在不知情或未同意的情况下，其作品被用于训练AI系统，而这些系统可能反过来威胁他们的生计。表面上，这似乎构成侵权，但实际法律判定非常复杂。一方面，合理使用原则可能为某些训练行为提供辩护，尤其是当使用具有“变革性”时；另一方面，大规模复制和利用作品可能超出合理使用范围。目前，多起相关诉讼正在进行中，但尚未形成统一判例。此外，不同司法辖区的法律差异也增加了不确定性。这一问题不仅关乎作者权益，还影响AI行业的创新模式。未来可能需要新的立法或行业标准来明确边界。",
+      "snark": "版权问题剪不断理还乱，AI公司只想装傻充愣。"
+    },
+    {
+      "id": 6,
+      "cat": "tool",
+      "title": "FreeToken：边缘端MoE推理引擎，单张工作站GPU运行753B GLM-5.2",
+      "title_en": "Meet FreeToken: An Edge-Native MoE Serving Engine that Runs 753B GLM-5.2 on a Single Workstation GPU",
+      "source": "MarkTechPost",
+      "url": "https://www.marktechpost.com/2026/08/23/meet-freetoken-an-edge-native-moe-serving-engine-that-runs-753b-glm-5-2-on-a-single-workstation-gpu/",
+      "time": "13小时前",
+      "published": "2026-08-23T10:44:59+00:00",
+      "summary": "FreeToken是一个面向边缘计算的原生MoE（混合专家）推理引擎，能够在单个工作站GPU上运行参数规模高达753B的GLM-5.2模型。其核心技术在于将MoE模型的缓存未命中部分在PCIe填充和CPU执行之间进行智能拆分，利用实测带宽优化数据传输，从而大幅降低对GPU显存的需求。这一方案使得大规模语言模型在本地设备上的部署成为可能，无需依赖云端算力。FreeToken的出现为边缘AI应用打开了新的大门，尤其适合对数据隐私要求高的场景。该引擎的发布标志着大模型本地化推理技术的重要进展，但实际性能表现仍需在不同硬件环境下进行验证。",
+      "snark": "单卡跑千亿模型？我的显卡已经瑟瑟发抖了。"
+    },
+    {
+      "id": 7,
+      "cat": "tool",
+      "title": "使用deepDoctection构建端到端文档智能处理流水线",
+      "title_en": "Building an End-to-End Document Intelligence Pipeline with deepDoctection",
+      "source": "MarkTechPost",
+      "url": "https://www.marktechpost.com/2026/08/23/building-an-end-to-end-document-intelligence-pipeline-with-deepdoctection/",
+      "time": "16小时前",
+      "published": "2026-08-23T07:51:22+00:00",
+      "summary": "本文介绍了一个利用deepDoctection库构建完整文档智能处理流水线的教程。该流水线涵盖了版面分析、DocTR OCR（光学字符识别）和表格提取等关键步骤，并演示了如何实现自定义实体识别服务，最终生成结构化的JSONL数据，供RAG（检索增强生成）工作流使用。deepDoctection是一个开源的Python库，专注于文档解析和信息提取，支持多种预训练模型和自定义扩展。通过该教程，开发者可以快速搭建起从原始文档到结构化数据的自动化处理流程，适用于合同审查、学术论文解析、表单处理等场景。教程还强调了模块化设计的重要性，使系统能够灵活适应不同任务需求。",
+      "snark": "文档处理流水线教程？听起来像是一堆轮子重新发明。"
+    },
+    {
+      "id": 8,
+      "cat": "tool",
+      "title": "Vercel推出Is Agentic：免费AI智能体就绪度评分工具",
+      "title_en": "Vercel Introduces ‘Is Agentic’, a Free Agent-Readiness Scoring Tool That Audits Public Websites Using Ora’s 100+ Checks",
+      "source": "MarkTechPost",
+      "url": "https://www.marktechpost.com/2026/08/23/vercel-introduces-is-agentic-a-free-agent-readiness-scoring-tool-that-audits-public-websites-using-oras-100-checks/",
+      "time": "16小时前",
+      "published": "2026-08-23T07:37:14+00:00",
+      "summary": "Vercel与Ora联合发布了Is Agentic，这是一款免费的审计工具，旨在评估网站对AI智能体的就绪程度。该工具通过执行118项检查，从可访问性、结构化数据、内容清晰度等多个维度对网站进行评分，帮助开发者了解其站点是否容易被AI智能体理解和交互。Is Agentic的推出顺应了AI智能体日益普及的趋势，许多企业希望优化网站以更好地支持智能体访问，从而提升用户体验和业务效率。该工具目前完全免费，Vercel希望通过此举吸引更多开发者关注并采用其平台。随着AI智能体成为主流，此类就绪度工具或将成为网站开发的标准配置。",
+      "snark": "网站就绪度评分？AI智能体要求可真高，还得给它铺红毯。"
+    }
+  ],
+  "stats": {
+    "total": 8,
+    "model_count": 2,
+    "strategy_count": 0,
+    "tool_count": 4,
+    "policy_count": 2
+  }
+}

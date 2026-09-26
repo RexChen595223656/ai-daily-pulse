@@ -1,0 +1,161 @@
+{
+  "date": "2026-04-28",
+  "highlight": "视频生成模型集中爆发，Sora、Kling、Veo 三强争霸，创意产业迎来变革",
+  "articles": [
+    {
+      "id": 1,
+      "cat": "model",
+      "title": "Sora 2 公测：OpenAI 视频生成时长扩展至 2 分钟",
+      "title_en": "",
+      "source": "少数派",
+      "url": "https://example.com/ai-news/5396",
+      "time": "16天前",
+      "published": "2026-04-28T20:11:00+08:00",
+      "summary": "这是一条关于「Sora 2 公测：OpenAI 视频生成时长扩展至 2 分钟」的详细报道。该事件在 AI 行业引发广泛关注，多位业内人士表示这将深刻影响行业格局。更多细节请查看原文。",
+      "snark": "AI圈日常：今天你发模型，明天我刷榜。"
+    },
+    {
+      "id": 2,
+      "cat": "model",
+      "title": "Zapier AI 发布企业自动化 Agent：跨应用工作流零代码搭建",
+      "title_en": "",
+      "source": "36氪",
+      "url": "https://example.com/ai-news/8231",
+      "time": "16天前",
+      "published": "2026-04-28T11:58:00+08:00",
+      "summary": "这是一条关于「Zapier AI 发布企业自动化 Agent：跨应用工作流零代码搭建」的详细报道。该事件在 AI 行业引发广泛关注，多位业内人士表示这将深刻影响行业格局。更多细节请查看原文。",
+      "snark": "这条新闻让同行们集体沉默了3秒，然后继续卷。"
+    },
+    {
+      "id": 3,
+      "cat": "model",
+      "title": "Adobe Firefly 4 发布：AI 创意工具全面整合 Photoshop",
+      "title_en": "",
+      "source": "VentureBeat",
+      "url": "https://example.com/ai-news/6405",
+      "time": "16天前",
+      "published": "2026-04-28T14:20:00+08:00",
+      "summary": "这是一条关于「Adobe Firefly 4 发布：AI 创意工具全面整合 Photoshop」的详细报道。该事件在 AI 行业引发广泛关注，多位业内人士表示这将深刻影响行业格局。更多细节请查看原文。",
+      "snark": "AI圈日常：今天你发模型，明天我刷榜。"
+    },
+    {
+      "id": 4,
+      "cat": "model",
+      "title": "Cursor 2.0 发布：AI 原生 IDE 支持全栈项目自动生成",
+      "title_en": "",
+      "source": "The Verge",
+      "url": "https://example.com/ai-news/3858",
+      "time": "16天前",
+      "published": "2026-04-28T19:40:00+08:00",
+      "summary": "这是一条关于「Cursor 2.0 发布：AI 原生 IDE 支持全栈项目自动生成」的详细报道。该事件在 AI 行业引发广泛关注，多位业内人士表示这将深刻影响行业格局。更多细节请查看原文。",
+      "snark": "又双叒叕一个「里程碑」，今年第几个了？"
+    },
+    {
+      "id": 5,
+      "cat": "model",
+      "title": "LangChain 发布生产级 Agent 框架：支持多模型协作",
+      "title_en": "",
+      "source": "AI News",
+      "url": "https://example.com/ai-news/6755",
+      "time": "16天前",
+      "published": "2026-04-28T11:32:00+08:00",
+      "summary": "这是一条关于「LangChain 发布生产级 Agent 框架：支持多模型协作」的详细报道。该事件在 AI 行业引发广泛关注，多位业内人士表示这将深刻影响行业格局。更多细节请查看原文。",
+      "snark": "又双叒叕一个「里程碑」，今年第几个了？"
+    },
+    {
+      "id": 6,
+      "cat": "strategy",
+      "title": "ElevenLabs 发布语音克隆 API 2.0：2 秒音频即可完美克隆",
+      "title_en": "",
+      "source": "少数派",
+      "url": "https://example.com/ai-news/3045",
+      "time": "16天前",
+      "published": "2026-04-28T11:55:00+08:00",
+      "summary": "这是一条关于「ElevenLabs 发布语音克隆 API 2.0：2 秒音频即可完美克隆」的详细报道。该事件在 AI 行业引发广泛关注，多位业内人士表示这将深刻影响行业格局。更多细节请查看原文。",
+      "snark": "编辑部：这条我们也不知道怎么评价。"
+    },
+    {
+      "id": 7,
+      "cat": "strategy",
+      "title": "欧盟 AI 法案正式生效：高风险 AI 系统需第三方审计",
+      "title_en": "",
+      "source": "The Verge AI",
+      "url": "https://example.com/ai-news/5942",
+      "time": "16天前",
+      "published": "2026-04-28T18:12:00+08:00",
+      "summary": "这是一条关于「欧盟 AI 法案正式生效：高风险 AI 系统需第三方审计」的详细报道。该事件在 AI 行业引发广泛关注，多位业内人士表示这将深刻影响行业格局。更多细节请查看原文。",
+      "snark": "这条新闻让同行们集体沉默了3秒，然后继续卷。"
+    },
+    {
+      "id": 8,
+      "cat": "strategy",
+      "title": "Stable Diffusion 4 发布，文生图进入 8K 时代",
+      "title_en": "",
+      "source": "AI News",
+      "url": "https://example.com/ai-news/3247",
+      "time": "16天前",
+      "published": "2026-04-28T16:22:00+08:00",
+      "summary": "这是一条关于「Stable Diffusion 4 发布，文生图进入 8K 时代」的详细报道。该事件在 AI 行业引发广泛关注，多位业内人士表示这将深刻影响行业格局。更多细节请查看原文。",
+      "snark": "又双叒叕一个「里程碑」，今年第几个了？"
+    },
+    {
+      "id": 9,
+      "cat": "strategy",
+      "title": "LangChain 发布生产级 Agent 框架：支持多模型协作",
+      "title_en": "",
+      "source": "少数派",
+      "url": "https://example.com/ai-news/1608",
+      "time": "16天前",
+      "published": "2026-04-28T08:52:00+08:00",
+      "summary": "这是一条关于「LangChain 发布生产级 Agent 框架：支持多模型协作」的详细报道。该事件在 AI 行业引发广泛关注，多位业内人士表示这将深刻影响行业格局。更多细节请查看原文。",
+      "snark": "又双叒叕一个「里程碑」，今年第几个了？"
+    },
+    {
+      "id": 10,
+      "cat": "strategy",
+      "title": "xAI 完成 60 亿美元融资，Elon Musk 称将建全球最大 GPU 集群",
+      "title_en": "",
+      "source": "MIT Tech Review",
+      "url": "https://example.com/ai-news/1290",
+      "time": "16天前",
+      "published": "2026-04-28T20:24:00+08:00",
+      "summary": "这是一条关于「xAI 完成 60 亿美元融资，Elon Musk 称将建全球最大 GPU 集群」的详细报道。该事件在 AI 行业引发广泛关注，多位业内人士表示这将深刻影响行业格局。更多细节请查看原文。",
+      "snark": "AI圈新闻：今天又是核聚变级别的一天。"
+    },
+    {
+      "id": 11,
+      "cat": "tool",
+      "title": "中国发布大模型训练新规：数据安全和内容审核成焦点",
+      "title_en": "",
+      "source": "Synced Review",
+      "url": "https://example.com/ai-news/2262",
+      "time": "16天前",
+      "published": "2026-04-28T14:50:00+08:00",
+      "summary": "这是一条关于「中国发布大模型训练新规：数据安全和内容审核成焦点」的详细报道。该事件在 AI 行业引发广泛关注，多位业内人士表示这将深刻影响行业格局。更多细节请查看原文。",
+      "snark": "这条新闻让同行们集体沉默了3秒，然后继续卷。"
+    },
+    {
+      "id": 12,
+      "cat": "tool",
+      "title": "xAI 完成 60 亿美元融资，Elon Musk 称将建全球最大 GPU 集群",
+      "title_en": "",
+      "source": "AI News",
+      "url": "https://example.com/ai-news/2456",
+      "time": "16天前",
+      "published": "2026-04-28T09:40:00+08:00",
+      "summary": "这是一条关于「xAI 完成 60 亿美元融资，Elon Musk 称将建全球最大 GPU 集群」的详细报道。该事件在 AI 行业引发广泛关注，多位业内人士表示这将深刻影响行业格局。更多细节请查看原文。",
+      "snark": "AI圈新闻：今天又是核聚变级别的一天。"
+    }
+  ],
+  "stats": {
+    "total": 12,
+    "model_count": 5,
+    "strategy_count": 5,
+    "tool_count": 2
+  },
+  "fun": {
+    "lucky": "DeepSeek V4",
+    "advice": "宜：省钱方案\n忌：盲目追大参数",
+    "joke": "问：前端工程师最怕什么？\n答：产品经理说「就加一个 AI 功能，很简单的」。"
+  }
+}

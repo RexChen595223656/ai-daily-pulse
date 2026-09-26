@@ -1,0 +1,346 @@
+{
+  "llm": {
+    "perf": [
+      {
+        "model": "Claude Opus 5.5 (Adaptive Reasoning, Max Effort, Default Fallback)",
+        "org": "Anthropic",
+        "intelligence": 57.6,
+        "coding": 0,
+        "math": 0,
+        "reasoning": 0
+      },
+      {
+        "model": "Claude Opus 5.5 (Adaptive Reasoning, Xhigh Effort, Default Fallback)",
+        "org": "Anthropic",
+        "intelligence": 56,
+        "coding": 0,
+        "math": 0,
+        "reasoning": 0
+      },
+      {
+        "model": "Claude Opus 5.5 (Adaptive Reasoning, High Effort, Default Fallback)",
+        "org": "Anthropic",
+        "intelligence": 53.6,
+        "coding": 0,
+        "math": 0,
+        "reasoning": 0
+      },
+      {
+        "model": "Claude Fable 5.1 (Adaptive Reasoning, Max Effort, Default Fallback)",
+        "org": "Anthropic",
+        "intelligence": 53.4,
+        "coding": 81.6,
+        "math": 0,
+        "reasoning": 93.7
+      },
+      {
+        "model": "Claude Fable 5.1 (Adaptive Reasoning, Xhigh Effort, Default Fallback)",
+        "org": "Anthropic",
+        "intelligence": 53.2,
+        "coding": 80.7,
+        "math": 0,
+        "reasoning": 93.4
+      },
+      {
+        "model": "GPT-6 Astra (max)",
+        "org": "OpenAI",
+        "intelligence": 52.7,
+        "coding": 76.9,
+        "math": 0,
+        "reasoning": 96.1
+      },
+      {
+        "model": "GPT-6 Astra (xhigh)",
+        "org": "OpenAI",
+        "intelligence": 52.4,
+        "coding": 75.9,
+        "math": 0,
+        "reasoning": 96.3
+      },
+      {
+        "model": "Claude Opus 5.5 (Adaptive Reasoning, Medium Effort, Default Fallback)",
+        "org": "Anthropic",
+        "intelligence": 51.2,
+        "coding": 0,
+        "math": 0,
+        "reasoning": 0
+      },
+      {
+        "model": "Claude Fable 5.1 (Adaptive Reasoning, High Effort, Default Fallback)",
+        "org": "Anthropic",
+        "intelligence": 51.2,
+        "coding": 79.1,
+        "math": 0,
+        "reasoning": 90.6
+      },
+      {
+        "model": "GPT-6 Astra (high)",
+        "org": "OpenAI",
+        "intelligence": 50.9,
+        "coding": 77.1,
+        "math": 0,
+        "reasoning": 94.9
+      }
+    ],
+    "price": [
+      {
+        "model": "Claude Opus 5.5 (Adaptive Reasoning, Max Effort, Default Fallback)",
+        "org": "Anthropic",
+        "input": 4,
+        "output": 20,
+        "blended": 8
+      },
+      {
+        "model": "Claude Opus 5.5 (Adaptive Reasoning, Xhigh Effort, Default Fallback)",
+        "org": "Anthropic",
+        "input": 4,
+        "output": 20,
+        "blended": 8
+      },
+      {
+        "model": "Claude Opus 5.5 (Adaptive Reasoning, High Effort, Default Fallback)",
+        "org": "Anthropic",
+        "input": 4,
+        "output": 20,
+        "blended": 8
+      },
+      {
+        "model": "Claude Fable 5.1 (Adaptive Reasoning, Max Effort, Default Fallback)",
+        "org": "Anthropic",
+        "input": 10,
+        "output": 50,
+        "blended": 20
+      },
+      {
+        "model": "Claude Fable 5.1 (Adaptive Reasoning, Xhigh Effort, Default Fallback)",
+        "org": "Anthropic",
+        "input": 10,
+        "output": 50,
+        "blended": 20
+      },
+      {
+        "model": "GPT-6 Astra (max)",
+        "org": "OpenAI",
+        "input": 10,
+        "output": 50,
+        "blended": 20
+      },
+      {
+        "model": "GPT-6 Astra (xhigh)",
+        "org": "OpenAI",
+        "input": 10,
+        "output": 50,
+        "blended": 20
+      },
+      {
+        "model": "Claude Opus 5.5 (Adaptive Reasoning, Medium Effort, Default Fallback)",
+        "org": "Anthropic",
+        "input": 4,
+        "output": 20,
+        "blended": 8
+      },
+      {
+        "model": "Claude Fable 5.1 (Adaptive Reasoning, High Effort, Default Fallback)",
+        "org": "Anthropic",
+        "input": 10,
+        "output": 50,
+        "blended": 20
+      },
+      {
+        "model": "GPT-6 Astra (high)",
+        "org": "OpenAI",
+        "input": 10,
+        "output": 50,
+        "blended": 20
+      }
+    ],
+    "speed": [
+      {
+        "model": "Claude Opus 5.5 (Adaptive Reasoning, Max Effort, Default Fallback)",
+        "org": "Anthropic",
+        "outputSpeed": 98.6,
+        "ttft": 232.88
+      },
+      {
+        "model": "Claude Opus 5.5 (Adaptive Reasoning, Xhigh Effort, Default Fallback)",
+        "org": "Anthropic",
+        "outputSpeed": 84.7,
+        "ttft": 62.99
+      },
+      {
+        "model": "Claude Opus 5.5 (Adaptive Reasoning, High Effort, Default Fallback)",
+        "org": "Anthropic",
+        "outputSpeed": 79.0,
+        "ttft": 19.74
+      },
+      {
+        "model": "Claude Fable 5.1 (Adaptive Reasoning, Max Effort, Default Fallback)",
+        "org": "Anthropic",
+        "outputSpeed": 71.5,
+        "ttft": 137.69
+      },
+      {
+        "model": "Claude Fable 5.1 (Adaptive Reasoning, Xhigh Effort, Default Fallback)",
+        "org": "Anthropic",
+        "outputSpeed": 61.6,
+        "ttft": 37.06
+      },
+      {
+        "model": "GPT-6 Astra (max)",
+        "org": "OpenAI",
+        "outputSpeed": 55.3,
+        "ttft": 211.4
+      },
+      {
+        "model": "GPT-6 Astra (xhigh)",
+        "org": "OpenAI",
+        "outputSpeed": 53.2,
+        "ttft": 69.79
+      },
+      {
+        "model": "Claude Opus 5.5 (Adaptive Reasoning, Medium Effort, Default Fallback)",
+        "org": "Anthropic",
+        "outputSpeed": 75.5,
+        "ttft": 11.08
+      },
+      {
+        "model": "Claude Fable 5.1 (Adaptive Reasoning, High Effort, Default Fallback)",
+        "org": "Anthropic",
+        "outputSpeed": 50.0,
+        "ttft": 7.68
+      },
+      {
+        "model": "GPT-6 Astra (high)",
+        "org": "OpenAI",
+        "outputSpeed": 46.9,
+        "ttft": 21.66
+      }
+    ]
+  },
+  "image": {
+    "perf": [
+      {
+        "model": "GPT Image 2.5 Sunburst (max)",
+        "elo": 1196,
+        "rank": 1,
+        "org": "OpenAI",
+        "date": "2026-09"
+      },
+      {
+        "model": "GPT Image 2.5 Flare (max)",
+        "elo": 1190,
+        "rank": 2,
+        "org": "OpenAI",
+        "date": "2026-09"
+      },
+      {
+        "model": "GPT Image 2 (high)",
+        "elo": 1171,
+        "rank": 3,
+        "org": "OpenAI",
+        "date": "2026-04"
+      },
+      {
+        "model": "Grok Imagine Image 2.0",
+        "elo": 1157,
+        "rank": 4,
+        "org": "SpaceXAI",
+        "date": "2026-08"
+      },
+      {
+        "model": "MAI-Image-2.6",
+        "elo": 1148,
+        "rank": 5,
+        "org": "Microsoft AI",
+        "date": "2026-08"
+      },
+      {
+        "model": "Nano Banana 2 (Gemini 3.1 Flash Image)",
+        "elo": 1123,
+        "rank": 6,
+        "org": "Google",
+        "date": "2026-02"
+      },
+      {
+        "model": "Muse Image",
+        "elo": 1111,
+        "rank": 7,
+        "org": "Meta",
+        "date": "2026-07"
+      },
+      {
+        "model": "GPT Image 1.5 (high)",
+        "elo": 1104,
+        "rank": 8,
+        "org": "OpenAI",
+        "date": "2025-12"
+      }
+    ],
+    "price": [],
+    "speed": []
+  },
+  "speech": null,
+  "video": {
+    "perf": [
+      {
+        "model": "Wan 3.0",
+        "elo": 1335,
+        "rank": 1,
+        "org": "Alibaba",
+        "type": ""
+      },
+      {
+        "model": "Gemini Omni Flash",
+        "elo": 1332,
+        "rank": 2,
+        "org": "Google",
+        "type": ""
+      },
+      {
+        "model": "MiniMax H3",
+        "elo": 1302,
+        "rank": 3,
+        "org": "MiniMax",
+        "type": ""
+      },
+      {
+        "model": "HappyHorse-1.0",
+        "elo": 1286,
+        "rank": 4,
+        "org": "Alibaba-ATH",
+        "type": ""
+      },
+      {
+        "model": "HappyHorse-1.1",
+        "elo": 1272,
+        "rank": 5,
+        "org": "Alibaba-ATH",
+        "type": ""
+      },
+      {
+        "model": "Dreamina Seedance 2.0 720p",
+        "elo": 1259,
+        "rank": 6,
+        "org": "ByteDance Seed",
+        "type": ""
+      },
+      {
+        "model": "Wan2.7-260612",
+        "elo": 1243,
+        "rank": 7,
+        "org": "Alibaba",
+        "type": ""
+      },
+      {
+        "model": "grok-imagine-video",
+        "elo": 1235,
+        "rank": 8,
+        "org": "SpaceXAI",
+        "type": ""
+      }
+    ],
+    "price": [],
+    "speed": []
+  },
+  "_fetched_at": "2026-09-26T13:55:40.289957+08:00"
+}

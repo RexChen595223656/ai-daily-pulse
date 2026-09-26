@@ -1,0 +1,163 @@
+{
+  "date": "2026-08-25",
+  "generated_at": "2026-08-25T08:00:40.116033+08:00",
+  "highlight": "具身智能赛道迎来资本热潮，小鹏机器人融资超九亿美元，通用智能获六十亿美元估值，机器人基础模型同日双发。",
+  "fun": {
+    "lucky": "GEN-1.5",
+    "advice": "宜：观摩一段三秒的演示视频。\n忌：试图用三秒学会开飞机。",
+    "joke": "程序员问AI：“什么是爱？”AI回答：“CUDA out of memory。”"
+  },
+  "articles": [
+    {
+      "id": 1,
+      "cat": "model",
+      "title": "法斯蒂诺发布GLiNER2.5：用边界预测取代跨度枚举的信息抽取新架构",
+      "title_en": "Fastino Releases GLiNER2.5: A Boundary-Prediction Architecture That Removes Span Enumeration From Information Extraction",
+      "source": "MarkTechPost",
+      "url": "https://www.marktechpost.com/2026/08/24/fastino-releases-gliner2-5-a-boundary-prediction-architecture-that-removes-span-enumeration-from-information-extraction/",
+      "time": "1小时前",
+      "published": "2026-08-24T22:21:22+00:00",
+      "summary": "法斯蒂诺公司正式发布GLiNER2.5信息抽取模型，该模型采用创新的边界预测架构，彻底抛弃了传统的跨度枚举方法，使得实体宽度不再影响计算复杂度。此次发布包含三个基于Apache 2.0协议的开源检查点，参数量分别为7400万、1.94亿和2.87亿，全部支持在CPU上运行。新版本还加入了联合实体关系解码、约束分类以及跨度属性识别等高级功能，进一步提升了模型在复杂信息抽取任务中的表现。该架构的改进显著降低了推理成本，同时保持了较高的抽取精度，为大规模文本处理应用提供了更高效的解决方案。",
+      "snark": "终于不用再数实体宽度了，计算量减肥成功。"
+    },
+    {
+      "id": 2,
+      "cat": "policy",
+      "title": "特朗普在太空探索技术公司IPO两周后购入其股票",
+      "title_en": "Trump bought SpaceX shares two weeks after blockbuster IPO",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/08/24/trump-bought-spacex-shares-two-weeks-after-blockbuster-ipo/",
+      "time": "2小时前",
+      "published": "2026-08-24T21:24:17+00:00",
+      "summary": "据科技资讯网站TechCrunch报道，美国总统特朗普在太空探索技术公司完成轰动性首次公开募股仅两周后，便购入了该公司股票。当时股价处于每股150美元左右的中段区间。然而，太空探索技术公司股票在周一收盘时已回落至每股135美元的发行价。这一交易行为引发了外界对于总统投资活动与公共政策之间潜在利益冲突的广泛关注，尤其是在政府与商业航天领域合作日益紧密的背景下，总统的个人财务行为正受到更严格的审视。",
+      "snark": "总统抄底抄在了半山腰，这波操作很‘政治’。"
+    },
+    {
+      "id": 3,
+      "cat": "strategy",
+      "title": "Replit首席执行官将出席2026年TechCrunch Disrupt大会",
+      "title_en": "Amjad Masad, CEO and co-founder of Replit, joins the Disrupt Stage at TechCrunch Disrupt 2026",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/08/24/amjad-masad-ceo-and-co-founder-of-replit-joins-the-disrupt-stage-at-techcrunch-disrupt-2026/",
+      "time": "4小时前",
+      "published": "2026-08-24T19:54:19+00:00",
+      "summary": "Replit联合创始人兼首席执行官阿姆贾德·马萨德确认将出席2026年TechCrunch Disrupt大会并发表演讲。届时，他将分享对编程未来发展趋势的独到见解，并阐述Replit在塑造这一未来过程中所扮演的关键角色。作为在线集成开发环境与人工智能编程工具的领军企业，Replit一直致力于降低软件开发的门槛。马萨德的发言预计将围绕人工智能如何从根本上改变开发者与代码的交互方式，以及Replit如何利用大语言模型技术为用户提供从代码生成到部署的全流程智能化支持展开。",
+      "snark": "听他讲完，感觉我的IDE又要‘智能’到我不认识了。"
+    },
+    {
+      "id": 4,
+      "cat": "policy",
+      "title": "Instinct强大人工智能助手引发隐私与安全担忧",
+      "title_en": "Instinct’s powerful AI assistant is raising privacy and security concerns",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/08/24/instincts-powerful-ai-assistant-is-raising-privacy-and-security-concerns/",
+      "time": "5小时前",
+      "published": "2026-08-24T18:03:55+00:00",
+      "summary": "人工智能助手Instinct凭借其强大功能赢得了早期测试者的广泛赞誉，但其过度的系统访问权限、宽泛的用户协议条款以及能够代表用户自主执行操作的能力，正引发越来越多的隐私与安全担忧。批评者指出，该助手在为用户提供极大便利的同时，也带来了令人不安的权衡。其广泛的权限范围意味着用户数据面临更高的暴露风险，而“代表用户行事”的功能则可能在未经充分授权的情况下产生不可预期的后果。专家呼吁用户在享受此类先进人工智能服务时，应仔细审视其权限设置与隐私政策，警惕潜在的数据滥用风险。",
+      "snark": "它帮你搞定一切，包括把你的隐私也‘搞定’了。"
+    },
+    {
+      "id": 5,
+      "cat": "strategy",
+      "title": "小鹏汽车IRON人形机器人获创纪录物理人工智能投资",
+      "title_en": "XPENG IRON humanoid robot draws record physical AI funding",
+      "source": "AI News",
+      "url": "https://www.artificialintelligence-news.com/news/xpeng-iron-humanoid-robot-draws-record-physical-ai-funding/",
+      "time": "8小时前",
+      "published": "2026-08-24T15:53:53+00:00",
+      "summary": "小鹏汽车旗下的人工智能机器人业务部门宣布获得超过九亿美元的融资，公司估值达到六十三亿美元，创下物理人工智能领域的新纪录。本轮融资通过向多家投资者出售股份的方式完成，资金将主要用于扩大其IRON人形机器人平台的规模。这家中国电动汽车制造商正积极布局机器人赛道，将其视为未来业务增长的新引擎。此次巨额融资不仅彰显了资本市场对人形机器人技术商业化前景的强烈信心，也标志着小鹏汽车在从智能出行向更广泛的具身智能领域拓展的道路上迈出了坚实的一步。",
+      "snark": "造车的都去造人了，这跨界比AI还AI。"
+    },
+    {
+      "id": 6,
+      "cat": "strategy",
+      "title": "通用智能获六轮资本青睐，估值达六十亿美元进军机器人领域",
+      "title_en": "Valor, Point72 back General Intuition at $6B valuation as AI startup pushes into robotics",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/08/24/valor-point72-back-general-intuition-at-6b-valuation-as-ai-startup-pushes-into-robotics/",
+      "time": "8小时前",
+      "published": "2026-08-24T15:24:18+00:00",
+      "summary": "人工智能初创公司通用智能（General Intuition）正与包括Valor Ventures、Point72 Ventures和Seven Seven Six在内的新投资者进行谈判，计划以六十亿美元的投前估值完成新一轮融资。该公司专注于构建基础模型，旨在训练通用人工智能代理在空间和时间中自由移动。此次融资将为其向机器人领域的深入拓展提供强有力的资金支持。通用智能的技术路线被认为具有巨大的应用潜力，有望推动人工智能从数字世界向物理世界的跨越，实现更高级别的自主操作与交互能力。",
+      "snark": "让AI学会在空间里移动，这估值也跟着‘位移’了。"
+    },
+    {
+      "id": 7,
+      "cat": "strategy",
+      "title": "OpenAI打造全场景AI代理，大众普及面临挑战",
+      "title_en": "OpenAI is building AI agents for everything. Will everyone use them?",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/08/24/openai-is-building-an-ai-agent-for-everything-will-everyone-use-them/",
+      "time": "9小时前",
+      "published": "2026-08-24T15:00:00+00:00",
+      "summary": "前沿人工智能实验室OpenAI正在全力推进一项宏大的战略计划，旨在构建能够处理各种任务的通用人工智能代理，并将其从服务软件工程师扩展至普通大众。这一举措标志着OpenAI试图将人工智能代理从专业工具转变为日常生活的通用助手。然而，技术成熟度、用户信任度、成本控制以及潜在的安全风险，都是决定这些代理能否被广泛接受的关键因素。OpenAI正努力在功能强大与使用便捷之间寻找平衡，以期让这些智能代理真正融入普通人的工作与生活，但其普及之路仍充满未知与挑战。",
+      "snark": "AI代理要包办一切，那还要我干嘛？负责吃瓜吗？"
+    },
+    {
+      "id": 8,
+      "cat": "policy",
+      "title": "如何在课堂上引导更明智的人工智能使用方式",
+      "title_en": "How to encourage smarter AI use in the classroom",
+      "source": "MIT Tech Review",
+      "url": "https://www.technologyreview.com/2026/08/24/1142630/ai-school-classroom-policies/",
+      "time": "9小时前",
+      "published": "2026-08-24T14:20:19+00:00",
+      "summary": "麻省理工学院技术评论发文探讨如何在教育领域更明智地使用人工智能。文章指出，几年前聊天机器人的突然出现让许多学校措手不及，学生们几乎一夜之间就在手机里拥有了一个强大的智能应用。面对这一新形势，教育工作者和政策制定者正努力寻求平衡。文章通过案例分析和专家观点，探讨了制定合理课堂政策的重要性，旨在引导学生正确认识人工智能工具的能力与局限，培养其批判性思维，并防范学术不端行为。同时，也鼓励教师积极探索如何利用人工智能辅助个性化教学，提升教学效率。",
+      "snark": "以前怕学生抄答案，现在怕学生抄得太‘智能’了。"
+    },
+    {
+      "id": 9,
+      "cat": "model",
+      "title": "通用智能发布GEN-1.5：单次演示即可学会新任务的机器人基础模型",
+      "title_en": "Generalist AI Releases GEN-1.5: A Robot Foundation Model That Learns New Tasks From One 3–12 Second Demo",
+      "source": "MarkTechPost",
+      "url": "https://www.marktechpost.com/2026/08/24/generalist-ai-releases-gen-1-5-a-robot-foundation-model-that-learns-new-tasks-from-one-3-12-second-demo/",
+      "time": "9小时前",
+      "published": "2026-08-24T14:17:01+00:00",
+      "summary": "通用智能（Generalist AI）公司正式发布其机器人基础模型GEN-1.5，该模型具备从单一演示中学习新物理任务的能力。用户只需将时长三至十二秒的传感器运动数据输入其三十秒的上下文窗口，机器人即可学会执行相应任务。整个过程无需梯度更新、无需微调，也无需针对特定任务进行编程。这一突破性进展大幅降低了机器人技能习得的门槛，使得机器人能够像人类一样通过观察快速学习新技能。GEN-1.5的发布预示着机器人将从预先编程执行特定任务，向灵活适应多变环境的通用智能体方向迈进。",
+      "snark": "看一遍就会，比我教过的某些实习生强多了。"
+    },
+    {
+      "id": 10,
+      "cat": "model",
+      "title": "谷歌研究提出ME-POIs框架：为文本地点嵌入注入“使用方式”维度",
+      "title_en": "Google Research Introduces ME-POIs: A Mobility-Informed Framework that Adds “How a Place Is Used” to Text-Based POI Embeddings",
+      "source": "MarkTechPost",
+      "url": "https://www.marktechpost.com/2026/08/24/google-research-introduces-me-pois-a-mobility-informed-framework-that-adds-how-a-place-is-used-to-text-based-poi-embeddings/",
+      "time": "10小时前",
+      "published": "2026-08-24T13:56:59+00:00",
+      "summary": "谷歌研究院推出了一项名为ME-POIs的创新框架，旨在改进基于文本的地点嵌入表示。传统语言模型能够描述一个地点“是什么”，却忽略了该地点“如何被使用”。ME-POIs框架通过将聚合的人类移动数据融入地点嵌入中，弥补了这一缺陷。该框架将每次访问编码为一个情境化向量，并通过对比学习将其与每个地点的一个可学习原型对齐，从而实现知识迁移。这一方法使得地点嵌入不仅包含静态属性，还蕴含了动态的人类活动模式，为位置推荐、城市分析和相关下游任务提供了更丰富、更准确的特征表示。",
+      "snark": "以后推荐餐厅，不光看评价，还得看大家是不是真的爱去。"
+    },
+    {
+      "id": 11,
+      "cat": "strategy",
+      "title": "Hugging Face据传正洽谈以130亿美元价格被收购",
+      "title_en": "Hugging Face reportedly in talks to be acquired for $13B",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/08/24/hugging-face-reportedly-in-talks-to-be-acquired-for-13b/",
+      "time": "10小时前",
+      "published": "2026-08-24T13:47:26+00:00",
+      "summary": "据科技资讯网站TechCrunch报道，人工智能社区与模型托管平台Hugging Face据传已收到多份收购要约，估值约在一百三十亿美元左右。然而，由于创始人对社区所怀有的强烈责任感，这笔交易能否最终达成存在诸多疑问。Hugging Face作为开源人工智能生态系统的核心枢纽，其平台托管了海量模型与数据集，拥有庞大的开发者社区。被大型科技公司收购可能会改变其独立运营和中立立场，从而影响整个开源人工智能社区的生态平衡。创始团队的犹豫态度反映出他们在商业利益与社区使命之间的艰难抉择。",
+      "snark": "一百三十亿买走一个社区？这得问过几百万开发者答不答应。"
+    },
+    {
+      "id": 12,
+      "cat": "policy",
+      "title": "下载专栏：儿童学习能力超越AI，太空旅行代理崭露头角",
+      "title_en": "The Download: kids outlearning AI, and space travel agents",
+      "source": "MIT Tech Review",
+      "url": "https://www.technologyreview.com/2026/08/24/1142863/the-download-kids-outlearning-ai-space-travel-agents/",
+      "time": "11小时前",
+      "published": "2026-08-24T12:10:00+00:00",
+      "summary": "麻省理工学院技术评论的每日通讯《The Download》本期聚焦两个引人深思的话题。首先，文章探讨了一个未解之谜：儿童在语言学习上远超人工智能，尽管科学家们仍未完全理解其背后的机制。训练计算机理解人类语言需要海量数据，而一个大型语言模型可以轻松处理数千亿词元的文本，但一个儿童仅需接触相对有限的语言输入便能流利掌握。其次，本期还介绍了太空旅行代理这一新兴应用，预示着人工智能代理技术将在太空探索领域发挥越来越重要的作用，为复杂的航天任务提供智能化支持。",
+      "snark": "小孩学说话比AI快，还不用烧几亿电费，这波人类赢了。"
+    }
+  ],
+  "stats": {
+    "total": 12,
+    "model_count": 3,
+    "strategy_count": 5,
+    "tool_count": 0,
+    "policy_count": 4
+  }
+}

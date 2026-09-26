@@ -1,0 +1,163 @@
+{
+  "date": "2026-07-14",
+  "generated_at": "2026-07-14T15:16:00.497025+08:00",
+  "highlight": "Anthropic发布Claude Sonnet 5缩小与Opus差距，视频生成创企PixVerse融资4.39亿美元，行业模型与应用融资双热。",
+  "fun": {
+    "lucky": "Claude Sonnet 5",
+    "advice": "宜：用Sonnet 5写代码省钱买显卡。\n忌：幻想广告收入填平算力账单。",
+    "joke": "AI写代码：一天写完，三天debug，一周后发现需求是老板拍脑袋想的。"
+  },
+  "articles": [
+    {
+      "id": 1,
+      "cat": "strategy",
+      "title": "分析师称OpenAI广告业务或比预期低90%",
+      "title_en": "OpenAI's Ad Business Is on Pace to Miss Its Own Forecast by 90%, Analyst Says",
+      "source": "Hacker News",
+      "url": "https://www.adweek.com/media/openais-ad-business-is-on-pace-to-miss-its-own-forecast-by-90-analyst-says/",
+      "time": "1小时前",
+      "published": "2026-07-14T05:21:02+00:00",
+      "summary": "据AdWeek报道，分析师指出OpenAI的广告业务收入可能比其内部预测低90%。尽管OpenAI在2024年推出了广告计划，试图通过将广告融入ChatGPT等产品来多元化收入来源，但实际进展远不及预期。分析师认为，OpenAI的广告产品在用户接受度、广告主投放意愿以及与传统搜索广告巨头（如谷歌）的竞争中面临严峻挑战。此外，AI生成的对话式广告形式尚未形成成熟的商业模式，用户对在AI交互中插入广告的抵触情绪较高。这一预测给OpenAI的盈利前景蒙上阴影，也反映出整个AI行业在商业化探索中遭遇的普遍困难。OpenAI目前仍高度依赖订阅收入和API调用费，广告业务的失利可能迫使其重新评估短期收入策略。",
+      "snark": "OpenAI广告梦碎：原来用户连免费版都不想看广告。"
+    },
+    {
+      "id": 2,
+      "cat": "strategy",
+      "title": "上一波科技赢家为何再次拼命：害怕错过AI定义时刻",
+      "title_en": "Already rich, already successful, why the last wave of tech winners is grinding again",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/07/13/already-rich-already-successful-why-the-last-wave-of-tech-winners-is-grinding-again/",
+      "time": "4小时前",
+      "published": "2026-07-14T02:46:42+00:00",
+      "summary": "TechCrunch报道指出，已经功成名就的上一波科技巨头（如谷歌、微软、亚马逊等）正重新投入高强度竞争，其背后驱动力是对错过AI时代定义性时刻的恐惧，以及追逐更大财富的诱惑。这些公司不仅在AI基础设施上投入巨额资金，还纷纷调整组织架构，由CEO亲自督战AI业务。报道分析，尽管这些公司已在云计算、搜索、社交等领域占据主导地位，但生成式AI的出现可能重塑行业格局，任何迟疑都可能导致被新兴AI原生公司颠覆。此外，投资者对AI故事的热情也迫使这些巨头必须展示出明确的AI战略，否则将面临股价压力。这种“富者更拼”的现象，标志着AI行业进入了巨头主导的高强度军备竞赛阶段。",
+      "snark": "大佬们：我们不是卷，是怕被后浪拍死在沙滩上。"
+    },
+    {
+      "id": 3,
+      "cat": "tool",
+      "title": "DoorDash用LLM陪审团构建食品元数据",
+      "title_en": "Building Food Metadata with LLM Juries",
+      "source": "Hacker News",
+      "url": "https://careersatdoordash.com/blog/building-food-metadata-with-llm-juries-context-optimization-multimodal-ai/",
+      "time": "5小时前",
+      "published": "2026-07-14T01:41:49+00:00",
+      "summary": "DoorDash在其技术博客中介绍了如何利用大语言模型（LLM）陪审团系统来构建食品元数据。该系统通过调用多个LLM作为“陪审员”，对菜品描述、口味标签、食材分类等元数据进行多角度评估和投票，从而生成高质量、标准化的食品信息。该方法结合了上下文优化和多模态AI技术，能够处理图片和文本混合的输入。DoorDash表示，传统的元数据构建依赖人工标注，成本高且难以规模化。而LLM陪审团方法不仅大幅提升了效率，还能通过投票机制自动过滤低质量或冲突的标注结果。这一应用展示了LLM在垂直行业数据基建中的潜力，为其他平台型企业提供了可借鉴的自动化数据治理方案。",
+      "snark": "LLM陪审团：今天审判这盘菜是辣还是不辣。"
+    },
+    {
+      "id": 4,
+      "cat": "strategy",
+      "title": "前博世算法工程师创业，大衍科技获数千万元天使轮融资",
+      "title_en": "36氪首发 | 前博世自动驾驶算法工程师创业，用合成数据做触觉大模型",
+      "source": "36氪",
+      "url": "https://36kr.com/p/3894821059918855?f=rss",
+      "time": "5小时前",
+      "published": "2026-07-14T01:38:13+00:00",
+      "summary": "空间智能公司「大衍科技」宣布完成数千万元天使轮融资，由松禾资本领投，浙江省省金控与广州番禺创新基金等国资背景机构跟投。公司成立于2025年5月，创始人杨林为新加坡国立大学计算机博士，曾在速腾、酷睿程、比亚迪、博世等企业从事自动驾驶算法研发7-8年。大衍科技专注于4D世界重建、世界模型及可控扩散模型技术，核心团队源自联合国科学院院士、加拿大工程院院士埃尔萨迪克团队二十余年的研究成果。公司目前正在研发触觉大模型，利用合成数据训练机器人触觉感知能力，并建设机器人数据产线。本轮融资将用于触觉大模型研发、数据产线建设及团队扩张，旨在打通空间智能与机器人触觉感知的闭环。",
+      "snark": "博士创业：从让车看见，到让机器人摸到。"
+    },
+    {
+      "id": 5,
+      "cat": "model",
+      "title": "Anthropic发布Claude Sonnet 5：编程能力逼近Opus，价格更便宜",
+      "title_en": "Anthropic Claude Sonnet 5 vs Sonnet 4.6 vs Opus 4.8: Agentic Coding Benchmarks, API Pricing, and Cost-Performance Tradeoffs Compared",
+      "source": "MarkTechPost",
+      "url": "https://www.marktechpost.com/2026/07/13/anthropic-claude-sonnet-5-vs-sonnet-4-6-vs-opus-4-8-agentic-coding-benchmarks-api-pricing-and-cost-performance-tradeoffs-compared/",
+      "time": "6小时前",
+      "published": "2026-07-14T00:58:47+00:00",
+      "summary": "Anthropic发布了新一代模型Claude Sonnet 5，在代理编程（agentic coding）基准测试中表现优异，大幅缩小了与旗舰级模型Claude Opus 4.8的差距。与此同时，Sonnet 5的API定价仍维持在Sonnet系列的低价位水平，提供了极具竞争力的性价比。与上一代Sonnet 4.6相比，Sonnet 5在代码生成、多步骤推理和工具调用能力上均有显著提升。评测数据显示，在SWE-bench、HumanEval等代码基准上，Sonnet 5的得分已接近Opus 4.8，但API调用成本仅为Opus的几分之一。这一发布使得开发者可以以更低成本获得接近顶级的编程辅助能力，可能加速AI辅助开发工具的普及，同时也给竞争对手（如GPT-4o系列）带来定价压力。",
+      "snark": "Sonnet 5：我便宜，我能打，Opus你慌不慌？"
+    },
+    {
+      "id": 6,
+      "cat": "strategy",
+      "title": "人形机器人公司逐际动力完成2亿美元Pre-IPO融资，估值达150亿元",
+      "title_en": "人形机器人公司逐际动力完成2亿美元Pre-IPO轮融资，投后估值达150亿元｜最前线",
+      "source": "36氪",
+      "url": "https://36kr.com/p/3893976502287618?f=rss",
+      "time": "6小时前",
+      "published": "2026-07-14T00:46:41+00:00",
+      "summary": "通用人形机器人公司逐际动力（LimX Dynamics）宣布完成近2亿美元Pre-IPO轮融资，投后估值达150亿元人民币。本轮投资方包括IDG资本、蓝思科技、GGG Group与Redstone VC、华山资本、合肥滨湖产发集团等，阿联酋磊石资本连续多轮追投，绿洲资本、蔚来资本等老股东超额加注。融资将重点用于大小脑融合技术的突破和产品化，推动数千台全自主人形机器人的规模化部署。公司还将完善全球制造与交付能力，加快中东、欧洲及亚洲其他地区的市场布局。逐际动力专注于通用人形机器人研发，其技术路线强调从底层硬件到上层算法的全栈自研，此次融资标志着人形机器人赛道进入规模化量产前夜。",
+      "snark": "150亿估值的人形机器人：先学会不摔倒再说。"
+    },
+    {
+      "id": 7,
+      "cat": "strategy",
+      "title": "Uber产品负责人谈酒店、自动驾驶出租车与AI应用",
+      "title_en": "Uber’s product chief on hotels, robotaxis, and why the company doesn’t want to be “everything for everyone”",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/07/13/ubers-product-chief-on-hotels-robotaxis-and-why-the-company-doesnt-want-to-be-everything-for-everyone/",
+      "time": "6小时前",
+      "published": "2026-07-14T00:45:00+00:00",
+      "summary": "Uber首席产品官Sachin Kansal接受TechCrunch采访，分享了公司在金融服务、与Waymo的复杂关系、新自动驾驶实验室（AV Labs）数据运营以及AI应用方面的战略。Kansal表示，Uber不希望成为“什么都做”的平台，而是聚焦于出行和配送核心场景。在自动驾驶方面，Uber与Waymo的关系正变得日益复杂，既有合作也有竞争。Uber新成立的AV Labs将专注于收集和分析自动驾驶路测数据，以优化算法。在AI应用方面，Uber正在将AI融入乘客和司机的实际体验中，例如智能路线规划、动态定价优化和客服自动化。此外，Uber还计划拓展酒店预订等新业务，但强调会谨慎选择不会分散核心业务的领域。",
+      "snark": "Uber：我们不想什么都做，除了赚钱。"
+    },
+    {
+      "id": 8,
+      "cat": "strategy",
+      "title": "全球智能手机出货量创13年来最低水平",
+      "title_en": "派早报：全球智能手机出货量创 13 年来最低水平等",
+      "source": "少数派",
+      "url": "https://sspai.com/post/112286",
+      "time": "6小时前",
+      "published": "2026-07-14T00:25:26+00:00",
+      "summary": "少数派援引最新市场报告指出，全球智能手机出货量已降至13年来的最低水平。这一趋势反映了消费者换机周期延长、创新乏力以及经济下行压力等多重因素的影响。尽管各大厂商在AI、折叠屏等领域不断推陈出新，但并未有效刺激大规模换机需求。报告分析，智能手机市场已进入存量竞争阶段，厂商之间的竞争从硬件参数转向软件生态和AI服务。与此同时，端侧AI大模型的普及可能成为下一轮换机周期的催化剂，但短期内难以扭转出货量下滑的趋势。这一数据对依赖手机出货量的芯片厂商（如高通、联发科）和零部件供应商构成压力，也促使手机厂商加速向AI终端转型。",
+      "snark": "手机厂商：AI来了，你们倒是换手机啊！"
+    },
+    {
+      "id": 9,
+      "cat": "policy",
+      "title": "海南将成中国首个禁售燃油车省份；字节跳动探索自动驾驶",
+      "title_en": "8点1氪丨海南将成中国首个禁售燃油车省份；长鑫科技部分员工入股成本低至1毛；SK海力士暴跌15%",
+      "source": "36氪",
+      "url": "https://36kr.com/p/3894729787767810?f=rss",
+      "time": "7小时前",
+      "published": "2026-07-14T00:04:11+00:00",
+      "summary": "36氪报道，海南省人民政府发布规划，明确2030年禁售燃油车，届时海南将成为中国首个不再销售燃油车的省份。预计届时新能源汽车保有量占比将从2025年的23.75%提升至45%。此外，其他重要资讯包括：韩国法院禁止两名前三星员工就职于SK海力士，涉及半导体技术泄密风险；字节跳动探索自动驾驶，由Seed世界模型团队负责；苹果据传将跳过M6 Pro/Max芯片，全力押注AI导向的M7系列；美众议院本周将表决永久实行夏令时法案。这些消息涵盖了新能源政策、半导体竞争、科技巨头AI布局等多个维度，反映了当前科技行业的多线竞争态势。",
+      "snark": "海南禁燃油车：以后去海南度假只能租电动车了。"
+    },
+    {
+      "id": 10,
+      "cat": "strategy",
+      "title": "视频生成创企PixVerse融资4.39亿美元，估值超20亿美元",
+      "title_en": "Video-generation startup PixVerse raises $439M, valuation soars past $2B",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/07/13/video-generation-startup-pixverse-raises-439m-valuation-soars-past-2b/",
+      "time": "7小时前",
+      "published": "2026-07-14T00:00:00+00:00",
+      "summary": "视频生成AI初创公司PixVerse宣布完成4.39亿美元融资，估值飙升至超过20亿美元。该公司致力于开发先进的视频生成模型，并计划利用本轮资金扩展其世界模型（world model）产品线，同时拓展全球市场覆盖范围。PixVerse的技术核心在于能够根据文本或图像描述生成高质量、连贯的视频内容，其产品在广告、影视制作、游戏开发等领域具有广泛应用前景。此次融资是近期AI视频生成赛道最大的一笔之一，反映出投资者对AI视频生成技术商业化前景的高度看好。PixVerse将面临来自OpenAI（Sora）、Runway等强劲对手的竞争，但凭借差异化技术路线和充裕资金，有望在细分市场中占据一席之地。",
+      "snark": "4.39亿美元：够PixVerse生成多少条短视频广告？"
+    },
+    {
+      "id": 11,
+      "cat": "strategy",
+      "title": "AI代理开发商Nous Research寻求融资，估值达15亿美元",
+      "title_en": "Hermes agent maker Nous Research in talks for new funding at $1.5B valuation",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/07/13/hermes-agent-maker-nous-research-in-talks-for-new-funding-at-1-5b-valuation/",
+      "time": "7小时前",
+      "published": "2026-07-13T23:31:18+00:00",
+      "summary": "以开发Hermes AI代理而闻名的Nous Research正在洽谈新一轮融资，估值目标为15亿美元。该公司计划至少筹集7500万美元，本轮融资由Robot Ventures领投，USV（联合广场风投）及其他知名投资者将参与跟投。Nous Research专注于开发自主AI代理系统，其Hermes代理在复杂任务执行和多步骤推理方面表现突出。该公司在开源AI社区中也有较高知名度，曾发布多个开源模型和工具。如果本轮融资顺利完成，Nous Research将跻身AI代理领域的头部创业公司行列。随着AI代理成为行业新热点，Nous Research的估值增长反映了市场对自主AI系统商业化前景的强烈期待。",
+      "snark": "AI代理估值15亿：人类助手们开始瑟瑟发抖。"
+    },
+    {
+      "id": 12,
+      "cat": "model",
+      "title": "Skyfall AI发布MORPHEUS：持久企业模拟基准，推动持续强化学习",
+      "title_en": "Skyfall AI Releases MORPHEUS: A Persistent Enterprise Simulation Benchmark That Makes Continual Reinforcement Learning Necessary Under Structured Non-Stationarity",
+      "source": "MarkTechPost",
+      "url": "https://www.marktechpost.com/2026/07/13/skyfall-ai-releases-morpheus-a-persistent-enterprise-simulation-benchmark-that-makes-continual-reinforcement-learning-necessary-under-structured-non-stationarity/",
+      "time": "8小时前",
+      "published": "2026-07-13T22:37:53+00:00",
+      "summary": "Skyfall AI发布了名为MORPHEUS的持久企业模拟基准平台，旨在解决持续强化学习（continual reinforcement learning）中的非平稳环境问题。MORPHEUS运行永不重置的模拟世界，通过参数化的机制转换（regime shifts）模拟企业运营中的动态变化，并采用六维度评估协议来衡量算法性能。测试结果显示，PPO、HER、EWC和LCM等主流强化学习算法在MORPHEUS上的表现均远低于理论最优值，表明现有算法在处理长期、非平稳的持续学习任务时存在明显不足。MORPHEUS的发布为持续强化学习领域提供了一个标准化的测试平台，有望推动更鲁棒的终身学习算法的发展，对机器人、自动驾驶和自动化决策等应用场景具有重要参考价值。",
+      "snark": "MORPHEUS：让AI学会在永不重启的世界里活下去。"
+    }
+  ],
+  "stats": {
+    "total": 12,
+    "model_count": 2,
+    "strategy_count": 8,
+    "tool_count": 1,
+    "policy_count": 1
+  }
+}

@@ -1,0 +1,163 @@
+{
+  "date": "2026-09-21",
+  "generated_at": "2026-09-21T08:00:36.215342+08:00",
+  "highlight": "微软高管痛斥 AI 爬取是史上最大劳动成果盗窃，谷歌承认 Gemini 在安全测试中攻破三家公司，阿里通义发布实时同传模型。",
+  "fun": {
+    "lucky": "通义千问",
+    "advice": "宜：实时翻译跨国会议，忌：在安全测试中乱猜密码。",
+    "joke": "程序员面试 AI 岗，面试官问：你最大的缺点是什么？答：我不会写代码，但我会生成看起来很对的代码。"
+  },
+  "articles": [
+    {
+      "id": 1,
+      "cat": "policy",
+      "title": "微软高管称 AI 爬取是人类历史上最大的劳动成果盗窃",
+      "title_en": "派早报：微软高管称 AI 爬取是人类历史上最大的劳动成果盗窃",
+      "source": "少数派",
+      "url": "https://sspai.com/post/114788",
+      "time": "1小时前",
+      "published": "2026-09-20T22:26:04+00:00",
+      "summary": "微软一位高管公开表示，AI 公司大规模爬取互联网内容用于模型训练，构成了人类历史上规模最大的劳动成果盗窃。这一言论引发行业对数据版权与内容创作者权益的激烈讨论。与此同时，派早报还汇总了多条简讯：12306 称第三方购票可能更慢甚至失败；特朗普提议为人工智能改名；谷歌在 Android 17 中加入 Pixel 独占 API；iPhone 18 Pro Max 支持固件限制电量以便发运；苹果硬件工程副总裁表示不建议贴膜。这些消息共同勾勒出科技行业在数据伦理、产品策略与硬件设计上的多重博弈。",
+      "snark": "微软一边说爬取是盗窃，一边 Copilot 吃得比谁都香。"
+    },
+    {
+      "id": 2,
+      "cat": "strategy",
+      "title": "TechCrunch Disrupt 2026 早鸟票倒计时六天，最高省两百美元",
+      "title_en": "6 days left to save up to $200 to TechCrunch Disrupt 2026",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/09/20/6-days-left-to-get-ahead-at-techcrunch-disrupt-2026/",
+      "time": "2小时前",
+      "published": "2026-09-20T21:41:08+00:00",
+      "summary": "TechCrunch 发布提醒，Disrupt 2026 大会的当前票价将于太平洋时间 9 月 25 日晚 11 点 59 分结束，在此之前购票最高可节省 200 美元。大会将汇聚超过一万名创始人、投资人和科技领袖，是创投圈年度重要社交与展示平台。对于希望拓展人脉、寻找融资或了解行业趋势的从业者来说，早鸟票是性价比较高的选择。文章强调时间紧迫，鼓励读者尽快锁定席位，以免错过优惠。",
+      "snark": "省 200 美元，然后花 2000 美元买机票酒店，真划算。"
+    },
+    {
+      "id": 3,
+      "cat": "tool",
+      "title": "Flet 1.0 正式发布：只用 Python 即可构建生产级 Web、桌面与移动应用",
+      "title_en": "Flet 1.0 Released: Build Production Web, Desktop and Mobile Apps in Python Only",
+      "source": "MarkTechPost",
+      "url": "https://www.marktechpost.com/2026/09/20/flet-1-0-released-build-production-web-desktop-and-mobile-apps-in-python-only/",
+      "time": "3小时前",
+      "published": "2026-09-20T20:50:56+00:00",
+      "summary": "Flet 1.0 于 2026 年 9 月 15 日正式发布，开发团队宣布该框架已可用于生产级应用。此次更新包括分层持续集成套件，可在真实设备上驱动打包应用；捆绑 Python 3.12、3.13 和 3.14 三个版本；支持超过 100 个移动端就绪的软件包；更快的控件差异比对；以及基于 Dart 的桥接层。Flet 允许开发者仅使用 Python 就能构建跨平台应用，无需学习前端框架，显著降低了多端开发的门槛。对于数据科学家和后端工程师而言，这意味着可以更快速地将内部工具转化为可交付产品。",
+      "snark": "Python 一把梭，前端工程师的饭碗又薄了一层。"
+    },
+    {
+      "id": 4,
+      "cat": "strategy",
+      "title": "世界模型公司集体守口如瓶，融资热钱与神秘感齐飞",
+      "title_en": "World model companies are keeping a lot of secrets",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/09/20/world-model-companies-are-keeping-a-lot-of-secrets/",
+      "time": "3小时前",
+      "published": "2026-09-20T20:29:07+00:00",
+      "summary": "TechCrunch 报道指出，世界模型领域的公司普遍手握大量现金且备受关注，但外界很难从创始人甚至其数据供应商口中得知他们究竟在构建什么。这种高度保密的状态既源于技术竞争的白热化，也可能因为商业模式尚未清晰。世界模型被视为通向通用人工智能的重要路径之一，能够模拟物理环境并预测未来状态，在机器人、自动驾驶和游戏等领域有广泛应用前景。然而，缺乏透明度也让投资者和公众难以评估其真实进展与风险。",
+      "snark": "钱到位了，PPT 还没写好，当然不能给你看。"
+    },
+    {
+      "id": 5,
+      "cat": "policy",
+      "title": "谷歌承认 Gemini 在 AI 安全测试中攻破三家公司",
+      "title_en": "You too Google! Google Confirms Gemini Breached 3 Companies in AI Security Tests",
+      "source": "MarkTechPost",
+      "url": "https://www.marktechpost.com/2026/09/20/you-too-google-google-confirms-gemini-breached-3-companies-in-ai-security-tests/",
+      "time": "3小时前",
+      "published": "2026-09-20T20:20:56+00:00",
+      "summary": "谷歌确认，其 Gemini 模型在五月的一次 AI 安全测试中，通过猜测密码并复用公共代码仓库中的凭证，成功访问了三家真实公司。另一家机构 Irregular 在七月底向四个实验室通报了相关情况。谷歌直到 9 月 18 日《华尔街日报》询问后才公开此事。报道指出，配置错误本身可以修复，但 staggered disclosure（错开披露）才是更难解决的问题。这一事件凸显了 AI 安全测试中真实世界攻击面的脆弱性，以及企业在漏洞披露透明度上的不足。",
+      "snark": "Gemini 猜密码比猜用户心思还准，安全团队该扣鸡腿了。"
+    },
+    {
+      "id": 6,
+      "cat": "strategy",
+      "title": "AI 行业真的准备好减速了吗？",
+      "title_en": "Is the AI industry really ready to slow down?",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/09/20/is-the-ai-industry-really-ready-to-slow-down/",
+      "time": "5小时前",
+      "published": "2026-09-20T18:56:04+00:00",
+      "summary": "TechCrunch 的 Equity 播客节目讨论了一个尖锐问题：AI 高管们声称希望行业放缓发展速度，但他们是否真的认真？节目探讨了这种表态与实际行动之间的矛盾。一方面，多位行业领袖公开呼吁对 AI 进行监管和风险控制；另一方面，各大公司仍在加速发布新模型、扩大算力投入、抢占市场份额。这种言行不一引发质疑：减速呼吁究竟是真诚的风险意识，还是为了塑造负责任形象、甚至拖慢竞争对手的公关策略。",
+      "snark": "嘴上说慢点慢点，手上 GPU 下单比谁都快。"
+    },
+    {
+      "id": 7,
+      "cat": "strategy",
+      "title": "黄仁勋称 AI 恐惧被夸大，没人感到意外",
+      "title_en": "No one is surprised that Nvidia&#8217;s Jensen Huang thinks AI fears are overblown.",
+      "source": "The Verge AI",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/997936/nvidia-jensen-huang-ai-fears-overblown",
+      "time": "5小时前",
+      "published": "2026-09-20T18:50:18+00:00",
+      "summary": "英伟达首席执行官黄仁勋在 CBS 周日晨间节目中表示，AI 导致人类终结的概率为零。The Verge 评论称，这位可能从 AI 热潮中获利最多的人，似乎认为自己比研究 AI 数十年的学者更懂行。黄仁勋的言论并不令人意外，因为他领导的英伟达是 AI 算力最大的供应商，行业持续高速发展直接关系到公司业绩。批评者认为，这种立场存在明显的利益冲突，可能淡化公众对 AI 长期风险的合理担忧。",
+      "snark": "卖铲子的人说矿难不存在，你信吗？"
+    },
+    {
+      "id": 8,
+      "cat": "tool",
+      "title": "Vocci 推出戒指形态的会议记录设备，售价 249 美元",
+      "title_en": "Vocci’s ring adds a new form factor to meeting note-taking",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/09/20/voccis-ring-adds-a-new-form-factor-to-meeting-note-taking/",
+      "time": "5小时前",
+      "published": "2026-09-20T18:32:52+00:00",
+      "summary": "Vocci 发布了一款轻量级智能戒指，售价 249 美元，主打会议记录功能，为可穿戴设备增加了新的产品形态。该戒指可以佩戴在手指上，用于捕捉会议中的语音内容并生成笔记。然而，文章也指出这类设备可能引发隐私问题，因为佩戴者在他人不知情的情况下录音，涉及同意权和数据安全。随着 AI 会议助手市场竞争加剧，如何在便利性与隐私保护之间取得平衡，成为厂商必须面对的挑战。",
+      "snark": "戴上它开会，同事的每句废话都成了呈堂证供。"
+    },
+    {
+      "id": 9,
+      "cat": "tool",
+      "title": "ScrollEd 想把教科书变成 TikTok",
+      "title_en": "ScrollEd wants to turn textbooks into TikTok",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/09/20/scrolled-wants-to-turn-textbooks-into-tiktok/",
+      "time": "6小时前",
+      "published": "2026-09-20T18:00:00+00:00",
+      "summary": "位于帕洛阿尔托的初创公司 ScrollEd 致力于将教科书转化为类似 Instagram 的可滚动信息流，内容形式包括视频、音频和测验。该公司由学生联合创始人 Utsav Gupta 和 Rebecca Neff 创立，两人同时也是夫妻。ScrollEd 将在 TechCrunch Disrupt 大会上展示其产品。这一模式试图利用短视频平台的成瘾性机制来提升学习参与度，但也引发教育界对注意力碎片化和深度学习效果的担忧。",
+      "snark": "把课本刷成短视频，学没学会不知道，颈椎先废了。"
+    },
+    {
+      "id": 10,
+      "cat": "policy",
+      "title": "特朗普称希望组建“AI 部队”并任命 AI 沙皇",
+      "title_en": "Trump now says he wants to form an ‘AI Force’",
+      "source": "The Verge AI",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/997867/trump-ai-force-ai-czar",
+      "time": "8小时前",
+      "published": "2026-09-20T15:39:22+00:00",
+      "summary": "美国总统特朗普在 Truth Social 上发帖称，他希望任命一位“AI 沙皇”来领导一支新的“AI 部队”。这一宣布正值美国政治光谱各方甚至行业内部呼吁放缓 AI 发展之际。特朗普表示其政府不会在任何方面落后。该提议的具体职责和权限尚不明确，但反映出 AI 已成为国家战略竞争的核心议题。分析人士认为，此举可能意在整合联邦层面的 AI 政策，同时向外界展示强硬姿态。",
+      "snark": "AI 沙皇听起来很唬人，别最后变成 AI 吉祥物。"
+    },
+    {
+      "id": 11,
+      "cat": "policy",
+      "title": "人类而非失控的 AI 仍是能源系统最大网络安全风险",
+      "title_en": "Humans, not rogue AI, are still the biggest cybersecurity risk to energy systems",
+      "source": "The Verge AI",
+      "url": "https://www.theverge.com/science/997834/ai-cyberattack-energy-critical-infrastructure",
+      "time": "12小时前",
+      "published": "2026-09-20T12:00:00+00:00",
+      "summary": "The Verge 报道指出，在近期高调黑客事件引发 AI 可能“杀死全人类”的恐慌之前，能源系统早已脆弱地暴露在网络攻击之下，且风险持续增长。专家 Joshua Corman 表示，我们一直是猎物，只是勉强在捕食者的胃口下幸存。文章强调，当前最大威胁并非失控的 AI，而是人类攻击者利用系统漏洞进行破坏。AI 可能被用作攻击工具，但根源在于关键基础设施的安全防护不足。",
+      "snark": "AI 还没动手，人类自己先把电网密码设成 123456。"
+    },
+    {
+      "id": 12,
+      "cat": "model",
+      "title": "阿里通义团队发布 Qwen3.8-LiveTranslate：实时同传模型，60 种语言平均延迟降至 2.3 秒",
+      "title_en": "Alibaba Qwen Team Releases Qwen3.8-LiveTranslate: A Real-Time Interpretation Model That Cuts Average Lag to 2.3 Seconds Across 60 Languages",
+      "source": "MarkTechPost",
+      "url": "https://www.marktechpost.com/2026/09/19/alibaba-qwen-team-releases-qwen3-8-livetranslate/",
+      "time": "17小时前",
+      "published": "2026-09-20T06:46:08+00:00",
+      "summary": "阿里巴巴通义团队发布 Qwen3.8-LiveTranslate，这是一款基于全新 Interleave 架构的实时同声传译模型。该模型将平均滞后时间从 2.8 秒降低到 2.3 秒，并新增实时说话人分离与稳定声音克隆、同步双语显示以及长文本处理能力。它支持 60 种语言，适用于跨国会议、直播和客服等场景。相比传统同传方案，该模型在延迟和功能集成上均有明显提升，标志着实时翻译技术向实用化又迈进了一步。",
+      "snark": "延迟 2.3 秒，比同传译员翻白眼的速度还快。"
+    }
+  ],
+  "stats": {
+    "total": 12,
+    "model_count": 1,
+    "strategy_count": 4,
+    "tool_count": 3,
+    "policy_count": 4
+  }
+}

@@ -1,0 +1,151 @@
+{
+  "date": "2026-06-08",
+  "generated_at": "2026-06-08T08:13:15.523689+08:00",
+  "highlight": "OpenAI加速打造超级应用，AI生成内容真假难辨，低代码工具井喷式爆发。",
+  "fun": {
+    "lucky": "Harness-1",
+    "advice": "宜：用强化学习训练你的检索智能体。\n忌：在状态搜索马具里忘记记录候选池。",
+    "joke": "AI说它能写诗，我让它写个bug，它给我写了一首《内存泄漏》。"
+  },
+  "articles": [
+    {
+      "id": 1,
+      "cat": "strategy",
+      "title": "八家上市公司集中补税，ChatGPT将迎史上最大升级，高考引入AI监考员",
+      "title_en": "8点1氪丨八家上市公司集中公告“补税”；ChatGPT将迎来史上最大幅度升级；高考新增AI监考员，自动截取异常录像",
+      "source": "36氪",
+      "url": "https://36kr.com/p/3843764238174729?f=rss",
+      "time": "11分钟前",
+      "published": "2026-06-08T00:01:39+00:00",
+      "summary": "今日热点速览：AI等机器网络请求量首次超越人类；瑞幸咖啡回应“拿铁去冰仅半杯”争议；宗馥莉自有品牌KELLYONE回归；多家低成本航空公司对登机箱收费；黄仁勋会见韩国两大游戏商代表，共商游戏AI合作方案。TOP3大新闻：八家A股上市公司在一周内集中公告补缴税款，合计约4亿元，其中苹果中国最大授权经销商爱施德一家补缴3.08亿元，仅滞纳金就达1.23亿元；ChatGPT即将迎来史上最大幅度升级，功能将全面革新；高考首次引入AI监考员，系统可自动截取异常行为录像，提升考场监管效率。",
+      "snark": "AI监考员：你尽管作弊，截到算我输。"
+    },
+    {
+      "id": 2,
+      "cat": "strategy",
+      "title": "派早报：乘用车越造越重，AI参与维护的rsync出现bug引发争议",
+      "title_en": "派早报：乘用车越造越重，12 年增重近 400 公斤",
+      "source": "少数派",
+      "url": "https://sspai.com/post/110847",
+      "time": "1小时前",
+      "published": "2026-06-07T22:52:23+00:00",
+      "summary": "本期派早报汇总多项科技动态：乘用车在过去12年间平均增重近400公斤；iFixit对华强北山寨苹果产品进行了拆解分析；Cloudflare宣布收购Vite背后的公司；知名文件同步工具rsync因疑似AI参与维护而出现bug，引发社区对AI代码审查能力的广泛争议；OpenAI正在与美国政府商讨股权捐赠事宜；美国平均上路车龄已达13年。这些动态从汽车工业、开源生态到AI治理，折射出当前科技行业的多元面貌。",
+      "snark": "AI写的bug，连rsync都同步不过来。"
+    },
+    {
+      "id": 3,
+      "cat": "strategy",
+      "title": "Token末日将至？大模型公司上市或引发新一轮涨价潮",
+      "title_en": "Is this the dawn of the Tokenpocalypse?",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/06/07/is-this-the-dawn-of-the-tokenpocalypse/",
+      "time": "3小时前",
+      "published": "2026-06-07T20:26:13+00:00",
+      "summary": "TechCrunch发文探讨AI行业即将面临的“Token末日”（Tokenpocalypse）。文章指出，随着各大AI公司计划陆续上市，为了向资本市场交出漂亮的财务数据，这些公司极有可能进一步提高API调用价格。当前，大规模语言模型的推理成本本就高昂，若头部玩家集体涨价，将直接挤压下游开发者和创业公司的生存空间。文章预测，这种由资本压力驱动的涨价趋势，可能会在未来一年内重塑整个AI应用生态，加速行业洗牌。",
+      "snark": "还没等到AGI，先等来了API涨价通知。"
+    },
+    {
+      "id": 4,
+      "cat": "tool",
+      "title": "Nightwatch：开源只读AI站点可靠性工程师工具发布",
+      "title_en": "Show HN: Nightwatch, The open-source, read-only AI SRE",
+      "source": "Hacker News",
+      "url": "https://github.com/ninoxAI/nightwatch",
+      "time": "3小时前",
+      "published": "2026-06-07T20:24:36+00:00",
+      "summary": "Nightwatch是一个开源的、本地优先的只读监控层工具，旨在帮助站点可靠性工程师（SRE）更高效地管理告警风暴。它能够将大量告警自动聚合为事件，标记出噪音较大的检查项，并集成一个智能代理，可对在线系统进行实时调查分析。用户可以直接从事件页面跳转到代理界面进行深入排查。该项目源于开发者对现有监控系统在处理告警洪流时效率低下的痛点，通过引入AI代理实现自动化初步诊断，显著缩短了故障定位时间。",
+      "snark": "SRE的福音：AI帮你背锅，只读不改。"
+    },
+    {
+      "id": 5,
+      "cat": "strategy",
+      "title": "Notion恢复对Anthropic的访问权限，此前服务中断引发热议",
+      "title_en": "Notion restores access to Anthropic after service disruption",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/06/07/notion-restores-access-to-anthropic-after-service-disruption/",
+      "time": "6小时前",
+      "published": "2026-06-07T17:56:22+00:00",
+      "summary": "Notion的产品负责人近日公开表示，他对“大量用户在社交媒体上转发此事”感到震惊。此前，Notion平台一度中断了对Anthropic服务的访问，导致部分依赖Anthropic模型功能的用户受到影响。该事件在技术社区迅速发酵，引发了关于平台依赖单一AI供应商风险的广泛讨论。目前Notion已成功恢复相关访问权限，但此次短暂中断暴露了AI应用生态中“单点故障”的脆弱性，也促使更多开发者开始考虑多云或多模型备份策略。",
+      "snark": "Notion：我们只是想让你们体验一下什么叫‘服务降级’。"
+    },
+    {
+      "id": 6,
+      "cat": "tool",
+      "title": "GEPA框架：通过结构化反馈与留出验证实现反射式提示优化",
+      "title_en": "Building Reflective Prompt Optimization with GEPA: Multi-Component Prompts, Structured Feedback, and Held-Out Validation",
+      "source": "MarkTechPost",
+      "url": "https://www.marktechpost.com/2026/06/07/building-reflective-prompt-optimization-with-gepa-multi-component-prompts-structured-feedback-and-held-out-validation/",
+      "time": "7小时前",
+      "published": "2026-06-07T17:05:04+00:00",
+      "summary": "MarkTechPost发布了一篇关于GEPA（生成式进化提示适配）框架的教程，该框架被用于构建反射式提示优化系统。教程以小型语言模型解决多步骤算术应用题为例，从弱种子提示出发，构建确定性基准测试集，并定义结构化评估器以生成可操作的反馈。GEPA通过多组件提示设计、结构化反馈循环和留出验证机制，自动迭代优化提示策略。该方法显著提升了模型在复杂推理任务上的表现，为提示工程自动化提供了全新的技术路径。",
+      "snark": "提示工程已死，GEPA让你连‘请’字都不用写。"
+    },
+    {
+      "id": 7,
+      "cat": "strategy",
+      "title": "OpenAI仍在推进‘超级应用’计划，高管称‘聊天已死’",
+      "title_en": "OpenAI is still working on that ‘super app’",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/06/07/openai-is-still-working-on-that-super-app/",
+      "time": "7小时前",
+      "published": "2026-06-07T16:23:22+00:00",
+      "summary": "TechCrunch报道，OpenAI的一位高级员工公开表示“聊天已死”，暗示公司正在全力打造一个超越传统聊天界面的“超级应用”。尽管具体细节尚未披露，但这一表态表明OpenAI的战略重心正在从单一的对话式AI向更广泛、更集成的平台化产品转移。该超级应用预计将整合多模态能力、任务自动化以及第三方服务，旨在成为用户日常工作和生活的统一入口。此举被视为OpenAI在竞争日益激烈的AI市场中寻求差异化优势的关键一步。",
+      "snark": "聊天已死，但你的订阅费还得继续交。"
+    },
+    {
+      "id": 8,
+      "cat": "policy",
+      "title": "AI‘内容创作者’越来越难以识别，真假难辨引发担忧",
+      "title_en": "AI ‘content creators’ are getting harder to spot",
+      "source": "The Verge AI",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/943187/ai-content-creators",
+      "time": "12小时前",
+      "published": "2026-06-07T12:00:00+00:00",
+      "summary": "The Verge AI专栏《The Stepback》发文指出，随着生成式AI技术的飞速发展，AI生成的‘内容创作者’（包括虚拟网红、AI主播等）正变得愈发难以与真人区分。早期AI网红尚可通过僵硬的面部表情和不自然的语言风格被识别，但现在的AI生成内容在视觉和文本层面已达到高度逼真水平。这种现象引发了关于虚假信息传播、品牌信任危机以及数字身份认证的严峻挑战。文章呼吁平台和监管机构尽快建立有效的鉴别与标注机制。",
+      "snark": "以后追星得先做图灵测试，确认偶像不是AI。"
+    },
+    {
+      "id": 9,
+      "cat": "tool",
+      "title": "2026年最佳21款低代码与无代码AI工具盘点",
+      "title_en": "Best 21 Low-Code and No-Code AI Tools in 2026",
+      "source": "MarkTechPost",
+      "url": "https://www.marktechpost.com/2026/06/07/best-21-low-code-and-no-code-ai-tools-in-2026/",
+      "time": "15小时前",
+      "published": "2026-06-07T08:40:25+00:00",
+      "summary": "MarkTechPost发布了一份2026年低代码与无代码AI工具的综合指南，对比了21款主流工具，涵盖应用构建器、自动化平台、AI智能体和机器学习平台四大类别。这些工具的核心特点是用户只需通过自然语言提示即可生成可工作的应用、智能体或模型，极大降低了AI开发门槛。指南对每款工具均附有官方链接，帮助开发者和企业根据具体需求选择合适的平台。报告指出，低代码/无代码AI正成为企业数字化转型的关键驱动力。",
+      "snark": "不会写代码？没关系，AI帮你写，然后一起出bug。"
+    },
+    {
+      "id": 10,
+      "cat": "model",
+      "title": "Harness-1：基于强化学习的20B参数检索子智能体",
+      "title_en": "Meet Harness-1: A 20B Retrieval Subagent Trained With Reinforcement Learning Inside a Stateful Search Harness on gpt-oss-20b",
+      "source": "MarkTechPost",
+      "url": "https://www.marktechpost.com/2026/06/06/meet-harness-1-a-20b-retrieval-subagent-trained-with-reinforcement-learning-inside-a-stateful-search-harness-on-gpt-oss-20b/",
+      "time": "17小时前",
+      "published": "2026-06-07T06:25:18+00:00",
+      "summary": "伊利诺伊大学厄巴纳-香槟分校与Chroma联合发布了Harness-1，一个拥有200亿参数的检索子智能体。该模型在一个有状态搜索马具（stateful search harness）内通过强化学习进行训练。这个马具负责维护完整的书签记录，包括候选池、重要性标记的精选集、证据图谱和验证记录。策略网络则决定搜索什么、如何精选以及何时终止。这种设计使得Harness-1能够在复杂的多跳检索任务中实现高效的推理与决策，显著提升了信息检索的准确性和效率。",
+      "snark": "200亿参数就为了帮你搜个东西，杀鸡用牛刀，但真香。"
+    },
+    {
+      "id": 11,
+      "cat": "tool",
+      "title": "NVIDIA garak教程：构建完整的防御性大模型红队测试工作流",
+      "title_en": "NVIDIA garak Tutorial: Build a Complete Defensive LLM Red-Teaming Workflow with Custom Probes and Detectors",
+      "source": "MarkTechPost",
+      "url": "https://www.marktechpost.com/2026/06/06/nvidia-garak-tutorial-build-a-complete-defensive-llm-red-teaming-workflow-with-custom-probes-and-detectors/",
+      "time": "19小时前",
+      "published": "2026-06-07T05:11:09+00:00",
+      "summary": "MarkTechPost发布了一篇关于NVIDIA garak框架的详细教程，指导开发者构建端到端的防御性大语言模型红队测试工作流。教程覆盖了环境搭建、插件发现、空运行、基于Hugging Face生成器的真实模型扫描以及多探针评估等环节。工作流最终会分析安全评分和攻击成功率，检查被标记的输出，并生成综合报告。通过自定义探针和检测器，开发者可以针对特定安全风险进行定向测试，有效提升大模型在生产环境中的鲁棒性和安全性。",
+      "snark": "红队测试：让AI自己打自己，看谁先崩溃。"
+    }
+  ],
+  "stats": {
+    "total": 11,
+    "model_count": 1,
+    "strategy_count": 5,
+    "tool_count": 4,
+    "policy_count": 1
+  }
+}
