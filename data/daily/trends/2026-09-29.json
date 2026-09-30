@@ -74,9 +74,9 @@
         "reasoning": 0
       },
       {
-        "model": "GPT-6.1 Sol (max)",
-        "org": "OpenAI",
-        "intelligence": 51.8,
+        "model": "Claude Opus 5.5 (Adaptive Reasoning, Medium Effort, Default Fallback)",
+        "org": "Anthropic",
+        "intelligence": 51.2,
         "coding": 0,
         "math": 0,
         "reasoning": 0
@@ -147,73 +147,73 @@
         "blended": 4
       },
       {
-        "model": "GPT-6.1 Sol (max)",
-        "org": "OpenAI",
-        "input": 2,
-        "output": 10,
-        "blended": 4
+        "model": "Claude Opus 5.5 (Adaptive Reasoning, Medium Effort, Default Fallback)",
+        "org": "Anthropic",
+        "input": 4,
+        "output": 20,
+        "blended": 8
       }
     ],
     "speed": [
       {
         "model": "Claude Opus 5.5 (Adaptive Reasoning, Max Effort, Default Fallback)",
         "org": "Anthropic",
-        "outputSpeed": 95.9,
-        "ttft": 474.54
+        "outputSpeed": 95.3,
+        "ttft": 443.35
       },
       {
         "model": "Claude Opus 5.5 (Adaptive Reasoning, Xhigh Effort, Default Fallback)",
         "org": "Anthropic",
-        "outputSpeed": 81.5,
-        "ttft": 53.97
+        "outputSpeed": 81.7,
+        "ttft": 56.3
       },
       {
         "model": "Claude Sonnet 5.5 (Adaptive Reasoning, Max Effort, Default Fallback)",
         "org": "Anthropic",
-        "outputSpeed": 145.4,
-        "ttft": 304.76
+        "outputSpeed": 147.0,
+        "ttft": 273.49
       },
       {
         "model": "Claude Opus 5.5 (Adaptive Reasoning, High Effort, Default Fallback)",
         "org": "Anthropic",
         "outputSpeed": 76.1,
-        "ttft": 16.41
+        "ttft": 16.92
       },
       {
         "model": "Claude Fable 5.1 (Adaptive Reasoning, Max Effort, Default Fallback)",
         "org": "Anthropic",
-        "outputSpeed": 69.6,
-        "ttft": 111.66
+        "outputSpeed": 68.9,
+        "ttft": 119.53
       },
       {
         "model": "Claude Fable 5.1 (Adaptive Reasoning, Xhigh Effort, Default Fallback)",
         "org": "Anthropic",
-        "outputSpeed": 61.5,
-        "ttft": 34.3
+        "outputSpeed": 60.8,
+        "ttft": 34.92
       },
       {
         "model": "GPT-6 Astra (max)",
         "org": "OpenAI",
-        "outputSpeed": 60.6,
-        "ttft": 177.9
+        "outputSpeed": 61.7,
+        "ttft": 179.2
       },
       {
         "model": "GPT-6 Astra (xhigh)",
         "org": "OpenAI",
-        "outputSpeed": 53.9,
-        "ttft": 74.01
+        "outputSpeed": 55.6,
+        "ttft": 69.88
       },
       {
         "model": "Claude Sonnet 5.5 (Adaptive Reasoning, Xhigh Effort, Default Fallback)",
         "org": "Anthropic",
-        "outputSpeed": 111.1,
-        "ttft": 14.7
+        "outputSpeed": 101.0,
+        "ttft": 11.42
       },
       {
-        "model": "GPT-6.1 Sol (max)",
-        "org": "OpenAI",
-        "outputSpeed": 88.1,
-        "ttft": 107.2
+        "model": "Claude Opus 5.5 (Adaptive Reasoning, Medium Effort, Default Fallback)",
+        "org": "Anthropic",
+        "outputSpeed": 74.1,
+        "ttft": 12.44
       }
     ]
   },
@@ -221,59 +221,59 @@
     "perf": [
       {
         "model": "GPT Image 2.5 Sunburst (max)",
-        "elo": 1196,
+        "elo": 1195,
         "rank": 1,
         "org": "OpenAI",
         "date": "2026-09"
       },
       {
         "model": "GPT Image 2.5 Flare (max)",
-        "elo": 1190,
+        "elo": 1189,
         "rank": 2,
         "org": "OpenAI",
         "date": "2026-09"
       },
       {
         "model": "GPT Image 2 (high)",
-        "elo": 1171,
+        "elo": 1170,
         "rank": 3,
         "org": "OpenAI",
         "date": "2026-04"
       },
       {
         "model": "Grok Imagine Image 2.0",
-        "elo": 1155,
+        "elo": 1153,
         "rank": 4,
         "org": "SpaceXAI",
         "date": "2026-08"
       },
       {
         "model": "MAI-Image-2.6",
-        "elo": 1149,
+        "elo": 1147,
         "rank": 5,
         "org": "Microsoft AI",
         "date": "2026-08"
       },
       {
         "model": "Nano Banana 2 (Gemini 3.1 Flash Image)",
-        "elo": 1125,
+        "elo": 1122,
         "rank": 6,
         "org": "Google",
         "date": "2026-02"
       },
       {
         "model": "Muse Image",
-        "elo": 1112,
+        "elo": 1110,
         "rank": 7,
         "org": "Meta",
         "date": "2026-07"
       },
       {
-        "model": "GPT Image 1.5 (high)",
-        "elo": 1106,
+        "model": "MAI-Image-2.6-Flash",
+        "elo": 1103,
         "rank": 8,
-        "org": "OpenAI",
-        "date": "2025-12"
+        "org": "Microsoft AI",
+        "date": "2026-09"
       }
     ],
     "price": [],
@@ -342,5 +342,5 @@
     "price": [],
     "speed": []
   },
-  "_fetched_at": "2026-09-30T08:12:31.108547+08:00"
+  "_fetched_at": "2026-09-29T08:02:25.007590+08:00"
 }

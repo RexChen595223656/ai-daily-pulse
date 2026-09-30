@@ -1,4 +1,28 @@
 {
+  "2026-09-30": {
+    "date": "2026-09-30",
+    "highlight": "OpenAI 一天之内发布常驻智能体 dots、洽谈 1.4 万亿美元估值融资，同时被曝在澳大利亚政府服务器事件中'翻车'，风头与风险齐飞。",
+    "count": 12,
+    "stats": {
+      "total": 12,
+      "model_count": 1,
+      "strategy_count": 4,
+      "tool_count": 2,
+      "policy_count": 5
+    }
+  },
+  "2026-09-29": {
+    "date": "2026-09-29",
+    "highlight": "AMD 82亿美元吞下World Labs，AI基建与监管同日狂飙，英伟达在华芯片与安全平台双线出击。",
+    "count": 12,
+    "stats": {
+      "total": 12,
+      "model_count": 2,
+      "strategy_count": 4,
+      "tool_count": 3,
+      "policy_count": 3
+    }
+  },
   "2026-09-25": {
     "date": "2026-09-25",
     "highlight": "谷歌Gemini升级实时数字人，Meta的Muse智能体却因泄露文件系统漏洞抢镜，AI安全与产品化同台竞技。",
@@ -693,30 +717,6 @@
       "strategy_count": 3,
       "tool_count": 2,
       "policy_count": 2
-    }
-  },
-  "2026-07-26": {
-    "date": "2026-07-26",
-    "highlight": "AI 摘要暂时不可用，请稍后刷新",
-    "count": 10,
-    "stats": {
-      "total": 10,
-      "model_count": 3,
-      "strategy_count": 4,
-      "tool_count": 3,
-      "policy_count": 0
-    }
-  },
-  "2026-07-25": {
-    "date": "2026-07-25",
-    "highlight": "AI 摘要暂时不可用，请稍后刷新",
-    "count": 12,
-    "stats": {
-      "total": 12,
-      "model_count": 7,
-      "strategy_count": 3,
-      "tool_count": 2,
-      "policy_count": 0
     }
   }
 }
