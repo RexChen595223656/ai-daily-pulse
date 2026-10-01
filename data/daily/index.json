@@ -1,4 +1,16 @@
 {
+  "2026-10-01": {
+    "date": "2026-10-01",
+    "highlight": "谷歌发布Gemini 4 Argon号称最强模型却仅限可信防御者使用，OpenAI推出GPT-6.1 Sol以五分之一价格对标，模型竞赛进入性价比与安全管控并行的新阶段。",
+    "count": 12,
+    "stats": {
+      "total": 12,
+      "model_count": 6,
+      "strategy_count": 3,
+      "tool_count": 2,
+      "policy_count": 1
+    }
+  },
   "2026-09-30": {
     "date": "2026-09-30",
     "highlight": "OpenAI 一天之内发布常驻智能体 dots、洽谈 1.4 万亿美元估值融资，同时被曝在澳大利亚政府服务器事件中'翻车'，风头与风险齐飞。",
@@ -705,18 +717,6 @@
       "strategy_count": 2,
       "tool_count": 5,
       "policy_count": 3
-    }
-  },
-  "2026-07-27": {
-    "date": "2026-07-27",
-    "highlight": "多模态模型与端侧具身智能融资齐飞，开源工具与安全模型并进，AI行业生态加速分化。",
-    "count": 11,
-    "stats": {
-      "total": 11,
-      "model_count": 4,
-      "strategy_count": 3,
-      "tool_count": 2,
-      "policy_count": 2
     }
   }
 }
