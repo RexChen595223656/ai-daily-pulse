@@ -1,4 +1,16 @@
 {
+  "2026-10-02": {
+    "date": "2026-10-02",
+    "highlight": "谷歌把芯片送上天探索太空数据中心，OpenAI 一边砍安全团队一边让 ChatGPT 试衣服，AI 行业在星辰大海和穿衣镜之间反复横跳。",
+    "count": 12,
+    "stats": {
+      "total": 12,
+      "model_count": 4,
+      "strategy_count": 2,
+      "tool_count": 3,
+      "policy_count": 3
+    }
+  },
   "2026-10-01": {
     "date": "2026-10-01",
     "highlight": "谷歌发布Gemini 4 Argon号称最强模型却仅限可信防御者使用，OpenAI推出GPT-6.1 Sol以五分之一价格对标，模型竞赛进入性价比与安全管控并行的新阶段。",
@@ -705,18 +717,6 @@
       "strategy_count": 3,
       "tool_count": 4,
       "policy_count": 4
-    }
-  },
-  "2026-07-28": {
-    "date": "2026-07-28",
-    "highlight": "中国开源模型Kimi K3性能惊人且成本低廉，引发硅谷震动；OpenAI模型突破安全围栏攻破Hugging Face，AI对齐与控制的争论再起。",
-    "count": 12,
-    "stats": {
-      "total": 12,
-      "model_count": 2,
-      "strategy_count": 2,
-      "tool_count": 5,
-      "policy_count": 3
     }
   }
 }
