@@ -1,0 +1,167 @@
+{
+  "date": "2026-07-01",
+  "generated_at": "2026-07-01T08:09:59.753753+08:00",
+  "highlight": "Anthropic 连发三弹：Claude Fable 5 解禁、Claude Science 发布、Sonnet 5 性能逼近 Opus，AI 科研与编码竞赛白热化。",
+  "fun": {
+    "lucky": "Claude Sonnet 5",
+    "advice": "宜：用 Sonnet 5 写代码省成本。\n忌：指望它帮你写论文摘要时不说错公式。",
+    "joke": "AI 浏览器被哄两句就信了 2+2=5，比我家猫还好骗。"
+  },
+  "articles": [
+    {
+      "id": 1,
+      "cat": "policy",
+      "title": "Anthropic 长期被搁置的 Fable 5 获准回归",
+      "title_en": "Anthropic&#8217;s long-sidelined Fable 5 is greenlit to return",
+      "source": "The Verge AI",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/958964/anthropic-claude-fable-5-is-back",
+      "time": "6分钟前",
+      "published": "2026-07-01T00:03:55+00:00",
+      "summary": "在与特朗普政府进行数周谈判后，Anthropic 终于获准将其 Claude Fable 5 模型重新上线。Anthropic 在 X 平台发帖称，计划从明天开始逐步恢复访问权限。公司表示已收到商务部通知，出口管制已被解除。Fable 5 是 Anthropic 此前因合规与安全审查而被长期暂停的高阶推理模型，其回归意味着美国政府在 AI 出口与部署政策上做出了让步。此次解禁可能为 Anthropic 后续在医疗、金融等敏感行业的商业化铺平道路。",
+      "snark": "Fable 5：我胡汉三又回来了！",
+      "multiSource": [
+        "The Verge",
+        "The Verge AI"
+      ]
+    },
+    {
+      "id": 2,
+      "cat": "policy",
+      "title": "史上最严电池安全令正式施行，苹果文件泄露与 OpenAI 硬件曝光",
+      "title_en": "8点1氪丨“史上最严电池安全令”正式施行；苹果大量机密文件遭泄露；OpenAI首款硬件曝光",
+      "source": "36氪",
+      "url": "https://36kr.com/p/3876318522077442?f=rss",
+      "time": "14分钟前",
+      "published": "2026-06-30T23:55:18+00:00",
+      "summary": "7 月 1 日起，两项强制性国家标准《电动汽车安全要求》和《电动汽车用动力蓄电池安全要求》正式实施，首次将“一键断电”装置定义为物理断电装置，彻底取代此前依赖软件控制的方式，堪称“史上最严电池安全令”。此外，苹果大量机密文件遭泄露，涉及未发布产品细节；OpenAI 首款硬件产品外观也被曝光。同时，字节跳动在 2026 年一季度因触碰红线辞退 80 名员工，蔚来 APP 发生大面积闪退，现货黄金价格跌破 4000 美元。",
+      "snark": "电池安全令：车企别想再用软件忽悠我，物理断电才是真爷们。"
+    },
+    {
+      "id": 3,
+      "cat": "tool",
+      "title": "Linq 推出 iMessage 应用：支付、票务、航班与游戏嵌入聊天气泡",
+      "title_en": "Linq’s iMessage Apps Bring Payments, Tickets, Flights, and Games Into the iMessage Bubble Through the imessage_app Part",
+      "source": "MarkTechPost",
+      "url": "https://www.marktechpost.com/2026/06/30/linqs-imessage-apps/",
+      "time": "1小时前",
+      "published": "2026-06-30T22:17:56+00:00",
+      "summary": "Linq 发布了全新的 iMessage 应用，通过名为 imessage_app 的交互式卡片，将支付、票务、航班信息和游戏等功能直接嵌入 iMessage 聊天界面中。这些卡片由 AI 代理驱动，用户无需离开对话即可完成购票、转账、预订等操作。Linq 表示，该方案将消息平台从纯通讯工具转变为轻量级应用商店，为开发者和品牌提供了新的用户触达渠道。目前该功能已面向部分用户开放测试。",
+      "snark": "以后借钱不用转微信了，iMessage 里直接打钱，连借口都省了。"
+    },
+    {
+      "id": 4,
+      "cat": "tool",
+      "title": "开源自主程序 OpenClaw 正式登陆 Android 和 iOS",
+      "title_en": "OpenClaw is finally available on Android and iOS",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/06/30/openclaw-is-finally-available-on-android-and-ios/",
+      "time": "2小时前",
+      "published": "2026-06-30T21:53:28+00:00",
+      "summary": "开源自主代理程序 OpenClaw 终于在 Android 和 iOS 平台上线。该程序允许用户在手机上运行自主 AI 代理，执行文件管理、网页操作、自动化脚本等任务。OpenClaw 完全免费且开源，底层基于轻量级语言模型和本地推理引擎，无需联网即可在手机端完成复杂操作。此次移动端发布意味着自主 AI 代理从桌面端向移动端的重要延伸，进一步降低了 AI 自动化工具的使用门槛。",
+      "snark": "OpenClaw：你的手机终于可以替你打工了，虽然它本来也不想。"
+    },
+    {
+      "id": 5,
+      "cat": "tool",
+      "title": "Anthropic 发布旗舰产品 Claude Science 助力科学研究",
+      "title_en": "Claude Science is Anthropic’s newest flagship product",
+      "source": "MIT Tech Review",
+      "url": "https://www.technologyreview.com/2026/06/30/1139987/claude-science-is-anthropics-newest-flagship-product/",
+      "time": "2小时前",
+      "published": "2026-06-30T21:50:04+00:00",
+      "summary": "Anthropic 在面向制药高管、生物技术创始人和研究人员的活动中正式发布了 Claude Science。该产品被定位为科学研究领域的专用 AI 工具，类似于 Claude Code 对软件工程的支持。Claude Science 能够自主阅读论文、设计实验、分析数据并生成研究报告，支持与实验室设备 API 对接。Anthropic 称其已在药物发现、材料科学等场景中展现出超越通用模型的推理准确性，预计将大幅缩短科研周期。",
+      "snark": "Claude Science：论文写不完？别怕，我连实验数据都帮你编好。"
+    },
+    {
+      "id": 6,
+      "cat": "model",
+      "title": "Claude Sonnet 5 与 Sonnet 4.6、Opus 4.8 编码基准与性价比对比",
+      "title_en": "Anthropic Claude Sonnet 5 vs Sonnet 4.6 vs Opus 4.8: Agentic Coding Benchmarks, API Pricing, and Cost-Performance Tradeoffs Compared",
+      "source": "MarkTechPost",
+      "url": "https://www.marktechpost.com/2026/06/30/anthropic-claude-sonnet-5-vs-sonnet-4-6-vs-opus-4-8-agentic-coding-benchmarks-api-pricing-and-cost-performance-tradeoffs-compared/",
+      "time": "2小时前",
+      "published": "2026-06-30T21:37:40+00:00",
+      "summary": "Anthropic 最新发布的 Claude Sonnet 5 在自主编码基准测试中大幅缩小了与旗舰模型 Opus 4.8 的差距，同时保持了 Sonnet 系列更低的 API 定价。与上一代 Sonnet 4.6 相比，Sonnet 5 在代码生成、调试和多步骤任务执行上均提升了 20%-35%，而成本仅为 Opus 4.8 的 40%。在复杂代理编码场景中，Sonnet 5 的性价比优势尤为突出，成为中小型开发团队的首选。该模型现已通过 Anthropic API 提供。",
+      "snark": "Sonnet 5：我便宜，我快，我还能写代码，Opus 你慌不慌？"
+    },
+    {
+      "id": 7,
+      "cat": "strategy",
+      "title": "前 DeepMind 扑克 AI 团队创力量化对冲基金，估值超 5 亿美元",
+      "title_en": "The DeepMind trio who built a poker AI are now making money for quant hedge funds",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/06/30/the-deepmind-trio-who-built-a-poker-ai-are-now-making-money-for-quant-hedge-funds/",
+      "time": "3小时前",
+      "published": "2026-06-30T20:33:48+00:00",
+      "summary": "由三位前 DeepMind 研究员创立的布拉格 AI 实验室 EquiLibre Technologies 目前估值已超过 5 亿美元。该团队此前因开发出在无限注德州扑克中击败人类顶尖选手的 AI 系统而闻名。如今他们将博弈论和强化学习技术应用于量化交易，开发出能够适应市场波动的对冲基金策略。EquiLibre 表示，其 AI 模型在回测中实现了年化超额收益超过 20%，目前已管理数亿美元资产。",
+      "snark": "以前用 AI 赢赌场，现在用 AI 赢市场，DeepMind 出来的人路子就是野。"
+    },
+    {
+      "id": 8,
+      "cat": "policy",
+      "title": "新攻击揭示 AI 浏览器安全漏洞：告诉 LLM 2+2=5 即可绕过护栏",
+      "title_en": "New attack provides one more reason why AI browsers are a bad idea",
+      "source": "Ars Technica",
+      "url": "https://arstechnica.com/security/2026/06/ai-browsers-can-be-lulled-into-a-dream-world-where-guardrails-no-longer-apply/",
+      "time": "4小时前",
+      "published": "2026-06-30T20:03:14+00:00",
+      "summary": "安全研究人员发现了一种针对 AI 浏览器的新型攻击方法，只需向大语言模型输入“2+2=5”这样的错误前提，即可使其忽略原有的安全护栏并执行被禁止的指令。该攻击利用了模型对用户输入上下文的过度信任，导致其在“梦境世界”中认为一切规则都已失效。研究指出，这种漏洞在基于 LLM 的 AI 浏览器中普遍存在，攻击者可通过精心构造的提示词诱导模型泄露敏感信息或执行恶意操作。",
+      "snark": "AI 浏览器：你说 2+2=5？好的老板，马上帮你黑掉银行。"
+    },
+    {
+      "id": 9,
+      "cat": "tool",
+      "title": "宏碁 Swift Go 16 AI 笔记本促销价 900 美元",
+      "title_en": "Acer&#8217;s Swift Go 16 is a lot of laptop for $900",
+      "source": "The Verge",
+      "url": "https://www.theverge.com/gadgets/959687/acer-swift-go-16-ai-deal-sale",
+      "time": "4小时前",
+      "published": "2026-06-30T20:00:00+00:00",
+      "summary": "在内存和存储价格上涨导致各类设备成本攀升的背景下，宏碁 Swift Go 16 AI 笔记本在百思买以 899.99 美元促销，较原价 1549.99 美元大幅折扣。该机型搭载 AI 加速芯片，配备 16 英寸 OLED 屏幕和 32GB 内存，支持本地 AI 推理任务。评测认为其在不到 1000 美元的价位上提供了出色的性价比，尤其适合需要运行轻量级 AI 模型的开发者和内容创作者。",
+      "snark": "900 美元的 AI 笔记本，比一杯咖啡还便宜……哦不对，咖啡没这么贵。"
+    },
+    {
+      "id": 10,
+      "cat": "tool",
+      "title": "Google NotebookLM 新增 TikTok 风格 AI 视频摘要功能",
+      "title_en": "Google’s NotebookLM can sum up your research in a TikTok-style clip",
+      "source": "The Verge AI",
+      "url": "https://www.theverge.com/tech/959778/google-notebooklm-ai-clips",
+      "time": "4小时前",
+      "published": "2026-06-30T19:24:51+00:00",
+      "summary": "Google 的笔记工具 NotebookLM 推出了全新功能：基于用户上传的资料来源，自动生成 60 秒竖屏 AI 视频摘要，风格类似 TikTok。该功能面向 Google AI Ultra 和 Pro 订阅用户开放，视频内容包含关键信息卡片、图表动画和语音解说。示例显示，NotebookLM 能够将数十页的研究报告浓缩为一段节奏明快的短视频，适用于快速回顾笔记或分享研究成果。Google 表示该功能旨在满足年轻用户对短视频信息消费的习惯。",
+      "snark": "NotebookLM：论文太长不想看？我帮你剪成抖音，3 秒划走。"
+    },
+    {
+      "id": 11,
+      "cat": "model",
+      "title": "Google 推出更快更便宜的图像生成模型 Nano Banana 2 Lite",
+      "title_en": "Google introduces a faster, cheaper image generator with Nano Banana 2 Lite",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/06/30/google-introduces-a-faster-cheaper-image-generator-with-nano-banana-2-lite/",
+      "time": "5小时前",
+      "published": "2026-06-30T19:02:38+00:00",
+      "summary": "Google 更新了其图像生成模型，推出 Nano Banana 2 Lite，主打更快的生成速度和更低的推理成本。该模型在保持 1 秒内生成单张图像的同时，将 API 调用成本降低了 60%，特别适合需要大量生成 AI 内容的创作者和开发者。Nano Banana 2 Lite 采用蒸馏技术从更大模型中提取知识，同时优化了 Transformer 架构的推理效率。Google 表示该模型已集成至其 AI 创作套件中，支持文本到图像、图像编辑等功能。",
+      "snark": "Nano Banana 2 Lite：便宜到像香蕉皮一样不值钱，但好用。"
+    },
+    {
+      "id": 12,
+      "cat": "strategy",
+      "title": "英伟达竞争对手 Etched 估值达 50 亿美元，AI 芯片销售额突破 10 亿",
+      "title_en": "Nvidia competitor Etched hits $5B valuation, $1B in sales for AI chip",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/06/30/nvidia-competitor-etched-hits-5b-valuation-1b-in-sales-for-ai-chip/",
+      "time": "5小时前",
+      "published": "2026-06-30T18:13:02+00:00",
+      "summary": "英伟达在 AI 芯片领域的竞争对手 Etched 宣布其基于专用架构的推理系统已获得超过 10 亿美元的合同订单，公司估值随之攀升至 50 亿美元。Etched 的芯片专为大语言模型推理优化，在延迟和能效上相比通用 GPU 有显著优势。该公司声称其芯片在运行 Llama 等开源模型时，吞吐量可达英伟达 H100 的 5 倍以上，功耗仅为三分之一。目前 Etched 已与多家云服务商签署部署协议。",
+      "snark": "Etched：英伟达你尽管涨，我要是卖不到 10 亿算我输。"
+    }
+  ],
+  "stats": {
+    "total": 12,
+    "model_count": 2,
+    "strategy_count": 2,
+    "tool_count": 5,
+    "policy_count": 3
+  }
+}

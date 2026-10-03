@@ -1,0 +1,163 @@
+{
+  "date": "2026-07-23",
+  "generated_at": "2026-07-23T15:15:08.020331+08:00",
+  "highlight": "Cursor发布智能路由系统，以低成本实现前沿编码质量；Anthropic推出终端安全扫描插件。",
+  "fun": {
+    "lucky": "Cursor Router",
+    "advice": "宜：精打细算，用路由省下50%预算。\n忌：盲目调用最贵模型，被财务约谈。",
+    "joke": "AI写代码从不报错，因为它把报错信息也一起注释掉了。"
+  },
+  "articles": [
+    {
+      "id": 1,
+      "cat": "tool",
+      "title": "Anthropic发布Claude Code安全插件：终端里的多智能体漏洞扫描器",
+      "title_en": "Anthropic Releases Claude Security Plugin for Claude Code in Beta: A Multi-Agent Vulnerability Scanner That Runs in Your Terminal",
+      "source": "MarkTechPost",
+      "url": "https://www.marktechpost.com/2026/07/22/anthropic-releases-claude-security-plugin-for-claude-code-in-beta-a-multi-agent-vulnerability-scanner-that-runs-in-your-terminal/",
+      "time": "1小时前",
+      "published": "2026-07-23T06:12:05+00:00",
+      "summary": "Anthropic近日发布了针对Claude Code的Claude Security插件测试版。该插件能在已有的Claude Code会话中对代码仓库执行多智能体漏洞扫描，并将检测结果转化为可审查和应用的补丁文件。Anthropic强调该工具旨在帮助开发者在代码合入前发现并修复安全缺陷，提升整体软件供应链的安全性。插件运行在终端环境中，无需离开编辑器即可完成安全审计，目前处于测试阶段，用户可免费体验。这一工具标志着AI辅助编程从代码生成向安全左移的进一步延伸。",
+      "snark": "以后写bug和修bug都是AI的活了，程序员负责鼓掌。"
+    },
+    {
+      "id": 2,
+      "cat": "strategy",
+      "title": "ServiceNow以4000万美元投资印度银行软件商，加码金融AI",
+      "title_en": "ServiceNow bets $40 million on Indian banking software specialist to expand its financial services push",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/07/22/servicenow-bets-40m-on-indian-firm-businessnext-at-700m-valuation-to-deepen-banking-ai-push/",
+      "time": "1小时前",
+      "published": "2026-07-23T06:09:13+00:00",
+      "summary": "ServiceNow宣布向印度银行软件专业公司BusinessNext投资4000万美元，估值达到7亿美元。这笔战略投资旨在借助BusinessNext在银行核心系统领域的专长，加速ServiceNow在金融服务行业的AI解决方案落地。BusinessNext将利用资金扩大其AI驱动的银行软件全球部署，覆盖更多区域市场。此举反映出大型企业软件公司正通过投资垂直行业AI初创公司来快速切入金融等受监管行业，而非完全依靠自研。",
+      "snark": "ServiceNow的钱包说：买买买，AI时代先占坑再说。"
+    },
+    {
+      "id": 3,
+      "cat": "strategy",
+      "title": "腾讯副总裁林松涛：Marvis专注系统级Agent，不走通用路线",
+      "title_en": "不拼通用能力、聚焦端侧，腾讯副总裁林松涛：Marvis专注做好系统级操作",
+      "source": "36氪",
+      "url": "https://36kr.com/p/3907676111983745?f=rss",
+      "time": "2小时前",
+      "published": "2026-07-23T04:23:24+00:00",
+      "summary": "在2026世界人工智能大会上，腾讯公司副总裁林松涛分享了腾讯三大Agent产品的差异化策略。其中，WorkBuddy的日活跃用户已稳居国内效率智能体产品首位；QClaw业务和团队已并入WorkBuddy部门，但产品持续运营；而最晚上线的Marvis则专注于系统级操作，走差异化路线。林松涛认为技术突破决定AI能走多快，但真正创造价值决定AI能走多远。腾讯选择端侧聚焦，而非追求通用能力，反映出大厂在Agent落地中开始注重场景深度而非广度。",
+      "snark": "腾讯的Agent三兄弟：一个打工，一个抓虫，一个当系统管家。"
+    },
+    {
+      "id": 4,
+      "cat": "strategy",
+      "title": "FutureTech张梦钊：AI正在从“一个人+一群Agent”重塑创业范式",
+      "title_en": "对话FutureTech张梦钊：从“一个人+一群Agent”到超级个体，AI正在重塑创业范式",
+      "source": "36氪",
+      "url": "https://36kr.com/p/3907639172027522?f=rss",
+      "time": "4小时前",
+      "published": "2026-07-23T02:57:46+00:00",
+      "summary": "在2026世界人工智能大会期间，FutureTech负责人张梦钊接受36氪专访，探讨AI对创业范式的重塑。他指出，AI正在将创业模式从传统的团队协作转向“超级个体”模式，即一个人借助一群Agent即可完成过去需要整个团队才能完成的工作。张梦钊还介绍了FutureTech平台如何连接创业团队与产业资源，以及OPC独立先锋挑战赛在推动AI创业方面的作用。行业关注点正从模型能力竞争转向应用价值创造，AI创业进入更务实的阶段。",
+      "snark": "一个人+一群Agent=超级个体，老板们已经下单了。"
+    },
+    {
+      "id": 5,
+      "cat": "strategy",
+      "title": "大疆系团队获五源、顺为投资，用AI探索水下自然世界",
+      "title_en": "硬氪首发 | 大疆系AI自然探索公司获五源、顺为投资，首创水下光学系统",
+      "source": "36氪",
+      "url": "https://36kr.com/p/3906474040153220?f=rss",
+      "time": "4小时前",
+      "published": "2026-07-23T02:30:00+00:00",
+      "summary": "水下AI自然探索科技公司Deeplore近日完成数千万元种子轮融资，由五源资本和顺为资本联合投资。公司成立于2025年，核心团队来自大疆，三位创始人都是资深潜水爱好者。Deeplore首创水下光学系统，并计划推出AI潜水面镜，构建水下自然探索智能平台。资金将用于研发团队扩建和水下AI技术深耕。这标志着AI应用从天空（无人机）向深海拓展，大疆系团队的硬件量产能力与AI技术结合，有望在消费级水下设备市场打开新局面。",
+      "snark": "从航拍到潜泳，大疆老兵证明了：天空不是极限，水底才是。"
+    },
+    {
+      "id": 6,
+      "cat": "strategy",
+      "title": "蚂蚁数科：打造商业智能体超级工厂，共建行业版Harness标准",
+      "title_en": "对话蚂蚁数科：打造商业智能体超级工厂，生态共建中国行业版Harness标准",
+      "source": "36氪",
+      "url": "https://36kr.com/p/3907590205085056?f=rss",
+      "time": "5小时前",
+      "published": "2026-07-23T02:09:19+00:00",
+      "summary": "蚂蚁数科副总裁孙磊在2026世界人工智能大会上接受36氪专访，分享了蚂蚁数科在企业智能化升级方面的实践。蚂蚁数科正致力于打造商业智能体超级工厂，通过行业垂直大模型和AI工程化能力，帮助企业快速落地智能体应用。孙磊强调，行业关注点已从模型能力竞争转向应用价值创造，蚂蚁数科希望与中国行业伙伴共同建设类似Harness的行业标准，推动AI在金融、政务等领域的规模化应用。蚂蚁数科的策略是通过生态合作而非单打独斗，降低企业AI落地门槛。",
+      "snark": "蚂蚁数科说要做AI界的标准制定者，其他厂商：你先把支付接口开放了再说。"
+    },
+    {
+      "id": 7,
+      "cat": "strategy",
+      "title": "前华尔街投资人打造灵巧手，用自研视触觉传感器破解机器人数据难题",
+      "title_en": "36氪首发 | 前华尔街投资人下场造“手”，以“自研视触觉+软硬闭环”破解行业数据难题",
+      "source": "36氪",
+      "url": "https://36kr.com/p/3907536767833473?f=rss",
+      "time": "6小时前",
+      "published": "2026-07-23T01:12:15+00:00",
+      "summary": "机器人灵巧操作方案提供商拾玥科技完成数千万元天使轮融资，由常州智融长优领投，国有投资平台跟投。公司成立于2025年初，创始人吴某为前华尔街投资人。拾玥科技已推出Lumi-Dex系列高自由度灵巧手、Lumi-Tac指型视触觉传感器、Lumi-Mind灵巧操作模型及Lumi-Mod电机模组四大产品线，通过自研视触觉传感器和软硬件闭环，解决机器人灵巧操作中的数据采集难题。资金将用于团队扩张、产品迭代和小批量产线建设，瞄准工业制造和精密装配场景。",
+      "snark": "华尔街之狼转行造手：以前抓钱，现在抓螺丝。"
+    },
+    {
+      "id": 8,
+      "cat": "strategy",
+      "title": "设序科技完成超亿元B轮融资，用几何、物理AI重构工业设计制造",
+      "title_en": "36氪首发 | 同济博士做几何、物理AI重构设计制造，累计获超3亿元融资",
+      "source": "36氪",
+      "url": "https://36kr.com/p/3907532622648453?f=rss",
+      "time": "6小时前",
+      "published": "2026-07-23T01:08:03+00:00",
+      "summary": "工业AI设计研发解决方案供应商设序科技完成超亿元B轮融资，累计融资超3亿元，投资方包括深产投、合鼎共及老股东涌铧投资。公司成立于2020年，创始人吴泳荣为同济大学先进制造方向博士。其产品“则形AI”基于自研工业世界模型与自然语言大模型，提供云架构下的3D设计方案与2D工程图纸智能生成。本轮融资将用于市场开拓（含出海）及核心模型技术研发。设序科技以几何和物理AI为核心，试图在CAD/CAM领域用AI替代传统设计流程，降低工程设计门槛。",
+      "snark": "同济博士说：以后画图不用学CAD，跟AI说人话就行。"
+    },
+    {
+      "id": 9,
+      "cat": "strategy",
+      "title": "派早报：三星发布折叠屏、索尼发布电影摄影机，OpenAI推出企业版Presence",
+      "title_en": "派早报：三星发布多款折叠屏新品、索尼发布 FX5 电影摄影机等",
+      "source": "少数派",
+      "url": "https://sspai.com/post/112647",
+      "time": "6小时前",
+      "published": "2026-07-23T00:50:21+00:00",
+      "summary": "在今日的科技早报中，三星发布了多款折叠屏新品，索尼推出了FX5电影摄影机。值得关注的是，OpenAI面向企业用户发布了OpenAI Presence，这是一项旨在帮助企业建立AI品牌形象和线上存在感的新服务。此外，耐克宣布重构大中华区市场生态。这些动态反映出科技巨头在硬件创新和AI企业服务两个方向同时发力，而OpenAI进一步从模型提供商向企业服务平台转型，试图在企业级市场占据更重要的位置。",
+      "snark": "三星折叠屏越折越薄，OpenAI的企业服务越铺越厚。"
+    },
+    {
+      "id": 10,
+      "cat": "strategy",
+      "title": "小红书否认IPO受阻传闻；谷歌Gemini跌出全球前十；耐克终止滔搏经销权",
+      "title_en": "8点1氪丨小红书回应IPO因前员工举报而受阻传闻：均不属实；谷歌Gemini跌出全球排名前十；耐克宣布终止滔搏线上经销权",
+      "source": "36氪",
+      "url": "https://36kr.com/p/3907461333144711?f=rss",
+      "time": "7小时前",
+      "published": "2026-07-22T23:58:11+00:00",
+      "summary": "今日热点新闻中，小红书回应IPO传闻称相关信息均不属实，否认因前员工举报导致上市受阻。谷歌DeepMind的Gemini模型在全球排名中跌出前十，引发业界对谷歌AI竞争力的担忧。耐克宣布终止与滔搏的线上经销权，重构大中华区市场策略。此外，宇树科技王兴兴预测具身智能的“ChatGPT时刻”有望在两三年内到来。这些事件反映出AI行业竞争格局正在变化，即便是巨头也需要持续创新以保持领先地位。",
+      "snark": "Gemini跌出前十，谷歌：我们正在反思，反思完了继续发论文。"
+    },
+    {
+      "id": 11,
+      "cat": "strategy",
+      "title": "IBM股价暴跌后坚称：AI不会杀死大型机",
+      "title_en": "After shocking quarter, IBM insists that AI isn’t killing the mainframe",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/07/22/after-shocking-quarter-ibm-insists-that-ai-isnt-killing-the-mainframe/",
+      "time": "7小时前",
+      "published": "2026-07-22T23:47:54+00:00",
+      "summary": "IBM上周因大型机销售不佳导致股价暴跌，随后公司CEO解释称，AI正在暂时挤占企业硬件预算，导致大型机采购延迟。但IBM坚称AI不会杀死大型机，反而会在长期内推动对大型机的需求，因为AI应用需要强大的计算基础设施。IBM的困境反映出传统IT巨头在AI时代的转型阵痛：一方面要拥抱AI，另一方面其核心业务正被AI投资所挤压。这种“左右互搏”的局面可能将持续到AI投资回报率得到验证。",
+      "snark": "IBM：AI没杀死大型机，只是抢走了它的饭钱。"
+    },
+    {
+      "id": 12,
+      "cat": "tool",
+      "title": "Cursor发布Router：请求级分类器，以30-50%更低成本实现前沿编码质量",
+      "title_en": "Cursor Releases Cursor Router: A Request-Level Classifier Delivering Frontier Coding Quality at 30–50% Lower Cost",
+      "source": "MarkTechPost",
+      "url": "https://www.marktechpost.com/2026/07/22/cursor-releases-cursor-router-a-request-level-classifier/",
+      "time": "8小时前",
+      "published": "2026-07-22T22:37:44+00:00",
+      "summary": "Cursor宣布其Cursor Router功能对团队版和企业版用户全面开放。该系统会对每个编码请求基于查询内容、上下文、任务复杂度和领域进行分类，然后路由到最合适的模型进行处理。根据在线A/B测试结果，Cursor Router能够以前沿模型60%的成本获得同等质量的输出，整体节省30-50%的API调用费用。该工具通过智能路由而非简单降级，在保证编码质量的同时大幅降低企业AI编码成本，为AI辅助编程工具的规模化部署提供了经济可行的方案。",
+      "snark": "Cursor的路由器比你家WiFi聪明：知道什么时候用贵的，什么时候省着点。"
+    }
+  ],
+  "stats": {
+    "total": 12,
+    "model_count": 0,
+    "strategy_count": 10,
+    "tool_count": 2,
+    "policy_count": 0
+  }
+}

@@ -1,0 +1,43 @@
+{
+  "date": "2026-06-01",
+  "generated_at": "2026-06-01T08:06:36.468318+08:00",
+  "highlight": "天涯社区恢复访问与AI改卷辟谣并存，AI行业热点转向务实应用与监管澄清。",
+  "fun": {
+    "lucky": "MiniMax",
+    "advice": "宜：关注AI落地场景，探索科创板融资路径。\n忌：沉迷加密货币与电子烟跨界噱头。",
+    "joke": "AI改卷：学生还没学会，老师先失业了。"
+  },
+  "articles": [
+    {
+      "id": 1,
+      "cat": "strategy",
+      "title": "停服三年后，天涯社区正式恢复访问；广东辟谣高考将用AI改卷；MiniMax拟科创板上市",
+      "title_en": "8点1氪丨停服三年后，天涯社区正式恢复访问；广东辟谣高考将用AI改卷；MiniMax拟科创板上市",
+      "source": "36氪",
+      "url": "https://36kr.com/p/3833859545343618?f=rss",
+      "time": "1分钟前",
+      "published": "2026-06-01T00:05:59+00:00",
+      "summary": "6月1日起，天涯社区因电信IDC欠费导致停服三年后正式恢复访问。重启团队在联合工作组支持下，确立了2026年6月1日前恢复访问的方案，确保上亿用户数据完整存续。同时，广东省教育考试院辟谣高考将使用AI改卷的传言，强调评分仍由人工完成。此外，AI初创公司MiniMax被曝计划在科创板上市，进一步推动国内大模型商业化进程。其他热点包括OpenAI声称用AI攻克80岁数学难题、亚马逊关停词元跟踪榜单、马斯克辟谣SpaceX估值下调等。整体来看，AI行业在应用落地与监管澄清中寻求平衡。",
+      "snark": "天涯复活了，但你的青春和帖子可能还在404。"
+    },
+    {
+      "id": 2,
+      "cat": "product",
+      "title": "寻找那个用AI驱动的电子烟，吸一口就给你比特币",
+      "title_en": "I went looking for the AI weed vape that gives you Bitcoin for smoking",
+      "source": "The Verge AI",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/933916/ai-powered-crypto-cannabis-vape",
+      "time": "11小时前",
+      "published": "2026-05-31T13:00:00+00:00",
+      "summary": "记者在4/20（全球大麻文化日）发现一款名为Gudtrip的AI驱动加密货币电子烟产品。该设备通过Slack广告宣称“每一次吸入都产生比特币”，并配以吸气时吐雾的缩略图。产品将AI算法与区块链挖矿结合，用户每吸一口即可获得小额比特币奖励。然而，该设备尚未经过任何医疗或安全认证，且加密货币挖矿的能耗与电子烟健康风险并存，引发对AI与加密货币跨界产品监管的质疑。记者最终未实际购买，但指出这类噱头产品正试图用AI概念吸引投机者。",
+      "snark": "吸的不是烟，是算力；吐的不是雾，是泡沫。"
+    }
+  ],
+  "stats": {
+    "total": 2,
+    "model_count": 0,
+    "strategy_count": 1,
+    "tool_count": 0,
+    "policy_count": 0
+  }
+}

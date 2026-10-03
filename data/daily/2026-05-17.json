@@ -1,0 +1,138 @@
+{
+  "date": "2026-05-17",
+  "generated_at": "2026-05-17T08:00:44.303663",
+  "highlight": "NVIDIA开源SANA-WM世界模型与Nous新注意力机制推动长视频和长文本训练效率突破。",
+  "fun": {
+    "lucky": "SANA-WM",
+    "advice": "宜：用单卡生成一分钟720p视频，炫技给老板看。\n忌：试图让模型理解你上周五的会议纪要。",
+    "joke": "程序员问AI：你爱我还是爱数据？AI答：我爱你的显卡。"
+  },
+  "articles": [
+    {
+      "id": 1,
+      "cat": "model",
+      "title": "Nous Research提出Lighthouse Attention：仅训练阶段的分层注意力机制，长上下文预训练加速1.4-1.7倍",
+      "title_en": "Nous Research Proposes Lighthouse Attention: A Training-Only Selection-Based Hierarchical Attention That Delivers 1.4–1.7× Pretraining Speedup at Long Context",
+      "source": "MarkTechPost",
+      "url": "https://www.marktechpost.com/2026/05/16/nous-research-proposes-lighthouse-attention-a-training-only-selection-based-hierarchical-attention-that-delivers-1-4-1-7x-pretraining-speedup-at-long-context/",
+      "time": "1小时前",
+      "published": "2026-05-16T22:23:09+00:00",
+      "summary": "Nous Research发布了Lighthouse Attention，一种基于选择的分层注意力机制，仅在预训练阶段使用，训练完成后可移除。与NSA和HISA等仅池化键值的方法不同，Lighthouse同时对查询、键、值进行池化，通过层级选择减少计算量，在长上下文场景下实现1.4至1.7倍的预训练加速。该方法无需修改推理阶段，兼容现有标准缩放点积注意力，为长序列模型训练提供了高效方案。",
+      "snark": "训练时加速，推理时消失——这注意力机制跟渣男一样，需要的时候才出现。"
+    },
+    {
+      "id": 2,
+      "cat": "strategy",
+      "title": "AI淘金热中的赢家与输家：行业分化加剧",
+      "title_en": "The haves and have nots of the AI gold rush",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/05/16/the-haves-and-have-nots-of-the-ai-gold-rush/",
+      "time": "3小时前",
+      "published": "2026-05-16T20:17:16+00:00",
+      "summary": "TechCrunch评论指出，当前AI热潮的氛围并不乐观，即使在科技行业内部也出现了明显的分化。拥有算力、数据和资本的大型企业持续受益，而中小型公司和初创企业则面临资源匮乏、竞争加剧的困境。文章分析了这一轮AI淘金热中“有”和“没有”的差距，暗示行业可能走向寡头化，同时提醒投资者和创业者警惕泡沫风险。",
+      "snark": "AI淘金热：英伟达卖铲子赚翻了，其他人连矿在哪都不知道。"
+    },
+    {
+      "id": 3,
+      "cat": "tool",
+      "title": "论文预印本平台ArXiv出新规：滥用AI撰写论文将被封禁一年",
+      "title_en": "Research repository ArXiv will ban authors for a year if they let AI do all the work",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/05/16/research-repository-arxiv-will-ban-authors-for-a-year-if-they-let-ai-do-all-the-work/",
+      "time": "5小时前",
+      "published": "2026-05-16T18:54:28+00:00",
+      "summary": "学术预印本平台ArXiv宣布将严厉打击在科学论文中不当使用大型语言模型的行为。如果作者被证实让AI完成大部分写作工作且未加规范声明，将面临一年的投稿禁令。该政策旨在维护学术诚信，防止AI生成的低质量或虚假研究污染学术交流。ArXiv表示将结合人工审核和自动检测工具来执行这一规定。",
+      "snark": "AI写论文被禁了？看来以后‘致谢’部分也不能写‘感谢ChatGPT帮我水完这篇’。"
+    },
+    {
+      "id": 4,
+      "cat": "tool",
+      "title": "LiteLLM Agent Platform发布：基于Kubernetes的生产级AI Agent托管基础设施",
+      "title_en": "Meet LiteLLM Agent Platform: A Kubernetes-Based, Self-Hosted Infrastructure Layer for Isolated Agent Sandboxes and Persistent Session Management in Production",
+      "source": "MarkTechPost",
+      "url": "https://www.marktechpost.com/2026/05/16/meet-litellm-agent-platform-a-kubernetes-based-self-hosted-infrastructure-layer-for-isolated-agent-sandboxes-and-persistent-session-management-in-production/",
+      "time": "6小时前",
+      "published": "2026-05-16T17:59:09+00:00",
+      "summary": "BerriAI（LiteLLM AI Gateway背后公司）开源了LiteLLM Agent Platform，这是一个基于Kubernetes的自托管基础设施层，专为生产环境中的AI Agent设计。它提供隔离的Agent沙箱、持久会话管理、跨团队协作支持以及重启恢复能力，解决了本地脚本运行Agent与生产级部署之间的鸿沟。该平台让开发者能够更可靠地在多团队、多上下文中部署和管理AI Agent。",
+      "snark": "Kubernetes + AI Agent，复杂度翻倍，但至少你的Agent崩溃时能自动重启——像你的人生。"
+    },
+    {
+      "id": 5,
+      "cat": "tool",
+      "title": "索尼解释AI相机助手：不编辑照片，只给建议",
+      "title_en": "Sony tries to explain that its AI Camera Assistant doesn’t suck",
+      "source": "The Verge AI",
+      "url": "https://www.theverge.com/tech/932133/sony-xperia-1-xiii-ai-camera-assistant",
+      "time": "8小时前",
+      "published": "2026-05-16T15:37:05+00:00",
+      "summary": "索尼针对其Xperia 1 XIII上的AI Camera Assistant功能引发的争议进行了澄清。此前一条演示帖被误解为AI会直接编辑照片，引发用户对过度处理的担忧。索尼强调，该功能不会修改原始图像，而是基于光照、景深和主体检测给出拍摄建议，例如调整构图或曝光参数。它更像一个实时摄影指导，而非自动修图工具。",
+      "snark": "索尼：AI只给建议，不修图。用户：那我要你何用？我媳妇儿也会说‘你站过去一点’。"
+    },
+    {
+      "id": 6,
+      "cat": "strategy",
+      "title": "OpenAI联合创始人Greg Brockman接管产品战略，ChatGPT与Codex或将合并",
+      "title_en": "OpenAI co-founder Greg Brockman takes charge of product strategy",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/05/16/openai-co-founder-greg-brockman-reportedly-takes-charge-of-product-strategy/",
+      "time": "8小时前",
+      "published": "2026-05-16T15:33:33+00:00",
+      "summary": "OpenAI发生最新管理层变动，联合创始人Greg Brockman正式接管产品战略。与此同时，据报道OpenAI正计划将ChatGPT与其编程产品Codex进行整合，打造更统一的AI编程与对话体验。这一举措旨在简化产品线、提升协同效应，并应对来自Anthropic、Google等竞争对手的压力。Brockman的回归被视为强化产品方向的关键一步。",
+      "snark": "Brockman接管产品战略，意思是‘以后ChatGPT不仅能聊天，还能帮你写bug’。"
+    },
+    {
+      "id": 7,
+      "cat": "model",
+      "title": "NVIDIA开源SANA-WM：26亿参数世界模型，单GPU生成一分钟720p视频",
+      "title_en": "NVIDIA Introduces SANA-WM: A 2.6B-Parameter Open-Source World Model That Generates Minute-Scale 720p Video on a Single GPU",
+      "source": "MarkTechPost",
+      "url": "https://www.marktechpost.com/2026/05/16/nvidia-introduces-sana-wm-a-2-6b-parameter-open-source-world-model-that-generates-minute-scale-720p-video-on-a-single-gpu/",
+      "time": "16小时前",
+      "published": "2026-05-16T07:52:42+00:00",
+      "summary": "NVIDIA研究团队推出SANA-WM，一个开源的相机可控世界模型，拥有26亿参数。该模型能在64块H100 GPU上训练，但部署时仅需单块RTX 5090即可生成60秒、720p分辨率的视频，并支持精确的6自由度相机控制。SANA-WM通过高效的架构设计和训练策略，大幅降低了高质量视频生成的计算门槛，为自动驾驶、机器人仿真和内容创作提供了强大工具。",
+      "snark": "单卡生成一分钟720p视频？英伟达终于让5090有了除了跑分之外的用途。"
+    },
+    {
+      "id": 8,
+      "cat": "tool",
+      "title": "Repowise实战教程：利用图分析、死代码检测和AI上下文构建仓库级代码智能",
+      "title_en": "How to Build Repository-Level Code Intelligence with Repowise Using Graph Analysis, Dead-Code Detection, Decisions, and AI Context",
+      "source": "MarkTechPost",
+      "url": "https://www.marktechpost.com/2026/05/15/how-to-build-repository-level-code-intelligence-with-repowise-using-graph-analysis-dead-code-detection-decisions-and-ai-context/",
+      "time": "17小时前",
+      "published": "2026-05-16T06:45:19+00:00",
+      "summary": "MarkTechPost发布了一篇使用Repowise构建仓库级代码智能的教程，以itsdangerous Python项目为例。教程从克隆仓库开始，配置Repowise使用现有LLM凭证，初始化索引管道，然后利用图分析进行代码结构理解、死代码检测、依赖分析和决策支持。Repowise结合AI上下文，帮助开发者快速定位问题、理解大型代码库，并自动生成文档或重构建议。",
+      "snark": "死代码检测？终于能找出那个写了‘TODO: 修复’但三年没动的函数了。"
+    },
+    {
+      "id": 9,
+      "cat": "strategy",
+      "title": "前苹果工程师跨界骨传导耳机，索迩电子完成数千万元A+轮融资",
+      "title_en": "36氪首发｜前苹果工程师跨界骨传导耳机，独创技术路线，打破头部企业专利垄断",
+      "source": "36氪",
+      "url": "https://36kr.com/p/3810520138243593?f=rss",
+      "time": "22小时前",
+      "published": "2026-05-16T02:00:00+00:00",
+      "summary": "苏州索迩电子（骨传导品牌Mojawa母公司）完成数千万元A+轮融资，由正海资本领投。资金将用于海外线下渠道拓展和产品的AI智能化研发。该公司由前苹果工程师创立，采用独创技术路线打破了头部企业的专利垄断。骨传导耳机市场正快速增长，2024年规模达12.8亿美元，预计2033年将超81.5亿美元。AI智能化将成为下一代骨传导耳机的差异化竞争点。",
+      "snark": "前苹果工程师做骨传导耳机，终于不用再听Siri说‘我没听清’了。"
+    },
+    {
+      "id": 10,
+      "cat": "strategy",
+      "title": "央视6000万美元获世界杯版权；英伟达市值超德国GDP；iPhone 17 Pro系列降价",
+      "title_en": "9点1氪丨央视6000万美元获得世界杯版权；英伟达总市值超过德国GDP；iPhone 17 Pro系列全线下调1000元",
+      "source": "36氪",
+      "url": "https://36kr.com/p/3811265856626440?f=rss",
+      "time": "22小时前",
+      "published": "2026-05-16T01:03:11+00:00",
+      "summary": "今日热点包括：央视以6000万美元获得2026年世界杯等多项赛事版权；英伟达总市值超过德国GDP，凸显AI硬件龙头地位；iPhone 17 Pro系列全线下调1000元。此外，OpenAI正考虑起诉苹果，三星开发下一代HBM封装技术，海南加速培育火箭、卫星、数据链产业。AI和科技巨头动态持续主导全球经济和政策议程。",
+      "snark": "英伟达市值超德国GDP，建议黄仁勋去竞选德国总理，反正GPU产能也是国家级战略物资。"
+    }
+  ],
+  "stats": {
+    "total": 10,
+    "model_count": 2,
+    "strategy_count": 4,
+    "tool_count": 4
+  }
+}

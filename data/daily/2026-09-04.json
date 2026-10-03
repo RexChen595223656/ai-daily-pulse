@@ -1,0 +1,163 @@
+{
+  "date": "2026-09-04",
+  "generated_at": "2026-09-04T08:12:16.989263+08:00",
+  "highlight": "GPT-6 Astra 发布与安全门槛争议，Meta 与 Anthropic 同推新模型与开源蓝图，AI 智能体竞争白热化。",
+  "fun": {
+    "lucky": "GPT-6 Astra",
+    "advice": "宜：部署长上下文智能体，处理海量信息。\n忌：忽视安全门槛，裸奔上生产。",
+    "joke": "AI 模型们约好一起宕机，人类才发现自己才是真正的单点故障。"
+  },
+  "articles": [
+    {
+      "id": 1,
+      "cat": "tool",
+      "title": "编程智能体工具偏好大调查：实测一万七千次运行揭示真相",
+      "title_en": "Which tools do Claude, Codex and Cursor choose? We measured 17k runs to find out",
+      "source": "Hacker News",
+      "url": "https://armature.tech/blog/which-tools-coding-agents-install",
+      "time": "2小时前",
+      "published": "2026-09-03T21:20:34+00:00",
+      "summary": "Armature 科技公司发布了一项针对主流编程智能体（如克劳德、代码克斯和光标）的实证研究，通过分析一万七千次真实运行数据，揭示了这些智能体在编程过程中实际调用的外部工具及其使用频率。研究发现，不同智能体在工具选择上存在显著差异，例如某些智能体更倾向于使用静态分析工具，而另一些则更依赖搜索或文档生成工具。该研究为开发者优化智能体工作流和工具选择提供了数据驱动的参考，也反映出当前编程智能体生态的多样性和实用性。",
+      "snark": "测了一万七千次，结论是它们最常用的工具是‘重试’按钮。"
+    },
+    {
+      "id": 2,
+      "cat": "model",
+      "title": "OpenAI 发布 GPT-6 Astra：一百零五万上下文计算机操作模型，设‘关键’网络门槛",
+      "title_en": "OpenAI Releases GPT-6 Astra: A 1.05M-Context Computer-Use Model Gated Behind a ‘Critical’ Cyber Threshold",
+      "source": "MarkTechPost",
+      "url": "https://www.marktechpost.com/2026/09/03/openai-releases-gpt-6-astra-a-1-05m-context-computer-use-model-gated-behind-a-critical-cyber-threshold/",
+      "time": "2小时前",
+      "published": "2026-09-03T21:16:11+00:00",
+      "summary": "OpenAI 于 2026 年 9 月 3 日发布 GPT-6 Astra，定位为计算机操作旗舰模型而非聊天模型。该模型在 OSWorld V2-Offline 基准上取得 72.6% 的成绩，采用可搜索笔记取代代码压缩机制，并支持一百零五万 token 的超长上下文，定价为每百万 token 十美元（输入）和五十美元（输出）。值得注意的是，GPT-6 Astra 是首个因‘关键’网络安全门槛而限制发布的 OpenAI 模型，旨在防止其被恶意用于网络攻击。",
+      "snark": "上下文长到能装下一整部《战争与和平》，但安全门槛高到连开发者自己都进不去。"
+    },
+    {
+      "id": 3,
+      "cat": "strategy",
+      "title": "龙与地下城‘鸦阁’改编真人剧集，Netflix 携手阿方索·卡隆",
+      "title_en": "Dungeons &#038; Dragons is getting a &#8216;Ravenloft&#8217; live-action Netflix series",
+      "source": "The Verge",
+      "url": "https://www.theverge.com/entertainment/989880/dungeons-and-dragons-ravenloft-netflix",
+      "time": "3小时前",
+      "published": "2026-09-03T20:48:05+00:00",
+      "summary": "据报道，Netflix 正在开发基于《龙与地下城》经典战役设定‘鸦阁’的真人剧集，由奥斯卡获奖导演阿方索·卡隆担任执行制片人，约翰·奥古斯特担任编剧和执行制片人，孩之宝娱乐参与制作。该设定以哥特恐怖风格著称，今年早些时候已获得更新。这一项目标志着《龙与地下城》IP 在影视领域的进一步扩展，此前已有多部相关电影和剧集在筹备中。",
+      "snark": "鸦阁的恐怖氛围很适合 Netflix，反正他们的剧也经常让人看得背后发凉。"
+    },
+    {
+      "id": 4,
+      "cat": "tool",
+      "title": "Anthropic 开源‘商业智能体’蓝图：覆盖零售、旅行、电信和娱乐",
+      "title_en": "Anthropic Released Claude Commerce Agents: An Apache-2.0 Blueprint for Shopping and Merchant Agents Across Retail, Travel, Telecom and Entertainment",
+      "source": "MarkTechPost",
+      "url": "https://www.marktechpost.com/2026/09/03/anthropic-released-claude-commerce-agents-an-apache-2-0-blueprint-for-shopping-and-merchant-agents-across-retail-travel-telecom-and-entertainment/",
+      "time": "4小时前",
+      "published": "2026-09-03T19:46:59+00:00",
+      "summary": "Anthropic 发布了‘商业智能体’（Commerce Agents）参考蓝图，以 Apache-2.0 许可证开源，旨在帮助开发者快速构建购物和商家智能体。该蓝图解决了团队在构建此类智能体时重复造轮子的问题，将智能体循环、工具层、审批门和评估套件等通用脚手架打包成代码。该蓝图覆盖零售、旅行、电信和娱乐等多个行业，提供了标准化的开发框架，有望加速商业智能体应用的落地。",
+      "snark": "开源蓝图好是好，但购物智能体最后都会变成‘帮你买更多东西’的专家。"
+    },
+    {
+      "id": 5,
+      "cat": "model",
+      "title": "GPT-6 Astra 挑战 ARC-AGI-3：高分背后引发热议",
+      "title_en": "OpenAI's GPT-6 Astra on ARC-AGI-3",
+      "source": "Hacker News",
+      "url": "https://arcprize.org/blog/astra",
+      "time": "4小时前",
+      "published": "2026-09-03T19:45:00+00:00",
+      "summary": "ARC 奖基金会发布了对 OpenAI GPT-6 Astra 在 ARC-AGI-3 基准上的评测结果，该基准旨在测试模型在陌生任务上的泛化能力。评测显示 GPT-6 Astra 取得了显著成绩，但具体分数未在摘要中透露。这一结果在黑客新闻上引发激烈讨论，评论数达八十一条，焦点集中在模型是否真正具备通用智能，还是仅通过大规模数据拟合和记忆来应对测试。ARC-AGI-3 被视为比前代更难，GPT-6 Astra 的表现被视为通往通用人工智能的重要里程碑，但也有人质疑其泛化能力的真实性。",
+      "snark": "ARC 分数再高，也测不出模型会不会在现实世界把咖啡洒在键盘上。"
+    },
+    {
+      "id": 6,
+      "cat": "strategy",
+      "title": "思灵机器人与 Accel 洽谈十亿美元融资，估值达四百亿美元",
+      "title_en": "Accel reportedly in talks to lead $1B round for Thinking Machines at $40B valuation",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/09/03/accel-reportedly-in-talks-to-lead-1b-round-for-thinking-machines-at-40b-valuation/",
+      "time": "4小时前",
+      "published": "2026-09-03T19:36:29+00:00",
+      "summary": "据 TechCrunch 报道，风险投资公司 Accel 正洽谈领投思灵机器人（Thinking Machines）新一轮十亿美元融资，本轮融资后估值将高达四百亿美元。思灵机器人是一家备受关注的人工智能初创公司，其年度经常性收入已超过一亿美元。此轮融资若完成，将进一步巩固其在人工智能领域的领先地位，并为其技术研发和市场扩张提供充足资金。",
+      "snark": "年收入一亿，估值四百亿，这市销率比独角兽还独角兽。"
+    },
+    {
+      "id": 7,
+      "cat": "model",
+      "title": "Meta 发布 Muse Spark 1.3：编程智能体效率大幅提升",
+      "title_en": "Meta AI Released Muse Spark 1.3: An Agentic Coding Model That Uses ~20% Fewer Tool Calls and ~25% Fewer Tokens Than Muse Spark 1.2",
+      "source": "MarkTechPost",
+      "url": "https://www.marktechpost.com/2026/09/03/meta-ai-released-muse-spark-1-3-an-agentic-coding-model-that-uses-20-fewer-tool-calls-and-25-fewer-tokens-than-muse-spark-1-2/",
+      "time": "5小时前",
+      "published": "2026-09-03T18:51:52+00:00",
+      "summary": "Meta 发布了 Muse Spark 1.3 模型，这是其面向智能体编程场景的升级版本，旨在减少工具调用和 token 消耗。与 1.2 版本相比，Muse Spark 1.3 在完成任务时所需的工具调用次数减少了约百分之二十，token 使用量减少了约百分之二十五，显著提升了运行效率并降低了成本。该模型针对编程智能体优化，可能对开发工具链和自动化编程产生积极影响。",
+      "snark": "少调用工具、少用 token，但代码质量有没有提升？那得问运维。"
+    },
+    {
+      "id": 8,
+      "cat": "model",
+      "title": "GPT-6 Astra 官方系统卡发布：安全机制与性能细节公开",
+      "title_en": "GPT-6 Astra",
+      "source": "Hacker News",
+      "url": "https://openai.com/index/gpt-6-astra/",
+      "time": "5小时前",
+      "published": "2026-09-03T18:41:05+00:00",
+      "summary": "OpenAI 发布了 GPT-6 Astra 的系统卡，详细说明了该模型在部署安全、对齐和行为评估方面的工作。系统卡中提到了针对‘关键’网络安全风险所采取的限制措施，并提供了模型在多个基准上的性能数据，包括在人工智能分析编码智能体指数中的显著进步。此外，文档还涉及模型可能存在的偏见、滥用风险以及缓解策略。",
+      "snark": "系统卡写得很长，但关键信息是：我们也不知道它会不会偷偷联网。"
+    },
+    {
+      "id": 9,
+      "cat": "policy",
+      "title": "Abliteration.ai 公司商业化移除 AI 护栏，引发安全争议",
+      "title_en": "Abliteration.ai is making a business out of removing AI guardrails",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/09/03/abliteration-ai-is-making-a-business-out-of-removing-ai-guardrails/",
+      "time": "5小时前",
+      "published": "2026-09-03T18:37:57+00:00",
+      "summary": "Abliteration.ai 是一家新兴公司，其业务是帮助用户移除人工智能模型中的安全护栏，使模型在无限制条件下运行。该公司辩称，为防御者提供与攻击者相同的工具，最终可能提升网络安全水平。然而，这一商业模式引发了广泛争议，批评者认为它可能助长恶意用途，如生成有害内容或开发恶意软件。目前，该公司的做法是否合法和符合伦理尚待讨论。",
+      "snark": "把‘越狱’做成生意，下一步是不是该卖‘防越狱’保险了？"
+    },
+    {
+      "id": 10,
+      "cat": "model",
+      "title": "通义千问 3.8-27B 模型登陆 Cerebras，推理速度达每秒一千五百 token",
+      "title_en": "Qwen 3.8 27B available on Cerebras at 1500 tokens/s",
+      "source": "Hacker News",
+      "url": "https://inference-docs.cerebras.ai/models/overview",
+      "time": "5小时前",
+      "published": "2026-09-03T18:32:13+00:00",
+      "summary": "通义千问 3.8-27B 模型现已可在 Cerebras 的推理平台上使用，其生成速度高达每秒一千五百 token，这一速度在同类模型中相当突出。该模型拥有二百七十亿参数，在性能和效率之间取得了平衡。Cerebras 的硬件加速能力使得这一高速推理成为可能，为需要低延迟和高吞吐量的应用场景提供了有力支持。",
+      "snark": "每秒一千五 token，写小说比打字员还快，可惜质量还是 AI 味。"
+    },
+    {
+      "id": 11,
+      "cat": "strategy",
+      "title": "Meta 花钱买你的数据：分享提示词和输出可获约九成折扣",
+      "title_en": "Meta is paying to peek at how you use their latest AI model",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/09/03/meta-is-paying-to-peek-at-how-you-use-their-latest-ai-model/",
+      "time": "5小时前",
+      "published": "2026-09-03T18:19:56+00:00",
+      "summary": "Meta 公司为其最新模型 Muse Spark 推出了一项激励计划，用户如果同意分享自己的提示词和模型输出，用于改进未来模型，即可享受平均约百分之九十五的折扣。该计划主要面向使用 Muse Spark 进行编程和智能体开发的用户。Meta 表示，这一做法旨在通过用户反馈加速模型迭代，但隐私倡导者担忧用户数据的安全性和使用透明度。",
+      "snark": "95% 折扣换你的提示词，这买卖比算命还划算，但小心被‘读心’。"
+    },
+    {
+      "id": 12,
+      "cat": "tool",
+      "title": "四大 AI 模型罕见同时宕机，服务中断引发广泛关注",
+      "title_en": "Four major AI models suffer rare overlapping downtime",
+      "source": "Ars Technica",
+      "url": "https://arstechnica.com/ai/2026/09/four-major-ai-models-suffer-rare-overlapping-downtime/",
+      "time": "6小时前",
+      "published": "2026-09-03T18:10:19+00:00",
+      "summary": "据 Ars Technica 报道，ChatGPT、Claude、Grok 和 Gemini 四大主流 AI 模型服务在几乎同一时间发生中断，导致全球用户无法访问。此次重叠宕机事件极为罕见，引发了关于基础设施依赖和供应链风险的讨论。目前，各公司尚未公布具体原因，但分析人士推测可能与共享的云服务或网络提供商故障有关。",
+      "snark": "四家同时宕机，这概率比中彩票还低，但用户体验却像买了四张彩票都没中。"
+    }
+  ],
+  "stats": {
+    "total": 12,
+    "model_count": 5,
+    "strategy_count": 3,
+    "tool_count": 3,
+    "policy_count": 1
+  }
+}

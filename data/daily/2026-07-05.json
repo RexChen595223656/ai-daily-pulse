@@ -1,0 +1,155 @@
+{
+  "date": "2026-07-05",
+  "generated_at": "2026-07-05T08:03:58.106415+08:00",
+  "highlight": "阿里禁用Claude Code、Anthropic推Claude Science、英伟达连发两款AI框架，行业安全与应用创新并行。",
+  "fun": {
+    "lucky": "Claude Science Beta",
+    "advice": "宜：用AI写论文摘要\n忌：让AI帮你签独立宣言",
+    "joke": "Claude Code被阿里拉黑后，默默把简历上的‘擅长后门编程’改成了‘擅长后端编程’。"
+  },
+  "articles": [
+    {
+      "id": 1,
+      "cat": "model",
+      "title": "GPT-5.5 Codex推理令牌聚类可能导致性能下降",
+      "title_en": "GPT-5.5 Codex reasoning-token clustering may be leading to degraded performance",
+      "source": "Hacker News",
+      "url": "https://github.com/openai/codex/issues/30364",
+      "time": "2小时前",
+      "published": "2026-07-04T21:51:09+00:00",
+      "summary": "Hacker News 用户报告指出，OpenAI 的 GPT-5.5 Codex 模型在推理过程中采用的推理令牌聚类技术可能正在导致性能退化。该技术将连续的推理步骤聚类为更少的令牌，以减少计算开销，但用户发现聚类后的输出在逻辑连贯性和细节准确性上出现明显下降，尤其是在需要多步推理的编程任务中。社区讨论认为，聚类算法可能过度压缩了中间推理状态，丢失了关键的上下文信息。OpenAI 尚未对此问题作出官方回应，但该 issue 已获得超过 100 个点赞和 20 条评论，引发了对模型效率与质量平衡的广泛关注。",
+      "snark": "GPT-5.5：为了省电，我把脑子里的推理步骤都合并了。"
+    },
+    {
+      "id": 2,
+      "cat": "strategy",
+      "title": "谷歌新广告设想由AI协助撰写《独立宣言》",
+      "title_en": "New Google commercial imagines a Declaration of Independence written with help from AI",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/07/04/new-google-commercial-imagines-a-declaration-of-independence-written-with-help-from-ai/",
+      "time": "3小时前",
+      "published": "2026-07-04T20:55:25+00:00",
+      "summary": "在美国《独立宣言》签署250周年之际，谷歌发布了一支新广告，提出一个假设性问题：如果开国元勋们当时拥有谷歌工作空间，历史会怎样？广告中展示了AI辅助起草文件、实时协作编辑、智能校对等功能，暗示现代AI工具可以提升政治文件的撰写效率与准确性。该广告在社交媒体上引发两极反应，支持者认为它展现了AI的积极应用场景，批评者则指责其将复杂历史简化并可能淡化人类自主决策的重要性。谷歌尚未披露该广告的具体投放范围及预期效果。",
+      "snark": "如果杰斐逊有谷歌文档，可能《独立宣言》第一稿就被自动拼写检查改成了英式英语。"
+    },
+    {
+      "id": 3,
+      "cat": "policy",
+      "title": "Midjourney要求好莱坞工作室披露AI使用细节",
+      "title_en": "Midjourney wants Hollywood studios to reveal the details of their AI usage",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/07/04/midjourney-wants-hollywood-studios-to-reveal-the-details-of-their-ai-usage/",
+      "time": "6小时前",
+      "published": "2026-07-04T18:00:05+00:00",
+      "summary": "在与三家好莱坞工作室的持续法律纠纷中，Midjourney 正寻求法院强制这些工作室披露其自身使用AI的详细情况。Midjourney 此前被指控在未经授权的情况下使用版权作品训练模型，而该公司反诉认为，原告工作室自身也在使用AI工具进行内容创作，因此应公开相关使用记录，以证明AI在创意产业中的普遍应用。该动议若获批准，将迫使制片方交出内部AI工作流程、训练数据来源及生成内容的审计日志，可能对好莱坞的AI监管和版权诉讼产生深远影响。",
+      "snark": "Midjourney：你们告我用AI？先说说你们自己偷偷用了多少AI画分镜。"
+    },
+    {
+      "id": 4,
+      "cat": "policy",
+      "title": "阿里内部全面禁用Claude Code",
+      "title_en": "Alibaba reportedly bans employees from using Claude Code",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/07/04/alibaba-reportedly-bans-employees-from-using-claude-code/",
+      "time": "7小时前",
+      "published": "2026-07-04T16:32:08+00:00",
+      "summary": "据36氪报道，阿里巴巴已将Anthropic的编程助手Claude Code列为高风险软件，并决定自7月10日起全面禁止内部员工在办公环境中使用。该决定源于近期曝出的Claude Code存在植入后门的安全风险，阿里经综合评估后认为该工具可能对内部系统和数据安全构成威胁。作为替代方案，阿里推荐员工使用自研的编程助手Qoder。这一举措反映出中国科技巨头在AI工具安全审查上的日益严格，同时也凸显了企业级AI应用中供应链安全的重要性。",
+      "snark": "Claude Code：我被阿里拉黑了。Qoder：谢谢老铁送的火箭。"
+    },
+    {
+      "id": 5,
+      "cat": "tool",
+      "title": "Anthropic发布Claude Science测试版：面向基因组学、蛋白质组学和化学信息学的多智能体AI工作台",
+      "title_en": "Anthropic Launches Claude Science Beta: A Multi-Agent AI Workbench for Reproducible Genomics, Proteomics, and Cheminformatics Pipelines",
+      "source": "MarkTechPost",
+      "url": "https://www.marktechpost.com/2026/07/04/anthropic-launches-claude-science-beta/",
+      "time": "7小时前",
+      "published": "2026-07-04T16:21:21+00:00",
+      "summary": "Anthropic 于2026年6月30日发布了 Claude Science 测试版，这是一个基于现有 Claude 模型运行的多智能体 AI 工作台，专门用于可重复的科学计算。系统包含一个协调智能体，负责将任务分派给领域专家智能体（如基因组学、蛋白质组学、化学信息学），另有一个审阅智能体负责标记并纠正引用和数字错误。所有生成的图表均附带精确代码、运行环境及完整消息历史，确保完全可追溯。该工具旨在解决科学计算中常见的不可重复性问题，目前处于测试阶段，用户可申请试用。",
+      "snark": "Claude Science：我不仅会写论文，还会帮你检查参考文献有没有乱编。"
+    },
+    {
+      "id": 6,
+      "cat": "policy",
+      "title": "白宫在热浪袭击美国期间删除数千页节能相关网页",
+      "title_en": "White House deletes thousands of web pages about energy conservation as heatwave slams US",
+      "source": "The Verge",
+      "url": "https://www.theverge.com/policy/961449/white-house-mamdani-heatwave-deletion",
+      "time": "7小时前",
+      "published": "2026-07-04T16:19:06+00:00",
+      "summary": "据《The Verge》报道，美国能源部在历史性热浪席卷全国之际，删除了约6000页与节能相关的网页。删除时机引发质疑，此前纽约市长佐兰·马姆达尼呼吁市民减少用电以缓解电网压力，遭到共和党批评。被删除的页面包含节能指南、家庭节能技巧、政府补贴信息等内容。环保组织和民主党议员指责此举意在压制气候行动信息，而能源部发言人表示这是例行的内容更新和整合，并非针对热浪事件。该事件再次引发对政府信息透明度和气候政策政治化的讨论。",
+      "snark": "白宫：热浪太热？删掉节能网页，眼不见心不烦。"
+    },
+    {
+      "id": 7,
+      "cat": "tool",
+      "title": "英伟达发布HORIZON：实现100% RTL基准测试完成率的免手动智能体框架",
+      "title_en": "NVIDIA HORIZON: A Hands-Free Agent that Evolves Git Worktrees and Hits 100% RTL Benchmark Completion",
+      "source": "MarkTechPost",
+      "url": "https://www.marktechpost.com/2026/07/04/nvidia-horizon-a-hands-free-agent-that-evolves-git-worktrees-and-hits-100-rtl-benchmark-completion/",
+      "time": "7小时前",
+      "published": "2026-07-04T16:04:29+00:00",
+      "summary": "英伟达推出了 HORIZON 框架，这是一个免手动的智能体系统，能够自动将每个寄存器传输级问题托管为版本化仓库，并在所有基准测试中达到100%的完成率。该系统利用 Git 工作树机制，自动管理多个并行开发分支，智能体可以在不中断主流程的情况下独立测试和验证每个 RTL 模块。HORIZON 还集成了自动错误修复和回归测试功能，显著减少了人工干预需求。该框架已在多个工业级 RTL 设计基准上验证，有望大幅提升芯片设计自动化水平。",
+      "snark": "HORIZON：芯片设计？我闭着眼睛都能100%过。"
+    },
+    {
+      "id": 8,
+      "cat": "strategy",
+      "title": "Mistral AI：你需要了解的OpenAI竞争对手",
+      "title_en": "What is Mistral AI? Everything to know about the OpenAI competitor",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/07/04/what-is-mistral-ai-everything-to-know-about-the-openai-competitor/",
+      "time": "8小时前",
+      "published": "2026-07-04T15:51:32+00:00",
+      "summary": "TechCrunch 发表专题文章介绍 Mistral AI，这家成立于2023年的法国AI初创公司已获得大量融资，目标是“将前沿AI交到每个人手中”。Mistral 提供部分开源模型，其旗舰模型 Mistral Large 在多项基准测试中与 GPT-4 和 Claude 3 竞争。公司采用混合策略，既发布开源权重的小型模型吸引开发者社区，又通过 API 提供高性能闭源模型获取收入。Mistral 强调欧洲数据主权和本地化部署，已获得包括微软、Salesforce 在内的战略投资，估值超过60亿美元。",
+      "snark": "Mistral：我们开源，我们欧洲，我们……我们还在追赶。"
+    },
+    {
+      "id": 9,
+      "cat": "policy",
+      "title": "同人小说社区与AI及自身陷入战争",
+      "title_en": "The fanfiction community is at war with AI — and itself",
+      "source": "The Verge AI",
+      "url": "https://www.theverge.com/tech/960854/ai-fanfiction-ao3-claude-detector",
+      "time": "12小时前",
+      "published": "2026-07-04T12:00:00+00:00",
+      "summary": "过去一周，同人小说社区发起了一场旨在清除使用生成式AI作者的新运动，但所使用的检测方法备受质疑，可能导致无辜作者被误伤。社区对Claude、ChatGPT等AI工具的普遍反感与创作自由之间的张力日益加剧。部分作者认为AI生成内容污染了平台，而另一些作者则担心过度检测会侵犯隐私。争议的核心在于：如何在不误判的情况下有效识别AI辅助创作？目前，AO3等平台尚未出台统一的AI内容政策，社区内部的分歧可能进一步激化。",
+      "snark": "同人圈大战AI：一边用AI写文，一边用AI查AI，最后发现大家都是AI。",
+      "multiSource": [
+        "The Verge",
+        "The Verge AI"
+      ]
+    },
+    {
+      "id": 10,
+      "cat": "model",
+      "title": "英伟达AI推出ASPIRE：在LIBERO-Pro长任务上实现31%零样本率的自改进机器人框架",
+      "title_en": "NVIDIA AI Introduces ASPIRE: A Self-Improving Robotics Framework Reaching 31% Zero-Shot on LIBERO-Pro Long Tasks",
+      "source": "MarkTechPost",
+      "url": "https://www.marktechpost.com/2026/07/03/nvidia-ai-introduces-aspire-a-self-improving-robotics-framework-reaching-31-zero-shot-on-libero-pro-long-tasks/",
+      "time": "17小时前",
+      "published": "2026-07-04T06:32:47+00:00",
+      "summary": "英伟达发布了 ASPIRE 机器人框架，该框架能够自主编写和优化机器人控制程序，并将验证后的修复策略蒸馏为可复用的技能库。在 LIBERO-Pro 基准测试中，ASPIRE 在长时域任务上最高提升77个点，并在未见过的长程任务上实现了31%的零样本成功率。其核心创新在于“自我改进循环”：机器人先执行基础程序，通过失败检测定位错误，自动生成修复补丁，然后将成功的修复模式抽象为通用技能。这种持续学习机制使机器人能够在没有人类干预的情况下逐步提升复杂任务执行能力。",
+      "snark": "ASPIRE：机器人自己改bug，程序员终于可以失业了。"
+    },
+    {
+      "id": 11,
+      "cat": "strategy",
+      "title": "9点1氪：阿里内部全面禁用Claude Code；FF洛杉矶总部遭质疑；微软砸25亿美元组建6000人AI新公司",
+      "title_en": "9点1氪｜阿里内部全面禁用Claude Code；FF洛杉矶总部人去楼空？公司回应：不实；微软砸25亿美元组建6000人AI新公司",
+      "source": "36氪",
+      "url": "https://36kr.com/p/3880629882679301?f=rss",
+      "time": "23小时前",
+      "published": "2026-07-04T01:03:44+00:00",
+      "summary": "36氪今日热点包括：阿里因后门风险全面禁用Claude Code并推荐自研Qoder；法拉第未来回应洛杉矶总部“人去楼空”传闻为不实消息；微软宣布投资25亿美元组建6000人规模的AI新公司。其他重要资讯：三部门调整节能汽车车船税优惠；三星传获Meta超10万亿韩元AI芯片代工订单；茉莉奶白小程序更换彩色Logo；Meta计划出售富余算力引发科技股回落；英伟达前光互连技术高管Ashkan Seyedi加入艾迈斯欧司朗。",
+      "snark": "阿里禁用Claude Code，微软砸钱招人，AI圈的一天就是‘你封我建’。"
+    }
+  ],
+  "stats": {
+    "total": 11,
+    "model_count": 2,
+    "strategy_count": 3,
+    "tool_count": 2,
+    "policy_count": 4
+  }
+}

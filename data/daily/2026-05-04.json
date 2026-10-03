@@ -1,0 +1,161 @@
+{
+  "date": "2026-05-04",
+  "highlight": "AI 编程工具覆盖全开发流程，从写代码到部署，人类程序员角色被重新定义",
+  "articles": [
+    {
+      "id": 1,
+      "cat": "model",
+      "title": "Midjourney V8 上线，支持实时协作和 3D 场景生成",
+      "title_en": "",
+      "source": "MIT Tech Review",
+      "url": "https://example.com/ai-news/1164",
+      "time": "10天前",
+      "published": "2026-05-04T08:01:00+08:00",
+      "summary": "这是一条关于「Midjourney V8 上线，支持实时协作和 3D 场景生成」的详细报道。该事件在 AI 行业引发广泛关注，多位业内人士表示这将深刻影响行业格局。更多细节请查看原文。",
+      "snark": "AI圈新闻：今天又是核聚变级别的一天。"
+    },
+    {
+      "id": 2,
+      "cat": "model",
+      "title": "Hugging Face 推出开源推理框架，性能比肩 GPT-4",
+      "title_en": "",
+      "source": "MIT Tech Review",
+      "url": "https://example.com/ai-news/1627",
+      "time": "10天前",
+      "published": "2026-05-04T06:46:00+08:00",
+      "summary": "这是一条关于「Hugging Face 推出开源推理框架，性能比肩 GPT-4」的详细报道。该事件在 AI 行业引发广泛关注，多位业内人士表示这将深刻影响行业格局。更多细节请查看原文。",
+      "snark": "AI圈日常：今天你发模型，明天我刷榜。"
+    },
+    {
+      "id": 3,
+      "cat": "model",
+      "title": "Adobe Firefly 4 发布：AI 创意工具全面整合 Photoshop",
+      "title_en": "",
+      "source": "VentureBeat",
+      "url": "https://example.com/ai-news/4987",
+      "time": "10天前",
+      "published": "2026-05-04T15:25:00+08:00",
+      "summary": "这是一条关于「Adobe Firefly 4 发布：AI 创意工具全面整合 Photoshop」的详细报道。该事件在 AI 行业引发广泛关注，多位业内人士表示这将深刻影响行业格局。更多细节请查看原文。",
+      "snark": "又双叒叕一个「里程碑」，今年第几个了？"
+    },
+    {
+      "id": 4,
+      "cat": "model",
+      "title": "NVIDIA 发布 B300 GPU：算力翻倍，AI 训练市场进一步垄断",
+      "title_en": "",
+      "source": "The Verge AI",
+      "url": "https://example.com/ai-news/2994",
+      "time": "10天前",
+      "published": "2026-05-04T18:49:00+08:00",
+      "summary": "这是一条关于「NVIDIA 发布 B300 GPU：算力翻倍，AI 训练市场进一步垄断」的详细报道。该事件在 AI 行业引发广泛关注，多位业内人士表示这将深刻影响行业格局。更多细节请查看原文。",
+      "snark": "又双叒叕一个「里程碑」，今年第几个了？"
+    },
+    {
+      "id": 5,
+      "cat": "strategy",
+      "title": "Zapier AI 发布企业自动化 Agent：跨应用工作流零代码搭建",
+      "title_en": "",
+      "source": "少数派",
+      "url": "https://example.com/ai-news/6109",
+      "time": "10天前",
+      "published": "2026-05-04T14:51:00+08:00",
+      "summary": "这是一条关于「Zapier AI 发布企业自动化 Agent：跨应用工作流零代码搭建」的详细报道。该事件在 AI 行业引发广泛关注，多位业内人士表示这将深刻影响行业格局。更多细节请查看原文。",
+      "snark": "又双叒叕一个「里程碑」，今年第几个了？"
+    },
+    {
+      "id": 6,
+      "cat": "strategy",
+      "title": "Runway Gen-5 发布：视频生成支持实时物理模拟",
+      "title_en": "",
+      "source": "The Verge",
+      "url": "https://example.com/ai-news/5284",
+      "time": "10天前",
+      "published": "2026-05-04T07:00:00+08:00",
+      "summary": "这是一条关于「Runway Gen-5 发布：视频生成支持实时物理模拟」的详细报道。该事件在 AI 行业引发广泛关注，多位业内人士表示这将深刻影响行业格局。更多细节请查看原文。",
+      "snark": "这条新闻让同行们集体沉默了3秒，然后继续卷。"
+    },
+    {
+      "id": 7,
+      "cat": "strategy",
+      "title": "Cursor 2.0 发布：AI 原生 IDE 支持全栈项目自动生成",
+      "title_en": "",
+      "source": "The Verge",
+      "url": "https://example.com/ai-news/5598",
+      "time": "10天前",
+      "published": "2026-05-04T20:35:00+08:00",
+      "summary": "这是一条关于「Cursor 2.0 发布：AI 原生 IDE 支持全栈项目自动生成」的详细报道。该事件在 AI 行业引发广泛关注，多位业内人士表示这将深刻影响行业格局。更多细节请查看原文。",
+      "snark": "AI圈新闻：今天又是核聚变级别的一天。"
+    },
+    {
+      "id": 8,
+      "cat": "strategy",
+      "title": "Gemini 2.5 Ultra 发布，多模态基准测试全面领先",
+      "title_en": "",
+      "source": "AI News",
+      "url": "https://example.com/ai-news/9043",
+      "time": "10天前",
+      "published": "2026-05-04T18:40:00+08:00",
+      "summary": "这是一条关于「Gemini 2.5 Ultra 发布，多模态基准测试全面领先」的详细报道。该事件在 AI 行业引发广泛关注，多位业内人士表示这将深刻影响行业格局。更多细节请查看原文。",
+      "snark": "又双叒叕一个「里程碑」，今年第几个了？"
+    },
+    {
+      "id": 9,
+      "cat": "tool",
+      "title": "xAI 完成 60 亿美元融资，Elon Musk 称将建全球最大 GPU 集群",
+      "title_en": "",
+      "source": "少数派",
+      "url": "https://example.com/ai-news/4661",
+      "time": "10天前",
+      "published": "2026-05-04T22:24:00+08:00",
+      "summary": "这是一条关于「xAI 完成 60 亿美元融资，Elon Musk 称将建全球最大 GPU 集群」的详细报道。该事件在 AI 行业引发广泛关注，多位业内人士表示这将深刻影响行业格局。更多细节请查看原文。",
+      "snark": "AI圈新闻：今天又是核聚变级别的一天。"
+    },
+    {
+      "id": 10,
+      "cat": "tool",
+      "title": "Adobe Firefly 4 发布：AI 创意工具全面整合 Photoshop",
+      "title_en": "",
+      "source": "OpenAI Blog",
+      "url": "https://example.com/ai-news/5356",
+      "time": "10天前",
+      "published": "2026-05-04T16:00:00+08:00",
+      "summary": "这是一条关于「Adobe Firefly 4 发布：AI 创意工具全面整合 Photoshop」的详细报道。该事件在 AI 行业引发广泛关注，多位业内人士表示这将深刻影响行业格局。更多细节请查看原文。",
+      "snark": "这条新闻让同行们集体沉默了3秒，然后继续卷。"
+    },
+    {
+      "id": 11,
+      "cat": "tool",
+      "title": "AutoGPT 3.0 发布：自主 AI Agent 可完成复杂商业任务",
+      "title_en": "",
+      "source": "VentureBeat",
+      "url": "https://example.com/ai-news/3563",
+      "time": "10天前",
+      "published": "2026-05-04T08:27:00+08:00",
+      "summary": "这是一条关于「AutoGPT 3.0 发布：自主 AI Agent 可完成复杂商业任务」的详细报道。该事件在 AI 行业引发广泛关注，多位业内人士表示这将深刻影响行业格局。更多细节请查看原文。",
+      "snark": "又双叒叕一个「里程碑」，今年第几个了？"
+    },
+    {
+      "id": 12,
+      "cat": "tool",
+      "title": "Stable Diffusion 4 发布，文生图进入 8K 时代",
+      "title_en": "",
+      "source": "OpenAI Blog",
+      "url": "https://example.com/ai-news/9210",
+      "time": "10天前",
+      "published": "2026-05-04T19:53:00+08:00",
+      "summary": "这是一条关于「Stable Diffusion 4 发布，文生图进入 8K 时代」的详细报道。该事件在 AI 行业引发广泛关注，多位业内人士表示这将深刻影响行业格局。更多细节请查看原文。",
+      "snark": "AI圈日常：今天你发模型，明天我刷榜。"
+    }
+  ],
+  "stats": {
+    "total": 12,
+    "model_count": 4,
+    "strategy_count": 4,
+    "tool_count": 4
+  },
+  "fun": {
+    "lucky": "DeepSeek V4",
+    "advice": "宜：省钱方案\n忌：盲目追大参数",
+    "joke": "问：为什么 AI 不会取代产品经理？\n答：因为 AI 学不会说「这个需求很简单」。"
+  }
+}

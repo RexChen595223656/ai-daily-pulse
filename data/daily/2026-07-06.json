@@ -1,0 +1,143 @@
+{
+  "date": "2026-07-06",
+  "generated_at": "2026-07-06T08:10:43.481130+08:00",
+  "highlight": "美团发布1.6万亿参数开源MoE模型，具身智能赛道融资火热，AI教育引发富人新选择。",
+  "fun": {
+    "lucky": "LongCat-2.0",
+    "advice": "宜：用稀疏注意力处理百万级长文本。\n忌：让模型帮你决定披萨上该放什么配料。",
+    "joke": "程序员问AI：我该用哪个框架？AI答：你开心就好，反正过两年都得重写。"
+  },
+  "articles": [
+    {
+      "id": 1,
+      "cat": "strategy",
+      "title": "美国富人开始用AI给孩子当私教",
+      "title_en": "Some of the nation’s rich are letting AI teach their kids",
+      "source": "The Verge AI",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/961505/wealthy-ai-schools-alpha-forge-prep",
+      "time": "1小时前",
+      "published": "2026-07-05T22:30:54+00:00",
+      "summary": "尽管大多数美国人对AI持不信任态度，认为它连披萨上该放什么安全配料都搞不清楚，也不愿听AI生成的音乐，但这并不妨碍一部分富裕阶层将AI作为子女教育的替代方案。这些家庭正在放弃传统学校，转而使用像Forge Prep这类公司提供的AI教学服务。该现象揭示了AI应用在高端教育市场的潜力，也反映出社会不同阶层对技术接纳程度的巨大鸿沟。富人们似乎更愿意赌一把，让算法来塑造下一代的思维模式，而普通民众则依旧对AI的可靠性和安全性充满疑虑。",
+      "snark": "富人用AI教孩子，穷人用AI写作业，AI赢麻了。"
+    },
+    {
+      "id": 2,
+      "cat": "model",
+      "title": "美团发布LongCat-2.0：1.6万亿参数开源MoE模型",
+      "title_en": "Meituan Releases LongCat-2.0: A 1.6T-Parameter Open MoE Model with Native 1M Context and LongCat Sparse Attention",
+      "source": "MarkTechPost",
+      "url": "https://www.marktechpost.com/2026/07/05/meituan-releases-longcat-2-0-a-1-6t-parameter-open-moe-model-with-native-1m-context-and-longcat-sparse-attention/",
+      "time": "2小时前",
+      "published": "2026-07-05T21:25:10+00:00",
+      "summary": "美团正式发布了LongCat-2.0，这是一个拥有1.6万亿参数的混合专家（MoE）模型，每个token仅激活约480亿参数。该模型最大的亮点是原生支持100万token的超长上下文，这得益于其自研的LongCat稀疏注意力机制。更值得注意的是，LongCat-2.0的训练和推理全流程均运行在国内自研的AI ASIC超级计算集群上，展示了国产算力在大规模模型训练上的可行性。该模型已开源，为学术界和工业界研究超长文本理解和国产化AI基础设施提供了重要参考。",
+      "snark": "美团不送外卖改送模型了？1.6万亿参数，比你的外卖订单还重。"
+    },
+    {
+      "id": 3,
+      "cat": "policy",
+      "title": "亚马逊将停止接受Mechanical Turk新客户",
+      "title_en": "Amazon will stop accepting new customers for Mechanical Turk",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/07/05/amazon-will-stop-accepting-new-customers-for-mechanical-turk/",
+      "time": "6小时前",
+      "published": "2026-07-05T17:43:36+00:00",
+      "summary": "亚马逊宣布将停止为其众包劳动力平台Mechanical Turk（MTurk）接纳新客户。这一决定可能标志着该平台时代的终结。MTurk长期以来一直是AI训练数据标注的重要来源，无数AI模型背后的数据正是由这些“云端工人”手动标注的。此举可能源于监管压力、劳工权益争议以及平台商业模式的变化。对于依赖MTurk进行数据标注的AI初创公司而言，这无疑是一个重大打击，他们需要迅速寻找替代方案，否则将面临数据生产链断裂的风险。",
+      "snark": "AI把数据标注工给裁了，下一步是不是要裁程序员了？"
+    },
+    {
+      "id": 4,
+      "cat": "strategy",
+      "title": "谷歌新广告翻车：让开国元勋用Gemini写《独立宣言》",
+      "title_en": "Infuriating Google commercial imagines the founding fathers embracing AI",
+      "source": "The Verge AI",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/961468/google-ai-commercial-founding-fathers-declaration-of-independence",
+      "time": "9小时前",
+      "published": "2026-07-05T14:23:11+00:00",
+      "summary": "谷歌为Google Workspace推出了一则引发众怒的新广告。广告中，美国开国元勋们被描绘成使用谷歌协作工具和Gemini AI来起草《独立宣言》，开篇语“小组作业，但放在1776年”更是让观众感到极度尴尬。这则广告试图展示AI在历史场景下的协作能力，但却因其对历史严肃性的轻浮态度和对AI功能的过度神化而遭到广泛批评。用户普遍认为，这种将历史重大事件娱乐化的营销方式，不仅没有突出产品的实用性，反而暴露了谷歌在品牌营销上的傲慢与脱节。",
+      "snark": "谷歌这广告让杰斐逊气得从棺材里爬出来写差评。",
+      "multiSource": [
+        "The Verge",
+        "The Verge AI"
+      ]
+    },
+    {
+      "id": 5,
+      "cat": "tool",
+      "title": "LlamaIndex发布‘legal-kb’：文件系统级智能检索工具",
+      "title_en": "LlamaIndex ‘legal-kb’: Agentic Retrieval over Index v2 with retrieve, find, read, and grep Tools",
+      "source": "MarkTechPost",
+      "url": "https://www.marktechpost.com/2026/07/05/llamaindex-legal-kb-agentic-retrieval-over-index-v2-with-retrieve-find-read-and-grep-tools/",
+      "time": "16小时前",
+      "published": "2026-07-05T07:50:19+00:00",
+      "summary": "LlamaIndex推出了名为‘legal-kb’的公共参考应用，为法律文档知识库提供了类似文件系统的智能体访问接口。该工具基于Index v2构建，集成了retrieve（混合语义搜索）、find、read和grep四种核心工具，允许AI智能体像操作本地文件一样高效地检索和读取法律文档。它支持自动化的每文件版本控制和可视化引用，确保了法律文书的准确性和可追溯性。技术栈上采用了TanStack Start和AI SDK，为开发者提供了一个标准化的、可复用的法律文档检索范式，极大地降低了开发复杂法律AI应用的难度。",
+      "snark": "以后律师查案子，不是翻法典，是给AI发‘grep’指令。"
+    },
+    {
+      "id": 6,
+      "cat": "strategy",
+      "title": "港大教授创立‘忆生科技’获数亿元天使轮融资",
+      "title_en": "硬氪首发 | 港大教授成立的忆生科技获数亿天使轮融资，致力于为机器人造一套记忆系统",
+      "source": "36氪",
+      "url": "https://36kr.com/p/3882365879005186?f=rss",
+      "time": "17小时前",
+      "published": "2026-07-05T06:27:30+00:00",
+      "summary": "由香港大学教授创立的忆生科技（TranscEngram）宣布完成数亿元人民币的天使轮融资，投资方包括正大旗下中生制药、浦东创投、张江科投等产业资本与国资平台。该公司致力于从科学第一性原理出发，通过构建“感知—预测—交互”闭环，为机器人打造一套“大脑+小脑”的统一记忆系统，目标是实现下一代可解释的自主智能。融资将用于可解释具身控制大模型和物理世界模型的研发，以及多模态全人形动作交互的数据和算法训练管线建设。这标志着学术界对具身智能底层架构的探索正在获得资本市场的强力支持。",
+      "snark": "给机器人装记忆系统？希望它不要记住老板半夜让它加班的事。"
+    },
+    {
+      "id": 7,
+      "cat": "strategy",
+      "title": "清华系具身智能公司‘光象科技’完成数亿元天使轮融资",
+      "title_en": "硬氪首发 | 清华车辆学院师兄弟创业具身智能，已完成数亿元天使融资，将落地汽车产业",
+      "source": "36氪",
+      "url": "https://36kr.com/p/3882364132077577?f=rss",
+      "time": "17小时前",
+      "published": "2026-07-05T06:25:53+00:00",
+      "summary": "具身智能公司光象科技宣布完成累计数亿元人民币的天使轮融资，投资方包括珠海科技产业集团、兴证资本、松禾资本等。该公司成立于2025年4月，由清华大学车辆与运载学院与人工智能学院联合孵化，创始人兼CEO张涛具备深厚的产业背景。本轮资金将重点投入物理原生基座模型的研发，并加速具身智能机器人在工业场景的商业化交付。光象科技旨在将先进的AI算法与汽车等工业场景结合，推动机器人从实验室走向工厂流水线，解决实际生产中的复杂操作问题。",
+      "snark": "清华师兄弟创业，天使轮就数亿，这届投资人比导师还看好他们。"
+    },
+    {
+      "id": 8,
+      "cat": "strategy",
+      "title": "小米前高管唐沐创业‘影智XBOT’，咖啡机器人获数亿融资",
+      "title_en": "硬氪首发 | 小米前高管唐沐创业咖啡机器人，完成数亿融资，林斌、黎万强投过",
+      "source": "36氪",
+      "url": "https://36kr.com/p/3882361033322755?f=rss",
+      "time": "17小时前",
+      "published": "2026-07-05T06:23:00+00:00",
+      "summary": "通用餐饮具身机器人公司影智XBOT连续完成总额数亿元人民币的两轮融资，其中A轮2亿元，B轮3-5亿元。其天使轮投资阵容豪华，包括腾讯张小龙、小米联合创始人黎万强、林斌等。该公司创始人唐沐曾是小米高管，致力于打造餐饮垂直领域的机器人。此轮融资是餐饮机器人领域规模最大的融资之一，资金将用于产品研发和市场拓展。影智XBOT的咖啡机器人等产品，旨在通过具身智能技术解决餐饮行业人力短缺和标准化问题，将AI落地到最接地气的消费场景。",
+      "snark": "小米高管做咖啡机器人，以后喝咖啡前是不是还得先看个广告？"
+    },
+    {
+      "id": 9,
+      "cat": "tool",
+      "title": "2026年开源PDF转JSON提取模型指南",
+      "title_en": "Structured PDF-to-JSON: A Guide to Open-Source Extraction Models in 2026",
+      "source": "MarkTechPost",
+      "url": "https://www.marktechpost.com/2026/07/04/structured-pdf-to-json-a-guide-to-open-source-extraction-models-in-2026/",
+      "time": "21小时前",
+      "published": "2026-07-05T03:02:08+00:00",
+      "summary": "一篇技术指南深入探讨了2026年如何使用开源模型将企业数据从PDF、扫描件和幻灯片中提取为结构化的JSON格式。文章指出，大型语言模型和智能体无法直接使用非结构化数据，而开源文档提取已成为在自有硬件上进行数据转换的标准方案。指南详细区分了两种不同的提取问题：一种是简单的文本提取，另一种是复杂的布局理解和表格识别。它对比了当前主流的开源模型，并提供了选择建议，帮助开发者在成本和精度之间做出权衡，从而高效地为AI系统构建可用的结构化知识库。",
+      "snark": "PDF转JSON，AI界的‘把大象装进冰箱’，步骤简单，做起来要命。"
+    },
+    {
+      "id": 10,
+      "cat": "model",
+      "title": "前Qwen技术负责人反思：混合思考模式错在哪，为何转向智能体",
+      "title_en": "Qwen’s Former Lead on What Hybrid Thinking Got Wrong — and Why He Now Backs Agents",
+      "source": "MarkTechPost",
+      "url": "https://www.marktechpost.com/2026/07/04/qwens-former-lead-on-what-hybrid-thinking-got-wrong-and-why-he-now-backs-agents/",
+      "time": "21小时前",
+      "published": "2026-07-05T02:31:14+00:00",
+      "summary": "阿里巴巴前Qwen技术负责人林俊旸在一次演讲和文章中，深入剖析了Qwen系列模型的发展路线。他详细介绍了Qwen3的混合思考模式和动态思考预算，并坦诚指出了“混合思考”模式在实践中的不足之处。他认为，单纯追求模型自身的思考能力存在天花板，未来的方向应该是从“通用模型”转向“通用智能体”。他强调，让模型学会使用工具、进行规划和与环境交互，比单纯提升模型参数量和推理深度更为关键。这一观点为当前大模型的发展方向提供了来自一线实践者的深刻反思。",
+      "snark": "前技术负责人说混合思考错了，看来大模型也得学会‘少想多做’。"
+    }
+  ],
+  "stats": {
+    "total": 10,
+    "model_count": 2,
+    "strategy_count": 5,
+    "tool_count": 2,
+    "policy_count": 1
+  }
+}

@@ -1,0 +1,171 @@
+{
+  "date": "2026-08-05",
+  "generated_at": "2026-08-05T08:00:58.974258+08:00",
+  "highlight": "开源模型能力逼近闭源前沿，安全治理缺口却持续拉大，成为今日行业焦点。",
+  "fun": {
+    "lucky": "GLM-5.2",
+    "advice": "宜：拥抱开源社区，加速迭代。\n忌：忽视安全护栏，裸奔上线。",
+    "joke": "程序员最讨厌的两件事：写文档，以及别人不写文档。"
+  },
+  "articles": [
+    {
+      "id": 1,
+      "cat": "tool",
+      "title": "像素原生检索增强生成：视觉文档索引实用指南",
+      "title_en": "Pixel-Native RAG: A Practical Guide to Visual Document Indexing",
+      "source": "MarkTechPost",
+      "url": "https://www.marktechpost.com/2026/08/04/pixel-native-rag-a-practical-guide-to-visual-document-indexing/",
+      "time": "1小时前",
+      "published": "2026-08-04T22:27:38+00:00",
+      "summary": "本文介绍了像素原生检索增强生成系统，这是一种超越传统文本解析的端到端方案，将网页和PDF直接视为图像进行处理。文章详细阐述了从文档渲染、图像分块到多模态嵌入和混合搜索的完整流程。该方法通过视觉特征而非文本内容进行索引，能有效处理包含复杂表格、图表和扫描件的文档，避免了传统解析过程中的信息丢失问题。开发者可以利用这套流程构建高性能的视觉文档检索应用，尤其适用于那些文本提取困难或版式复杂的场景。该技术为处理非结构化数据提供了新思路，有望提升检索增强生成系统在真实世界文档上的表现。",
+      "snark": "把文档当图看，检索增强生成终于治好了‘阅读障碍’。"
+    },
+    {
+      "id": 2,
+      "cat": "strategy",
+      "title": "太空探索技术公司年内已采购三亿多美元特斯拉储能设备",
+      "title_en": "SpaceX has bought $329M worth of Tesla Megapacks so far this year",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/08/04/spacex-has-bought-329m-worth-of-tesla-megapacks-so-far-this-year/",
+      "time": "2小时前",
+      "published": "2026-08-04T21:07:26+00:00",
+      "summary": "据TechCrunch报道，太空探索技术公司今年迄今已购买了价值3.29亿美元的特斯拉兆瓦级储能电池组。这一采购行为凸显了埃隆·马斯克旗下两家公司之间日益紧密的业务关联。太空探索技术公司对能源存储的大量需求，可能与其数据中心、卫星网络地面站等基础设施的扩张有关。这笔内部交易不仅为特斯拉的能源业务贡献了可观的收入，也反映出马斯克商业版图内部协同效应的加深。分析人士指出，这种内部采购有助于巩固两家公司的现金流，但也引发了关于公司治理和关联交易透明度的讨论。",
+      "snark": "肥水不流外人田，马斯克用左口袋的钱买了右口袋的电池。"
+    },
+    {
+      "id": 3,
+      "cat": "strategy",
+      "title": "AMD数据中心业务高歌猛进，游戏业务暂时靠边站",
+      "title_en": "AMD&#8217;s data center business is booming while gaming takes a backseat",
+      "source": "The Verge AI",
+      "url": "https://www.theverge.com/tech/975381/amd-q2-2026-earnings-ai-gaming-ryzen",
+      "time": "3小时前",
+      "published": "2026-08-04T20:57:49+00:00",
+      "summary": "由于人工智能算力需求的强力驱动，AMD在最新财报中显示其数据中心业务收入同比翻了一番多，达到67亿美元。这一数字高于第一季度的58亿美元，相较于去年同期的32亿美元增长了107%。在周二的财报电话会议上，AMD高管将增长归功于人工智能加速器（如MI300系列）的强劲销售。与此同时，游戏业务（包括显卡和主机芯片）在整体营收中的占比持续下降。这一业绩表明，AMD已成功将战略重心转向高利润的数据中心市场，并正从英伟达手中抢夺更多人工智能算力市场份额。",
+      "snark": "AMD的财报只有两种颜色：数据中心的红色和游戏业务的灰色。"
+    },
+    {
+      "id": 4,
+      "cat": "strategy",
+      "title": "太空探索技术公司作为人工智能公司的收入已超过太空业务",
+      "title_en": "SpaceX made more revenue as an AI company than a space company",
+      "source": "The Verge AI",
+      "url": "https://www.theverge.com/science/975335/spacex-made-more-money-as-a-neocloud",
+      "time": "3小时前",
+      "published": "2026-08-04T20:47:55+00:00",
+      "summary": "根据太空探索技术公司提交的季度财报，其人工智能业务收入同比增长超过三倍，达到26亿美元，主要来源于向其他人工智能公司提供算力的合同。在提交的上市文件中，该公司明确指出，人工智能部门已成为其核心收入来源之一。这一数据表明，太空探索技术公司凭借其在星链和火箭项目中积累的基础设施优势，成功转型为算力服务提供商。尽管太空发射业务依然是其标志性业务，但从财务数据来看，人工智能算力租赁业务已后来居上，成为公司增长的新引擎。",
+      "snark": "一家航天公司，最后靠卖算力赚钱，这剧本马斯克都不敢这么写。"
+    },
+    {
+      "id": 5,
+      "cat": "policy",
+      "title": "开放权重模型逼近前沿水平，安全鸿沟依然存在",
+      "title_en": "Open-weight AI models are catching up to the frontier. The safety gap remains.",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/08/04/open-weight-ai-models-are-catching-up-to-the-frontier-the-safety-gap-remains/",
+      "time": "3小时前",
+      "published": "2026-08-04T20:05:26+00:00",
+      "summary": "安全人工智能组织发布的一份最新报告指出，智谱AI的开放权重模型GLM-5.2在能力上已接近前沿闭源模型，但缺乏关键的安全缓解措施。报告认为，这重新引发了人们对强大的开放模型可能超越现有治理和安全保障机制的担忧。随着开放权重模型能力的快速提升，其被滥用的风险也在增加，而当前的评估标准和监管框架似乎难以跟上这一步伐。该报告呼吁开发者在发布此类模型时，应更加重视安全测试和红队演练，以避免潜在的社会风险。",
+      "snark": "开源模型跑得太快，安全措施在后面追得直喘气。"
+    },
+    {
+      "id": 6,
+      "cat": "strategy",
+      "title": "Anthropic与AI云初创公司Volta签署百亿美元合作协议",
+      "title_en": "Anthropic signs $10B deal with AI cloud startup Volta",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/08/04/anthropic-signs-10-billion-deal-with-ai-cloud-startup-volta/",
+      "time": "4小时前",
+      "published": "2026-08-04T19:48:40+00:00",
+      "summary": "Anthropic近几个月来一直在积极拓展云合作伙伴关系，其最新动作据传是与AI云初创公司Volta签署了一项价值100亿美元的协议。此举是Anthropic为满足其大模型训练和推理需求而进行的又一项重大基础设施投资。通过与多家云服务商合作，Anthropic旨在降低对单一云提供商的依赖，并获取更多高性能计算资源。该合作也反映出AI模型提供商与云基础设施公司之间日益加深的绑定关系，预示着未来AI算力市场的竞争将更加激烈。",
+      "snark": "Anthropic撒钱的速度，比大模型生成token的速度还快。"
+    },
+    {
+      "id": 7,
+      "cat": "tool",
+      "title": "应用Wrinkles：用人工智能揭开你身边地点的隐藏故事",
+      "title_en": "Meet Wrinkles, an app that uncovers the hidden stories of the places around you",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/08/04/meet-wrinkles-an-ai-app-that-uncovers-the-hidden-stories-of-the-places-around-you/",
+      "time": "4小时前",
+      "published": "2026-08-04T19:34:34+00:00",
+      "summary": "一款名为Wrinkles的应用已在iOS和Android平台上线，它本质上是一个由人工智能驱动的音频导览，能够揭示你所处位置背后的隐藏历史和本地故事。用户只需打开应用，它就会根据地理位置，通过语音讲述该地点的历史轶事、建筑特色或文化背景。该应用旨在将日常通勤或旅行变成一场深度的城市探索。它利用人工智能技术整合了地理信息、历史数据库和内容创作，为用户提供了一种全新的、沉浸式的城市体验。",
+      "snark": "有了Wrinkles，你终于可以对着每天路过的破楼侃侃而谈了。"
+    },
+    {
+      "id": 8,
+      "cat": "policy",
+      "title": "英伟达雷厉风行：开放人工智能安全联盟成立一周即初见成效",
+      "title_en": "Nvidia doesn’t mess around: A week after open AI industry group formed, it’s already showing progress",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/08/04/nvidia-doesnt-mess-around-a-week-after-open-ai-industry-group-formed-its-already-showing-progress/",
+      "time": "4小时前",
+      "published": "2026-08-04T19:28:49+00:00",
+      "summary": "由英伟达牵头成立的开放安全人工智能联盟在短短一周内已发展至超过120家公司，并已针对防御人工智能代理攻击提出了初步方案。该联盟的快速行动显示了业界在应对人工智能安全威胁上的紧迫感。其首个提案聚焦于如何检测和防御恶意的AI代理，这被视为构建可信人工智能生态的关键一步。英伟达的高效执行力表明，其在推动人工智能安全标准制定方面扮演着领导角色，也反映出行业巨头正试图通过联盟形式来共同应对日益复杂的网络安全挑战。",
+      "snark": "英伟达不仅卖铲子，现在还要给所有淘金者制定安全帽标准。"
+    },
+    {
+      "id": 9,
+      "cat": "policy",
+      "title": "OpenAI解释涉及模型的第三方网络安全评估事件",
+      "title_en": "Third-party cyber evaluations involving OpenAI models",
+      "source": "OpenAI Blog",
+      "url": "https://openai.com/index/third-party-cyber-evaluations-involving-openai-models",
+      "time": "5小时前",
+      "published": "2026-08-04T19:00:00+00:00",
+      "summary": "OpenAI在官方博客中解释了近期发生的涉及第三方对其模型进行网络安全评估的事件，并概述了旨在加强AI模型测试和评估的新保障措施。OpenAI承认，在与外部机构合作进行安全测试时，存在流程上的疏漏，可能导致评估结果被误解或滥用。为此，公司宣布将实施更严格的访问控制、更清晰的评估协议以及对第三方评估者的背景审查。此举旨在平衡开放研究与确保模型安全之间的关系，以防止先进AI能力被不当利用。",
+      "snark": "OpenAI的‘安全评估’就像开卷考试，考完才发现答案印错了。"
+    },
+    {
+      "id": 10,
+      "cat": "model",
+      "title": "Cursor开源‘小猫混合’模型：面向GB300机架的确定性专家混合训练内核",
+      "title_en": "Cursor Open-Sources Mixture-of-Kittens (MoK): A Deterministic MoE Training Megakernel for GB300 NVL72 Racks",
+      "source": "MarkTechPost",
+      "url": "https://www.marktechpost.com/2026/08/04/cursor-open-sources-mixture-of-kittens-mok-a-deterministic-moe-training-megakernel-for-gb300-nvl72-racks/",
+      "time": "5小时前",
+      "published": "2026-08-04T18:38:41+00:00",
+      "summary": "Cursor Research开源了其Composer模型背后的专家混合训练大内核——‘小猫混合’。该内核将专家混合模型中的所有通信和计算融合到一个确定性的内核中，在GB300 NVL72机架上，其运行速度比最强的公开基线快2.37倍。这一技术突破解决了大规模专家混合训练中通信开销大的瓶颈。通过将复杂的并行策略封装在单一内核中，该方法不仅提升了训练效率，还增强了训练的确定性和可复现性，为在超大规模集群上训练下一代大模型提供了新的基础设施方案。",
+      "snark": "内核名字叫‘小猫’，但跑起来猛得像老虎。"
+    },
+    {
+      "id": 11,
+      "cat": "strategy",
+      "title": "OpenAI网红之旅为何适得其反",
+      "title_en": "How an OpenAI influencer trip backfired",
+      "source": "The Verge AI",
+      "url": "https://www.theverge.com/tech/975173/openai-influencers-brand-trip-ai-backlash-marketing",
+      "time": "6小时前",
+      "published": "2026-08-04T17:46:41+00:00",
+      "summary": "品牌之旅对于网红来说是身份的象征，代表赞助商愿意邀请他们参加全包式度假。但这类活动也可能引发未被邀请网红的嫉妒、公众的批评，并产生负面公关效果。OpenAI近期组织的网红之旅就遭遇了这样的反效果。此次旅行的奢华程度与OpenAI作为非营利组织起家的形象不符，引发了关于其营销策略和资金使用方向的争议。这一事件表明，即便是人工智能领域的头部公司，在运用传统营销手段时也需要谨慎评估其对品牌声誉的潜在影响。",
+      "snark": "OpenAI请网红度假，结果把公关团队送上了‘火刑架’。",
+      "multiSource": [
+        "The Verge",
+        "The Verge AI"
+      ]
+    },
+    {
+      "id": 12,
+      "cat": "policy",
+      "title": "‘不健康’的大语言模型使用方式比你想象的更普遍",
+      "title_en": "‘Not healthy’ LLM use is more common than you think",
+      "source": "The Verge AI",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/975180/llm-ai-chatbot-use-not-healthy",
+      "time": "6小时前",
+      "published": "2026-08-04T17:33:46+00:00",
+      "summary": "知名YouTuber兼科学传播者Hank Green表示，在因使用人工智能而受到强烈批评后，他将暂停内容制作。Green形容自己的人工智能使用方式‘不健康’，但强调他仅将人工智能用于查找研究资料，而非撰写脚本。这一事件引发的激烈争论，揭示了内容创作者在如何使用大语言模型方面面临的巨大压力。它凸显了当前关于人工智能辅助创作伦理的模糊地带，以及公众对‘纯人工’内容的期待与创作者实际工作流之间的鸿沟。",
+      "snark": "用AI找资料被骂，看来以后查文献得先焚香沐浴。",
+      "multiSource": [
+        "The Verge",
+        "The Verge AI"
+      ]
+    }
+  ],
+  "stats": {
+    "total": 12,
+    "model_count": 1,
+    "strategy_count": 5,
+    "tool_count": 2,
+    "policy_count": 4
+  }
+}

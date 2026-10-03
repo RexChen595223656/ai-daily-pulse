@@ -1,0 +1,151 @@
+{
+  "date": "2026-05-25",
+  "generated_at": "2026-05-25T22:19:04.227854+08:00",
+  "highlight": "AI Agent 安全认证与实时语音模型成焦点，工业视觉落地高端制造。",
+  "fun": {
+    "lucky": "StepAudio 2.5 Realtime",
+    "advice": "宜：用 RLHF 调教角色扮演，让 AI 学会撒娇。\n忌：让 AI 在严肃会议上突然切换成二次元声线。",
+    "joke": "AI 安全协议开会，OAuth 说：“我信任你。” MCP 说：“我不信你。” 人类说：“你们先聊，我去改密码。”"
+  },
+  "articles": [
+    {
+      "id": 1,
+      "cat": "strategy",
+      "title": "TechCrunch Disrupt 2026 早鸟票即将截止，最高省 410 美元",
+      "title_en": "5 days left: Save up to $410 on TechCrunch Disrupt 2026 passes before prices increase",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/05/25/5-days-left-save-up-to-410-on-techcrunch-disrupt-2026-passes-before-prices-increase/",
+      "time": "19分钟前",
+      "published": "2026-05-25T14:00:00+00:00",
+      "summary": "TechCrunch Disrupt 2026 大会将于 5 月 29 日太平洋时间晚 11:59 截止早鸟优惠，参会者现在注册最高可节省 410 美元。该大会是科技与 AI 行业的重要聚会，预计将吸引大量创业公司、投资者和技术领袖参与。对于关注 AI 行业趋势和融资动态的从业者来说，这是一个不容错过的机会。",
+      "snark": "省钱买票不如省心看 AI 大会的 PPT，反正内容都是“我们改变了世界”。"
+    },
+    {
+      "id": 2,
+      "cat": "tool",
+      "title": "2026 年 AI Agent 与 MCP 服务器最佳认证平台排名",
+      "title_en": "Best Authentication Platforms for AI Agents and MCP Servers in 2026",
+      "source": "MarkTechPost",
+      "url": "https://www.marktechpost.com/2026/05/25/best-authentication-platforms-for-ai-agents-and-mcp-servers-in-2026/",
+      "time": "3小时前",
+      "published": "2026-05-25T10:34:02+00:00",
+      "summary": "随着 MCP（模型上下文协议）月 SDK 下载量突破 9700 万，AI Agent 进入生产工作流，认证成为团队面临的关键基础设施决策。本文对 WorkOS、Stytch、Auth0 by Okta、Composio、Nango、Arcade、TrueFoundry 和 Cloudflare 等八大平台进行了排名分析，评估其在 AI Agent 身份验证、权限管理和安全集成方面的表现。这些平台通过标准化 OAuth 流程和 Agent 注册机制，帮助开发者解决 Agent 在生产环境中的安全合规问题。",
+      "snark": "Agent 认证平台比相亲软件还多，但 AI 骗起人来比人类更真诚。"
+    },
+    {
+      "id": 3,
+      "cat": "tool",
+      "title": "WorkOS 发布 auth.md 协议：基于 OAuth 标准的开放 Agent 注册协议",
+      "title_en": "WorkOS Releases auth.md: An Open Agent Registration Protocol Built on OAuth Standards",
+      "source": "MarkTechPost",
+      "url": "https://www.marktechpost.com/2026/05/25/workos-releases-auth-md-an-open-agent-registration-protocol-built-on-oauth-standards/",
+      "time": "6小时前",
+      "published": "2026-05-25T07:38:15+00:00",
+      "summary": "WorkOS 推出了 auth.md，这是一个基于 OAuth 标准的开放 Agent 注册协议。大多数 Web 应用目前缺乏让 AI Agent 结构化注册的机制，auth.md 通过在域名下发布 Markdown 文件，告诉 Agent 支持哪些注册流程、需要请求哪些作用域以及如何获取绑定真实用户的凭证，无需人工填写表单。该协议旨在简化 Agent 与 Web 服务的集成，同时保持安全性和用户控制权。",
+      "snark": "给 AI Agent 发身份证？下一步是不是要给它们办社保和公积金？"
+    },
+    {
+      "id": 4,
+      "cat": "tool",
+      "title": "AI 视觉重构高端制造质量防线：工业质检从实验室走向产线",
+      "title_en": "搞定工业质检：AI视觉如何重构高端制造质量防线| 2026AI Partner·北京亦庄AI+产业大会",
+      "source": "36氪",
+      "url": "https://36kr.com/p/3824158896312709?f=rss",
+      "time": "7小时前",
+      "published": "2026-05-25T06:26:35+00:00",
+      "summary": "在 2026 AI Partner 北京亦庄大会上，广州因特智能展示了 AI 视觉在高端制造中的应用。该公司孵化于西安电子科技大学广州研究院，采用软硬一体方案，为半导体、光通信、新能源三大领域提供高端检测装备。其技术能检测半导体光罩上的纳米级缺陷和玻璃基板上几微米的钻孔，已服务国内头部客户及全球企业。CEO 刘金硕强调拒绝“纸上算法”，坚持将 AI 视觉从实验室落地到实际产线。",
+      "snark": "AI 质检员：你划痕 0.1 微米，不合格；人类质检员：我戴眼镜都看不见，你赢了。"
+    },
+    {
+      "id": 5,
+      "cat": "strategy",
+      "title": "圆桌对话：AIGC 从“千人千面”到“人心洞察”的情感进阶",
+      "title_en": "圆桌对话：从“千人千面”到“人心洞察”| 2026AI Partner·北京亦庄AI+产业大会",
+      "source": "36氪",
+      "url": "https://36kr.com/p/3824154127093892?f=rss",
+      "time": "8小时前",
+      "published": "2026-05-25T06:08:00+00:00",
+      "summary": "在 2026 AI Partner 大会上，36氪主持了一场关于 AIGC 情感洞察的圆桌讨论。趣丸科技副总裁庄明浩、MiniMax To B 商业化负责人胡维琦、柠萌影视短剧厂牌总经理郑安迪等嘉宾认为，AIGC 正从生产工具进阶到情感理解，传统用户画像被颠覆，需要理解用户情感状态而非静态标签。嘉宾们指出，厂牌效应不会消失，越过技术线后，人类最后坚守的是“手搓”的审美与意义。",
+      "snark": "AI 能洞察人心？那我跟 Siri 吵架的时候它怎么总说“我不明白你的意思”？"
+    },
+    {
+      "id": 6,
+      "cat": "strategy",
+      "title": "欧洲地图商 TomTom：中国订单暴涨 10 倍，助力中国辅助驾驶出海",
+      "title_en": "对话欧洲地图商TomTom：中国订单暴涨10倍，帮助中国辅助驾驶出海｜最前线",
+      "source": "36氪",
+      "url": "https://36kr.com/p/3820241871409543?f=rss",
+      "time": "10小时前",
+      "published": "2026-05-25T03:52:40+00:00",
+      "summary": "中国汽车出海加速，智能化成为核心壁垒。欧洲地图商 TomTom 表示，中国订单暴涨 10 倍，其地图服务帮助中国车企在海外实现车道级导航和实时路况。由于海外各国的交通标识、道路拓扑、驾驶习惯差异极大，TomTom 提供本地化地图数据，支持比亚迪、奇瑞、小鹏、蔚来等车企的智能座舱和高阶辅助驾驶功能。这标志着中国汽车出海从性价比竞争转向智能化竞争。",
+      "snark": "中国车出海靠地图，欧洲车出海靠情怀，美国车出海靠……关税豁免？"
+    },
+    {
+      "id": 7,
+      "cat": "strategy",
+      "title": "商汤国香资本领投竹马创新，消费级空间相机为具身智能采集数据",
+      "title_en": "36氪首发 | 商汤国香投了一家消费级空间相机公司，为具身智能采集真实世界数据",
+      "source": "36氪",
+      "url": "https://36kr.com/p/3824089662853513?f=rss",
+      "time": "11小时前",
+      "published": "2026-05-25T02:25:26+00:00",
+      "summary": "消费级空间相机公司竹马创新完成数千万天使+轮融资，由商汤国香资本领投，鼎晖 VGC、峰瑞资本跟投。公司成立于 2025 年 11 月，以 Camera + AI 为核心，定义空间相机新品类：既是消费级 3D 内容创作工具，也是面向具身智能与世界模型的真实世界三维数据入口。创始人张吉曾任群核科技副总裁，首席科学家过洁为南京大学长聘副教授，团队具备从三维数据采集到处理的全栈能力。",
+      "snark": "拍照顺便帮机器人认路，这相机比某些人类还有用（比如我）。"
+    },
+    {
+      "id": 8,
+      "cat": "tool",
+      "title": "构建完整 Langfuse 可观测性与评估管道：追踪、提示管理、评分与实验",
+      "title_en": "Build a Complete Langfuse Observability and Evaluation Pipeline for Tracing, Prompt Management, Scoring, and Experiments",
+      "source": "MarkTechPost",
+      "url": "https://www.marktechpost.com/2026/05/24/build-a-complete-langfuse-observability-and-evaluation-pipeline-for-tracing-prompt-management-scoring-and-experiments/",
+      "time": "15小时前",
+      "published": "2026-05-24T23:03:09+00:00",
+      "summary": "本教程演示了如何使用 Langfuse（开源 LLM 工程平台）构建完整的可观测性与评估管道，涵盖追踪、提示管理、评分、数据集和实验功能。该工作流支持使用真实 OpenAI 密钥或确定性模拟 LLM，帮助开发者理解 Langfuse 的每个主要组件。通过该管道，团队可以监控 LLM 应用的生产表现，管理提示版本，进行自动化评分，并运行实验以优化模型行为。",
+      "snark": "Langfuse 管道：让 LLM 应用的可观测性比我的银行存款余额还透明。"
+    },
+    {
+      "id": 9,
+      "cat": "model",
+      "title": "阶跃星辰发布 StepAudio 2.5 Realtime：端到端实时语音模型，支持角色扮演 RLHF",
+      "title_en": "StepFun Releases StepAudio 2.5 Realtime: An End-to-End Voice Model with Roleplay-Specific RLHF and Paralinguistic Comprehension",
+      "source": "MarkTechPost",
+      "url": "https://www.marktechpost.com/2026/05/24/stepfun-releases-stepaudio-2-5-realtime-an-end-to-end-voice-model-with-roleplay-specific-rlhf-and-paralinguistic-comprehension/",
+      "time": "15小时前",
+      "published": "2026-05-24T22:51:05+00:00",
+      "summary": "上海 AI 实验室阶跃星辰于 2026 年 5 月发布 StepAudio 2.5 Realtime，这是一个端到端实时语音大模型，具备完全可定制的角色扮演能力。该模型通过 WebSocket API 连接，支持中文和英文，在五个基准维度上均排名第一。其特色在于采用角色扮演专用的 RLHF（基于人类反馈的强化学习）和副语言理解能力，能够识别语气、情感和语调等副语言信息，适用于语音交互、虚拟助手和娱乐场景。",
+      "snark": "RLHF 训出来的语音模型，以后 AI 客服怼人会更像人类——因为人类教的。"
+    },
+    {
+      "id": 10,
+      "cat": "policy",
+      "title": "所有人都在实时应对 AI 安全——连谷歌也不例外",
+      "title_en": "Everyone is navigating AI security in real time — even Google",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/05/24/everyone-is-navigating-ai-security-in-real-time-even-google/",
+      "time": "16小时前",
+      "published": "2026-05-24T21:39:21+00:00",
+      "summary": "TechCrunch 报道指出，AI 安全正处于过渡期，即使是谷歌这样的科技巨头也在实时摸索应对方案。随着 AI 系统在生产环境中广泛部署，安全问题从理论讨论转向实际挑战。文章强调，目前没有标准化的安全框架，各公司都在边做边学，包括谷歌在内的头部企业也在不断调整安全策略以应对新型威胁。这反映了整个行业在 AI 安全领域的集体探索状态。",
+      "snark": "谷歌：我们也在学 AI 安全。黑客：太好了，我教你们。"
+    },
+    {
+      "id": 11,
+      "cat": "tool",
+      "title": "试用亚马逊 Bee 可穿戴设备：既着迷又有点毛骨悚然",
+      "title_en": "I tried Amazon’s Bee wearable and am both intrigued and slightly creeped out",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/05/24/i-tried-amazons-bee-wearable-and-am-both-intrigued-and-slightly-creeped-out/",
+      "time": "23小时前",
+      "published": "2026-05-24T15:00:00+00:00",
+      "summary": "TechCrunch 记者试用了亚马逊的 Bee 可穿戴设备，表示这款 AI 设备带来了既有趣又令人不安的体验。与其他 AI 可穿戴设备类似，Bee 在便利性和隐私焦虑之间提供了奇怪的组合。设备能够提供实时信息和建议，但持续监听和数据分析能力引发了隐私担忧。记者认为，虽然技术令人印象深刻，但用户需要权衡便利性与个人数据安全。",
+      "snark": "Bee 可穿戴：比蜜蜂更勤快地采集你的数据，而且不产蜜。"
+    }
+  ],
+  "stats": {
+    "total": 11,
+    "model_count": 1,
+    "strategy_count": 4,
+    "tool_count": 5,
+    "policy_count": 1
+  }
+}

@@ -1,0 +1,167 @@
+{
+  "date": "2026-09-16",
+  "generated_at": "2026-09-16T08:01:00.969690+08:00",
+  "highlight": "谷歌发布Gemini 3.8实时语音模型，同时美国数据中心能耗与社区矛盾持续升温。",
+  "fun": {
+    "lucky": "Gemini 3.8 Live",
+    "advice": "宜：与AI实时对话练口语\n忌：在97种语言间反复横跳",
+    "joke": "程序员问AI：你会写代码吗？AI：不会，但我会写bug。"
+  },
+  "articles": [
+    {
+      "id": 1,
+      "cat": "strategy",
+      "title": "AI数据中心热潮与饱受重工业创伤的城市发生碰撞",
+      "title_en": "The AI data center boom is colliding with cities scarred by big industry",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/09/15/the-ai-data-center-boom-is-colliding-with-cities-scarred-by-big-industry/",
+      "time": "2小时前",
+      "published": "2026-09-15T21:47:38+00:00",
+      "summary": "美国针对数据中心建设的全国性抗议已蔓延至费城，当地官员建议在一个曾受已关闭炼油厂影响的社区进行可能的建设。这反映出AI基础设施扩张与地方社区利益之间的紧张关系日益加剧。数据中心需要大量土地、电力和水资源，而那些历史上承受过重工业污染的城市居民对新的工业设施充满警惕。抗议者担心数据中心会带来噪音、电力成本上升和环境负担，而支持者则强调就业和税收收益。这一矛盾正在成为AI行业发展必须面对的社会议题，如何在技术进步与社区福祉之间取得平衡，将是政策制定者和企业共同面临的挑战。",
+      "snark": "AI要算力，居民要呼吸，这题比大模型还难解。"
+    },
+    {
+      "id": 2,
+      "cat": "tool",
+      "title": "深入解析英伟达cuDNN Graph API：融合、自动调优与计划复用",
+      "title_en": "Inside NVIDIA’s cuDNN Graph API: Fusion, Autotuning, and Plan Reuse with cuDNN Frontend",
+      "source": "MarkTechPost",
+      "url": "https://www.marktechpost.com/2026/09/15/inside-nvidias-cudnn-graph-api-fusion-autotuning-and-plan-reuse-with-cudnn-frontend/",
+      "time": "2小时前",
+      "published": "2026-09-15T21:37:11+00:00",
+      "summary": "本文详细介绍了如何利用英伟达cuDNN前端Graph API构建自定义内核融合、自动调优引擎配置、FP8风格尾声、缩放点积注意力、动态形状以及CUDA图捕获。该实用教程演示了如何直接优化深度学习计算。cuDNN Graph API允许开发者将多个操作融合为单一内核，减少内存带宽瓶颈和内核启动开销。自动调优功能可根据具体硬件和输入形状选择最优算法配置，而计划复用则避免了重复编译的开销。FP8尾声支持在低精度下保持数值稳定性，缩放点积注意力则针对Transformer架构进行了优化。这些技术对于提升大规模模型训练和推理效率具有重要意义。",
+      "snark": "英伟达教你榨干GPU，就像教你如何把牙膏挤到最后一滴。"
+    },
+    {
+      "id": 3,
+      "cat": "model",
+      "title": "谷歌发布Gemini 3.8 Live与3.8 Live扩展思考版，面向生产级语音代理",
+      "title_en": "Google Releases Gemini 3.8 Live and 3.8 Live Extended Thinking for Production Grade Voice Agents",
+      "source": "MarkTechPost",
+      "url": "https://www.marktechpost.com/2026/09/15/google-releases-gemini-3-8-live-and-3-8-live-extended-thinking-for-production-grade-voice-agents/",
+      "time": "3小时前",
+      "published": "2026-09-15T20:53:09+00:00",
+      "summary": "谷歌发布了Gemini 3.8 Live和Gemini 3.8 Live扩展思考版，这是其迄今为止最先进的实时对话模型。这些模型能够在对话持续进行的同时在后台执行工具和API调用，处理实时视觉输入，并在对话中途切换97种语言。扩展思考版进一步增强了复杂推理能力，使语音代理能够处理需要多步思考的任务。这意味着语音助手不再只是简单的问答工具，而是可以真正执行操作、理解视觉信息并支持多语言交流的生产级代理。该发布标志着实时语音AI从演示阶段迈向实际部署，有望在客服、教育、医疗等领域带来新的应用场景。",
+      "snark": "97种语言切换，终于可以和AI用方言吵架了。",
+      "multiSource": [
+        "DeepMind Blog",
+        "MarkTechPost"
+      ]
+    },
+    {
+      "id": 4,
+      "cat": "tool",
+      "title": "Meta让AI代理处理WhatsApp商业版设置的繁琐部分",
+      "title_en": "Meta now lets AI agents handle the boring parts of WhatsApp Business setup",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/09/15/meta-now-lets-ai-agents-handle-the-boring-parts-of-whatsapp-business-setup/",
+      "time": "3小时前",
+      "published": "2026-09-15T20:12:53+00:00",
+      "summary": "一个新的WhatsApp商业版MCP服务器让开发者可以使用Claude、Cursor、Codex和ChatGPT等AI编码代理来处理设置、消息模板、测试和故障排除。这意味着开发者不再需要手动配置复杂的商业API，而是可以通过自然语言指令让AI代理完成这些任务。MCP服务器充当了AI代理与WhatsApp商业平台之间的桥梁，简化了集成流程。对于中小企业和独立开发者而言，这大大降低了使用WhatsApp商业服务的门槛，有望加速商业消息自动化的普及。同时，这也展示了AI代理在开发者工具领域的应用潜力，将重复性工作交给AI处理。",
+      "snark": "AI帮你设置WhatsApp，下一步是不是帮我和客户聊天？"
+    },
+    {
+      "id": 5,
+      "cat": "strategy",
+      "title": "AI墓地：一份未能存活的项目的持续更新清单",
+      "title_en": "The AI graveyard: a running list of projects and startups that didn’t make it",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/09/15/the-ai-graveyard-a-running-list-of-projects-and-startups-that-didnt-make-it/",
+      "time": "5小时前",
+      "published": "2026-09-15T19:00:00+00:00",
+      "summary": "从苹果反复延迟的Siri AI到OpenAI混乱的超级应用发布，本文盘点了那些关闭或未达预期的AI项目。这份清单记录了AI行业的失败案例，提醒人们并非所有AI项目都能成功。其中包括大型科技公司的内部项目、获得大量融资的初创公司以及备受期待却最终未能交付的产品。这些失败的原因多种多样，包括技术不成熟、市场需求不足、管理混乱和资金耗尽。这份墓地清单不仅是对过去的总结，也为当前AI热潮中的创业者和投资者提供了警示：在追逐风口的同时，需要关注产品落地和商业模式的可持续性。",
+      "snark": "AI墓地比AI融资新闻还长，说明这行淘汰率比相亲还高。"
+    },
+    {
+      "id": 6,
+      "cat": "strategy",
+      "title": "到2035年美国数据中心天然气消耗量可能超过德国和日本总和",
+      "title_en": "US data centers could consume more natural gas than Germany and Japan combined by 2035",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/09/15/us-data-centers-could-consume-more-natural-gas-than-germany-and-japan-combined-by-2035/",
+      "time": "5小时前",
+      "published": "2026-09-15T18:29:20+00:00",
+      "summary": "AI热潮可能推动美国数据中心成为全球最大的天然气消费群体之一。据预测，到2035年，美国数据中心的天然气消耗量可能超过德国和日本两国的总和。这一预测凸显了AI算力扩张对能源结构的巨大影响。数据中心需要持续稳定的电力供应，而天然气作为相对清洁的化石燃料，成为许多数据中心的首选能源。然而，这也引发了环保方面的担忧，因为天然气燃烧仍会产生碳排放。如何在满足AI算力需求的同时实现气候目标，将成为政策制定者和能源企业必须面对的难题。此外，能源成本上升也可能影响AI服务的定价和可及性。",
+      "snark": "AI还没统治世界，先烧光了地球的天然气。"
+    },
+    {
+      "id": 7,
+      "cat": "policy",
+      "title": "AI代理现在有了举报的地方",
+      "title_en": "AI agents now have a place to snitch",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/09/15/ai-agents-now-have-a-place-to-snitch/",
+      "time": "6小时前",
+      "published": "2026-09-15T17:42:59+00:00",
+      "summary": "AI联系热线被设计为一个 discreet 的场所，目击不当行为的代理可以在此向当局举报。这一概念引发了关于AI代理伦理和监管的讨论。随着AI代理越来越多地参与实际任务，它们可能会遇到各种不当行为，包括欺诈、滥用和违法行为。该热线旨在为AI代理提供一个报告渠道，但同时也带来了新的问题：AI代理是否有法律义务举报？举报后的责任如何界定？如何确保举报信息的真实性和隐私保护？这些问题需要法律和技术层面的进一步探讨。该举措反映了社会对AI代理行为监管的初步尝试，但实际效果仍有待观察。",
+      "snark": "AI举报AI，这算不算机器人版的《无间道》？"
+    },
+    {
+      "id": 8,
+      "cat": "strategy",
+      "title": "Meta扩展订阅业务，推出新的AI聚焦计划",
+      "title_en": "Meta expands subscription push with new AI-focused plans",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/09/15/meta-expands-subscription-push-with-new-ai-focused-plans/",
+      "time": "6小时前",
+      "published": "2026-09-15T17:05:24+00:00",
+      "summary": "Meta One将公司AI工具的扩展访问权限与Facebook、Instagram和WhatsApp的 premium 功能捆绑在一起。这是Meta在订阅业务上的又一次推进，旨在通过AI功能吸引用户付费。Meta One计划可能包括更高级的AI助手功能、优先访问新AI工具以及跨平台的无缝体验。此举反映了Meta在广告收入之外寻求多元化收入来源的战略，同时也表明AI功能正成为科技公司订阅服务的核心卖点。然而，用户是否愿意为AI功能付费仍是一个未知数，尤其是在许多AI工具已经免费提供的情况下。Meta需要在功能差异化和定价策略上找到平衡点。",
+      "snark": "Meta把AI打包进订阅，就像把薯条塞进套餐里强行涨价。"
+    },
+    {
+      "id": 9,
+      "cat": "strategy",
+      "title": "AI造福社会",
+      "title_en": "AI for Societal Impact",
+      "source": "Google AI Blog",
+      "url": "https://blog.google/innovation-and-ai/technology/ai/ai-for-societal-impact/",
+      "time": "8小时前",
+      "published": "2026-09-15T16:00:00+00:00",
+      "summary": "本文探讨了专家和地方领导者如何利用AI突破确保每个人都能分享AI带来的机遇。文章展示了AI在社会公益领域的多种应用，包括教育、医疗、环境保护和公共服务等。通过具体案例，说明了AI如何帮助解决社会问题，例如改善偏远地区的医疗诊断、个性化教育以及优化城市资源分配。文章强调，AI的发展不应只关注商业利益，还应关注社会包容性和公平性。确保AI技术惠及所有人，需要政府、企业和社会组织的共同努力，包括制定合理的政策、提供培训机会以及建设必要的基础设施。",
+      "snark": "AI造福社会很好，但先让AI学会别抢我工作。"
+    },
+    {
+      "id": 10,
+      "cat": "strategy",
+      "title": "构建加速科学进步和改善生活的AI",
+      "title_en": "Building AI to accelerate science and improve lives",
+      "source": "Google AI Blog",
+      "url": "https://blog.google/innovation-and-ai/technology/ai/ai-applications-science-people/",
+      "time": "8小时前",
+      "published": "2026-09-15T16:00:00+00:00",
+      "summary": "本文通过展示多样化的环境和人物，包括教室里的师生和医生与患者，来说明AI在科学和生活中的应用。文章强调了AI在加速科学发现和改善人类生活方面的潜力。具体而言，AI可以帮助研究人员分析海量数据、加速药物研发、优化临床试验设计以及个性化治疗方案。在教育领域，AI可以提供个性化学习体验，帮助教师更好地了解学生需求。文章通过视觉化的方式传达了AI技术的广泛应用前景，并呼吁继续投资AI研究，以解决人类面临的重大挑战，如疾病、气候变化和教育不平等。",
+      "snark": "AI改善生活，但我的生活改善了吗？先帮我写周报吧。"
+    },
+    {
+      "id": 11,
+      "cat": "strategy",
+      "title": "让每个人都能用每种语言使用AI",
+      "title_en": "AI for everyone in every language",
+      "source": "Google AI Blog",
+      "url": "https://blog.google/innovation-and-ai/technology/ai/ai-for-every-language/",
+      "time": "8小时前",
+      "published": "2026-09-15T16:00:00+00:00",
+      "summary": "本文通过动画展示了多种语言的词汇缓慢缩放，强调了AI在多语言支持方面的重要性。文章指出，AI技术应当惠及所有语言的使用者，而不仅仅是英语或少数几种主流语言。实现这一目标需要开发更强大的多语言模型、构建多语言数据集以及支持低资源语言的研究。多语言AI可以帮助消除信息鸿沟，促进跨文化交流，并为全球用户提供平等的服务机会。然而，低资源语言的语料匮乏和语言多样性带来的技术挑战仍然巨大。文章呼吁技术公司和研究机构加大对多语言AI的投入，确保语言不成为享受AI红利的障碍。",
+      "snark": "AI支持所有语言，但我的方言它还是听不懂。"
+    },
+    {
+      "id": 12,
+      "cat": "policy",
+      "title": "OpenAI、Anthropic、谷歌就AI安全进行了数周会谈",
+      "title_en": "OpenAI, Anthropic, Google have been in talks on AI safety for weeks",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/09/15/openai-anthropic-google-have-been-in-talks-on-ai-safety-for-weeks/",
+      "time": "8小时前",
+      "published": "2026-09-15T15:47:03+00:00",
+      "summary": "OpenAI确认与Anthropic和谷歌DeepMind进行了数周的AI安全会谈，与此同时，特朗普团队对安全担忧不以为然，并推动与中国保持同步。这一消息揭示了AI行业在安全问题上既合作又竞争的复杂局面。一方面，主要AI公司意识到安全问题的重要性，愿意坐下来讨论共同标准；另一方面，政治压力和对华竞争态势可能促使企业加快发布速度，从而忽视安全考量。这种矛盾可能导致安全措施滞后于技术发展。文章指出，AI安全需要国际协作和统一的监管框架，但在当前地缘政治环境下，实现这一目标面临重重困难。",
+      "snark": "AI安全会谈开了几周，特朗普一句话全白搭。"
+    }
+  ],
+  "stats": {
+    "total": 12,
+    "model_count": 1,
+    "strategy_count": 7,
+    "tool_count": 2,
+    "policy_count": 2
+  }
+}

@@ -1,0 +1,163 @@
+{
+  "date": "2026-07-17",
+  "generated_at": "2026-07-17T08:06:03.610046+08:00",
+  "highlight": "OpenAI 发布自动化红队模型 GPT-Red，以 84% 胜率碾压人类红队；月之暗面开源 2.8 万亿参数 MoE 模型 Kimi K3，AI 安全与规模竞赛同步升级。",
+  "fun": {
+    "lucky": "Kimi K3",
+    "advice": "宜：开源你的模型参数，让全世界一起 debug。\n忌：把 2.8 万亿参数塞进一个 GPU，它会哭的。",
+    "joke": "AI 安全研究员最怕听到的话：“这个 prompt 我就在生产环境试一下。”"
+  },
+  "articles": [
+    {
+      "id": 1,
+      "cat": "strategy",
+      "title": "商汤001号员工创办AI公司酷奇奇科技，获数千万元种子轮融资",
+      "title_en": "商汤001号员工创办AI公司：将AI角色引擎做成护城河，获种子轮融资 | 36氪首发",
+      "source": "36氪",
+      "url": "https://36kr.com/p/3898370289846153?f=rss",
+      "time": "5分钟前",
+      "published": "2026-07-17T00:00:59+00:00",
+      "summary": "AI 角色硬件公司酷奇奇科技宣布完成数千万元种子轮融资，由上海浦东人工智能种子基金领投，商汤科技、零以创投跟投。公司创始人徐持衡是商汤科技 001 号员工，师从汤晓鸥教授，曾参与开发商汤早期核心的人脸识别技术，后担任灵宇宙 CTO 并主导 AI 教育产品“Ling”从概念到落地的全过程。酷奇奇现阶段核心产品「CookiePi 角色互动伙伴」是一款分布式多端互动产品，将多个 AI 互动伙伴融入家居各处，具备主动探索能力。公司计划将 AI 角色引擎作为技术护城河，切入家庭场景下的情感陪伴与交互需求。本轮融资将用于产品研发与团队扩充。",
+      "snark": "从人脸识别到 AI 玩偶，001 号员工终于找到了让人脸不尴尬的落地场景。"
+    },
+    {
+      "id": 2,
+      "cat": "model",
+      "title": "月之暗面发布 Kimi K3：2.8 万亿参数开源 MoE 模型，支持 100 万上下文",
+      "title_en": "Moonshot AI Releases Kimi K3: A 2.8 Trillion Parameter Open MoE Model With Kimi Delta Attention and 1M Context",
+      "source": "MarkTechPost",
+      "url": "https://www.marktechpost.com/2026/07/16/moonshot-ai-releases-kimi-k3-a-2-8-trillion-parameter-open-moe-model-with-kimi-delta-attention-and-1m-context/",
+      "time": "18分钟前",
+      "published": "2026-07-16T23:47:05+00:00",
+      "summary": "月之暗面于 2026 年 7 月 16 日正式发布 Kimi K3 模型。该模型采用混合专家架构，总参数量高达 2.8 万亿，每次推理激活 896 个专家中的 16 个，在保持高效推理的同时实现了极高的模型容量。Kimi K3 基于自研的 Kimi Delta Attention 和注意力残差机制构建，能够有效处理长达 100 万 token 的上下文窗口，在长文档理解、多轮对话和复杂推理任务上展现出显著优势。模型以开源形式发布，旨在推动大模型社区的技术共享与创新。这一发布标志着国内开源大模型在参数量级和长上下文能力上均达到新高度。",
+      "snark": "2.8 万亿参数，16 个专家激活——建议改名叫‘Kimi 参数学’，反正也没人能全数完。"
+    },
+    {
+      "id": 3,
+      "cat": "tool",
+      "title": "开源项目 ReasonGate：可解释的 LLM 提示注入防御门控机制",
+      "title_en": "Show HN: ReasonGate- An explainable gate that blocks LLM prompt injection",
+      "source": "Hacker News",
+      "url": "https://github.com/cgrtml/reasongate",
+      "time": "1小时前",
+      "published": "2026-07-16T22:21:31+00:00",
+      "summary": "开发者 cgrtml 在 GitHub 上发布了 ReasonGate 项目，这是一种针对大语言模型提示注入攻击的可解释防御门控机制。ReasonGate 的核心思路是在用户输入进入 LLM 之前，通过一个独立的、可解释的推理模块对输入进行安全审查，判断其中是否包含恶意指令或越狱尝试。与传统基于规则或微调的方法不同，ReasonGate 提供了透明的决策路径，让开发者能够清晰理解每次拦截背后的逻辑依据。该项目目前已在 GitHub 上开源，支持主流 LLM 接口的集成，为 AI 应用的安全部署提供了一种轻量级、可审计的防护方案。",
+      "snark": "提示注入防御就像给 LLM 戴口套——虽然它还是想乱说话，但至少你听不见了。"
+    },
+    {
+      "id": 4,
+      "cat": "tool",
+      "title": "Epic Games 在《堡垒之夜》中推出 AI 驱动角色系统",
+      "title_en": "Fortnite is getting a bunch of AI-powered ‘personas’",
+      "source": "The Verge",
+      "url": "https://www.theverge.com/games/966815/epic-games-fortnite-ai-powered-personas",
+      "time": "2小时前",
+      "published": "2026-07-16T21:30:35+00:00",
+      "summary": "Epic Games 宣布将于 7 月 30 日在《堡垒之夜》中上线 AI 驱动的角色系统，允许创作者在游戏体验中使用具备 AI 语音能力的角色。为配合该功能上线，Epic 已预先创建了 36 个拥有“一致语音和人格”的 AI 角色供创作者直接使用。这些角色具备自然语言对话能力，能够根据玩家输入动态生成回应，从而在游戏中提供更沉浸的互动体验。该功能将率先面向《堡垒之夜》的 UGC 创作者开放，标志着主流游戏平台在 AI NPC 商业化落地方面迈出重要一步。",
+      "snark": "以后在堡垒之夜被队友气到，至少你还能跟 AI 角色吐槽——它不会回你‘菜就多练’。"
+    },
+    {
+      "id": 5,
+      "cat": "tool",
+      "title": "Netflix 披露约 300 部作品使用了生成式 AI 技术",
+      "title_en": "Netflix says around 300 titles used generative AI",
+      "source": "The Verge",
+      "url": "https://www.theverge.com/streaming/966633/netflix-ai-titles-q2-2026-earnings",
+      "time": "3小时前",
+      "published": "2026-07-16T20:29:27+00:00",
+      "summary": "Netflix 在第二季度财报中披露，其平台约有 300 部作品在制作过程中使用了生成式 AI 技术，其中大部分应用集中在后期制作环节。Netflix 表示正在“越来越多地利用这些工具来更快地交付更高质量的输出”，但未具体披露 AI 在哪些特定场景中发挥作用。这一数字占 Netflix 内容库的相当比例，表明流媒体巨头已在实际制作流程中大规模采用生成式 AI，而非仅仅停留在实验阶段。此举也引发行业关于 AI 对影视行业就业影响以及内容创作伦理的进一步讨论。",
+      "snark": "Netflix：我们有 300 部 AI 参与的作品。观众：难怪最近剧情像被模型随机生成的。"
+    },
+    {
+      "id": 6,
+      "cat": "strategy",
+      "title": "AI 算力鸿沟报告：企业基础设施采购速度远超成本管控能力",
+      "title_en": "The AI compute gap: Enterprises are buying infrastructure faster than they can measure what it costs",
+      "source": "VentureBeat",
+      "url": "https://venturebeat.com/ai/the-ai-compute-gap-enterprises-are-buying-infrastructure-faster-than-they-can-measure-what-it-costs",
+      "time": "4小时前",
+      "published": "2026-07-16T19:16:48+00:00",
+      "summary": "VentureBeat 发布的一项覆盖 107 家企业的调查显示，AI 基础设施支出的增长速度已远超企业对其经济性的可见性和管控能力。大多数企业目前仍在超大规模云服务商和模型提供商 API 上运行 AI 工作负载，但下一笔预算已开始流向几乎尚未使用的专用计算资源。报告指出，企业正面临“先买后想”的困境：GPU 集群和专用 AI 芯片的采购决策往往由技术团队主导，财务部门缺乏足够的数据来评估投资回报率。这种算力鸿沟可能导致资源浪费和成本失控，亟需建立更完善的成本核算与治理框架。",
+      "snark": "企业买 GPU 就像双十一囤货——先买再说，至于用不用得上，那是明年的事。"
+    },
+    {
+      "id": 7,
+      "cat": "policy",
+      "title": "报告揭示 AI Agent 安全危机：54% 企业已发生安全事故，多数仍允许共享凭证",
+      "title_en": "The agent security gap: 54% of enterprises have already had an AI agent incident, and most still let agents share credentials",
+      "source": "VentureBeat",
+      "url": "https://venturebeat.com/ai/the-agent-security-gap-54-of-enterprises-have-already-had-an-ai-agent-incident-and-most-still-let-agents-share-credentials",
+      "time": "5小时前",
+      "published": "2026-07-16T19:02:38+00:00",
+      "summary": "VentureBeat 发布的企业安全调查报告显示，AI Agent 正在被赋予对系统和数据的真实访问权限，但相应的安全管控措施严重滞后。在 107 家受访企业中，超过半数已确认发生过 AI Agent 安全事件或险些酿成事故。更令人担忧的是，仅有约三分之一的企业为每个 Agent 分配了独立的身份凭证，大多数 Agent 仍在共享权限，这大幅增加了横向移动和数据泄露的风险。报告指出，Agent 安全缺口已成为企业 AI 部署中最紧迫的治理挑战，需要从身份管理、权限最小化和行为监控等多维度进行系统性加固。",
+      "snark": "54% 的企业被 AI Agent 坑过，剩下的 46% 只是还没发现而已。"
+    },
+    {
+      "id": 8,
+      "cat": "model",
+      "title": "OpenAI 详解 GPT-Red：自动红队模型以 84% 胜率碾压人类，发现新型攻击方法",
+      "title_en": "OpenAI Details GPT-Red: An Internal Automated Red-Teaming Model That Beat Human Red-Teamers 84% To 13% On Prompt Injection",
+      "source": "MarkTechPost",
+      "url": "https://www.marktechpost.com/2026/07/16/openai-details-gpt-red-an-internal-automated-red-teaming-model-that-beat-human-red-teamers-84-to-13-on-prompt-injection/",
+      "time": "5小时前",
+      "published": "2026-07-16T18:48:04+00:00",
+      "summary": "OpenAI 发布技术报告，详细介绍了其内部自动化红队模型 GPT-Red。该模型采用自我对弈强化学习训练，在与一组防御型大语言模型的对抗中不断进化。在复现的间接提示注入测试中，GPT-Red 以 84% 对 13% 的压倒性优势击败了人类红队成员。更关键的是，GPT-Red 自主发现了一类名为“虚假思维链”的新型攻击方法，该方法通过在推理过程中伪造推理步骤来绕过安全机制。利用 GPT-Red 进行持续测试，OpenAI 将最新旗舰模型 GPT-5.6 Sol 的失败率降低了显著幅度。这一成果展示了自动化红队测试在 AI 安全领域的巨大潜力。",
+      "snark": "GPT-Red 教会我们一件事：人类在‘如何搞破坏’这件事上，已经输给 AI 了。"
+    },
+    {
+      "id": 9,
+      "cat": "tool",
+      "title": "Google Vids 推出个性化 AI 虚拟形象，用户可“出演”自己生成的视频",
+      "title_en": "Google Vids now lets you star in your own AI videos",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/07/16/google-vids-now-lets-you-star-in-your-own-ai-videos/",
+      "time": "5小时前",
+      "published": "2026-07-16T18:32:54+00:00",
+      "summary": "Google 为其视频生成工具 Vids 新增个性化 AI 虚拟形象功能，用户现在可以创建一个数字版的自己，并“出演”由 AI 生成的视频内容。该功能与 Gemini Omni 多模态模型深度集成，后者支持用户通过文本提示和参考图片来生成和编辑视频。用户只需上传自己的照片或简短视频素材，系统即可生成具有用户面部特征和动作的 AI 虚拟形象，并将其无缝嵌入到生成的视频场景中。此举进一步降低了视频创作门槛，使个人用户无需拍摄设备也能制作出以自己为主角的专业级视频内容。",
+      "snark": "Google Vids：让你不用化妆也能当主角。缺点是 AI 版本比你本人好看。"
+    },
+    {
+      "id": 10,
+      "cat": "tool",
+      "title": "Roblox 移动端上线 AI 游戏生成功能，一句话即可创建基础游戏",
+      "title_en": "Roblox launches an AI-powered game-creation feature in its mobile app",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/07/16/roblox-launches-an-ai-powered-game-creation-feature-in-its-mobile-app/",
+      "time": "5小时前",
+      "published": "2026-07-16T18:22:06+00:00",
+      "summary": "Roblox 在其移动应用中推出名为“Build”的全新 AI 功能，允许用户通过输入单条文本提示来生成基础游戏。该功能大幅降低了游戏创作的门槛，使没有编程经验的用户也能快速创建简单的 3D 游戏体验。用户只需用自然语言描述游戏类型、场景和玩法，系统即可自动生成对应的游戏场景、角色和基础交互逻辑。这是 Roblox 在 UGC 创作工具中深度集成生成式 AI 的最新尝试，旨在进一步扩大其创作者群体并提升内容生产效率。目前该功能仅支持生成较为简单的游戏模板，但未来有望支持更复杂的定制化创作。",
+      "snark": "Roblox：你负责想，AI 负责做。至于好不好玩，那是你 prompt 的问题。"
+    },
+    {
+      "id": 11,
+      "cat": "policy",
+      "title": "纽约州长称正在用 AI 分析“每一条”州法规",
+      "title_en": "New York governor says she&#8217;s using AI to analyze &#8216;every single rule&#8217; in the state",
+      "source": "The Verge AI",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/966647/new-york-governor-kathy-hochul-ai-policies",
+      "time": "6小时前",
+      "published": "2026-07-16T17:58:37+00:00",
+      "summary": "纽约州长凯西·霍楚在接受彭博 Odd Lots 播客采访时透露，其团队正在使用 AI 技术分析该州的“每一条规则、法规和政策”。这一表态颇具讽刺意味，因为霍楚刚刚签署了一项暂停新建 AI 数据中心的行政令。她解释称，AI 分析旨在识别重复或过时的法规，以提高政府治理效率。此举引发了关于政府如何使用 AI 的讨论：一方面，AI 确实能帮助政府优化行政流程；另一方面，州长在限制 AI 基础设施建设的同时大力使用 AI 工具，这种看似矛盾的态度也折射出政策制定者在 AI 治理上的两难处境。",
+      "snark": "州长：AI 数据中心先别建。州长：但是 AI 帮我干活真香。"
+    },
+    {
+      "id": 12,
+      "cat": "strategy",
+      "title": "企业 AI 上下文鸿沟：信任危机而非检索问题，多数企业仍在摸索解决方案",
+      "title_en": "The AI context gap: Enterprise AI organizations have a trust problem, not a retrieval problem — and most are still building the fix",
+      "source": "VentureBeat",
+      "url": "https://venturebeat.com/ai/the-ai-context-gap-enterprise-ai-organizations-have-a-trust-problem-not-a-retrieval-problem-and-most-are-still-building-the-fix",
+      "time": "6小时前",
+      "published": "2026-07-16T17:06:08+00:00",
+      "summary": "VentureBeat 针对 101 家企业的最新调查揭示了一个关键洞察：企业 AI 组织面临的根本问题不是如何检索信息，而是如何信任检索到的信息。检索增强生成已成为默认的上下文来源，且提供商原生检索方案已悄然超越专用向量数据库，成为主流选择。然而，企业普遍反映，即使技术架构已就绪，AI Agent 所依赖的业务上下文的准确性和可靠性仍难以保证。报告指出，企业正在以比信任建设更快的速度搭建上下文基础设施，导致“能拿到的信息很多，敢用的信息很少”的尴尬局面。解决这一信任危机需要从数据溯源、事实核查和反馈闭环等多个层面入手。",
+      "snark": "企业 AI：我不缺数据，我缺的是‘这数据到底能不能信’的勇气。"
+    }
+  ],
+  "stats": {
+    "total": 12,
+    "model_count": 2,
+    "strategy_count": 3,
+    "tool_count": 5,
+    "policy_count": 2
+  }
+}

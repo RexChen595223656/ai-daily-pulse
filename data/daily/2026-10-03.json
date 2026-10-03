@@ -1,0 +1,175 @@
+{
+  "date": "2026-10-03",
+  "generated_at": "2026-10-03T14:05:55.880643+08:00",
+  "highlight": "苹果收紧磁盘权限防AI代理，白宫把AI改叫超级智能，消费者却只掏2%的钱。",
+  "fun": {
+    "lucky": "Muse",
+    "advice": "宜：把AI塞进烤面包机，开源骗开发者入局\n忌：真以为用户会为超级智能买单",
+    "joke": "为什么AI代理不敢读你的磁盘？因为它怕看到你写的代码。"
+  },
+  "articles": [
+    {
+      "id": 1,
+      "cat": "model",
+      "title": "如果AI每秒能处理一百万个token会怎样？",
+      "title_en": "What if AI worked at 1.000.000 tokens per seconds?",
+      "source": "Hacker News",
+      "url": "https://www.echohive.ai/one-million-tokens-per-second",
+      "time": "1小时前",
+      "published": "2026-10-03T04:22:21+00:00",
+      "summary": "一篇来自Hacker News的技术讨论文章探讨了当AI推理速度达到每秒一百万token时的可能性。文章从当前大语言模型的推理瓶颈出发，分析了硬件带宽、内存访问、模型并行等层面的限制。作者认为，若真能实现这一速度，实时翻译、全息对话、即时代码生成等场景将彻底改变，AI将从“请求-等待-响应”模式转变为持续流式交互。但文章也指出，当前GPU的显存带宽和互联速度远不足以支撑这一目标，需要在芯片架构和算法效率上同时取得数量级的突破。该文引发了关于AI基础设施极限的思考。",
+      "snark": "每秒百万token，先解决我显卡风扇的噪音再说吧。"
+    },
+    {
+      "id": 2,
+      "cat": "strategy",
+      "title": "Meta想让你的下一个设备充满Muse",
+      "title_en": "Meta wants your next gadget to be Muse-infused",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/10/02/meta-wants-you-to-build-your-own-muse-gadget/",
+      "time": "5小时前",
+      "published": "2026-10-03T00:45:39+00:00",
+      "summary": "Meta正推动其AI代理Muse进入各种消费电子设备，从电视到烤面包机都在其设想范围内。为加速生态扩张，Meta宣布将相关代码免费开源，允许开发者自行构建搭载Muse的硬件产品。这一策略与此前Meta在AI领域开放模型权重的路线一脉相承，旨在通过降低开发门槛来抢占AI代理的入口。分析认为，Meta希望复制安卓在手机时代的成功，让Muse成为无处不在的AI底层服务，从而在苹果和OpenAI的夹击下建立自己的护城河。但硬件生态的碎片化也带来了体验一致性的挑战。",
+      "snark": "烤面包机也要装AI，烤糊了是不是还得跟你道歉？"
+    },
+    {
+      "id": 3,
+      "cat": "policy",
+      "title": "苹果修改全磁盘访问权限以遏制AI代理滥用",
+      "title_en": "Apple changes full-disk access permissions to curb abuse from AI agents",
+      "source": "Ars Technica",
+      "url": "https://arstechnica.com/security/2026/10/apple-changes-full-disk-access-permissions-to-curb-abuse-from-ai-agents/",
+      "time": "7小时前",
+      "published": "2026-10-02T23:03:16+00:00",
+      "summary": "苹果宣布将调整macOS的全磁盘访问权限机制，以应对AI代理带来的安全风险。此前Meta曾表示FDA（美国食品药品监督管理局）的监管不足以约束Muse读取用户消息的行为，苹果对此持不同意见。苹果认为，随着AI代理能力增强，它们可能被滥用来访问用户的文件、邮件、消息和浏览历史，因此需要更严格的权限控制。新措施将确保只有真正需要该级别访问权限的应用才能获得授权，用户也需要更明确地确认。此举反映了平台厂商在AI代理时代对隐私和安全边界的重新划定。",
+      "snark": "苹果：AI代理别乱翻我文件。Meta：你管得着吗？"
+    },
+    {
+      "id": 4,
+      "cat": "strategy",
+      "title": "肖恩·帕克正围绕音乐重建Stability AI",
+      "title_en": "Sean Parker is rebuilding Stability AI around music",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/10/02/sean-parker-is-rebuilding-stability-ai-around-music/",
+      "time": "8小时前",
+      "published": "2026-10-02T21:09:14+00:00",
+      "summary": "Stability AI在新任领导肖恩·帕克的带领下正进行战略转型，将重心转向音乐生成领域。帕克曾是Napster的联合创始人，深谙音乐行业与技术的碰撞之道，此次他获得了唱片公司的祝福和资金支持，试图在AI音乐生成领域开辟新路。Stability AI此前以图像生成模型Stable Diffusion闻名，但面临激烈的市场竞争和财务压力。转向音乐可能是其差异化竞争的关键一步，但AI生成音乐同样面临版权和艺术家权益的争议。帕克能否复制他在社交媒体时代的颠覆性成功，尚待观察。",
+      "snark": "Napster当年把音乐行业搅得天翻地覆，现在回来做AI音乐，唱片公司居然还给他钱？"
+    },
+    {
+      "id": 5,
+      "cat": "tool",
+      "title": "Meta开源代码，让你自己造Muse AI小设备",
+      "title_en": "Meta open sources code to let you make Muse AI gadgets",
+      "source": "The Verge AI",
+      "url": "https://www.theverge.com/tech/1004330/meta-muse-ai-gadgets-home-link",
+      "time": "8小时前",
+      "published": "2026-10-02T21:08:37+00:00",
+      "summary": "Meta宣布开源其Muse AI代理的相关代码，允许开发者自行制作搭载Muse的硬件设备。公司给出了多个示例项目，比如将Muse加载到彩色电子墨水屏上显示提醒事项，或者集成到HDMI棒中以便在大屏幕上展示Muse功能。这一举措旨在降低硬件开发门槛，让更多开发者参与到Muse生态的建设中。Meta希望通过开放策略快速扩大Muse的覆盖场景，从家庭到办公，从可穿戴到桌面设备。不过，开源硬件方案的实际体验和安全性仍需社区检验。",
+      "snark": "开源代码让你造硬件，但坏了可别找Meta修。",
+      "multiSource": [
+        "The Verge",
+        "The Verge AI"
+      ]
+    },
+    {
+      "id": 6,
+      "cat": "policy",
+      "title": "苹果将限制Mac磁盘访问，称AI代理“大幅”增加风险",
+      "title_en": "Apple will limit Mac disk access as AI agents ‘substantially’ increase risk",
+      "source": "The Verge AI",
+      "url": "https://www.theverge.com/tech/1004295/apple-limit-mac-disk-access-ai-agents",
+      "time": "9小时前",
+      "published": "2026-10-02T20:08:40+00:00",
+      "summary": "苹果计划在macOS中新增对“全磁盘访问”权限的限制，以应对AI代理带来的安全风险。苹果在周五的更新中表示，将推出新的控制措施，确保只有真正希望授予应用这种极高权限的用户才能完成授权。此前TechCrunch报道称，AI代理能够读取用户的文件、邮件和浏览历史，这促使苹果重新评估权限模型。新措施可能包括更明确的用户确认流程和更细粒度的权限管理。这一变化将影响所有需要全磁盘访问的AI应用，开发者需要适配新的权限框架。",
+      "snark": "AI代理：我就看看你的文件。苹果：不，你不配。",
+      "multiSource": [
+        "The Verge",
+        "The Verge AI"
+      ]
+    },
+    {
+      "id": 7,
+      "cat": "tool",
+      "title": "Show HN：做了一个开源乐高AI生成器",
+      "title_en": "Show HN: Made an open-source Lego AI generator",
+      "source": "Hacker News",
+      "url": "https://github.com/anteloc/ldraw-nova",
+      "time": "10小时前",
+      "published": "2026-10-02T20:00:15+00:00",
+      "summary": "一位开发者在Hacker News上展示了他的开源项目——一个乐高AI生成器。他去年12月开始尝试让ChatGPT和Claude生成LDraw语言的源代码。LDraw本质上是一种“汇编”语言，一种低级编程语言，用于描述如何将乐高积木组装在一起。通过AI生成LDraw代码，用户可以快速创建乐高模型的设计方案。该项目已开源在GitHub上，名为ldraw-nova。这展示了AI在创意设计和领域特定语言生成方面的潜力，也为乐高爱好者提供了新的创作工具。",
+      "snark": "AI拼乐高，拼错了是不是还得自己踩一脚？"
+    },
+    {
+      "id": 8,
+      "cat": "strategy",
+      "title": "被裁员了？别错过TechCrunch Disrupt 2026展会75美元通行证",
+      "title_en": "Affected by layoffs? Don’t miss this $75 deal for your TechCrunch Disrupt 2026 Expo+ Pass",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/10/02/disrupt-2026-layoff-expo-plus-passes-available-for-75-dollars/",
+      "time": "10小时前",
+      "published": "2026-10-02T19:15:51+00:00",
+      "summary": "TechCrunch针对受裁员影响的科技从业者推出优惠活动，提供TechCrunch Disrupt 2026展会Expo+通行证，仅需75美元，限前100名符合条件者。该通行证可让持证人参加展会交流、寻找新机会。TechCrunch表示，你的下一个机会可能就在一次对话之间。这一举措反映了当前科技行业裁员潮的持续影响，也体现了行业会议在职业转型中的桥梁作用。对于正在寻找新方向的AI从业者来说，这是一个低成本拓展人脉的机会。",
+      "snark": "被AI裁了，然后花75美元去听AI怎么裁更多人。"
+    },
+    {
+      "id": 9,
+      "cat": "policy",
+      "title": "苹果称因AI代理新风险收紧macOS“全磁盘访问”控制",
+      "title_en": "Apple says it’s tightening macOS ‘Full Disk Access’ controls due to new risks from AI agents",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/10/02/apple-says-its-tightening-macos-full-disk-access-controls-due-to-new-risks-from-ai-agents/",
+      "time": "11小时前",
+      "published": "2026-10-02T18:11:27+00:00",
+      "summary": "苹果表示将在macOS中新增对“全磁盘访问”权限的控制措施，并警告称，能力日益增强的AI代理使得对用户文件、消息、邮件和浏览历史的广泛访问变得更加危险。苹果在声明中强调，需要确保只有真正希望授予应用这种特殊级别访问权限的用户才能完成授权。此举是对AI代理安全风险的直接回应，也标志着操作系统厂商开始重新审视AI时代的数据访问边界。开发者需要关注新权限模型对现有AI应用的影响。",
+      "snark": "苹果终于发现，AI代理比人类更爱翻你的隐私。"
+    },
+    {
+      "id": 10,
+      "cat": "tool",
+      "title": "OpenAI的Dot代理是企业软件，还能帮你点晚餐",
+      "title_en": "OpenAI’s Dot agent is enterprise software that can also order your dinner",
+      "source": "The Verge AI",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/1004096/openai-chatgpt-dots-hands-on-agent",
+      "time": "12小时前",
+      "published": "2026-10-02T18:00:00+00:00",
+      "summary": "OpenAI推出了名为Dots的新代理平台，这是一款企业级软件，但也能帮你点墨西哥卷饼。与Meta Muse那种亲民风格不同，Dots更像是一款工作场所软件，只是恰好能帮你订餐。OpenAI在演示中展示了Dots如何协助处理工作任务，同时具备一定的生活服务能力。这标志着OpenAI在企业AI代理市场的进一步布局，试图将AI代理从消费级玩具转变为企业生产力工具。不过，Dots能否在企业环境中证明自己的价值，还需要看实际部署效果。",
+      "snark": "企业软件帮你点晚餐，老板看了以为你在摸鱼。",
+      "multiSource": [
+        "The Verge",
+        "The Verge AI"
+      ]
+    },
+    {
+      "id": 11,
+      "cat": "strategy",
+      "title": "叫它AI也好，超级智能也罢，只有2%的消费者在买单",
+      "title_en": "Call it AI, call it Super Intelligence, only 2% of consumers are buying it",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/podcast/call-it-ai-call-it-super-intelligence-only-2-of-consumers-are-buying-it/",
+      "time": "12小时前",
+      "published": "2026-10-02T17:56:00+00:00",
+      "summary": "TechCrunch播客讨论了本周白宫召集几乎所有主要科技CEO——包括扎克伯格、贝索斯、马斯克和Anthropic的达里奥·阿莫代伊——签署AI安全承诺，特朗普总统称其具有“道德约束力”。特朗普还签署了一项行政命令。然而，尽管行业巨头和政府高调推动，调查显示只有2%的消费者真正为AI产品付费。这揭示了AI行业面临的尴尬现实：资本和政界热度高涨，但普通消费者的付费意愿仍然极低。AI产品的商业化路径依然充满挑战。",
+      "snark": "CEO们签承诺书，消费者签的是不买账。"
+    },
+    {
+      "id": 12,
+      "cat": "policy",
+      "title": "白宫说，这不再是AI，而是“超级智能”",
+      "title_en": "It’s not AI anymore, it’s ‘super intelligence’ (according to the White House)",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/video/its-not-ai-anymore-its-super-intelligence-according-to-the-white-house/",
+      "time": "12小时前",
+      "published": "2026-10-02T17:48:16+00:00",
+      "summary": "本周白宫召集了几乎所有主要科技公司的CEO，包括扎克伯格、贝索斯、马斯克和Anthropic的达里奥·阿莫代伊，共同签署了一份AI安全承诺，特朗普总统称其具有“道德约束力”。特朗普还签署了一项行政命令。白宫在措辞上将AI重新定义为“超级智能”，这一术语转变引发关注。分析认为，这不仅是修辞变化，更可能影响未来的监管框架和政策导向。将AI提升到“超级智能”的高度，既可能带来更严格的监管，也可能为行业争取更多政策支持。",
+      "snark": "改个名字叫超级智能，监管就能超级严格吗？"
+    }
+  ],
+  "stats": {
+    "total": 12,
+    "model_count": 1,
+    "strategy_count": 4,
+    "tool_count": 3,
+    "policy_count": 4
+  }
+}

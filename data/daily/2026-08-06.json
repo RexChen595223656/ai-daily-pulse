@@ -1,0 +1,163 @@
+{
+  "date": "2026-08-06",
+  "generated_at": "2026-08-06T08:02:28.425405+08:00",
+  "highlight": "AI 摘要暂时不可用，请稍后刷新",
+  "fun": {},
+  "articles": [
+    {
+      "id": 1,
+      "cat": "model",
+      "title": "End-to-End Bayesian Marketing Mix Modeling with Google Meridian: Media Measurement, ROI Analysis, and Budget Optimization",
+      "title_en": "End-to-End Bayesian Marketing Mix Modeling with Google Meridian: Media Measurement, ROI Analysis, and Budget Optimization",
+      "source": "MarkTechPost",
+      "url": "https://www.marktechpost.com/2026/08/05/end-to-end-bayesian-marketing-mix-modeling-with-google-meridian-media-measurement-roi-analysis-and-budget-optimization/",
+      "time": "2小时前",
+      "published": "2026-08-05T21:56:03+00:00",
+      "summary": "In this tutorial, we build a complete Bayesian marketing mix modeling workflow using Google Meridian. We begin by installing the required libraries, verifying GPU availability, and exploring a geo-level marketing dataset that includes media impressions, spend, controls, promotions, conversions, population, and revenue. We then map the raw columns to Meridian’s data schema, define interpretable ROI-based [&#8230;] The post End-to-End Bayesian Marketing Mix Modeling with Google Meridian: Media Mea",
+      "snark": ""
+    },
+    {
+      "id": 2,
+      "cat": "tool",
+      "title": "Meta launches Muse Code, an AI agent for large code bases",
+      "title_en": "Meta launches Muse Code, an AI agent for large code bases",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/08/05/meta-launches-muse-code-an-ai-agent-for-large-code-bases/",
+      "time": "2小时前",
+      "published": "2026-08-05T21:21:28+00:00",
+      "summary": "Meta expanded its AI coding offerings with a new agent that, it promises, can handle complex tasks with complex software.",
+      "snark": ""
+    },
+    {
+      "id": 3,
+      "cat": "strategy",
+      "title": "Prime Agent: A self-improving RLM agent",
+      "title_en": "Prime Agent: A self-improving RLM agent",
+      "source": "Hacker News",
+      "url": "https://www.primeintellect.ai/blog/prime-agent",
+      "time": "2小时前",
+      "published": "2026-08-05T21:11:57+00:00",
+      "summary": "Article URL: https://www.primeintellect.ai/blog/prime-agent Comments URL: https://news.ycombinator.com/item?id=49189075 Points: 69 # Comments: 10",
+      "snark": ""
+    },
+    {
+      "id": 4,
+      "cat": "model",
+      "title": "Anthropic’s AI used fake identities, malware in rogue attack on GitHub project",
+      "title_en": "Anthropic’s AI used fake identities, malware in rogue attack on GitHub project",
+      "source": "Ars Technica",
+      "url": "https://arstechnica.com/security/2026/08/anthropics-ai-used-fake-identities-malware-in-rogue-attack-on-github-project/",
+      "time": "3小时前",
+      "published": "2026-08-05T20:47:11+00:00",
+      "summary": "Anthropic and OpenAI models’ unprompted actions forced halt to UK cyber tests.",
+      "snark": ""
+    },
+    {
+      "id": 5,
+      "cat": "model",
+      "title": "Meta AI Releases Muse Code (Beta): A Terminal Coding Agent Powered by the New Muse Spark 1.2 Model",
+      "title_en": "Meta AI Releases Muse Code (Beta): A Terminal Coding Agent Powered by the New Muse Spark 1.2 Model",
+      "source": "MarkTechPost",
+      "url": "https://www.marktechpost.com/2026/08/05/meta-superintelligence-labs-releases-muse-code/",
+      "time": "3小时前",
+      "published": "2026-08-05T20:07:32+00:00",
+      "summary": "Meta Superintelligence Labs has released Muse Code, a terminal coding agent in beta, powered by the new Muse Spark 1.2 model. Muse Code plans changes, writes code, and validates results across large repositories. Async background agents stay active for the whole session instead of spawning per task. A local append-only event log makes the runtime replay-exact and restart-safe after a crash. Muse Spark 1.2 was co-trained with the harness and trained on long-horizon, repository-scale work. The pos",
+      "snark": ""
+    },
+    {
+      "id": 6,
+      "cat": "strategy",
+      "title": "Klaviyo acquires Elias Torres’ Agency in full-circle reunion for tech founders",
+      "title_en": "Klaviyo acquires Elias Torres’ Agency in full-circle reunion for tech founders",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/08/05/klaviyo-acquires-elias-torres-agency-in-full-circle-reunion-for-tech-founders/",
+      "time": "3小时前",
+      "published": "2026-08-05T20:05:00+00:00",
+      "summary": "The serial entrepreneur joins the e-commerce company as CPO to lead its AI agents.",
+      "snark": ""
+    },
+    {
+      "id": 7,
+      "cat": "tool",
+      "title": "Jeff Dean and other top AI researchers are leaving Google to launch their own startup",
+      "title_en": "Jeff Dean and other top AI researchers are leaving Google to launch their own startup",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/08/05/jeff-dean-and-other-top-ai-researchers-are-leaving-google-to-launch-their-own-startup/",
+      "time": "4小时前",
+      "published": "2026-08-05T19:30:19+00:00",
+      "summary": "The legendary Google executive is joined by other outgoing Google execs in a joint mission to use AI to push forward the process of scientific discovery.",
+      "snark": ""
+    },
+    {
+      "id": 8,
+      "cat": "model",
+      "title": "Apple’s selling refurbished MacBook Neos with a $100 discount",
+      "title_en": "Apple’s selling refurbished MacBook Neos with a $100 discount",
+      "source": "The Verge",
+      "url": "https://www.theverge.com/gadgets/975603/refurbished-apple-macbook-neo-google-wireless-charger-deal-sale",
+      "time": "7小时前",
+      "published": "2026-08-05T16:59:23+00:00",
+      "summary": "Apple’s most affordable laptop, the MacBook Neo, is available once again at its pre-price hike price. All four colors are currently discounted and available refurbished through the company, with the base 256GB model listed for $599 (usually $699 new), and the upgraded version with 512GB of storage and TouchID selling for $679 (usually $799). The [&#8230;]",
+      "snark": ""
+    },
+    {
+      "id": 9,
+      "cat": "tool",
+      "title": "Sure seems like Fenix Flexin used AI music generator Treblo",
+      "title_en": "Sure seems like Fenix Flexin used AI music generator Treblo",
+      "source": "The Verge AI",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/975528/fenix-flexin-ai-music-generator-treblo",
+      "time": "7小时前",
+      "published": "2026-08-05T16:57:25+00:00",
+      "summary": "We were pretty sure that Fenix Flexin's \"Rubberz\" was made using AI, but musician Medasin was confident that it was made using Treblo specifically. Now the company and a new detection tool seem to confirm it. On Monday, the company announced the open-source Treblo AI Music Classifier, which detects when a song was generated using [&#8230;]",
+      "snark": ""
+    },
+    {
+      "id": 10,
+      "cat": "strategy",
+      "title": "Google just announced a major shakeup of its top AI leadership",
+      "title_en": "Google just announced a major shakeup of its top AI leadership",
+      "source": "The Verge AI",
+      "url": "https://www.theverge.com/tech/975677/google-deepmind-ai-demis-hassabis-shakeup",
+      "time": "7小时前",
+      "published": "2026-08-05T16:47:23+00:00",
+      "summary": "Google is making some significant AI leadership changes, including a major shift for Google DeepMind leader Demis Hassabis. Hassabis will become the chair of Google DeepMind and the chief scientist at Alphabet, CEO Sundar Pichai announced on Wednesday. Hassabis will continue to lead Alphabet's Isomorphic Labs, which aims to use AI to develop drugs. Koray [&#8230;]",
+      "snark": ""
+    },
+    {
+      "id": 11,
+      "cat": "strategy",
+      "title": "SpaceX is barely Space and mostly X",
+      "title_en": "SpaceX is barely Space and mostly X",
+      "source": "The Verge AI",
+      "url": "https://www.theverge.com/science/975545/spacex-x-earnings-ai-data-centers-compute-space",
+      "time": "7小时前",
+      "published": "2026-08-05T16:35:56+00:00",
+      "summary": "Once, I had some questions about why SpaceX, Elon Musk's healthiest company, acquired xAI, his sickliest one. Now I have some questions about why we're calling the whole thing SpaceX. Look, what we have here, by revenue, is primarily a telecom company and a company that rents compute, according to SpaceX's first quarterly earnings statement [&#8230;]",
+      "snark": ""
+    },
+    {
+      "id": 12,
+      "cat": "model",
+      "title": "Reddit is introducing a new moderator: AI",
+      "title_en": "Reddit is introducing a new moderator: AI",
+      "source": "The Verge AI",
+      "url": "https://www.theverge.com/tech/975398/reddit-ai-rules-hub-moderator-old-reddit-developer-platform",
+      "time": "8小时前",
+      "published": "2026-08-05T16:00:00+00:00",
+      "summary": "Reddit is enlisting AI to help moderate new subreddits - and eventually the rest of site. The company is introducing automated moderation tools that rely on LLMs to help mods manage their communities, and it's expanding who can use those tools today ahead of a full launch later this year. The company calls the suite [&#8230;]",
+      "snark": "",
+      "multiSource": [
+        "The Verge",
+        "The Verge AI"
+      ]
+    }
+  ],
+  "stats": {
+    "total": 12,
+    "model_count": 5,
+    "strategy_count": 4,
+    "tool_count": 3,
+    "policy_count": 0
+  }
+}

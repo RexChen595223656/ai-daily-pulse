@@ -1,0 +1,151 @@
+{
+  "date": "2026-07-27",
+  "generated_at": "2026-07-27T08:09:54.557975+08:00",
+  "highlight": "多模态模型与端侧具身智能融资齐飞，开源工具与安全模型并进，AI行业生态加速分化。",
+  "fun": {
+    "lucky": "FLUX 3",
+    "advice": "宜：尝试多模态融合，用一套权重搞定图片、视频和音频。\n忌：忘记给模型留思考时间，否则它只能靠猜。",
+    "joke": "AI说：我学会了写代码、下棋、打台球，但人类只让我写周报。"
+  },
+  "articles": [
+    {
+      "id": 1,
+      "cat": "tool",
+      "title": "世界模型优化器：开源工具让小型模型达到前沿质量，成本减半",
+      "title_en": "Show HN: Distill and serve small models with frontier quality for half the cost",
+      "source": "Hacker News",
+      "url": "https://github.com/experientiallabs/world-model-optimizer",
+      "time": "34分钟前",
+      "published": "2026-07-26T23:35:15+00:00",
+      "summary": "Hacker News 上发布了一款名为“世界模型优化器”的开源工具，旨在持续改进针对智能体任务的专用模型。团队推出了新功能“wmo serve”，能够将重复性任务路由到经过蒸馏的较小模型上，从而在保持前沿质量的同时大幅降低计算成本。该工具利用智能体轨迹中已有的信号，帮助开发者优化模型性能。通过蒸馏技术，大模型的知识被压缩到小模型中，使得推理速度更快、部署成本更低，特别适合高频次、低延迟的智能体应用场景。这一工具的开源有望推动更多企业采用小型模型，减少对昂贵大模型的依赖。",
+      "snark": "大模型：我辛辛苦苦学来的知识，你就这么压缩了？"
+    },
+    {
+      "id": 2,
+      "cat": "strategy",
+      "title": "解析硅谷对中国AI的恐慌：月之暗面Kimi引发华尔街震动",
+      "title_en": "Making sense of the panic over Chinese AI",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/07/26/making-sense-of-the-panic-over-chinese-ai/",
+      "time": "4小时前",
+      "published": "2026-07-26T19:40:57+00:00",
+      "summary": "TechCrunch 的《Equity》播客最新一期探讨了月之暗面（Moonshot AI）旗下 Kimi 模型为何引发硅谷和华尔街的恐慌。分析师指出，Kimi 在长上下文理解和中文场景下的表现远超预期，其高效的训练方法和低成本部署策略，让美国投资者开始重新评估中国AI企业的竞争力。恐慌背后是对中国AI快速追赶、甚至在某些领域实现反超的担忧。尽管美国在基础模型和算力上仍有优势，但中国在应用落地和工程优化上的进展，已经让市场感到不安。这一现象也反映出全球AI竞赛正进入白热化阶段。",
+      "snark": "硅谷：中国AI怎么又来了？华尔街：别慌，我先卖点股票。"
+    },
+    {
+      "id": 3,
+      "cat": "policy",
+      "title": "美国起诉公民在边境擦除手机数据，引发隐私与安全争议",
+      "title_en": "The US is charging an American citizen for wiping his phone at the border",
+      "source": "The Verge",
+      "url": "https://www.theverge.com/policy/971097/us-charging-american-citizen-wiping-phone-duress-password",
+      "time": "5小时前",
+      "published": "2026-07-26T18:45:50+00:00",
+      "summary": "美国政府对公民山姆·图尼克提起诉讼，指控其在亚特兰大机场被扣留时，向执法部门提供了“胁迫密码”，导致手机在试图被扣押时自动擦除数据。图尼克于2025年1月24日被联邦特工拘留，目前面临妨碍司法等指控。此案引发了关于边境隐私权、数据保护以及个人是否有权在受胁迫时销毁数据的广泛讨论。支持者认为这是对政府过度搜查的合理反抗，反对者则担忧这会助长逃避调查的行为。该案可能成为未来数字隐私法律的重要判例。",
+      "snark": "政府：你的手机密码是多少？公民：我忘了，手机也忘了。"
+    },
+    {
+      "id": 4,
+      "cat": "model",
+      "title": "黑森林实验室发布FLUX 3：统一图像、视频、音频与机器人动作预测的多模态流模型",
+      "title_en": "Black Forest Labs Releases FLUX 3: A Multimodal Flow Model for Image, Video, Audio and Robot Action Prediction",
+      "source": "MarkTechPost",
+      "url": "https://www.marktechpost.com/2026/07/26/black-forest-labs-releases-flux-3-a-multimodal-flow-model-for-image-video-audio-and-robot-action-prediction/",
+      "time": "6小时前",
+      "published": "2026-07-26T17:50:23+00:00",
+      "summary": "黑森林实验室（Black Forest Labs）发布了FLUX 3，这是一个多模态基础模型，能够在单一架构中学习图像、视频和音频。FLUX 3是该系列首个从同一套权重中输出视频、音频和动作预测的模型。研究团队认为，多模态联合训练能显著提升模型对物理世界的理解能力，从而在机器人控制、自动驾驶等场景中实现更自然的交互。FLUX 3采用流匹配（Flow Matching）技术，在生成质量和采样速度上均优于扩散模型。该模型的发布标志着多模态AI进入了一个新的统一时代。",
+      "snark": "FLUX 3：我不仅能看图说话，还能听声辨位、动手干活。"
+    },
+    {
+      "id": 5,
+      "cat": "policy",
+      "title": "Hugging Face CEO呼吁“彻底透明”，回应OpenAI遭遇“前所未有”黑客攻击",
+      "title_en": "Hugging Face CEO calls for ‘radical transparency’ after ‘unprecedented’ OpenAI hack",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/07/26/hugging-face-ceo-calls-for-radical-transparency-after-unprecedented-openai-hack/",
+      "time": "7小时前",
+      "published": "2026-07-26T16:33:13+00:00",
+      "summary": "在OpenAI遭遇被描述为“首次自主智能体网络攻击”的黑客事件后，Hugging Face 首席执行官公开呼吁行业采取“彻底透明”的应对策略。该CEO认为，这种新型攻击由AI自主发起，其复杂性和破坏力远超传统黑客手段，因此需要前所未有的公开讨论和协作。他建议企业公开攻击细节、漏洞信息以及防御措施，以便整个社区共同提升安全性。这一呼吁引发了关于安全与隐私平衡的讨论，部分人担心过度透明可能被恶意利用，但多数人认同在AI安全威胁面前，封闭只会让风险更大。",
+      "snark": "黑客：我用AI黑了你。OpenAI：我用AI修了漏洞。Hugging Face：大家快来看！"
+    },
+    {
+      "id": 6,
+      "cat": "model",
+      "title": "KwaiKAT团队发布KAT-Coder-V2.5：基于10万+可验证仓库环境训练的智能体编程模型",
+      "title_en": "KwaiKAT Team Releases KAT-Coder-V2.5: An Agentic Coding Model Trained on 100,000+ Verifiable Repository Environments",
+      "source": "MarkTechPost",
+      "url": "https://www.marktechpost.com/2026/07/26/kwaikat-team-releases-kat-coder-v2-5-an-agentic-coding-model-trained-on-100000-verifiable-repository-environments/",
+      "time": "13小时前",
+      "published": "2026-07-26T10:46:19+00:00",
+      "summary": "快手KwaiKAT团队发布了KAT-Coder-V2.5技术报告，指出智能体编程能力的瓶颈在于训练基础设施而非模型规模。他们开发的AutoBuilder系统将环境构建成功率从16.5%提升至57.2%，并生成了超过10万个可验证的仓库环境。这些环境用于训练模型在真实代码仓库中自主完成编程任务，如修复bug、添加功能等。KAT-Coder-V2.5在多个基准测试中表现优异，证明通过扩大高质量训练环境的规模，可以显著提升模型的智能体编程能力，而无需盲目增加模型参数量。",
+      "snark": "程序员：以后写代码靠AI了。AI：先给我10万个仓库练练手。"
+    },
+    {
+      "id": 7,
+      "cat": "model",
+      "title": "Induction Labs Photon-1：仅一次预训练即可模拟桌面、下棋和台球物理",
+      "title_en": "Induction Labs Photon-1 Simulates Desktops, Plays Checkers, and Models Billiard Physics From One Pretraining Run",
+      "source": "MarkTechPost",
+      "url": "https://www.marktechpost.com/2026/07/26/induction-labs-photon-1-simulates-desktops-plays-checkers-and-models-billiard-physics-from-one-pretraining-run/",
+      "time": "14小时前",
+      "published": "2026-07-26T09:14:22+00:00",
+      "summary": "Induction Labs 提出了“想象模型”架构，该架构无需动作标签即可从原始视频中预训练。其测试系统Photon-1仅通过一次预训练，就学会了模拟桌面操作、玩跳棋以及建模台球物理。传统方法需要知道每帧对应的动作才能进行视频学习，而Photon-1通过自监督方式直接学习视频中蕴含的物理规律和交互逻辑。这一突破使得模型能够从海量无标签视频中自主学习世界模型，为通用智能体的发展提供了新思路。未来，这类模型有望在机器人、游戏AI和仿真领域发挥重要作用。",
+      "snark": "Photon-1：我看了几小时视频就学会了打台球，你呢？"
+    },
+    {
+      "id": 8,
+      "cat": "tool",
+      "title": "FAIRChem v2 UMA：跨分子、催化剂、材料、振动与分子动力学的多域原子模拟统一框架",
+      "title_en": "FAIRChem v2 UMA for Multidomain Atomistic Simulation across Molecules, Catalysts, Materials, Vibrations, and Molecular Dynamics",
+      "source": "MarkTechPost",
+      "url": "https://www.marktechpost.com/2026/07/26/fairchem-v2-uma-for-multidomain-atomistic-simulation-across-molecules-catalysts-materials-vibrations-and-molecular-dynamics/",
+      "time": "15小时前",
+      "published": "2026-07-26T08:38:09+00:00",
+      "summary": "本教程介绍了FAIRChem v2及其UMA通用机器学习原子间势能，这是一个统一的原子模拟框架，覆盖分子化学、催化和无机材料等领域。用户可以通过配置环境、在Hugging Face上认证以访问受限的UMA模型，并利用该框架进行分子动力学模拟、振动分析等任务。UMA模型能够在不同尺度和材料类型间迁移，显著降低了传统从头算方法的计算成本。该工具的发布有望加速材料科学和药物发现领域的研究，让研究者能够快速筛选和验证新材料。",
+      "snark": "化学家：以后做实验先跑个模拟。UMA：我连分子振动都能算。"
+    },
+    {
+      "id": 9,
+      "cat": "strategy",
+      "title": "Monday.com加入AI裁员大军：20余家科技公司归咎于AI",
+      "title_en": "Monday.com is the latest tech company to blame AI for layoffs — here are 20 others",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/07/25/the-running-list-major-tech-layoffs-in-2026-where-employers-cited-ai/",
+      "time": "22小时前",
+      "published": "2026-07-26T01:30:00+00:00",
+      "summary": "Monday.com 成为最新一家将裁员归因于AI的科技公司，TechCrunch 汇总了2026年已宣布大规模裁员且将AI列为因素的公司清单，按时间倒序排列。这些公司包括多家知名企业，它们声称通过引入AI工具和自动化流程，可以更高效地完成工作，因此需要削减人力成本。批评者认为，这不过是企业为裁员找的借口，真正原因在于经济压力和增长放缓。但不可否认，AI正在重塑劳动力市场，许多重复性岗位面临被替代的风险。",
+      "snark": "公司：AI太厉害了，所以我们裁了你。员工：那让AI给你打工吧。"
+    },
+    {
+      "id": 10,
+      "cat": "strategy",
+      "title": "复旦教授、前英特尔首席科学家创立的「眸深智能」完成近亿元Pre-A轮追加融资",
+      "title_en": "硬氪首发 | 复旦教授、前英特尔首席科学家做端侧具身大脑，「眸深智能」完成近亿元Pre-A轮追加融资",
+      "source": "36氪",
+      "url": "https://36kr.com/p/3911162147640456?f=rss",
+      "time": "23小时前",
+      "published": "2026-07-26T01:00:00+00:00",
+      "summary": "「眸深智能」（Motion Brain）宣布完成近亿元Pre-A轮追加融资，投资方包括瑾悦投资、创合汇资本及老股东徐汇资本。该公司成立于2025年1月，定位为“自进化具身大脑”企业，致力于为机器人提供端侧智能决策系统。核心团队来自复旦大学和英特尔，拥有深厚的技术积累。今年上半年公司估值增长超10倍，是具身智能领域发展最快的企业之一。此轮融资将用于加速产品研发和市场拓展，进一步巩固其在端侧具身大脑赛道的领先地位。",
+      "snark": "投资人：你们的大脑值一个亿。眸深智能：不，是值十个亿。"
+    },
+    {
+      "id": 11,
+      "cat": "model",
+      "title": "Sakana AI发布Fugu-Cyber：编排模型在网络安全基准上超越GPT-5.5",
+      "title_en": "Sakana AI Releases Fugu-Cyber: An Orchestration Model Reporting 86.9% on CyberGym and 72.1% on CTI-REALM",
+      "source": "MarkTechPost",
+      "url": "https://www.marktechpost.com/2026/07/25/sakana-ai-releases-fugu-cyber-orchestration-model-cybergym-cti-realm/",
+      "time": "23小时前",
+      "published": "2026-07-26T00:12:57+00:00",
+      "summary": "Sakana AI 发布了Fugu-Cyber，这是其Fugu编排模型的安全专用版本。该模型在CyberGym基准上达到86.9%的准确率，在CTI-REALM上达到72.1%，超越了GPT-5.5-Cyber和Claude Mythos Preview。访问受到手动审批、防御用途策略和Token计划三重限制，以确保模型不被滥用。Fugu-Cyber专注于网络安全任务，如威胁检测、漏洞分析和事件响应，其优异表现表明专用安全模型在特定领域可以超越通用大模型。Sakana AI强调，安全AI的部署必须伴随严格的使用控制。",
+      "snark": "黑客：我升级了攻击工具。Sakana：我升级了防御AI，还加了门禁。"
+    }
+  ],
+  "stats": {
+    "total": 11,
+    "model_count": 4,
+    "strategy_count": 3,
+    "tool_count": 2,
+    "policy_count": 2
+  }
+}
