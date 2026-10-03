@@ -1,4 +1,16 @@
 {
+  "2026-10-03": {
+    "date": "2026-10-03",
+    "highlight": "AI 摘要暂时不可用，请稍后刷新",
+    "count": 12,
+    "stats": {
+      "total": 12,
+      "model_count": 3,
+      "strategy_count": 4,
+      "tool_count": 3,
+      "policy_count": 2
+    }
+  },
   "2026-10-02": {
     "date": "2026-10-02",
     "highlight": "谷歌把芯片送上天探索太空数据中心，OpenAI 一边砍安全团队一边让 ChatGPT 试衣服，AI 行业在星辰大海和穿衣镜之间反复横跳。",
@@ -705,18 +717,6 @@
       "strategy_count": 5,
       "tool_count": 3,
       "policy_count": 3
-    }
-  },
-  "2026-07-29": {
-    "date": "2026-07-29",
-    "highlight": "AI安全事件频发，OpenAI黑客漏洞、行业呼吁监管减速，资本支出膨胀引发华尔街担忧。",
-    "count": 12,
-    "stats": {
-      "total": 12,
-      "model_count": 1,
-      "strategy_count": 3,
-      "tool_count": 4,
-      "policy_count": 4
     }
   }
 }
