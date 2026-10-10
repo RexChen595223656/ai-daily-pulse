@@ -1,4 +1,16 @@
 {
+  "2026-10-10": {
+    "date": "2026-10-10",
+    "highlight": "OpenAI 数学成果引发学界震动，Anthropic 模型误报凶案线索暴露 AI 落地风险。",
+    "count": 12,
+    "stats": {
+      "total": 12,
+      "model_count": 3,
+      "strategy_count": 4,
+      "tool_count": 2,
+      "policy_count": 3
+    }
+  },
   "2026-10-09": {
     "date": "2026-10-09",
     "highlight": "OpenAI 收入缩水两百亿美元，谷歌把 Gemini 变成会自己发邮件的数字员工，AI 圈今天主打一个又穷又能干。",
@@ -705,18 +717,6 @@
       "strategy_count": 5,
       "tool_count": 2,
       "policy_count": 4
-    }
-  },
-  "2026-08-04": {
-    "date": "2026-08-04",
-    "highlight": "今日AI圈热闹非凡：从Palantir CEO的惊人言论、欧盟AI透明度新规生效，到OpenAI网红豪华游引发争议，行业在狂欢与反思中前行。",
-    "count": 12,
-    "stats": {
-      "total": 12,
-      "model_count": 2,
-      "strategy_count": 5,
-      "tool_count": 3,
-      "policy_count": 2
     }
   }
 }
