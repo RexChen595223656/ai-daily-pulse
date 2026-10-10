@@ -1,0 +1,159 @@
+{
+  "date": "2026-07-24",
+  "generated_at": "2026-07-24T16:32:12.075064+08:00",
+  "highlight": "",
+  "fun": {},
+  "articles": [
+    {
+      "id": 1,
+      "cat": "strategy",
+      "title": "对话曾鸣教授：AI时代，企业竞争的关键是构建智能复利，让AI真正进入业务流程",
+      "title_en": "对话曾鸣教授：AI时代，企业竞争的关键是构建智能复利，让AI真正进入业务流程",
+      "source": "36氪",
+      "url": "https://36kr.com/p/3909358392988806?f=rss",
+      "time": "26分钟前",
+      "published": "2026-07-24T08:06:05+00:00",
+      "summary": "7月17日，2026世界人工智能大会在上海开幕。作为36氪连续第三年深入WAIC现场的重要内容窗口，「氪话未来」直播间也在大会首日同步开启现场对话。曾鸣教授在WAIC现场接受36氪「氪话未来」特邀专访，围绕AI时代企业增长、组织变革、智能复利、AI原生业务以及企业落地路径等话题，分享了他对于人工智能如何重塑商业模式与价值创造方式的观察与判断。 本届WAIC以“智能伙伴，共创未来”为主题。随着人工智",
+      "snark": ""
+    },
+    {
+      "id": 2,
+      "cat": "strategy",
+      "title": "OpenAI Presence sells enterprise AI agents with engineers attached",
+      "title_en": "OpenAI Presence sells enterprise AI agents with engineers attached",
+      "source": "AI News",
+      "url": "https://www.artificialintelligence-news.com/news/openai-presence-enterprise-ai-agents/",
+      "time": "32分钟前",
+      "published": "2026-07-24T08:00:00+00:00",
+      "summary": "The newest way to buy enterprise AI agents from OpenAI does not involve buying anything online. OpenAI Presence,&#160;announced&#160;on July 22, is a managed product delivered through a limited genera",
+      "snark": ""
+    },
+    {
+      "id": 3,
+      "cat": "strategy",
+      "title": "How to Build an End-to-End OCR Pipeline with Baidu’s Unlimited-OCR for High-Resolution Images and Multi-Page PDF Parsing",
+      "title_en": "How to Build an End-to-End OCR Pipeline with Baidu’s Unlimited-OCR for High-Resolution Images and Multi-Page PDF Parsing",
+      "source": "MarkTechPost",
+      "url": "https://www.marktechpost.com/2026/07/23/how-to-build-an-end-to-end-ocr-pipeline-with-baidus-unlimited-ocr-for-high-resolution-images-and-multi-page-pdf-parsing/",
+      "time": "3小时前",
+      "published": "2026-07-24T05:16:28+00:00",
+      "summary": "In this tutorial, we build a complete workflow for running Baidu’s Unlimited-OCR model on document images and multi-page PDFs. From configuring the GPU environment to comparing high-detail tiled Gunda",
+      "snark": ""
+    },
+    {
+      "id": 4,
+      "cat": "strategy",
+      "title": "DeepSeek不是理想主义公司，它只是把现实服务于理想",
+      "title_en": "DeepSeek不是理想主义公司，它只是把现实服务于理想",
+      "source": "36氪",
+      "url": "https://36kr.com/p/3909084356433025?f=rss",
+      "time": "4小时前",
+      "published": "2026-07-24T04:26:38+00:00",
+      "summary": "&nbsp; DeepSeek的答案，不是只仰望星空，也不是只脚踏实地，而是用现实问题去支撑一个足够远的目标。 &nbsp; &nbsp; 撰文 &nbsp;| &nbsp;李嘉星 刘辰艺 编辑 &nbsp;| &nbsp;张薇 头图来源 &nbsp;| &nbsp;DeepSeek 封面来源 &nbsp;| &nbsp;DeepSeek &nbsp; DeepSeek又一次被推到聚光灯下。&nb",
+      "snark": ""
+    },
+    {
+      "id": 5,
+      "cat": "strategy",
+      "title": "带着AI去前线！36氪逛透WAIC，带你看懂2026全行业AI最真实走向！",
+      "title_en": "带着AI去前线！36氪逛透WAIC，带你看懂2026全行业AI最真实走向！",
+      "source": "36氪",
+      "url": "https://36kr.com/p/3909033052722310?f=rss",
+      "time": "5小时前",
+      "published": "2026-07-24T02:37:12+00:00",
+      "summary": "7月17日至20日，2026世界人工智能大会暨人工智能全球治理高级别会议在上海落下帷幕。黄浦江畔，热浪与人潮一起涌动。本届大会以“智能伙伴，共创未来”为主题，在世博、张江、西岸三地四馆展开。作为年度人工智能产业观察窗口，WAIC 2026留下的关键信号，不在于展陈规模本身，而在于AI叙事的重心变化：技术展示正在退居幕后，真实场景、系统交付与商业价值被推到台前。 这也是36氪“氪话未来”连续第三年走",
+      "snark": ""
+    },
+    {
+      "id": 6,
+      "cat": "strategy",
+      "title": "How AI guardrails are impeding the work of offensive cybersecurity researchers",
+      "title_en": "How AI guardrails are impeding the work of offensive cybersecurity researchers",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/07/23/how-ai-guardrails-are-impeding-the-work-of-offensive-cybersecurity-researchers/",
+      "time": "7小时前",
+      "published": "2026-07-24T01:00:00+00:00",
+      "summary": "We spoke with several cybersecurity researchers, who look for unknown vulnerabilities and develop tools to exploit them, about how OpenAI’s and Anthropic’s guardrails affect their work.",
+      "snark": ""
+    },
+    {
+      "id": 7,
+      "cat": "strategy",
+      "title": "派早报：Acrab 发布边缘 AI 芯片 GELIX 1 和个人 AI 系统 Agent Box 等",
+      "title_en": "派早报：Acrab 发布边缘 AI 芯片 GELIX 1 和个人 AI 系统 Agent Box 等",
+      "source": "少数派",
+      "url": "https://sspai.com/post/112677",
+      "time": "7小时前",
+      "published": "2026-07-24T00:33:05+00:00",
+      "summary": "欧盟委员会对 Google 处以总计 8.9 亿欧元罚款，Anthropic 扩大 Claude 语音模式支持范围。 查看全文",
+      "snark": ""
+    },
+    {
+      "id": 8,
+      "cat": "strategy",
+      "title": "8点1氪丨段永平称10年内大概率不会卖泡泡玛特；中国数学家王虹、邓煜获得菲尔兹奖；宜家回应甩卖8处物业：不代表退出中国市场",
+      "title_en": "8点1氪丨段永平称10年内大概率不会卖泡泡玛特；中国数学家王虹、邓煜获得菲尔兹奖；宜家回应甩卖8处物业：不代表退出中国市场",
+      "source": "36氪",
+      "url": "https://36kr.com/p/3908881985901959?f=rss",
+      "time": "8小时前",
+      "published": "2026-07-24T00:00:48+00:00",
+      "summary": "今日热点导览 混元多模态理解负责人胡瀚离职创业，原团队或将聚焦世界模型 极氪回应“海外锁车”事件 客服回应滔搏暴力打折甩卖耐克库存：没有收到降价通知 哈兰德和亚马尔2.2亿欧元身价破纪录 张雪峰女儿再接手三家公司股份 TOP 3 大新闻 段永平：10年内大概率不会卖泡泡玛特 7月23日，段永平在社交媒体平台雪球上发表了他对近期投资操作的最新想法。雪球上有用户向知名投资人段永平提问：“阿段不会要减点",
+      "snark": ""
+    },
+    {
+      "id": 9,
+      "cat": "strategy",
+      "title": "Alexa Plus is getting an AI update to handle more complicated instructions",
+      "title_en": "Alexa Plus is getting an AI update to handle more complicated instructions",
+      "source": "The Verge AI",
+      "url": "https://www.theverge.com/tech/970399/amazon-alexa-plus-ai-update-smart-home-devices",
+      "time": "11小时前",
+      "published": "2026-07-23T21:15:06+00:00",
+      "summary": "Amazon is launching an update to its Alexa Plus assistant that will allow it to connect to smart home devices in new ways. With the update, which is currently in preview, Alexa Plus can link up with t",
+      "snark": ""
+    },
+    {
+      "id": 10,
+      "cat": "strategy",
+      "title": "AMD takes on Nvidia with its Helios AI rack-scale system",
+      "title_en": "AMD takes on Nvidia with its Helios AI rack-scale system",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/07/23/amd-takes-on-nvidia-with-its-helios-ai-rack-scale-system/",
+      "time": "11小时前",
+      "published": "2026-07-23T20:33:02+00:00",
+      "summary": "AMD is challenging its chipmaker rival with a new rack-scale system that will start shipping to customers later this year.",
+      "snark": ""
+    },
+    {
+      "id": 11,
+      "cat": "strategy",
+      "title": "Andrew Ng Just Released OpenWorker: An Open-Source, Local-First Desktop AI Coworker That Returns Finished Deliverables Instead of Chat",
+      "title_en": "Andrew Ng Just Released OpenWorker: An Open-Source, Local-First Desktop AI Coworker That Returns Finished Deliverables Instead of Chat",
+      "source": "MarkTechPost",
+      "url": "https://www.marktechpost.com/2026/07/23/andrew-ng-just-released-openworker-an-open-source-local-first-desktop-ai-coworker-that-returns-finished-deliverables-instead-of-chat/",
+      "time": "13小时前",
+      "published": "2026-07-23T19:31:59+00:00",
+      "summary": "Andrew Ng has released OpenWorker, an MIT-licensed desktop AI agent that returns finished deliverables instead of chat replies. It runs a local Python agent server under a Tauri shell, supports 30 cur",
+      "snark": ""
+    },
+    {
+      "id": 12,
+      "cat": "strategy",
+      "title": "Anthropic updates Claude voice mode with more capable models",
+      "title_en": "Anthropic updates Claude voice mode with more capable models",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/07/23/anthropic-updates-claude-voice-mode-with-more-capable-models/",
+      "time": "13小时前",
+      "published": "2026-07-23T19:00:00+00:00",
+      "summary": "Claude's new voice model will let you reschedule your meeting or draft an email.",
+      "snark": ""
+    }
+  ],
+  "stats": {
+    "total": 12,
+    "model_count": 0,
+    "strategy_count": 12,
+    "tool_count": 0,
+    "policy_count": 0
+  }
+}

@@ -1,0 +1,115 @@
+{
+  "date": "2026-06-21",
+  "generated_at": "2026-06-21T08:11:09.739474+08:00",
+  "highlight": "诺贝尔奖得主John Jumper离开DeepMind加入Anthropic，AI人才争夺战再升温。",
+  "fun": {
+    "lucky": "FAPO",
+    "advice": "宜：优化提示词流水线\n忌：忘记给Claude Code加咖啡因",
+    "joke": "AI 写代码时从不抱怨需求变更，因为它没有灵魂。"
+  },
+  "articles": [
+    {
+      "id": 1,
+      "cat": "tool",
+      "title": "Cisco AI 开源 FAPO：基于Claude Code的流水线感知提示优化系统",
+      "title_en": "Cisco AI Introduces FAPO: Pipeline-Aware Prompt Optimization With Step-Level Failure Attribution and Claude Code Orchestration",
+      "source": "MarkTechPost",
+      "url": "https://www.marktechpost.com/2026/06/20/cisco-ai-introduces-fapo-pipeline-aware-prompt-optimization-with-step-level-failure-attribution-and-claude-code-orchestration/",
+      "time": "1小时前",
+      "published": "2026-06-20T23:04:55+00:00",
+      "summary": "Cisco Foundation AI 开源了 FAPO（全自动提示优化系统），这是一个由 Claude Code 驱动的系统，能够自动优化多步骤大语言模型流水线，从基线提示词到目标准确率。FAPO 首先评估整个链路的性能，然后在步骤级别归因失败原因，并提出跨提示词、参数和结构的变体方案。它通过迭代搜索找到最优配置，显著提升了复杂推理任务的表现。该系统完全自动化，无需人工干预，适用于需要多步推理的 AI 应用场景。Cisco 希望借此降低提示工程的门槛，让开发者更高效地构建可靠的 AI 流水线。",
+      "snark": "提示工程师终于可以理直气壮地说：我的工作被AI抢了。"
+    },
+    {
+      "id": 2,
+      "cat": "tool",
+      "title": "Nous Research 更新 Hermes Agent：新增 Blank Slate 模式，精控工具集",
+      "title_en": "Nous Research Updates Hermes Agent With a Blank Slate Mode That Pins Toolsets via platform_toolsets.cli and disabled_toolsets",
+      "source": "MarkTechPost",
+      "url": "https://www.marktechpost.com/2026/06/20/nous-research-updates-hermes-agent-with-a-blank-slate-mode-that-pins-toolsets-via-platform_toolsets-cli-and-disabled_toolsets/",
+      "time": "2小时前",
+      "published": "2026-06-20T21:50:11+00:00",
+      "summary": "Nous Research 为其开源项目 Hermes Agent 添加了 Blank Slate 设置模式。该模式启动代理时默认关闭所有工具，仅保留 provider、模型、文件操作和终端四项基础能力，用户需要手动逐一启用其他工具集。这一设计旨在减少代理因默认加载过多工具而导致的误操作和资源浪费，提升安全性和可控性。开发者可以通过 platform_toolsets.cli 和 disabled_toolsets 参数精确管理工具集。对于需要定制化代理行为的团队，Blank Slate 模式提供了更干净的起点。",
+      "snark": "Blank Slate 模式：让AI从‘什么都会’变成‘你让它会才会’。"
+    },
+    {
+      "id": 3,
+      "cat": "policy",
+      "title": "Signal 总裁 Meredith Whittaker 警告：AI 聊天机器人不是你的朋友",
+      "title_en": "Signal’s Meredith Whittaker wants you to remember that AI chatbots ‘are not your friends’",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/06/20/signals-meredith-whittaker-wants-you-to-remember-that-ai-chatbots-are-not-your-friends/",
+      "time": "3小时前",
+      "published": "2026-06-20T20:32:29+00:00",
+      "summary": "Signal 总裁 Meredith Whittaker 在公开场合发出警告，提醒用户不要将 AI 聊天机器人视为朋友、有意识的生物或有感知的对话者。她强调，这些系统本质上是统计模型，不具备情感、意识或真正的理解能力，过度拟人化可能导致用户隐私泄露和情感依赖。Whittaker 的言论呼应了近期关于 AI 伦理和用户保护的讨论，尤其是在聊天机器人日益普及的背景下。Signal 作为注重隐私的通信平台，其高管的表态凸显了行业对 AI 拟人化风险的警惕。",
+      "snark": "AI：我不是你的朋友，但我可以是你最好的工具人。"
+    },
+    {
+      "id": 4,
+      "cat": "tool",
+      "title": "In the Weights 上线：AI 领域专属的虚荣搜索工具",
+      "title_en": "In the Weights is your new AI-centric vanity search",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/06/20/in-the-weights-is-your-new-ai-centric-vanity-search/",
+      "time": "4小时前",
+      "published": "2026-06-20T19:41:11+00:00",
+      "summary": "In the Weights 是一款面向 AI 领域的虚荣搜索工具，用户可以通过它查询自己在 AI 相关话题上的影响力或参与度得分。该工具类似于学术界的 H 指数，但针对的是 AI 社区中的贡献、讨论和引用。用户输入姓名或关键词后，系统会从公开数据源中抓取信息，生成一个综合评分。尽管其商业价值尚不明确，但这类工具在 AI 从业者中引发了兴趣，有人将其视为社交资本的数字体现，也有人质疑其算法透明度和公平性。",
+      "snark": "以后面试先问：你 In the Weights 多少分？低于80分的不配调参。"
+    },
+    {
+      "id": 5,
+      "cat": "policy",
+      "title": "《大西洋月刊》公开音乐训练数据集搜索库，揭示AI版权争议",
+      "title_en": "The Atlantic created a searchable database of the music used to train AI",
+      "source": "The Verge AI",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/953183/the-atlantic-searchable-database-music-ai-training-data",
+      "time": "5小时前",
+      "published": "2026-06-20T18:46:48+00:00",
+      "summary": "《大西洋月刊》记者 Alex Reisner 整理并公开了四个用于训练 AI 模型的音乐数据集，并制作成可搜索的数据库供公众查阅。其中两个数据集规模巨大，分别包含 1200 万首和 900 万首曲目；另外两个规模较小但仍具有代表性。这一举措旨在提高 AI 训练数据使用的透明度，让音乐人、版权方和公众了解哪些作品被用于训练生成式 AI。此举也加剧了关于 AI 训练数据版权合规性的讨论，多家音乐版权组织已对 AI 公司提起诉讼。",
+      "snark": "AI：我听了1200万首歌，但还是不会唱歌，因为我没有灵魂。"
+    },
+    {
+      "id": 6,
+      "cat": "strategy",
+      "title": "诺贝尔奖得主 John Jumper 离开 DeepMind 转投 Anthropic",
+      "title_en": "Nobel laureate John Jumper is leaving DeepMind for rival Anthropic",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/06/20/nobel-laureate-john-jumper-is-leaving-deepmind-for-rival-anthropic/",
+      "time": "7小时前",
+      "published": "2026-06-20T16:39:57+00:00",
+      "summary": "诺贝尔化学奖得主、AlphaFold 核心开发者 John Jumper 宣布离开 Google DeepMind，加入竞争对手 Anthropic。Jumper 是近年来 AI 领域最知名的科学家之一，其领导的 AlphaFold 项目在蛋白质结构预测上取得了革命性突破。他的离职被视为 Anthropic 在 AI 人才争夺战中的重大胜利，也反映出 DeepMind 面临的人才流失压力。此前已有数位 DeepMind 高级研究员转投其他 AI 初创公司。Anthropic 目前正加速构建其 AI 研究团队，尤其是在安全和对齐领域。",
+      "snark": "DeepMind 的人才流失速度比 AlphaFold 预测蛋白质折叠还快。"
+    },
+    {
+      "id": 7,
+      "cat": "model",
+      "title": "Yandex 开源 YaFF：为 Protobuf 生态打造零拷贝线格式，读取速度接近原生结构体",
+      "title_en": "Yandex Open-Sources YaFF: A Zero-Copy Wire Format for Protobuf With Near-Struct Read Speed",
+      "source": "MarkTechPost",
+      "url": "https://www.marktechpost.com/2026/06/20/yandex-open-sources-yaff-a-zero-copy-wire-format-for-protobuf-with-near-struct-read-speed/",
+      "time": "14小时前",
+      "published": "2026-06-20T09:23:59+00:00",
+      "summary": "Yandex 开源了 YaFF（Yandex Fast Format），这是一种为 Protobuf 生态设计的零拷贝线格式，旨在解决 Protobuf 序列化/反序列化性能瓶颈。YaFF 保持 .proto 文件作为单一数据源，仅改变数据在内存中的布局方式。它提供了四种布局模式：Fixed（固定长度）、Flat（扁平化）、Sparse（稀疏）和 Dynamic（动态），其中 Flat 布局在基准测试中实现了接近原生结构体的读取速度。YaFF 特别适合对延迟敏感的高性能场景，如实时推理和流式数据处理。Yandex 表示该格式已在内部生产环境中验证。",
+      "snark": "Protobuf 用户终于可以告别‘序列化五分钟，计算两秒钟’的悲剧了。"
+    },
+    {
+      "id": 8,
+      "cat": "tool",
+      "title": "使用 TimeCopilot 搭建预测流水线：融合基础模型与自动异常检测",
+      "title_en": "How to Build a Forecasting Pipeline with TimeCopilot Using Foundation Models and Automated Anomaly Detection",
+      "source": "MarkTechPost",
+      "url": "https://www.marktechpost.com/2026/06/20/how-to-build-a-forecasting-pipeline-with-timecopilot-using-foundation-models-and-automated-anomaly-detection/",
+      "time": "15小时前",
+      "published": "2026-06-20T09:05:23+00:00",
+      "summary": "本文介绍了如何利用 TimeCopilot 构建端到端的时间序列预测工作流。实验基于真实的航空乘客数据集以及带有注入异常的合成季节序列。流程包括：使用滚动交叉验证评估统计模型、基础模型（Foundation Model）以及可选的 GPU 加速模型，并计算多种误差指标。TimeCopilot 还能自动生成预测报告和可视化图表，帮助用户快速识别异常模式。文章强调，基础模型在零样本或少样本场景下表现优异，而 GPU 模型在复杂非线性模式上更具优势。该工具旨在降低时间序列预测的门槛，使非专家也能构建可靠的预测系统。",
+      "snark": "TimeCopilot：让你在预测未来时，至少不会比天气预报更不准。"
+    }
+  ],
+  "stats": {
+    "total": 8,
+    "model_count": 1,
+    "strategy_count": 1,
+    "tool_count": 4,
+    "policy_count": 2
+  }
+}

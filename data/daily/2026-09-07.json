@@ -1,0 +1,139 @@
+{
+  "date": "2026-09-07",
+  "generated_at": "2026-09-07T08:07:52.404630+08:00",
+  "highlight": "今日焦点：两大传统媒体起诉OpenAI与微软侵权，同时OpenAI内部发文反思AI对齐问题，行业争议与自我审视并存。",
+  "fun": {
+    "lucky": "OpenAI",
+    "advice": "宜：反思对齐策略，加强版权合规。\n忌：在法庭上背诵原告文章。",
+    "joke": "AI写新闻被抓包，法官问它为何抄袭，它答：这叫预训练，不算抄。"
+  },
+  "articles": [
+    {
+      "id": 1,
+      "cat": "policy",
+      "title": "《西雅图时报》与《新闻日报》起诉OpenAI与微软侵犯版权",
+      "title_en": "Seattle Times and Newsday sue OpenAI and Microsoft for infringement",
+      "source": "The Verge",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/990932/seattle-times-newsday-lawsuit-openai-microsoft",
+      "time": "31分钟前",
+      "published": "2026-09-06T23:36:04+00:00",
+      "summary": "《西雅图时报》与《新闻日报》成为最新一批将OpenAI告上法庭的原告，指控其存在版权侵犯行为。这两家媒体表示，OpenAI在未经许可的情况下，将其新闻报道作为训练数据用于AI模型，且其AI系统在回应用户查询时，经常逐字复述或高度相似地重现报道中的段落。该诉讼将微软列为共同被告，因其为OpenAI提供算力支持并深度参与商业化合作。原告主张，这种行为不仅损害了传统新闻业的商业模式，也构成了对原创内容的系统性盗用。这起案件延续了此前多起创作者与AI巨头之间的法律纠纷，反映出内容产业与生成式AI在数据使用边界上的深层矛盾，其判决结果可能对AI训练数据的合法性界定产生深远影响。",
+      "snark": "AI的梦想是写新闻，但眼下更擅长抄袭新闻，这算不算另一种形式的‘内容创业’？"
+    },
+    {
+      "id": 2,
+      "cat": "model",
+      "title": "H公司发布NeoMME多模态编码器系列",
+      "title_en": "H Company Releases NeoMME: A Family of 260M and 800M Single-Tower Multimodal Encoders That Drop the Vision Tower and Causal Decoder",
+      "source": "MarkTechPost",
+      "url": "https://www.marktechpost.com/2026/09/06/h-company-releases-neomme-a-family-of-260m-and-800m-single-tower-multimodal-encoders-that-drop-the-vision-tower-and-causal-decoder/",
+      "time": "3小时前",
+      "published": "2026-09-06T21:06:41+00:00",
+      "summary": "H公司正式推出NeoMME系列模型，包含2.6亿与8亿参数两种规模的双向编码器。与ColPali风格的检索器不同，NeoMME摒弃了预训练视觉塔与因果解码器，采用单一Transformer架构，直接处理多语言文本令牌和32×32原始图像块。该设计通过掩码离散扩散技术进行预训练，使得模型能够在统一的语义空间中融合处理视觉与语言信息，实现了真正的单塔多模态理解。这种架构简化了传统多模态流程中视觉编码器与语言模型拼接的复杂性，在降低推理开销的同时，提升了图文联合表征的质量。NeoMME的发布为多模态检索、视觉问答等下游任务提供了更高效的基础模型方案，其技术路线展示了在无需大规模预训练视觉组件的情况下，依然能够构建高性能多模态编码器的可能性。",
+      "snark": "去掉视觉塔，去掉因果解码器，再取个新名字，这年头发模型像在玩俄罗斯方块。"
+    },
+    {
+      "id": 3,
+      "cat": "policy",
+      "title": "作者群体抗议：出版商与经纪公司争抢Anthropic和解金份额",
+      "title_en": "Authors push back as publishers and agents make claims on Anthropic settlement",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/09/06/authors-push-back-as-publishers-and-agents-seek-share-of-anthropic-settlement/",
+      "time": "3小时前",
+      "published": "2026-09-06T20:47:37+00:00",
+      "summary": "在Anthropic与版权方的和解进程中，作者群体与出版商、经纪公司之间出现了新的裂痕。多位作者公开表示，出版商与经纪公司似乎在试图从和解赔偿金中获取远超其应得比例的份额。作者们认为，AI模型训练所使用的内容核心价值来源于创作者本身，而非中间分发或代理环节，因此赔偿应主要流向原作者。然而，出版商主张其拥有作品的版权授权与发行权利，理应获得与作者同等的补偿地位，甚至更高比例。经纪公司也介入其中，声称在促成作品授权谈判中发挥了关键作用。目前，相关各方利益诉求分歧明显，和解协议的最终分配方案尚不明朗。这一争议凸显了AI版权赔偿中复杂的权利链条与利益分配难题，也为后续类似案件的和解机制敲响了警钟。",
+      "snark": "AI还没赚到钱，人类先为分钱打起来了，这很符合‘利益分配不均’的经典剧本。"
+    },
+    {
+      "id": 4,
+      "cat": "model",
+      "title": "Meta FAIR推出AI研究偏好模型：在消耗GPU算力前对实验排序",
+      "title_en": "Meta FAIR Introduces AI Research Preference Models (RPMs): Ranking ML Experiments Before Spending GPU Hours",
+      "source": "MarkTechPost",
+      "url": "https://www.marktechpost.com/2026/09/06/meta-fair-introduces-ai-research-preference-models-rpms-ranking-ml-experiments-before-spending-gpu-hours/",
+      "time": "3小时前",
+      "published": "2026-09-06T20:25:17+00:00",
+      "summary": "Meta FAIR联合牛津大学与伦敦大学学院，提出了一种名为AI研究偏好模型的新方法，旨在提升机器学习实验的效率。AI研究智能体能够提出的实验方案数量远超预算可执行的范围，为此，研究团队利用冻结的LLM作为评判器，对15个尚未执行的候选实验方案进行排序，并仅选择得分最高的一个进行实际运行。在AIRS-Bench基准测试中，采用该机制后，平均归一化得分从0.684提升至0.729，且实验执行轮次显著减少。这一方法的核心在于利用大模型的先验知识，在算力投入前筛选出最具潜力的研究方向，避免盲目试错带来的资源浪费。RPMs的提出为自动化科研提供了新的范式，即让AI不仅参与实验设计与执行，更能智能地决策哪些实验值得运行，从而加速科研进程并优化GPU资源利用率。",
+      "snark": "用AI来给AI的实验排序，最后AI会不会自己决定不跑实验直接写论文？"
+    },
+    {
+      "id": 5,
+      "cat": "strategy",
+      "title": "Uber创始人特拉维斯·卡兰尼克旗下Atoms或进军Robotaxi市场",
+      "title_en": "Travis Kalanick’s Atoms might be getting into the robotaxi business",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/09/06/travis-kalanicks-atoms-might-be-getting-into-the-robotaxi-business/",
+      "time": "7小时前",
+      "published": "2026-09-06T16:45:00+00:00",
+      "summary": "据TechCrunch报道，Uber创始人特拉维斯·卡兰尼克创立的科技公司Atoms，可能正在筹划进入自动驾驶出租车领域。卡兰尼克曾表示，Atoms将帮助他完成一些‘未竟的事业’，这引发了外界对其重新涉足出行赛道的猜测。分析人士指出，卡兰尼克在出行领域拥有丰富的运营经验和行业洞察力，其重返Robotaxi市场可能带来颠覆性的竞争格局。目前，Atoms尚未公布具体的技术路线或商业计划，但市场普遍预期，卡兰尼克可能会利用其在共享出行时代积累的资源与网络，结合当前成熟的自动驾驶技术，打造新一代的无人驾驶出行服务。此举若属实，将直接与Waymo、特斯拉等现有玩家展开竞争，为快速发展的Robotaxi行业再添一把火。",
+      "snark": "当年被赶下Uber的台，现在想靠Robotaxi把场子找回来，这剧情够励志。"
+    },
+    {
+      "id": 6,
+      "cat": "tool",
+      "title": "Fairphone 6 Plus评测：一款我们亟需的中端手机",
+      "title_en": "The Fairphone 6 Plus is the midrange phone we desperately needed",
+      "source": "The Verge",
+      "url": "https://www.theverge.com/tech/990436/fairphone-6-plus-review",
+      "time": "11小时前",
+      "published": "2026-09-06T13:00:00+00:00",
+      "summary": "The Verge发布了对Fairphone 6 Plus的评测，称该机是一款‘极其普通’的中端安卓手机，但对此感到异常兴奋。Fairphone的品牌使命始终令人敬佩，致力于使用道德采购的材料并提供高度可维修性。然而，此前该品牌的手机产品在硬件规格与性能上常常需要消费者做出较大妥协。Fairphone 6 Plus的出现改变了这一局面，它在保持可维修性与环保理念的同时，将综合体验提升到了足以满足日常需求的中端主流水平。评测认为，这款手机并非追求极致的性能参数，而是提供了一种兼顾道德选择与实用性的平衡方案。在一个换机周期不断缩短、电子垃圾日益增多的行业里，Fairphone 6 Plus代表了一种对‘可持续消费’的坚持，证明了环保与实用并非不可兼得，虽然它依然是一款‘平均’的手机，但它的存在本身就是一种胜利。",
+      "snark": "一部‘普通’的手机却让人兴奋，这大概是对整个行业过度堆料的一种无声抗议。"
+    },
+    {
+      "id": 7,
+      "cat": "policy",
+      "title": "OpenAI首席科学家发文：反思‘异类心智’与AI对齐挑战",
+      "title_en": "An Alien Mind",
+      "source": "OpenAI Blog",
+      "url": "https://openai.com/index/an-alien-mind",
+      "time": "15小时前",
+      "published": "2026-09-06T09:00:00+00:00",
+      "summary": "OpenAI首席科学家雅库布·帕乔基发布了一篇题为《异类心智》的深度思考文章。文中，他反思了日益强大的AI系统所带来的根本性挑战，特别是如何确保这些能力远超人类的智能体始终与人类意图保持一致。帕乔基指出，随着模型能力逼近甚至超越人类认知的某些维度，其内部决策过程将变得愈发难以用人类术语解释，形成一种‘异类’的思考方式。他呼吁AI领域需要建立更强的安全防护措施，并加强国际间的协调与合作，以共同应对超级智能可能带来的风险。这篇文章并非介绍具体技术，而是从顶层设计视角出发，探讨了AI发展在技术之外所面临的治理困境与伦理责任。其观点表明，即便在领先的AI实验室内部，关于如何安全地驾驭前沿模型能力的紧迫感也在与日俱增。",
+      "snark": "首席科学家的‘异类心智’听起来很酷，但更希望是‘异类’不失控的心智。"
+    },
+    {
+      "id": 8,
+      "cat": "tool",
+      "title": "OpenAI内部视角：编码智能体如何加速AI研究",
+      "title_en": "Research acceleration: The view inside OpenAI",
+      "source": "OpenAI Blog",
+      "url": "https://openai.com/index/research-acceleration-view-inside-openai",
+      "time": "16小时前",
+      "published": "2026-09-06T08:00:00+00:00",
+      "summary": "OpenAI官方博客发布文章，首次披露了编码智能体在其内部研究流程中的应用数据与影响。文章指出，编码智能体正在重塑OpenAI的科研方式，显著提升了实验迭代的速度与任务处理的复杂度。内部数据显示，这些智能体不仅承担了基础的代码生成与调试工作，更深度参与到研究假设验证、基线实现乃至新算法原型的搭建中。通过将重复性、确定性的编码工作交由智能体处理，研究人员得以将更多精力投入到创造性思考与实验设计上。文章中提到，智能体的应用使得实验吞吐量大幅增加，一些原本需要数天完成的实验流程被压缩至数小时。这一内部实践揭示了AI研究本身正在被AI工具加速的趋势，OpenAI不仅致力于构建强大的模型，也在积极利用自身的模型来优化研究自身的生产效率，形成了一种自我加速的发展飞轮。",
+      "snark": "OpenAI用AI加速研究，下一步是不是用AI来写这篇博客？哦，可能已经写了。"
+    },
+    {
+      "id": 9,
+      "cat": "tool",
+      "title": "UC伯克利发布CUA-Lite：统一计算机操作智能体的开放平台",
+      "title_en": "UC Berkeley Researchers Release CUA-Lite, an Open Platform Unifying Sandboxes, Data, Evaluation and RL for Computer-Use Agents",
+      "source": "MarkTechPost",
+      "url": "https://www.marktechpost.com/2026/09/05/uc-berkeley-researchers-release-cua-lite-an-open-platform-unifying-sandboxes-data-evaluation-and-rl-for-computer-use-agents/",
+      "time": "17小时前",
+      "published": "2026-09-06T06:11:02+00:00",
+      "summary": "由加州大学伯克利分校领衔的研究团队，发布了名为CUA-Lite的开放平台，旨在解决计算机操作智能体领域长期存在的碎片化问题。当前，训练和评测一个能够操作计算机的智能体，需要整合智能体、环境、轨迹数据以及评测训练框架四个核心部分，但各方均以互不兼容的格式交付。CUA-Lite的核心突破在于将这些分散的组件统一到一个标准化的行动空间与数据模式之下，并替换了操作系统级别的依赖。这意味着研究人员无需在繁杂的底层接口适配上耗费精力，即可在同一平台上进行环境模拟、数据采集、模型训练与性能评估。该平台的开源发布有望极大降低计算机操作智能体的研究门槛，促进该领域从各自为政走向协同发展，为构建更通用、更强大的数字助理型AI提供了统一的基础设施支撑。",
+      "snark": "把不兼容的沙盒、数据和评测都统一了，这简直是计算机操作智能体界的‘和平统一’进程。"
+    },
+    {
+      "id": 10,
+      "cat": "tool",
+      "title": "Perplexity详解其GPU嵌入栈：Ivy、Tulip与ROSE如何服务pplx-embed",
+      "title_en": "Perplexity Details Its GPU Embedding Stack: How Ivy, Tulip and ROSE Serve pplx-embed",
+      "source": "MarkTechPost",
+      "url": "https://www.marktechpost.com/2026/09/05/perplexity-details-its-gpu-embedding-stack-how-ivy-tulip-and-rose-serve-pplx-embed/",
+      "time": "20小时前",
+      "published": "2026-09-06T03:20:47+00:00",
+      "summary": "Perplexity工程团队发布技术博客，详细阐述了其AI搜索产品背后嵌入模型的服务化基础设施。文章指出，检索质量受限于两个关键因素：嵌入模型本身的效果以及在整个索引上运行它的成本。此次公开的内容聚焦于后者，即支撑其pplx-embed模型的GPU服务架构。该架构由代号为Ivy、Tulip与ROSE的三个核心组件构成。其中，Ivy负责处理高吞吐量的嵌入计算请求，Tulip可能承担着模型推理的调度与优化职责，而ROSE则可能涉及跨GPU的资源分配与弹性伸缩。通过这套精心设计的系统，Perplexity得以在海量索引数据上高效、低成本地运行嵌入模型，从而保证搜索服务的实时性与准确性。该技术分享为业界提供了在大规模检索场景下，如何优化GPU资源利用率和降低推理成本的可借鉴案例。",
+      "snark": "用Ivy、Tulip、ROSE这些花花草草命名基础设施，难道是为了让GPU集群看起来更生态环保？"
+    }
+  ],
+  "stats": {
+    "total": 10,
+    "model_count": 2,
+    "strategy_count": 1,
+    "tool_count": 4,
+    "policy_count": 3
+  }
+}

@@ -1,0 +1,161 @@
+{
+  "date": "2026-05-07",
+  "highlight": "AI 芯片供应从紧缺到过剩，算力价格断崖式下跌，创业公司迎来利好",
+  "articles": [
+    {
+      "id": 1,
+      "cat": "model",
+      "title": "Kimi 2.5 发布：月之暗面称长文本理解能力业界领先",
+      "title_en": "",
+      "source": "VentureBeat",
+      "url": "https://example.com/ai-news/2129",
+      "time": "7天前",
+      "published": "2026-05-07T16:16:00+08:00",
+      "summary": "这是一条关于「Kimi 2.5 发布：月之暗面称长文本理解能力业界领先」的详细报道。该事件在 AI 行业引发广泛关注，多位业内人士表示这将深刻影响行业格局。更多细节请查看原文。",
+      "snark": "又双叒叕一个「里程碑」，今年第几个了？"
+    },
+    {
+      "id": 2,
+      "cat": "model",
+      "title": "Cloudflare Workers AI 上线：边缘推理延迟降至 10ms",
+      "title_en": "",
+      "source": "DeepMind Blog",
+      "url": "https://example.com/ai-news/3656",
+      "time": "7天前",
+      "published": "2026-05-07T17:49:00+08:00",
+      "summary": "这是一条关于「Cloudflare Workers AI 上线：边缘推理延迟降至 10ms」的详细报道。该事件在 AI 行业引发广泛关注，多位业内人士表示这将深刻影响行业格局。更多细节请查看原文。",
+      "snark": "AI圈新闻：今天又是核聚变级别的一天。"
+    },
+    {
+      "id": 3,
+      "cat": "model",
+      "title": "Adobe Firefly 4 发布：AI 创意工具全面整合 Photoshop",
+      "title_en": "",
+      "source": "VentureBeat",
+      "url": "https://example.com/ai-news/8802",
+      "time": "7天前",
+      "published": "2026-05-07T20:48:00+08:00",
+      "summary": "这是一条关于「Adobe Firefly 4 发布：AI 创意工具全面整合 Photoshop」的详细报道。该事件在 AI 行业引发广泛关注，多位业内人士表示这将深刻影响行业格局。更多细节请查看原文。",
+      "snark": "AI圈日常：今天你发模型，明天我刷榜。"
+    },
+    {
+      "id": 4,
+      "cat": "model",
+      "title": "ElevenLabs 发布语音克隆 API 2.0：2 秒音频即可完美克隆",
+      "title_en": "",
+      "source": "Google AI Blog",
+      "url": "https://example.com/ai-news/5951",
+      "time": "7天前",
+      "published": "2026-05-07T21:03:00+08:00",
+      "summary": "这是一条关于「ElevenLabs 发布语音克隆 API 2.0：2 秒音频即可完美克隆」的详细报道。该事件在 AI 行业引发广泛关注，多位业内人士表示这将深刻影响行业格局。更多细节请查看原文。",
+      "snark": "又双叒叕一个「里程碑」，今年第几个了？"
+    },
+    {
+      "id": 5,
+      "cat": "model",
+      "title": "苹果发布 Apple Intelligence 2.0，Siri 全面升级为 AI Agent",
+      "title_en": "",
+      "source": "36氪",
+      "url": "https://example.com/ai-news/7834",
+      "time": "7天前",
+      "published": "2026-05-07T18:53:00+08:00",
+      "summary": "这是一条关于「苹果发布 Apple Intelligence 2.0，Siri 全面升级为 AI Agent」的详细报道。该事件在 AI 行业引发广泛关注，多位业内人士表示这将深刻影响行业格局。更多细节请查看原文。",
+      "snark": "AI圈日常：今天你发模型，明天我刷榜。"
+    },
+    {
+      "id": 6,
+      "cat": "strategy",
+      "title": "Cursor 2.0 发布：AI 原生 IDE 支持全栈项目自动生成",
+      "title_en": "",
+      "source": "The Verge",
+      "url": "https://example.com/ai-news/1665",
+      "time": "7天前",
+      "published": "2026-05-07T18:35:00+08:00",
+      "summary": "这是一条关于「Cursor 2.0 发布：AI 原生 IDE 支持全栈项目自动生成」的详细报道。该事件在 AI 行业引发广泛关注，多位业内人士表示这将深刻影响行业格局。更多细节请查看原文。",
+      "snark": "AI圈新闻：今天又是核聚变级别的一天。"
+    },
+    {
+      "id": 7,
+      "cat": "strategy",
+      "title": "GPT-5 发布首个公开预览版，推理能力大幅提升",
+      "title_en": "",
+      "source": "MIT Tech Review",
+      "url": "https://example.com/ai-news/9797",
+      "time": "7天前",
+      "published": "2026-05-07T14:32:00+08:00",
+      "summary": "这是一条关于「GPT-5 发布首个公开预览版，推理能力大幅提升」的详细报道。该事件在 AI 行业引发广泛关注，多位业内人士表示这将深刻影响行业格局。更多细节请查看原文。",
+      "snark": "AI圈新闻：今天又是核聚变级别的一天。"
+    },
+    {
+      "id": 8,
+      "cat": "strategy",
+      "title": "Nous Research 发布 Hermes 4：开源指令遵循模型新标杆",
+      "title_en": "",
+      "source": "DeepMind Blog",
+      "url": "https://example.com/ai-news/3174",
+      "time": "7天前",
+      "published": "2026-05-07T22:53:00+08:00",
+      "summary": "这是一条关于「Nous Research 发布 Hermes 4：开源指令遵循模型新标杆」的详细报道。该事件在 AI 行业引发广泛关注，多位业内人士表示这将深刻影响行业格局。更多细节请查看原文。",
+      "snark": "AI圈新闻：今天又是核聚变级别的一天。"
+    },
+    {
+      "id": 9,
+      "cat": "strategy",
+      "title": "苹果发布 Apple Intelligence 2.0，Siri 全面升级为 AI Agent",
+      "title_en": "",
+      "source": "少数派",
+      "url": "https://example.com/ai-news/4407",
+      "time": "7天前",
+      "published": "2026-05-07T21:55:00+08:00",
+      "summary": "这是一条关于「苹果发布 Apple Intelligence 2.0，Siri 全面升级为 AI Agent」的详细报道。该事件在 AI 行业引发广泛关注，多位业内人士表示这将深刻影响行业格局。更多细节请查看原文。",
+      "snark": "编辑部：这条我们也不知道怎么评价。"
+    },
+    {
+      "id": 10,
+      "cat": "tool",
+      "title": "Amazon 推出 Nova 2.0：自研大模型开始对外商用",
+      "title_en": "",
+      "source": "36氪",
+      "url": "https://example.com/ai-news/2621",
+      "time": "7天前",
+      "published": "2026-05-07T16:51:00+08:00",
+      "summary": "这是一条关于「Amazon 推出 Nova 2.0：自研大模型开始对外商用」的详细报道。该事件在 AI 行业引发广泛关注，多位业内人士表示这将深刻影响行业格局。更多细节请查看原文。",
+      "snark": "AI圈新闻：今天又是核聚变级别的一天。"
+    },
+    {
+      "id": 11,
+      "cat": "tool",
+      "title": "中国发布大模型训练新规：数据安全和内容审核成焦点",
+      "title_en": "",
+      "source": "Synced Review",
+      "url": "https://example.com/ai-news/8805",
+      "time": "7天前",
+      "published": "2026-05-07T09:43:00+08:00",
+      "summary": "这是一条关于「中国发布大模型训练新规：数据安全和内容审核成焦点」的详细报道。该事件在 AI 行业引发广泛关注，多位业内人士表示这将深刻影响行业格局。更多细节请查看原文。",
+      "snark": "编辑部：这条我们也不知道怎么评价。"
+    },
+    {
+      "id": 12,
+      "cat": "tool",
+      "title": "Hugging Face 推出开源推理框架，性能比肩 GPT-4",
+      "title_en": "",
+      "source": "TechCrunch",
+      "url": "https://example.com/ai-news/1391",
+      "time": "7天前",
+      "published": "2026-05-07T19:47:00+08:00",
+      "summary": "这是一条关于「Hugging Face 推出开源推理框架，性能比肩 GPT-4」的详细报道。该事件在 AI 行业引发广泛关注，多位业内人士表示这将深刻影响行业格局。更多细节请查看原文。",
+      "snark": "AI圈新闻：今天又是核聚变级别的一天。"
+    }
+  ],
+  "stats": {
+    "total": 12,
+    "model_count": 5,
+    "strategy_count": 4,
+    "tool_count": 3
+  },
+  "fun": {
+    "lucky": "Llama 4 405B",
+    "advice": "宜：开源贡献\n忌：重复造轮子",
+    "joke": "产品经理：这个 AI 需求很简单\n工程师：有多简单？\n产品经理：就一个 prompt 的事\n工程师：……（开始刷 LeetCode）"
+  }
+}

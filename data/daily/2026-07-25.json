@@ -1,0 +1,171 @@
+{
+  "date": "2026-07-25",
+  "generated_at": "2026-07-25T08:02:22.547008+08:00",
+  "highlight": "AI 摘要暂时不可用，请稍后刷新",
+  "fun": {},
+  "articles": [
+    {
+      "id": 1,
+      "cat": "strategy",
+      "title": "Prentis, new AI lab co-founded by Reid Hoffman, Mark Pincus in talks to raise $100M",
+      "title_en": "Prentis, new AI lab co-founded by Reid Hoffman, Mark Pincus in talks to raise $100M",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/07/24/prentis-new-ai-lab-co-founded-by-reid-hoffman-mark-pincus-in-talks-to-raise-100m/",
+      "time": "1小时前",
+      "published": "2026-07-24T22:25:58+00:00",
+      "summary": "The neolab is betting that automating routine computer tasks will soon outpace coding as AI's biggest use case.",
+      "snark": ""
+    },
+    {
+      "id": 2,
+      "cat": "model",
+      "title": "Meet the New Claude Opus 5: Frontier-Class Agentic Coding and Computer Use at Unchanged Opus Pricing",
+      "title_en": "Meet the New Claude Opus 5: Frontier-Class Agentic Coding and Computer Use at Unchanged Opus Pricing",
+      "source": "MarkTechPost",
+      "url": "https://www.marktechpost.com/2026/07/24/meet-the-new-claude-opus-5-frontier-class-agentic-coding-and-computer-use-at-unchanged-opus-pricing/",
+      "time": "2小时前",
+      "published": "2026-07-24T21:50:46+00:00",
+      "summary": "Today, Anthropic released Claude Opus 5. It replaces Claude Opus 4.8 as the Opus-tier flagship. Pricing is unchanged at $5 per million input tokens and $25 per million output tokens. The Anthropic team positions Opus 5 as approaching the intelligence of Claude Fable 5 at half the price. It is now the default model on [&#8230;] The post Meet the New Claude Opus 5: Frontier-Class Agentic Coding and Computer Use at Unchanged Opus Pricing appeared first on MarkTechPost .",
+      "snark": ""
+    },
+    {
+      "id": 3,
+      "cat": "model",
+      "title": "Anthropic's Opus 5 is about token efficiency, not a capability leap",
+      "title_en": "Anthropic's Opus 5 is about token efficiency, not a capability leap",
+      "source": "Ars Technica",
+      "url": "https://arstechnica.com/ai/2026/07/anthropics-opus-5-is-about-token-efficiency-not-a-capability-leap/",
+      "time": "2小时前",
+      "published": "2026-07-24T21:05:51+00:00",
+      "summary": "Models are improving quickly, but the cheaper options are often good enough.",
+      "snark": ""
+    },
+    {
+      "id": 4,
+      "cat": "tool",
+      "title": "Midjourney bought the astrology app Co-Star",
+      "title_en": "Midjourney bought the astrology app Co-Star",
+      "source": "The Verge AI",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/970894/midjourney-co-star-acquisition",
+      "time": "4小时前",
+      "published": "2026-07-24T19:06:58+00:00",
+      "summary": "Midjourney, which has gone from generating AI cat images to full-body ultrasound scans, is getting into a new field: astrology. The AI startup announced on Thursday that it has acquired the personalized astrology app Co-Star, as reported earlier by Bloomberg. Co-Star is a free app that offers daily horoscopes and allows you to check your [&#8230;]",
+      "snark": "",
+      "multiSource": [
+        "TechCrunch",
+        "The Verge AI"
+      ]
+    },
+    {
+      "id": 5,
+      "cat": "model",
+      "title": "Why Cognition bought Poke: AI personality is becoming a competitive advantage",
+      "title_en": "Why Cognition bought Poke: AI personality is becoming a competitive advantage",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/07/24/why-cognition-bought-poke-ai-personality-is-becoming-a-competitive-advantage/",
+      "time": "5小时前",
+      "published": "2026-07-24T18:07:32+00:00",
+      "summary": "The acquisition brings Poke’s conversational style and interaction model to Cognition’s coding agent Devin, reflecting a growing belief that how AI assistants interact with users is as important as the models powering them.",
+      "snark": ""
+    },
+    {
+      "id": 6,
+      "cat": "strategy",
+      "title": "You can’t ignore Google Zero anymore",
+      "title_en": "You can’t ignore Google Zero anymore",
+      "source": "The Verge AI",
+      "url": "https://www.theverge.com/podcast/970735/google-zero-reddit-ai-publishers-vergecast",
+      "time": "6小时前",
+      "published": "2026-07-24T17:29:48+00:00",
+      "summary": "The web and Google once had a deal: Google collects data and indexes webpages and in exchange sends oceans of traffic to websites. The deal wasn't perfect and certainly made Google more money than it made the websites, but it worked for a long time. Now, however, the deal seems to be dead. And the [&#8230;]",
+      "snark": ""
+    },
+    {
+      "id": 7,
+      "cat": "tool",
+      "title": "Anthropic launches Opus 5",
+      "title_en": "Anthropic launches Opus 5",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/07/24/anthropic-launches-opus-5/",
+      "time": "7小时前",
+      "published": "2026-07-24T17:00:00+00:00",
+      "summary": "Opus 5 will be both cheaper and less restrictive than Fable, likely making it preferable in most use cases.",
+      "snark": "",
+      "multiSource": [
+        "Hacker News",
+        "TechCrunch"
+      ]
+    },
+    {
+      "id": 8,
+      "cat": "model",
+      "title": "Anthropic releases Opus 5 with ‘close’ to Fable 5’s capabilities",
+      "title_en": "Anthropic releases Opus 5 with ‘close’ to Fable 5’s capabilities",
+      "source": "The Verge AI",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/970105/claude-opus-5-announced-anthropic-ai-model-release",
+      "time": "7小时前",
+      "published": "2026-07-24T17:00:00+00:00",
+      "summary": "Weeks after Anthropic's latest toe-to-toe with the US government, and days after an OpenAI security incident that dominated tech industry discussions, Anthropic on Thursday released its newest model, Claude Opus 5. The company said in a release that Opus 5 \"comes close to the capabilities of Claude Fable 5 in many domains\" and is much [&#8230;]",
+      "snark": "",
+      "multiSource": [
+        "The Verge",
+        "The Verge AI"
+      ]
+    },
+    {
+      "id": 9,
+      "cat": "model",
+      "title": "Meta is making its AI chatbot more like an assistant",
+      "title_en": "Meta is making its AI chatbot more like an assistant",
+      "source": "The Verge AI",
+      "url": "https://www.theverge.com/tech/970570/meta-ai-chatbot-productivity-update",
+      "time": "7小时前",
+      "published": "2026-07-24T17:00:00+00:00",
+      "summary": "Meta is upgrading its AI chatbot with new productivity features in a bid to compete with rivals like Gemini, ChatGPT, and Claude. The update will allow Meta AI to tap into your calendar to help you plan events and generate daily briefings, as well as perform in-depth research that you can steer as it progresses. [&#8230;]",
+      "snark": ""
+    },
+    {
+      "id": 10,
+      "cat": "strategy",
+      "title": "Be skeptical of OpenAI's rogue hacker agent story",
+      "title_en": "Be skeptical of OpenAI's rogue hacker agent story",
+      "source": "Hacker News",
+      "url": "https://www.theguardian.com/technology/2026/jul/24/openai-rogue-hacker",
+      "time": "7小时前",
+      "published": "2026-07-24T16:33:31+00:00",
+      "summary": "Article URL: https://www.theguardian.com/technology/2026/jul/24/openai-rogue-hacker Comments URL: https://news.ycombinator.com/item?id=49038060 Points: 385 # Comments: 210",
+      "snark": ""
+    },
+    {
+      "id": 11,
+      "cat": "model",
+      "title": "Meta, Microsoft, Nvidia, IBM, and others back open-weight AI",
+      "title_en": "Meta, Microsoft, Nvidia, IBM, and others back open-weight AI",
+      "source": "AI News",
+      "url": "https://www.artificialintelligence-news.com/news/meta-microsoft-nvidia-ibm-others-back-open-weight-ai/",
+      "time": "7小时前",
+      "published": "2026-07-24T16:18:30+00:00",
+      "summary": "Two dozen companies and organisations signed an open letter urging US policymakers to protect open-weight AI models. The letter, published today (PDF), carries signatures from a list that spans direct commercial rivals and organisations with little obvious overlap in business model: Meta, Microsoft, Nvidia, IBM, Dell Technologies, CrowdStrike, Palantir, ServiceNow, Hugging Face, Perplexity, Mistral, Andreessen [&#8230;] The post Meta, Microsoft, Nvidia, IBM, and others back open-weight AI appear",
+      "snark": ""
+    },
+    {
+      "id": 12,
+      "cat": "model",
+      "title": "As US weighs response to Chinese AI, industry urges against broad open-weight restrictions",
+      "title_en": "As US weighs response to Chinese AI, industry urges against broad open-weight restrictions",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/07/24/as-us-weighs-response-to-chinese-ai-industry-urges-against-broad-open-weight-restrictions/",
+      "time": "8小时前",
+      "published": "2026-07-24T15:51:49+00:00",
+      "summary": "AI companies, including Nvidia and Mistral, urge policymakers to avoid broad restrictions on open-weight AI models as Washington debates responses to Chinese AI and alleged model distillation.",
+      "snark": ""
+    }
+  ],
+  "stats": {
+    "total": 12,
+    "model_count": 7,
+    "strategy_count": 3,
+    "tool_count": 2,
+    "policy_count": 0
+  }
+}

@@ -1,0 +1,163 @@
+{
+  "date": "2026-05-27",
+  "generated_at": "2026-05-27T08:07:16.814629+08:00",
+  "highlight": "谷歌AI搜索引发用户逃离，DuckDuckGo安装量暴涨30%；OpenRouter估值翻倍至13亿美元。",
+  "fun": {
+    "lucky": "Stable Audio 3",
+    "advice": "宜：用AI生成背景音乐，解放创作灵感。\n忌：沉迷自己生成的Suno歌曲，忽视真实音乐。",
+    "joke": "为什么AI从不迷路？因为它总是跟着最陡的梯度下降。"
+  },
+  "articles": [
+    {
+      "id": 1,
+      "cat": "tool",
+      "title": "用ZeroEntropy Zerank-2重排序器构建高精度检索-重排流水线",
+      "title_en": "Design a High-Precision Retrieve-and-Rerank Pipeline with ZeroEntropy Zerank-2 Reranker",
+      "source": "MarkTechPost",
+      "url": "https://www.marktechpost.com/2026/05/26/design-a-high-precision-retrieve-and-rerank-pipeline-with-zeroentropy-zerank-2-reranker/",
+      "time": "54分钟前",
+      "published": "2026-05-26T23:13:09+00:00",
+      "summary": "本文介绍了如何使用ZeroEntropy公司发布的Zerank-2重排序器来提升检索系统的精度。该模型是一个基于Qwen3架构的4B参数交叉编码器，专门用于对查询-文档对进行相关性评分。教程从环境搭建和模型加载开始，逐步讲解如何从简单的成对评分过渡到实际的两阶段检索-重排流水线。通过将粗排结果输入重排序器进行二次筛选，可以显著提高最终返回文档的相关性。该方案适用于需要高精度信息检索的场景，如企业知识库问答、学术文献搜索等。Zerank-2在多个基准测试中表现优异，且支持在消费级GPU上运行，降低了部署门槛。",
+      "snark": "重排序器：让你的搜索结果从‘差不多’变成‘就是这个’。"
+    },
+    {
+      "id": 2,
+      "cat": "strategy",
+      "title": "用户拒绝被“强行喂食”谷歌AI搜索，DuckDuckGo安装量暴涨30%",
+      "title_en": "DuckDuckGo installs are up 30% as users reject being ‘force-fed’ Google’s AI Search",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/05/26/duckduckgo-installs-are-up-30-as-users-reject-being-force-fed-googles-ai-search/",
+      "time": "1小时前",
+      "published": "2026-05-26T22:32:56+00:00",
+      "summary": "谷歌在2026年I/O开发者大会上对搜索进行了彻底改版，用AI智能体取代了传统的蓝色链接。这一变革引发了用户的强烈反弹，许多人认为AI生成的摘要剥夺了他们对信息来源的选择权。作为替代方案，注重隐私的搜索引擎DuckDuckGo的App安装量飙升了30%。用户表示，他们不想被单一AI系统“强行喂食”信息，而是希望保留自己探索和判断的权利。这一趋势反映出，尽管AI搜索在技术上取得了进步，但用户对信息自主权和隐私保护的诉求依然强烈，谷歌的激进变革可能正在推动部分用户转向更加中立的搜索平台。",
+      "snark": "谷歌：我们给你AI答案。用户：不，你给了我一个AI喂食器。"
+    },
+    {
+      "id": 3,
+      "cat": "model",
+      "title": "Stability AI发布Stable Audio 3：用于音频生成和编辑的快速潜扩散模型家族",
+      "title_en": "Stability AI Releases Stable Audio 3: A Family of Fast Latent Diffusion Models for Audio Generation and Editing",
+      "source": "MarkTechPost",
+      "url": "https://www.marktechpost.com/2026/05/26/stability-ai-releases-stable-audio-3-a-family-of-fast-latent-diffusion-models-for-audio-generation-and-editing/",
+      "time": "1小时前",
+      "published": "2026-05-26T22:31:02+00:00",
+      "summary": "Stability AI正式发布了Stable Audio 3，这是一系列用于器乐和音效生成的潜扩散模型。该版本包含了小尺寸和中尺寸两种变体的开源权重，其中小尺寸模型可以在MacBook Pro M4的CPU上流畅运行，而中尺寸模型仅需8GB显存的消费级GPU即可部署。两款模型都能生成高质量的立体声音频，并支持通过文本提示进行精确控制。Stable Audio 3在生成速度上相比前代有显著提升，同时保持了出色的音频保真度。开源策略使得独立开发者和小型工作室也能轻松使用这一先进的音频生成技术，有望在游戏开发、影视制作和音乐创作等领域得到广泛应用。",
+      "snark": "Stable Audio 3：让你的MacBook也能当录音棚，但别指望它帮你写歌词。"
+    },
+    {
+      "id": 4,
+      "cat": "policy",
+      "title": "数百万AI智能体因开源包中的严重漏洞面临风险",
+      "title_en": "Millions of AI agents imperiled by critical vulnerability in open source package",
+      "source": "Ars Technica",
+      "url": "https://arstechnica.com/information-technology/2026/05/millions-of-ai-agents-imperiled-by-critical-vulnerability-in-open-source-package/",
+      "time": "4小时前",
+      "published": "2026-05-26T19:50:33+00:00",
+      "summary": "安全研究人员在Starlette这个每周下载量高达3.25亿次的流行Python开源包中发现了一个名为“BadHost”的严重漏洞。该漏洞可能影响数百万基于该框架构建的AI智能体应用，攻击者能够利用它实施远程代码执行或数据窃取。Starlette是许多现代AI服务和API网关的核心依赖，因此漏洞的波及面极广。目前维护团队已发布修复版本，但大量已部署的系统可能尚未更新。这一事件再次敲响了AI供应链安全的警钟，提醒开发者在追求功能快速迭代的同时，必须重视底层依赖的安全性。",
+      "snark": "BadHost：一个漏洞让数百万AI智能体集体‘感冒’，补丁就是那杯热水。"
+    },
+    {
+      "id": 5,
+      "cat": "strategy",
+      "title": "OpenRouter一年内估值翻倍至13亿美元",
+      "title_en": "OpenRouter more than doubles valuation to $1.3B in a year",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/05/26/openrouter-more-than-doubles-valuation-to-1-3b-in-a-year/",
+      "time": "5小时前",
+      "published": "2026-05-26T18:33:01+00:00",
+      "summary": "AI模型聚合平台OpenRouter宣布完成1.13亿美元B轮融资，由CapitalG领投，估值达到13亿美元，较一年前翻了一倍多。该公司提供统一的API接口，让开发者可以方便地调用包括OpenAI、Anthropic、Meta等在内的多种大语言模型。在过去的六个月里，其平台使用量增长了5倍，显示出市场对多模型灵活切换的强烈需求。OpenRouter的快速增长印证了“多AI模型共存”的未来趋势，开发者不再愿意被单一模型绑定，而是希望根据成本、性能和任务类型动态选择最优方案。这笔融资将用于扩大模型生态和提升基础设施稳定性。",
+      "snark": "OpenRouter：我们不训练模型，我们只是模型的‘滴滴打车’。"
+    },
+    {
+      "id": 6,
+      "cat": "policy",
+      "title": "FBI探员揭露：识别未经同意发布AI色情内容者有多容易",
+      "title_en": "FBI agent explains how easy it is to ID people posting AI porn without consent",
+      "source": "Ars Technica",
+      "url": "https://arstechnica.com/tech-policy/2026/05/fbi-easily-nabs-man-selling-sexy-deepfakes-who-used-his-own-photo-in-profile/",
+      "time": "6小时前",
+      "published": "2026-05-26T17:46:01+00:00",
+      "summary": "美国联邦调查局（FBI）在一起案件中展示了追踪未经同意发布AI生成色情内容（深度伪造）的简易程度。嫌疑人将自己在Instagram上保存的旧照片用作AI色情账号的个人资料头像，这一疏忽直接导致其身份被快速锁定。FBI探员指出，许多违法者误以为AI生成的匿名性可以保护他们，但数字足迹和元数据往往留下大量线索。该案件警示，利用AI技术制作和传播非自愿色情内容不仅涉及严重的伦理问题，也会面临法律的严厉制裁。调查机构已经掌握了多种技术手段来追溯此类犯罪，所谓的“匿名”在专业侦查面前不堪一击。",
+      "snark": "用自己照片当头像搞AI色情？这操作比AI生成的假脸还假。"
+    },
+    {
+      "id": 7,
+      "cat": "strategy",
+      "title": "这家初创公司押注印度零工经济为全球机器人提供训练数据",
+      "title_en": "This startup is betting India’s gig economy can train the world’s robots",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/05/26/human-archive-taps-into-indias-services-startups-to-collect-data-for-physical-ai/",
+      "time": "8小时前",
+      "published": "2026-05-26T16:00:00+00:00",
+      "summary": "由加州大学伯克利分校和斯坦福大学研究人员创立的初创公司Human Archive，正在利用印度的零工经济来收集机器人训练所需的物理世界数据。该公司雇佣零工工人佩戴装有摄像头的帽子和传感器设备，在真实环境中执行各种日常任务，从而采集到丰富的动作和交互数据。这些数据对于训练具身智能（Embodied AI）和机器人模型至关重要，因为真实世界的物理交互数据比互联网文本数据稀缺得多。通过将数据采集外包给成本较低的劳动力市场，Human Archive能够以更快的速度和更低的成本获取高质量的训练数据，有望加速机器人从实验室走向实际应用。",
+      "snark": "Human Archive：让印度小哥戴摄像头走路，机器人就能学会走路——这很‘物理AI’。"
+    },
+    {
+      "id": 8,
+      "cat": "policy",
+      "title": "环球音乐集团与TikTok续签协议，共同打击未经授权的AI音乐",
+      "title_en": "Universal Music Group and TikTok renew agreement to combat unauthorized AI music",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/05/26/universal-music-group-and-tiktok-renew-agreement-to-combat-unauthorized-ai-music/",
+      "time": "9小时前",
+      "published": "2026-05-26T14:55:05+00:00",
+      "summary": "环球音乐集团（UMG）与TikTok宣布续签合作协议，双方将加强合作以应对未经授权的AI生成音乐问题。多年来，UMG一直在推动各大平台、流媒体服务商和AI公司实施更严格的内容审核政策。根据新协议，TikTok将部署更先进的检测工具，识别并移除使用未授权版权内容训练的AI音乐，并封禁反复违规的账号。此举旨在保护艺术家和词曲作者的权利，防止AI工具被用于生成模仿知名艺人风格的音乐而不支付版权费用。此次续签标志着音乐行业与科技平台在AI版权问题上迈出了重要一步，但如何平衡创新与版权保护仍将是长期挑战。",
+      "snark": "UMG vs AI音乐：版权大战进入‘AI侦探’阶段，TikTok成了第一战场。"
+    },
+    {
+      "id": 9,
+      "cat": "strategy",
+      "title": "在智能体AI时代重新思考组织设计",
+      "title_en": "Rethinking organizational design in the age of agentic AI",
+      "source": "MIT Tech Review",
+      "url": "https://www.technologyreview.com/2026/05/26/1137584/rethinking-organizational-design-in-the-age-of-agentic-ai/",
+      "time": "9小时前",
+      "published": "2026-05-26T14:54:10+00:00",
+      "summary": "随着企业级AI智能体的快速普及，组织在雄心与执行力之间出现了明显的脱节。根据最新调查，85%的组织表示希望在三年内实现“智能体化”（即由AI智能体主导业务流程），但76%的组织承认其当前的运营模式和基础设施无法支撑这一变革。问题不仅在于技术瓶颈，更在于组织架构、管理流程和人才技能的滞后。传统的层级式决策和固定流程难以适应AI智能体带来的动态、自治的工作方式。文章指出，企业需要重新设计组织架构，建立更加灵活、数据驱动的协作模式，并对员工进行大规模技能重塑，才能充分发挥AI智能体的潜力。",
+      "snark": "85%的企业想拥抱AI智能体，76%的企业连Excel都还没玩明白。"
+    },
+    {
+      "id": 10,
+      "cat": "tool",
+      "title": "TechCrunch Disrupt 2026早鸟票将于5月29日截止",
+      "title_en": "TechCrunch Disrupt 2026 Early Bird ticket rates end May 29",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/05/26/techcrunch-disrupt-2026-early-bird-ticket-rates-end-may-29/",
+      "time": "10小时前",
+      "published": "2026-05-26T14:00:00+00:00",
+      "summary": "TechCrunch Disrupt 2026大会的早鸟优惠票价将于太平洋时间5月29日晚上11:59结束，届时票价将上涨最多410美元。本次大会将在旧金山举行，汇聚全球科技创业者、投资人和行业领袖，聚焦AI、云计算、金融科技等前沿领域。主办方提醒有意参会的观众尽快注册以锁定优惠价格。作为科技行业最重要的年度盛会之一，Disrupt大会不仅是展示创新产品的平台，也是寻找投资和合作伙伴的绝佳机会。今年的议程将特别关注AI智能体、生成式AI的商业化以及监管趋势等热点话题。",
+      "snark": "早鸟票倒计时：省下的410美元够你调用多少次GPT-5 API？"
+    },
+    {
+      "id": 11,
+      "cat": "strategy",
+      "title": "桑达尔·皮查伊谈AI、搜索的未来以及网络正在发生的变化",
+      "title_en": "Sundar Pichai on AI, the future of search, and what’s happening to the web",
+      "source": "The Verge AI",
+      "url": "https://www.theverge.com/podcast/936445/sundar-pichai-ai-search-google-zero-youtube-web",
+      "time": "10小时前",
+      "published": "2026-05-26T14:00:00+00:00",
+      "summary": "谷歌及Alphabet CEO桑达尔·皮查伊在谷歌I/O大会后接受了The Verge的专访，这是双方连续第五年在I/O后进行对话。皮查伊讨论了谷歌搜索从蓝色链接向AI智能体转型的战略逻辑，以及这一变革对互联网生态的深远影响。他承认，AI生成的摘要可能会减少传统网站的流量，但认为这是提升用户体验的必经之路。他还回应了关于“谷歌零点击搜索”的争议，强调新的AI搜索模式将创造新的内容分发机会。此外，皮查伊谈到了谷歌在AI安全、开源竞争以及YouTube AI工具方面的布局，展现出谷歌在AI时代全面转型的决心。",
+      "snark": "皮查伊：蓝色链接已死，AI摘要当立——网站主们，你们准备好‘零点击’了吗？"
+    },
+    {
+      "id": 12,
+      "cat": "tool",
+      "title": "没人愿意告诉我为什么他们只听自己用Suno生成的垃圾歌",
+      "title_en": "Nobody wants to tell me why they only listen to their own Suno slop",
+      "source": "The Verge AI",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/937059/nobody-wants-to-tell-me-why-they-only-listen-their-own-suno-slop",
+      "time": "11小时前",
+      "published": "2026-05-26T12:46:03+00:00",
+      "summary": "在AI音乐生成平台Suno的Reddit社区中，出现了一个令人担忧的趋势：用户不仅用AI生成歌曲，还沉迷于反复聆听自己创作的作品，甚至有人宣称已经彻底抛弃了传统流媒体平台，全天候只听AI音乐。这种现象引发了关于AI是否在制造“信息茧房”的讨论。当用户只消费符合自己即时提示生成的、毫无艺术深度的音乐时，他们可能正在失去接触多元音乐风格和人类艺术表达的机会。有评论指出，这种自我循环的消费模式可能导致审美能力的退化，并加剧社交孤立。然而，当事用户对此却讳莫如深，不愿解释为何放弃真实音乐而选择AI“自嗨”。",
+      "snark": "Suno用户：我不是不听歌，我只是爱上了自己的‘电子口水音’。"
+    }
+  ],
+  "stats": {
+    "total": 12,
+    "model_count": 1,
+    "strategy_count": 5,
+    "tool_count": 3,
+    "policy_count": 3
+  }
+}
