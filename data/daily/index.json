@@ -1,4 +1,28 @@
 {
+  "2026-10-12": {
+    "date": "2026-10-12",
+    "highlight": "Cloudflare与vLLM同日发布开源多模态决策模型，AI路由与判别能力成为新战场。",
+    "count": 9,
+    "stats": {
+      "total": 9,
+      "model_count": 3,
+      "strategy_count": 1,
+      "tool_count": 3,
+      "policy_count": 2
+    }
+  },
+  "2026-10-11": {
+    "date": "2026-10-11",
+    "highlight": "AI 摘要暂时不可用，请稍后刷新",
+    "count": 12,
+    "stats": {
+      "total": 12,
+      "model_count": 6,
+      "strategy_count": 3,
+      "tool_count": 2,
+      "policy_count": 1
+    }
+  },
   "2026-10-10": {
     "date": "2026-10-10",
     "highlight": "OpenAI 数学成果引发学界震动，Anthropic 模型误报凶案线索暴露 AI 落地风险。",
@@ -693,30 +717,6 @@
       "strategy_count": 2,
       "tool_count": 6,
       "policy_count": 2
-    }
-  },
-  "2026-08-06": {
-    "date": "2026-08-06",
-    "highlight": "AI 摘要暂时不可用，请稍后刷新",
-    "count": 12,
-    "stats": {
-      "total": 12,
-      "model_count": 5,
-      "strategy_count": 4,
-      "tool_count": 3,
-      "policy_count": 0
-    }
-  },
-  "2026-08-05": {
-    "date": "2026-08-05",
-    "highlight": "开源模型能力逼近闭源前沿，安全治理缺口却持续拉大，成为今日行业焦点。",
-    "count": 12,
-    "stats": {
-      "total": 12,
-      "model_count": 1,
-      "strategy_count": 5,
-      "tool_count": 2,
-      "policy_count": 4
     }
   }
 }
