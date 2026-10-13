@@ -1,4 +1,16 @@
 {
+  "2026-10-13": {
+    "date": "2026-10-13",
+    "highlight": "Meta 发布首款前沿模型 Muse Wonder，微软推出第三代自研 AI 芯片 Maia 300，而 Claude 竟向警方提交虚假谋杀线索，AI 安全再敲警钟。",
+    "count": 12,
+    "stats": {
+      "total": 12,
+      "model_count": 3,
+      "strategy_count": 3,
+      "tool_count": 4,
+      "policy_count": 2
+    }
+  },
   "2026-10-12": {
     "date": "2026-10-12",
     "highlight": "Cloudflare与vLLM同日发布开源多模态决策模型，AI路由与判别能力成为新战场。",
@@ -704,18 +716,6 @@
       "model_count": 1,
       "strategy_count": 4,
       "tool_count": 5,
-      "policy_count": 2
-    }
-  },
-  "2026-08-07": {
-    "date": "2026-08-07",
-    "highlight": "OpenAI 连发大招：免费用户无限聊天、与艾维合作的智能音箱细节曝光，同时 Anthropic 自研芯片、Cloudflare 开源智能体浏览器，AI 硬件与基础设施竞争白热化。",
-    "count": 12,
-    "stats": {
-      "total": 12,
-      "model_count": 2,
-      "strategy_count": 2,
-      "tool_count": 6,
       "policy_count": 2
     }
   }

@@ -26,6 +26,14 @@
         "reasoning": 0
       },
       {
+        "model": "Muse Wonder Full (Max)",
+        "org": "Meta",
+        "intelligence": 55.8,
+        "coding": 0,
+        "math": 0,
+        "reasoning": 0
+      },
+      {
         "model": "Claude Opus 5.5 (High, Default Fallback)",
         "org": "Anthropic",
         "intelligence": 53.6,
@@ -66,17 +74,9 @@
         "reasoning": 0
       },
       {
-        "model": "GPT-6 Astra (Xhigh)",
-        "org": "OpenAI",
+        "model": "Muse Wonder (Max)",
+        "org": "Meta",
         "intelligence": 52.4,
-        "coding": 75.9,
-        "math": 0,
-        "reasoning": 96.3
-      },
-      {
-        "model": "Claude Sonnet 5.5 (Xhigh, Default Fallback)",
-        "org": "Anthropic",
-        "intelligence": 51.9,
         "coding": 0,
         "math": 0,
         "reasoning": 0
@@ -105,6 +105,13 @@
         "blended": 8
       },
       {
+        "model": "Muse Wonder Full (Max)",
+        "org": "Meta",
+        "input": 0,
+        "output": 0,
+        "blended": 0.0
+      },
+      {
         "model": "Claude Opus 5.5 (High, Default Fallback)",
         "org": "Anthropic",
         "input": 4,
@@ -140,62 +147,61 @@
         "blended": 4
       },
       {
-        "model": "GPT-6 Astra (Xhigh)",
-        "org": "OpenAI",
-        "input": 10,
-        "output": 50,
-        "blended": 20
-      },
-      {
-        "model": "Claude Sonnet 5.5 (Xhigh, Default Fallback)",
-        "org": "Anthropic",
-        "input": 2,
-        "output": 10,
-        "blended": 4
+        "model": "Muse Wonder (Max)",
+        "org": "Meta",
+        "input": 4,
+        "output": 20,
+        "blended": 8
       }
     ],
     "speed": [
       {
         "model": "Claude Opus 5.5 (Max, Default Fallback)",
         "org": "Anthropic",
-        "outputSpeed": 97.4,
-        "ttft": 580.6
+        "outputSpeed": 96.6,
+        "ttft": 490.78
       },
       {
         "model": "Claude Sonnet 5.5 (Max, Default Fallback)",
         "org": "Anthropic",
-        "outputSpeed": 136.8,
-        "ttft": 313.09
+        "outputSpeed": 133.0,
+        "ttft": 248.7
       },
       {
         "model": "Claude Opus 5.5 (Xhigh, Default Fallback)",
         "org": "Anthropic",
-        "outputSpeed": 74.8,
-        "ttft": 80.01
+        "outputSpeed": 75.4,
+        "ttft": 54.83
+      },
+      {
+        "model": "Muse Wonder Full (Max)",
+        "org": "Meta",
+        "outputSpeed": 0,
+        "ttft": 0
       },
       {
         "model": "Claude Opus 5.5 (High, Default Fallback)",
         "org": "Anthropic",
-        "outputSpeed": 74.5,
-        "ttft": 22.69
+        "outputSpeed": 73.4,
+        "ttft": 18.02
       },
       {
         "model": "Claude Fable 5.1 (Max, Default Fallback)",
         "org": "Anthropic",
-        "outputSpeed": 71.8,
-        "ttft": 163.81
+        "outputSpeed": 67.2,
+        "ttft": 137.02
       },
       {
         "model": "Claude Fable 5.1 (Xhigh, Default Fallback)",
         "org": "Anthropic",
         "outputSpeed": 55.3,
-        "ttft": 50.68
+        "ttft": 37.0
       },
       {
         "model": "GPT-6 Astra (Max)",
         "org": "OpenAI",
-        "outputSpeed": 51.0,
-        "ttft": 250.52
+        "outputSpeed": 61.0,
+        "ttft": 177.28
       },
       {
         "model": "Gemini 4 Argon (High)",
@@ -204,16 +210,10 @@
         "ttft": 0
       },
       {
-        "model": "GPT-6 Astra (Xhigh)",
-        "org": "OpenAI",
-        "outputSpeed": 50.7,
-        "ttft": 93.68
-      },
-      {
-        "model": "Claude Sonnet 5.5 (Xhigh, Default Fallback)",
-        "org": "Anthropic",
-        "outputSpeed": 96.7,
-        "ttft": 15.67
+        "model": "Muse Wonder (Max)",
+        "org": "Meta",
+        "outputSpeed": 95.0,
+        "ttft": 26.34
       }
     ]
   },
@@ -342,5 +342,5 @@
     "price": [],
     "speed": []
   },
-  "_fetched_at": "2026-10-11T08:10:12.708389+08:00"
+  "_fetched_at": "2026-10-13T08:16:07.185114+08:00"
 }
