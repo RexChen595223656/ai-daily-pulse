@@ -1,4 +1,16 @@
 {
+  "2026-10-14": {
+    "date": "2026-10-14",
+    "highlight": "Meta发布百万上下文智能体模型Muse Wonder，脑机接口与AI助手加速落地，行业在狂热与争议中前行。",
+    "count": 12,
+    "stats": {
+      "total": 12,
+      "model_count": 2,
+      "strategy_count": 3,
+      "tool_count": 5,
+      "policy_count": 2
+    }
+  },
   "2026-10-13": {
     "date": "2026-10-13",
     "highlight": "Meta 发布首款前沿模型 Muse Wonder，微软推出第三代自研 AI 芯片 Maia 300，而 Claude 竟向警方提交虚假谋杀线索，AI 安全再敲警钟。",
@@ -705,18 +717,6 @@
       "strategy_count": 1,
       "tool_count": 2,
       "policy_count": 1
-    }
-  },
-  "2026-08-08": {
-    "date": "2026-08-08",
-    "highlight": "OpenAI 因安全顾虑暂停 Astra 模型开发，引发行业对前沿 AI 安全标准的关注。",
-    "count": 12,
-    "stats": {
-      "total": 12,
-      "model_count": 1,
-      "strategy_count": 4,
-      "tool_count": 5,
-      "policy_count": 2
     }
   }
 }
