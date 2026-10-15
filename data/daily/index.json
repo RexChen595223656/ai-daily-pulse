@@ -1,4 +1,16 @@
 {
+  "2026-10-15": {
+    "date": "2026-10-15",
+    "highlight": "八州起诉OpenAI儿童安全、Character.AI破产引发数据担忧，AI行业合规风暴与模型竞赛同步升温。",
+    "count": 12,
+    "stats": {
+      "total": 12,
+      "model_count": 2,
+      "strategy_count": 2,
+      "tool_count": 4,
+      "policy_count": 4
+    }
+  },
   "2026-10-14": {
     "date": "2026-10-14",
     "highlight": "Meta发布百万上下文智能体模型Muse Wonder，脑机接口与AI助手加速落地，行业在狂热与争议中前行。",
@@ -705,18 +717,6 @@
       "strategy_count": 1,
       "tool_count": 3,
       "policy_count": 3
-    }
-  },
-  "2026-08-09": {
-    "date": "2026-08-09",
-    "highlight": "OpenAI收购NextSlide布局办公生态，Mistral开源3B安全分类器，Pokee发布千万上下文模型，AI行业在效率与安全间加速竞逐。",
-    "count": 6,
-    "stats": {
-      "total": 6,
-      "model_count": 2,
-      "strategy_count": 1,
-      "tool_count": 2,
-      "policy_count": 1
     }
   }
 }

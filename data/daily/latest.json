@@ -1,172 +1,179 @@
 {
-  "date": "2026-10-14",
-  "generated_at": "2026-10-14T08:06:37.333738+08:00",
-  "highlight": "Meta发布百万上下文智能体模型Muse Wonder，脑机接口与AI助手加速落地，行业在狂热与争议中前行。",
+  "date": "2026-10-15",
+  "generated_at": "2026-10-15T08:14:56.533477+08:00",
+  "highlight": "八州起诉OpenAI儿童安全、Character.AI破产引发数据担忧，AI行业合规风暴与模型竞赛同步升温。",
   "fun": {
-    "lucky": "Muse Wonder",
-    "advice": "宜：长上下文处理百万级文档；忌：在OpenAI会议室里偷偷录音。",
-    "joke": "为什么AI程序员从不迷路？因为它总在找最优路径，结果迷在了梯度下降里。"
+    "lucky": "LFM2.5-24B-A2B",
+    "advice": "宜：端侧部署小模型，忌：把产品计划发给苹果。",
+    "joke": "为什么AI不擅长打篮球？因为它总是过拟合，从不泛化到球场。"
   },
   "articles": [
     {
       "id": 1,
-      "cat": "tool",
-      "title": "科学公司为首例斯塔加特病患者植入恢复视力的芯片",
-      "title_en": "Science Corporation implants its vision-restoring chip in its first Stargardt disease patient",
-      "source": "TechCrunch",
-      "url": "https://techcrunch.com/2026/10/13/science-corporation-implants-its-vision-restoring-chip-in-its-first-stargardt-disease-patient/",
-      "time": "53分钟前",
-      "published": "2026-10-13T23:13:31+00:00",
-      "summary": "神经链接公司前总裁兼联合创始人马克斯·霍达克在TechCrunch Disrupt舞台上详细介绍了其公司如何利用PRIMA技术，作为通往新型脑机接口道路的一部分。科学公司宣布已为一名斯塔加特病患者成功植入了一款恢复视力的芯片，这是该公司在视觉神经修复领域的重要里程碑。斯塔加特病是一种遗传性视网膜退化疾病，会导致患者逐渐丧失中央视力。该芯片通过刺激视网膜神经细胞，绕过受损的感光细胞，将视觉信号直接传递给大脑。霍达克表示，这项技术不仅是治疗失明的工具，更是迈向更广泛脑机接口应用的关键一步，未来可能帮助解决更多神经系统疾病。",
-      "snark": "前神经链接总裁改行修眼睛，脑机接口先从看得见开始。"
+      "cat": "model",
+      "title": "LFM2.5-24B-A2B：为快速端侧智能体而生",
+      "title_en": "LFM2.5-24B-A2B: Built for Fast On-Device Agents",
+      "source": "Hacker News",
+      "url": "https://www.liquid.ai/blog/lfm2-5-24b-a2b",
+      "time": "15分钟前",
+      "published": "2026-10-14T23:59:37+00:00",
+      "summary": "Liquid AI 发布了 LFM2.5-24B-A2B 模型，专为快速端侧智能体设计。该模型采用混合专家架构，总参数量为 240 亿，但每次推理仅激活约 20 亿参数，从而在保持强大能力的同时大幅降低计算需求。它针对设备端部署进行了优化，能够在手机、笔记本等边缘设备上实现低延迟的智能体交互，支持工具调用、多步推理等任务。该模型已在 Hacker News 上引发讨论，开发者关注其在实际场景中的表现和开源许可。Liquid AI 强调，该模型在速度与精度之间取得了平衡，适合需要实时响应的应用，如个人助手、自动化工作流等。",
+      "snark": "端侧智能体终于不用云端排队了，但你的手机电池答应吗？",
+      "multiSource": [
+        "Hacker News",
+        "MarkTechPost"
+      ]
     },
     {
       "id": 2,
-      "cat": "strategy",
-      "title": "Cerebras首席执行官称我们正接近人人都拥有家用个人AI助手的未来",
-      "title_en": "Cerebras CEO says we’re nearing a future where everyone has a personal AI assistant at home",
-      "source": "TechCrunch",
-      "url": "https://techcrunch.com/2026/10/13/cerebras-ceo-says-were-nearing-a-future-where-everyone-has-a-personal-ai-assistant-at-home/",
+      "cat": "tool",
+      "title": "麦肯锡让求职者与AI模拟客户过招",
+      "title_en": "McKinsey is making job applicants spar with a fake AI client",
+      "source": "The Verge AI",
+      "url": "https://www.theverge.com/news/1011654/mckinsey-ai-client-interview",
       "time": "1小时前",
-      "published": "2026-10-13T23:05:34+00:00",
-      "summary": "Cerebras首席执行官安德鲁·费尔德曼预测，未来个人AI助手将像家用电器一样普及，部分运行在本地设备上，部分在云端处理。费尔德曼在TechCrunch Disrupt上表示，随着芯片性能提升和模型效率优化，每个家庭都将拥有一个能够处理日常事务、管理日程、控制智能家居的AI助手。这种混合架构既能保护隐私，又能利用云端的强大算力。他认为，这一趋势将推动AI芯片需求持续增长，而Cerebras的晶圆级引擎正是为此类场景设计。费尔德曼还强调，AI助手的普及不会一蹴而就，需要解决能耗、成本和用户信任等多重挑战。",
-      "snark": "Cerebras老板画饼：家家都有AI管家，先问问电费答不答应。"
+      "published": "2026-10-14T22:53:31+00:00",
+      "summary": "麦肯锡公司将在面试流程中引入AI模拟客户环节，要求部分初级候选人进行10分钟的对话。该AI模拟旨在反映麦肯锡顾问工作中80%的场景，评估候选人的沟通、问题解决和客户互动能力。这一举措是咨询行业采用AI技术筛选人才的最新尝试，旨在提高招聘效率和客观性。候选人需要与虚拟客户互动，处理模拟的业务问题，展示咨询技能。麦肯锡表示，这有助于更全面地评估候选人潜力，而不仅依赖传统案例面试。不过，这也引发了对AI评估公平性和透明度的讨论。",
+      "snark": "以后面试官也是AI，求职者连被人类拒绝的资格都没了。"
     },
     {
       "id": 3,
-      "cat": "tool",
-      "title": "工业下一步希望工厂机器人能在几分钟内切换任务，而非数周",
-      "title_en": "Industrial Next wants factory robots to switch tasks in minutes, not weeks",
-      "source": "TechCrunch",
-      "url": "https://techcrunch.com/2026/10/13/industrial-next-wants-factory-robots-to-switch-tasks-in-minutes-not-weeks/",
+      "cat": "model",
+      "title": "Fish Audio 发布 Drama 3：350亿参数开源权重混合专家文本转语音模型",
+      "title_en": "Fish Audio Releases Drama 3, a 35B Open-Weight MoE Text-to-Speech Model",
+      "source": "MarkTechPost",
+      "url": "https://www.marktechpost.com/2026/10/14/fish-audio-drama-3-open-weight-tts-model/",
       "time": "1小时前",
-      "published": "2026-10-13T23:00:00+00:00",
-      "summary": "工业下一步公司致力于帮助制造商自动化那些传统上需要人工完成的复杂精细任务。该公司正在开发一种新型工厂机器人系统，能够在几分钟内完成任务切换，而不是像传统工业机器人那样需要数周重新编程和调试。这一突破将大幅提升生产线的灵活性和效率，使制造商能够快速响应市场变化和定制化需求。该技术结合了先进的机器学习算法和模块化硬件设计，让机器人能够快速适应新的装配、检测或包装任务。工业下一步的目标是让中小型制造商也能负担得起智能自动化，从而在竞争激烈的全球市场中保持优势。",
-      "snark": "机器人换任务比程序员换需求还快，老板们做梦都要笑醒。"
+      "published": "2026-10-14T22:52:17+00:00",
+      "summary": "Fish Audio 推出了 Drama 3，一个拥有350亿参数的混合专家文本转语音模型，每次推理激活约30亿参数。该模型支持自然语言指令控制，覆盖83种语言，并以开源权重形式发布，采用收入上限的社区许可。Drama 3 能够根据用户提供的描述性指令生成富有表现力的语音，例如指定情感、语速和风格。其混合专家架构在保持高效推理的同时，提供了高质量的语音合成。该模型的开源发布将推动语音合成领域的研究和应用开发，尤其适合需要多语言支持和个性化语音的场景。",
+      "snark": "开源语音模型越来越卷，以后配音演员得和AI抢饭吃了。"
     },
     {
       "id": 4,
-      "cat": "model",
-      "title": "Meta发布Muse Wonder和Muse Wonder Full：基准测试、定价及使用方法",
-      "title_en": "Meta Launches Muse Wonder and Muse Wonder Full: Benchmarks, Pricing and How to Use It",
-      "source": "MarkTechPost",
-      "url": "https://www.marktechpost.com/2026/10/13/meta-muse-wonder-muse-wonder-full-release/",
-      "time": "1小时前",
-      "published": "2026-10-13T22:53:44+00:00",
-      "summary": "Meta发布了Muse Wonder和Muse Wonder Full两款百万上下文智能体模型。Muse Wonder在Meta模型API上的定价为每百万token输入4美元、输出20美元。Muse Wonder Full则面向Muse Code计划用户，在DeepSWE和SWE-Marathon基准测试中处于领先地位。这两款模型专为需要处理超长上下文的任务设计，例如大型代码库分析、长篇文档理解和复杂多步骤智能体工作流。百万级上下文窗口意味着模型可以一次性处理相当于数本书籍的内容，显著提升开发者和企业在代码生成、调试和项目管理方面的效率。Meta此举被视为在智能体模型赛道对OpenAI和Anthropic的强力回应。",
-      "snark": "Meta一口气发俩模型，名字叫Wonder，价格让人wonder要不要用。"
+      "cat": "policy",
+      "title": "Flock 首席执行官称其麦克风仅检测枪声，但网站说法不同",
+      "title_en": "Flock CEO says its microphones detect ‘just gunshots’ — its website says different",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/10/14/flock-ceo-says-its-microphones-detect-just-gunshots-its-website-says-different/",
+      "time": "2小时前",
+      "published": "2026-10-14T21:30:33+00:00",
+      "summary": "Flock 公司首席执行官公开表示，其部署的麦克风仅用于检测枪声，但公司网站上的描述却显示这些设备可能具备更广泛的音频监控能力。此番言论正值该公司面临隐私倡导者、美国公民自由联盟以及公众的严格审查之际，人们担心其技术可能被滥用。Flock 的摄像头和音频设备被多个城市用于公共安全，但隐私保护者质疑其数据收集和使用的透明度。这一矛盾引发了关于监控技术边界和公民隐私权的激烈讨论，可能促使监管机构介入调查。",
+      "snark": "CEO说只听枪声，但网站说还能听你吐槽，这算虚假宣传吗？"
     },
     {
       "id": 5,
-      "cat": "strategy",
-      "title": "Cerebras首席执行官反驳AI末日警告",
-      "title_en": "Cerebras CEO pushes back on AI doomsday warnings",
-      "source": "TechCrunch",
-      "url": "https://techcrunch.com/2026/10/13/cerebras-ceo-pushes-back-on-ai-doomsday-warnings/",
-      "time": "1小时前",
-      "published": "2026-10-13T22:36:59+00:00",
-      "summary": "Cerebras首席执行官安德鲁·费尔德曼对散布AI末日警告的行业领袖们发出了一个信息：也许该闭嘴了。在TechCrunch Disrupt大会上，他辩称，行业对AI风险的过度关注正在淹没其潜在益处。费尔德曼认为，虽然负责任地开发AI很重要，但无休止的末日论调会阻碍创新、吓退投资者并导致过度监管。他呼吁业界将更多精力放在展示AI如何解决实际问题，例如医疗诊断、气候建模和教育普及。费尔德曼的言论反映了AI社区内部日益加剧的分歧：一方强调生存风险，另一方则主张务实推进。这场辩论预计将持续影响AI政策和投资走向。",
-      "snark": "Cerebras老板让同行闭嘴，自己却在台上滔滔不绝。"
+      "cat": "policy",
+      "title": "八州起诉 OpenAI，称 ChatGPT 对儿童不安全",
+      "title_en": "Eight states sue OpenAI, saying ChatGPT isn&#8217;t safe for kids",
+      "source": "The Verge AI",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/1011500/openai-state-lawsuits-chatgpt-safety",
+      "time": "3小时前",
+      "published": "2026-10-14T21:11:28+00:00",
+      "summary": "美国八个州——爱荷华、堪萨斯、内布拉斯加、西弗吉尼亚、阿肯色、亚利桑那、爱达荷和蒙大拿——分别对 OpenAI 提起诉讼，指控其 ChatGPT 对儿童造成伤害，并在安全性方面误导消费者。诉讼称，OpenAI 未能充分保护未成年用户，导致他们接触有害内容或产生心理依赖。各州要求 OpenAI 加强年龄验证、内容过滤和家长控制，并寻求赔偿。这是 OpenAI 面临的最新一波法律挑战，反映了监管机构对 AI 产品儿童安全问题的日益关注。OpenAI 表示将积极应对，并强调其持续改进安全措施。",
+      "snark": "八州联手告OpenAI，ChatGPT 得先学会背未成年人保护法。",
+      "multiSource": [
+        "The Verge",
+        "The Verge AI"
+      ]
     },
     {
       "id": 6,
-      "cat": "tool",
-      "title": "如何使用Meta的Rebalancer进行任务放置与优化",
-      "title_en": "How to Use Meta’s Rebalancer for Task Placement & Optimization",
-      "source": "MarkTechPost",
-      "url": "https://www.marktechpost.com/2026/10/13/how-to-use-metas-rebalancer-for-task-placement-optimization/",
-      "time": "1小时前",
-      "published": "2026-10-13T22:14:20+00:00",
-      "summary": "本文是一篇全面的编码教程，探讨了Meta的Rebalancer分配求解器，使用其C++核心和Python绑定。教程内容包括如何构建数据中心、管理跨机架的任务放置、处理约束条件和目标优先级，以及使用公开数据集比较本地搜索与精确HiGHS求解器。Rebalancer是Meta开源的用于大规模集群任务调度的工具，能够帮助工程师优化资源利用率、降低延迟并提高容错能力。通过Python绑定，开发者可以轻松集成到现有工作流中。教程还提供了实际代码示例和性能对比，适合对分布式系统和大规模调度感兴趣的开发者学习。",
-      "snark": "Meta教你调任务，调完发现自己的任务还是没做完。"
+      "cat": "strategy",
+      "title": "AI 竞赛重新开启",
+      "title_en": "The AI race is back on",
+      "source": "The Verge AI",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/1011311/the-ai-race-is-back-on",
+      "time": "5小时前",
+      "published": "2026-10-14T19:06:03+00:00",
+      "summary": "此前，Anthropic 和 OpenAI 似乎在一段时间内领跑 AI 竞赛，凭借日益强大的模型将竞争对手甩在身后。谷歌一度显得遥不可及，而 Meta 尽管投入数十亿美元试图重振其 AI 雄心，却尚未确立优势。然而，最新动态显示竞争格局再次生变：谷歌和 Meta 可能即将推出有竞争力的新模型，重新点燃战火。文章分析认为，AI 竞赛远未结束，各大科技公司正在加速研发，争夺技术领先地位。这一趋势将推动模型能力快速提升，同时也带来算力、人才和监管方面的挑战。",
+      "snark": "AI竞赛就像马拉松，你以为领跑了，其实别人在抄近道。",
+      "multiSource": [
+        "The Verge",
+        "The Verge AI"
+      ]
     },
     {
       "id": 7,
       "cat": "policy",
-      "title": "OpenAI员工因涉嫌在会议室安装窃听设备被捕",
-      "title_en": "OpenAI employee arrested for allegedly planting a bug in a conference room",
+      "title": "Character.AI 破产后，用户数据何去何从？",
+      "title_en": "Now that Character.AI is going bankrupt, what happens to all of its users&#8217; data?",
       "source": "The Verge AI",
-      "url": "https://www.theverge.com/ai-artificial-intelligence/1010642/openai-employee-arrested-recording-device",
-      "time": "3小时前",
-      "published": "2026-10-13T20:45:25+00:00",
-      "summary": "一名OpenAI工程师在公司发现其办公室内藏有“精密录音设备”后被捕。该员工被确认为阿卜杜勒拉赫曼·阿尔福赞，35岁，沙特阿拉伯国籍。阿尔福赞被指控使用或试图使用设备拦截口头通信。这一事件引发了外界对OpenAI内部安全和员工背景审查的质疑。公司表示正在配合执法部门调查，并强调对任何危害公司机密和员工隐私的行为零容忍。此案也再次引发关于AI公司如何处理敏感技术信息和内部威胁的讨论。目前案件仍在调查中，阿尔福赞的动机尚不明确。",
-      "snark": "OpenAI员工在会议室装窃听器，这是想偷听GPT-5的秘密还是老板的八卦？",
-      "multiSource": [
-        "Hacker News",
-        "The Verge",
-        "The Verge AI"
-      ]
+      "url": "https://www.theverge.com/policy/1011417/new-york-ag-characterai-bankruptcy",
+      "time": "5小时前",
+      "published": "2026-10-14T18:47:54+00:00",
+      "summary": "纽约州总检察长莱蒂西亚·詹姆斯披露了一项针对 Character.AI 的多年多州调查，并寻求在该公司破产程序中对其出售的消费者数据施加保护。詹姆斯与其他40位两党总检察长共同提交了利益通知，要求确保用户数据在破产清算中得到妥善处理，防止敏感信息被随意出售或滥用。Character.AI 曾允许用户创建和与虚拟角色互动，积累了海量对话数据。破产引发了对这些数据命运的担忧，监管机构强调必须保护消费者隐私。此案可能为 AI 公司破产时的数据处置树立先例。",
+      "snark": "AI 公司破产了，你的聊天记录可能比你先找到新主人。"
     },
     {
       "id": 8,
-      "cat": "policy",
-      "title": "法官命令OpenAI在苹果商业秘密案中交出招聘记录",
-      "title_en": "Judge orders OpenAI to turn over hiring records in Apple trade secrets case",
+      "cat": "tool",
+      "title": "YouTube Music 推出新标签，应对 AI 生成音乐泛滥",
+      "title_en": "YouTube Music launches new labels as AI-generated music floods streaming platforms",
       "source": "TechCrunch",
-      "url": "https://techcrunch.com/2026/10/13/judge-orders-openai-to-turn-over-hiring-records-in-apple-trade-secrets-case/",
-      "time": "3小时前",
-      "published": "2026-10-13T20:36:44+00:00",
-      "summary": "一名联邦法官裁定，苹果公司可以获取OpenAI涉及前苹果员工的面试材料，以及案件中关键人物的私人信息和证词。这起商业秘密案源于苹果指控OpenAI挖角其员工并窃取与AI硬件相关的机密信息。法院的命令意味着OpenAI必须披露其招聘过程中与苹果前员工相关的记录，包括面试评估、录用通知和内部沟通。苹果希望借此证明OpenAI存在系统性挖角和知识产权侵权行为。OpenAI则否认所有指控，称其招聘行为合法合规。此案结果可能对科技行业的人才流动和商业秘密保护产生深远影响。",
-      "snark": "苹果和OpenAI互撕，法官成了最强HR，直接调招聘档案。"
+      "url": "https://techcrunch.com/2026/10/14/youtube-music-launches-new-labels-as-ai-generated-music-floods-streaming-platforms/",
+      "time": "5小时前",
+      "published": "2026-10-14T18:23:46+00:00",
+      "summary": "随着 AI 生成音乐在流媒体平台大量涌现，YouTube Music 宣布推出新的标签系统，用于标识完全由 AI 生成或部分涉及 AI 的歌曲。这些标签将出现在播放器页面，涵盖 AI 参与作曲、人声等环节的作品。此举旨在提高透明度，让听众了解音乐的制作方式，同时帮助平台区分人类创作与 AI 生成内容。YouTube 表示，新标签是应对 AI 音乐浪潮的重要一步，未来可能进一步细化分类。该政策可能影响其他流媒体平台，推动行业建立统一的 AI 内容标识标准。",
+      "snark": "以后听歌先看标签，AI 写的歌会不会自己打榜？",
+      "multiSource": [
+        "TechCrunch",
+        "The Verge AI"
+      ]
     },
     {
       "id": 9,
       "cat": "tool",
-      "title": "Show HN：Parsimony——一个衡量AI模型添加多少代码的开源基准",
-      "title_en": "Show HN: Parsimony – an open-source benchmark for how much code AI models add",
-      "source": "Hacker News",
-      "url": "https://parsimony.lasu.dev/",
-      "time": "4小时前",
-      "published": "2026-10-13T19:50:31+00:00",
-      "summary": "现有的基准测试主要衡量解决率和token输出或成本，但不会惩罚多余的代码，这会使代码库在长期维护中变得更难处理。开发者推出了Parsimony，一个开源基准，专门衡量AI模型在生成代码时添加了多少不必要的代码。该方法利用基准测试已经发布的补丁（如DeepSWE、SWE-bench等），分析模型生成的代码量与最优解之间的差异。Parsimony的目标是鼓励AI模型生成更简洁、更易维护的代码，而不是一味追求通过测试。对于长期项目而言，代码的简洁性和可维护性至关重要，该基准为评估AI编程助手提供了一个新的维度。",
-      "snark": "AI写代码像话痨，Parsimony来量一量谁最啰嗦。"
+      "title": "Apate 派遣 AI 智能体卧底被骗，以收集欺诈情报",
+      "title_en": "Apate sends AI agents undercover to get scammed so they can gather fraud intelligence",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/10/14/apate-sends-ai-agents-undercover-to-get-scammed-so-they-can-gather-fraud-intelligence/",
+      "time": "6小时前",
+      "published": "2026-10-14T18:00:00+00:00",
+      "summary": "大多数公司使用 AI 智能体来加速产品交付或优化工作流，但 Apate.ai 反其道而行之：派遣 AI 智能体潜入诈骗场景，主动被骗以收集欺诈情报。这些智能体模拟潜在受害者，与诈骗者互动，记录其手法、话术和技术手段，从而帮助企业了解最新欺诈趋势并改进防御措施。Apate 的方法将 AI 从效率工具转变为安全研究工具，为反欺诈提供了新思路。该公司表示，智能体能够大规模、低成本地收集真实诈骗数据，比传统人工研究更高效，且不涉及真实用户风险。",
+      "snark": "AI 去当卧底被骗，这算工伤吗？"
     },
     {
       "id": 10,
-      "cat": "model",
-      "title": "负责任且安全地开发Gemini 4 Argon",
-      "title_en": "Developing Gemini 4 Argon responsibly and safely",
-      "source": "DeepMind Blog",
-      "url": "https://deepmind.google/blog/developing-gemini-4-argon-responsibly-and-safely/",
-      "time": "4小时前",
-      "published": "2026-10-13T19:43:07+00:00",
-      "summary": "DeepMind博客介绍了如何负责任且安全地开发Gemini 4 Argon模型。文章详细阐述了团队在模型训练、评估和部署过程中采取的安全措施，包括红队测试、偏见检测、能力边界评估和滥用风险缓解。Gemini 4 Argon是谷歌DeepMind最新一代多模态大模型，在推理、编码和多语言任务上均有显著提升。DeepMind强调，随着模型能力增强，安全开发流程也必须同步升级。团队采用了分层安全策略，从数据筛选到强化学习阶段的人类反馈，再到部署后的持续监控。此外，DeepMind还与外部专家合作进行独立审计，确保模型行为符合伦理和安全标准。",
-      "snark": "Gemini 4 Argon安全发布，但用户只关心它能不能写诗骂老板。"
+      "cat": "tool",
+      "title": "我的 AI 替身告诉我该吃什么",
+      "title_en": "My AI doppelganger tells me what to eat",
+      "source": "The Verge AI",
+      "url": "https://www.theverge.com/column/1011264/digital-twin-metabolism-ai-twin-health",
+      "time": "7小时前",
+      "published": "2026-10-14T17:00:00+00:00",
+      "summary": "Verge 高级评测员 Victoria Song 分享了她使用 AI 数字替身管理饮食的体验。在过去约100天里，她每天早上醒来后，会查看一个基于她身体数据训练的 AI 替身给出的饮食建议。这个数字替身整合了她的代谢数据、活动量和饮食记录，通过算法推荐个性化餐食。Victoria 描述了这种新节奏如何影响她的选择，以及她对 AI 建议的信任与质疑。文章探讨了 AI 健康助手的潜力与局限，包括数据准确性、隐私担忧以及过度依赖算法的风险。",
+      "snark": "AI 替身管你吃啥，下一步是不是要替你长胖？"
     },
     {
       "id": 11,
       "cat": "strategy",
-      "title": "Shopify向更多AI智能体开放其商品目录",
-      "title_en": "Shopify opens its catalog up to more AI agents",
+      "title": "OpenAI 称前员工窃取产品计划并展示给苹果",
+      "title_en": "OpenAI claims an ex-employee took its product plans and presented them to Apple",
       "source": "The Verge AI",
-      "url": "https://www.theverge.com/news/1010365/shopify-opens-its-catalog-up-to-more-ai-agents",
-      "time": "4小时前",
-      "published": "2026-10-13T19:42:42+00:00",
-      "summary": "更多AI智能体将很快能够浏览和购买Shopify上的商品，这标志着该公司智能体商务雄心的扩展。Shopify宣布，将允许购物者配置其AI智能体代为购买产品，让更多智能体能够访问超过十亿件商品。这意味着用户可以让AI助手自动比价、下单、跟踪物流，甚至根据预算和偏好推荐商品。Shopify正在与多家AI平台合作，确保智能体能够安全、合规地完成交易。此举被视为电商行业向自动化购物迈出的重要一步，但也引发了关于消费者权益、数据隐私和商家公平竞争的讨论。",
-      "snark": "Shopify让AI帮你剁手，以后吃土都不用自己动手了。",
-      "multiSource": [
-        "The Verge",
-        "The Verge AI"
-      ]
+      "url": "https://www.theverge.com/ai-artificial-intelligence/1011276/openai-employee-unreleased-product-plans",
+      "time": "7小时前",
+      "published": "2026-10-14T16:43:24+00:00",
+      "summary": "OpenAI 在一份法庭文件中指控一名前员工在加入苹果前，窃取了超过100份与产品计划相关的文件。该员工被指将这些信息发送到个人账户，并向苹果领导层展示，包括一名副总裁。OpenAI 要求法院介入，保护其商业机密。此案凸显了 AI 行业激烈的人才竞争和知识产权纠纷。苹果尚未对此置评。OpenAI 强调，此类行为违反保密协议，损害公司利益。案件可能涉及更广泛的科技公司间商业秘密争议，引发对员工跳槽时数据安全的关注。",
+      "snark": "跳槽带资料，这是把 OpenAI 当培训班了？"
     },
     {
       "id": 12,
-      "cat": "tool",
-      "title": "Xbox正式拥抱AI驱动游戏移植的混乱",
-      "title_en": "Xbox is officially embracing the chaos of AI-powered game ports",
-      "source": "The Verge AI",
-      "url": "https://www.theverge.com/news/1010406/xbox-labs-game-decompiling-emulation-exploration",
-      "time": "5小时前",
-      "published": "2026-10-13T19:00:48+00:00",
-      "summary": "得益于反编译和重编译技术，复古游戏正经历一个狂野的时代，玩家可以将经典游戏移植到新设备，或将两款不同游戏的代码合并成全新体验。微软见证了滑板被模改进入《使命召唤》等疯狂操作。Xbox实验室正式宣布拥抱这一趋势，探索AI驱动的游戏反编译和模拟技术。通过AI辅助，原本需要数月的手动反编译工作可以缩短到数天，让经典游戏更快地登陆现代平台。然而，这也带来了版权、质量和兼容性方面的混乱。Xbox表示将提供工具和指导，帮助社区在合法合规的前提下进行创作，同时保护知识产权。",
-      "snark": "Xbox拥抱AI移植混乱，经典游戏被玩坏，法务部已哭晕。"
+      "cat": "policy",
+      "title": "OpenAI 绝密会议室纸巾盒内发现隐藏录音设备",
+      "title_en": "Recording device hidden in toilet paper found in top-secret OpenAI meeting room",
+      "source": "Ars Technica",
+      "url": "https://arstechnica.com/tech-policy/2026/10/fbi-arrests-openai-engineer-suspected-of-planting-bug-in-conference-room/",
+      "time": "7小时前",
+      "published": "2026-10-14T16:41:49+00:00",
+      "summary": "在 OpenAI 一间绝密会议室中，一个藏在纸巾盒内的录音设备被发现。一名 OpenAI 工程师因此面临联邦调查局提出的外国间谍指控，可能面临5年监禁和25万美元罚款。该事件引发了对 OpenAI 内部安全和商业间谍活动的严重担忧。调查人员怀疑该工程师试图窃取敏感信息并传递给外国实体。OpenAI 表示正配合调查，并加强安全措施。此案凸显了 AI 公司面临的日益严峻的网络安全和内部威胁，尤其是在涉及尖端技术时。",
+      "snark": "纸巾盒里藏录音笔，这间谍是看多了谍战剧吧。"
     }
   ],
   "stats": {
     "total": 12,
     "model_count": 2,
-    "strategy_count": 3,
-    "tool_count": 5,
-    "policy_count": 2
+    "strategy_count": 2,
+    "tool_count": 4,
+    "policy_count": 4
   }
 }

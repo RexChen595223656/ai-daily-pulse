@@ -158,20 +158,20 @@
       {
         "model": "Claude Opus 5.5 (Max, Default Fallback)",
         "org": "Anthropic",
-        "outputSpeed": 96.4,
-        "ttft": 480.02
+        "outputSpeed": 95.8,
+        "ttft": 450.11
       },
       {
         "model": "Claude Sonnet 5.5 (Max, Default Fallback)",
         "org": "Anthropic",
-        "outputSpeed": 132.2,
-        "ttft": 262.38
+        "outputSpeed": 138.6,
+        "ttft": 300.66
       },
       {
         "model": "Claude Opus 5.5 (Xhigh, Default Fallback)",
         "org": "Anthropic",
-        "outputSpeed": 76.4,
-        "ttft": 61.14
+        "outputSpeed": 75.2,
+        "ttft": 66.82
       },
       {
         "model": "Muse Wonder Full (Max)",
@@ -182,26 +182,26 @@
       {
         "model": "Claude Opus 5.5 (High, Default Fallback)",
         "org": "Anthropic",
-        "outputSpeed": 70.1,
-        "ttft": 17.13
+        "outputSpeed": 71.0,
+        "ttft": 19.62
       },
       {
         "model": "Claude Fable 5.1 (Max, Default Fallback)",
         "org": "Anthropic",
-        "outputSpeed": 65.1,
+        "outputSpeed": 67.2,
         "ttft": 167.93
       },
       {
         "model": "Claude Fable 5.1 (Xhigh, Default Fallback)",
         "org": "Anthropic",
-        "outputSpeed": 53.2,
-        "ttft": 38.2
+        "outputSpeed": 53.3,
+        "ttft": 42.18
       },
       {
         "model": "GPT-6 Astra (Max)",
         "org": "OpenAI",
-        "outputSpeed": 54.0,
-        "ttft": 169.63
+        "outputSpeed": 47.0,
+        "ttft": 192.76
       },
       {
         "model": "Gemini 4 Argon (High)",
@@ -213,7 +213,7 @@
         "model": "Muse Wonder (Max)",
         "org": "Meta",
         "outputSpeed": 112.7,
-        "ttft": 31.1
+        "ttft": 32.29
       }
     ]
   },
@@ -221,56 +221,56 @@
     "perf": [
       {
         "model": "GPT Image 2.5 Sunburst (max)",
-        "elo": 1199,
+        "elo": 1217,
         "rank": 1,
         "org": "OpenAI",
         "date": "2026-09"
       },
       {
         "model": "GPT Image 2.5 Flare (max)",
-        "elo": 1192,
+        "elo": 1207,
         "rank": 2,
         "org": "OpenAI",
         "date": "2026-09"
       },
       {
         "model": "GPT Image 2 (high)",
-        "elo": 1172,
+        "elo": 1187,
         "rank": 3,
         "org": "OpenAI",
         "date": "2026-04"
       },
       {
         "model": "Nano Banana 2.1",
-        "elo": 1159,
+        "elo": 1172,
         "rank": 4,
         "org": "Google",
         "date": "2026-10"
       },
       {
         "model": "Grok Imagine Image 2.0",
-        "elo": 1155,
+        "elo": 1166,
         "rank": 5,
         "org": "SpaceXAI",
         "date": "2026-08"
       },
       {
         "model": "MAI-Image-2.6",
-        "elo": 1152,
+        "elo": 1164,
         "rank": 6,
         "org": "Microsoft AI",
         "date": "2026-08"
       },
       {
         "model": "Nano Banana 2 (Gemini 3.1 Flash Image)",
-        "elo": 1125,
+        "elo": 1138,
         "rank": 7,
         "org": "Google",
         "date": "2026-02"
       },
       {
         "model": "Muse Image",
-        "elo": 1115,
+        "elo": 1127,
         "rank": 8,
         "org": "Meta",
         "date": "2026-07"
@@ -284,23 +284,23 @@
     "perf": [
       {
         "model": "Wan 3.0",
-        "elo": 1129,
+        "elo": 1134,
         "rank": 1,
         "org": "Alibaba",
         "type": ""
       },
       {
-        "model": "MiniMax H3 Max",
-        "elo": 1120,
+        "model": "MiniMax H3 (768p)",
+        "elo": 1121,
         "rank": 2,
-        "org": "Fal",
+        "org": "MiniMax",
         "type": ""
       },
       {
-        "model": "MiniMax H3 (768p)",
+        "model": "MiniMax H3 Max",
         "elo": 1117,
         "rank": 3,
-        "org": "MiniMax",
+        "org": "Fal",
         "type": ""
       },
       {
@@ -312,35 +312,35 @@
       },
       {
         "model": "FLUX 3",
-        "elo": 1091,
+        "elo": 1095,
         "rank": 5,
         "org": "Black Forest Labs",
         "type": ""
       },
       {
-        "model": "SkyReels V4",
+        "model": "Dreamina Seedance 2.0",
         "elo": 1084,
         "rank": 6,
-        "org": "Skywork AI",
-        "type": ""
-      },
-      {
-        "model": "Dreamina Seedance 2.0",
-        "elo": 1080,
-        "rank": 7,
         "org": "ByteDance Seed",
         "type": ""
       },
       {
         "model": "Gemini Omni Flash 1.1",
-        "elo": 1071,
-        "rank": 8,
+        "elo": 1072,
+        "rank": 7,
         "org": "Google",
+        "type": ""
+      },
+      {
+        "model": "Agnes-Video-2.5",
+        "elo": 1053,
+        "rank": 8,
+        "org": "Sapiens AI",
         "type": ""
       }
     ],
     "price": [],
     "speed": []
   },
-  "_fetched_at": "2026-10-14T08:06:40.207976+08:00"
+  "_fetched_at": "2026-10-15T08:14:59.344820+08:00"
 }
