@@ -1,4 +1,16 @@
 {
+  "2026-10-16": {
+    "date": "2026-10-16",
+    "highlight": "英伟达开源120B多模态模型Nemotron 3.5 Super VL，单卡可跑百万上下文，开源智能体赛道再掀波澜。",
+    "count": 12,
+    "stats": {
+      "total": 12,
+      "model_count": 2,
+      "strategy_count": 3,
+      "tool_count": 5,
+      "policy_count": 2
+    }
+  },
   "2026-10-15": {
     "date": "2026-10-15",
     "highlight": "八州起诉OpenAI儿童安全、Character.AI破产引发数据担忧，AI行业合规风暴与模型竞赛同步升温。",
@@ -705,18 +717,6 @@
       "strategy_count": 3,
       "tool_count": 4,
       "policy_count": 2
-    }
-  },
-  "2026-08-10": {
-    "date": "2026-08-10",
-    "highlight": "英伟达开源全双工语音模型，对冲基金重金押注芯片新秀，AI安全测试反成隐患。",
-    "count": 8,
-    "stats": {
-      "total": 8,
-      "model_count": 1,
-      "strategy_count": 1,
-      "tool_count": 3,
-      "policy_count": 3
     }
   }
 }
