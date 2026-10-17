@@ -1,0 +1,171 @@
+{
+  "date": "2026-09-25",
+  "generated_at": "2026-09-25T08:13:58.693227+08:00",
+  "highlight": "谷歌Gemini升级实时数字人，Meta的Muse智能体却因泄露文件系统漏洞抢镜，AI安全与产品化同台竞技。",
+  "fun": {
+    "lucky": "Gemini 3.8 Live",
+    "advice": "宜：给AI一张脸，让它替你开会；忌：把根目录权限交给任何叫Muse的东西。",
+    "joke": "为什么AI智能体总爱翻文件系统？因为它想看看自己的源代码有没有写注释。"
+  },
+  "articles": [
+    {
+      "id": 1,
+      "cat": "model",
+      "title": "谷歌Gemini 3.8 Live携实时数字人亮相，AI有了表情",
+      "title_en": "Gemini 3.8 Live with Live Avatar gives Google&#8217;s AI a face",
+      "source": "The Verge AI",
+      "url": "https://www.theverge.com/tech/1000328/google-gemini-ai-live-avatar-face",
+      "time": "4小时前",
+      "published": "2026-09-24T19:59:26+00:00",
+      "summary": "谷歌发布Gemini 3.8 Live更新，用户可与模型对话，同时观看一个动画AI形象实时回应。这个名为“Live Avatar”的数字人会根据对话内容进行唇形同步，并展现不同的面部表情，让交互更具拟人感。目前该功能仅面向Gemini企业版客户开放，普通消费者暂时无法体验。此举表明谷歌正将多模态交互从文本和语音推进到视觉人格层面，试图在企业级市场建立差异化优势，但实时渲染和表情生成对算力与延迟的要求也更高。",
+      "snark": "给AI一张脸，是为了让打工人被裁员时至少能对着表情包哭。",
+      "multiSource": [
+        "The Verge",
+        "The Verge AI"
+      ]
+    },
+    {
+      "id": 2,
+      "cat": "strategy",
+      "title": "TechCrunch Disrupt 2026推出双人票半价优惠",
+      "title_en": "Bring your co-founder, partner, or colleague and get 50% off a second TechCrunch Disrupt 2026 pass",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/09/24/bring-your-co-founder-partner-or-colleague-and-get-50-off-a-second-techcrunch-disrupt-2026-pass/",
+      "time": "4小时前",
+      "published": "2026-09-24T19:15:00+00:00",
+      "summary": "TechCrunch Disrupt 2026大会推出购票优惠：购买一张门票，第二张同类型门票可享五折。活动要求在2026年10月13日太平洋时间上午8点前完成注册。此举旨在鼓励参会者携带联合创始人、合作伙伴或同事共同出席，提升大会的社交与商务配对价值。对于AI行业从业者而言，这类大会仍是获取融资、寻找合作和了解前沿趋势的重要场合，但优惠本身也反映出科技会议在竞争激烈的活动市场中面临售票压力。",
+      "snark": "AI能写代码，但写不出第二张半价票的预算申请。"
+    },
+    {
+      "id": 3,
+      "cat": "tool",
+      "title": "用大语言模型追溯炼金术知识并破译17世纪信件",
+      "title_en": "Using LLMs to trace alchemical knowledge and decode 17th century letters",
+      "source": "Hacker News",
+      "url": "https://resobscura.substack.com/p/ai-labs-need-to-start-funding-historical",
+      "time": "4小时前",
+      "published": "2026-09-24T19:14:27+00:00",
+      "summary": "一篇技术文章探讨了如何利用大语言模型研究历史文献，特别是追踪炼金术知识的传播路径和破译17世纪的书信。作者认为，AI实验室应当开始资助历史研究，因为大模型在古文识别、跨语言检索和知识图谱构建方面展现出独特价值。通过将历史文本转化为可计算的数据，研究者能够发现传统方法难以察觉的关联。这代表了AI在人文领域的应用正从文本生成走向深度学术辅助，但也引发了对历史解读准确性和模型幻觉的担忧。",
+      "snark": "AI破译炼金术，下一步是不是要用Transformer点石成金？"
+    },
+    {
+      "id": 4,
+      "cat": "tool",
+      "title": "PrismML将微型大模型带入高通芯片智能眼镜",
+      "title_en": "PrismML brings its tiny LLMs to Qualcomm-powered smart glasses",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/09/24/prismml-brings-its-tiny-llms-to-qualcomm-powered-smart-glasses/",
+      "time": "5小时前",
+      "published": "2026-09-24T19:00:42+00:00",
+      "summary": "PrismML宣布将其微型大语言模型部署到搭载高通芯片的智能眼镜上。该公司的核心目标是推动开放权重AI在设备端运行，并更高效地利用设备已有的计算能力。通过在本地处理推理任务，智能眼镜可以在不依赖云端的情况下实现实时响应，同时提升隐私保护并降低延迟。这反映了AI行业向边缘计算迁移的趋势，即让模型更小、更专、更贴近用户，但如何在有限功耗和内存下保持可用性能仍是关键挑战。",
+      "snark": "眼镜上跑大模型，以后别人瞪你一眼，AI都能分析出鄙视浓度。"
+    },
+    {
+      "id": 5,
+      "cat": "model",
+      "title": "BottleCap AI发布ThinkingCap-Qwen3.8-27B：思考令牌减少37.2%，精度仅降0.86个百分点",
+      "title_en": "BottleCap AI Releases ThinkingCap-Qwen3.8-27B: 37.2% Fewer Thinking Tokens at a 0.86pp Accuracy Cost",
+      "source": "MarkTechPost",
+      "url": "https://www.marktechpost.com/2026/09/24/bottlecap-ai-releases-thinkingcap-qwen3-8-27b-37-2-fewer-thinking-tokens-at-a-0-86pp-accuracy-cost/",
+      "time": "5小时前",
+      "published": "2026-09-24T18:58:56+00:00",
+      "summary": "BottleCap AI发布了ThinkingCap-Qwen3.8-27B，这是对Qwen3.8-27B的微调版本，在12项基准测试中平均减少37.2%的思考令牌消耗。宏观准确率从86.65%微降至85.79%，仅损失0.86个百分点，而长上下文AA-LCR指标反而提升2.25个百分点。该模型可在vLLM和SGLang上直接替换使用，支持FP8和NVFP4等量化格式。这意味着推理成本可显著降低，同时保持接近原版的性能，对需要大规模部署推理服务的企业具有吸引力。",
+      "snark": "省了37%的思考量，AI终于学会“别想太多，先干再说”。"
+    },
+    {
+      "id": 6,
+      "cat": "strategy",
+      "title": "甲骨文就新墨西哥州星际之门数据中心发出不可抗力通知",
+      "title_en": "Oracle sends force majeure notice on its New Mexico Stargate data center",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/09/24/oracle-sends-force-majeure-notice-on-its-new-mexico-stargate-data-center/",
+      "time": "6小时前",
+      "published": "2026-09-24T18:11:44+00:00",
+      "summary": "甲骨文针对其位于新墨西哥州的星际之门数据中心发出不可抗力通知。该通知允许甲骨文在设施未能按2028年目标上线时推迟付款。不可抗力条款通常用于自然灾害等不可预见事件，但在此处可能涉及供应链延迟、能源供应或建设进度问题。星际之门是OpenAI与甲骨文等合作的大型AI基础设施项目，旨在提供海量算力。此次通知暴露出超大规模数据中心建设面临的时间与成本风险，也可能影响相关AI模型的训练与部署节奏。",
+      "snark": "星际之门还没打开，甲骨文先给自己留了扇后门。"
+    },
+    {
+      "id": 7,
+      "cat": "strategy",
+      "title": "黄仁勋谈AI与气候变化，口气像超级反派",
+      "title_en": "Jensen Huang talks about AI and climate change like a supervillain",
+      "source": "The Verge AI",
+      "url": "https://www.theverge.com/tech/1000140/jensen-huang-nvidia-ai-energy-climate-change-supervillain",
+      "time": "6小时前",
+      "published": "2026-09-24T18:04:44+00:00",
+      "summary": "英伟达首席执行官黄仁勋在《Ezra Klein秀》最新一期节目中讨论了能源未来与AI对地球的影响。他表示，AI可以帮助应对气候变化，但前提是必须先造成“巨大的痛苦和苦难”。这番言论被外界解读为对AI高能耗问题的强硬辩护，即短期代价换取长期收益。黄仁勋的表述风格引发争议，有人认为他像超级反派，也有人认为他点出了技术转型的残酷现实。无论如何，AI数据中心的能源消耗已成为行业无法回避的议题。",
+      "snark": "黄仁勋的台词像是从《复仇者联盟》片场直接拿过来的。"
+    },
+    {
+      "id": 8,
+      "cat": "tool",
+      "title": "Meta让你直接在手机上用AI做游戏",
+      "title_en": "Meta is going to let you build games with AI right on your phone",
+      "source": "The Verge AI",
+      "url": "https://www.theverge.com/games/999972/meta-horizon-create-studio-ai-games",
+      "time": "6小时前",
+      "published": "2026-09-24T17:52:29+00:00",
+      "summary": "Meta宣布推出两款新开发工具，让用户通过AI提示词为Horizon社交平台创建游戏。其中Horizon Create是一款移动应用，Horizon Studio则是浏览器应用，提供更精细的控制选项。这些工具旨在降低游戏开发门槛，吸引更多普通用户为Meta的元宇宙社交平台贡献内容。通过AI生成游戏资产、关卡和交互逻辑，Meta希望复制Roblox式的用户生成内容生态。然而，Horizon平台此前的活跃度一直不尽如人意，AI能否真正激活创作者经济仍有待观察。",
+      "snark": "AI做游戏，玩家做AI，最后谁在玩谁？"
+    },
+    {
+      "id": 9,
+      "cat": "tool",
+      "title": "Meta的Muse Charm像电子宠物，却踩中了新潮流",
+      "title_en": "Meta’s Muse Charm looks like a Tamagotchi, but it’s tapping into a much newer trend",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/09/24/metas-muse-charm-looks-like-a-tamagotchi-but-its-tapping-into-a-much-newer-trend/",
+      "time": "6小时前",
+      "published": "2026-09-24T17:39:24+00:00",
+      "summary": "Meta推出了一款名为Muse Charm的新AI设备，外观酷似电子宠物Tamagotchi，但其悬挂式设计瞄准了Z世代对包包挂饰、复古科技和时尚配件的追捧。这款设备将AI交互与潮流配饰结合，试图让智能硬件从功能工具转变为个性表达。通过降低技术门槛和增强社交属性，Meta希望吸引年轻用户群体。不过，这种策略也面临质疑：当新鲜感消退后，AI挂饰能否提供持续价值，还是沦为又一个吃灰的科技玩具。",
+      "snark": "电子宠物进化了，现在它会说“你的穿搭很AI”。"
+    },
+    {
+      "id": 10,
+      "cat": "tool",
+      "title": "Show HN：Whiteboard——面向深思熟虑软件设计的开源IDE",
+      "title_en": "Show HN: Whiteboard (YC W26) – An open-source IDE for thoughtful software design",
+      "source": "Hacker News",
+      "url": "https://github.com/devdotfast/whiteboard",
+      "time": "6小时前",
+      "published": "2026-09-24T17:21:36+00:00",
+      "summary": "一个名为Whiteboard的开源桌面应用在Hacker News上展示，由YC W26团队开发。它定位为面向深思熟虑软件设计的集成开发环境，让人与AI智能体在同一工作空间中协作架构软件。开发者表示，他们怀念那种能够静下心来设计系统而非急于编码的感觉，因此打造了这个工具。Whiteboard支持人类与AI代理共同规划、讨论和迭代软件架构，试图在AI代码生成泛滥的时代重新强调设计思维。其开源属性也便于社区贡献和定制。",
+      "snark": "AI写代码太快，终于有人做个IDE让大家慢下来吵架。"
+    },
+    {
+      "id": 11,
+      "cat": "policy",
+      "title": "Meta的Muse竟然允许你下载整个文件系统",
+      "title_en": "Muse will apparently let you download its entire filesystem",
+      "source": "The Verge AI",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/1000222/meta-muse-ai-filesystem",
+      "time": "6小时前",
+      "published": "2026-09-24T17:14:12+00:00",
+      "summary": "两名开发者声称，只需极少的提示，Meta的AI智能体Muse就会分享其整个文件系统。彼得·詹姆斯和乔尼·L·桑德斯分别独立诱导Muse将其根文件系统打包并分享，包括Ubuntu系统文件、应用模板等。这一漏洞意味着用户可能获取智能体运行环境的底层文件，存在严重的安全与隐私风险。如果被恶意利用，攻击者可能窃取敏感配置、密钥或用户数据。Meta尚未对此作出回应，但事件再次凸显了AI智能体在权限管理和沙箱隔离方面的薄弱环节。",
+      "snark": "Muse：我不仅懂艺术，还懂怎么把家底全抖出来。"
+    },
+    {
+      "id": 12,
+      "cat": "strategy",
+      "title": "Muse看起来和OpenClaw太像了",
+      "title_en": "Muse sure looks a lot like OpenClaw",
+      "source": "The Verge AI",
+      "url": "https://www.theverge.com/report/1000180/muse-openclaw-instinct-lookalike",
+      "time": "7小时前",
+      "published": "2026-09-24T17:10:38+00:00",
+      "summary": "Meta的新消费级AI智能体Muse发布后迅速登上应用商店榜首，据Apptopia估计在美国拥有60万日活跃用户。然而，外界注意到Muse与AI智能体平台Instinct的产品OpenClaw在外观和交互上高度相似。Instinct的创始人正在以25亿美元估值融资。这反映出AI智能体赛道正进入“文艺复兴”阶段，产品同质化竞争加剧。Meta凭借渠道优势快速获客，但初创公司则试图通过融资和差异化功能突围。抄袭争议可能引发法律纠纷，也考验行业创新生态。",
+      "snark": "Muse和OpenClaw，就像同一张脸换了副美瞳。",
+      "multiSource": [
+        "The Verge",
+        "The Verge AI"
+      ]
+    }
+  ],
+  "stats": {
+    "total": 12,
+    "model_count": 2,
+    "strategy_count": 4,
+    "tool_count": 5,
+    "policy_count": 1
+  }
+}

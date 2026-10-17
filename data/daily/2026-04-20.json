@@ -1,0 +1,161 @@
+{
+  "date": "2026-04-20",
+  "highlight": "GPT-5 公测引发行业震动，开源模型快速追赶，AI 芯片博弈白热化",
+  "articles": [
+    {
+      "id": 1,
+      "cat": "model",
+      "title": "Qwen 3 系列开源，阿里称多项中文任务超越 GPT-5",
+      "title_en": "",
+      "source": "Hacker News",
+      "url": "https://example.com/ai-news/8489",
+      "time": "24天前",
+      "published": "2026-04-20T14:42:00+08:00",
+      "summary": "这是一条关于「Qwen 3 系列开源，阿里称多项中文任务超越 GPT-5」的详细报道。该事件在 AI 行业引发广泛关注，多位业内人士表示这将深刻影响行业格局。更多细节请查看原文。",
+      "snark": "编辑部：这条我们也不知道怎么评价。"
+    },
+    {
+      "id": 2,
+      "cat": "model",
+      "title": "中国发布大模型训练新规：数据安全和内容审核成焦点",
+      "title_en": "",
+      "source": "OpenAI Blog",
+      "url": "https://example.com/ai-news/4893",
+      "time": "24天前",
+      "published": "2026-04-20T17:04:00+08:00",
+      "summary": "这是一条关于「中国发布大模型训练新规：数据安全和内容审核成焦点」的详细报道。该事件在 AI 行业引发广泛关注，多位业内人士表示这将深刻影响行业格局。更多细节请查看原文。",
+      "snark": "AI圈新闻：今天又是核聚变级别的一天。"
+    },
+    {
+      "id": 3,
+      "cat": "model",
+      "title": "Meta 开源 Llama 4 405B，称性能超越 GPT-4.5",
+      "title_en": "",
+      "source": "TechCrunch",
+      "url": "https://example.com/ai-news/8312",
+      "time": "24天前",
+      "published": "2026-04-20T22:16:00+08:00",
+      "summary": "这是一条关于「Meta 开源 Llama 4 405B，称性能超越 GPT-4.5」的详细报道。该事件在 AI 行业引发广泛关注，多位业内人士表示这将深刻影响行业格局。更多细节请查看原文。",
+      "snark": "这条新闻让同行们集体沉默了3秒，然后继续卷。"
+    },
+    {
+      "id": 4,
+      "cat": "model",
+      "title": "Stable Diffusion 4 发布，文生图进入 8K 时代",
+      "title_en": "",
+      "source": "TechCrunch",
+      "url": "https://example.com/ai-news/9177",
+      "time": "24天前",
+      "published": "2026-04-20T06:54:00+08:00",
+      "summary": "这是一条关于「Stable Diffusion 4 发布，文生图进入 8K 时代」的详细报道。该事件在 AI 行业引发广泛关注，多位业内人士表示这将深刻影响行业格局。更多细节请查看原文。",
+      "snark": "这条新闻让同行们集体沉默了3秒，然后继续卷。"
+    },
+    {
+      "id": 5,
+      "cat": "strategy",
+      "title": "Runway Gen-5 发布：视频生成支持实时物理模拟",
+      "title_en": "",
+      "source": "VentureBeat",
+      "url": "https://example.com/ai-news/5350",
+      "time": "24天前",
+      "published": "2026-04-20T14:47:00+08:00",
+      "summary": "这是一条关于「Runway Gen-5 发布：视频生成支持实时物理模拟」的详细报道。该事件在 AI 行业引发广泛关注，多位业内人士表示这将深刻影响行业格局。更多细节请查看原文。",
+      "snark": "又双叒叕一个「里程碑」，今年第几个了？"
+    },
+    {
+      "id": 6,
+      "cat": "strategy",
+      "title": "AutoGPT 3.0 发布：自主 AI Agent 可完成复杂商业任务",
+      "title_en": "",
+      "source": "OpenAI Blog",
+      "url": "https://example.com/ai-news/8470",
+      "time": "24天前",
+      "published": "2026-04-20T09:46:00+08:00",
+      "summary": "这是一条关于「AutoGPT 3.0 发布：自主 AI Agent 可完成复杂商业任务」的详细报道。该事件在 AI 行业引发广泛关注，多位业内人士表示这将深刻影响行业格局。更多细节请查看原文。",
+      "snark": "这条新闻让同行们集体沉默了3秒，然后继续卷。"
+    },
+    {
+      "id": 7,
+      "cat": "strategy",
+      "title": "Nous Research 发布 Hermes 4：开源指令遵循模型新标杆",
+      "title_en": "",
+      "source": "MarkTechPost",
+      "url": "https://example.com/ai-news/4062",
+      "time": "24天前",
+      "published": "2026-04-20T09:17:00+08:00",
+      "summary": "这是一条关于「Nous Research 发布 Hermes 4：开源指令遵循模型新标杆」的详细报道。该事件在 AI 行业引发广泛关注，多位业内人士表示这将深刻影响行业格局。更多细节请查看原文。",
+      "snark": "又双叒叕一个「里程碑」，今年第几个了？"
+    },
+    {
+      "id": 8,
+      "cat": "strategy",
+      "title": "Cursor 2.0 发布：AI 原生 IDE 支持全栈项目自动生成",
+      "title_en": "",
+      "source": "Hacker News",
+      "url": "https://example.com/ai-news/1001",
+      "time": "24天前",
+      "published": "2026-04-20T13:13:00+08:00",
+      "summary": "这是一条关于「Cursor 2.0 发布：AI 原生 IDE 支持全栈项目自动生成」的详细报道。该事件在 AI 行业引发广泛关注，多位业内人士表示这将深刻影响行业格局。更多细节请查看原文。",
+      "snark": "AI圈日常：今天你发模型，明天我刷榜。"
+    },
+    {
+      "id": 9,
+      "cat": "strategy",
+      "title": "xAI 完成 60 亿美元融资，Elon Musk 称将建全球最大 GPU 集群",
+      "title_en": "",
+      "source": "The Verge AI",
+      "url": "https://example.com/ai-news/9687",
+      "time": "24天前",
+      "published": "2026-04-20T07:56:00+08:00",
+      "summary": "这是一条关于「xAI 完成 60 亿美元融资，Elon Musk 称将建全球最大 GPU 集群」的详细报道。该事件在 AI 行业引发广泛关注，多位业内人士表示这将深刻影响行业格局。更多细节请查看原文。",
+      "snark": "编辑部：这条我们也不知道怎么评价。"
+    },
+    {
+      "id": 10,
+      "cat": "strategy",
+      "title": "苹果发布 Apple Intelligence 2.0，Siri 全面升级为 AI Agent",
+      "title_en": "",
+      "source": "Google AI Blog",
+      "url": "https://example.com/ai-news/7161",
+      "time": "24天前",
+      "published": "2026-04-20T20:03:00+08:00",
+      "summary": "这是一条关于「苹果发布 Apple Intelligence 2.0，Siri 全面升级为 AI Agent」的详细报道。该事件在 AI 行业引发广泛关注，多位业内人士表示这将深刻影响行业格局。更多细节请查看原文。",
+      "snark": "编辑部：这条我们也不知道怎么评价。"
+    },
+    {
+      "id": 11,
+      "cat": "tool",
+      "title": "Sora 2 公测：OpenAI 视频生成时长扩展至 2 分钟",
+      "title_en": "",
+      "source": "Ars Technica",
+      "url": "https://example.com/ai-news/9797",
+      "time": "24天前",
+      "published": "2026-04-20T22:26:00+08:00",
+      "summary": "这是一条关于「Sora 2 公测：OpenAI 视频生成时长扩展至 2 分钟」的详细报道。该事件在 AI 行业引发广泛关注，多位业内人士表示这将深刻影响行业格局。更多细节请查看原文。",
+      "snark": "AI圈日常：今天你发模型，明天我刷榜。"
+    },
+    {
+      "id": 12,
+      "cat": "tool",
+      "title": "AI 编程工具 Copilot 年收入突破 50 亿美元",
+      "title_en": "",
+      "source": "Ars Technica",
+      "url": "https://example.com/ai-news/8731",
+      "time": "24天前",
+      "published": "2026-04-20T08:20:00+08:00",
+      "summary": "这是一条关于「AI 编程工具 Copilot 年收入突破 50 亿美元」的详细报道。该事件在 AI 行业引发广泛关注，多位业内人士表示这将深刻影响行业格局。更多细节请查看原文。",
+      "snark": "这条新闻让同行们集体沉默了3秒，然后继续卷。"
+    }
+  ],
+  "stats": {
+    "total": 12,
+    "model_count": 4,
+    "strategy_count": 6,
+    "tool_count": 2
+  },
+  "fun": {
+    "lucky": "Gemini 2.5 Pro",
+    "advice": "宜：多模态探索\n忌：只用文字交互",
+    "joke": "问：一个 AI 走进酒吧，点了什么？\n答：一杯 transformer-ade，不加糖，但要 1750 亿个参数。"
+  }
+}

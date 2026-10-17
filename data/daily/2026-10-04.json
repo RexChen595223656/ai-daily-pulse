@@ -1,0 +1,175 @@
+{
+  "date": "2026-10-04",
+  "generated_at": "2026-10-04T09:39:36.093829+08:00",
+  "highlight": "OpenAI安全负责人离职炮轰公司文化崩坏，AI安全治理再成焦点。",
+  "fun": {
+    "lucky": "OpenAI",
+    "advice": "宜：给安全团队加薪留人\n忌：把安全报告写成离职信",
+    "joke": "AI公司最安全的地方是哪里？安全团队的离职通道。"
+  },
+  "articles": [
+    {
+      "id": 1,
+      "cat": "policy",
+      "title": "OpenAI安全负责人离职，警告公司文化已「崩坏」",
+      "title_en": "OpenAI safety leader quits, warning AI company's culture is 'broken'",
+      "source": "Hacker News",
+      "url": "https://www.theguardian.com/technology/2026/oct/03/openai-safety-leader-quits-warning-ai-companys-culture-is-broken",
+      "time": "3小时前",
+      "published": "2026-10-03T22:18:13+00:00",
+      "summary": "据《卫报》报道，OpenAI一名安全部门负责人宣布辞职，并公开警告该公司的内部文化已经「崩坏」。该员工此前负责撰写伴随每次重大模型发布的安全报告，其离职在Hacker News上引发广泛讨论。这并非OpenAI首次出现安全人员出走，此前已有多位安全与对齐团队成员相继离开，外界普遍担忧公司在商业化压力下正在削弱对AI安全与伦理的投入。此次公开指责「文化崩坏」措辞极为严厉，可能进一步加剧监管机构与公众对OpenAI治理结构的质疑，也为整个AI行业的安全文化建设敲响警钟。",
+      "snark": "安全团队离职速度比模型迭代还快，这算不算另一种对齐失败？",
+      "multiSource": [
+        "Hacker News",
+        "TechCrunch"
+      ]
+    },
+    {
+      "id": 2,
+      "cat": "strategy",
+      "title": "亚马逊回应数据中心争议，称已不再使用保密协议",
+      "title_en": "Amazon responds to data center backlash, says it no longer uses NDAs",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/10/03/amazon-responds-to-data-center-backlash-says-it-no-longer-uses-ndas/",
+      "time": "6小时前",
+      "published": "2026-10-03T18:43:57+00:00",
+      "summary": "面对外界对数据中心日益高涨的反对声浪，亚马逊云服务首席执行官出面回应，试图平息公众对数据中心项目的广泛疑虑。他明确表示，亚马逊已不再要求周边社区居民签署保密协议。此前有报道称，科技巨头在选址建设大型数据中心时，常通过保密协议限制居民发声，掩盖能耗、噪音和水资源消耗等问题。随着AI算力需求爆炸式增长，数据中心建设进入高峰期，社区反弹也愈发激烈。亚马逊此番表态被视为对舆论压力的让步，但能否真正缓解地方政府与居民的担忧，仍取决于其在透明度、能源使用和社区补偿方面的实际行动。",
+      "snark": "不用保密协议了，改用公关稿，本质都是让你闭嘴。"
+    },
+    {
+      "id": 3,
+      "cat": "strategy",
+      "title": "卡普空正筹备「与AI共同创作游戏」的未来",
+      "title_en": "Capcom is preparing for a ‘future where we create games together with AI’",
+      "source": "The Verge AI",
+      "url": "https://www.theverge.com/games/1004418/capcom-ai-game-development",
+      "time": "8小时前",
+      "published": "2026-10-03T16:49:10+00:00",
+      "summary": "在卡普空举办的RE:2026开放会议上，程序员石田聪发表了题为「REX项目的前景与未来」的演讲，透露公司正在为「与AI共同创作游戏」的未来做准备。尽管卡普空新作《Pragmata》的主题恰恰是AI带来的恐怖，但现实中这家日本游戏大厂对AI技术态度相当积极。REX项目旨在进一步演进其内部游戏开发引擎与工具链，探索将AI融入美术、关卡设计、代码编写等环节。这反映出游戏行业对生成式AI的复杂心态：一方面担忧AI冲击创意岗位与版权秩序，另一方面又难以抗拒其在降本增效上的巨大诱惑。",
+      "snark": "游戏里演AI毁灭人类，游戏外用AI省美术钱，精神分裂得很有商业头脑。",
+      "multiSource": [
+        "The Verge",
+        "The Verge AI"
+      ]
+    },
+    {
+      "id": 4,
+      "cat": "tool",
+      "title": "Splice首席执行官认为AI邮件正在扼杀真实对话",
+      "title_en": "Splice CEO Kakul Srivastava thinks AI emails are killing conversations",
+      "source": "The Verge AI",
+      "url": "https://www.theverge.com/entertainment/1004162/splice-ceo-kakul-srivastava-ai-interview",
+      "time": "10小时前",
+      "published": "2026-10-03T15:00:00+00:00",
+      "summary": "音乐采样平台Splice的首席执行官卡库尔·斯里瓦斯塔瓦在接受采访时表示，AI生成的邮件正在扼杀人与人之间的真实对话。Splice是众多音乐制作人依赖的采样平台，其素材曾出现在莉莎的《Money》和萨布丽娜·卡彭特的《Espresso》等热门歌曲中。斯里瓦斯塔瓦指出，当AI可以批量生成措辞得体却毫无温度的邮件时，沟通的效率看似提升，实则稀释了创作者之间交流的诚意与灵感碰撞。作为连接音乐人与版权方的平台掌舵者，她更担心AI内容泛滥会让本就复杂的音乐授权与创意协作变得更加冷漠和机械化。",
+      "snark": "AI写邮件你嫌没温度，可人类写的邮件也没见得多有灵魂。"
+    },
+    {
+      "id": 5,
+      "cat": "policy",
+      "title": "OpenAI又一安全员工离职并发出警告",
+      "title_en": "An OpenAI safety employee has quit and is sounding the alarm",
+      "source": "The Verge AI",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/1004408/openai-safety-quits-sounding-the-alarm",
+      "time": "11小时前",
+      "published": "2026-10-03T14:31:56+00:00",
+      "summary": "据The Verge报道，曾负责撰写OpenAI每次重大模型发布安全报告的大卫·罗宾逊本周辞职，并在《大西洋月刊》发表评论文章公开表达担忧。报道坦言，公众对接连不断从OpenAI出走的安全人员难免感到 cynical，因为类似的「良心出走」叙事已反复上演。罗宾逊的离开再次将OpenAI的安全治理推上风口浪尖：当撰写安全报告的人自己都不再相信报告能起作用时，这些文件究竟是真正的风险披露，还是给监管者和用户看的公关装饰？此事也折射出整个行业在加速竞赛与安全承诺之间的深层矛盾。",
+      "snark": "写安全报告的人跑了，报告本身成了最不安全的东西。",
+      "multiSource": [
+        "The Verge",
+        "The Verge AI"
+      ]
+    },
+    {
+      "id": 6,
+      "cat": "tool",
+      "title": "盘点所有能住进你短信里的AI智能体",
+      "title_en": "All the AI agents that can live in your text messages",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/10/03/all-the-ai-agents-that-can-live-in-your-text-messages/",
+      "time": "11小时前",
+      "published": "2026-10-03T14:00:00+00:00",
+      "summary": "TechCrunch整理了一份清单，盘点了当前最值得关注的、能够「住进」用户短信中的AI智能体。这些智能体覆盖多种场景：既有通用型个人助理，也有专为家庭、旅行和工作设计的垂直智能体。用户无需下载额外应用，直接在短信界面就能与AI对话、安排日程、查询信息或协调事务。这种「短信即入口」的形态降低了使用门槛，尤其适合不习惯复杂应用的中老年用户和追求轻量交互的年轻群体。不过，短信渠道也带来隐私、垃圾信息与运营商生态依赖等隐忧，能否成为主流AI入口仍有待观察。",
+      "snark": "AI住进短信，下一步是不是要住进我的通讯录收份子钱？"
+    },
+    {
+      "id": 7,
+      "cat": "model",
+      "title": "Meta、OpenAI和优步教会AI智能体先开口，但何时闭嘴呢？",
+      "title_en": "Meta, OpenAI and Uber Just Taught AI Agents to Talk First. What About When to Stay Quiet?",
+      "source": "MarkTechPost",
+      "url": "https://www.marktechpost.com/2026/10/03/meta-openai-and-uber-just-taught-ai-agents-to-talk-first-what-about-when-to-stay-quiet/",
+      "time": "18小时前",
+      "published": "2026-10-03T07:05:11+00:00",
+      "summary": "Meta的Muse、OpenAI的Dots以及优步的司机助手，三者共享一个核心赌注：让AI智能体主动先开口说话。这一转变把难题从「该回答什么」转移到「何时打断、在哪个渠道、以什么提议开口」。文章指出，传统机器学习与新型决策模型可以协同解决这一「主动交互」难题。三次发布背后是同一种模式：智能体不再被动等待指令，而是主动预测用户需求并抢先提供服务。然而，主动开口的另一面是「该沉默时沉默」的判断力，若缺乏对时机与场景的精准把握，主动就可能沦为打扰，甚至引发用户反感。",
+      "snark": "AI学会了先开口，但还没学会看脸色，这不就是社恐变社牛吗？"
+    },
+    {
+      "id": 8,
+      "cat": "tool",
+      "title": "IBM将Bob带入自托管与气隙环境：不搬代码也能做智能体开发",
+      "title_en": "IBM Brings Bob to Self-Hosted and Air-Gapped Environments: Agentic Software Development Without Moving Your Code",
+      "source": "MarkTechPost",
+      "url": "https://www.marktechpost.com/2026/10/02/ibm-brings-bob-to-self-hosted-and-air-gapped-environments/",
+      "time": "18小时前",
+      "published": "2026-10-03T06:55:15+00:00",
+      "summary": "IBM宣布其智能体软件开发平台Bob的自托管部署正式全面可用。企业现在可以在本地、私有云、主权云乃至气隙网络中运行Bob。用户可自带模型，例如英伟达的Nemotron或Poolside的Laguna以实现完全隔离，也可选用其他方案。这一举措直击金融、国防、医疗等对数据主权和合规要求极高的行业痛点：这些客户既想用上智能体编程助手提升开发效率，又绝不允许代码和敏感数据离开自己的网络边界。IBM借此强化其在企业级AI市场的差异化定位，与主打公有云API的竞争对手形成区隔。",
+      "snark": "代码不出门，AI照样干活，这才是真正的「居家办公」模范。"
+    },
+    {
+      "id": 9,
+      "cat": "tool",
+      "title": "Prime Intellect推出Prime Inference：面向前沿开源模型的无服务器与预留服务",
+      "title_en": "Prime Intellect Launches Prime Inference: Serverless and Reserved Serving for Frontier Open Models",
+      "source": "MarkTechPost",
+      "url": "https://www.marktechpost.com/2026/10/02/prime-intellect-launches-prime-inference-serverless-and-reserved-serving-for-frontier-open-models/",
+      "time": "20小时前",
+      "published": "2026-10-03T05:37:18+00:00",
+      "summary": "Prime Intellect发布了Prime Inference，这是一个兼容OpenAI接口的平台，用于在英伟达Blackwell上服务前沿开源模型。其GLM-5.3部署采用Dynamo、vLLM以及NVFP4 KV压缩技术，实现每个预填充组支持66个会话、每用户每秒101个token的吞吐表现。平台同时提供无服务器和预留两种服务模式，方便开发者按需或按量调用。此举瞄准的是希望使用开源前沿模型但又不愿自建推理基础设施的团队，试图在灵活性与性能之间取得平衡。随着开源模型能力逼近闭源产品，此类推理服务平台正成为AI基础设施竞争的新战场。",
+      "snark": "开源模型越来越强，推理平台越来越卷，最后赚钱的还是卖GPU的。"
+    },
+    {
+      "id": 10,
+      "cat": "model",
+      "title": "微软AI发布MAI-Transcribe-2-Streaming：Artificial Analysis实时语音转文字榜首模型",
+      "title_en": "Microsoft AI Releases MAI-Transcribe-2-Streaming: #1 Real-Time Speech-to-Text Model on Artificial Analysis",
+      "source": "MarkTechPost",
+      "url": "https://www.marktechpost.com/2026/10/02/microsoft-ai-releases-mai-transcribe-2-streaming-1-real-time-speech-to-text-model-on-artificial-analysis/",
+      "time": "20小时前",
+      "published": "2026-10-03T05:09:53+00:00",
+      "summary": "微软AI发布了MAI-Transcribe-2-Streaming，这是其首个实时语音转文字模型。在Artificial Analysis的AA-WER流式评测中，该模型在38个模型中排名第一。其最终转写词错误率为2.5%，延迟0.13秒；首次部分结果同样为2.5%，延迟0.12秒。模型覆盖60种语言，并支持连续语言检测。这一成绩意味着实时字幕、会议记录、语音助手等场景的准确率和响应速度将显著提升。微软选择在语音这一相对低调但应用极广的赛道发力，与OpenAI、谷歌在多模态大模型上的高调竞争形成互补，也为其企业协作产品线提供了底层能力支撑。",
+      "snark": "语音转文字第一，可惜开会时老板的废话转得再准也没人想听。"
+    },
+    {
+      "id": 11,
+      "cat": "model",
+      "title": "决策AI模型解析：TypeSafe的Jev对比Fastino的GLiDE、GLiNER2.5-Decide及开源竞品",
+      "title_en": "Decision AI Models Explained: TypeSafe Jev vs Fastino GLiDE, GLiNER2.5-Decide and Open-Source Competitors",
+      "source": "MarkTechPost",
+      "url": "https://www.marktechpost.com/2026/10/02/decision-ai-models-explained-typesafe-jev-vs-fastino-glide-gliner2-5-decide-and-open-source-competitors/",
+      "time": "22小时前",
+      "published": "2026-10-03T03:31:15+00:00",
+      "summary": "决策AI模型不生成文本，而是以校准概率回答带类型的问题。TypeSafe的Jev每百万输入token仅需0.042美元，响应时间在70到500毫秒之间。文章详细拆解了其工作原理与基准表现，并与Fastino的GLiDE、GLiNER2.5-Decide以及多个开源竞品进行对比。这类模型适用于风控、推荐、路由等需要快速做出确定性判断的场景，相比大语言模型更便宜、更可控、更易解释。随着企业将AI从「聊天」推向「决策」，决策模型有望成为一条被低估但极具商业价值的技术路线，尤其在对延迟和成本敏感的规模化部署中。",
+      "snark": "不聊天只做决定，这AI比大多数人类同事都干脆。"
+    },
+    {
+      "id": 12,
+      "cat": "strategy",
+      "title": "Meta想让你的下一件电子产品都内置Muse",
+      "title_en": "Meta wants your next gadget to be Muse-infused",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/10/02/meta-wants-you-to-build-your-own-muse-gadget/",
+      "time": "1天前",
+      "published": "2026-10-03T00:45:39+00:00",
+      "summary": "Meta希望Muse出现在你的电视甚至烤面包机里，为此它干脆把代码免费开放。此举延续了Meta在AI领域的一贯策略：通过开源和免费开放降低开发者的接入门槛，从而让自己的模型成为各类硬件与应用的默认底层能力。相比直接售卖模型授权，Meta更看重生态卡位与数据反馈。让Muse渗透进电视、家电等消费电子设备，意味着Meta可以在手机之外开辟新的AI入口，与谷歌、亚马逊在智能家居语音助手领域的既有优势展开竞争。不过，硬件厂商是否愿意为Meta做嫁衣，以及用户对隐私的顾虑，仍是这套生态打法能否奏效的关键变数。",
+      "snark": "连烤面包机都要塞AI，以后焦了是不是还要怪大模型火候没对齐？"
+    }
+  ],
+  "stats": {
+    "total": 12,
+    "model_count": 3,
+    "strategy_count": 3,
+    "tool_count": 4,
+    "policy_count": 2
+  }
+}
