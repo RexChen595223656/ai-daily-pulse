@@ -1,4 +1,16 @@
 {
+  "2026-10-18": {
+    "date": "2026-10-18",
+    "highlight": "AI 摘要暂时不可用，请稍后刷新",
+    "count": 11,
+    "stats": {
+      "total": 11,
+      "model_count": 5,
+      "strategy_count": 2,
+      "tool_count": 4,
+      "policy_count": 0
+    }
+  },
   "2026-10-17": {
     "date": "2026-10-17",
     "highlight": "AI 摘要暂时不可用，请稍后刷新",
@@ -705,18 +717,6 @@
       "strategy_count": 4,
       "tool_count": 3,
       "policy_count": 4
-    }
-  },
-  "2026-08-12": {
-    "date": "2026-08-12",
-    "highlight": "今日AI界风起云涌：Gemini与ChatGPT双双突破十亿用户，Anthropic未发布模型攻克数学难题，OpenAI高管离职潮持续。",
-    "count": 12,
-    "stats": {
-      "total": 12,
-      "model_count": 3,
-      "strategy_count": 6,
-      "tool_count": 3,
-      "policy_count": 0
     }
   }
 }
