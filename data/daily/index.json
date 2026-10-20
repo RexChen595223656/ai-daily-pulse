@@ -1,4 +1,16 @@
 {
+  "2026-10-20": {
+    "date": "2026-10-20",
+    "highlight": "AI 摘要暂时不可用，请稍后刷新",
+    "count": 12,
+    "stats": {
+      "total": 12,
+      "model_count": 3,
+      "strategy_count": 5,
+      "tool_count": 4,
+      "policy_count": 0
+    }
+  },
   "2026-10-19": {
     "date": "2026-10-19",
     "highlight": "Anthropic捐股设公益基金、Google开源递归智能体框架，AI治理与工具生态同步推进。",
@@ -703,18 +715,6 @@
       "total": 12,
       "model_count": 4,
       "strategy_count": 5,
-      "tool_count": 3,
-      "policy_count": 0
-    }
-  },
-  "2026-08-14": {
-    "date": "2026-08-14",
-    "highlight": "AI 摘要暂时不可用，请稍后刷新",
-    "count": 12,
-    "stats": {
-      "total": 12,
-      "model_count": 3,
-      "strategy_count": 6,
       "tool_count": 3,
       "policy_count": 0
     }
