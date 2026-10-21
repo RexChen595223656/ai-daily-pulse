@@ -159,19 +159,19 @@
         "model": "Claude Opus 5.5 (Max, Default Fallback)",
         "org": "Anthropic",
         "outputSpeed": 96.2,
-        "ttft": 641.09
+        "ttft": 704.0
       },
       {
         "model": "Claude Sonnet 5.5 (Max, Default Fallback)",
         "org": "Anthropic",
-        "outputSpeed": 142.2,
-        "ttft": 433.84
+        "outputSpeed": 138.8,
+        "ttft": 514.59
       },
       {
         "model": "Claude Opus 5.5 (Xhigh, Default Fallback)",
         "org": "Anthropic",
-        "outputSpeed": 85.6,
-        "ttft": 82.97
+        "outputSpeed": 83.7,
+        "ttft": 102.29
       },
       {
         "model": "Muse Wonder Full (Max)",
@@ -182,38 +182,38 @@
       {
         "model": "Claude Opus 5.5 (High, Default Fallback)",
         "org": "Anthropic",
-        "outputSpeed": 77.4,
-        "ttft": 28.32
+        "outputSpeed": 79.1,
+        "ttft": 27.7
       },
       {
         "model": "Claude Fable 5.1 (Max, Default Fallback)",
         "org": "Anthropic",
-        "outputSpeed": 73.6,
-        "ttft": 164.74
+        "outputSpeed": 72.4,
+        "ttft": 200.31
       },
       {
         "model": "Claude Fable 5.1 (Xhigh, Default Fallback)",
         "org": "Anthropic",
-        "outputSpeed": 60.2,
-        "ttft": 47.17
+        "outputSpeed": 61.8,
+        "ttft": 49.19
       },
       {
         "model": "GPT-6 Astra (Max)",
         "org": "OpenAI",
-        "outputSpeed": 71.4,
-        "ttft": 207.18
+        "outputSpeed": 65.9,
+        "ttft": 271.79
       },
       {
         "model": "Gemini 4 Argon (High)",
         "org": "Google",
-        "outputSpeed": 0,
-        "ttft": 0
+        "outputSpeed": 80.3,
+        "ttft": 24.86
       },
       {
         "model": "Muse Wonder (Max)",
         "org": "Meta",
-        "outputSpeed": 159.0,
-        "ttft": 34.81
+        "outputSpeed": 171.7,
+        "ttft": 34.02
       }
     ]
   },
@@ -221,7 +221,7 @@
     "perf": [
       {
         "model": "GPT Image 2.5 Sunburst (max)",
-        "elo": 1220,
+        "elo": 1222,
         "rank": 1,
         "org": "OpenAI",
         "date": "2026-09"
@@ -242,23 +242,23 @@
       },
       {
         "model": "Nano Banana 2.1",
-        "elo": 1174,
+        "elo": 1176,
         "rank": 4,
         "org": "Google",
         "date": "2026-10"
       },
       {
-        "model": "Grok Imagine Image 2.0",
-        "elo": 1167,
+        "model": "MAI-Image-2.6",
+        "elo": 1166,
         "rank": 5,
-        "org": "SpaceXAI",
+        "org": "Microsoft AI",
         "date": "2026-08"
       },
       {
-        "model": "MAI-Image-2.6",
+        "model": "Grok Imagine Image 2.0",
         "elo": 1166,
         "rank": 6,
-        "org": "Microsoft AI",
+        "org": "SpaceXAI",
         "date": "2026-08"
       },
       {
@@ -283,64 +283,64 @@
   "video": {
     "perf": [
       {
+        "model": "HeyGen Video (ultraquality)",
+        "elo": 1145,
+        "rank": 1,
+        "org": "HeyGen",
+        "type": ""
+      },
+      {
         "model": "Wan 3.0",
         "elo": 1135,
-        "rank": 1,
+        "rank": 2,
         "org": "Alibaba",
         "type": ""
       },
       {
         "model": "MiniMax H3 (768p)",
         "elo": 1121,
-        "rank": 2,
+        "rank": 3,
         "org": "MiniMax",
         "type": ""
       },
       {
         "model": "MiniMax H3 Max",
         "elo": 1119,
-        "rank": 3,
+        "rank": 4,
         "org": "Fal",
         "type": ""
       },
       {
         "model": "Dreamina Seedance 2.5",
         "elo": 1105,
-        "rank": 4,
+        "rank": 5,
         "org": "ByteDance Seed",
         "type": ""
       },
       {
         "model": "FLUX 3",
         "elo": 1094,
-        "rank": 5,
+        "rank": 6,
         "org": "Black Forest Labs",
         "type": ""
       },
       {
         "model": "Dreamina Seedance 2.0",
         "elo": 1085,
-        "rank": 6,
+        "rank": 7,
         "org": "ByteDance Seed",
         "type": ""
       },
       {
         "model": "Gemini Omni Flash 1.1",
         "elo": 1073,
-        "rank": 7,
-        "org": "Google",
-        "type": ""
-      },
-      {
-        "model": "Agnes-Video-2.5",
-        "elo": 1054,
         "rank": 8,
-        "org": "Sapiens AI",
+        "org": "Google",
         "type": ""
       }
     ],
     "price": [],
     "speed": []
   },
-  "_fetched_at": "2026-10-19T08:12:56.304823+08:00"
+  "_fetched_at": "2026-10-21T17:57:10.840891+08:00"
 }
