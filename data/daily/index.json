@@ -1,4 +1,16 @@
 {
+  "2026-10-23": {
+    "date": "2026-10-23",
+    "highlight": "OpenAI 拟以 1.25 万亿美元估值融资 300 亿美元，AI 资本盛宴再破纪录。",
+    "count": 12,
+    "stats": {
+      "total": 12,
+      "model_count": 3,
+      "strategy_count": 4,
+      "tool_count": 3,
+      "policy_count": 2
+    }
+  },
   "2026-10-22": {
     "date": "2026-10-22",
     "highlight": "Meta发新股融资搞AI，Recursive用AI造模型，沃尔玛向AI代理敞开大门。",
@@ -705,18 +717,6 @@
       "strategy_count": 5,
       "tool_count": 3,
       "policy_count": 2
-    }
-  },
-  "2026-08-17": {
-    "date": "2026-08-17",
-    "highlight": "OpenAI 解散安全团队、英伟达缩减投资、Anthropic 深陷水印争议，AI 行业信任危机集中爆发。",
-    "count": 10,
-    "stats": {
-      "total": 10,
-      "model_count": 1,
-      "strategy_count": 3,
-      "tool_count": 1,
-      "policy_count": 5
     }
   }
 }
