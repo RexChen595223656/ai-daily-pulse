@@ -34,6 +34,14 @@
         "reasoning": 0
       },
       {
+        "model": "Kimi K3.1 Pro",
+        "org": "Kimi",
+        "intelligence": 55.1,
+        "coding": 0,
+        "math": 0,
+        "reasoning": 0
+      },
+      {
         "model": "Claude Opus 5.5 (High, Default Fallback)",
         "org": "Anthropic",
         "intelligence": 53.6,
@@ -72,14 +80,6 @@
         "coding": 0,
         "math": 0,
         "reasoning": 0
-      },
-      {
-        "model": "Muse Wonder (Max)",
-        "org": "Meta",
-        "intelligence": 52.4,
-        "coding": 0,
-        "math": 0,
-        "reasoning": 0
       }
     ],
     "price": [
@@ -112,6 +112,13 @@
         "blended": 0.0
       },
       {
+        "model": "Kimi K3.1 Pro",
+        "org": "Kimi",
+        "input": 2,
+        "output": 10,
+        "blended": 4
+      },
+      {
         "model": "Claude Opus 5.5 (High, Default Fallback)",
         "org": "Anthropic",
         "input": 4,
@@ -145,33 +152,26 @@
         "input": 2,
         "output": 10,
         "blended": 4
-      },
-      {
-        "model": "Muse Wonder (Max)",
-        "org": "Meta",
-        "input": 4,
-        "output": 20,
-        "blended": 8
       }
     ],
     "speed": [
       {
         "model": "Claude Opus 5.5 (Max, Default Fallback)",
         "org": "Anthropic",
-        "outputSpeed": 97.8,
-        "ttft": 539.11
+        "outputSpeed": 97.2,
+        "ttft": 403.92
       },
       {
         "model": "Claude Sonnet 5.5 (Max, Default Fallback)",
         "org": "Anthropic",
-        "outputSpeed": 140.0,
-        "ttft": 383.68
+        "outputSpeed": 137.8,
+        "ttft": 271.95
       },
       {
         "model": "Claude Opus 5.5 (Xhigh, Default Fallback)",
         "org": "Anthropic",
-        "outputSpeed": 83.8,
-        "ttft": 72.43
+        "outputSpeed": 81.8,
+        "ttft": 55.84
       },
       {
         "model": "Muse Wonder Full (Max)",
@@ -180,40 +180,40 @@
         "ttft": 0
       },
       {
+        "model": "Kimi K3.1 Pro",
+        "org": "Kimi",
+        "outputSpeed": 83.3,
+        "ttft": 2.15
+      },
+      {
         "model": "Claude Opus 5.5 (High, Default Fallback)",
         "org": "Anthropic",
-        "outputSpeed": 79.4,
-        "ttft": 18.12
+        "outputSpeed": 78.1,
+        "ttft": 15.28
       },
       {
         "model": "Claude Fable 5.1 (Max, Default Fallback)",
         "org": "Anthropic",
-        "outputSpeed": 71.1,
-        "ttft": 135.38
+        "outputSpeed": 70.6,
+        "ttft": 125.09
       },
       {
         "model": "Claude Fable 5.1 (Xhigh, Default Fallback)",
         "org": "Anthropic",
-        "outputSpeed": 61.0,
-        "ttft": 41.65
+        "outputSpeed": 58.4,
+        "ttft": 37.14
       },
       {
         "model": "GPT-6 Astra (Max)",
         "org": "OpenAI",
-        "outputSpeed": 61.4,
-        "ttft": 212.66
+        "outputSpeed": 63.8,
+        "ttft": 181.63
       },
       {
         "model": "Gemini 4 Argon (High)",
         "org": "Google",
         "outputSpeed": 80.0,
-        "ttft": 24.86
-      },
-      {
-        "model": "Muse Wonder (Max)",
-        "org": "Meta",
-        "outputSpeed": 194.3,
-        "ttft": 31.23
+        "ttft": 29.9
       }
     ]
   },
@@ -283,7 +283,7 @@
   "video": {
     "perf": [
       {
-        "model": "HeyGen Video 1 (ultraquality)",
+        "model": "HeyGen Video 1",
         "elo": 1144,
         "rank": 1,
         "org": "HeyGen",
@@ -342,5 +342,5 @@
     "price": [],
     "speed": []
   },
-  "_fetched_at": "2026-10-23T08:00:45.364931+08:00"
+  "_fetched_at": "2026-10-24T08:02:31.755870+08:00"
 }

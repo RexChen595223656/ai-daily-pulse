@@ -1,4 +1,16 @@
 {
+  "2026-10-24": {
+    "date": "2026-10-24",
+    "highlight": "OpenAI 宣布前沿模型训练全面断网，Kimi K3.1 Pro 开源万亿参数模型，AI 安全与开放权重同日对垒。",
+    "count": 12,
+    "stats": {
+      "total": 12,
+      "model_count": 2,
+      "strategy_count": 2,
+      "tool_count": 3,
+      "policy_count": 5
+    }
+  },
   "2026-10-23": {
     "date": "2026-10-23",
     "highlight": "OpenAI 拟以 1.25 万亿美元估值融资 300 亿美元，AI 资本盛宴再破纪录。",
@@ -705,18 +717,6 @@
       "strategy_count": 3,
       "tool_count": 5,
       "policy_count": 4
-    }
-  },
-  "2026-08-18": {
-    "date": "2026-08-18",
-    "highlight": "Anthropic年化收入飙至650亿美元，OpenAI降价抢市场，AI竞争进入白热化阶段。",
-    "count": 12,
-    "stats": {
-      "total": 12,
-      "model_count": 2,
-      "strategy_count": 5,
-      "tool_count": 3,
-      "policy_count": 2
     }
   }
 }
