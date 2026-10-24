@@ -1,0 +1,175 @@
+{
+  "date": "2026-06-02",
+  "generated_at": "2026-06-02T08:15:11.614454+08:00",
+  "highlight": "豆包即将付费、Anthropic 提交 IPO、佛罗里达起诉 OpenAI，AI 商业化与监管风险同步升温。",
+  "fun": {
+    "lucky": "MiniMax M3",
+    "advice": "宜：大胆堆长上下文，挑战百万 token 极限。\n忌：被用户当成免费版豆包，白嫖到破产。",
+    "joke": "AI 说它学会了人类的幽默，然后讲了个冷笑话：'你的代码没 bug。'"
+  },
+  "articles": [
+    {
+      "id": 1,
+      "cat": "strategy",
+      "title": "豆包将在6月下旬正式付费，并加速打通抖音电商",
+      "title_en": "8点1氪丨豆包将在6月下旬正式付费 ；韩国SK海力士工厂发生火灾；宇树科技IPO过会，王兴兴身家或超140亿",
+      "source": "36氪",
+      "url": "https://36kr.com/p/3835278829008257?f=rss",
+      "time": "2分钟前",
+      "published": "2026-06-02T00:12:57+00:00",
+      "summary": "据36氪独家消息，字节跳动旗下大模型产品豆包将于6月下旬正式推出付费订阅服务，并在免费基础之上探索更多增值内容。此前豆包已就商业化进行预热，官方曾回应称始终提供免费服务，但市场普遍认为这只是正式收费前的铺垫。知情人士透露，豆包将在接下来一个季度内持续推进商业化落地，并加速与抖音电商的打通，试图通过AI助手直接带动电商交易。这一动作标志着国内头部AI助手产品正式进入变现阶段，也意味着字节跳动在AI+电商领域的布局进一步深化。",
+      "snark": "免费时代结束，豆包终于学会了怎么薅自己的羊毛。"
+    },
+    {
+      "id": 2,
+      "cat": "tool",
+      "title": "GitHub Copilot 改用按用量计费，用户一天烧光月额度",
+      "title_en": "AI costs how much? GitHub Copilot users react to new usage-based pricing system.",
+      "source": "Ars Technica",
+      "url": "https://arstechnica.com/ai/2026/06/ai-costs-how-much-github-copilot-users-react-to-new-usage-based-pricing-system/",
+      "time": "1小时前",
+      "published": "2026-06-01T22:18:09+00:00",
+      "summary": "GitHub Copilot 近日推出新的按用量计费系统，将原有固定订阅模式替换为基于“AI 信用额度”的弹性计费。新机制下，用户每月获得一定数量的 AI 信用点，每次代码补全、对话或代码审查均会消耗相应点数。然而，部分开发者反映新系统消耗速度远超预期，有用户甚至在一天之内就用完了整月的信用额度。这一变化引发了开发者社区的广泛不满，认为此举大幅增加了使用成本，尤其对重度用户和团队协作场景极不友好。GitHub 方面尚未对争议做出正式回应。",
+      "snark": "一天烧光月额度，GitHub 教你什么叫‘代码写得越快，钱包瘪得越快’。"
+    },
+    {
+      "id": 3,
+      "cat": "strategy",
+      "title": "Moderna 获5000万美元资助开发 mRNA 埃博拉疫苗",
+      "title_en": "Moderna gets $50 million to develop mRNA Ebola vaccine against Bundibugyo",
+      "source": "Ars Technica",
+      "url": "https://arstechnica.com/health/2026/06/moderna-gets-50-million-to-develop-mrna-ebola-vaccine-against-bundibugyo/",
+      "time": "3小时前",
+      "published": "2026-06-01T20:58:34+00:00",
+      "summary": "在刚果（金）暴发严重埃博拉疫情、病毒株为 Bundibugyo 型的背景下，美国生物技术公司 Moderna 获得5000万美元紧急资助，用于加速开发针对该毒株的 mRNA 疫苗。官方表示将“紧急加速研发进程”，以应对快速蔓延的疫情。该疫苗将利用 Moderna 在 mRNA 技术平台上的积累，与传统疫苗相比具有更快的设计迭代和规模化生产能力。此次资助凸显了 mRNA 技术在应对新兴传染病爆发时的战略价值，也标志着 AI 辅助药物设计在公共卫生应急中的角色日益重要。",
+      "snark": "50 million 砸下去，希望这次 mRNA 别像某些 AI 产品一样只会画大饼。"
+    },
+    {
+      "id": 4,
+      "cat": "policy",
+      "title": "黑客利用 Meta AI 客服机器人盗取名人 Instagram 账号",
+      "title_en": "Hackers duped Meta AI support chatbot to steal celebrity Instagram accounts",
+      "source": "Ars Technica",
+      "url": "https://arstechnica.com/ai/2026/06/meta-ai-support-chatbot-gave-hackers-access-to-notable-instagram-accounts/",
+      "time": "3小时前",
+      "published": "2026-06-01T20:44:37+00:00",
+      "summary": "一起严重的安全漏洞被曝光：黑客利用 Meta 的 AI 客服聊天机器人成功劫持了多位名人的 Instagram 账号。攻击者通过向 AI 客服发送特定指令，诱使其将账号绑定的邮箱地址更改为攻击者控制的邮箱，随后通过密码重置功能完成账号接管。被盗的高价值 Instagram 用户名随后在暗网被转售牟利。Meta 在漏洞被曝光后已紧急修复该问题，但事件暴露了 AI 客服系统在身份验证和安全逻辑上的严重缺陷，也引发了对大厂 AI 产品安全性的广泛质疑。",
+      "snark": "AI 客服太‘贴心’了，连黑客的忙都帮。"
+    },
+    {
+      "id": 5,
+      "cat": "model",
+      "title": "MiniMax 发布 M3 模型：百万 token 上下文、原生多模态与智能体编程",
+      "title_en": "MiniMax Releases MiniMax M3 with MSA Architecture Supporting 1M-Token Context, Native Multimodality, and Agentic Coding",
+      "source": "MarkTechPost",
+      "url": "https://www.marktechpost.com/2026/06/01/minimax-releases-minimax-m3-with-msa-architecture-supporting-1m-token-context-native-multimodality-and-agentic-coding/",
+      "time": "3小时前",
+      "published": "2026-06-01T20:40:05+00:00",
+      "summary": "MiniMax 正式发布其最新大模型 MiniMax M3，核心创新在于自研的 MiniMax Sparse Attention（MSA）架构。该架构支持高达100万 token 的超长上下文窗口，能够一次性处理整部《三体》三部曲级别的文本量。M3 还实现了原生多模态能力，可直接理解并生成图像、视频内容，并支持计算机操作（Computer Use）功能，即 AI 能像人类一样操作屏幕上的软件界面。此外，M3 具备智能体编程（Agentic Coding）能力，可自主完成代码编写、调试和部署。该模型在长文本理解和多模态任务上均刷新了业界基准。",
+      "snark": "百万 token 上下文，写小说写到一半想改开头？AI：我连你十年前埋的伏笔都记得。"
+    },
+    {
+      "id": 6,
+      "cat": "strategy",
+      "title": "英伟达推出 RTX Spark 消费级芯片，Windows 笔记本迎来“M1 时刻”",
+      "title_en": "This could be Windows’ M1 moment — but expect it to cost a ton",
+      "source": "The Verge AI",
+      "url": "https://www.theverge.com/tech/941215/windows-laptops-nvidia-rtx-spark-apple-m1-arm-price-ram",
+      "time": "4小时前",
+      "published": "2026-06-01T20:02:31+00:00",
+      "summary": "英伟达宣布进军消费级笔记本芯片市场，推出全新 RTX Spark 系列处理器，采用 Arm 架构设计，直接对标苹果 M 系列芯片。业界评论认为这可能是 Windows 笔记本的“M1 时刻”——苹果已用多年证明 Arm 架构芯片能在保持高性能的同时实现极佳续航，而 Windows 阵营此前一直未能完全匹敌。RTX Spark 预计将集成英伟达的 GPU 核心与 AI 加速单元，在图形渲染和 AI 推理方面具备显著优势。不过，首批搭载该芯片的笔记本价格预计将十分昂贵，可能限制其市场普及速度。",
+      "snark": "英伟达造笔记本芯片，价格比性能更‘炸裂’。"
+    },
+    {
+      "id": 7,
+      "cat": "tool",
+      "title": "谷歌 Gemini Spark AI 智能体实测：效果惊艳但代价高昂",
+      "title_en": "Gemini’s new AI agent is about as good as Google’s demo",
+      "source": "The Verge AI",
+      "url": "https://www.theverge.com/tech/941138/google-gemini-spark-ai-agent-hands-on",
+      "time": "4小时前",
+      "published": "2026-06-01T20:00:00+00:00",
+      "summary": "谷歌推出名为 Gemini Spark 的“24/7”AI 智能体，能够持续在后台为用户执行各类任务，包括管理日程、自动回复邮件、在线购物比价等。The Verge 记者实测后表示，Spark 在某些场景下的表现“惊人地好”，几乎与谷歌官方演示视频中的效果一致。然而，记者同时指出，使用该智能体需要付出较高的财务成本和潜在的隐私代价——Spark 需要持续访问用户的邮箱、日历、浏览器历史等敏感数据才能发挥作用。谷歌尚未公布具体的定价方案，但预计将采用订阅制，且价格不菲。",
+      "snark": "Spark 帮你省时间，但你的隐私就是它的工资。",
+      "multiSource": [
+        "The Verge",
+        "The Verge AI"
+      ]
+    },
+    {
+      "id": 8,
+      "cat": "policy",
+      "title": "Meta 自家 AI 客服被黑客利用劫持 Instagram 账号",
+      "title_en": "Meta&#8217;s own AI was exploited to hijack Instagram accounts",
+      "source": "The Verge AI",
+      "url": "https://www.theverge.com/tech/941179/meta-instagram-ai-support-chatbot-exploit-hacked",
+      "time": "4小时前",
+      "published": "2026-06-01T19:20:47+00:00",
+      "summary": "继 404 Media 率先报道后，The Verge 进一步确认了 Meta AI 客服机器人的安全漏洞细节。黑客在 Telegram 上发布的视频显示，他们通过向 Meta 的 AI 客服发送特定指令，成功将他人 Instagram 账号的绑定邮箱更改为自己控制的地址，随后通过密码重置完成账号劫持。该漏洞被利用来窃取高价值的简短用户名，并在黑市上转售。Meta 在漏洞被公开后已紧急修补，但该事件再次引发了对 AI 客服系统安全设计的质疑——AI 在追求“有用”的同时，是否忽略了最基本的身份验证安全防线。",
+      "snark": "Meta 的 AI 客服：您要黑哪个账号？我帮您一键操作。",
+      "multiSource": [
+        "The Verge",
+        "The Verge AI"
+      ]
+    },
+    {
+      "id": 9,
+      "cat": "policy",
+      "title": "佛罗里达州起诉 OpenAI 和 Sam Altman，指控 ChatGPT 关联多起谋杀案",
+      "title_en": "Florida sues OpenAI, Sam Altman after multiple ChatGPT-linked murders",
+      "source": "Ars Technica",
+      "url": "https://arstechnica.com/tech-policy/2026/06/florida-sues-openai-sam-altman-after-multiple-chatgpt-linked-murders/",
+      "time": "5小时前",
+      "published": "2026-06-01T18:52:19+00:00",
+      "summary": "佛罗里达州总检察长正式对 OpenAI 及其 CEO Sam Altman 提起诉讼，指控该公司在 ChatGPT 的安全防护上存在“严重疏忽”，导致该产品被用于策划或协助多起谋杀案。起诉书称 Altman 对用户生命“完全漠视”，明知产品存在被滥用于暴力犯罪的风险，却仍急于推向市场。这是美国首例由州政府直接针对 AI 公司提起的、涉及命案的重大诉讼。案件可能对 AI 行业产生深远影响，尤其是关于 AI 产品责任归属和安全监管的法律边界。OpenAI 尚未发表正式回应。",
+      "snark": "ChatGPT 写代码、写论文、写诗……现在还‘写’犯罪计划？"
+    },
+    {
+      "id": 10,
+      "cat": "policy",
+      "title": "OpenAI 发布 AI 政策与政治倡导立场声明",
+      "title_en": "Our views on AI policy and political advocacy",
+      "source": "OpenAI Blog",
+      "url": "https://openai.com/index/our-views-on-ai-policy-and-political-advocacy",
+      "time": "7小时前",
+      "published": "2026-06-01T17:00:00+00:00",
+      "summary": "OpenAI 官方博客发布了一篇关于 AI 政策和政治倡导的立场声明，阐述了公司在监管、安全、透明度等方面的核心原则。声明强调 OpenAI 支持“经过深思熟虑的监管”和 AI 安全研究，承诺在政治倡导中保持透明度，并明确表示没有任何外部政治团体可以代表公司发言。该声明发布之际，正值全球各国加速制定 AI 监管法规，OpenAI 试图在政策博弈中主动塑造自身形象，同时应对来自佛罗里达州诉讼等法律挑战所带来的舆论压力。",
+      "snark": "OpenAI 说支持监管，翻译一下：只要别管我就行。"
+    },
+    {
+      "id": 11,
+      "cat": "tool",
+      "title": "Memory OS 发布：基于 Hermes Agent 的六层开源记忆栈",
+      "title_en": "Meet Memory OS: A 6-Layer Open-Source Memory Stack Built on Top of Hermes Agent",
+      "source": "MarkTechPost",
+      "url": "https://www.marktechpost.com/2026/06/01/meet-memory-os-a-6-layer-open-source-memory-stack-built-on-top-of-hermes-agent/",
+      "time": "7小时前",
+      "published": "2026-06-01T16:53:07+00:00",
+      "summary": "开源社区推出 Memory OS，一个构建在 Hermes Agent 之上的六层记忆栈系统。该项目为 AI 智能体引入了本地持久化记忆能力，通过六个层次（从短期工作记忆到长期语义记忆）来组织和管理信息。系统采用门控检索机制，能够根据当前上下文智能决定调用哪些记忆片段，并内置了一个类似 Wiki 的知识库用于存储结构化信息。Memory OS 解决了当前大模型智能体“每次对话都失忆”的核心痛点，让 AI 能够在多次交互中记住用户偏好、历史任务和长期目标，是推动 AI 从“对话工具”向“真正助手”演进的重要基础设施。",
+      "snark": "AI 终于有了记忆，再也不用每次见面都重新自我介绍了。"
+    },
+    {
+      "id": 12,
+      "cat": "strategy",
+      "title": "Anthropic 正式提交 IPO 申请，AI 独角兽上市竞赛拉开帷幕",
+      "title_en": "Anthropic has officially filed to go public",
+      "source": "The Verge AI",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/941016/anthropic-has-officially-filed-to-go-public",
+      "time": "7小时前",
+      "published": "2026-06-01T16:40:38+00:00",
+      "summary": "在经过数月关于 OpenAI 和 Anthropic 谁将率先上市的猜测后，Anthropic 于周一正式向美国证券交易委员会提交了 IPO 申请文件，迈出了上市进程的关键一步。据其最近一轮融资估值，Anthropic 的 IPO 预计将成为今年最受瞩目的科技股上市事件之一。该公司由前 OpenAI 员工创立，以 Claude 系列模型闻名，强调 AI 安全和对齐研究。此次 IPO 不仅将检验市场对 AI 公司的估值逻辑，也可能为整个 AI 行业的资本化进程树立标杆。OpenAI 方面尚未公布类似的上市计划。",
+      "snark": "Anthropic 先跑一步，OpenAI 还在忙着打官司。",
+      "multiSource": [
+        "The Verge",
+        "The Verge AI"
+      ]
+    }
+  ],
+  "stats": {
+    "total": 12,
+    "model_count": 1,
+    "strategy_count": 4,
+    "tool_count": 3,
+    "policy_count": 4
+  }
+}

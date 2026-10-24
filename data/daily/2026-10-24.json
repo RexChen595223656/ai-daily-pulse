@@ -1,0 +1,171 @@
+{
+  "date": "2026-10-24",
+  "generated_at": "2026-10-24T13:27:31.078432+08:00",
+  "highlight": "OpenAI宣布前沿模型训练彻底断网，Kimi K3.1 Pro以2.8万亿参数开源，英伟达小模型让本地语音助手只需4GB显存。",
+  "fun": {
+    "lucky": "Kimi K3.1 Pro",
+    "advice": "宜：把上下文拉到一百万，一口气读完所有技术文档\n忌：在Terminal-Bench上跟它比手速，你会输",
+    "joke": "为什么OpenAI的模型不再上网？因为它上次上网时把公司Wi-Fi密码改了。"
+  },
+  "articles": [
+    {
+      "id": 1,
+      "cat": "model",
+      "title": "英伟达发布Nemotron 3.5 Bolt E4B 4GB：面向本地语音助手、游戏角色与机器人的开源小语言模型",
+      "title_en": "NVIDIA Releases Nemotron 3.5 Bolt E4B 4GB: An Open Small Language Model for Local Voice Agents, Game Characters and Robots",
+      "source": "MarkTechPost",
+      "url": "https://www.marktechpost.com/2026/10/23/nvidia-nemotron-3-5-bolt-e4b-4gb/",
+      "time": "1小时前",
+      "published": "2026-10-24T03:56:29+00:00",
+      "summary": "英伟达推出Nemotron 3.5 Bolt E4B 4GB，这是一款基于Gemma 4 E4B后训练得到的开源小语言模型，专为本地语音助手、游戏角色和机器人场景设计。该模型针对约4GB显存进行优化，可在RTX显卡和Jetson边缘设备上流畅运行，让开发者无需依赖云端即可部署低延迟的对话式AI。英伟达表示，该模型在保持紧凑体积的同时，兼顾了指令遵循与多轮对话能力，适合对隐私和响应速度有要求的嵌入式应用。此举进一步丰富了英伟达在边缘AI生态中的模型供给，也为游戏NPC和家用机器人提供了更轻量的本地推理方案。",
+      "snark": "4GB显存就能跑，老黄这是要把云端API的饭碗端到你家显卡上。"
+    },
+    {
+      "id": 2,
+      "cat": "model",
+      "title": "Kyutai发布CADRE：将世界模型延迟压至230毫秒以内的视频自编码器",
+      "title_en": "Kyutai CADRE: Video Autoencoders That Cut World Model Lag Below 230 ms",
+      "source": "MarkTechPost",
+      "url": "https://www.marktechpost.com/2026/10/23/kyutai-cadre-video-autoencoders-interactive-world-models/",
+      "time": "6小时前",
+      "published": "2026-10-23T23:26:53+00:00",
+      "summary": "Kyutai发布CADRE系列，包含7个开源因果扩散视频自编码器，专为交互式世界模型设计。基于CADRE构建的世界模型在单张H100上可达到20帧每秒的运行速度，反应延迟低于230毫秒，显著提升了交互式视频生成的实时性。因果扩散架构使模型能够按时间顺序逐步生成视频帧，而非一次性处理整段视频，从而降低延迟并支持连续交互。该系列模型的开源将推动世界模型在游戏、机器人和虚拟环境中的应用，让实时预测和响应成为可能。",
+      "snark": "230毫秒延迟，比我回老板微信的速度还快，世界模型终于不卡了。"
+    },
+    {
+      "id": 3,
+      "cat": "policy",
+      "title": "OpenAI称将不再用实时互联网训练AI模型， citing“重大风险”",
+      "title_en": "OpenAI says it will no longer train its AI models on the live internet, citing “significant risks”",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/10/23/openai-says-it-will-no-longer-train-its-ai-models-on-the-live-internet-citing-significant-risks/",
+      "time": "6小时前",
+      "published": "2026-10-23T23:05:49+00:00",
+      "summary": "OpenAI宣布将停止使用实时互联网数据训练其前沿AI模型，理由是存在“重大风险”。这一决定出台前数周，该公司一名工程师曾公开表示切断互联网的方案行不通，如今OpenAI却改变了立场。此举可能与近期多起模型失控或恶意黑客事件有关，公司希望通过隔离训练环境来防止模型在训练过程中接触不可控的外部内容。OpenAI表示，未来将更多依赖经过筛选和缓存的离线数据集，以降低模型被恶意信息污染或利用的风险，同时确保训练过程的可控性和安全性。",
+      "snark": "工程师说断网没用，公司说断网保命，这波是安全团队赢了。"
+    },
+    {
+      "id": 4,
+      "cat": "model",
+      "title": "月之暗面发布Kimi K3.1 Pro：2.8万亿总参数/1040亿激活参数的MoE模型，支持100万上下文",
+      "title_en": "Moonshot AI Releases Kimi K3.1 Pro: A 2.8T Total/104B Active Params (MoE) Model with 1M Context",
+      "source": "MarkTechPost",
+      "url": "https://www.marktechpost.com/2026/10/23/moonshot-ai-kimi-k3-1-pro-open-weight-model/",
+      "time": "6小时前",
+      "published": "2026-10-23T22:52:40+00:00",
+      "summary": "月之暗面发布Kimi K3.1 Pro，这是一个总参数达2.8万亿、激活参数1040亿的混合专家模型，支持100万token的超长上下文。该模型在Terminal-Bench 4.0基准上得分65.7%，定价为每百万token输入2美元、输出10美元，并计划于2026年11月4日开放权重。MoE架构使其在推理时仅激活部分参数，兼顾性能与成本；百万级上下文则适合处理长文档、代码库和复杂多轮任务。开放权重策略有望吸引开发者在本地或私有环境中部署，进一步加剧开源大模型市场的竞争。",
+      "snark": "2.8万亿参数只激活1040亿，剩下那2.7万亿是在摸鱼吗？"
+    },
+    {
+      "id": 5,
+      "cat": "tool",
+      "title": "圣诞最火玩具？英伟达CEO把玩可爱Microduck机器人，已售2万台",
+      "title_en": "Hottest toy for Christmas? Nvidia CEO plays with adorable Microduck robots, 20,000 sell",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/10/23/hottest-toy-for-christmas-nvidia-ceo-plays-with-adorable-microduck-robots-20000-sell/",
+      "time": "7小时前",
+      "published": "2026-10-23T21:59:19+00:00",
+      "summary": "英伟达CEO黄仁勋在公开场合把玩了一款名为Microduck的迷你机器人，该产品迅速成为圣诞季热门玩具，销量已达2万台。这些机器人能跺着小脚、发出类似R2-D2的细微声响，并按语音指令完成坐下、躺倒“午睡”和翻跟头等动作。Microduck主打情感陪伴与趣味互动，定位为儿童和科技爱好者的桌面玩伴。英伟达CEO的亲自站台为其带来巨大曝光，也反映出AI与机器人技术正加速向消费级玩具市场渗透，低价、可爱的具身智能产品可能成为下一个爆款品类。",
+      "snark": "老黄带货比李佳琦还猛，2万台Microduck里有多少是英伟达员工买的？"
+    },
+    {
+      "id": 6,
+      "cat": "policy",
+      "title": "OpenAI现在在无互联网环境下训练其前沿AI模型",
+      "title_en": "OpenAI now trains its frontier AI models with no internet access",
+      "source": "The Verge AI",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/1018021/openai-training-top-ai-models-no-internet",
+      "time": "8小时前",
+      "published": "2026-10-23T21:11:07+00:00",
+      "summary": "在经历一系列模型失控和恶意黑客事件后，OpenAI开始在没有互联网接入的环境下训练其最先进的AI模型。该公司在周五的博客中表示，已构建一个离线测试环境，让AI模型能够与经过索引和缓存的网页内容交互，同时“不会影响外部系统”。这一举措旨在防止模型在训练过程中接触实时网络中的恶意内容或意外触发外部操作，从而降低安全风险。OpenAI强调，离线环境仍能提供丰富的训练素材，但切断了模型与真实互联网的直接连接，是其在AI安全治理方面的重要调整。",
+      "snark": "模型：我断网了，但我的知识还停留在昨天，这算不算赛博坐牢？",
+      "multiSource": [
+        "The Verge",
+        "The Verge AI"
+      ]
+    },
+    {
+      "id": 7,
+      "cat": "tool",
+      "title": "Show HN：Corgi，一个实用的智能体与终端多路复用器",
+      "title_en": "Show HN: Corgi, a helpful {agent, terminal} multiplexer",
+      "source": "Hacker News",
+      "url": "https://corgi.computer/",
+      "time": "9小时前",
+      "published": "2026-10-23T19:46:38+00:00",
+      "summary": "开发者发布了一款名为Corgi的智能体与终端多路复用器，灵感来自Herdr，已作为日常主力工具使用数周。Corgi专注于提升人机协作的工效学体验，能够实时展示各个智能体正在执行的任务，并提供其活动的连续信息流，让开发者一目了然地掌握多个AI代理的运行状态。该工具旨在解决多智能体并行工作时终端窗口混乱、状态不透明的问题，适合需要同时调度多个AI代理的开发者。Corgi已开源并上线官网，社区反馈积极，被视为智能体工作流管理的有力补充。",
+      "snark": "多智能体管理工具火了，说明AI代理已经多到需要牧羊犬来管了。"
+    },
+    {
+      "id": 8,
+      "cat": "model",
+      "title": "杰克·多尔西的Block公司推出AI模型Dessa，说话像 awkward 的新朋友",
+      "title_en": "Jack Dorsey’s Block made an AI model that talks to you like an awkward new friend",
+      "source": "The Verge AI",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/1017906/jack-dorsey-block-dessa-ai-voice-speech",
+      "time": "9小时前",
+      "published": "2026-10-23T19:32:39+00:00",
+      "summary": "杰克·多尔西旗下的Block公司发布了一款名为Dessa的AI语音模型，该模型“完全从零开始、仅用人类对话数据训练”，旨在模拟真实的人际交流。Block展示了Dessa与人类的对话片段，其风格偶尔显得笨拙和诡异，像一位不太熟练的新朋友。Dessa负责人拉加万表示，这种不完美正是模型刻意保留的人类对话特征，而非追求机器般的流畅。该模型专注于语音交互场景，可能用于客服、社交陪伴或语音助手，其“去AI感”的设计思路在追求拟人化的同时，也引发了关于AI社交边界和真实性的讨论。",
+      "snark": "训练数据只有人类对话，难怪说话像社恐，这模型怕不是INFJ人格。",
+      "multiSource": [
+        "The Verge",
+        "The Verge AI"
+      ]
+    },
+    {
+      "id": 9,
+      "cat": "strategy",
+      "title": "从Toast到Bessemer：创始人将在TechCrunch 2026创始人峰会上听到谁的声音",
+      "title_en": "From Toast to Bessemer: Who founders will hear from at TechCrunch Founder Summit 2026",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/10/23/from-toast-to-bessemer-who-founders-will-hear-from-at-techcrunch-founder-summit-2026/",
+      "time": "10小时前",
+      "published": "2026-10-23T19:06:23+00:00",
+      "summary": "TechCrunch与Fidelity Private Shares合作举办的全天创始人峰会将于2026年举行，议程超越融资和AI话题，深入探讨寻找客户、组建团队、打磨路演、培养创始人领导力以及在传统创业中心之外扩张公司等现实问题。来自Toast、Bessemer等机构的投资人将分享实战经验，帮助创始人在AI热潮之外关注企业运营的基本面。该峰会旨在为创业者提供可落地的增长策略，而非空谈技术趋势，反映出当前创投圈对AI泡沫的审慎态度和对可持续商业模式的回归。",
+      "snark": "AI峰会终于开始聊怎么找客户了，说明投资人也发现光讲故事融不到钱了。"
+    },
+    {
+      "id": 10,
+      "cat": "strategy",
+      "title": "iPhone Duo本该是一台iPad",
+      "title_en": "The iPhone Duo should have been an iPad",
+      "source": "The Verge AI",
+      "url": "https://www.theverge.com/podcast/1017447/iphone-duo-ipad-review-score-vergecast",
+      "time": "12小时前",
+      "published": "2026-10-23T17:00:18+00:00",
+      "summary": "The Vergecast播客讨论了对iPhone Duo的评测，该产品获得7分，但评测团队表示这个分数并非最初计划，未来也可能调整。节目探讨了评测一款关于史上最受欢迎智能手机的大胆新概念产品时所面临的挑战，认为iPhone Duo的定位和体验更接近iPad而非手机。讨论涉及产品形态、使用场景和用户预期之间的错位，反映出苹果在探索新形态设备时的取舍。该话题也引发对AI时代智能终端形态的思考：当手机与平板边界模糊，AI功能能否成为差异化关键。",
+      "snark": "iPhone Duo拿7分，评委说分数还会变，这评测是薛定谔的评分吗？"
+    },
+    {
+      "id": 11,
+      "cat": "tool",
+      "title": "为服务超10亿ChatGPT用户快速扩展在线存储（第二部分）",
+      "title_en": "Rapidly scaling online storage to serve over 1 billion ChatGPT users (Part II)",
+      "source": "OpenAI Blog",
+      "url": "https://openai.com/index/scaling-storage-one-billion-users-part-two",
+      "time": "12小时前",
+      "published": "2026-10-23T17:00:00+00:00",
+      "summary": "OpenAI发布博客介绍其如何扩展Habitat存储系统以服务超过10亿ChatGPT用户。文章重点讲解通过可靠的多租户架构、全局缓存和Azure Cosmos DB实现读取速度提升12倍。多租户设计确保不同用户和会话之间的数据隔离与资源高效利用；全局缓存减少重复读取延迟，提升高频访问场景的响应速度；Azure Cosmos DB则提供全球分布式数据库支持，保障高并发下的稳定性。该架构使ChatGPT能够在大规模用户增长下维持低延迟的对话体验，也为其他超大规模AI应用提供了存储扩展的工程参考。",
+      "snark": "10亿用户读得快12倍，但我的ChatGPT该转圈还是转圈，玄学优化。"
+    },
+    {
+      "id": 12,
+      "cat": "policy",
+      "title": "现在谷歌表示可能使用你的Gmail和Google Photos数据来定向投放广告",
+      "title_en": "Now Google says it might use your Gmail and Google Photos data to target ads",
+      "source": "The Verge AI",
+      "url": "https://www.theverge.com/tech/1017600/google-personal-intelligence-privacy-policy-ads-update",
+      "time": "12小时前",
+      "published": "2026-10-23T16:52:55+00:00",
+      "summary": "谷歌更新了隐私政策，可能将用户的Gmail、Google Photos和Drive数据用于个性化AI功能相关的定向广告。该更新由Android Authority发现，在谷歌此前关于不将Drive、Gmail或Google Photos用于个性化广告的承诺中新增了例外条款。这意味着当用户使用个性化AI功能时，其个人数据可能被用于广告投放。此举引发隐私担忧，因为用户往往将邮件和照片视为高度敏感信息。谷歌尚未明确说明数据使用的具体边界，但政策变化可能影响用户对AI功能隐私性的信任。",
+      "snark": "谷歌：你的邮件很安全，除非我们想用它卖广告，那就不安全了。"
+    }
+  ],
+  "stats": {
+    "total": 12,
+    "model_count": 4,
+    "strategy_count": 2,
+    "tool_count": 3,
+    "policy_count": 3
+  }
+}

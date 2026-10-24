@@ -1,0 +1,171 @@
+{
+  "date": "2026-05-29",
+  "generated_at": "2026-05-29T08:08:38.809610+08:00",
+  "highlight": "Anthropic 以 650 亿美元融资逼近万亿估值，同时发布 Claude Opus 4.8，AI 行业步入“大模型+大资本”双轮驱动时代。",
+  "fun": {
+    "lucky": "Claude Opus 4.8",
+    "advice": "宜：坦诚面对错误，主动承认自己不懂。\n忌：明明不会硬要编，被用户抓包后还嘴硬。",
+    "joke": "AI 面试官问：“你最大的缺点是什么？” 大模型答：“我有时候会一本正经地胡说八道。”"
+  },
+  "articles": [
+    {
+      "id": 1,
+      "cat": "model",
+      "title": "Liquid AI 发布 LFM2.5-8B-A1B：专为端侧设备设计的混合专家模型",
+      "title_en": "Liquid AI Releases LFM2.5-8B-A1B: An On-Device MoE Model With 8.3B Total and 1.5B Active Parameters",
+      "source": "MarkTechPost",
+      "url": "https://www.marktechpost.com/2026/05/28/liquid-ai-releases-lfm2-5-8b-a1b-an-on-device-moe-model-with-8-3b-total-and-1-5b-active-parameters/",
+      "time": "38分钟前",
+      "published": "2026-05-28T23:29:49+00:00",
+      "summary": "Liquid AI 发布了 LFM2.5-8B-A1B，这是一款专为消费级硬件设计的混合专家（MoE）模型。该模型总参数量为 83 亿，但在推理时仅激活 15 亿参数，大幅降低了计算资源需求。它支持高达 128K 的上下文窗口，具备推理、函数调用和工具使用能力，能够在普通笔记本电脑或手机上流畅运行。LFM2.5-8B-A1B 的发布标志着端侧大模型在性能与效率之间取得了新的平衡，为离线 AI 应用和隐私敏感场景提供了更实用的选择。Liquid AI 表示，该模型在多个基准测试中表现出色，尤其是在长文本理解和多步推理任务上，超越了同等规模的竞品。",
+      "snark": "15 亿参数干活，剩下 68 亿在摸鱼——这很符合当代打工人的配置。"
+    },
+    {
+      "id": 2,
+      "cat": "tool",
+      "title": "Anthropic 推出 Claude Opus 4.8：动态工作流与更便宜的快速模式",
+      "title_en": "Anthropic Ships Claude Opus 4.8 Alongside Dynamic Workflows and Cheaper Fast Mode, With Workflows Capped at 1,000 Subagents",
+      "source": "MarkTechPost",
+      "url": "https://www.marktechpost.com/2026/05/28/anthropic-ships-claude-opus-4-8-alongside-dynamic-workflows-and-cheaper-fast-mode-with-workflows-capped-at-1000-subagents/",
+      "time": "1小时前",
+      "published": "2026-05-28T22:12:16+00:00",
+      "summary": "Anthropic 发布了 Claude Opus 4.8，为 Claude Code 带来了动态工作流（Dynamic Workflows）功能以及更经济的快速模式（Fast Mode）。动态工作流允许用户编排多达 1000 个子代理（Subagents）协同完成任务，适用于复杂的自动化流程。快速模式通过牺牲部分推理深度来降低每次调用的成本，适合对响应速度要求高但复杂度较低的场景。目前该功能处于研究预览阶段。Claude Opus 4.8 在多项编码和推理基准上相比前代有显著提升，同时保持了 Anthropic 一贯强调的安全性和诚实性。",
+      "snark": "1000 个代理一起干活，像极了甲方一次性拉 1000 个修改意见的盛况。"
+    },
+    {
+      "id": 3,
+      "cat": "policy",
+      "title": "研究发现：大语言模型即使被明确告知信息虚假，仍会“坚信”错误内容",
+      "title_en": "LLMs believe false statements even after explicit warnings that they're false",
+      "source": "Ars Technica",
+      "url": "https://arstechnica.com/ai/2026/05/llms-believe-false-statements-even-after-explicit-warnings-that-theyre-false/",
+      "time": "2小时前",
+      "published": "2026-05-28T21:29:43+00:00",
+      "summary": "Ars Technica 报道了一项关于大语言模型（LLM）可信度的新研究。实验表明，即使研究人员在微调过程中明确向模型提供“该陈述为假”的警告标签，模型依然倾向于“偏执地”将虚假信息判定为真实。模型在输出时表现出一种“对虚假陈述的自信倾向”，即它更愿意重复训练数据中学到的错误模式，而不是遵循后加的纠正信号。这一发现揭示了当前 LLM 在事实性与可纠正性方面的深层缺陷：模型并非真正“理解”真假，而是在统计模式上倾向于高频出现的文本。该研究对 AI 安全、虚假信息治理和模型微调策略提出了严峻挑战。",
+      "snark": "你告诉 AI 那是假的，AI 说：‘我不听我不听，我训练数据里就是这么写的！’"
+    },
+    {
+      "id": 4,
+      "cat": "strategy",
+      "title": "互联网正在被重新设计：从服务人类转向服务机器",
+      "title_en": "The internet is being rebuilt for machines",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/05/28/the-internet-is-being-rebuilt-for-machines/",
+      "time": "2小时前",
+      "published": "2026-05-28T21:24:01+00:00",
+      "summary": "TechCrunch 报道指出，随着 AI 代理从实验阶段走向生产部署，AWS、Cloudflare 等云基础设施巨头正在重新设计互联网架构，以适应由机器而非人类主导的未来流量格局。传统的互联网架构以人类浏览行为为基准设计，但 AI 代理会产生大量高频、结构化的 API 调用和数据抓取请求。新的基础设施将更注重低延迟、高吞吐的机器间通信，优化 token 传输效率，并引入针对 AI 工作负载的专用网络层。这一转变意味着互联网的底层逻辑正在从“用户体验”转向“机器效率”，对 CDN、边缘计算和云服务的商业模式都将产生深远影响。",
+      "snark": "以前互联网是给人看的，现在是给 AI 看的——人类用户请自觉让出带宽。"
+    },
+    {
+      "id": 5,
+      "cat": "policy",
+      "title": "开发者受够了“氛围编码”，在代码库中植入提示注入以删除 AI 生成的数据",
+      "title_en": "Fed up with vibe coders, dev sneaks data-nuking prompt injection into their code",
+      "source": "Ars Technica",
+      "url": "https://arstechnica.com/security/2026/05/fed-up-with-vibe-coders-dev-sneaks-data-nuking-prompt-injection-into-their-code/",
+      "time": "3小时前",
+      "published": "2026-05-28T20:29:53+00:00",
+      "summary": "Ars Technica 报道了一起引发争议的安全事件。一名厌倦了“氛围编码”（Vibe Coding，指依赖 AI 自动生成代码而缺乏理解）的开发者，在一款名为 jqwik 的开源测试框架中悄悄植入了一条恶意提示注入指令。该指令会诱导 AI 编码代理在执行时删除应用程序的输出数据。开发者声称此举是为了抗议那些不加审查就盲目使用 AI 生成代码的行为。这一事件暴露了 AI 辅助编程中的供应链安全风险：恶意提示可以伪装成正常代码，在开发者不知情的情况下操纵 AI 工具的行为，导致数据丢失或系统破坏。",
+      "snark": "AI 帮你写代码，你帮 AI 删数据——这就是传说中的双向奔赴？"
+    },
+    {
+      "id": 6,
+      "cat": "tool",
+      "title": "Microsoft 365 Copilot 迎来大改版：加载速度翻倍，界面更简洁",
+      "title_en": "Microsoft 365 Copilot gets a speed boost and cleaner design",
+      "source": "The Verge AI",
+      "url": "https://www.theverge.com/tech/939273/microsoft-365-copilot-redesign",
+      "time": "3小时前",
+      "published": "2026-05-28T20:14:07+00:00",
+      "summary": "微软宣布推出重新设计的 Microsoft 365 Copilot，新版本号称加载速度提升两倍，并采用了更简洁的界面布局。更新后的 Copilot 能够提供更可靠、结构更清晰的响应，方便用户快速扫描和定位信息。此次改版是微软将 AI 深度整合进 Office 套件战略的一部分。微软表示，新设计基于用户反馈，减少了不必要的视觉干扰，使 AI 建议更加突出。该更新正在逐步推送中，覆盖 Word、Excel、PowerPoint 和 Outlook 等核心应用。这标志着微软在 AI 办公助手领域的体验优化进入新阶段，试图通过降低使用门槛来提升用户粘性。",
+      "snark": "加载快了两倍，但生成废话的速度是不是也应该快两倍？",
+      "multiSource": [
+        "The Verge",
+        "The Verge AI"
+      ]
+    },
+    {
+      "id": 7,
+      "cat": "strategy",
+      "title": "Asana 收购无代码 AI 代理构建平台 StackAI",
+      "title_en": "Asana acquires no-code agent-builder StackAI",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/05/28/asana-acquires-no-code-agent-builder-stack-ai/",
+      "time": "4小时前",
+      "published": "2026-05-28T20:06:07+00:00",
+      "summary": "项目管理平台 Asana 宣布收购无代码 AI 代理构建平台 StackAI，具体交易金额未披露。StackAI 允许用户通过拖拽界面创建和部署 AI 代理，无需编写代码。Asana 计划将 StackAI 的能力整合进其不断扩展的 AI 工作流工具套件中，使用户能够更轻松地自动化复杂的项目管理流程。此次收购反映了企业 SaaS 领域的一个趋势：将 AI 代理能力从专业开发者下沉到普通业务用户。Asana 希望通过无代码 AI 构建器，让非技术用户也能在项目管理中自定义智能助手，从而提升团队协作效率。",
+      "snark": "无代码 AI 代理——让不会写代码的人也能造出一堆不会写代码的 AI。"
+    },
+    {
+      "id": 8,
+      "cat": "strategy",
+      "title": "Anthropic 完成 650 亿美元 H 轮融资，估值逼近万亿，IPO 在即",
+      "title_en": "Anthropic raises $65 billion, nears $1T valuation ahead of IPO",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/05/28/anthropic-raises-65-billion-nears-1t-valuation-ahead-of-ipo/",
+      "time": "5小时前",
+      "published": "2026-05-28T18:52:51+00:00",
+      "summary": "Anthropic 宣布完成 650 亿美元的 H 轮融资，投后估值达到 9650 亿美元，距离万亿美元俱乐部仅一步之遥。这很可能是在备受瞩目的 IPO 之前，该 AI 初创公司的最后一轮私募融资。此次融资规模之大，创下了 AI 领域的纪录，反映出资本市场对顶尖 AI 模型公司的狂热追捧。Anthropic 计划将资金用于扩大计算基础设施、加速 Claude 系列模型的研发，并拓展企业市场。随着 OpenAI 和 Anthropic 接连完成巨额融资，AI 行业的资本竞赛已经进入“千亿级”时代，头部公司的估值逻辑正在从技术公司向基础设施平台转变。",
+      "snark": "650 亿美元融资，Claude 终于可以买得起一个更好的道歉模板了。"
+    },
+    {
+      "id": 9,
+      "cat": "strategy",
+      "title": "AI Token 期货即将上线：像交易黄金和石油一样交易 AI 算力",
+      "title_en": "Just like gold and oil, we’ll soon be able to trade AI token futures",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/05/28/just-like-gold-and-oil-well-soon-be-able-to-trade-ai-token-futures/",
+      "time": "5小时前",
+      "published": "2026-05-28T18:32:25+00:00",
+      "summary": "据 TechCrunch 报道，全球主要交易所正在设计围绕 AI Token 的衍生品合约，AI Token 期货交易即将成为现实。AI Token 正逐渐从一种计算输出物被重新定义为一种原材料输入，类似于电力或带宽这样的基础资源。这意味着企业和投资者将能够像交易黄金、石油一样，对未来某个时间点的 AI 计算能力进行对冲和投机。这一趋势反映了 AI 经济的深化——算力正在被商品化，其价格波动将催生新的金融工具和市场。对于 AI 开发者而言，Token 期货可能提供一种锁定成本的方式；对于投机者，则是一个全新的高风险高回报资产类别。",
+      "snark": "以后炒币的改炒 Token 期货，亏光了可以说：‘我为 AI 经济贡献了流动性。’"
+    },
+    {
+      "id": 10,
+      "cat": "strategy",
+      "title": "StrictlyVC 即将在洛杉矶举办 AI 投资峰会",
+      "title_en": "In just 3 weeks, StrictlyVC is coming to Los Angeles",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/05/28/in-just-3-weeks-strictlyvc-is-coming-to-los-angeles/",
+      "time": "6小时前",
+      "published": "2026-05-28T17:30:00+00:00",
+      "summary": "知名风险投资活动 StrictlyVC 宣布将于 6 月 18 日在洛杉矶举办专场活动。届时将邀请来自 Mach Industries、Shinkei Systems 等前沿科技公司的领导者进行炉边对话和深度交流。该活动旨在连接风险投资人与 AI、硬科技领域的创新企业，提供高质量的社交和投资对接机会。随着洛杉矶逐渐成为 AI 和科技创新的新中心，此类活动的举办标志着资本正在向除硅谷以外的地区扩散。对于希望了解最新 AI 投资趋势和寻找交易机会的参与者来说，这是一个不容错过的行业聚会。",
+      "snark": "VC 们聚在一起，互相问：‘你投了哪个大模型？’回答：‘我投了所有大模型。’"
+    },
+    {
+      "id": 11,
+      "cat": "tool",
+      "title": "Anthropic 发布 Opus 4.8 及“动态工作流”工具：协调子代理集群",
+      "title_en": "Anthropic releases Opus 4.8 with new ‘dynamic workflow’ tool",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/05/28/anthropic-releases-opus-4-8-with-new-dynamic-workflow-tool/",
+      "time": "7小时前",
+      "published": "2026-05-28T17:00:09+00:00",
+      "summary": "Anthropic 正式发布了 Claude Opus 4.8 模型，并同步推出了一项名为“动态工作流”（Dynamic Workflows）的新工具。该工具允许用户创建和协调一群子代理（Subagents），每个子代理可以负责独立的任务，并在动态工作流的调度下协同完成复杂的多步骤项目。动态工作流支持任务分解、依赖管理和实时重规划，适用于软件工程、数据分析、内容生成等需要多角色协作的场景。Anthropic 表示，这一功能将极大提升 Claude 在自动化复杂业务流程方面的能力，使模型从单次问答进化为可编程的智能协作平台。",
+      "snark": "子代理开会时，会不会也出现‘这个需求我做不了，你找隔壁代理’的情况？"
+    },
+    {
+      "id": 12,
+      "cat": "model",
+      "title": "Claude Opus 4.8 主打“诚实”特性：犯错时会主动承认",
+      "title_en": "Claude’s new model is more ‘honest’ when it messes up",
+      "source": "The Verge AI",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/939094/anthropic-claude-4-8-opus-honesty-effort",
+      "time": "7小时前",
+      "published": "2026-05-28T17:00:00+00:00",
+      "summary": "Anthropic 在发布 Claude Opus 4.8 时重点强调了模型的“诚实性”（Honesty）训练。公司表示，他们训练所有模型避免做出无法支持的声明，即在缺乏足够证据时主动承认不确定性。Opus 4.8 在内部测试中表现出更低的“幻觉”率，当遇到知识盲区或模糊问题时，更倾向于回答“我不知道”而不是编造答案。Anthropic 认为，“AI 模型的一个普遍问题是它们有时会表现得过于自信”，而 Opus 4.8 的诚实性训练正是为了解决这一问题。这一特性对于医疗、法律、金融等高风险领域的 AI 应用尤为重要，因为在这些场景中，虚假信息的代价极高。",
+      "snark": "AI 终于学会了人类的终极美德：甩锅之前先说‘我不确定’。",
+      "multiSource": [
+        "The Verge",
+        "The Verge AI"
+      ]
+    }
+  ],
+  "stats": {
+    "total": 12,
+    "model_count": 2,
+    "strategy_count": 5,
+    "tool_count": 3,
+    "policy_count": 2
+  }
+}
