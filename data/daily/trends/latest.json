@@ -158,20 +158,20 @@
       {
         "model": "Claude Opus 5.5 (Max, Default Fallback)",
         "org": "Anthropic",
-        "outputSpeed": 96.1,
-        "ttft": 407.92
+        "outputSpeed": 94.2,
+        "ttft": 521.31
       },
       {
         "model": "Claude Sonnet 5.5 (Max, Default Fallback)",
         "org": "Anthropic",
-        "outputSpeed": 137.2,
-        "ttft": 261.38
+        "outputSpeed": 140.1,
+        "ttft": 280.48
       },
       {
         "model": "Claude Opus 5.5 (Xhigh, Default Fallback)",
         "org": "Anthropic",
-        "outputSpeed": 73.7,
-        "ttft": 48.99
+        "outputSpeed": 75.7,
+        "ttft": 59.81
       },
       {
         "model": "Muse Wonder Full (Max)",
@@ -182,38 +182,38 @@
       {
         "model": "Kimi K3.1 Pro",
         "org": "Kimi",
-        "outputSpeed": 55.5,
-        "ttft": 1.92
+        "outputSpeed": 48.8,
+        "ttft": 2.06
       },
       {
         "model": "Claude Opus 5.5 (High, Default Fallback)",
         "org": "Anthropic",
-        "outputSpeed": 71.9,
-        "ttft": 14.16
+        "outputSpeed": 71.8,
+        "ttft": 15.28
       },
       {
         "model": "Claude Fable 5.1 (Max, Default Fallback)",
         "org": "Anthropic",
-        "outputSpeed": 69.9,
-        "ttft": 126.65
+        "outputSpeed": 67.0,
+        "ttft": 140.65
       },
       {
         "model": "Claude Fable 5.1 (Xhigh, Default Fallback)",
         "org": "Anthropic",
         "outputSpeed": 52.7,
-        "ttft": 30.98
+        "ttft": 40.38
       },
       {
         "model": "GPT-6 Astra (Max)",
         "org": "OpenAI",
-        "outputSpeed": 60.1,
-        "ttft": 163.67
+        "outputSpeed": 66.8,
+        "ttft": 167.24
       },
       {
         "model": "Gemini 4 Argon (High)",
         "org": "Google",
-        "outputSpeed": 79.9,
-        "ttft": 31.03
+        "outputSpeed": 78.0,
+        "ttft": 35.9
       }
     ]
   },
@@ -342,5 +342,5 @@
     "price": [],
     "speed": []
   },
-  "_fetched_at": "2026-10-25T08:15:28.919428+08:00"
+  "_fetched_at": "2026-10-26T08:00:42.126903+08:00"
 }
