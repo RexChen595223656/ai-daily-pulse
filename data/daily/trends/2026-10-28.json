@@ -1,0 +1,346 @@
+{
+  "llm": {
+    "perf": [
+      {
+        "model": "Claude Opus 5.5 (Max, Default Fallback)",
+        "org": "Anthropic",
+        "intelligence": 57.6,
+        "coding": 0,
+        "math": 0,
+        "reasoning": 0
+      },
+      {
+        "model": "Claude Sonnet 5.5 (Max, Default Fallback)",
+        "org": "Anthropic",
+        "intelligence": 56,
+        "coding": 0,
+        "math": 0,
+        "reasoning": 0
+      },
+      {
+        "model": "Claude Opus 5.5 (Xhigh, Default Fallback)",
+        "org": "Anthropic",
+        "intelligence": 56,
+        "coding": 0,
+        "math": 0,
+        "reasoning": 0
+      },
+      {
+        "model": "Muse Wonder Full (Max)",
+        "org": "Meta",
+        "intelligence": 55.8,
+        "coding": 0,
+        "math": 0,
+        "reasoning": 0
+      },
+      {
+        "model": "Kimi K3.1 Pro",
+        "org": "Kimi",
+        "intelligence": 55.1,
+        "coding": 0,
+        "math": 0,
+        "reasoning": 0
+      },
+      {
+        "model": "Claude Opus 5.5 (High, Default Fallback)",
+        "org": "Anthropic",
+        "intelligence": 53.6,
+        "coding": 0,
+        "math": 0,
+        "reasoning": 0
+      },
+      {
+        "model": "Claude Fable 5.1 (Max, Default Fallback)",
+        "org": "Anthropic",
+        "intelligence": 53.4,
+        "coding": 81.6,
+        "math": 0,
+        "reasoning": 93.7
+      },
+      {
+        "model": "Claude Fable 5.1 (Xhigh, Default Fallback)",
+        "org": "Anthropic",
+        "intelligence": 53.2,
+        "coding": 80.7,
+        "math": 0,
+        "reasoning": 93.4
+      },
+      {
+        "model": "GPT-6 Astra (Max)",
+        "org": "OpenAI",
+        "intelligence": 52.7,
+        "coding": 76.9,
+        "math": 0,
+        "reasoning": 96.1
+      },
+      {
+        "model": "Gemini 4 Argon (High)",
+        "org": "Google",
+        "intelligence": 52.6,
+        "coding": 0,
+        "math": 0,
+        "reasoning": 0
+      }
+    ],
+    "price": [
+      {
+        "model": "Claude Opus 5.5 (Max, Default Fallback)",
+        "org": "Anthropic",
+        "input": 4,
+        "output": 20,
+        "blended": 8
+      },
+      {
+        "model": "Claude Sonnet 5.5 (Max, Default Fallback)",
+        "org": "Anthropic",
+        "input": 2,
+        "output": 10,
+        "blended": 4
+      },
+      {
+        "model": "Claude Opus 5.5 (Xhigh, Default Fallback)",
+        "org": "Anthropic",
+        "input": 4,
+        "output": 20,
+        "blended": 8
+      },
+      {
+        "model": "Muse Wonder Full (Max)",
+        "org": "Meta",
+        "input": 0,
+        "output": 0,
+        "blended": 0.0
+      },
+      {
+        "model": "Kimi K3.1 Pro",
+        "org": "Kimi",
+        "input": 2,
+        "output": 10,
+        "blended": 4
+      },
+      {
+        "model": "Claude Opus 5.5 (High, Default Fallback)",
+        "org": "Anthropic",
+        "input": 4,
+        "output": 20,
+        "blended": 8
+      },
+      {
+        "model": "Claude Fable 5.1 (Max, Default Fallback)",
+        "org": "Anthropic",
+        "input": 10,
+        "output": 50,
+        "blended": 20
+      },
+      {
+        "model": "Claude Fable 5.1 (Xhigh, Default Fallback)",
+        "org": "Anthropic",
+        "input": 10,
+        "output": 50,
+        "blended": 20
+      },
+      {
+        "model": "GPT-6 Astra (Max)",
+        "org": "OpenAI",
+        "input": 10,
+        "output": 50,
+        "blended": 20
+      },
+      {
+        "model": "Gemini 4 Argon (High)",
+        "org": "Google",
+        "input": 2,
+        "output": 10,
+        "blended": 4
+      }
+    ],
+    "speed": [
+      {
+        "model": "Claude Opus 5.5 (Max, Default Fallback)",
+        "org": "Anthropic",
+        "outputSpeed": 96.6,
+        "ttft": 451.71
+      },
+      {
+        "model": "Claude Sonnet 5.5 (Max, Default Fallback)",
+        "org": "Anthropic",
+        "outputSpeed": 140.7,
+        "ttft": 302.81
+      },
+      {
+        "model": "Claude Opus 5.5 (Xhigh, Default Fallback)",
+        "org": "Anthropic",
+        "outputSpeed": 80.0,
+        "ttft": 59.01
+      },
+      {
+        "model": "Muse Wonder Full (Max)",
+        "org": "Meta",
+        "outputSpeed": 0,
+        "ttft": 0
+      },
+      {
+        "model": "Kimi K3.1 Pro",
+        "org": "Kimi",
+        "outputSpeed": 38.0,
+        "ttft": 2.17
+      },
+      {
+        "model": "Claude Opus 5.5 (High, Default Fallback)",
+        "org": "Anthropic",
+        "outputSpeed": 80.8,
+        "ttft": 13.04
+      },
+      {
+        "model": "Claude Fable 5.1 (Max, Default Fallback)",
+        "org": "Anthropic",
+        "outputSpeed": 66.1,
+        "ttft": 158.04
+      },
+      {
+        "model": "Claude Fable 5.1 (Xhigh, Default Fallback)",
+        "org": "Anthropic",
+        "outputSpeed": 61.0,
+        "ttft": 35.22
+      },
+      {
+        "model": "GPT-6 Astra (Max)",
+        "org": "OpenAI",
+        "outputSpeed": 68.1,
+        "ttft": 184.51
+      },
+      {
+        "model": "Gemini 4 Argon (High)",
+        "org": "Google",
+        "outputSpeed": 80.5,
+        "ttft": 36.02
+      }
+    ]
+  },
+  "image": {
+    "perf": [
+      {
+        "model": "GPT Image 2.5 Sunburst (max)",
+        "elo": 1222,
+        "rank": 1,
+        "org": "OpenAI",
+        "date": "2026-09"
+      },
+      {
+        "model": "GPT Image 2.5 Flare (max)",
+        "elo": 1207,
+        "rank": 2,
+        "org": "OpenAI",
+        "date": "2026-09"
+      },
+      {
+        "model": "GPT Image 2 (high)",
+        "elo": 1186,
+        "rank": 3,
+        "org": "OpenAI",
+        "date": "2026-04"
+      },
+      {
+        "model": "Nano Banana 2.1",
+        "elo": 1176,
+        "rank": 4,
+        "org": "Google",
+        "date": "2026-10"
+      },
+      {
+        "model": "MAI-Image-2.6",
+        "elo": 1166,
+        "rank": 5,
+        "org": "Microsoft AI",
+        "date": "2026-08"
+      },
+      {
+        "model": "Grok Imagine Image 2.0",
+        "elo": 1166,
+        "rank": 6,
+        "org": "SpaceXAI",
+        "date": "2026-08"
+      },
+      {
+        "model": "Nano Banana 2 (Gemini 3.1 Flash Image)",
+        "elo": 1140,
+        "rank": 7,
+        "org": "Google",
+        "date": "2026-02"
+      },
+      {
+        "model": "Muse Image",
+        "elo": 1127,
+        "rank": 8,
+        "org": "Meta",
+        "date": "2026-07"
+      }
+    ],
+    "price": [],
+    "speed": []
+  },
+  "speech": null,
+  "video": {
+    "perf": [
+      {
+        "model": "HeyGen Video 1",
+        "elo": 1143,
+        "rank": 1,
+        "org": "HeyGen",
+        "type": ""
+      },
+      {
+        "model": "Wan 3.0",
+        "elo": 1133,
+        "rank": 2,
+        "org": "Alibaba",
+        "type": ""
+      },
+      {
+        "model": "MiniMax H3 (768p)",
+        "elo": 1120,
+        "rank": 3,
+        "org": "MiniMax",
+        "type": ""
+      },
+      {
+        "model": "MiniMax H3 Max",
+        "elo": 1118,
+        "rank": 4,
+        "org": "Fal",
+        "type": ""
+      },
+      {
+        "model": "Dreamina Seedance 2.5",
+        "elo": 1104,
+        "rank": 5,
+        "org": "ByteDance Seed",
+        "type": ""
+      },
+      {
+        "model": "FLUX 3",
+        "elo": 1091,
+        "rank": 6,
+        "org": "Black Forest Labs",
+        "type": ""
+      },
+      {
+        "model": "Dreamina Seedance 2.0",
+        "elo": 1082,
+        "rank": 7,
+        "org": "ByteDance Seed",
+        "type": ""
+      },
+      {
+        "model": "Gemini Omni Flash 1.1",
+        "elo": 1067,
+        "rank": 8,
+        "org": "Google",
+        "type": ""
+      }
+    ],
+    "price": [],
+    "speed": []
+  },
+  "_fetched_at": "2026-10-28T08:07:35.488967+08:00"
+}

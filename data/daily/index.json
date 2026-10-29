@@ -1,4 +1,28 @@
 {
+  "2026-10-29": {
+    "date": "2026-10-29",
+    "highlight": "谷歌发布Gemini 4 Carbon前沿模型，微软Azure单季营收332亿美元紧追AWS。",
+    "count": 12,
+    "stats": {
+      "total": 12,
+      "model_count": 4,
+      "strategy_count": 4,
+      "tool_count": 2,
+      "policy_count": 2
+    }
+  },
+  "2026-10-28": {
+    "date": "2026-10-28",
+    "highlight": "Anthropic启动IPO并自曝AI风险，同时政府合作与科研突破并行，AI治理与商业化矛盾凸显。",
+    "count": 12,
+    "stats": {
+      "total": 12,
+      "model_count": 1,
+      "strategy_count": 4,
+      "tool_count": 3,
+      "policy_count": 4
+    }
+  },
   "2026-10-26": {
     "date": "2026-10-26",
     "highlight": "谷歌AI搜索重塑出版业，同时开源社区掀起反AI浪潮，行业冰火两重天。",
@@ -693,30 +717,6 @@
       "strategy_count": 1,
       "tool_count": 3,
       "policy_count": 2
-    }
-  },
-  "2026-08-22": {
-    "date": "2026-08-22",
-    "highlight": "GPU 云服务商竞争白热化、英伟达布局数据中心、Anthropic 模型安全漏洞引发关注，AI 基础设施与安全成今日焦点。",
-    "count": 12,
-    "stats": {
-      "total": 12,
-      "model_count": 1,
-      "strategy_count": 4,
-      "tool_count": 4,
-      "policy_count": 3
-    }
-  },
-  "2026-08-21": {
-    "date": "2026-08-21",
-    "highlight": "OpenAI 在企业市场追赶 Anthropic，谷歌推出出版商自救按钮，AI 行业在商业落地与伦理争议中加速分化。",
-    "count": 12,
-    "stats": {
-      "total": 12,
-      "model_count": 3,
-      "strategy_count": 3,
-      "tool_count": 5,
-      "policy_count": 1
     }
   }
 }
