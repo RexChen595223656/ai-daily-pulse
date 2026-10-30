@@ -1,4 +1,16 @@
 {
+  "2026-10-30": {
+    "date": "2026-10-30",
+    "highlight": "Mistral开源万亿参数安全模型，AWS千亿资本支出押注AI云，Reddit搜索流量被谷歌AI模式截流。",
+    "count": 12,
+    "stats": {
+      "total": 12,
+      "model_count": 3,
+      "strategy_count": 4,
+      "tool_count": 4,
+      "policy_count": 1
+    }
+  },
   "2026-10-29": {
     "date": "2026-10-29",
     "highlight": "谷歌发布Gemini 4 Carbon前沿模型，微软Azure单季营收332亿美元紧追AWS。",
@@ -704,18 +716,6 @@
       "model_count": 2,
       "strategy_count": 0,
       "tool_count": 4,
-      "policy_count": 2
-    }
-  },
-  "2026-08-23": {
-    "date": "2026-08-23",
-    "highlight": "前沿AI实验室安全策略缺失与OpenAI立场反转成焦点，同时AI智能体在科研复制领域展现超预期能力。",
-    "count": 9,
-    "stats": {
-      "total": 9,
-      "model_count": 3,
-      "strategy_count": 1,
-      "tool_count": 3,
       "policy_count": 2
     }
   }

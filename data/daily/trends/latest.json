@@ -29,7 +29,7 @@
         "model": "GPT-6 Astra (Max)",
         "org": "OpenAI",
         "intelligence": 56.9,
-        "coding": 76.9,
+        "coding": 0,
         "math": 0,
         "reasoning": 96.1
       },
@@ -37,7 +37,7 @@
         "model": "GPT-6 Astra (Xhigh)",
         "org": "OpenAI",
         "intelligence": 55.3,
-        "coding": 75.9,
+        "coding": 0,
         "math": 0,
         "reasoning": 96.3
       },
@@ -45,7 +45,7 @@
         "model": "GPT-6 Astra (High)",
         "org": "OpenAI",
         "intelligence": 54.8,
-        "coding": 77.1,
+        "coding": 0,
         "math": 0,
         "reasoning": 94.9
       },
@@ -158,62 +158,62 @@
       {
         "model": "Gemini 4 Carbon (High)",
         "org": "Google",
-        "outputSpeed": 88.0,
-        "ttft": 56.91
+        "outputSpeed": 87.7,
+        "ttft": 61.44
       },
       {
         "model": "Claude Opus 5.5 (Max, Default Fallback)",
         "org": "Anthropic",
-        "outputSpeed": 96.4,
-        "ttft": 456.07
+        "outputSpeed": 96.5,
+        "ttft": 575.56
       },
       {
         "model": "Claude Opus 5.5 (Xhigh, Default Fallback)",
         "org": "Anthropic",
         "outputSpeed": 83.6,
-        "ttft": 53.74
+        "ttft": 82.61
       },
       {
         "model": "GPT-6 Astra (Max)",
         "org": "OpenAI",
-        "outputSpeed": 70.1,
-        "ttft": 198.15
+        "outputSpeed": 81.0,
+        "ttft": 215.77
       },
       {
         "model": "GPT-6 Astra (Xhigh)",
         "org": "OpenAI",
-        "outputSpeed": 69.1,
-        "ttft": 69.91
+        "outputSpeed": 77.0,
+        "ttft": 71.78
       },
       {
         "model": "GPT-6 Astra (High)",
         "org": "OpenAI",
-        "outputSpeed": 56.2,
-        "ttft": 27.53
+        "outputSpeed": 65.8,
+        "ttft": 34.46
       },
       {
         "model": "GPT-6.1 Sol (Max)",
         "org": "OpenAI",
-        "outputSpeed": 79.7,
-        "ttft": 168.56
+        "outputSpeed": 83.5,
+        "ttft": 181.42
       },
       {
         "model": "Claude Sonnet 5.5 (Max, Default Fallback)",
         "org": "Anthropic",
-        "outputSpeed": 136.2,
-        "ttft": 308.06
+        "outputSpeed": 134.4,
+        "ttft": 251.91
       },
       {
         "model": "GPT-6.1 Sol (Xhigh)",
         "org": "OpenAI",
-        "outputSpeed": 68.5,
-        "ttft": 69.64
+        "outputSpeed": 72.7,
+        "ttft": 71.86
       },
       {
         "model": "Claude Opus 5.5 (High, Default Fallback)",
         "org": "Anthropic",
-        "outputSpeed": 80.1,
-        "ttft": 14.24
+        "outputSpeed": 80.7,
+        "ttft": 18.15
       }
     ]
   },
@@ -298,7 +298,7 @@
       },
       {
         "model": "FLUX 3 Max",
-        "elo": 1138,
+        "elo": 1135,
         "rank": 3,
         "org": "Fal",
         "type": ""
@@ -319,21 +319,21 @@
       },
       {
         "model": "Dreamina Seedance 2.5",
-        "elo": 1104,
+        "elo": 1101,
         "rank": 6,
         "org": "ByteDance Seed",
         "type": ""
       },
       {
         "model": "FLUX 3",
-        "elo": 1091,
+        "elo": 1092,
         "rank": 7,
         "org": "Black Forest Labs",
         "type": ""
       },
       {
         "model": "Dreamina Seedance 2.0",
-        "elo": 1082,
+        "elo": 1085,
         "rank": 8,
         "org": "ByteDance Seed",
         "type": ""
@@ -342,5 +342,5 @@
     "price": [],
     "speed": []
   },
-  "_fetched_at": "2026-10-29T08:08:33.569056+08:00"
+  "_fetched_at": "2026-10-30T08:00:34.265758+08:00"
 }
