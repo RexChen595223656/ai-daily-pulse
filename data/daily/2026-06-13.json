@@ -1,0 +1,167 @@
+{
+  "date": "2026-06-13",
+  "generated_at": "2026-06-13T08:12:24.910636+08:00",
+  "highlight": "SpaceX 上市催生首位万亿富豪，Mistral 估值翻倍融资，AI 行业资本狂欢与内部动荡并存。",
+  "fun": {
+    "lucky": "SpaceX",
+    "advice": "宜：关注 IPO 套现窗口。\n忌：在 Meta AI 部门内部公开表达工作满意度。",
+    "joke": "为什么 AI 工程师不用加班？因为他们已经学会了‘深度睡眠’。"
+  },
+  "articles": [
+    {
+      "id": 1,
+      "cat": "strategy",
+      "title": "SpaceX 首次公开募股：你需要知道的一切实时动态",
+      "title_en": "SpaceX IPO: Live updates on everything you need to know",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/06/12/spacex-ipo-live-updates-on-everything-you-need-to-know/",
+      "time": "57分钟前",
+      "published": "2026-06-12T23:15:14+00:00",
+      "summary": "TechCrunch 从 SpaceX 创立之初便持续追踪其发展历程，涵盖其起步阶段的艰辛、面临的重重挑战以及最终取得的辉煌成就。如今，该媒体为读者带来关于 SpaceX 首次公开募股的综合报道，深入分析了此次上市中的潜在赢家与输家。报道还详细解读了上市前的股权交易细节，并拆解了其 S-1 注册文件中隐藏的关键信息，为投资者提供一份完整的参考指南。",
+      "snark": "S-1 文件里藏着多少马斯克的推特草稿？"
+    },
+    {
+      "id": 2,
+      "cat": "strategy",
+      "title": "Meta 成立数月的 AI 部门被内部工程师称为“摧残灵魂的古拉格”",
+      "title_en": "Meta’s months-old AI unit is a soul-crushing gulag, say the engineers stuck inside it",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/06/12/metas-months-old-ai-unit-is-a-soul-crushing-gulag-say-the-engineers-stuck-inside-it/",
+      "time": "1小时前",
+      "published": "2026-06-12T23:00:54+00:00",
+      "summary": "据一份最新内部报告显示，Meta 成立仅数月的 AI 部门正面临严重的员工士气危机。该部门拥有 6500 名员工，但工作环境被形容为“摧残灵魂的古拉格”，工程师们普遍感到身心俱疲，对管理层的决策和项目方向极度不满。报告指出，这种压抑的氛围已导致部门处于“起义”的边缘，大量核心人才正在寻求内部转岗或外部跳槽机会。",
+      "snark": "6500 人一起在元宇宙里摸鱼，也算一种大型多人在线游戏。"
+    },
+    {
+      "id": 3,
+      "cat": "model",
+      "title": "谷歌发布 Gemini-SQL2：Gemini 3.1 Pro 文本转 SQL 在 BIRD 单模型排行榜上取得 80.04% 准确率",
+      "title_en": "Google Releases Gemini-SQL2: Gemini 3.1 Pro Text-to-SQL Scores 80.04% on BIRD Single-Model Leaderboard",
+      "source": "MarkTechPost",
+      "url": "https://www.marktechpost.com/2026/06/12/google-releases-gemini-sql2-gemini-3-1-pro-text-to-sql-scores-80-04-on-bird-single-model-leaderboard/",
+      "time": "3小时前",
+      "published": "2026-06-12T21:04:11+00:00",
+      "summary": "谷歌研究院于 2026 年 6 月 12 日发布了 Gemini-SQL2，这是其基于 Gemini 3.1 Pro 模型打造的文本转 SQL 能力的最新成果。该技术在 BIRD 单模型排行榜上实现了 80.04% 的执行准确率，显著提升了自然语言到数据库查询的转换精度。文章详细解释了该评分标准的含义，对比了排行榜上其他模型的排名情况，并指出谷歌尚未公开 Gemini-SQL2 的完整技术细节与推理成本。",
+      "snark": "以后 DBA 可以下岗了，但写 Prompt 的职位会暴增。"
+    },
+    {
+      "id": 4,
+      "cat": "policy",
+      "title": "谷歌起诉利用 AI 诈骗“数十万受害者”的中国网络犯罪团伙",
+      "title_en": "Chinese cybercrime operation that used AI to scam ‘hundreds of thousands of victims’ sued by Google",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/06/12/chinese-cybercrime-operation-that-used-ai-to-scam-hundreds-of-thousands-of-victims-sued-by-google/",
+      "time": "3小时前",
+      "published": "2026-06-12T20:38:09+00:00",
+      "summary": "科技巨头谷歌近日对名为“Outsider Enterprise”的中国网络犯罪团伙提起诉讼。该团伙被指控利用人工智能技术实施大规模电信诈骗，在短短两周内发送了高达 250 万条欺诈短信，导致数十万受害者上当受骗。谷歌表示，此次诉讼旨在打击利用 AI 技术进行跨国犯罪的行为，并警告其他潜在的网络犯罪分子，其技术平台将坚决维护用户安全与法律底线。",
+      "snark": "AI 诈骗犯：我们只是把‘杀猪盘’升级成了‘自动化杀猪盘’。"
+    },
+    {
+      "id": 5,
+      "cat": "strategy",
+      "title": "Mistral 据悉正以 200 亿欧元估值融资 30 亿欧元",
+      "title_en": "Mistral is rumored to be raising €3B at €20B valuation",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/06/12/mistral-is-rumored-to-be-raising-e3b-at-e20-valuation/",
+      "time": "6小时前",
+      "published": "2026-06-12T17:38:11+00:00",
+      "summary": "据知情人士透露，法国 AI 初创公司 Mistral 正在进行新一轮大规模融资，计划筹集 30 亿欧元资金。此轮融资完成后，公司估值将达到约 200 亿欧元（约合 231.5 亿美元），几乎是其 C 轮融资时 117 亿欧元估值的两倍。这一消息显示出资本市场对欧洲 AI 领军企业的高度信心，尽管全球经济环境充满不确定性，但顶级 AI 模型公司依然受到投资者的狂热追捧。",
+      "snark": "估值翻倍的速度，比 Mistral 模型生成代码的速度还快。"
+    },
+    {
+      "id": 6,
+      "cat": "tool",
+      "title": "Siri 现在变好用了？？",
+      "title_en": "Siri is good now??",
+      "source": "The Verge AI",
+      "url": "https://www.theverge.com/podcast/949079/siri-ai-good-vergecast",
+      "time": "6小时前",
+      "published": "2026-06-12T17:17:04+00:00",
+      "summary": "苹果公司近期发布了新版本的 Siri，这一更新让长期饱受 Siri 糟糕体验困扰的用户感到惊讶。在过去十五年里，Siri 的表现一直徘徊在“偶尔有用”和“彻底灾难”之间，甚至连设置定时器这样的基本操作都时常失败。然而，根据 The Verge 的播客讨论，最新版本的 Siri 在理解能力和响应速度上有了质的飞跃，似乎终于摆脱了“人工智障”的标签。",
+      "snark": "Siri 变好用了？我怀疑是苹果把 Siri 团队换成了 ChatGPT 的实习生。"
+    },
+    {
+      "id": 7,
+      "cat": "strategy",
+      "title": "埃隆·马斯克成为全球首位万亿富翁",
+      "title_en": "Elon Musk is the world&#8217;s first trillionaire",
+      "source": "The Verge AI",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/948409/elon-musk-trillionaire-spacex-ipo",
+      "time": "7小时前",
+      "published": "2026-06-12T16:24:39+00:00",
+      "summary": "随着 SpaceX 成功上市，埃隆·马斯克的个人净资产正式突破万亿美元大关，成为人类历史上首位万亿富翁。在 SpaceX 首次公开募股前，马斯克的财富约为 8000 亿美元，其中包括他在特斯拉等其他公司的资产。SpaceX 股票代码为 SPCX，开盘价为 150 美元，其持有的 48 亿股 SpaceX 股票价值暴涨，使他的账面财富超过了爱尔兰、瑞典等国家的经济总量。",
+      "snark": "马斯克：先定个小目标，赚它一个万亿。"
+    },
+    {
+      "id": 8,
+      "cat": "strategy",
+      "title": "SpaceX、Anthropic 和 OpenAI 掀起火热 IPO 之夏",
+      "title_en": "SpaceX, Anthropic, and OpenAI’s hot IPO summer",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/video/spacex-anthropic-and-openais-hot-ipo-summer/",
+      "time": "7小时前",
+      "published": "2026-06-12T16:23:25+00:00",
+      "summary": "首次公开募股市场强势回归，但引领潮流的已不再是过去的 FAANG 组合。一个全新的缩写“MANGOS”正在接管华尔街，它代表 Meta（或微软，取决于提问对象）、Anthropic、Nvidia、谷歌、OpenAI 和 SpaceX。这些公司中的一半正在或计划进行首次公开募股，标志着 AI 与航天领域的资本化进程达到了前所未有的高度，2026 年的夏天被市场称为“IPO 热夏”。",
+      "snark": "MANGOS 组合出道了，FAANG 可以安心退休了。"
+    },
+    {
+      "id": 9,
+      "cat": "strategy",
+      "title": "IPO 热夏来临，MANGOS 已成熟",
+      "title_en": "It’s hot IPO summer, and the MANGOS are ripe",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/podcast/its-hot-ipo-summer-and-the-mangos-are-ripe/",
+      "time": "8小时前",
+      "published": "2026-06-12T15:50:52+00:00",
+      "summary": "首次公开募股市场迎来复苏，但主导力量已经易主。FAANG 的时代已成过去，新的投资缩写“MANGOS”正在崛起，涵盖了 Meta（或微软）、Anthropic、Nvidia、谷歌、OpenAI 和 SpaceX。TechCrunch 的播客深入探讨了这一趋势，分析了为何这些 AI 和科技巨头能在此时集中上市，以及它们对二级市场可能产生的深远影响。",
+      "snark": "建议赶紧注册 MANGOS 商标，以后卖水果。"
+    },
+    {
+      "id": 10,
+      "cat": "tool",
+      "title": "Coinbase 推出 AI 代理：实现投资组合的自动化交易",
+      "title_en": "Coinbase for Agents: Automating portfolio trading with AI",
+      "source": "AI News",
+      "url": "https://www.artificialintelligence-news.com/news/coinbase-for-agents-automating-portfolio-trading-with-ai/",
+      "time": "8小时前",
+      "published": "2026-06-12T15:34:23+00:00",
+      "summary": "Coinbase 推出了名为“Coinbase for Agents”的新服务，旨在将 AI 与金融执行渠道直接连接，实现从用户投资组合中自动进行交易和支付。虽然大型语言模型能够处理海量数据，但它们缺乏与活跃金融投资组合的直接集成能力。该工具允许个人用户利用 AI 模型评估市场信息，并直接通过 Coinbase 平台执行交易操作，从而在加密资产和传统金融领域实现更高效的自动化投资策略。",
+      "snark": "以后亏钱不能怪自己手贱，只能怪 AI 模型训练得不够好。"
+    },
+    {
+      "id": 11,
+      "cat": "strategy",
+      "title": "SpaceX 大规模首次公开募股：所有最新消息",
+      "title_en": "SpaceX’s massive IPO: all the latest news",
+      "source": "The Verge AI",
+      "url": "https://www.theverge.com/business/948996/spacex-ipo-elon-musk",
+      "time": "9小时前",
+      "published": "2026-06-12T14:35:48+00:00",
+      "summary": "SpaceX 于周五进行的首次公开募股，首次允许公众购买这家集火箭、AI 和社交媒体于一体的公司股票。此次募资规模巨大，直接推动其创始人埃隆·马斯克成为全球首位万亿富翁。他的账面财富超过了爱尔兰、瑞典等国的经济体量。SpaceX 的上市不仅标志着商业航天领域的里程碑，也预示着 AI 与航天技术融合的资本化新阶段。",
+      "snark": "买一股 SpaceX，就能同时拥有火箭、AI 和马斯克的推特。"
+    },
+    {
+      "id": 12,
+      "cat": "model",
+      "title": "杰夫·贝佐斯的 AI 初创公司旨在打造“通用人工智能工程师”",
+      "title_en": "Jeff Bezos’ AI startup aims to build an ‘artificial general engineer’",
+      "source": "The Verge AI",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/949005/jeff-bezos-prometheus-artificial-general-engineer",
+      "time": "10小时前",
+      "published": "2026-06-12T14:03:39+00:00",
+      "summary": "亚马逊创始人杰夫·贝佐斯宣布成立一家名为 Prometheus 的新 AI 初创公司，目标直指开发“通用人工智能工程师”。据《纽约时报》和 CNBC 报道，该公司旨在打造由 AI 驱动的工程工具，以辅助物理产品的设计工作。Prometheus 的成立标志着 AI 从纯粹的软件和内容生成领域，向实体产品工程设计的核心领域发起了更具野心的挑战。",
+      "snark": "贝佐斯：我要造一个 AI 来给我设计下一艘火箭。",
+      "multiSource": [
+        "TechCrunch",
+        "The Verge AI"
+      ]
+    }
+  ],
+  "stats": {
+    "total": 12,
+    "model_count": 2,
+    "strategy_count": 7,
+    "tool_count": 2,
+    "policy_count": 1
+  }
+}

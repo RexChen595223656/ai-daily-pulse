@@ -1,0 +1,163 @@
+{
+  "date": "2026-10-26",
+  "generated_at": "2026-10-26T08:00:39.363493+08:00",
+  "highlight": "谷歌AI搜索重塑出版业，同时开源社区掀起反AI浪潮，行业冰火两重天。",
+  "fun": {
+    "lucky": "Nanbeige4.3-33B",
+    "advice": "宜：开源共享，忌：闭门造车。",
+    "joke": "为什么AI程序员从不迷路？因为它总在找bug（路）上。"
+  },
+  "articles": [
+    {
+      "id": 1,
+      "cat": "tool",
+      "title": "Grok发布其AI生成《奥德赛》前七分钟",
+      "title_en": "Grok releases the first seven minutes of its AI-generated ‘Odyssey’",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/10/25/grok-releases-the-first-seven-minutes-of-its-ai-generated-odyssey/",
+      "time": "2小时前",
+      "published": "2026-10-25T21:31:16+00:00",
+      "summary": "Grok发布了其AI生成的《奥德赛》电影前七分钟片段。该片段在视觉上尚可，但缺乏艺术性、灵感和人文关怀。这标志着AI视频生成技术在叙事长片领域的一次尝试，尽管目前效果仍显机械。Grok此举旨在展示其视频生成模型的能力，但评论指出，AI生成内容在情感深度和创意表达上仍与人类创作存在差距。该片段引发了关于AI在影视制作中角色的讨论，尤其是在替代传统编剧和导演方面的潜在影响。",
+      "snark": "AI拍电影，画面能看，灵魂没有，观众睡着。"
+    },
+    {
+      "id": 2,
+      "cat": "model",
+      "title": "南北极发布Nanbeige4.3-33B，330亿参数开源智能体编程模型",
+      "title_en": "Nanbeige Releases Nanbeige4.3-33B, a 33B Open Agentic Coding Model",
+      "source": "MarkTechPost",
+      "url": "https://www.marktechpost.com/2026/10/25/nanbeige-releases-nanbeige4-3-33b-open-agentic-coding-model/",
+      "time": "2小时前",
+      "published": "2026-10-25T21:15:21+00:00",
+      "summary": "南北极LLM实验室发布了Nanbeige4.3-33B，一个330亿参数的稠密模型，采用Apache 2.0许可证，支持512K上下文。该模型在Terminal-Bench 2.1上报告了80.9的分数，并将用于教导即将推出的Nanbeige4.3-3B。该模型专注于智能体编程任务，旨在提升代码生成和自动化编程能力。其开源特性允许开发者自由使用和修改，预计将推动编程辅助工具的发展。512K上下文窗口使其能处理大型代码库，适合复杂项目。",
+      "snark": "330亿参数，编程能力爆表，但电费也爆表。"
+    },
+    {
+      "id": 3,
+      "cat": "strategy",
+      "title": "阿波罗经济学家称AI对多数公司带来“零财务回报”",
+      "title_en": "AI delivers ‘zero financial payoff’ to most companies, Apollo economist says",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/10/25/ai-delivers-zero-financial-payoff-to-most-companies-according-to-apollo-economist/",
+      "time": "7小时前",
+      "published": "2026-10-25T16:57:32+00:00",
+      "summary": "阿波罗全球管理公司的经济学家指出，尽管人工智能领域投资巨大且炒作广泛，但该技术对美国科技行业以外的企业产生了零财务回报。这表明AI在企业端的应用尚未转化为实际生产力或利润增长。许多公司仍在探索如何有效整合AI，而高昂的部署成本和缺乏明确用例导致投资回报率低下。该观点引发了对AI泡沫的担忧，并提示企业需更务实评估AI项目，避免盲目跟风。",
+      "snark": "AI烧钱无数，财报一看，回报为零，老板哭了。"
+    },
+    {
+      "id": 4,
+      "cat": "model",
+      "title": "Hugging Face发布Carbon-X，140亿参数开源DNA语言模型，首次将DNA与自然语言结合",
+      "title_en": "Hugging Face Releases Carbon-X, a 14B Open DNA Language Model that Brings DNA and Natural Language Together for the First Time",
+      "source": "MarkTechPost",
+      "url": "https://www.marktechpost.com/2026/10/25/hugging-face-carbon-x-14b-dna-language-model/",
+      "time": "7小时前",
+      "published": "2026-10-25T16:53:40+00:00",
+      "summary": "Hugging Face发布了Carbon-X，一个基于Qwen3-14B构建的148亿参数开源DNA语言模型。该模型能直接读取原始DNA序列并在聊天中用英语回答，在5个DNA基准测试中平均得分66.7%，采用Apache 2.0许可证。这是首次将DNA与自然语言结合，使研究人员能用自然语言查询基因信息。该模型有望加速生物医学研究，例如基因功能预测和疾病关联分析。其开源特性将促进生物信息学领域的协作与创新。",
+      "snark": "DNA都能聊天了，以后基因突变也得先写个提示词。"
+    },
+    {
+      "id": 5,
+      "cat": "tool",
+      "title": "最热门的AI可穿戴设备与 gadget 盘点",
+      "title_en": "The hottest AI wearables and gadgets you should know about",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/10/25/the-hottest-ai-wearables-and-gadgets-you-should-know-about/",
+      "time": "9小时前",
+      "published": "2026-10-25T14:10:00+00:00",
+      "summary": "TechCrunch汇总了当前最热门的AI可穿戴设备和智能硬件，包括Muse Charm、Bee、Friend、Plaud等产品。这些设备涵盖智能项链、胸针、录音笔等形态，主打AI助手、健康监测、语音记录等功能。随着AI技术小型化，可穿戴设备正成为个人AI入口的新战场。这些产品试图通过始终在线的传感器和AI处理能力，提供无缝的个性化服务。然而，隐私和实用性仍是消费者关注的重点。",
+      "snark": "AI穿戴设备满天飞，最后都变成吃灰的电子垃圾。"
+    },
+    {
+      "id": 6,
+      "cat": "policy",
+      "title": "r/opensource 版块禁止AI、非英语使用者等",
+      "title_en": "r/opensource just banned AI, non-English speakers, and more",
+      "source": "The Verge AI",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/1018217/reddit-opensource-ai-ban",
+      "time": "10小时前",
+      "published": "2026-10-25T13:25:32+00:00",
+      "summary": "Reddit的r/opensource版块版主发布了新的提交规则，禁止使用AI的项目、由AI制作的项目或为AI设计的项目。版主声明称：“如果你的项目使用AI、由AI制作或为AI设计，那么它不受r/opensource欢迎。当今存在的AI与开源理念不符。”此外，该版块还禁止非英语使用者。此举反映了开源社区内对AI技术伦理和包容性的激烈争论，部分开发者认为AI公司利用开源资源却未回馈社区。",
+      "snark": "开源社区禁AI，这是要回到手写代码的原始时代吗？"
+    },
+    {
+      "id": 7,
+      "cat": "model",
+      "title": "斯坦福和UC Berkeley研究人员推出TokenGate：令牌门控注意力使长上下文预填充快达11.3倍",
+      "title_en": "Researchers from Stanford and UC Berkeley Introduce TokenGate: Token-Gated Attention Makes Long-Context Prefill Up to 11.3x Faster",
+      "source": "MarkTechPost",
+      "url": "https://www.marktechpost.com/2026/10/25/stanford-berkeley-tokengate-learned-token-pruning-llm-prefill/",
+      "time": "11小时前",
+      "published": "2026-10-25T12:12:18+00:00",
+      "summary": "斯坦福大学和UC Berkeley的研究人员发布了TokenGate，一种用于大型语言模型的可直接插入的学习型令牌修剪模块。它可将长上下文预填充的首次令牌时间缩短1.4倍至11.3倍，峰值内存降低1.5倍至3.4倍，且不损失准确性。该技术通过动态选择重要令牌来减少计算量，显著提升长文本处理效率。这对于需要处理长文档、代码库或对话历史的AI应用至关重要，有望降低推理成本并加速响应。",
+      "snark": "令牌修剪快11倍，但修剪错了会不会把关键信息也剪了？"
+    },
+    {
+      "id": 8,
+      "cat": "strategy",
+      "title": "谷歌AI搜索变革颠覆在线出版业",
+      "title_en": "Google’s AI search changes upended online publishing",
+      "source": "The Verge AI",
+      "url": "https://www.theverge.com/column/1017983/google-ai-search-online-publishing",
+      "time": "12小时前",
+      "published": "2026-10-25T12:00:00+00:00",
+      "summary": "The Verge专栏文章探讨了谷歌AI搜索如何颠覆在线出版业。随着谷歌在搜索结果中集成AI生成摘要，传统出版商的流量和广告收入受到严重冲击。用户越来越倾向于直接获取AI答案，而非点击链接访问原始网站。这导致内容创作者面临生存危机，被迫调整商业模式。文章分析了出版业从搜索引擎优化到AI优化的转变，并讨论了可能的应对策略，如订阅制和联盟营销。该趋势引发了对信息生态多样性和新闻质量的担忧。",
+      "snark": "谷歌AI搜索一出手，出版商集体喝西北风。"
+    },
+    {
+      "id": 9,
+      "cat": "tool",
+      "title": "Anthropic推出OSS Scanner，免费AI漏洞扫描器",
+      "title_en": "Anthropic Launches OSS Scanner, a Free AI Vulnerability Scanner",
+      "source": "MarkTechPost",
+      "url": "https://www.marktechpost.com/2026/10/25/anthropic-launches-oss-scanner-a-free-ai-vulnerability-scanner/",
+      "time": "12小时前",
+      "published": "2026-10-25T11:32:29+00:00",
+      "summary": "Anthropic推出了OSS Scanner，一个面向关键开源项目的免费、可选加入的漏洞扫描器。该扫描器运行公司最强的模型，包括Claude Mythos，对注册的代码库进行扫描。报告直接发送给维护者，无需人工审核。这种模式旨在快速发现和修复开源软件中的安全漏洞，但完全自动化的流程也引发了对误报和漏报的担忧。Anthropic希望通过此举提升开源生态安全，并展示其AI模型在代码分析方面的能力。",
+      "snark": "免费扫描漏洞，但报告直接发维护者，万一误报算谁的？"
+    },
+    {
+      "id": 10,
+      "cat": "tool",
+      "title": "微软开源Agensh：支持1024个智能体的多智能体框架",
+      "title_en": "Microsoft Open-Sources Agensh: A Multi-Agent Harness for 1,024 Agents",
+      "source": "MarkTechPost",
+      "url": "https://www.marktechpost.com/2026/10/24/microsoft-agensh-multi-agent-harness-1024-agents/",
+      "time": "20小时前",
+      "published": "2026-10-25T03:32:59+00:00",
+      "summary": "微软研究院开源了Agensh，一个无中心协调器的多智能体框架。自组织的工作者共享一个Git仓库、聊天室和发现板，在ProgramBench上可在6小时预算内从1个智能体扩展到1024个。该框架旨在解决大规模多智能体协作中的协调问题，通过去中心化方式提高效率和鲁棒性。每个智能体自主工作并共享结果，适用于复杂软件工程任务。开源将促进多智能体系统的研究和应用。",
+      "snark": "1024个智能体一起干活，会不会先吵起来谁写文档？"
+    },
+    {
+      "id": 11,
+      "cat": "tool",
+      "title": "Cognition开源智能体插件，帮助系统抵御近期网络安全威胁",
+      "title_en": "Cognition Open-Sources an Agent Plugin that Helps Secure Systems against Recent Cybersecurity Threats",
+      "source": "MarkTechPost",
+      "url": "https://www.marktechpost.com/2026/10/24/cognition-devin-vulnerability-fixes-plugin-php2shell-nodejs-gitlab/",
+      "time": "21小时前",
+      "published": "2026-10-25T02:59:08+00:00",
+      "summary": "Cognition发布了Devin Vulnerability Fixes插件，包含3个MIT许可的智能体技能，用于清点、修补和测试受本周关键远程代码执行漏洞影响的PHP、Node.js和自管理GitLab部署，然后为每个仓库开启一个拉取请求。该插件旨在自动化漏洞修复流程，减少人工干预，提高响应速度。开源特性允许社区审查和改进，但自动化修补也可能引入新风险。此举反映了AI在DevSecOps领域的应用趋势。",
+      "snark": "AI自动打补丁，万一补出个新漏洞就搞笑了。"
+    },
+    {
+      "id": 12,
+      "cat": "tool",
+      "title": "如何运行Underdog Saluki 27B：2比特Qwen3.8-27B工具调用指南",
+      "title_en": "How to Run Underdog Saluki 27B: 2-Bit Qwen3.8-27B Tool-Calling Guide",
+      "source": "MarkTechPost",
+      "url": "https://www.marktechpost.com/2026/10/24/underdog-saluki-27b-coding-guide-llama-cpp/",
+      "time": "21小时前",
+      "published": "2026-10-25T02:30:18+00:00",
+      "summary": "本文提供了一份完整的编码指南，介绍如何运行Underdog Saluki 27B模型，该模型采用ISTA的GSQ-RCO量化技术，在标准llama.cpp中比较了GGUF头部、内存使用和BFCL工具调用性能。指南详细说明了2比特量化下的部署步骤，旨在帮助开发者在有限资源下运行大型语言模型。该模型基于Qwen3.8-27B，专注于工具调用能力，适合构建AI智能体。量化技术大幅降低内存需求，但可能影响精度。",
+      "snark": "2比特量化，模型变智障了还能工具调用？"
+    }
+  ],
+  "stats": {
+    "total": 12,
+    "model_count": 3,
+    "strategy_count": 2,
+    "tool_count": 6,
+    "policy_count": 1
+  }
+}

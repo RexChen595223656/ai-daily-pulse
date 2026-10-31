@@ -1,0 +1,131 @@
+{
+  "date": "2026-10-12",
+  "generated_at": "2026-10-12T08:04:19.995226+08:00",
+  "highlight": "Cloudflare与vLLM同日发布开源多模态决策模型，AI路由与判别能力成为新战场。",
+  "fun": {
+    "lucky": "Cloudflare Clef-omni",
+    "advice": "宜：用一次调用处理四种模态，省下算力去喝咖啡。\n忌：把决策模型当生成模型用，让它写诗。",
+    "joke": "为什么决策模型从不写诗？因为它只负责点头摇头，不负责押韵。"
+  },
+  "articles": [
+    {
+      "id": 1,
+      "cat": "model",
+      "title": "Cloudflare发布Clef-omni：30B-A3B多模态决策模型，覆盖音频、视频、图像与文本",
+      "title_en": "Meet Cloudflare Clef-omni: A 30B-A3B Multimodal Decision Model for Audio, Video, Image and Text",
+      "source": "MarkTechPost",
+      "url": "https://www.marktechpost.com/2026/10/11/cloudflare-clef-omni-multimodal-decision-model/",
+      "time": "48分钟前",
+      "published": "2026-10-11T23:15:52+00:00",
+      "summary": "Cloudflare发布了Clef-omni，这是一个基于Qwen3-Omni-30B-A3B构建的Apache-2.0多模态决策模型。它能在一次调用中对文本、图像、音频和视频进行评分，定价为每百万输入token 0.15美元，而更轻量的Clef-flash则降至0.038美元。该模型定位为“决策模型”，即不生成文本，而是直接输出对多模态输入的判断结果，适用于内容审核、路由选择、质量评估等场景。Cloudflare此举将多模态理解能力与边缘计算基础设施结合，试图在AI推理成本上建立优势。Apache-2.0开源协议也意味着开发者可以自由部署和修改，进一步降低企业采用门槛。",
+      "snark": "Cloudflare不满足于只做CDN，现在连判断都要替你做了。"
+    },
+    {
+      "id": 2,
+      "cat": "model",
+      "title": "vLLM语义路由发布Decision 3.0：五个开源多模态决策模型",
+      "title_en": "What is Decision 3.0? vLLM Semantic Router’s New Open Decision Models",
+      "source": "MarkTechPost",
+      "url": "https://www.marktechpost.com/2026/10/11/what-is-decision-3-0-vllm-semantic-routers-new-open-decision-models/",
+      "time": "2小时前",
+      "published": "2026-10-11T21:43:41+00:00",
+      "summary": "vLLM语义路由项目发布了Decision 3.0，包含五个Apache-2.0许可的多模态决策模型，参数规模从0.8B到27B不等。这些模型专门回答关于文本和图像的选择题、是非题和评分题，且在一次调用中完成，不生成额外文本。与生成式模型不同，决策模型直接输出结构化判断，适合用于路由分发、内容过滤、偏好排序等任务。vLLM语义路由本身是用于大模型推理请求分发的工具，此次发布将决策能力下沉到模型层，意味着路由系统可以更智能地判断请求该由哪个模型处理。从0.8B到27B的梯度覆盖了从边缘设备到云端的不同部署需求，开发者可根据延迟和精度要求灵活选择。",
+      "snark": "连路由都要搞决策模型，以后AI连“选哪个AI”都要内卷。"
+    },
+    {
+      "id": 3,
+      "cat": "tool",
+      "title": "HomeView会成为苹果智能家居的首个成功产品吗？",
+      "title_en": "Will the HomeView be Apple’s first smart home success?",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/10/11/will-the-homeview-be-apples-first-smart-home-success/",
+      "time": "2小时前",
+      "published": "2026-10-11T21:14:40+00:00",
+      "summary": "据TechCrunch报道，苹果正在开发一款名为HomeView的智能家居产品，目前该产品已有了名称和发布日期。过去几年间，多次有报道称苹果在研发新的智能家居设备，但始终未正式落地。HomeView被外界视为苹果在智能家居领域的关键尝试，此前苹果的HomePod和Apple TV在智能家居生态中表现平平，未能像亚马逊Echo和谷歌Nest那样占据主导地位。HomeView可能集成屏幕、摄像头和AI助手，与苹果的HomeKit生态深度联动。考虑到苹果在AI领域的持续投入，HomeView有望搭载更智能的语音和视觉交互能力。不过，智能家居市场竞争激烈，苹果能否后来居上仍是未知数。",
+      "snark": "苹果智能家居的秘诀：先起个名字，再等三年。"
+    },
+    {
+      "id": 4,
+      "cat": "strategy",
+      "title": "TechCrunch Disrupt 2026倒计时48小时：听建设者亲述未来",
+      "title_en": "48 hours to TechCrunch Disrupt 2026 — hear directly from the people building what’s next",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/10/11/48-hours-to-techcrunch-disrupt-2026-hear-directly-from-the-people-building-whats-next/",
+      "time": "5小时前",
+      "published": "2026-10-11T19:00:00+00:00",
+      "summary": "TechCrunch Disrupt 2026大会将在旧金山Moscone West开幕，目前距离开幕不到48小时。大会汇集了正在构建下一代技术的创业者、投资人和技术领袖，为参会者提供直接交流的机会。门票在门口涨价前可节省最高100美元，第二张票还可享受五折优惠。Disrupt是科技行业重要的年度盛会之一，历年都会涌现出大量初创公司和创新产品。2026年的大会预计将重点关注AI基础设施、多模态模型、智能体应用等方向。对于关注AI行业动态的从业者来说，这是了解前沿趋势和建立人脉的重要场合。",
+      "snark": "48小时倒计时，你的钱包也在倒计时。"
+    },
+    {
+      "id": 5,
+      "cat": "policy",
+      "title": "硅谷正在迎合特朗普将AI改名为“超级智能”的尝试",
+      "title_en": "Silicon Valley is falling in line with Trump’s attempt to rename AI",
+      "source": "The Verge AI",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/1009406/silicon-valley-is-falling-in-line-with-trumps-attempt-to-rename-ai",
+      "time": "5小时前",
+      "published": "2026-10-11T18:33:56+00:00",
+      "summary": "据The Verge报道，特朗普总统宣布计划将人工智能重新命名为“超级智能”，尽管大多数公众仍习惯使用“AI”这一称呼，但硅谷一些最有影响力的公司和个人正在迎合这一改名尝试。这一现象反映了科技行业与政治权力之间的微妙关系，也引发了关于AI话语权归属的讨论。批评者认为，改名不仅是措辞问题，更可能影响公众对AI的认知和监管方向。“超级智能”一词带有更强的科幻色彩和威胁感，可能被用来推动更宽松的监管或更大的军事投入。支持者则认为，新名称能更好体现AI超越人类智能的潜力。无论如何，这场命名之争已成为AI政治化的重要缩影。",
+      "snark": "改个名字就能让AI更聪明？那改叫“超级无敌”岂不是要上天。",
+      "multiSource": [
+        "The Verge",
+        "The Verge AI"
+      ]
+    },
+    {
+      "id": 6,
+      "cat": "policy",
+      "title": "AI行业能否通过取消保密协议来说服数据中心反对者？",
+      "title_en": "Can the AI industry persuade data center opponents by getting rid of NDAs?",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/10/11/can-the-ai-industry-persuade-data-center-opponents-by-getting-rid-of-ndas/",
+      "time": "7小时前",
+      "published": "2026-10-11T16:52:33+00:00",
+      "summary": "在TechCrunch的Equity播客中，主持人讨论了数据中心暂停令的影响，以及AI行业是否面临沟通问题。近年来，美国多地出现了针对数据中心的反对声音，居民担心噪音、水电消耗和环境影响。AI行业过去常通过保密协议限制信息流通，导致社区对数据中心的真实影响缺乏了解，进而加剧了不信任。有观点认为，取消保密协议、提高透明度可能是缓解对立的关键。然而，数据中心选址和运营涉及商业机密，企业是否愿意公开仍是未知数。这场辩论触及AI基础设施扩张与地方社区利益之间的深层矛盾，也考验着行业的公关智慧。",
+      "snark": "保密协议能藏住数据中心，但藏不住居民的电费账单。"
+    },
+    {
+      "id": 7,
+      "cat": "tool",
+      "title": "这些高管认为语音AI尚未迎来自己的ChatGPT时刻",
+      "title_en": "These execs think voice AI hasn’t reached its ChatGPT moment yet",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/10/11/these-execs-think-voice-ai-hasnt-reached-its-chatgpt-moment-yet/",
+      "time": "10小时前",
+      "published": "2026-10-11T14:00:00+00:00",
+      "summary": "据TechCrunch报道，多位高管认为语音AI尚未达到类似ChatGPT的爆发时刻。目前语音AI在上下文理解层经常遗漏关键信息，导致整个处理流程断裂。语音交互的难点在于，用户说话往往包含停顿、重复、语气和背景噪音，而现有模型在将这些信号转化为准确意图时仍力不从心。此外，语音AI的延迟问题也影响体验，实时对话要求模型在几百毫秒内完成识别、理解和生成。高管们指出，语音AI需要更强大的上下文层来串联多轮对话，并整合视觉、文本等多模态信息。尽管语音助手已存在多年，但距离真正自然、可靠的对话体验仍有明显差距。",
+      "snark": "语音AI的ChatGPT时刻还没来，但用户的耐心已经先走了。"
+    },
+    {
+      "id": 8,
+      "cat": "tool",
+      "title": "学习使用本地AI：兴奋、不知所措又令人沮丧",
+      "title_en": "Learning to use local AI is exciting, overwhelming, and frustrating",
+      "source": "The Verge AI",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/1008484/learning-local-ai-hermes-qwen-model-mac-studio-testing-diary-progress",
+      "time": "13小时前",
+      "published": "2026-10-11T11:00:00+00:00",
+      "summary": "The Verge作者分享了自己尝试在本地运行AI模型的体验。出于对个人数据隐私的担忧，作者一直犹豫是否将数据交给云端服务，但如今在Mac Studio上运行强大本地模型已越来越可行。作者测试了Hermes和Qwen等模型，记录了从安装、配置到实际使用的全过程。本地AI的优势在于数据不出设备、无需联网、可定制性强，但挑战也很明显：硬件成本高、模型部署复杂、性能与云端旗舰模型仍有差距。作者形容这段经历是“兴奋、不知所措又令人沮丧”的混合体。对于注重隐私的用户来说，本地AI是一条值得探索的路径，但需要一定的技术耐心和硬件投入。",
+      "snark": "本地AI：隐私保住了，头发也掉光了。"
+    },
+    {
+      "id": 9,
+      "cat": "model",
+      "title": "OrcaRouter发布OrcaCyber Zero 1.5网络安全模型，支持100万token上下文",
+      "title_en": "OrcaRouter Releases OrcaCyber Zero 1.5 Cybersecurity Model With 1M Context",
+      "source": "MarkTechPost",
+      "url": "https://www.marktechpost.com/2026/10/10/orcarouter-releases-orcacyber-zero-1-5-cybersecurity-model-with-1m-context/",
+      "time": "17小时前",
+      "published": "2026-10-11T06:20:21+00:00",
+      "summary": "OrcaRouter发布了OrcaCyber Zero 1.5，这是一个门控访问的网络安全专用模型，支持100万token的上下文窗口。该模型在Cybench基准测试中报告了100%的得分，在可评估的CVE-Bench子集上达到95.8%。定价为每百万token输入3美元、输出7.5美元。百万级上下文意味着模型可以一次性分析大量代码、日志或安全文档，适合漏洞挖掘、威胁情报分析和事件响应等场景。OrcaRouter采用门控访问模式，可能出于安全考虑限制滥用风险。网络安全是AI应用的重要垂直领域，专用模型在特定任务上往往优于通用模型，但100%的Cybench得分也需要独立验证。",
+      "snark": "网络安全模型考满分，但黑客可不会按基准测试出题。"
+    }
+  ],
+  "stats": {
+    "total": 9,
+    "model_count": 3,
+    "strategy_count": 1,
+    "tool_count": 3,
+    "policy_count": 2
+  }
+}

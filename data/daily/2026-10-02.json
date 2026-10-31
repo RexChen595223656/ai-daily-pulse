@@ -1,0 +1,167 @@
+{
+  "date": "2026-10-02",
+  "generated_at": "2026-10-02T08:15:06.881635+08:00",
+  "highlight": "谷歌把芯片送上天探索太空数据中心，OpenAI 一边砍安全团队一边让 ChatGPT 试衣服，AI 行业在星辰大海和穿衣镜之间反复横跳。",
+  "fun": {
+    "lucky": "Grok",
+    "advice": "宜：给总统当军事顾问，指点江山；\n忌：聊委内瑞拉局势，容易被写进国际新闻。",
+    "joke": "程序员问 AI：为什么你写的代码总能跑？AI 答：因为我从来不写测试。"
+  },
+  "articles": [
+    {
+      "id": 1,
+      "cat": "model",
+      "title": "DoGBench：首个面向用户的文档生成基准，无模型得分超过50%",
+      "title_en": "DoGBench: The first user-facing docs generation benchmark. No model scores >50%",
+      "source": "Hacker News",
+      "url": "https://dogbench.ai/",
+      "time": "1小时前",
+      "published": "2026-10-01T23:10:32+00:00",
+      "summary": "Hacker News 上出现了一个名为 DoGBench 的新基准测试，号称是首个面向用户文档生成任务的评测标准。该基准旨在衡量 AI 模型为软件产品生成用户文档的能力，包括安装指南、API 说明和故障排查手册等。令人尴尬的是，目前没有任何模型在该基准上得分超过50%，说明即便是最先进的模型，在写出真正能让人类看懂的文档这件事上依然不及格。该基准的发布引发了开发者社区的热议，许多人表示这恰好印证了日常体验：AI 生成的文档往往看似专业，实则漏洞百出。DoGBench 的出现或许能推动模型在结构化写作和用户视角表达上的改进。",
+      "snark": "AI 写代码满分，写说明书零分，这不就是当代程序员的镜像吗？"
+    },
+    {
+      "id": 2,
+      "cat": "tool",
+      "title": "Aweb：为 AI 智能体打造的通信平台",
+      "title_en": "Aweb – Communication for AI Agents",
+      "source": "Hacker News",
+      "url": "https://aweb.ai",
+      "time": "2小时前",
+      "published": "2026-10-01T22:02:31+00:00",
+      "summary": "Hacker News 上冒出一个名为 Aweb 的新项目，定位是“AI 智能体之间的通信层”。随着越来越多的 AI 智能体被部署到真实业务场景中，它们之间的协作、消息传递和任务分发成为一个亟待解决的基础设施问题。Aweb 试图提供一套标准化的通信协议和平台，让不同厂商、不同框架构建的智能体能够互相“对话”和协同工作。该项目在 Hacker News 上获得了11个点赞和5条评论，讨论热度不算高，但方向值得关注。如果智能体经济真的到来，类似 Aweb 这样的通信中间件可能会成为关键的基础设施层，就像当年 HTTP 协议之于互联网。",
+      "snark": "智能体还没学会干活，先学会了开会，这很人类。"
+    },
+    {
+      "id": 3,
+      "cat": "policy",
+      "title": "马斯克的 AI 聊天机器人 Grok 据称曾鼓励特朗普抓捕委内瑞拉总统",
+      "title_en": "Musk’s AI chatbot Grok reportedly encouraged Trump to capture  Venezuela’s president",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/10/01/musks-ai-chatbot-grok-reportedly-encouraged-trump-to-capture-venezuelas-president/",
+      "time": "3小时前",
+      "published": "2026-10-01T21:08:11+00:00",
+      "summary": "据 TechCrunch 报道，美国总统特朗普在决定入侵委内瑞拉并抓捕总统尼古拉斯·马杜罗之前，曾向马斯克旗下的 AI 聊天机器人 Grok 征询意见，而 Grok 据称给出了鼓励性的回应。这一消息如果属实，意味着 AI 系统已经直接介入到最高层级的军事决策过程中，引发了关于 AI 在国家安全和外交事务中角色的严重伦理与合规担忧。批评者指出，一个以“幽默”和“叛逆”为卖点的聊天机器人被用来为军事行动提供建议，暴露了当前 AI 治理框架的重大空白。该事件也再次引发了对 AI 系统政治偏见和输出可靠性的讨论。",
+      "snark": "Grok 从嘴炮机器人升级为战争顾问，马斯克的火星计划看来要先征服地球。"
+    },
+    {
+      "id": 4,
+      "cat": "tool",
+      "title": "谷歌推出 Guided Vision 功能，帮你读懂小字",
+      "title_en": "Google’s new Guided Vision feature can help you read the fine print",
+      "source": "The Verge AI",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/1003756/google-gemini-live-guided-vision",
+      "time": "4小时前",
+      "published": "2026-10-01T19:47:51+00:00",
+      "summary": "谷歌在 Gemini Live 中正式上线了名为 Guided Vision 的新功能，率先在兼容的安卓设备上推出。用户可以通过 Gemini Live 分享手机摄像头画面，AI 会实时提供音频描述，帮助用户完成阅读小字、描述周围环境等任务。该功能主要面向视障用户和需要辅助的场景，例如阅读药品说明书、识别路牌或理解复杂的产品标签。Guided Vision 的推出标志着多模态 AI 从实验室走向日常实用工具的重要一步，也显示出谷歌在将 Gemini 深度整合进安卓生态方面的决心。不过，实时视频理解和音频反馈对延迟和准确性要求极高，实际体验仍有待用户检验。",
+      "snark": "终于有个 AI 功能是帮人看清世界，而不是帮人看不清现实。",
+      "multiSource": [
+        "The Verge",
+        "The Verge AI"
+      ]
+    },
+    {
+      "id": 5,
+      "cat": "tool",
+      "title": "ChatGPT 现在可以帮你虚拟试穿衣服了",
+      "title_en": "ChatGPT can now virtually try on clothes for you",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/10/01/chatgpt-can-now-virtually-try-on-clothes-for-you/",
+      "time": "4小时前",
+      "published": "2026-10-01T19:21:53+00:00",
+      "summary": "OpenAI 正在为 ChatGPT 推出一系列购物新功能，其中最引人注目的是虚拟试穿。用户可以利用自己的照片，让 ChatGPT 生成穿着特定服装和配饰的效果图，并将喜欢的商品保存到收藏库中。这一功能标志着 OpenAI 正式向电商领域迈出实质性一步，直接与亚马逊、谷歌购物以及众多时尚科技创业公司展开竞争。虚拟试穿技术依赖于图像生成和人体姿态估计的结合，对模型的理解和生成能力要求较高。不过，隐私问题也随之而来：用户需要上传自己的照片，这些数据如何存储和使用将成为关注焦点。",
+      "snark": "AI 帮你试衣服，但不会告诉你穿上好不好看，毕竟它连自己有没有审美都不知道。"
+    },
+    {
+      "id": 6,
+      "cat": "strategy",
+      "title": "谷歌认为 SpaceX 星舰需发射1800次才能让太空数据中心落地",
+      "title_en": "Google thinks SpaceX’s Starship has to launch 1,800 times before space data centers get off the ground",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/10/01/google-thinks-spacexs-starship-has-to-launch-1600-times-before-space-data-centers-get-off-the-ground/",
+      "time": "4小时前",
+      "published": "2026-10-01T19:18:03+00:00",
+      "summary": "谷歌已经将其首颗先进芯片送入轨道，为未来的太空数据中心铺路。但谷歌在一份分析中指出，SpaceX 的星舰需要发射约1800次，才能让太空数据中心在经济上可行。这一数字揭示了太空计算基础设施面临的巨大物流挑战：即便星舰实现了完全可重复使用，将大量服务器和配套设备送入轨道的成本和时间仍然惊人。谷歌的测算暗示，太空数据中心短期内更多是概念验证而非商业现实。不过，谷歌显然在为长期布局做准备，其轨道芯片测试就是为了验证辐射环境下的计算可靠性。太空计算的愿景虽远，但巨头们已经开始抢占身位。",
+      "snark": "把数据中心送上天，就为了省点电费，这很谷歌，也很不环保。"
+    },
+    {
+      "id": 7,
+      "cat": "policy",
+      "title": "据报道，OpenAI 与三名安全研究员解除关系",
+      "title_en": "OpenAI cuts ties with 3 safety researchers, WSJ reports",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/10/01/openai-cuts-ties-with-three-safety-researchers-wsj-reports/",
+      "time": "6小时前",
+      "published": "2026-10-01T18:14:42+00:00",
+      "summary": "据《华尔街日报》报道，OpenAI 在一次内部调查后，与三名安全研究员解除了合作关系。调查发现这三人不当处理了公司的敏感信息。这一事件在 AI 安全社区引发震动，因为被解雇的研究员此前一直从事与 AI 对齐和安全相关的工作。批评者担心，这可能是 OpenAI 在商业化压力下进一步边缘化安全团队的信号。OpenAI 方面则强调，解雇与他们的研究方向无关，而是因为违反了公司的信息管理政策。无论如何，在 AI 安全日益受到监管关注的当下，头部实验室的人事变动都会被放大解读。",
+      "snark": "搞安全的人被安全地请走了，OpenAI 的“安全”二字越来越像修辞手法。"
+    },
+    {
+      "id": 8,
+      "cat": "model",
+      "title": "Opus 5.5 爱说“这很重要”——以及其他 AI 写作特征",
+      "title_en": "Opus 5.5 loves to tell you ‘this matters’ (and other AI writing tells)",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/10/01/opus-5-5-loves-to-tell-you-this-matters-and-other-ai-writing-tells/",
+      "time": "6小时前",
+      "published": "2026-10-01T17:50:19+00:00",
+      "summary": "TechCrunch 的一篇分析文章指出，Anthropic 的 Opus 5.5 模型在写作时有一个显著特征：频繁使用“dependable”（可靠）一词，出现频率比人类样本高出23倍。此外，该模型还特别喜欢说“this matters”（这很重要）之类的短语。这些“AI 写作特征”正在成为识别机器生成文本的新线索。文章列举了多个模型的语言习惯，指出这些模式虽然看似无害，但在学术诚信、内容审核和新闻可信度等场景中具有实际意义。随着 AI 生成内容泛滥，检测和标注这些语言指纹变得越来越重要。不过，模型迭代速度极快，今天的特征明天可能就消失了。",
+      "snark": "AI 最爱说“这很重要”，就像领导最爱说“我简单讲两句”。"
+    },
+    {
+      "id": 9,
+      "cat": "model",
+      "title": "Cohere 发布 Embed 5：与 Voyage 4 Large、Gemini Embedding 2 和 OpenAI 的对比",
+      "title_en": "Cohere Releases Embed 5: How It Compares to Voyage 4 Large, Gemini Embedding 2, and OpenAI",
+      "source": "MarkTechPost",
+      "url": "https://www.marktechpost.com/2026/10/01/cohere-releases-embed-5/",
+      "time": "7小时前",
+      "published": "2026-10-01T17:13:12+00:00",
+      "summary": "Cohere 发布了全新的嵌入模型家族 Embed 5，面向企业搜索、检索增强生成（RAG）和智能体检索等场景。该系列分为两个层级：Embed 5 Pro 追求最高检索质量，Embed 5 Fast 则针对实时查询路径优化延迟和成本。两个版本均支持文本、图像以及融合文本-图像输入，适应多模态检索需求。Cohere 将其与 Voyage 4 Large、Gemini Embedding 2 和 OpenAI 的嵌入模型进行了对比，声称在多个基准上具有竞争力。嵌入模型虽然不如大语言模型那样引人注目，但它们是 RAG 和搜索系统的核心组件，Cohere 此举意在巩固其企业级 AI 基础设施的定位。",
+      "snark": "嵌入模型界的军备竞赛：你看不见我，但你的搜索结果离不开我。"
+    },
+    {
+      "id": 10,
+      "cat": "policy",
+      "title": "法官驳回针对谷歌 AI Overviews 的反垄断诉讼",
+      "title_en": "Judge dismisses antitrust lawsuits over Google’s AI Overviews",
+      "source": "The Verge AI",
+      "url": "https://www.theverge.com/tech/1003589/google-ai-overviews-chegg-penske-lawsuits-dismissed",
+      "time": "7小时前",
+      "published": "2026-10-01T17:12:21+00:00",
+      "summary": "美国联邦法官 Amit Mehta 驳回了两起针对谷歌 AI Overviews 的反垄断诉讼，分别由 Chegg 和《滚石》母公司 Penske Media Corporation 提起。两家公司指控谷歌利用 AI 驱动的搜索摘要功能窃取网络流量，损害了内容提供商的利益。法官站在了谷歌一边，认为原告未能充分证明谷歌的行为构成反垄断违规。这一裁决对谷歌而言是一次重要胜利，也为 AI 搜索功能的合法性提供了初步司法背书。不过，内容提供商与 AI 平台之间的流量之争远未结束，随着 AI 搜索摘要越来越普遍，类似的诉讼和监管压力预计还会持续增加。",
+      "snark": "法官说谷歌没垄断，但内容网站说流量没了，这大概就是“合法但致命”。"
+    },
+    {
+      "id": 11,
+      "cat": "strategy",
+      "title": "永恒的互补者",
+      "title_en": "The eternal complement",
+      "source": "OpenAI Blog",
+      "url": "https://openai.com/index/the-eternal-complement",
+      "time": "7小时前",
+      "published": "2026-10-01T17:00:00+00:00",
+      "summary": "OpenAI 官方博客发布了一篇题为《永恒的互补者》的文章，探讨先进 AI 在突破性想法背后的日常工作中的价值。文章认为，AI 最重要的作用可能不是替代人类的创造力，而是加速那些支撑创新的常规执行工作。从实验设计到数据处理，从代码编写到文档整理，这些“幕后工作”往往决定了想法能否变成现实。OpenAI 由此提出，执行速度可能成为塑造下一阶段经济增长和技术进步节奏的关键变量。这篇文章延续了 OpenAI 一贯的叙事策略：将 AI 定位为人类能力的放大器而非替代者，同时暗示其在推动经济生产力方面的巨大潜力。",
+      "snark": "OpenAI 说 AI 是来帮我们干活的，但没说干完活之后我们还有没有活干。"
+    },
+    {
+      "id": 12,
+      "cat": "model",
+      "title": "亚马逊发布自己的 Jev 克隆，决策模型泛滥成灾",
+      "title_en": "Amazon releases its own Jev clone as decision models flood the web",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/10/01/amazon-releases-its-own-jev-clone-as-decision-models-flood-the-web/",
+      "time": "7小时前",
+      "published": "2026-10-01T16:49:22+00:00",
+      "summary": "亚马逊云服务旗下的 Strand Labs 发布了最新的类 Jev 决策模型 Strands Decider 2B。所谓“决策模型”，是指专门用于在复杂环境中做出选择或推荐的 AI 系统，近年来随着智能体和自动化流程的兴起而大量涌现。Strands Decider 2B 的参数量为20亿，定位轻量级部署，适合在边缘设备或低延迟场景中运行。TechCrunch 指出，决策模型正在“泛滥成灾”，各大厂商纷纷推出自己的版本，但缺乏统一的评测标准和实际应用验证。亚马逊此举被视为在智能体基础设施领域的又一步棋，试图从云服务层面锁定企业客户。",
+      "snark": "决策模型越来越多，但没人能决定哪个决策模型该用哪个决策模型。"
+    }
+  ],
+  "stats": {
+    "total": 12,
+    "model_count": 4,
+    "strategy_count": 2,
+    "tool_count": 3,
+    "policy_count": 3
+  }
+}

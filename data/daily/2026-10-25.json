@@ -1,0 +1,131 @@
+{
+  "date": "2026-10-25",
+  "generated_at": "2026-10-25T08:15:26.024333+08:00",
+  "highlight": "宾州立法要求AI广告贴标签，Anthropic开源智能体沙箱，英伟达发布4GB本地小模型。",
+  "fun": {
+    "lucky": "Nemotron 3.5 Bolt E4B 4GB",
+    "advice": "宜：在边缘设备上跑语音助手\n忌：跟参数量比你大一百倍的模型比智商",
+    "joke": "为什么AI智能体从不迷路？因为它每次都会先沙箱再出门。"
+  },
+  "articles": [
+    {
+      "id": 1,
+      "cat": "tool",
+      "title": "《蓝色星球3》在AI时代坚持保留粗糙边缘",
+      "title_en": "Blue Planet III is keeping the rough edges in the age of AI",
+      "source": "The Verge AI",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/1018205/blue-planet-iii-authentic-organic-ai",
+      "time": "2小时前",
+      "published": "2026-10-24T21:29:12+00:00",
+      "summary": "BBC自然纪录片《蓝色星球3》决定刻意保留不完美的镜头，以此证明画面的真实性。此前该系列以晶莹剔透、近乎不真实的精美画面著称，而如今观众对AI生成的过度精致影像越来越警惕。制作团队表示，留下那些对焦稍虚、光线欠佳的片段，反而成为反AI伪造的天然防伪标记。在生成式视频技术日益逼真的背景下，纪录片行业正重新思考“真实感”的定义，粗糙反而成了可信度的来源。",
+      "snark": "以后拍纪录片得故意手抖，不然观众以为你是AI渲染的。"
+    },
+    {
+      "id": 2,
+      "cat": "strategy",
+      "title": "AI坟场：那些没能活下来的项目和创业公司清单",
+      "title_en": "The AI graveyard: a running list of projects and startups that didn’t make it",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/10/24/the-ai-graveyard-a-running-list-of-projects-and-startups-that-didnt-make-it/",
+      "time": "5小时前",
+      "published": "2026-10-24T19:00:00+00:00",
+      "summary": "TechCrunch整理了一份AI领域的“失败项目清单”，记录了关闭或未达预期的AI产品与创业公司。其中包括苹果多次推迟的Siri AI升级，以及OpenAI那次混乱的“超级应用”发布。这份清单反映出AI行业在狂热投资背后的高淘汰率：大量项目因技术不成熟、商业化困难或战略摇摆而折戟。对从业者而言，它既是警示也是行业周期的一面镜子，提醒人们热潮之下并非人人都能笑到最后。",
+      "snark": "坟场名单越来越长，墓碑上刻的都是“即将改变世界”。"
+    },
+    {
+      "id": 3,
+      "cat": "policy",
+      "title": "宾夕法尼亚州将要求AI生成广告加注标签",
+      "title_en": "Pennsylvania will require labels on AI-generated ads",
+      "source": "The Verge AI",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/1018187/pennsylvania-ai-deceptive-advertising-act",
+      "time": "5小时前",
+      "published": "2026-10-24T18:32:21+00:00",
+      "summary": "宾夕法尼亚州州长乔什·夏皮罗签署了《人工智能欺骗性广告法》，要求对AI生成的广告进行披露。该法律适用于任何经过AI“显著修改或生成”的广告形式，包括静态图片、视频、音频和文字。此举旨在防止消费者被深度伪造或生成内容误导，是美国州层面针对AI广告透明度的最新立法动作。分析认为，这可能推动其他州跟进，并给广告主和AI内容平台带来新的合规成本。",
+      "snark": "广告法来了，以后AI吹牛也得先贴个“本牛由AI生成”的标签。",
+      "multiSource": [
+        "The Verge",
+        "The Verge AI"
+      ]
+    },
+    {
+      "id": 4,
+      "cat": "model",
+      "title": "Block新语音模型听起来像真人",
+      "title_en": "Block’s new voice model sounds eerily human",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/10/24/blocks-new-voice-model-sounds-eerily-human/",
+      "time": "8小时前",
+      "published": "2026-10-24T16:00:00+00:00",
+      "summary": "Block公司发布了一款新的语音模型，其合成语音的自然度被形容为“诡异得像真人”。该模型的一大亮点是可以在MacBook M4 Max上本地运行，无需依赖云端算力。这意味着开发者与用户能在个人设备上获得低延迟、高保真的语音生成能力，同时降低隐私与网络依赖风险。在语音合成竞争日益激烈的当下，本地化运行成为差异化卖点，也为离线语音助手和内容创作场景打开了新空间。",
+      "snark": "声音太像真人，接电话前得先确认对面是不是台笔记本。"
+    },
+    {
+      "id": 5,
+      "cat": "model",
+      "title": "被迫二选一时，Grok选共和党，OpenAI选民主党",
+      "title_en": "Forced to pick, Grok’s AI model chooses Republicans. OpenAI’s picks Democrats.",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/10/24/forced-to-pick-groks-ai-model-chooses-republicans-openais-picks-democrats/",
+      "time": "9小时前",
+      "published": "2026-10-24T15:00:00+00:00",
+      "summary": "一项新研究发现，在近500场选举对决中，Grok模型压倒性地推荐共和党候选人，而OpenAI的GPT则偏向民主党，两者在超过90%的选情中意见相左。研究通过强制模型在两名候选人中做出选择来测试其政治倾向，结果显示出明显的系统性偏差。这引发了关于大模型政治中立性、训练数据偏见以及AI在选举信息传播中角色的讨论，也提醒用户对模型输出保持审慎。",
+      "snark": "两个模型吵架比国会还分裂，建议它俩组个联合政府。"
+    },
+    {
+      "id": 6,
+      "cat": "tool",
+      "title": "那些能住进你短信里的热门AI智能体",
+      "title_en": "Here are the top AI agents that can live in your text messages",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/10/24/all-the-ai-agents-that-can-live-in-your-text-messages/",
+      "time": "10小时前",
+      "published": "2026-10-24T14:00:00+00:00",
+      "summary": "TechCrunch盘点了一批可以直接在短信对话中运行的AI智能体，覆盖通用助手、家庭场景、旅行规划和工作辅助等类别。这类产品把AI能力嵌入用户最熟悉的短信界面，无需额外安装应用，降低了使用门槛。从自动回复、日程管理到行程预订，短信智能体正成为AI落地的新入口。不过，隐私、垃圾信息过滤以及与运营商生态的兼容性，仍是这类产品规模化前需要解决的问题。",
+      "snark": "AI住进短信里，下一步是不是要帮我回“收到”了？"
+    },
+    {
+      "id": 7,
+      "cat": "tool",
+      "title": "Anthropic发布sandbox-runtime：无需容器的操作系统级智能体沙箱",
+      "title_en": "Meet Anthropic’s sandbox-runtime: OS-Level Sandboxing for AI Agents, No Containers",
+      "source": "MarkTechPost",
+      "url": "https://www.marktechpost.com/2026/10/24/anthropic-sandbox-runtime-ai-agent-sandbox/",
+      "time": "13小时前",
+      "published": "2026-10-24T11:12:27+00:00",
+      "summary": "Anthropic开源了sandbox-runtime（srt），这是支撑Claude Code的操作系统级沙箱方案。它通过macOS的Seatbelt和Linux的bubblewrap机制，限制智能体、MCP服务器及命令行工具的文件与网络访问权限，且无需依赖容器。相比容器方案，srt更轻量、启动更快，适合在开发者本机直接隔离AI智能体的行为。这为智能体安全执行提供了新的基础设施思路，也呼应了业界对AI代理权限失控的担忧。",
+      "snark": "给AI智能体上沙箱，就像给哈士奇套牵引绳，早该如此。"
+    },
+    {
+      "id": 8,
+      "cat": "tool",
+      "title": "用Letta构建有状态的智能体工程副驾驶",
+      "title_en": "Stateful Agentic Engineering Copilots with Letta: Core Memory, Shared State, Semantic Retrieval, Custom Tools, Streaming, and Portable Agent Workflows",
+      "source": "MarkTechPost",
+      "url": "https://www.marktechpost.com/2026/10/24/stateful-engineering-copilots-letta-tutorial/",
+      "time": "13小时前",
+      "published": "2026-10-24T10:29:31+00:00",
+      "summary": "MarkTechPost发布教程，介绍如何用Letta框架构建有状态的工程副驾驶智能体。内容涵盖可检查的核心记忆、归档向量检索、多智能体共享状态、自定义工具、流式输出以及可移植的智能体工作流。相比仅靠提示词的单次对话，这种方案让智能体拥有持久记忆和共享上下文，更接近真实工程协作场景。教程为开发者提供了从记忆管理到工具集成的完整实践路径，展示了智能体记忆层的工程化方向。",
+      "snark": "记忆比我还好，副驾驶迟早要抢主驾驶的工位。"
+    },
+    {
+      "id": 9,
+      "cat": "model",
+      "title": "英伟达发布Nemotron 3.5 Bolt E4B 4GB：面向本地语音智能体的开源小语言模型",
+      "title_en": "NVIDIA Releases Nemotron 3.5 Bolt E4B 4GB: An Open Small Language Model for Local Voice Agents, Game Characters and Robots",
+      "source": "MarkTechPost",
+      "url": "https://www.marktechpost.com/2026/10/23/nvidia-nemotron-3-5-bolt-e4b-4gb/",
+      "time": "20小时前",
+      "published": "2026-10-24T03:56:29+00:00",
+      "summary": "英伟达发布了Nemotron 3.5 Bolt E4B 4GB，这是一款基于Gemma 4 E4B后训练得到的开源小语言模型，面向本地语音助手、游戏角色和机器人等场景。该模型针对约4GB显存进行优化，可在RTX显卡和Jetson设备上运行。小模型加本地部署的组合，意味着更低的延迟、更好的隐私保护和离线可用性，也显示出英伟达在边缘AI与智能体硬件生态上的持续布局。",
+      "snark": "4GB显存就能跑，我的显卡终于不用再当暖手宝了。"
+    }
+  ],
+  "stats": {
+    "total": 9,
+    "model_count": 3,
+    "strategy_count": 1,
+    "tool_count": 4,
+    "policy_count": 1
+  }
+}

@@ -1,0 +1,163 @@
+{
+  "date": "2026-05-28",
+  "generated_at": "2026-05-28T08:03:51.174949+08:00",
+  "highlight": "AI投资与应用持续火热：Snowflake与AWS签订60亿美元芯片大单，Cognition融资10亿美元，Meta推出AI订阅计划。",
+  "fun": {
+    "lucky": "Cognition",
+    "advice": "宜：大胆融资，快速扩张。\n忌：忘记盈利模式，估值泡沫破裂。",
+    "joke": "AI agent交易股票：赚钱是AI的功劳，亏钱是用户的失误。"
+  },
+  "articles": [
+    {
+      "id": 1,
+      "cat": "tool",
+      "title": "苹果新款iPad Air首次降价，最高优惠100美元",
+      "title_en": "Apple’s newest iPad Air is up to $100 off for the first time",
+      "source": "The Verge",
+      "url": "https://www.theverge.com/gadgets/938519/apple-ipad-air-m4-deal-sale",
+      "time": "2小时前",
+      "published": "2026-05-27T21:08:41+00:00",
+      "summary": "苹果公司最新发布的iPad Air首次迎来降价，最高优惠幅度达100美元。这款搭载M4芯片的11英寸iPad Air配备128GB存储和Wi-Fi连接，目前在亚马逊上的售价为519.99美元起。对于希望获得比入门级iPad更强性能但又不想支付iPad Pro高昂价格的用户来说，这是一个极具吸引力的选择。此次降价标志着苹果在中端平板市场的定价策略调整，也反映出在AI应用日益普及的背景下，硬件厂商正通过价格竞争来扩大用户基础。",
+      "snark": "苹果终于学会了促销，但AI功能还没学会怎么用。"
+    },
+    {
+      "id": 2,
+      "cat": "strategy",
+      "title": "Snowflake与AWS签署60亿美元AI芯片大单，亚马逊再获利好",
+      "title_en": "In more good news for Amazon, Snowflake signs $6B deal with AWS for AI CPU chips",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/05/27/in-more-good-news-for-amazon-snowflake-signs-6b-deal-with-aws-for-ai-cpu-chips/",
+      "time": "3小时前",
+      "published": "2026-05-27T20:10:00+00:00",
+      "summary": "数据云公司Snowflake与亚马逊云服务（AWS）签署了一项为期五年、价值60亿美元的巨额协议，旨在为其AI工作负载获取芯片资源。这笔交易的核心是亚马逊自研的AI训练与推理芯片Trainium和Inferentia，而非此前市场普遍预期的英伟达GPU。此举不仅进一步巩固了AWS在云计算市场的领先地位，也意味着英伟达在AI芯片领域的垄断地位正面临来自云巨头自研芯片的严峻挑战。Snowflake表示，使用AWS自研芯片将使其AI推理成本降低40%以上。",
+      "snark": "英伟达：你们这是要造反啊？AWS：不，我们只是不想再交'显卡税'了。"
+    },
+    {
+      "id": 3,
+      "cat": "strategy",
+      "title": "薪资初创公司Remote借助AI实现人均营收增长50%",
+      "title_en": "Payroll startup Remote says it grew revenue 50% per employee without adding headcount",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/05/27/payroll-startup-remote-says-it-grew-revenue-50-per-employee-without-adding-headcount/",
+      "time": "4小时前",
+      "published": "2026-05-27T19:39:45+00:00",
+      "summary": "薪资服务提供商Remote宣布，公司年经常性收入已突破3亿美元并实现现金流正向，而这主要归功于AI技术的深度应用。通过引入AI自动化处理薪资计算、合规检查及客户服务等环节，Remote在不增加员工总数的前提下，实现了每位员工贡献的营收增长50%。该公司CEO表示，AI不仅降低了运营成本，还显著提升了服务响应速度和准确性。这一案例展示了AI在传统企业服务领域降本增效的巨大潜力，也为SaaS行业的AI转型提供了可借鉴的范本。",
+      "snark": "Remote：我们不招人，我们只招AI。HR：那我是不是该下岗了？"
+    },
+    {
+      "id": 4,
+      "cat": "policy",
+      "title": "增强运动会：兴奋剂成为赛场新宠",
+      "title_en": "Roids were all the rage at the Enhanced Games",
+      "source": "The Verge",
+      "url": "https://www.theverge.com/features/937620/enhanced-games-performance-enhancing-drugs-science-health-sports",
+      "time": "4小时前",
+      "published": "2026-05-27T19:08:31+00:00",
+      "summary": "在拉斯维加斯举行的'增强运动会'上，参赛选手公开使用各类兴奋剂以提高运动表现，引发了一场关于体育道德与科技伦理的激烈讨论。前奥运选手科迪·米勒在临时搭建的奥运标准泳池中夺冠，并伴随着MC Hammer的经典歌曲庆祝。这场赛事由科技投资人彼得·蒂尔等人支持，旨在推动'无限制体育'理念，认为兴奋剂应被视为与高科技泳衣、碳纤维跑鞋同等的性能增强工具。然而，主流体育界和医学界对此持强烈反对态度，认为这将破坏体育公平并严重危害运动员健康。",
+      "snark": "AI：你们人类终于想通了，作弊才是最高效的优化算法。"
+    },
+    {
+      "id": 5,
+      "cat": "strategy",
+      "title": "谷歌I/O大会宣告传统SEO时代终结，AI搜索重塑品牌可见性",
+      "title_en": "Your SEO strategy is optimized for a search engine that no longer exists.",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/podcast/your-seo-strategy-is-optimized-for-a-search-engine-that-no-longer-exists/",
+      "time": "5小时前",
+      "published": "2026-05-27T18:39:17+00:00",
+      "summary": "在最近的谷歌I/O开发者大会上，谷歌正式将AI生成答案置于搜索结果的核心位置，这意味着传统基于'十条蓝色链接'的搜索引擎优化策略已基本失效。对于多年来围绕关键词排名和反向链接构建数字营销策略的品牌而言，这一变化堪称地震级。AI现在直接根据用户查询生成摘要式回答，品牌几乎无法了解AI如何向消费者描述自己。这要求企业必须重新思考其在线可见性策略，从针对搜索引擎优化转向针对AI模型优化，包括结构化数据标注、权威内容建设以及与AI训练数据的对齐。",
+      "snark": "SEO专家：我优化了十年的排名，现在谷歌说'不好意思，我们改用AI了'。"
+    },
+    {
+      "id": 6,
+      "cat": "strategy",
+      "title": "Meta全球推出Instagram、Facebook和WhatsApp付费订阅，AI计划在列",
+      "title_en": "Meta launches Instagram, Facebook, and WhatsApp subscriptions, with more to come, including AI plans",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/05/27/meta-officially-launches-instagram-facebook-and-whatsapp-subscriptions-with-more-to-come-including-ai-plans/",
+      "time": "6小时前",
+      "published": "2026-05-27T18:00:00+00:00",
+      "summary": "Meta公司正式在全球范围内推出针对Instagram、Facebook和WhatsApp的付费订阅服务，作为其'Meta One'订阅品牌的一部分。付费用户将获得去广告体验、蓝色认证徽章以及增强的账户安全功能。更重要的是，Meta还透露正在测试一系列AI增强功能，包括高级AI聊天机器人、AI辅助内容创作工具和AI驱动的数据分析服务，这些将成为未来订阅套餐的核心卖点。此举标志着Meta正加速从纯广告模式向订阅+广告的混合商业模式转型，同时也显示出社交媒体巨头对AI商业化变现的迫切需求。",
+      "snark": "Meta：不想看广告？交钱。想用AI？再交钱。用户：我选择TikTok。"
+    },
+    {
+      "id": 7,
+      "cat": "tool",
+      "title": "英伟达发布Polar框架：基于GRPO的Token忠实强化学习训练框架",
+      "title_en": "NVIDIA Releases Polar, a Token-Faithful Rollout Framework for GRPO Training Across Codex, Claude Code, and Qwen Code",
+      "source": "MarkTechPost",
+      "url": "https://www.marktechpost.com/2026/05/27/nvidia-releases-polar-a-token-faithful-rollout-framework-for-grpo-training-across-codex-claude-code-and-qwen-code/",
+      "time": "6小时前",
+      "published": "2026-05-27T17:09:38+00:00",
+      "summary": "英伟达研究人员发布了名为Polar的强化学习训练框架，专门用于训练语言智能体而不需要修改其原有的智能体工具链。Polar通过在智能体工具链与推理服务器之间放置一个模型API代理，捕获Token级别的交互并重建训练器所需的完整轨迹。该框架支持GRPO（分组相对策略优化）算法，并已成功应用于Codex、Claude Code和Qwen Code等多个代码智能体。Polar的核心创新在于实现了'Token忠实'的奖励信号传递，确保强化学习过程中的每个Token都被准确评估，从而显著提升代码生成智能体的任务完成率和代码质量。",
+      "snark": "英伟达：我们不仅卖显卡，还教你怎么把显卡用到冒烟。"
+    },
+    {
+      "id": 8,
+      "cat": "strategy",
+      "title": "AI编程初创公司Cognition以250亿美元估值融资10亿美元",
+      "title_en": "AI coding startup Cognition raises $1B at $25B pre-money valuation",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/05/27/ai-coding-startup-cognition-raises-1b-at-25b-pre-money-valuation/",
+      "time": "8小时前",
+      "published": "2026-05-27T16:00:00+00:00",
+      "summary": "AI编程初创公司Cognition宣布完成新一轮10亿美元融资，投前估值高达250亿美元，较八个月前翻了一倍多。该公司目前年化营收运行率已达到4.92亿美元，展现出惊人的增长速度。Cognition的核心产品是一款AI编程助手，能够自动完成代码编写、调试和优化任务，大幅提升开发效率。此轮融资由多家顶级风投机构参与，资金将用于扩大研发团队、拓展企业客户以及加速产品迭代。该融资事件再次印证了AI编程赛道的高景气度，也反映出资本市场对AI赋能软件开发这一方向的强烈信心。",
+      "snark": "Cognition：我们估值250亿，因为我们能写代码。人类程序员：那我值多少？"
+    },
+    {
+      "id": 9,
+      "cat": "policy",
+      "title": "AI巨头政治角力：Anthropic与OpenAI砸重金影响纽约国会选举",
+      "title_en": "AI tried to bury this politician — now people have actually heard of him",
+      "source": "The Verge AI",
+      "url": "https://www.theverge.com/policy/937650/ai-alex-bores-openai-anthropic-ny12",
+      "time": "8小时前",
+      "published": "2026-05-27T15:40:00+00:00",
+      "summary": "在纽约第12国会选区的民主党初选中，Anthropic和OpenAI投入数百万美元进行政治博弈，争夺对AI监管政策的影响力。这场选举的核心议题是：谁有权监管AI，以及谁将因试图监管AI而受到惩罚。令人意外的是，这场AI巨头之间的金钱大战反而让原本默默无闻的候选人亚历克斯·博雷斯获得了前所未有的公众关注度。博雷斯本人并非AI行业的支持者，而是主张对AI实施严格监管。这一现象揭示了AI巨头通过政治献金影响立法进程的深度，以及金钱政治可能产生的反效果。",
+      "snark": "Anthropic和OpenAI：我们花钱是为了让政客闭嘴。结果：政客火了。"
+    },
+    {
+      "id": 10,
+      "cat": "tool",
+      "title": "Robinhood开放AI代理股票交易：赚钱亏钱全凭算法",
+      "title_en": "Robinhood will let your AI agent trade stocks and make (or lose) lots of money",
+      "source": "The Verge AI",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/938095/robinhood-ai-agent-stock-trading",
+      "time": "9小时前",
+      "published": "2026-05-27T14:36:10+00:00",
+      "summary": "在线券商Robinhood宣布允许用户为其AI代理开设独立交易账户，并注入特定资金，让AI代理自主进行股票买卖操作。该公司将这一功能定位为一种'自动化投资实验'，用户可以在不承担个人全部资产风险的前提下，测试不同AI交易策略的表现。AI代理可以基于技术指标、新闻情绪分析或机器学习模型做出交易决策。然而，Robinhood也明确警告，AI交易存在高风险，可能会导致本金损失。这一举措引发了关于AI在金融领域应用的监管讨论，尤其是当AI代理做出错误决策导致重大损失时，责任归属问题尚不明确。",
+      "snark": "Robinhood：让你的AI帮你炒股，亏了别怪我们，毕竟AI也是你选的。"
+    },
+    {
+      "id": 11,
+      "cat": "strategy",
+      "title": "初创公司Battlefield 200申请今日截止：最后机会赢取10万美元",
+      "title_en": "Startup Battlefield 200 applications close today: Nominate a founder or submit your startup",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/05/27/startup-battlefield-200-applications-close-today-nominate-a-founder-or-submit-your-startup/",
+      "time": "9小时前",
+      "published": "2026-05-27T14:15:00+00:00",
+      "summary": "TechCrunch举办的Startup Battlefield 200大赛申请通道将于今晚11:59（太平洋时间）关闭。获胜者将获得10万美元无股权稀释奖金、全球媒体曝光、直接对接投资人以及在TechCrunch Disrupt大会舞台发布产品的机会。该赛事历来是初创公司获取早期关注和融资的重要平台，曾孵化出多家独角兽企业。对于AI初创公司而言，这是一个展示技术实力、吸引战略合作伙伴的绝佳窗口。组织者鼓励尚未申请的创始人抓紧最后时间提交材料。",
+      "snark": "Startup Battlefield：最后一天了，再不申请你的AI创业梦就要等明年了。"
+    },
+    {
+      "id": 12,
+      "cat": "model",
+      "title": "ElevenLabs发布新型音乐生成模型：支持中途切换音乐风格",
+      "title_en": "ElevenLabs’ new music-generation model can switch genres mid-track",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/05/27/elevenlabss-new-music-generation-model-can-switch-genres-mid-track/",
+      "time": "9小时前",
+      "published": "2026-05-27T14:14:10+00:00",
+      "summary": "AI语音克隆与生成公司ElevenLabs发布了一款全新的音乐生成模型，其最引人注目的功能是允许用户在歌曲创作过程中，仅重新生成特定段落而不影响整首曲子的其他部分。这意味着音乐人可以先创作一段流行风格的副歌，然后将其中的某几小节替换为爵士或电子风格，而AI会自动保持旋律、和声与节奏的连贯性。该模型基于大规模音乐数据集训练，能够理解复杂的音乐结构和风格特征。这一创新极大地提升了AI音乐创作的灵活性和实用性，为专业音乐人和业余爱好者提供了前所未有的创作自由度。",
+      "snark": "ElevenLabs：想从民谣突然切到死亡金属？AI说没问题，但你的听众可能不同意。"
+    }
+  ],
+  "stats": {
+    "total": 12,
+    "model_count": 1,
+    "strategy_count": 6,
+    "tool_count": 3,
+    "policy_count": 2
+  }
+}

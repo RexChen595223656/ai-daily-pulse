@@ -1,0 +1,161 @@
+{
+  "date": "2026-05-03",
+  "highlight": "视觉 AI 突破：实时视频理解+生成，AR/VR 应用迎来技术奇点",
+  "articles": [
+    {
+      "id": 1,
+      "cat": "model",
+      "title": "DeepSeek V4 开源：MoE 架构，236B 参数，性能接近 GPT-5",
+      "title_en": "",
+      "source": "TechCrunch",
+      "url": "https://example.com/ai-news/3017",
+      "time": "11天前",
+      "published": "2026-05-03T22:27:00+08:00",
+      "summary": "这是一条关于「DeepSeek V4 开源：MoE 架构，236B 参数，性能接近 GPT-5」的详细报道。该事件在 AI 行业引发广泛关注，多位业内人士表示这将深刻影响行业格局。更多细节请查看原文。",
+      "snark": "AI圈日常：今天你发模型，明天我刷榜。"
+    },
+    {
+      "id": 2,
+      "cat": "model",
+      "title": "Gemini 2.5 Ultra 发布，多模态基准测试全面领先",
+      "title_en": "",
+      "source": "少数派",
+      "url": "https://example.com/ai-news/4416",
+      "time": "11天前",
+      "published": "2026-05-03T12:55:00+08:00",
+      "summary": "这是一条关于「Gemini 2.5 Ultra 发布，多模态基准测试全面领先」的详细报道。该事件在 AI 行业引发广泛关注，多位业内人士表示这将深刻影响行业格局。更多细节请查看原文。",
+      "snark": "这条新闻让同行们集体沉默了3秒，然后继续卷。"
+    },
+    {
+      "id": 3,
+      "cat": "model",
+      "title": "Meta 开源 Llama 4 405B，称性能超越 GPT-4.5",
+      "title_en": "",
+      "source": "Synced Review",
+      "url": "https://example.com/ai-news/8361",
+      "time": "11天前",
+      "published": "2026-05-03T12:41:00+08:00",
+      "summary": "这是一条关于「Meta 开源 Llama 4 405B，称性能超越 GPT-4.5」的详细报道。该事件在 AI 行业引发广泛关注，多位业内人士表示这将深刻影响行业格局。更多细节请查看原文。",
+      "snark": "这条新闻让同行们集体沉默了3秒，然后继续卷。"
+    },
+    {
+      "id": 4,
+      "cat": "model",
+      "title": "Mistral Large 3 发布，欧洲 AI 崛起新标志",
+      "title_en": "",
+      "source": "36氪",
+      "url": "https://example.com/ai-news/6406",
+      "time": "11天前",
+      "published": "2026-05-03T17:41:00+08:00",
+      "summary": "这是一条关于「Mistral Large 3 发布，欧洲 AI 崛起新标志」的详细报道。该事件在 AI 行业引发广泛关注，多位业内人士表示这将深刻影响行业格局。更多细节请查看原文。",
+      "snark": "又双叒叕一个「里程碑」，今年第几个了？"
+    },
+    {
+      "id": 5,
+      "cat": "model",
+      "title": "Hugging Face 推出开源推理框架，性能比肩 GPT-4",
+      "title_en": "",
+      "source": "MIT Tech Review",
+      "url": "https://example.com/ai-news/7830",
+      "time": "11天前",
+      "published": "2026-05-03T10:21:00+08:00",
+      "summary": "这是一条关于「Hugging Face 推出开源推理框架，性能比肩 GPT-4」的详细报道。该事件在 AI 行业引发广泛关注，多位业内人士表示这将深刻影响行业格局。更多细节请查看原文。",
+      "snark": "编辑部：这条我们也不知道怎么评价。"
+    },
+    {
+      "id": 6,
+      "cat": "strategy",
+      "title": "Adobe Firefly 4 发布：AI 创意工具全面整合 Photoshop",
+      "title_en": "",
+      "source": "36氪",
+      "url": "https://example.com/ai-news/7965",
+      "time": "11天前",
+      "published": "2026-05-03T13:27:00+08:00",
+      "summary": "这是一条关于「Adobe Firefly 4 发布：AI 创意工具全面整合 Photoshop」的详细报道。该事件在 AI 行业引发广泛关注，多位业内人士表示这将深刻影响行业格局。更多细节请查看原文。",
+      "snark": "编辑部：这条我们也不知道怎么评价。"
+    },
+    {
+      "id": 7,
+      "cat": "strategy",
+      "title": "微软将 Copilot 深度整合至 Windows 12，AI 操作系统时代来临",
+      "title_en": "",
+      "source": "OpenAI Blog",
+      "url": "https://example.com/ai-news/8101",
+      "time": "11天前",
+      "published": "2026-05-03T16:44:00+08:00",
+      "summary": "这是一条关于「微软将 Copilot 深度整合至 Windows 12，AI 操作系统时代来临」的详细报道。该事件在 AI 行业引发广泛关注，多位业内人士表示这将深刻影响行业格局。更多细节请查看原文。",
+      "snark": "编辑部：这条我们也不知道怎么评价。"
+    },
+    {
+      "id": 8,
+      "cat": "strategy",
+      "title": "xAI 完成 60 亿美元融资，Elon Musk 称将建全球最大 GPU 集群",
+      "title_en": "",
+      "source": "Hacker News",
+      "url": "https://example.com/ai-news/3194",
+      "time": "11天前",
+      "published": "2026-05-03T06:35:00+08:00",
+      "summary": "这是一条关于「xAI 完成 60 亿美元融资，Elon Musk 称将建全球最大 GPU 集群」的详细报道。该事件在 AI 行业引发广泛关注，多位业内人士表示这将深刻影响行业格局。更多细节请查看原文。",
+      "snark": "又双叒叕一个「里程碑」，今年第几个了？"
+    },
+    {
+      "id": 9,
+      "cat": "strategy",
+      "title": "OpenAI 完成 400 亿美元新一轮融资，估值突破 3000 亿",
+      "title_en": "",
+      "source": "Synced Review",
+      "url": "https://example.com/ai-news/2917",
+      "time": "11天前",
+      "published": "2026-05-03T13:14:00+08:00",
+      "summary": "这是一条关于「OpenAI 完成 400 亿美元新一轮融资，估值突破 3000 亿」的详细报道。该事件在 AI 行业引发广泛关注，多位业内人士表示这将深刻影响行业格局。更多细节请查看原文。",
+      "snark": "编辑部：这条我们也不知道怎么评价。"
+    },
+    {
+      "id": 10,
+      "cat": "tool",
+      "title": "GitHub Copilot X 上线：AI 可自动完成整个 PR",
+      "title_en": "",
+      "source": "少数派",
+      "url": "https://example.com/ai-news/3477",
+      "time": "11天前",
+      "published": "2026-05-03T22:06:00+08:00",
+      "summary": "这是一条关于「GitHub Copilot X 上线：AI 可自动完成整个 PR」的详细报道。该事件在 AI 行业引发广泛关注，多位业内人士表示这将深刻影响行业格局。更多细节请查看原文。",
+      "snark": "这条新闻让同行们集体沉默了3秒，然后继续卷。"
+    },
+    {
+      "id": 11,
+      "cat": "tool",
+      "title": "LangChain 发布生产级 Agent 框架：支持多模型协作",
+      "title_en": "",
+      "source": "OpenAI Blog",
+      "url": "https://example.com/ai-news/9656",
+      "time": "11天前",
+      "published": "2026-05-03T06:06:00+08:00",
+      "summary": "这是一条关于「LangChain 发布生产级 Agent 框架：支持多模型协作」的详细报道。该事件在 AI 行业引发广泛关注，多位业内人士表示这将深刻影响行业格局。更多细节请查看原文。",
+      "snark": "AI圈新闻：今天又是核聚变级别的一天。"
+    },
+    {
+      "id": 12,
+      "cat": "tool",
+      "title": "Sora 2 公测：OpenAI 视频生成时长扩展至 2 分钟",
+      "title_en": "",
+      "source": "The Verge AI",
+      "url": "https://example.com/ai-news/5692",
+      "time": "11天前",
+      "published": "2026-05-03T17:13:00+08:00",
+      "summary": "这是一条关于「Sora 2 公测：OpenAI 视频生成时长扩展至 2 分钟」的详细报道。该事件在 AI 行业引发广泛关注，多位业内人士表示这将深刻影响行业格局。更多细节请查看原文。",
+      "snark": "又双叒叕一个「里程碑」，今年第几个了？"
+    }
+  ],
+  "stats": {
+    "total": 12,
+    "model_count": 5,
+    "strategy_count": 4,
+    "tool_count": 3
+  },
+  "fun": {
+    "lucky": "Sora 2",
+    "advice": "宜：视频创作\n忌：忽略版权风险",
+    "joke": "2026 年的 AI 领域三大谎言：\n1.「我们的模型是开源的」\n2.「AGI 还需要 3 年」\n3.「这个 bug 我会很快修好」"
+  }
+}
