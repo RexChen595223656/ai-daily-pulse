@@ -1,0 +1,103 @@
+{
+  "date": "2026-11-02",
+  "generated_at": "2026-11-02T08:01:07.589809+08:00",
+  "highlight": "OpenAI欲将数据中心改名为“AI算力园区”以缓解公众反感，DeepSeek开源编码智能体将任务完成时间缩短近半。",
+  "fun": {
+    "lucky": "Drex Max v1",
+    "advice": "宜：在本地跑模型省下云费；忌：向邻居解释你家那台“算力园区”只是台Mac Studio。",
+    "joke": "为什么AI工程师从不迷路？因为他们总在找“最优路径”，结果绕了三个GPU小时才到厕所。"
+  },
+  "articles": [
+    {
+      "id": 1,
+      "cat": "strategy",
+      "title": "OpenAI或将其数据中心重新包装为“AI算力园区”",
+      "title_en": "OpenAI might rebrand its data centers as ‘AI compute campuses’",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/11/01/openai-might-rebrand-its-data-centers-as-ai-compute-campuses/",
+      "time": "2小时前",
+      "published": "2026-11-01T21:55:23+00:00",
+      "summary": "据TechCrunch报道，面对数据中心在各地遭遇的强烈公众反对，OpenAI正考虑将其数据中心重新命名为“AI算力园区”，试图通过更友好的措辞来缓解社区抵触情绪。数据中心因高能耗、水资源消耗和噪音等问题长期不受欢迎，而AI热潮更让此类设施的建设速度与规模激增。改名策略本质上是一种公关手段，意在将“冰冷机房”重塑为“创新园区”的形象，但批评者指出，换名字并不能解决实质性的环境与社区负担。此举也反映出AI基础设施扩张正面临越来越大的社会阻力，科技公司不得不在选址与沟通策略上花费更多心思。",
+      "snark": "改个名就能让电费账单和噪音消失？建议顺便把“裁员”改叫“人才毕业”。"
+    },
+    {
+      "id": 2,
+      "cat": "strategy",
+      "title": "AI能让科技CEO日子更轻松，那其他人呢？",
+      "title_en": "AI can make tech CEOs’ lives easier. What about everyone else?",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/11/01/ai-can-make-tech-ceos-lives-easier-what-about-everyone-else/",
+      "time": "3小时前",
+      "published": "2026-11-01T20:57:58+00:00",
+      "summary": "TechCrunch旗下播客Equity讨论了科技CEO们关于AI的公开表态为何常常显得“何不食肉糜”。节目指出，高管们热衷于宣扬AI提升生产力、解放创造力，却鲜少提及普通员工面临的岗位重构、技能过时与议价能力下降。这种脱节源于CEO们的利益立场：AI带来的效率红利首先体现在财报和股价上，而成本与风险则由一线员工和社会承担。讨论还延伸到AI对招聘结构的影响，以及“AI不会取代你，但会用AI的人会”这类话术背后的权力叙事。节目呼吁关注AI收益分配的公平性，而非仅听信高管们的乐观叙事。",
+      "snark": "CEO用AI省下时间写更长的全员信，员工用AI省下时间读裁员通知。"
+    },
+    {
+      "id": 3,
+      "cat": "policy",
+      "title": "Flock无视取消合同请求，城市想解约竟如此困难",
+      "title_en": "Flock keeps ignoring requests to cancel its contracts",
+      "source": "The Verge",
+      "url": "https://www.theverge.com/tech/1024232/flock-ignoring-cancel-contracts",
+      "time": "4小时前",
+      "published": "2026-11-01T19:58:02+00:00",
+      "summary": "据The Verge报道，越来越多城市决定取消与监控技术公司Flock Safety的合同，但部分城市发现解约过程异常艰难。明尼苏达州普利茅斯市议会于九月投票决定终止与Flock的合同，然而该公司未回应城市的请求，导致解约拖延超过一个月。此事凸显了地方政府在采购监控技术后遭遇的合同锁定问题，也引发对供应商问责机制的质疑。Flock的自动车牌识别系统此前已因隐私与公民自由问题受到批评，而解约难进一步加剧了公众对其商业行为的不信任。报道暗示，类似情况可能并非孤例，其他城市也在经历相似的合同困境。",
+      "snark": "签合同像扫码，解约像解谜——Flock把“客户至上”理解成了“客户上锁”。"
+    },
+    {
+      "id": 4,
+      "cat": "tool",
+      "title": "Show HN：HackerBooks——黑客新闻提及书籍的“HackerTube”版",
+      "title_en": "Show HN: HackerBooks – HackerTube, but for books mentioned on HN",
+      "source": "Hacker News",
+      "url": "https://hackerbooks.org",
+      "time": "8小时前",
+      "published": "2026-11-01T15:58:28+00:00",
+      "summary": "开发者受Karpathy的HackerTube项目启发，用Claude Opus 5.5构建了HackerBooks网站，专门收录黑客新闻评论区中被至少两位不同用户提及的书籍，时间跨度从2007年至今，总计约1.65万本。每本书都链接回提及它的原始评论，方便用户追溯上下文与讨论脉络。网站数据可从关于页面下载，便于二次分析或研究。该项目展示了利用大模型快速搭建垂直检索工具的可能性，也体现了社区数据再利用的价值。对于喜欢从技术讨论中挖掘阅读清单的开发者而言，这是一个实用的聚合入口。",
+      "snark": "用AI整理HN书单，最后大概会得出“没人读完任何书”的结论。"
+    },
+    {
+      "id": 5,
+      "cat": "policy",
+      "title": "朝鲜被指与币安大规模加密货币盗窃案有关",
+      "title_en": "North Korea linked to massive Binance crypto heist",
+      "source": "The Verge",
+      "url": "https://www.theverge.com/tech/1024176/north-korea-binance-crypto-heist",
+      "time": "9小时前",
+      "published": "2026-11-01T14:33:11+00:00",
+      "summary": "美国联邦调查局表示，朝鲜是10月29日币安遭遇的63亿美元加密货币盗窃案的幕后黑手。FBI将该活动命名为“TraderTraitor”，并称已观察到与其关联的行为者将代币转换为以太坊，并准备进一步洗钱。此次事件是近年来规模最大的加密货币盗窃案之一，凸显了加密交易平台在安全防护与地缘政治风险面前的脆弱性。FBI的归因也再次将朝鲜黑客组织与全球加密犯罪网络联系起来，预计将引发更严格的监管审查与交易所安全升级。对于AI行业而言，此案也提醒人们，自动化交易与链上分析工具在追踪资金流向中扮演着关键角色。",
+      "snark": "朝鲜黑客的KPI大概比硅谷还卷，63亿美元够买多少个GPU集群了。"
+    },
+    {
+      "id": 6,
+      "cat": "model",
+      "title": "Nace AI开源Drex Max v1：可在苹果芯片本地运行的27B决策模型",
+      "title_en": "Nace AI Open-Sources Drex Max v1: A 27B Decision Model That Runs Locally on Apple Silicon",
+      "source": "MarkTechPost",
+      "url": "https://www.marktechpost.com/2026/11/01/nace-ai-open-sources-drex-max-v1-local-inference/",
+      "time": "15小时前",
+      "published": "2026-11-01T08:10:07+00:00",
+      "summary": "Nace AI开源了Drex Max v1，这是一个拥有270亿参数的多模态决策模型，评分达到67.52，并可在苹果芯片上本地运行。该模型主打本地推理能力，意味着用户无需依赖云端即可完成多模态决策任务，在隐私敏感和低延迟场景中具有优势。27B的参数量在本地运行对内存与算力提出了较高要求，但苹果统一内存架构为其提供了可行性。开源策略有助于社区复现与二次开发，也可能推动更多面向端侧部署的决策模型出现。目前关于其训练数据与具体评测基准的细节尚有限，但本地多模态决策这一方向值得关注。",
+      "snark": "27B模型跑在Mac上，风扇的呼啸声就是“本地智能”的背景音乐。"
+    },
+    {
+      "id": 7,
+      "cat": "tool",
+      "title": "DeepSeek开源dsh-superagent：路由-工作者架构的编码智能体",
+      "title_en": "DeepSeek Open-Sources dsh-superagent, a Router-Worker Coding Agent",
+      "source": "MarkTechPost",
+      "url": "https://www.marktechpost.com/2026/11/01/deepseek-dsh-superagent-router-worker-coding-agent/",
+      "time": "16小时前",
+      "published": "2026-11-01T07:47:17+00:00",
+      "summary": "DeepSeek发布了dsh-superagent，这是一个采用MIT许可证的研究原型，能够将GitHub与飞书请求转化为并行的工作者会话。其架构为“路由-工作者”模式：路由层负责解析任务并分发给多个并行工作者，从而提升复杂编码任务的处理效率。在DeepSeek自身的模拟测试中，p95任务完成时间从29.5分钟降至15.7分钟，接近减半。该智能体面向编码场景，强调对真实开发工作流中异步请求的编排能力。开源与研究原型的定位意味着它更适合开发者实验与二次开发，而非直接生产部署，但其并行调度思路对构建高效编码助手具有参考价值。",
+      "snark": "路由-工作者架构听起来像外卖平台派单，只不过骑手是GPU。"
+    }
+  ],
+  "stats": {
+    "total": 7,
+    "model_count": 1,
+    "strategy_count": 2,
+    "tool_count": 2,
+    "policy_count": 2
+  }
+}

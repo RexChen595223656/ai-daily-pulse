@@ -1,4 +1,16 @@
 {
+  "2026-11-02": {
+    "date": "2026-11-02",
+    "highlight": "OpenAI欲将数据中心改名为“AI算力园区”以缓解公众反感，DeepSeek开源编码智能体将任务完成时间缩短近半。",
+    "count": 7,
+    "stats": {
+      "total": 7,
+      "model_count": 1,
+      "strategy_count": 2,
+      "tool_count": 2,
+      "policy_count": 2
+    }
+  },
   "2026-11-01": {
     "date": "2026-11-01",
     "highlight": "苹果CEO称不为AI而AI，OpenAI下调融资目标，AI行业从狂热转向务实。",
@@ -705,18 +717,6 @@
       "strategy_count": 3,
       "tool_count": 4,
       "policy_count": 1
-    }
-  },
-  "2026-08-25": {
-    "date": "2026-08-25",
-    "highlight": "具身智能赛道迎来资本热潮，小鹏机器人融资超九亿美元，通用智能获六十亿美元估值，机器人基础模型同日双发。",
-    "count": 12,
-    "stats": {
-      "total": 12,
-      "model_count": 3,
-      "strategy_count": 5,
-      "tool_count": 0,
-      "policy_count": 4
     }
   }
 }
