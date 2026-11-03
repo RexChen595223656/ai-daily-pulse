@@ -1,4 +1,16 @@
 {
+  "2026-11-03": {
+    "date": "2026-11-03",
+    "highlight": "Anthropic警告递归自我改进能力逼近，AI自我进化与安全监管的赛跑进入新阶段。",
+    "count": 12,
+    "stats": {
+      "total": 12,
+      "model_count": 1,
+      "strategy_count": 6,
+      "tool_count": 2,
+      "policy_count": 3
+    }
+  },
   "2026-11-02": {
     "date": "2026-11-02",
     "highlight": "OpenAI欲将数据中心改名为“AI算力园区”以缓解公众反感，DeepSeek开源编码智能体将任务完成时间缩短近半。",
@@ -705,18 +717,6 @@
       "strategy_count": 0,
       "tool_count": 0,
       "policy_count": 0
-    }
-  },
-  "2026-08-26": {
-    "date": "2026-08-26",
-    "highlight": "今日AI界多点开花：Liquid AI开源端侧评测工具、OpenAI发布自研推理芯片Jalapeño、Perplexity推出本地计算机，端侧与硬件成为焦点。",
-    "count": 12,
-    "stats": {
-      "total": 12,
-      "model_count": 4,
-      "strategy_count": 3,
-      "tool_count": 4,
-      "policy_count": 1
     }
   }
 }

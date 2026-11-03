@@ -18,6 +18,14 @@
         "reasoning": 0
       },
       {
+        "model": "Gemini 4 Carbon (Medium)",
+        "org": "Google",
+        "intelligence": 57.7,
+        "coding": 0,
+        "math": 0,
+        "reasoning": 0
+      },
+      {
         "model": "Claude Opus 5.5 (Xhigh, Default Fallback)",
         "org": "Anthropic",
         "intelligence": 57,
@@ -66,17 +74,9 @@
         "reasoning": 0
       },
       {
-        "model": "GPT-6.1 Sol (Xhigh)",
-        "org": "OpenAI",
-        "intelligence": 52.3,
-        "coding": 0,
-        "math": 0,
-        "reasoning": 0
-      },
-      {
-        "model": "Claude Opus 5.5 (High, Default Fallback)",
-        "org": "Anthropic",
-        "intelligence": 51.7,
+        "model": "Gemini 4 Carbon (Low)",
+        "org": "Google",
+        "intelligence": 53.7,
         "coding": 0,
         "math": 0,
         "reasoning": 0
@@ -98,6 +98,13 @@
         "blended": 8
       },
       {
+        "model": "Gemini 4 Carbon (Medium)",
+        "org": "Google",
+        "input": 4,
+        "output": 20,
+        "blended": 8
+      },
+      {
         "model": "Claude Opus 5.5 (Xhigh, Default Fallback)",
         "org": "Anthropic",
         "input": 4,
@@ -140,15 +147,8 @@
         "blended": 4
       },
       {
-        "model": "GPT-6.1 Sol (Xhigh)",
-        "org": "OpenAI",
-        "input": 2,
-        "output": 10,
-        "blended": 4
-      },
-      {
-        "model": "Claude Opus 5.5 (High, Default Fallback)",
-        "org": "Anthropic",
+        "model": "Gemini 4 Carbon (Low)",
+        "org": "Google",
         "input": 4,
         "output": 20,
         "blended": 8
@@ -158,62 +158,62 @@
       {
         "model": "Gemini 4 Carbon (High)",
         "org": "Google",
-        "outputSpeed": 90.2,
-        "ttft": 65.32
+        "outputSpeed": 90.6,
+        "ttft": 60.38
       },
       {
         "model": "Claude Opus 5.5 (Max, Default Fallback)",
         "org": "Anthropic",
-        "outputSpeed": 97.7,
-        "ttft": 415.67
+        "outputSpeed": 95.9,
+        "ttft": 550.8
+      },
+      {
+        "model": "Gemini 4 Carbon (Medium)",
+        "org": "Google",
+        "outputSpeed": 0,
+        "ttft": 0
       },
       {
         "model": "Claude Opus 5.5 (Xhigh, Default Fallback)",
         "org": "Anthropic",
-        "outputSpeed": 81.2,
-        "ttft": 68.95
+        "outputSpeed": 78.3,
+        "ttft": 71.43
       },
       {
         "model": "GPT-6 Astra (Max)",
         "org": "OpenAI",
-        "outputSpeed": 76.6,
-        "ttft": 155.32
+        "outputSpeed": 65.1,
+        "ttft": 213.14
       },
       {
         "model": "GPT-6 Astra (Xhigh)",
         "org": "OpenAI",
-        "outputSpeed": 68.7,
-        "ttft": 57.23
+        "outputSpeed": 57.8,
+        "ttft": 76.61
       },
       {
         "model": "GPT-6 Astra (High)",
         "org": "OpenAI",
-        "outputSpeed": 63.8,
-        "ttft": 21.0
+        "outputSpeed": 51.3,
+        "ttft": 18.25
       },
       {
         "model": "GPT-6.1 Sol (Max)",
         "org": "OpenAI",
-        "outputSpeed": 75.0,
-        "ttft": 140.95
+        "outputSpeed": 73.3,
+        "ttft": 158.25
       },
       {
         "model": "Claude Sonnet 5.5 (Max, Default Fallback)",
         "org": "Anthropic",
-        "outputSpeed": 135.8,
-        "ttft": 270.81
+        "outputSpeed": 132.8,
+        "ttft": 297.08
       },
       {
-        "model": "GPT-6.1 Sol (Xhigh)",
-        "org": "OpenAI",
-        "outputSpeed": 68.9,
-        "ttft": 42.18
-      },
-      {
-        "model": "Claude Opus 5.5 (High, Default Fallback)",
-        "org": "Anthropic",
-        "outputSpeed": 76.1,
-        "ttft": 18.78
+        "model": "Gemini 4 Carbon (Low)",
+        "org": "Google",
+        "outputSpeed": 0,
+        "ttft": 0
       }
     ]
   },
@@ -235,7 +235,7 @@
       },
       {
         "model": "GPT Image 2 (high)",
-        "elo": 1186,
+        "elo": 1187,
         "rank": 3,
         "org": "OpenAI",
         "date": "2026-04"
@@ -248,17 +248,17 @@
         "date": "2026-10"
       },
       {
-        "model": "MAI-Image-2.6",
+        "model": "Grok Imagine Image 2.0",
         "elo": 1166,
         "rank": 5,
-        "org": "Microsoft AI",
+        "org": "SpaceXAI",
         "date": "2026-08"
       },
       {
-        "model": "Grok Imagine Image 2.0",
+        "model": "MAI-Image-2.6",
         "elo": 1166,
         "rank": 6,
-        "org": "SpaceXAI",
+        "org": "Microsoft AI",
         "date": "2026-08"
       },
       {
@@ -342,5 +342,5 @@
     "price": [],
     "speed": []
   },
-  "_fetched_at": "2026-11-02T08:01:13.381896+08:00"
+  "_fetched_at": "2026-11-03T08:00:38.809849+08:00"
 }
