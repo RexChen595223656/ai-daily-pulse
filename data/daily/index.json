@@ -1,4 +1,28 @@
 {
+  "2026-11-06": {
+    "date": "2026-11-06",
+    "highlight": "爱彼迎预告2027年AI旅行代理，百度开源280B稀疏MoE模型，OpenAI称2027年或可IPO。",
+    "count": 12,
+    "stats": {
+      "total": 12,
+      "model_count": 2,
+      "strategy_count": 2,
+      "tool_count": 6,
+      "policy_count": 2
+    }
+  },
+  "2026-11-04": {
+    "date": "2026-11-04",
+    "highlight": "Anthropic发布FlashProve零知识证明系统，可验证AI回复来源；AI推理公司Fal估值翻倍至160亿美元。",
+    "count": 12,
+    "stats": {
+      "total": 12,
+      "model_count": 1,
+      "strategy_count": 4,
+      "tool_count": 5,
+      "policy_count": 2
+    }
+  },
   "2026-11-03": {
     "date": "2026-11-03",
     "highlight": "Anthropic警告递归自我改进能力逼近，AI自我进化与安全监管的赛跑进入新阶段。",
@@ -693,30 +717,6 @@
       "strategy_count": 4,
       "tool_count": 2,
       "policy_count": 3
-    }
-  },
-  "2026-08-28": {
-    "date": "2026-08-28",
-    "highlight": "",
-    "count": 0,
-    "stats": {
-      "total": 0,
-      "model_count": 0,
-      "strategy_count": 0,
-      "tool_count": 0,
-      "policy_count": 0
-    }
-  },
-  "2026-08-27": {
-    "date": "2026-08-27",
-    "highlight": "",
-    "count": 0,
-    "stats": {
-      "total": 0,
-      "model_count": 0,
-      "strategy_count": 0,
-      "tool_count": 0,
-      "policy_count": 0
     }
   }
 }
