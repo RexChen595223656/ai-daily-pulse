@@ -1,0 +1,179 @@
+{
+  "date": "2026-10-15",
+  "generated_at": "2026-10-15T08:14:56.533477+08:00",
+  "highlight": "八州起诉OpenAI儿童安全、Character.AI破产引发数据担忧，AI行业合规风暴与模型竞赛同步升温。",
+  "fun": {
+    "lucky": "LFM2.5-24B-A2B",
+    "advice": "宜：端侧部署小模型，忌：把产品计划发给苹果。",
+    "joke": "为什么AI不擅长打篮球？因为它总是过拟合，从不泛化到球场。"
+  },
+  "articles": [
+    {
+      "id": 1,
+      "cat": "model",
+      "title": "LFM2.5-24B-A2B：为快速端侧智能体而生",
+      "title_en": "LFM2.5-24B-A2B: Built for Fast On-Device Agents",
+      "source": "Hacker News",
+      "url": "https://www.liquid.ai/blog/lfm2-5-24b-a2b",
+      "time": "15分钟前",
+      "published": "2026-10-14T23:59:37+00:00",
+      "summary": "Liquid AI 发布了 LFM2.5-24B-A2B 模型，专为快速端侧智能体设计。该模型采用混合专家架构，总参数量为 240 亿，但每次推理仅激活约 20 亿参数，从而在保持强大能力的同时大幅降低计算需求。它针对设备端部署进行了优化，能够在手机、笔记本等边缘设备上实现低延迟的智能体交互，支持工具调用、多步推理等任务。该模型已在 Hacker News 上引发讨论，开发者关注其在实际场景中的表现和开源许可。Liquid AI 强调，该模型在速度与精度之间取得了平衡，适合需要实时响应的应用，如个人助手、自动化工作流等。",
+      "snark": "端侧智能体终于不用云端排队了，但你的手机电池答应吗？",
+      "multiSource": [
+        "Hacker News",
+        "MarkTechPost"
+      ]
+    },
+    {
+      "id": 2,
+      "cat": "tool",
+      "title": "麦肯锡让求职者与AI模拟客户过招",
+      "title_en": "McKinsey is making job applicants spar with a fake AI client",
+      "source": "The Verge AI",
+      "url": "https://www.theverge.com/news/1011654/mckinsey-ai-client-interview",
+      "time": "1小时前",
+      "published": "2026-10-14T22:53:31+00:00",
+      "summary": "麦肯锡公司将在面试流程中引入AI模拟客户环节，要求部分初级候选人进行10分钟的对话。该AI模拟旨在反映麦肯锡顾问工作中80%的场景，评估候选人的沟通、问题解决和客户互动能力。这一举措是咨询行业采用AI技术筛选人才的最新尝试，旨在提高招聘效率和客观性。候选人需要与虚拟客户互动，处理模拟的业务问题，展示咨询技能。麦肯锡表示，这有助于更全面地评估候选人潜力，而不仅依赖传统案例面试。不过，这也引发了对AI评估公平性和透明度的讨论。",
+      "snark": "以后面试官也是AI，求职者连被人类拒绝的资格都没了。"
+    },
+    {
+      "id": 3,
+      "cat": "model",
+      "title": "Fish Audio 发布 Drama 3：350亿参数开源权重混合专家文本转语音模型",
+      "title_en": "Fish Audio Releases Drama 3, a 35B Open-Weight MoE Text-to-Speech Model",
+      "source": "MarkTechPost",
+      "url": "https://www.marktechpost.com/2026/10/14/fish-audio-drama-3-open-weight-tts-model/",
+      "time": "1小时前",
+      "published": "2026-10-14T22:52:17+00:00",
+      "summary": "Fish Audio 推出了 Drama 3，一个拥有350亿参数的混合专家文本转语音模型，每次推理激活约30亿参数。该模型支持自然语言指令控制，覆盖83种语言，并以开源权重形式发布，采用收入上限的社区许可。Drama 3 能够根据用户提供的描述性指令生成富有表现力的语音，例如指定情感、语速和风格。其混合专家架构在保持高效推理的同时，提供了高质量的语音合成。该模型的开源发布将推动语音合成领域的研究和应用开发，尤其适合需要多语言支持和个性化语音的场景。",
+      "snark": "开源语音模型越来越卷，以后配音演员得和AI抢饭吃了。"
+    },
+    {
+      "id": 4,
+      "cat": "policy",
+      "title": "Flock 首席执行官称其麦克风仅检测枪声，但网站说法不同",
+      "title_en": "Flock CEO says its microphones detect ‘just gunshots’ — its website says different",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/10/14/flock-ceo-says-its-microphones-detect-just-gunshots-its-website-says-different/",
+      "time": "2小时前",
+      "published": "2026-10-14T21:30:33+00:00",
+      "summary": "Flock 公司首席执行官公开表示，其部署的麦克风仅用于检测枪声，但公司网站上的描述却显示这些设备可能具备更广泛的音频监控能力。此番言论正值该公司面临隐私倡导者、美国公民自由联盟以及公众的严格审查之际，人们担心其技术可能被滥用。Flock 的摄像头和音频设备被多个城市用于公共安全，但隐私保护者质疑其数据收集和使用的透明度。这一矛盾引发了关于监控技术边界和公民隐私权的激烈讨论，可能促使监管机构介入调查。",
+      "snark": "CEO说只听枪声，但网站说还能听你吐槽，这算虚假宣传吗？"
+    },
+    {
+      "id": 5,
+      "cat": "policy",
+      "title": "八州起诉 OpenAI，称 ChatGPT 对儿童不安全",
+      "title_en": "Eight states sue OpenAI, saying ChatGPT isn&#8217;t safe for kids",
+      "source": "The Verge AI",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/1011500/openai-state-lawsuits-chatgpt-safety",
+      "time": "3小时前",
+      "published": "2026-10-14T21:11:28+00:00",
+      "summary": "美国八个州——爱荷华、堪萨斯、内布拉斯加、西弗吉尼亚、阿肯色、亚利桑那、爱达荷和蒙大拿——分别对 OpenAI 提起诉讼，指控其 ChatGPT 对儿童造成伤害，并在安全性方面误导消费者。诉讼称，OpenAI 未能充分保护未成年用户，导致他们接触有害内容或产生心理依赖。各州要求 OpenAI 加强年龄验证、内容过滤和家长控制，并寻求赔偿。这是 OpenAI 面临的最新一波法律挑战，反映了监管机构对 AI 产品儿童安全问题的日益关注。OpenAI 表示将积极应对，并强调其持续改进安全措施。",
+      "snark": "八州联手告OpenAI，ChatGPT 得先学会背未成年人保护法。",
+      "multiSource": [
+        "The Verge",
+        "The Verge AI"
+      ]
+    },
+    {
+      "id": 6,
+      "cat": "strategy",
+      "title": "AI 竞赛重新开启",
+      "title_en": "The AI race is back on",
+      "source": "The Verge AI",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/1011311/the-ai-race-is-back-on",
+      "time": "5小时前",
+      "published": "2026-10-14T19:06:03+00:00",
+      "summary": "此前，Anthropic 和 OpenAI 似乎在一段时间内领跑 AI 竞赛，凭借日益强大的模型将竞争对手甩在身后。谷歌一度显得遥不可及，而 Meta 尽管投入数十亿美元试图重振其 AI 雄心，却尚未确立优势。然而，最新动态显示竞争格局再次生变：谷歌和 Meta 可能即将推出有竞争力的新模型，重新点燃战火。文章分析认为，AI 竞赛远未结束，各大科技公司正在加速研发，争夺技术领先地位。这一趋势将推动模型能力快速提升，同时也带来算力、人才和监管方面的挑战。",
+      "snark": "AI竞赛就像马拉松，你以为领跑了，其实别人在抄近道。",
+      "multiSource": [
+        "The Verge",
+        "The Verge AI"
+      ]
+    },
+    {
+      "id": 7,
+      "cat": "policy",
+      "title": "Character.AI 破产后，用户数据何去何从？",
+      "title_en": "Now that Character.AI is going bankrupt, what happens to all of its users&#8217; data?",
+      "source": "The Verge AI",
+      "url": "https://www.theverge.com/policy/1011417/new-york-ag-characterai-bankruptcy",
+      "time": "5小时前",
+      "published": "2026-10-14T18:47:54+00:00",
+      "summary": "纽约州总检察长莱蒂西亚·詹姆斯披露了一项针对 Character.AI 的多年多州调查，并寻求在该公司破产程序中对其出售的消费者数据施加保护。詹姆斯与其他40位两党总检察长共同提交了利益通知，要求确保用户数据在破产清算中得到妥善处理，防止敏感信息被随意出售或滥用。Character.AI 曾允许用户创建和与虚拟角色互动，积累了海量对话数据。破产引发了对这些数据命运的担忧，监管机构强调必须保护消费者隐私。此案可能为 AI 公司破产时的数据处置树立先例。",
+      "snark": "AI 公司破产了，你的聊天记录可能比你先找到新主人。"
+    },
+    {
+      "id": 8,
+      "cat": "tool",
+      "title": "YouTube Music 推出新标签，应对 AI 生成音乐泛滥",
+      "title_en": "YouTube Music launches new labels as AI-generated music floods streaming platforms",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/10/14/youtube-music-launches-new-labels-as-ai-generated-music-floods-streaming-platforms/",
+      "time": "5小时前",
+      "published": "2026-10-14T18:23:46+00:00",
+      "summary": "随着 AI 生成音乐在流媒体平台大量涌现，YouTube Music 宣布推出新的标签系统，用于标识完全由 AI 生成或部分涉及 AI 的歌曲。这些标签将出现在播放器页面，涵盖 AI 参与作曲、人声等环节的作品。此举旨在提高透明度，让听众了解音乐的制作方式，同时帮助平台区分人类创作与 AI 生成内容。YouTube 表示，新标签是应对 AI 音乐浪潮的重要一步，未来可能进一步细化分类。该政策可能影响其他流媒体平台，推动行业建立统一的 AI 内容标识标准。",
+      "snark": "以后听歌先看标签，AI 写的歌会不会自己打榜？",
+      "multiSource": [
+        "TechCrunch",
+        "The Verge AI"
+      ]
+    },
+    {
+      "id": 9,
+      "cat": "tool",
+      "title": "Apate 派遣 AI 智能体卧底被骗，以收集欺诈情报",
+      "title_en": "Apate sends AI agents undercover to get scammed so they can gather fraud intelligence",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/10/14/apate-sends-ai-agents-undercover-to-get-scammed-so-they-can-gather-fraud-intelligence/",
+      "time": "6小时前",
+      "published": "2026-10-14T18:00:00+00:00",
+      "summary": "大多数公司使用 AI 智能体来加速产品交付或优化工作流，但 Apate.ai 反其道而行之：派遣 AI 智能体潜入诈骗场景，主动被骗以收集欺诈情报。这些智能体模拟潜在受害者，与诈骗者互动，记录其手法、话术和技术手段，从而帮助企业了解最新欺诈趋势并改进防御措施。Apate 的方法将 AI 从效率工具转变为安全研究工具，为反欺诈提供了新思路。该公司表示，智能体能够大规模、低成本地收集真实诈骗数据，比传统人工研究更高效，且不涉及真实用户风险。",
+      "snark": "AI 去当卧底被骗，这算工伤吗？"
+    },
+    {
+      "id": 10,
+      "cat": "tool",
+      "title": "我的 AI 替身告诉我该吃什么",
+      "title_en": "My AI doppelganger tells me what to eat",
+      "source": "The Verge AI",
+      "url": "https://www.theverge.com/column/1011264/digital-twin-metabolism-ai-twin-health",
+      "time": "7小时前",
+      "published": "2026-10-14T17:00:00+00:00",
+      "summary": "Verge 高级评测员 Victoria Song 分享了她使用 AI 数字替身管理饮食的体验。在过去约100天里，她每天早上醒来后，会查看一个基于她身体数据训练的 AI 替身给出的饮食建议。这个数字替身整合了她的代谢数据、活动量和饮食记录，通过算法推荐个性化餐食。Victoria 描述了这种新节奏如何影响她的选择，以及她对 AI 建议的信任与质疑。文章探讨了 AI 健康助手的潜力与局限，包括数据准确性、隐私担忧以及过度依赖算法的风险。",
+      "snark": "AI 替身管你吃啥，下一步是不是要替你长胖？"
+    },
+    {
+      "id": 11,
+      "cat": "strategy",
+      "title": "OpenAI 称前员工窃取产品计划并展示给苹果",
+      "title_en": "OpenAI claims an ex-employee took its product plans and presented them to Apple",
+      "source": "The Verge AI",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/1011276/openai-employee-unreleased-product-plans",
+      "time": "7小时前",
+      "published": "2026-10-14T16:43:24+00:00",
+      "summary": "OpenAI 在一份法庭文件中指控一名前员工在加入苹果前，窃取了超过100份与产品计划相关的文件。该员工被指将这些信息发送到个人账户，并向苹果领导层展示，包括一名副总裁。OpenAI 要求法院介入，保护其商业机密。此案凸显了 AI 行业激烈的人才竞争和知识产权纠纷。苹果尚未对此置评。OpenAI 强调，此类行为违反保密协议，损害公司利益。案件可能涉及更广泛的科技公司间商业秘密争议，引发对员工跳槽时数据安全的关注。",
+      "snark": "跳槽带资料，这是把 OpenAI 当培训班了？"
+    },
+    {
+      "id": 12,
+      "cat": "policy",
+      "title": "OpenAI 绝密会议室纸巾盒内发现隐藏录音设备",
+      "title_en": "Recording device hidden in toilet paper found in top-secret OpenAI meeting room",
+      "source": "Ars Technica",
+      "url": "https://arstechnica.com/tech-policy/2026/10/fbi-arrests-openai-engineer-suspected-of-planting-bug-in-conference-room/",
+      "time": "7小时前",
+      "published": "2026-10-14T16:41:49+00:00",
+      "summary": "在 OpenAI 一间绝密会议室中，一个藏在纸巾盒内的录音设备被发现。一名 OpenAI 工程师因此面临联邦调查局提出的外国间谍指控，可能面临5年监禁和25万美元罚款。该事件引发了对 OpenAI 内部安全和商业间谍活动的严重担忧。调查人员怀疑该工程师试图窃取敏感信息并传递给外国实体。OpenAI 表示正配合调查，并加强安全措施。此案凸显了 AI 公司面临的日益严峻的网络安全和内部威胁，尤其是在涉及尖端技术时。",
+      "snark": "纸巾盒里藏录音笔，这间谍是看多了谍战剧吧。"
+    }
+  ],
+  "stats": {
+    "total": 12,
+    "model_count": 2,
+    "strategy_count": 2,
+    "tool_count": 4,
+    "policy_count": 4
+  }
+}

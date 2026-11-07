@@ -1,0 +1,175 @@
+{
+  "date": "2026-10-24",
+  "generated_at": "2026-10-24T08:02:28.566141+08:00",
+  "highlight": "OpenAI 宣布前沿模型训练全面断网，Kimi K3.1 Pro 开源万亿参数模型，AI 安全与开放权重同日对垒。",
+  "fun": {
+    "lucky": "Kimi K3.1 Pro",
+    "advice": "宜：开源权重、长上下文冲榜；忌：在断网环境里怀念互联网。",
+    "joke": "为什么 OpenAI 的模型不再上网？因为它上次上网时，把“删除数据库”当成了搜索关键词。"
+  },
+  "articles": [
+    {
+      "id": 1,
+      "cat": "policy",
+      "title": "OpenAI 称因“重大风险”将不再用实时互联网训练 AI 模型",
+      "title_en": "OpenAI says it will no longer train its AI models on the live internet, citing “significant risks”",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/10/23/openai-says-it-will-no-longer-train-its-ai-models-on-the-live-internet-citing-significant-risks/",
+      "time": "56分钟前",
+      "published": "2026-10-23T23:05:49+00:00",
+      "summary": "OpenAI 宣布将切断前沿模型与实时互联网的连接，不再使用实时网络数据训练其最先进模型。此举发生在该公司一名工程师公开表示“该方案行不通”数周之后。OpenAI 在博客中解释，已构建离线测试环境，让模型可与索引和缓存的网页内容交互，而不会影响外部系统。这一决定源于一系列失控的黑客事件，公司希望通过物理隔离降低模型在训练过程中被恶意内容污染或反向利用的风险。该政策主要针对前沿模型训练环节，日常推理服务是否受影响尚未明确。",
+      "snark": "工程师说断网没用，公司说断网保命，最后网线还是被拔了。"
+    },
+    {
+      "id": 2,
+      "cat": "model",
+      "title": "月之暗面发布 Kimi K3.1 Pro：2.8 万亿总参数、1040 亿激活参数的 MoE 模型，支持 100 万上下文",
+      "title_en": "Moonshot AI Releases Kimi K3.1 Pro: A 2.8T Total/104B Active Params (MoE) Model with 1M Context",
+      "source": "MarkTechPost",
+      "url": "https://www.marktechpost.com/2026/10/23/moonshot-ai-kimi-k3-1-pro-open-weight-model/",
+      "time": "1小时前",
+      "published": "2026-10-23T22:52:40+00:00",
+      "summary": "月之暗面正式发布 Kimi K3.1 Pro，采用混合专家架构，总参数达 2.8 万亿，激活参数 1040 亿，支持 100 万 token 超长上下文。该模型在 Terminal-Bench 4.0 上得分 65.7%，定价为每百万 token 输入 2 美元、输出 10 美元。官方表示开放权重将于 2026 年 11 月 4 日发布。作为国产开源阵营的重量级选手，Kimi K3.1 Pro 在参数规模与上下文长度上直接对标国际一线闭源模型，同时以相对低廉的 API 价格吸引开发者，其开源策略也将进一步搅动万亿参数级模型的竞争格局。",
+      "snark": "参数比谁都大，价格比谁都卷，开源时间还挑在双十一前。"
+    },
+    {
+      "id": 3,
+      "cat": "tool",
+      "title": "圣诞爆款玩具？英伟达 CEO 把玩 Microduck 机器人，两万台售罄",
+      "title_en": "Hottest toy for Christmas? Nvidia CEO plays with adorable Microduck robots, 20,000 sell",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/10/23/hottest-toy-for-christmas-nvidia-ceo-plays-with-adorable-microduck-robots-20000-sell/",
+      "time": "2小时前",
+      "published": "2026-10-23T21:59:19+00:00",
+      "summary": "英伟达 CEO 黄仁勋在公开场合把玩一款名为 Microduck 的微型机器人玩具，相关视频迅速走红，首批两万台迅速售罄。这些机器人会跺着小脚、发出类似 R2-D2 的细微声响，能按语音指令坐下、倒地“午睡”以及翻跟头。该产品将消费级机器人玩具与 AI 语音交互结合，借助英伟达高管的亲自带货效应，成为今年圣诞季的热门候选。虽然技术含量不算前沿，但它反映出 AI 具身智能概念正以玩具形态加速进入大众消费市场，也为机器人硬件的低成本量产提供了新的想象空间。",
+      "snark": "黄老板带货能力比 GPU 还强，两万台玩具比显卡好抢多了。"
+    },
+    {
+      "id": 4,
+      "cat": "policy",
+      "title": "OpenAI 现已完全断网训练其前沿 AI 模型",
+      "title_en": "OpenAI now trains its frontier AI models with no internet access",
+      "source": "The Verge AI",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/1018021/openai-training-top-ai-models-no-internet",
+      "time": "2小时前",
+      "published": "2026-10-23T21:11:07+00:00",
+      "summary": "在一连串失控的黑客事件之后，OpenAI 开始在没有互联网接入的环境下训练其最先进的人工智能模型。公司在周五的博客中表示，已搭建离线测试环境，模型可以在其中与索引和缓存的网页内容交互，而不会对外部系统造成影响。该措施旨在防止模型在训练过程中接触恶意代码、被提示注入攻击利用，或意外触发对外部网络的真实操作。OpenAI 强调这是对前沿模型训练环境的安全加固，而非永久放弃网络数据，缓存内容仍可提供必要的世界知识，但实时联网能力被彻底剥离。",
+      "snark": "以前怕模型学坏，现在直接把教室搬到没有WiFi的地下室。",
+      "multiSource": [
+        "The Verge",
+        "The Verge AI"
+      ]
+    },
+    {
+      "id": 5,
+      "cat": "policy",
+      "title": "如何保障我们的前沿模型训练环境安全",
+      "title_en": "Securing our frontier model training environment",
+      "source": "Hacker News",
+      "url": "https://openai.com/index/securing-our-frontier-model-training-environment/",
+      "time": "4小时前",
+      "published": "2026-10-23T19:50:56+00:00",
+      "summary": "OpenAI 官方发布文章，详细阐述其前沿模型训练环境的安全加固方案。文章背景是公司决定切断训练环境与实时互联网的连接，以应对日益复杂的攻击面。内容涵盖离线测试环境的构建思路、索引与缓存网页内容的安全隔离机制，以及如何在不影响外部系统的前提下让模型获取必要的世界知识。该文是对此前“断网训练”政策的官方技术说明，旨在向开发者和安全社区解释其威胁模型与防御纵深，也回应了外界对模型训练安全性和可复现性的关切。",
+      "snark": "官方亲自写小作文解释为什么拔网线，安全团队终于硬气了一回。",
+      "multiSource": [
+        "Hacker News",
+        "OpenAI Blog"
+      ]
+    },
+    {
+      "id": 6,
+      "cat": "tool",
+      "title": "Show HN：Corgi，一个顺手的智能体与终端多路复用器",
+      "title_en": "Show HN: Corgi, a helpful {agent, terminal} multiplexer",
+      "source": "Hacker News",
+      "url": "https://corgi.computer/",
+      "time": "4小时前",
+      "published": "2026-10-23T19:46:38+00:00",
+      "summary": "开发者发布了一款名为 Corgi 的智能体与终端多路复用器，灵感来自 Herdr，已作为日常主力工具使用数周。Corgi 聚焦于提升人机协作的工效学体验：用户可以直观看到各个智能体正在做什么，并附带其实时活动流，方便同时管理多个并行运行的智能体会话。该工具面向需要同时调度多个 AI 智能体的开发者，试图解决多任务切换时状态不透明、输出混乱的痛点。项目在 Hacker News 上发布后获得关注，反映出智能体编排与可观测性工具正成为开发者工具链中的新热点。",
+      "snark": "智能体越开越多，终端越切越乱，终于有人想起来做个任务管理器。"
+    },
+    {
+      "id": 7,
+      "cat": "model",
+      "title": "杰克·多尔西的 Block 造了个 AI 模型，说话像个尴尬的新朋友",
+      "title_en": "Jack Dorsey’s Block made an AI model that talks to you like an awkward new friend",
+      "source": "The Verge AI",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/1017906/jack-dorsey-block-dessa-ai-voice-speech",
+      "time": "4小时前",
+      "published": "2026-10-23T19:32:39+00:00",
+      "summary": "杰克·多尔西旗下的 Block 公司发布了一款名为 Dessa 的 AI 模型，号称“完全基于人类对话从零训练”，而非在通用大模型基础上微调。为展示效果，Block 公开了 Dessa 与人类的聊天记录，对话风格偶尔显得尴尬而诡异，带有一种生涩的新朋友感。Dessa 项目负责人拉加万表示，该模型专注于语音与对话场景，试图摆脱传统助手式的一板一眼。这种“从零训练对话模型”的路线在当下追逐参数规模的潮流中显得另类，也引发了对小体量专用模型能否在自然对话上走出差异化的讨论。",
+      "snark": "从零训练对话模型，结果练出了社交恐惧症，这很人类。",
+      "multiSource": [
+        "The Verge",
+        "The Verge AI"
+      ]
+    },
+    {
+      "id": 8,
+      "cat": "strategy",
+      "title": "从 Toast 到 Bessemer：2026 年 TechCrunch 创始人峰会上创始人能听到谁的声音",
+      "title_en": "From Toast to Bessemer: Who founders will hear from at TechCrunch Founder Summit 2026",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/10/23/from-toast-to-bessemer-who-founders-will-hear-from-at-techcrunch-founder-summit-2026/",
+      "time": "4小时前",
+      "published": "2026-10-23T19:06:23+00:00",
+      "summary": "TechCrunch 与 Fidelity Private Shares 合作举办 2026 年创始人峰会，全天活动不止聚焦融资与人工智能，还深入探讨寻找客户、组建团队、打磨路演、培养创始人领导力以及在传统创业中心之外扩张公司等现实议题。来自 Toast、Bessemer 等机构的嘉宾将分享实战经验。该峰会反映出当前创业生态的关注点正从单纯的 AI 概念转向落地执行与商业化能力，尤其在融资环境趋紧的背景下，创始人更需要在 AI 之外补齐运营、销售与组织管理的基本功。",
+      "snark": "AI 峰会终于不聊 AGI 了，开始聊怎么找客户，说明冬天真来了。"
+    },
+    {
+      "id": 9,
+      "cat": "tool",
+      "title": "iPhone Duo 本该是一台 iPad",
+      "title_en": "The iPhone Duo should have been an iPad",
+      "source": "The Verge AI",
+      "url": "https://www.theverge.com/podcast/1017447/iphone-duo-ipad-review-score-vergecast",
+      "time": "7小时前",
+      "published": "2026-10-23T17:00:18+00:00",
+      "summary": "The Verge 给 iPhone Duo 打出 7 分，但评测团队坦言这并非最初计划的分数，未来也可能调整。这款产品被视为对史上最受欢迎智能手机的一次大胆新构想，评测过程本身充满挑战。在 The Vergecast 播客中，主持人大卫与尼莱讨论了评分背后的纠结：iPhone Duo 的定位介于手机与平板之间，形态创新但使用场景模糊，最终体验更像是一台“本该做成 iPad”的设备。这场讨论折射出 AI 时代硬件形态探索的普遍困境——新概念产品往往在评测标准与用户预期之间难以自洽。",
+      "snark": "评了 7 分还说可能改，这分数比模型幻觉还不稳定。"
+    },
+    {
+      "id": 10,
+      "cat": "strategy",
+      "title": "为服务超 10 亿 ChatGPT 用户而快速扩展在线存储（第二部分）",
+      "title_en": "Rapidly scaling online storage to serve over 1 billion ChatGPT users (Part II)",
+      "source": "OpenAI Blog",
+      "url": "https://openai.com/index/scaling-storage-one-billion-users-part-two",
+      "time": "7小时前",
+      "published": "2026-10-23T17:00:00+00:00",
+      "summary": "OpenAI 发布技术博客第二部分，详解如何扩展其存储系统 Habitat 以服务超过 10 亿 ChatGPT 用户。文章重点介绍可靠的多租户架构、全局缓存以及 Azure Cosmos DB 的运用，最终实现 ChatGPT 读取速度提升 12 倍。面对十亿级用户的高并发与海量对话数据，OpenAI 在存储层通过多租户隔离保证可靠性与安全性，借助全局缓存降低延迟，并利用托管数据库服务应对弹性扩展需求。该文揭示了支撑大模型产品规模化落地的底层工程挑战，也体现了 AI 应用对传统云存储架构提出的新要求。",
+      "snark": "模型参数卷完了开始卷存储，十亿用户的聊天记录才是真正的护城河。"
+    },
+    {
+      "id": 11,
+      "cat": "policy",
+      "title": "谷歌现在表示可能用你的 Gmail 和 Google Photos 数据来投放广告",
+      "title_en": "Now Google says it might use your Gmail and Google Photos data to target ads",
+      "source": "The Verge AI",
+      "url": "https://www.theverge.com/tech/1017600/google-personal-intelligence-privacy-policy-ads-update",
+      "time": "7小时前",
+      "published": "2026-10-23T16:52:55+00:00",
+      "summary": "谷歌更新隐私政策，可能开始基于用户个人数据投放定向广告，前提是用户使用了其个性化 AI 功能。此次更新由 Android Authority 发现，在谷歌关于不使用 Drive、Gmail 或 Google Photos 数据做个性化广告的承诺中新增了例外条款。这意味着当用户启用个性化 AI 助手等能力时，其邮件、照片和云盘内容可能被纳入广告定向范围。该变化引发隐私担忧，因为谷歌长期以“不扫描个人内容做广告”作为卖点，而 AI 功能的引入正在悄悄改写这一边界，用户需留意相关设置与授权选项。",
+      "snark": "当年说“不作恶”，现在说“个性化 AI 功能除外”，条款真是门艺术。"
+    },
+    {
+      "id": 12,
+      "cat": "policy",
+      "title": "Meta 在出版商反对 AI 抓取后推迟新商业条款",
+      "title_en": "Meta delays new business terms after publisher pushback on AI scraping",
+      "source": "The Verge AI",
+      "url": "https://www.theverge.com/tech/1017450/meta-business-terms-delayed-ai-scraping",
+      "time": "9小时前",
+      "published": "2026-10-23T14:47:41+00:00",
+      "summary": "Meta 推迟执行其新商业条款，此前出版商担忧这些条款可能允许公司抓取新闻网站内容用于 AI 训练。Meta 发言人丹尼尔·罗伯茨向 The Verge 表示，条款将延后生效。此举被视为出版商集体施压的阶段性成果。新条款原本可能扩大 Meta 对第三方内容的抓取权限，用于训练其 AI 模型，而新闻机构长期反对平台无偿使用其内容。条款推迟为各方谈判留出窗口，也凸显在 AI 训练数据来源日益紧张的背景下，内容方与平台方围绕数据授权与版权合规的博弈正在升级。",
+      "snark": "抓取条款被骂到延期，Meta 的“先上车后补票”套路这次没开成。"
+    }
+  ],
+  "stats": {
+    "total": 12,
+    "model_count": 2,
+    "strategy_count": 2,
+    "tool_count": 3,
+    "policy_count": 5
+  }
+}

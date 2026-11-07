@@ -1,0 +1,171 @@
+{
+  "date": "2026-11-07",
+  "generated_at": "2026-11-07T14:52:15.412725+08:00",
+  "highlight": "OpenAI估值飙至1.25万亿美元，AI数据中心遭遇政治与商业双重挑战。",
+  "fun": {
+    "lucky": "OpenAI",
+    "advice": "宜：趁估值高位赶紧融资；忌：把数据中心建在选民家门口。",
+    "joke": "程序员问AI：为什么你的估值这么高？AI答：因为我连bug都值钱。"
+  },
+  "articles": [
+    {
+      "id": 1,
+      "cat": "strategy",
+      "title": "克鲁索将陷入困境的怀俄明州数据中心项目出售给谷歌",
+      "title_en": "Crusoe sells troubled Wyoming data center project to Google",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/11/06/crusoe-sells-troubled-wyoming-data-center-project-to-google/",
+      "time": "5小时前",
+      "published": "2026-11-07T01:40:28+00:00",
+      "summary": "克鲁索公司将其在怀俄明州陷入困境的大型人工智能数据中心项目出售给了谷歌。这笔交易凸显了开发超大规模人工智能数据中心所面临的巨大挑战，包括能源供应、基础设施建设和社区阻力等问题。怀俄明州项目此前因各种原因进展不顺，克鲁索选择剥离该资产以减轻财务压力，而谷歌则借此扩大其数据中心版图。此次出售也反映出人工智能基础设施竞赛中，并非所有项目都能顺利落地，资金雄厚的大厂更有能力消化前期风险。",
+      "snark": "克鲁索：建不动了，谷歌你接盘吧。谷歌：正好缺个机房放TPU。"
+    },
+    {
+      "id": 2,
+      "cat": "strategy",
+      "title": "OpenAI估值达1.25万亿美元，竞争对手Anthropic临近IPO",
+      "title_en": "OpenAI valued at $1.25 trillion, as rival Anthropic nears its IPO",
+      "source": "The Verge AI",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/1029380/openai-1-25-trillion-investment-valuation",
+      "time": "7小时前",
+      "published": "2026-11-06T23:46:18+00:00",
+      "summary": "据彭博社报道，OpenAI在新一轮融资中估值达到1.25万亿美元，本轮已额外筹集110亿美元。这使得OpenAI成为全球市值最高的公司之一，而就在不久前的三月份，该公司刚以8520亿美元估值从投资者处筹集了1220亿美元。与此同时，竞争对手Anthropic正接近进行首次公开募股。OpenAI的估值飙升反映了市场对生成式人工智能龙头企业的强烈信心，但也引发了对人工智能泡沫的担忧。两家公司的资本竞赛正在重塑整个行业的格局。",
+      "snark": "1.25万亿估值，卖多少会员才能回本？数学老师已哭晕。",
+      "multiSource": [
+        "The Verge",
+        "The Verge AI"
+      ]
+    },
+    {
+      "id": 3,
+      "cat": "policy",
+      "title": "中国被曝招募AI高管监视黄仁勋",
+      "title_en": "China reportedly recruited AI exec to spy on Jensen Huang",
+      "source": "The Verge AI",
+      "url": "https://www.theverge.com/tech/1029338/nvidia-ceo-jensen-huang-china-spy",
+      "time": "7小时前",
+      "published": "2026-11-06T23:00:44+00:00",
+      "summary": "据《纽约时报》报道，中国情报机构招募了Megaspeed公司高管Alice Huang（黄爱丽丝）来监视英伟达首席执行官黄仁勋。国家安全部招募她以获取有关美国人工智能芯片的情报，并“可能影响该公司推动其最先进产品对华出口”。这一报道揭示了中美在人工智能芯片领域的间谍活动与地缘政治博弈。英伟达作为全球最重要的AI芯片供应商，其高管成为情报目标，反映出芯片技术已成为国家安全的核心议题。该事件可能进一步加剧两国在科技领域的紧张关系。",
+      "snark": "黄仁勋：我卖个芯片而已，怎么成了谍战片主角？",
+      "multiSource": [
+        "The Verge",
+        "The Verge AI"
+      ]
+    },
+    {
+      "id": 4,
+      "cat": "strategy",
+      "title": "OpenAI据报以1.25万亿美元估值额外筹集110亿美元",
+      "title_en": "OpenAI reportedly raises an additional $11 billion at a $1.25 trillion valuation",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/11/06/openai-reportedly-raises-an-additional-11-billion-at-a-1-25-trillion-valuation/",
+      "time": "7小时前",
+      "published": "2026-11-06T22:53:46+00:00",
+      "summary": "据TechCrunch报道，OpenAI在一轮尚未关闭但预计未来几周内完成的融资中，额外筹集了110亿美元。此轮融资使该公司估值达到1.25万亿美元。这是继今年三月以8520亿美元估值筹集1220亿美元之后的又一轮巨额融资。OpenAI的融资节奏和规模在科技行业历史上极为罕见，显示出投资者对人工智能头部企业的狂热追捧。不过，如此高的估值也意味着公司需要在未来实现与之匹配的营收增长，否则可能面临估值回调的压力。",
+      "snark": "融资速度比我写周报还快，估值数字已经数不清几个零了。"
+    },
+    {
+      "id": 5,
+      "cat": "policy",
+      "title": "Chainalysis称黑客窃取了所有客户的凭证和令牌",
+      "title_en": "Chainalysis says hackers stole credentials and tokens for all of its customers",
+      "source": "Ars Technica",
+      "url": "https://arstechnica.com/security/2026/11/chainalysis-says-hackers-stole-credentials-and-tokens-for-all-of-its-customers/",
+      "time": "9小时前",
+      "published": "2026-11-06T20:56:41+00:00",
+      "summary": "区块链分析公司Chainalysis披露，黑客在一次“多线网络攻击”中窃取了该公司所有客户的凭证和令牌。攻击手段包括使用人工智能代理和路径上的数据截取。这意味着攻击者可能获得了访问大量客户账户的权限，对加密货币行业的 security 生态构成严重威胁。Chainalysis作为执法机构和交易所依赖的链上分析服务商，其自身安全被攻破极具讽刺意味。公司表示正在调查事件并通知受影响客户，但尚未披露攻击者的身份和具体影响范围。",
+      "snark": "分析黑客的公司被黑客黑了，这剧本编剧都不敢写。"
+    },
+    {
+      "id": 6,
+      "cat": "strategy",
+      "title": "人工智能数据中心最新动态汇总",
+      "title_en": "All the latest updates on AI data centers",
+      "source": "The Verge AI",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/902546/data-centers-ai-energy-power-grids-controversy",
+      "time": "10小时前",
+      "published": "2026-11-06T20:02:22+00:00",
+      "summary": "The Verge汇总了人工智能数据中心领域的最新动态。超大规模数据中心是科技公司人工智能梦想的物理基础，但仓促建设装满高耗能服务器的仓库也引发了全球范围内的争议，涉及对电网、公用事业账单、周边社区和环境的影响。各地居民和监管机构开始对数据中心的扩张提出质疑，要求科技公司承担更多责任。这一汇总页面持续更新相关新闻，反映了人工智能基础设施热潮背后的社会成本与治理挑战。",
+      "snark": "数据中心：我要电我要水我要地。居民：我要安静我要蓝天。"
+    },
+    {
+      "id": 7,
+      "cat": "policy",
+      "title": "数百个Artex AI黑客工具被公开暴露在互联网上",
+      "title_en": "Hundreds of Artex AI hacking tools found publicly exposed to the web",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/11/06/hundreds-of-artex-ai-hacking-tools-found-publicly-exposed-to-the-web/",
+      "time": "12小时前",
+      "published": "2026-11-06T18:44:38+00:00",
+      "summary": "安全研究人员发现，数百台托管渗透测试工具Artex的服务器暴露在互联网上，任何人都可以访问这一黑客工具。Artex是一款由人工智能驱动的渗透测试工具，本应限于授权安全测试使用，但由于配置不当，大量实例对公网开放。这意味著攻击者可以轻易利用这些工具发起网络攻击，而无需自行搭建环境。该事件凸显了人工智能安全工具的双刃剑属性，以及企业在部署此类工具时忽视基本安全配置的风险。",
+      "snark": "黑客工具裸奔上网，这算不算给黑客送外卖？"
+    },
+    {
+      "id": 8,
+      "cat": "tool",
+      "title": "Meta推出Spaces，与Muse智能体协作新方式",
+      "title_en": "Meta introduces Spaces, a new way to collaborate with your Muse agent",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/11/06/meta-introduces-spaces-a-new-way-to-collaborate-with-your-muse-agent/",
+      "time": "12小时前",
+      "published": "2026-11-06T18:44:20+00:00",
+      "summary": "Meta为其Muse智能体推出了名为Spaces的新功能，提供了一种与人工智能助手互动的新方式。Spaces允许用户创建定制化的、类似应用的体验，例如购物中心、学校仪表盘、音乐追踪器、知识问答游戏等，用户可以直接在Muse应用内与这些空间交互。Meta表示，用户可以根据当前需求构建不同版本的应用体验。这一功能将人工智能助手从简单的对话界面扩展为可定制的多功能平台，旨在提升用户粘性和使用场景的多样性。",
+      "snark": "Meta又出新功能了，这次是让AI帮你建APP，程序员瑟瑟发抖。"
+    },
+    {
+      "id": 9,
+      "cat": "tool",
+      "title": "Meta的Muse AI可为当前所需的应用版本创建自定义“空间”",
+      "title_en": "Meta&#8217;s Muse AI can create custom &#8216;spaces&#8217; for the version of the app you need right now",
+      "source": "The Verge AI",
+      "url": "https://www.theverge.com/tech/1028871/meta-muse-ai-spaces",
+      "time": "12小时前",
+      "published": "2026-11-06T18:10:10+00:00",
+      "summary": "Meta宣布允许用户在Muse中构建定制化的、类似应用的体验。这项名为“空间”的新功能让Muse人工智能助手能够创建购物中心、学校仪表盘、音乐追踪器、知识问答游戏等内容，用户可以直接在Muse应用内与这些空间互动。Meta表示，用户可以根据当前需求构建不同版本的应用体验。这标志着Meta正在将Muse从单纯的聊天助手转变为可编程的个人应用平台，与OpenAI的GPTs和谷歌的Gemini扩展形成竞争。该功能降低了应用开发门槛，但也引发了对平台锁定和数据隐私的担忧。",
+      "snark": "以后不用下载APP了，直接让Muse给你现做一个，应用商店慌不慌？"
+    },
+    {
+      "id": 10,
+      "cat": "policy",
+      "title": "蓝色浪潮中期选举可能如何重塑AI行业",
+      "title_en": "How a Blue Wave midterm might reshape the AI industry",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/podcast/how-a-blue-wave-midterm-might-reshape-the-ai-industry/",
+      "time": "12小时前",
+      "published": "2026-11-06T18:00:00+00:00",
+      "summary": "民主党在本周美国中期选举中取得历史性胜利，可能深刻影响科技行业。周二选民对41项与数据中心相关的 ballot 措施进行了投票，除一项外，其余所有措施所在选区多数选民支持对数据中心开发施加更多限制。即便在数据中心获得支持的地区，选民也表达了对其能耗和环境影响的担忧。这一结果预示着人工智能基础设施扩张将面临更严格的政治审查和监管阻力，科技公司可能需要调整其数据中心选址和建设策略，行业增长节奏可能放缓。",
+      "snark": "数据中心建哪哪抗议，科技巨头终于体会到房地产商的滋味了。"
+    },
+    {
+      "id": 11,
+      "cat": "model",
+      "title": "Zyphra发布ZYFA：面向AMD MI355X的FP8 FlashAttention，最高提速1.76倍",
+      "title_en": "Zyphra ZYFA: FP8 FlashAttention for AMD MI355X, Up to 1.76x Faster",
+      "source": "MarkTechPost",
+      "url": "https://www.marktechpost.com/2026/11/06/zyphra-zyfa-fp8-flashattention-amd-mi355x/",
+      "time": "13小时前",
+      "published": "2026-11-06T17:28:04+00:00",
+      "summary": "Zyphra发布了ZYFA，这是面向AMD Instinct MI355X的开源FP8和BF16预填充注意力内核。在真实模型激活上，其FP8内核比AMD的AITER运行速度快1.16至1.76倍，在头维度为128时误差降低62%至78%。这一成果意义在于，它展示了在AMD GPU上通过底层内核优化可以显著提升注意力计算的效率，为使用AMD硬件的AI训练和推理工作负载提供了更快的替代方案。ZYFA的开源属性也有助于推动AMD生态的软件栈成熟，缩小与英伟达CUDA生态的性能差距。",
+      "snark": "AMD：终于有人帮我优化软件了。英伟达：我CUDA护城河还在。"
+    },
+    {
+      "id": 12,
+      "cat": "policy",
+      "title": "中期选举后，AI行业会迎来艰难的两年吗？",
+      "title_en": "After the midterms, is the AI industry in for a rough two years?",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/video/after-the-midterms-is-the-ai-industry-in-for-a-rough-two-years/",
+      "time": "13小时前",
+      "published": "2026-11-06T17:23:52+00:00",
+      "summary": "民主党在本周美国中期选举中的历史性胜利可能改变科技行业格局。周二选民对41项数据中心相关 ballot 措施进行投票，除一项外，所有措施均以多数支持对数据中心开发施加更多限制。即便在数据中心获得支持的地区，选民也表达了对电网、账单和环境的担忧。TechCrunch就此讨论中期选举结果对人工智能行业的潜在影响，认为未来两年该行业可能面临更严格的监管环境和更高的建设门槛，数据中心扩张速度或放缓，进而影响人工智能模型的训练和部署节奏。",
+      "snark": "AI行业：我发展太快了。选民：那就让你慢下来。"
+    }
+  ],
+  "stats": {
+    "total": 12,
+    "model_count": 1,
+    "strategy_count": 4,
+    "tool_count": 2,
+    "policy_count": 5
+  }
+}

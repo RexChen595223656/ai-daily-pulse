@@ -1,0 +1,167 @@
+{
+  "date": "2026-07-04",
+  "generated_at": "2026-07-04T08:00:52.045731+08:00",
+  "highlight": "Mistral 发布 Leanstral 1.5 代码模型；Anthropic 进军药物研发；多家 AI 公司与药企达成合作，AI 应用加速落地。",
+  "fun": {
+    "lucky": "Leanstral 1.5",
+    "advice": "宜：用形式化验证写代码\n忌：相信 AI 能解所有数学题",
+    "joke": "AI 写代码：bug 制造机，人类 debug 永动机。"
+  },
+  "articles": [
+    {
+      "id": 1,
+      "cat": "model",
+      "title": "Mistral AI 发布 Leanstral 1.5：基于 Apache-2.0 协议的 Lean 4 代码智能体模型，解决 587 道 PutnamBench 难题",
+      "title_en": "Mistral AI Releases Leanstral 1.5: An Apache-2.0 Lean 4 Code Agent Model Solving 587 of 672 PutnamBench Problems",
+      "source": "MarkTechPost",
+      "url": "https://www.marktechpost.com/2026/07/03/mistral-ai-releases-leanstral-1-5-an-apache-2-0-lean-4-code-agent-model-solving-587-of-672-putnambench-problems/",
+      "time": "1小时前",
+      "published": "2026-07-03T22:20:26+00:00",
+      "summary": "Mistral AI 正式发布 Leanstral 1.5，这是一款基于 Apache-2.0 开源协议的代码智能体模型，专为形式化验证语言 Lean 4 设计。该模型采用 119B 参数的混合专家架构，每个 token 仅激活 6.5B 参数，显著降低推理成本。在基准测试中，Leanstral 1.5 在 miniF2F 测试集上达到饱和表现，并成功解决了 672 道 PutnamBench 数学竞赛题中的 587 道，展现了强大的数学推理与形式化证明能力。文章还介绍了其架构细节、实际 bug 发现案例以及部署方案，为形式化验证和代码生成领域提供了新选择。",
+      "snark": "数学竞赛题都能解，下次是不是要帮人类拿菲尔兹奖？"
+    },
+    {
+      "id": 2,
+      "cat": "tool",
+      "title": "设计基于模式引导的发票智能处理管线：利用 lift-pdf 实现应付账款提取、验证与账本生成",
+      "title_en": "Designing a Schema-Guided Invoice Intelligence Pipeline with lift-pdf for Accounts-Payable Extraction, Validation, and Ledger Generation",
+      "source": "MarkTechPost",
+      "url": "https://www.marktechpost.com/2026/07/03/schema-guided-invoice-intelligence-pipeline-with-lift-pdf/",
+      "time": "2小时前",
+      "published": "2026-07-03T21:25:33+00:00",
+      "summary": "本文教程展示了如何利用 lift-pdf 构建一个端到端的应付账款提取管线。该方案使用合成发票 PDF 作为受控测试文档，并以结构化 JSON 模式作为目标输出格式。与传统的 OCR 方法不同，作者将发票解析问题建模为模式引导的文档理解任务，通过预定义的 JSON 模式指导模型提取关键字段、进行数据验证并生成账本。该管线不仅提升了提取精度，还支持灵活的输出格式适配，适用于企业财务自动化场景。",
+      "snark": "发票提取搞这么复杂，会计们怕是要失业了。"
+    },
+    {
+      "id": 3,
+      "cat": "tool",
+      "title": "今年你唯一需要的 AI 术语表",
+      "title_en": "The only AI glossary you’ll need this year",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/07/03/artificial-intelligence-definition-glossary-hallucinations-guide-to-common-ai-terms/",
+      "time": "2小时前",
+      "published": "2026-07-03T21:20:00+00:00",
+      "summary": "随着人工智能的快速发展，大量新术语和俚语涌现。TechCrunch 整理了一份年度 AI 术语表，涵盖幻觉、大语言模型、强化学习、扩散模型等核心概念的定义与使用场景。该指南旨在帮助读者快速理解 AI 领域的常见词汇，降低技术门槛，适合从业者、投资者及普通爱好者参考。",
+      "snark": "看完这份术语表，你就能在 AI 会议上假装懂了。"
+    },
+    {
+      "id": 4,
+      "cat": "strategy",
+      "title": "浏览器之争不再围绕搜索：盘点 Chrome 和 Safari 的最佳替代品",
+      "title_en": "The browser wars aren’t about search anymore — here are the best alternatives to Chrome and Safari",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/07/03/as-the-browser-wars-heat-up-here-are-the-hottest-alternatives-to-chrome-and-safari-in-2026/",
+      "time": "5小时前",
+      "published": "2026-07-03T18:43:00+00:00",
+      "summary": "TechCrunch 盘点了当前市场上挑战 Chrome 和 Safari 地位的主流替代浏览器。这些浏览器不再单纯比拼搜索功能，而是聚焦隐私保护、AI 集成、性能优化等差异化特性。文章介绍了 Brave、Firefox、Arc、Vivaldi 等产品的核心优势，以及它们在 AI 助手、侧边栏工具、内存管理等方面的创新，为用户提供了更多选择。",
+      "snark": "浏览器大战的尽头是 AI 助手，而不是搜索框。"
+    },
+    {
+      "id": 5,
+      "cat": "strategy",
+      "title": "Google DeepMind 与 A24 宣布首次研究合作",
+      "title_en": "Google DeepMind and A24 announce first-of-its-kind research partnership",
+      "source": "DeepMind Blog",
+      "url": "https://deepmind.google/blog/google-deepmind-and-a24-announce-first-of-its-kind-research-partnership/",
+      "time": "9小时前",
+      "published": "2026-07-03T14:25:43+00:00",
+      "summary": "Google DeepMind 与独立电影制作公司 A24 宣布达成首次研究合作。双方将探索 AI 在电影创作、叙事生成、视觉特效等领域的应用潜力。虽然具体合作细节尚未公布，但这一跨界合作标志着 AI 技术向创意产业的进一步渗透，可能催生新的影视制作工具和内容生成方式。",
+      "snark": "AI 写剧本？看来编剧工会又要罢工了。"
+    },
+    {
+      "id": 6,
+      "cat": "strategy",
+      "title": "Anthropic 宣布进军药物研发领域",
+      "title_en": "Anthropic wants to develop its own drugs",
+      "source": "The Verge AI",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/961311/anthropic-claude-science-ai-drug-development",
+      "time": "10小时前",
+      "published": "2026-07-03T13:56:52+00:00",
+      "summary": "在“AI 科学”活动上，Anthropic 发布了 Claude Science，一款面向科学家的“AI 工作台”。该平台整合了分散的工具和数据集，提供统一的实验环境，并能自动生成图表和可视化结果。Anthropic 计划利用 Claude 在代码生成和数据分析方面的优势，加速药物发现流程。此举标志着 Anthropic 从通用 AI 向垂直科学领域拓展，与制药巨头形成直接竞争。",
+      "snark": "Claude 开始制药，以后看病开药都找 AI 了？",
+      "multiSource": [
+        "The Verge",
+        "The Verge AI"
+      ]
+    },
+    {
+      "id": 7,
+      "cat": "policy",
+      "title": "走进 Luddite 节：利用 Z 世代对大科技的愤怒",
+      "title_en": "Inside the Luddite festival harnessing Gen Z’s rage against Big Tech",
+      "source": "Ars Technica",
+      "url": "https://arstechnica.com/culture/2026/07/inside-the-luddite-festival-harnessing-gen-zs-rage-against-big-tech/",
+      "time": "12小时前",
+      "published": "2026-07-03T12:00:36+00:00",
+      "summary": "纽约市举办的“Luddite 夏季节”旨在教导人们如何脱离网络生活。活动参与者通过手工艺、户外活动、无屏幕社交等方式体验离线生活。该节日反映了部分 Z 世代对大科技公司数据垄断、算法操控和隐私侵犯的强烈不满，成为一场反科技文化运动。活动组织者希望通过实践让人们重新审视技术对生活的影响。",
+      "snark": "离线生活？那 AI 怎么知道你今晚吃了什么？"
+    },
+    {
+      "id": 8,
+      "cat": "tool",
+      "title": "Midjourney 医疗扫描仪幕后揭秘：疑问多于答案",
+      "title_en": "A behind-the-scenes look at Midjourney’s medical scanner leaves many questions unanswered",
+      "source": "The Verge AI",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/961265/midjourney-medical-ultrasound-scanner-behind-the-scenes-video",
+      "time": "12小时前",
+      "published": "2026-07-03T11:49:10+00:00",
+      "summary": "Midjourney 公布了其未来感医疗超声波扫描仪的幕后视频，计划部署在水疗中心，并希望借助 AI 改变医疗检测。然而，视频并未提供充分的临床验证数据，引发外界对其实际效果的质疑。该设备声称能通过 AI 分析超声波图像进行疾病筛查，但缺乏同行评审和监管批准，专家对其可靠性表示担忧。",
+      "snark": "Midjourney 做医疗？先学会生成不畸形的解剖图再说吧。"
+    },
+    {
+      "id": 9,
+      "cat": "strategy",
+      "title": "德银：Meta 云业务或打开千亿美元级 AI 投入变现通道",
+      "title_en": "氪星晚报｜西贝餐饮集团退出小女当家；FF洛杉矶总部人去楼空？公司回应：不实",
+      "source": "36氪",
+      "url": "https://36kr.com/p/3879796756754694?f=rss",
+      "time": "13小时前",
+      "published": "2026-07-03T10:55:45+00:00",
+      "summary": "针对 Meta 拟向外部客户出售 AI 算力及模型访问权限的消息，德意志银行分析认为，Meta 并非放弃前沿模型研发，而是将较旧或闲置算力变现。按德银测算，Meta 到 2027 年底 AI 算力可达 8 至 11.5GW，其中可出售 1.2 至 2.7GW。若实现 75% 销售，每 GW 年化收入 100 亿至 150 亿美元，Meta 2027 年可新增高达 300 亿美元收入。此举有望缓解市场对 Meta 高资本开支但回报有限的担忧。",
+      "snark": "Meta 卖算力就像卖二手显卡，只不过贵了几千倍。"
+    },
+    {
+      "id": 10,
+      "cat": "strategy",
+      "title": "理想组织再动刀：去中间环节，整车和智驾产品回归研发",
+      "title_en": "理想组织再动刀：去中间环节，整车和智驾产品回归研发｜36氪独家",
+      "source": "36氪",
+      "url": "https://36kr.com/p/3877919172047111?f=rss",
+      "time": "13小时前",
+      "published": "2026-07-03T10:45:12+00:00",
+      "summary": "理想汽车正在进行新一轮组织架构调整，计划将产品部的部分关键职能拆分并入研发部门。具体调整包括：电动本体定义团队并入整车研发部门，自动驾驶终端产品团队并入基座模型研发团队。此举旨在精简流程、减少中间环节，使产品决策更贴近技术研发。理想 CEO 李想此前提出“回归创业状态”，此次调整是其组织扁平化战略的延续。",
+      "snark": "理想汽车去中间商，下一步是不是要去 CEO？"
+    },
+    {
+      "id": 11,
+      "cat": "strategy",
+      "title": "武田制药与 Insilico 签署 6 亿美元 AI 药物发现合作",
+      "title_en": "Takeda signs US$600M AI drug discovery deal with Insilico",
+      "source": "AI News",
+      "url": "https://www.artificialintelligence-news.com/news/takeda-insilico-ai-drug-discovery-deal/",
+      "time": "14小时前",
+      "published": "2026-07-03T10:00:00+00:00",
+      "summary": "日本武田制药与香港英矽智能达成战略合作，利用 AI 进行早期药物发现。合作覆盖武田的治疗领域，但未公开具体疾病靶点。英矽智能将利用其 AI 平台加速靶点识别和先导化合物优化。协议总价值高达 6 亿美元，包括预付款、里程碑付款和特许权使用费。这是 AI 制药领域又一重大交易，凸显制药巨头对 AI 赋能研发的认可。",
+      "snark": "6 亿美元买 AI 制药？希望不是六亿美元买了个 PPT。"
+    },
+    {
+      "id": 12,
+      "cat": "tool",
+      "title": "WebBrain：开源、本地优先的 AI 浏览器智能体，支持 Chrome 和 Firefox 页面读取与任务自动化",
+      "title_en": "Meet WebBrain: An Open-Source, Local-First AI Browser Agent That Reads Pages and Automates Tasks in Chrome and Firefox",
+      "source": "MarkTechPost",
+      "url": "https://www.marktechpost.com/2026/07/02/meet-webbrain-an-open-source-local-first-ai-browser-agent-that-reads-pages-and-automates-tasks-in-chrome-and-firefox/",
+      "time": "18小时前",
+      "published": "2026-07-03T05:55:47+00:00",
+      "summary": "WebBrain 是一款基于 MIT 开源协议的 AI 浏览器智能体，支持 Chrome 和 Firefox 扩展。它能够读取网页内容、提取数据，并通过“询问”和“行动”两种模式自动化多步骤任务。用户可在本地运行 llama.cpp 或 Ollama 等模型以保护隐私，也可连接任意云端 API。该工具为网页数据采集、表单填写、信息聚合等场景提供了灵活且隐私友好的解决方案。",
+      "snark": "本地 AI 浏览器助手，终于不用把隐私喂给云端了。"
+    }
+  ],
+  "stats": {
+    "total": 12,
+    "model_count": 1,
+    "strategy_count": 6,
+    "tool_count": 4,
+    "policy_count": 1
+  }
+}

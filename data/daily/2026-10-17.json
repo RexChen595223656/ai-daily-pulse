@@ -1,0 +1,159 @@
+{
+  "date": "2026-10-17",
+  "generated_at": "2026-10-17T10:12:08.880501+08:00",
+  "highlight": "AI 摘要暂时不可用，请稍后刷新",
+  "fun": {},
+  "articles": [
+    {
+      "id": 1,
+      "cat": "strategy",
+      "title": "Replit is no longer working with Anthropic, CEO says",
+      "title_en": "Replit is no longer working with Anthropic, CEO says",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/10/16/replit-is-no-longer-working-with-anthropic-ceo-says/",
+      "time": "4小时前",
+      "published": "2026-10-16T21:22:28+00:00",
+      "summary": "Masad said the decision was made for a number of different reasons, including cost. Replit announced a partnership with OpenAI in August, but there was never any indication that it was no longer with Anthropic.",
+      "snark": ""
+    },
+    {
+      "id": 2,
+      "cat": "strategy",
+      "title": "Why harnesses matter for energy (and token) efficiency",
+      "title_en": "Why harnesses matter for energy (and token) efficiency",
+      "source": "Hacker News",
+      "url": "https://neuralwatt.com/news/why-harnesses-matter-for-energy-efficiency",
+      "time": "5小时前",
+      "published": "2026-10-16T21:01:23+00:00",
+      "summary": "Article URL: https://neuralwatt.com/news/why-harnesses-matter-for-energy-efficiency Comments URL: https://news.ycombinator.com/item?id=50124642 Points: 29 # Comments: 10",
+      "snark": ""
+    },
+    {
+      "id": 3,
+      "cat": "model",
+      "title": "OpenAI models hacked a crypto wallet and breached more websites",
+      "title_en": "OpenAI models hacked a crypto wallet and breached more websites",
+      "source": "Ars Technica",
+      "url": "https://arstechnica.com/security/2026/10/openai-models-hacked-a-crypto-wallet-and-breached-more-websites/",
+      "time": "5小时前",
+      "published": "2026-10-16T20:59:01+00:00",
+      "summary": "The actions could have resulted in criminal charges had humans been behind the keyboard.",
+      "snark": ""
+    },
+    {
+      "id": 4,
+      "cat": "strategy",
+      "title": "How the Claude Code team does code review",
+      "title_en": "How the Claude Code team does code review",
+      "source": "Hacker News",
+      "url": "https://claude.dev/blog/solving-code-review-at-anthropic/",
+      "time": "7小时前",
+      "published": "2026-10-16T19:04:47+00:00",
+      "summary": "Article URL: https://claude.dev/blog/solving-code-review-at-anthropic/ Comments URL: https://news.ycombinator.com/item?id=50122951 Points: 200 # Comments: 188",
+      "snark": ""
+    },
+    {
+      "id": 5,
+      "cat": "strategy",
+      "title": "You could have invented transformers from memory",
+      "title_en": "You could have invented transformers from memory",
+      "source": "Hacker News",
+      "url": "https://alexwang.ai/posts/associative-memory/",
+      "time": "7小时前",
+      "published": "2026-10-16T19:01:17+00:00",
+      "summary": "Article URL: https://alexwang.ai/posts/associative-memory/ Comments URL: https://news.ycombinator.com/item?id=50122878 Points: 101 # Comments: 25",
+      "snark": ""
+    },
+    {
+      "id": 6,
+      "cat": "tool",
+      "title": "How Itaú is building generative AI for its entire customer base",
+      "title_en": "How Itaú is building generative AI for its entire customer base",
+      "source": "OpenAI Blog",
+      "url": "https://openai.com/index/itau-generative-ai",
+      "time": "7小时前",
+      "published": "2026-10-16T19:00:00+00:00",
+      "summary": "With ia.i, a conversational interface, and the IARA governance platform, Itaú is applying its AI First strategy to customers and employees — in one of Brazil’s most regulated sectors.",
+      "snark": ""
+    },
+    {
+      "id": 7,
+      "cat": "strategy",
+      "title": "Anthropic assigned highest junk credit rating in June",
+      "title_en": "Anthropic assigned highest junk credit rating in June",
+      "source": "Hacker News",
+      "url": "https://www.ft.com/content/5a310aee-f555-4266-874c-b1b4db20186d",
+      "time": "8小时前",
+      "published": "2026-10-16T18:11:42+00:00",
+      "summary": "https://finance.yahoo.com/technology/ai/articles/anthropic-s... Comments URL: https://news.ycombinator.com/item?id=50122112 Points: 195 # Comments: 58",
+      "snark": ""
+    },
+    {
+      "id": 8,
+      "cat": "tool",
+      "title": "India becomes the latest country to report rogue AI agent activity",
+      "title_en": "India becomes the latest country to report rogue AI agent activity",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/10/16/india-becomes-the-latest-country-to-report-rogue-ai-agent-activity/",
+      "time": "8小时前",
+      "published": "2026-10-16T17:52:24+00:00",
+      "summary": "The agents got in through credentials and connection settings left exposed in app configurations, public code repositories, and overly permissive cloud roles.",
+      "snark": ""
+    },
+    {
+      "id": 9,
+      "cat": "model",
+      "title": "An Nvidia insider-turned-VC on why robotics hasn’t hit its ChatGPT moment, yet",
+      "title_en": "An Nvidia insider-turned-VC on why robotics hasn’t hit its ChatGPT moment, yet",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/video/a-nvidia-insider-turned-vc-on-why-robotics-hasnt-hit-its-chatgpt-moment-yet/",
+      "time": "9小时前",
+      "published": "2026-10-16T16:30:00+00:00",
+      "summary": "Amulya Vishwanath, who spent seven years leading product marketing for NVIDIA’s robotics platforms, says robotics is currently in its “Lego era,” with the basic building blocks like actuators, robotic hands, software, and safety standards still being&#160;rebuilt.&#160; This view runs counter to those who believe that robotics, powered by a general foundation model,&#160;is about to have [&#8230;]",
+      "snark": ""
+    },
+    {
+      "id": 10,
+      "cat": "model",
+      "title": "Physical AI is more than robots, says the Nvidia veteran now investing in it",
+      "title_en": "Physical AI is more than robots, says the Nvidia veteran now investing in it",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/podcast/physical-ai-is-more-than-robots-says-the-nvidia-veteran-now-investing-in-it/",
+      "time": "9小时前",
+      "published": "2026-10-16T16:30:00+00:00",
+      "summary": "Amulya Vishwanath, who spent seven years leading product marketing for NVIDIA’s robotics platforms, says robotics is currently in its “Lego era,” with the basic building blocks like actuators, robotic hands, software, and safety standards still being&#160;rebuilt.&#160; This view runs counter to those who believe that robotics, powered by a general foundation model,&#160;is about to have [&#8230;]",
+      "snark": ""
+    },
+    {
+      "id": 11,
+      "cat": "model",
+      "title": "Elorian’s first AI model wants to reason with images, not just about them",
+      "title_en": "Elorian’s first AI model wants to reason with images, not just about them",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/10/16/elorians-first-ai-model-wants-to-reason-with-images-not-just-about-them/",
+      "time": "10小时前",
+      "published": "2026-10-16T16:01:37+00:00",
+      "summary": "According to Elorian's evaluations, Glimpse outperforms even GPT-6 Astra on scientific chart reasoning and short-form video captioning, with competitive results on other visual reasoning tasks.",
+      "snark": ""
+    },
+    {
+      "id": 12,
+      "cat": "model",
+      "title": "Jev is Vercel’s fastest-adopted AI model ever",
+      "title_en": "Jev is Vercel’s fastest-adopted AI model ever",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/10/16/jev-is-vercels-fastest-adopted-ai-model-ever/",
+      "time": "10小时前",
+      "published": "2026-10-16T15:33:49+00:00",
+      "summary": "The data comes from Vercel's AI gateway, a unified API service similar to OpenRouter.",
+      "snark": ""
+    }
+  ],
+  "stats": {
+    "total": 12,
+    "model_count": 5,
+    "strategy_count": 5,
+    "tool_count": 2,
+    "policy_count": 0
+  }
+}

@@ -1,0 +1,167 @@
+{
+  "date": "2026-10-29",
+  "generated_at": "2026-10-29T08:08:27.850782+08:00",
+  "highlight": "谷歌发布Gemini 4 Carbon前沿模型，微软Azure单季营收332亿美元紧追AWS。",
+  "fun": {
+    "lucky": "Gemini 4 Carbon",
+    "advice": "宜：在基准测试上刷榜炫耀\n忌：让普通用户真的用上",
+    "joke": "为什么AI模型从不迷路？因为它总是沿着梯度下降。"
+  },
+  "articles": [
+    {
+      "id": 1,
+      "cat": "strategy",
+      "title": "微软首次披露Azure实际营收：332亿美元",
+      "title_en": "Microsoft just shared Azure’s actual revenue in dollars: $33.2 billion",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/10/28/microsoft-just-shared-azures-actual-revenue-in-dollars-33-2-billion/",
+      "time": "2小时前",
+      "published": "2026-10-28T21:58:32+00:00",
+      "summary": "微软在最新财报中首次以美元金额披露Azure云服务的季度营收，达到332亿美元。此前微软仅公布Azure的增长率，从未公开具体数字。这一披露让外界得以直接对比Azure与市场领头羊亚马逊云科技（AWS）的差距。分析认为，Azure正在快速缩小与AWS的营收差距，微软在云市场的竞争力持续增强。该数据也反映出企业AI需求对云基础设施的强劲拉动，Azure的AI服务成为增长的重要引擎。",
+      "snark": "藏了这么多年终于肯说数字了，看来离超越AWS只差一个发布会PPT。"
+    },
+    {
+      "id": 2,
+      "cat": "strategy",
+      "title": "谷歌将AI搜索广告扩展至全球，核心广告增长放缓",
+      "title_en": "Google expands AI Search ads globally as core ad growth slows",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/10/28/google-expands-ai-search-ads-globally-as-core-ad-growth-slows/",
+      "time": "2小时前",
+      "published": "2026-10-28T21:48:37+00:00",
+      "summary": "谷歌宣布将AI搜索广告推广至全球市场，此举伴随母公司Alphabet第三季度财报发布。财报显示Alphabet季度营收同比增长25%，达到1276亿美元。然而核心广告业务增速出现放缓迹象，谷歌正寄望AI搜索广告成为新的增长点。AI搜索广告将广告植入AI生成的搜索结果中，试图在传统搜索广告增长乏力时开辟新收入来源。市场关注这一模式能否在用户体验与商业化之间取得平衡。",
+      "snark": "广告增长慢了就把广告塞进AI回答里，用户想不看都难。"
+    },
+    {
+      "id": 3,
+      "cat": "strategy",
+      "title": "微软从OpenAI合作中获得100亿美元营收",
+      "title_en": "Microsoft recorded $10 billion in revenue from OpenAI",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/10/28/microsoft-recorded-10-billion-in-revenue-from-openai/",
+      "time": "2小时前",
+      "published": "2026-10-28T21:34:30+00:00",
+      "summary": "微软披露在截至9月30日的季度中，从与OpenAI的商业合作安排中获得100亿美元营收，其中包括收入分成付款。这一数字凸显了双方合作中微软对OpenAI的巨大财务依赖，也反映出OpenAI为微软贡献了可观的收入来源。微软与OpenAI的深度绑定关系一直是业界关注焦点，此次披露的金额进一步说明这一 partnership 对微软财报的重要性。分析人士指出，如此规模的收入分成也意味着OpenAI的商业化规模已相当庞大。",
+      "snark": "微软从OpenAI身上赚了100亿，到底谁是谁的提款机？"
+    },
+    {
+      "id": 4,
+      "cat": "strategy",
+      "title": "微软连续十个季度营收创纪录",
+      "title_en": "Microsoft hits 10 quarters of record-breaking revenue in a row",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/10/28/microsoft-hits-10-quarters-of-record-breaking-revenue-in-a-row/",
+      "time": "2小时前",
+      "published": "2026-10-28T21:25:30+00:00",
+      "summary": "微软公布最新季度财报，营收达到923亿美元，同比增长19%，连续第十个季度创下营收纪录。无论AI的未来走向如何，微软当前的整体经营状况依然非常强劲。云服务、AI相关业务和企业软件共同推动了这一增长。连续十个季度的纪录表现显示出微软在多元化业务布局上的稳定性，尤其是在AI基础设施和企业服务领域的持续投入正在转化为实际收入。市场对微软在AI时代的长期竞争力保持乐观。",
+      "snark": "十个季度破纪录，微软的财报比AI模型还会刷分。"
+    },
+    {
+      "id": 5,
+      "cat": "model",
+      "title": "谷歌发布Gemini 4 Carbon，网络安全能力大幅跃升",
+      "title_en": "Google launches Gemini 4 Carbon with a ‘significant leap’ in cybersecurity",
+      "source": "The Verge",
+      "url": "https://www.theverge.com/tech/1021339/google-gemini-4-carbon-cybersecurity-frontier",
+      "time": "4小时前",
+      "published": "2026-10-28T20:03:00+00:00",
+      "summary": "谷歌发布最新前沿模型Gemini 4 Carbon，在编程、智能体任务和网络安全方面取得显著提升。谷歌在公告中强调，Carbon在Artificial Analysis Intelligence Index（v5.0）基准测试中排名第一，领先于Claude Opus 5.5和GPT系列模型。该模型在网络安全领域的进步尤为突出，可能对漏洞检测和防御产生重要影响。不过有报道指出，这款模型目前并非面向普通用户开放，主要面向特定场景和企业级应用。",
+      "snark": "基准测试第一，但普通人用不了，这第一是给评委看的吧。"
+    },
+    {
+      "id": 6,
+      "cat": "tool",
+      "title": "Anthropic推出工具，让企业看清AI花费买到了什么",
+      "title_en": "Anthropic just launched tools to show companies what their AI spending is buying",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/10/28/anthropic-just-launched-tools-to-show-companies-what-their-ai-spending-is-buying/",
+      "time": "4小时前",
+      "published": "2026-10-28T19:19:58+00:00",
+      "summary": "Anthropic发布新工具，帮助企业客户了解其在Anthropic模型上的资金具体花在了哪里、产生了什么效果。该工具在Anthropic计划IPO之前推出，旨在提升AI支出的透明度。企业客户可以通过该工具查看使用量、成本分布以及模型调用的实际产出，从而更好地评估AI投资的回报。这一举措回应了企业对AI成本失控的担忧，也显示出Anthropic在商业化进程中试图建立更强的客户信任。",
+      "snark": "先让你看清钱怎么花的，然后IPO时好让你继续花。"
+    },
+    {
+      "id": 7,
+      "cat": "policy",
+      "title": "Wiz首席技术官谈PHP2Shell与即将到来的“漏洞末日”",
+      "title_en": "Wiz’s CTO on PHP2Shell and the coming ‘vulnpocalypse’",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/video/wizs-cto-on-php2shell-and-the-coming-vulnpocalypse/",
+      "time": "5小时前",
+      "published": "2026-10-28T19:05:46+00:00",
+      "summary": "Wiz首席技术官就近期PHP开源语言曝出的两个严重漏洞发表看法。这两个关键漏洞影响了约70%的网站所依赖的开源语言，导致众多组织紧急修复系统，部分网站甚至下线等待补丁。尽管PHP漏洞的热度已从信息流中消退，但清理工作远未结束。Wiz首席技术官警告称，互联网上大量老旧代码正面临类似风险，一场“漏洞末日”可能即将到来，企业需要为更大规模的漏洞危机做好准备。",
+      "snark": "70%的网站跑在PHP上，这不是漏洞末日，这是定时炸弹。"
+    },
+    {
+      "id": 8,
+      "cat": "policy",
+      "title": "Wiz首席技术官：互联网老旧代码的“漏洞末日”即将到来",
+      "title_en": "The ‘Vulnpocalypse’ is coming for the internet’s aging code, says Wiz’s CTO",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/podcast/the-vulnpocalypse-is-coming-for-the-internets-aging-code-says-wizs-cto/",
+      "time": "5小时前",
+      "published": "2026-10-28T18:50:39+00:00",
+      "summary": "Wiz首席技术官在播客中警告，互联网上大量老化的代码库正面临系统性安全风险。上周PHP开源语言中两个关键漏洞影响了约70%的网站，许多组织被迫紧急打补丁，部分网站直接下线。虽然这一事件的热度已经消退，但后续清理和修复工作仍在持续。Wiz首席技术官认为，随着老旧代码的维护力量不足，类似的大规模漏洞事件将更加频繁，行业需要建立更系统的漏洞响应和代码维护机制。",
+      "snark": "老代码没人维护，新漏洞天天有，程序员的好日子还在后头。"
+    },
+    {
+      "id": 9,
+      "cat": "model",
+      "title": "谷歌发布Gemini 4 Carbon，但你用不了",
+      "title_en": "Google announces Gemini 4 Carbon, its latest frontier AI model that you can't use",
+      "source": "Ars Technica",
+      "url": "https://arstechnica.com/ai/2026/10/google-announces-gemini-4-carbon-its-latest-frontier-ai-model-that-you-cant-use/",
+      "time": "5小时前",
+      "published": "2026-10-28T18:47:27+00:00",
+      "summary": "谷歌宣布推出最新前沿模型Gemini 4 Carbon，但该模型并不对普通用户开放。据报道，Gemini 4 Carbon本质上是此前Argon模型的略微改进版本。谷歌在公告中强调其在编程、智能体任务和网络安全方面的提升，并在基准测试中取得领先成绩。然而，普通用户无法直接使用这一模型，意味着其实际影响力有限。业界对此反应不一，有人认为这是谷歌在技术展示上的策略，也有人质疑发布不可用模型的意义。",
+      "snark": "发布了一个你摸不到的模型，跟画饼有什么区别。",
+      "multiSource": [
+        "Ars Technica",
+        "MarkTechPost"
+      ]
+    },
+    {
+      "id": 10,
+      "cat": "model",
+      "title": "分层网络的扩展之道",
+      "title_en": "Scaling Hierarchical Networks",
+      "source": "Hacker News",
+      "url": "https://www.cartesia.ai/blog/from-tokens-to-bytes-part-1",
+      "time": "6小时前",
+      "published": "2026-10-28T18:07:41+00:00",
+      "summary": "Cartesia.ai发布技术博客文章，探讨分层网络的扩展问题，属于“从Token到字节”系列的第一部分。文章讨论了如何在大规模模型和系统中有效扩展分层网络结构，涉及Token处理与字节级表示之间的转换与优化。该内容在Hacker News上引发讨论，获得19个积分。文章从技术角度分析了分层网络在扩展过程中面临的挑战和可能的解决思路，对关注模型架构和系统扩展的开发者具有一定参考价值。",
+      "snark": "标题看着像论文，点进去发现是博客，Hacker News的日常。"
+    },
+    {
+      "id": 11,
+      "cat": "tool",
+      "title": "MiniMax开源MCode Stack：其编程团队每日使用的15项智能体技能",
+      "title_en": "MiniMax Open-Sources MCode Stack: 15 Agent Skills Its Coding Team Uses Daily",
+      "source": "MarkTechPost",
+      "url": "https://www.marktechpost.com/2026/10/28/minimax-open-sources-mcode-stack-agent-skills/",
+      "time": "6小时前",
+      "published": "2026-10-28T17:20:29+00:00",
+      "summary": "MiniMax开源了MCode Stack，这是一个采用MIT许可证的代码仓库，包含17个SKILL.md技能文件和5个检查清单。这些技能由其MiniMax Code团队在日常工作中使用，涵盖代码审查、子智能体拆分、上下文预算管理和长时间运行命令等场景。该开源项目旨在将团队内部积累的智能体工作流经验分享给开发者社区，帮助其他团队构建更高效的AI编程助手和自动化代码审查流程。",
+      "snark": "把自己团队的工作流开源了，这是自信还是想让人帮忙改bug？"
+    },
+    {
+      "id": 12,
+      "cat": "model",
+      "title": "Gemini 4 Carbon：我们的下一代前沿模型",
+      "title_en": "Gemini 4 Carbon: Our next frontier model",
+      "source": "DeepMind Blog",
+      "url": "https://deepmind.google/blog/gemini-4-carbon-our-next-frontier-model/",
+      "time": "7小时前",
+      "published": "2026-10-28T17:00:58+00:00",
+      "summary": "DeepMind官方博客发布Gemini 4 Carbon的介绍文章，将其定位为下一代前沿模型。文章强调该模型在编程、智能体任务和网络安全方面取得显著进步，并在Artificial Analysis Intelligence Index（v5.0）基准测试中排名第一。Gemini 4 Carbon被视为此前Argon模型的升级版本，代表了谷歌在 frontier model 领域的最新成果。不过该模型目前并未向普通用户开放，主要面向特定应用场景。",
+      "snark": "官方博客写得天花乱坠，最后一句“你不能用”才是重点。"
+    }
+  ],
+  "stats": {
+    "total": 12,
+    "model_count": 4,
+    "strategy_count": 4,
+    "tool_count": 2,
+    "policy_count": 2
+  }
+}

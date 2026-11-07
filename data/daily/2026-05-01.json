@@ -1,0 +1,161 @@
+{
+  "date": "2026-05-01",
+  "highlight": "GPT-5 公测引发行业震动，开源模型快速追赶，AI 芯片博弈白热化",
+  "articles": [
+    {
+      "id": 1,
+      "cat": "model",
+      "title": "Zapier AI 发布企业自动化 Agent：跨应用工作流零代码搭建",
+      "title_en": "",
+      "source": "AI News",
+      "url": "https://example.com/ai-news/5039",
+      "time": "13天前",
+      "published": "2026-05-01T07:00:00+08:00",
+      "summary": "这是一条关于「Zapier AI 发布企业自动化 Agent：跨应用工作流零代码搭建」的详细报道。该事件在 AI 行业引发广泛关注，多位业内人士表示这将深刻影响行业格局。更多细节请查看原文。",
+      "snark": "编辑部：这条我们也不知道怎么评价。"
+    },
+    {
+      "id": 2,
+      "cat": "model",
+      "title": "Stable Diffusion 4 发布，文生图进入 8K 时代",
+      "title_en": "",
+      "source": "DeepMind Blog",
+      "url": "https://example.com/ai-news/9892",
+      "time": "13天前",
+      "published": "2026-05-01T15:49:00+08:00",
+      "summary": "这是一条关于「Stable Diffusion 4 发布，文生图进入 8K 时代」的详细报道。该事件在 AI 行业引发广泛关注，多位业内人士表示这将深刻影响行业格局。更多细节请查看原文。",
+      "snark": "AI圈日常：今天你发模型，明天我刷榜。"
+    },
+    {
+      "id": 3,
+      "cat": "model",
+      "title": "Grok-4 发布：xAI 称推理能力业界第一",
+      "title_en": "",
+      "source": "少数派",
+      "url": "https://example.com/ai-news/7176",
+      "time": "13天前",
+      "published": "2026-05-01T14:11:00+08:00",
+      "summary": "这是一条关于「Grok-4 发布：xAI 称推理能力业界第一」的详细报道。该事件在 AI 行业引发广泛关注，多位业内人士表示这将深刻影响行业格局。更多细节请查看原文。",
+      "snark": "又双叒叕一个「里程碑」，今年第几个了？"
+    },
+    {
+      "id": 4,
+      "cat": "strategy",
+      "title": "NVIDIA 发布 B300 GPU：算力翻倍，AI 训练市场进一步垄断",
+      "title_en": "",
+      "source": "TechCrunch",
+      "url": "https://example.com/ai-news/3849",
+      "time": "13天前",
+      "published": "2026-05-01T10:12:00+08:00",
+      "summary": "这是一条关于「NVIDIA 发布 B300 GPU：算力翻倍，AI 训练市场进一步垄断」的详细报道。该事件在 AI 行业引发广泛关注，多位业内人士表示这将深刻影响行业格局。更多细节请查看原文。",
+      "snark": "AI圈日常：今天你发模型，明天我刷榜。"
+    },
+    {
+      "id": 5,
+      "cat": "strategy",
+      "title": "Nous Research 发布 Hermes 4：开源指令遵循模型新标杆",
+      "title_en": "",
+      "source": "Hacker News",
+      "url": "https://example.com/ai-news/5443",
+      "time": "13天前",
+      "published": "2026-05-01T08:02:00+08:00",
+      "summary": "这是一条关于「Nous Research 发布 Hermes 4：开源指令遵循模型新标杆」的详细报道。该事件在 AI 行业引发广泛关注，多位业内人士表示这将深刻影响行业格局。更多细节请查看原文。",
+      "snark": "AI圈日常：今天你发模型，明天我刷榜。"
+    },
+    {
+      "id": 6,
+      "cat": "strategy",
+      "title": "Grok-4 发布：xAI 称推理能力业界第一",
+      "title_en": "",
+      "source": "36氪",
+      "url": "https://example.com/ai-news/6906",
+      "time": "13天前",
+      "published": "2026-05-01T20:03:00+08:00",
+      "summary": "这是一条关于「Grok-4 发布：xAI 称推理能力业界第一」的详细报道。该事件在 AI 行业引发广泛关注，多位业内人士表示这将深刻影响行业格局。更多细节请查看原文。",
+      "snark": "编辑部：这条我们也不知道怎么评价。"
+    },
+    {
+      "id": 7,
+      "cat": "strategy",
+      "title": "Google DeepMind 重组：AI 研究团队与产品团队合并",
+      "title_en": "",
+      "source": "MIT Tech Review",
+      "url": "https://example.com/ai-news/6590",
+      "time": "13天前",
+      "published": "2026-05-01T15:45:00+08:00",
+      "summary": "这是一条关于「Google DeepMind 重组：AI 研究团队与产品团队合并」的详细报道。该事件在 AI 行业引发广泛关注，多位业内人士表示这将深刻影响行业格局。更多细节请查看原文。",
+      "snark": "编辑部：这条我们也不知道怎么评价。"
+    },
+    {
+      "id": 8,
+      "cat": "strategy",
+      "title": "Kimi 2.5 发布：月之暗面称长文本理解能力业界领先",
+      "title_en": "",
+      "source": "The Verge AI",
+      "url": "https://example.com/ai-news/8576",
+      "time": "13天前",
+      "published": "2026-05-01T10:19:00+08:00",
+      "summary": "这是一条关于「Kimi 2.5 发布：月之暗面称长文本理解能力业界领先」的详细报道。该事件在 AI 行业引发广泛关注，多位业内人士表示这将深刻影响行业格局。更多细节请查看原文。",
+      "snark": "这条新闻让同行们集体沉默了3秒，然后继续卷。"
+    },
+    {
+      "id": 9,
+      "cat": "tool",
+      "title": "Adobe Firefly 4 发布：AI 创意工具全面整合 Photoshop",
+      "title_en": "",
+      "source": "Hacker News",
+      "url": "https://example.com/ai-news/4637",
+      "time": "13天前",
+      "published": "2026-05-01T11:50:00+08:00",
+      "summary": "这是一条关于「Adobe Firefly 4 发布：AI 创意工具全面整合 Photoshop」的详细报道。该事件在 AI 行业引发广泛关注，多位业内人士表示这将深刻影响行业格局。更多细节请查看原文。",
+      "snark": "编辑部：这条我们也不知道怎么评价。"
+    },
+    {
+      "id": 10,
+      "cat": "tool",
+      "title": "AI 芯片禁令升级：美国扩大对华芯片出口限制范围",
+      "title_en": "",
+      "source": "Synced Review",
+      "url": "https://example.com/ai-news/6705",
+      "time": "13天前",
+      "published": "2026-05-01T22:15:00+08:00",
+      "summary": "这是一条关于「AI 芯片禁令升级：美国扩大对华芯片出口限制范围」的详细报道。该事件在 AI 行业引发广泛关注，多位业内人士表示这将深刻影响行业格局。更多细节请查看原文。",
+      "snark": "又双叒叕一个「里程碑」，今年第几个了？"
+    },
+    {
+      "id": 11,
+      "cat": "tool",
+      "title": "AI 编程工具 Copilot 年收入突破 50 亿美元",
+      "title_en": "",
+      "source": "MIT Tech Review",
+      "url": "https://example.com/ai-news/7710",
+      "time": "13天前",
+      "published": "2026-05-01T08:51:00+08:00",
+      "summary": "这是一条关于「AI 编程工具 Copilot 年收入突破 50 亿美元」的详细报道。该事件在 AI 行业引发广泛关注，多位业内人士表示这将深刻影响行业格局。更多细节请查看原文。",
+      "snark": "AI圈日常：今天你发模型，明天我刷榜。"
+    },
+    {
+      "id": 12,
+      "cat": "tool",
+      "title": "Canva AI 推出视频自动剪辑功能：一句话生成完整视频",
+      "title_en": "",
+      "source": "AI News",
+      "url": "https://example.com/ai-news/9585",
+      "time": "13天前",
+      "published": "2026-05-01T13:36:00+08:00",
+      "summary": "这是一条关于「Canva AI 推出视频自动剪辑功能：一句话生成完整视频」的详细报道。该事件在 AI 行业引发广泛关注，多位业内人士表示这将深刻影响行业格局。更多细节请查看原文。",
+      "snark": "这条新闻让同行们集体沉默了3秒，然后继续卷。"
+    }
+  ],
+  "stats": {
+    "total": 12,
+    "model_count": 3,
+    "strategy_count": 5,
+    "tool_count": 4
+  },
+  "fun": {
+    "lucky": "DeepSeek V4",
+    "advice": "宜：省钱方案\n忌：盲目追大参数",
+    "joke": "问：为什么 AI 回答经常很自信？\n答：因为它学会了人类的「fake it till you make it」。"
+  }
+}
