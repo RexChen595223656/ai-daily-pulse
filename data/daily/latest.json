@@ -1,151 +1,167 @@
 {
-  "date": "2026-11-09",
-  "generated_at": "2026-11-09T08:12:33.051168+08:00",
-  "highlight": "英伟达CEO黄仁勋被曝与疑似中国间谍有染，公司启动调查；苹果加速Siri智能体化，AI音乐版权诉讼再起。",
+  "date": "2026-11-10",
+  "generated_at": "2026-11-10T08:03:20.125450+08:00",
+  "highlight": "英伟达CEO黄仁勋深陷间谍丑闻，Anthropic发布新模型，苹果推出AI使用包。",
   "fun": {
-    "lucky": "Siri",
-    "advice": "宜：加速迭代智能体功能\n忌：在隐私问题上翻车",
-    "joke": "为什么AI模型从不迷路？因为它总是走最优路径——除了在损失函数里。"
+    "lucky": "Claude Fable 5.2",
+    "advice": "宜：专注跑分刷榜；忌：卷入高管八卦。",
+    "joke": "为什么AI程序员从不吵架？因为他们的争论都在栈里，一压就平。"
   },
   "articles": [
     {
       "id": 1,
       "cat": "strategy",
-      "title": "英伟达CEO黄仁勋备忘录全文曝光",
-      "title_en": "Here’s the full text of Jensen Huang’s memo to Nvidia",
+      "title": "中国能从黄仁勋身上得到什么？",
+      "title_en": "What could China get from Jensen Huang?",
       "source": "The Verge AI",
-      "url": "https://www.theverge.com/ai-artificial-intelligence/1029595/full-text-jensen-huang-affair-memo-nvidia",
-      "time": "1小时前",
-      "published": "2026-11-08T22:54:50+00:00",
-      "summary": "英伟达于周日宣布对CEO黄仁勋与AI高管、中国政府代理人Alice Huang之间的关系展开调查。除董事会宣布调查外，黄仁勋还向英伟达员工发送了一份备忘录，承认了这段婚外情。该备忘录全文被媒体获取并公开，内容涉及黄仁勋对个人行为的反思以及对公司治理的承诺。此事引发外界对英伟达高层稳定性和地缘政治风险的关注，尤其是在中美科技竞争日益激烈的背景下。英伟达尚未公布调查时间表和具体范围，投资者正密切关注事件对公司股价和业务合作的潜在影响。",
-      "snark": "黄老板这是把GPU算力用在别处了？董事会调查组怕不是要查聊天记录。",
-      "multiSource": [
-        "The Verge",
-        "The Verge AI"
-      ]
+      "url": "https://www.theverge.com/ai-artificial-intelligence/1030328/what-could-china-get-from-jensen-huang",
+      "time": "11分钟前",
+      "published": "2026-11-09T23:51:58+00:00",
+      "summary": "The Verge 发文探讨英伟达首席执行官黄仁勋在当下人工智能格局中的巨大影响力。文章指出，英伟达的芯片是美国先进人工智能技术发展的基石，多年来需求持续超过供应。英伟达同时也是众多新兴人工智能企业的重要投资者。文章围绕黄仁勋近期涉及的中国相关争议，分析中国方面可能从这位芯片巨头掌门人身上获取哪些信息或利益，包括技术供应链依赖、投资关系以及地缘政治博弈中的筹码。报道强调，英伟达在全球人工智能算力市场的垄断地位使其成为中美科技竞争的关键节点，而黄仁勋的个人行为与公司战略正受到更严格的审视。",
+      "snark": "黄老板的皮衣再亮，也照不亮间谍疑云。"
     },
     {
       "id": 2,
-      "cat": "strategy",
-      "title": "英伟达将调查CEO黄仁勋与疑似中国间谍的关系",
-      "title_en": "Nvidia will investigate CEO Jensen Huang’s relationship with possible Chinese spy",
-      "source": "TechCrunch",
-      "url": "https://techcrunch.com/2026/11/08/nvidia-says-its-investigating-ceo-jensen-huangs-relationship-with-possible-chinese-spy/",
-      "time": "3小时前",
-      "published": "2026-11-08T21:00:11+00:00",
-      "summary": "英伟达公司表示正在调查CEO黄仁勋与一名可能为中国间谍的女性之间的关系。黄仁勋在给公司的备忘录中承认了婚外情。该女性被描述为AI高管和中国政府代理人，事件涉及国家安全和公司治理双重敏感议题。英伟达董事会已介入调查，但未透露更多细节。此事可能影响英伟达在中国市场的业务布局以及与美国政府的合作关系。分析人士指出，在中美科技脱钩加剧的背景下，此类事件可能被政治化，对英伟达的全球声誉和供应链稳定构成挑战。",
-      "snark": "AI高管+中国代理人，这剧情比谍战片还刺激，英伟达法务部要加班了。",
-      "multiSource": [
-        "TechCrunch",
-        "The Verge AI"
-      ]
+      "cat": "policy",
+      "title": "特朗普称他对黄仁勋事件的了解",
+      "title_en": "Here’s what Trump said he knew about Jensen Huang",
+      "source": "The Verge AI",
+      "url": "https://www.theverge.com/tech/1030446/trump-jensen-huang-press-conference",
+      "time": "15分钟前",
+      "published": "2026-11-09T23:47:46+00:00",
+      "summary": "美国总统特朗普在白宫新闻发布会上回应了关于英伟达首席执行官黄仁勋与一名疑似中国间谍有婚外情的问题。黄仁勋于上周末承认对妻子“不忠”，英伟达公司已就此展开调查。特朗普在简报会上被多次问及他对该事件的知晓程度，其回答引发媒体关注。报道指出，这一丑闻正值美中科技竞争敏感时期，涉及英伟达对华芯片出口管制等议题。白宫的回应被解读为试图与事件保持距离，同时强调国家安全审查机制的重要性。事件持续发酵，已影响英伟达股价与公司声誉。",
+      "snark": "总统知道的可能比黄仁勋老婆还少。"
     },
     {
       "id": 3,
       "cat": "strategy",
-      "title": "苹果正加速让Siri更具智能体能力",
-      "title_en": "Apple is racing to make Siri more agentic",
-      "source": "The Verge AI",
-      "url": "https://www.theverge.com/ai-artificial-intelligence/1029552/apple-siri-ai-agentic",
-      "time": "4小时前",
-      "published": "2026-11-08T19:18:19+00:00",
-      "summary": "据彭博社记者马克·古尔曼报道，苹果CEO约翰·特努斯正施压AI负责人克雷格·费德里吉，要求加速Siri路线图，交付能与OpenAI的Dots或Meta的Muse竞争的强大AI智能体。费德里吉已在极短时间内交付了功能可用的Siri AI版本，但完整智能体能力仍需时间。苹果在生成式AI竞赛中起步较晚，正试图通过Siri的智能体化追赶竞争对手。智能体能力意味着Siri将能自主执行多步骤任务，而非仅回答简单问题。古尔曼指出，苹果内部对进度不满，特努斯要求更激进的交付节奏。",
-      "snark": "Siri终于要从“人工智障”进化成“人工智能”了，库克看了想加薪。",
-      "multiSource": [
-        "The Verge",
-        "The Verge AI"
-      ]
+      "title": "黄仁勋据报一年前聘请擅长处理名人性丑闻的公关公司",
+      "title_en": "Jensen Huang reportedly engaged a PR firm with a history of handling  high-profile sex scandals a year ago",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/11/09/jensen-huang-reportedly-engaged-a-pr-firm-with-a-history-of-handling-high-profile-sex-scandals-a-year-ago/",
+      "time": "34分钟前",
+      "published": "2026-11-09T23:28:37+00:00",
+      "summary": "据《连线》杂志报道，英伟达首席执行官黄仁勋在2025年10月《纽约时报》报道其与美格速公司高管黄爱丽丝的商业往来后不久，便聘请了一家曾处理过多起高知名度性丑闻的公关公司。该公关公司以危机管理著称，曾为多位陷入性丑闻的名人提供咨询服务。报道称，这一举动表明黄仁勋团队早在丑闻公开前就已着手准备应对策略。英伟达方面尚未对此置评。此事进一步引发外界对黄仁勋与黄爱丽丝关系性质的猜测，以及公司治理透明度的质疑。",
+      "snark": "公关公司：这锅我们熟，但芯片不熟。"
     },
     {
       "id": 4,
       "cat": "policy",
-      "title": "猫王和埃米纳姆版权方起诉Suno",
-      "title_en": "Elvis and Eminem rights holders are suing Suno",
+      "title": "关于英伟达针对CEO黄仁勋的间谍丑闻，目前已知的一切",
+      "title_en": "Everything we know so far about the Nvidia spy scandal targeting CEO Jensen Huang",
       "source": "The Verge AI",
-      "url": "https://www.theverge.com/ai-artificial-intelligence/1029533/elvis-eminem-suno-ai-music-clone-lawsuit",
-      "time": "6小时前",
-      "published": "2026-11-08T17:23:19+00:00",
-      "summary": "AI音乐公司Suno面临又两起诉讼。猫王埃尔维斯·普雷斯利的音乐版权方和埃米纳姆部分热门唱片的出版商起诉Suno，指控其非法生成模仿这些艺术家的音乐和歌词。猫王案的律师声称Suno未经授权使用受版权保护的作品训练模型并生成相似内容。这是Suno近期遭遇的一系列版权诉讼中的最新两起，此前已有多家唱片公司提起诉讼。案件核心在于AI生成音乐是否构成版权侵权，以及合理使用原则的边界。音乐行业正密切关注这些案件，其结果可能为AI生成内容的法律地位树立先例。",
-      "snark": "Suno：我生成的是致敬，不是抄袭。法官：你猜我信不信？"
+      "url": "https://www.theverge.com/ai-artificial-intelligence/1030422/nvidia-jensen-huang-ai-china-alice-huang",
+      "time": "55分钟前",
+      "published": "2026-11-09T23:07:59+00:00",
+      "summary": "The Verge 汇总了英伟达首席执行官黄仁勋承认与美格速公司高管黄爱丽丝有婚外情后引发的系列事件。黄仁勋已承认此事，英伟达董事会启动调查，全球范围内引发激烈讨论。最新报道指出，自去年以来，美国情报报告已将黄爱丽丝（与黄仁勋无亲属关系）识别为疑似中国间谍。事件涉及国家安全、公司治理和高管个人行为等多重层面。英伟达股价应声下跌，投资者担忧此事可能影响公司与中国市场的业务往来及美国政府出口许可。黄仁勋已取消多个公开活动，包括ElevenLabs峰会和Anthropic活动。",
+      "snark": "芯片教父的私生活比GPU还热。"
     },
     {
       "id": 5,
-      "cat": "tool",
-      "title": "苹果M5 MacBook Air降至7月以来最低价",
-      "title_en": "Apple’s M5 MacBook Air is down to its lowest price since July",
-      "source": "The Verge",
-      "url": "https://www.theverge.com/gadgets/1029019/apple-macbook-air-13-15-inch-m5-deal-sale",
-      "time": "8小时前",
-      "published": "2026-11-08T16:00:00+00:00",
-      "summary": "最新13英寸MacBook Air目前售价1099.99美元，这是继夏季大幅涨价后第二次出现200美元折扣。基础款配备苹果M5处理器、16GB内存和512GB存储，通常售价更高。此次降价可能反映苹果在返校季后的促销策略调整，或为新品上市清库存。M5芯片主打AI性能提升，适合运行本地AI模型和开发任务。对于开发者而言，这是入手苹果AI硬件的不错时机，但需注意基础款内存可能限制大型模型运行。",
-      "snark": "M5再强也跑不动本地大模型，16GB内存只够跑个聊天机器人。"
+      "cat": "strategy",
+      "title": "做空机构在丑闻爆发六个月前就标记了英伟达CEO与疑似中国间谍的关系",
+      "title_en": "A short seller flagged Nvidia CEO’s ties to a suspected Chinese spy six months before the scandal",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/11/09/a-short-seller-flagged-nvidia-ceos-ties-to-a-suspected-chinese-spy-six-months-before-the-scandal/",
+      "time": "1小时前",
+      "published": "2026-11-09T22:46:09+00:00",
+      "summary": "据TechCrunch报道，在英伟达间谍丑闻爆发六个月前，做空机构Culper Research就已质疑黄仁勋与中国高管黄爱丽丝异常密切的关系。该机构当时发布报告，对黄仁勋与黄爱丽丝的商业往来提出疑问，但未引起广泛关注。如今随着丑闻公开，Culper Research的先见之明受到市场关注。报道称，做空机构通常会对上市公司高管的人际关系进行深入调查，此次事件凸显了华尔街对英伟达治理风险的担忧。英伟达股价在丑闻曝光后下跌超过4%，做空者可能从中获利。",
+      "snark": "做空机构：我们只是提前看了剧本。"
     },
     {
       "id": 6,
-      "cat": "tool",
-      "title": "聊天机器人可能登陆苹果HomeView",
-      "title_en": "Chatbots might be coming to Apple’s HomeView",
-      "source": "The Verge",
-      "url": "https://www.theverge.com/tech/1029526/chatbots-might-be-coming-to-apples-homeview",
-      "time": "9小时前",
-      "published": "2026-11-08T15:00:30+00:00",
-      "summary": "iOS 27.3测试版代码显示，苹果可能为其智能家居中枢HomeView添加聊天机器人支持。代码中出现了“对话应用”类别的标记，虽未说明具体应用，但ChatGPT和Claude等AI聊天机器人很可能纳入其中。这意味着苹果智能家居设备将获得更自然的语音交互能力，用户可通过HomeView直接与AI助手对话，控制家居设备或获取信息。此举是苹果将AI融入生态系统的最新信号，也表明苹果在自研Siri之外，可能开放第三方AI应用接入其硬件平台。",
-      "snark": "HomeView里装ChatGPT，苹果这是承认Siri不行了？"
+      "cat": "policy",
+      "title": "起诉英伟达的竞赛开始了",
+      "title_en": "The race is on to sue Nvidia",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/11/09/the-race-is-on-to-sue-nvidia/",
+      "time": "1小时前",
+      "published": "2026-11-09T22:23:42+00:00",
+      "summary": "英伟达董事会宣布调查首席执行官黄仁勋与疑似中国间谍的关系后，公司股价下跌超过4%。一位证券法专家指出，英伟达此前坚称一切“正常”的表态可能演变成代价高昂的法律问题。报道称，多家律师事务所已开始征集投资者，准备发起证券集体诉讼，指控英伟达在信息披露方面存在误导。投资者可能主张，公司早已知悉黄仁勋与黄爱丽丝的关系风险，却未及时向市场披露。此事件可能成为科技行业高管行为引发股东诉讼的又一典型案例，法律费用和声誉损失难以估量。",
+      "snark": "律师们比GPU还快，已经排队了。"
     },
     {
       "id": 7,
       "cat": "tool",
-      "title": "谷歌AI发布Elephant-Goldfish模型插件，主打规格优先编程",
-      "title_en": "Google AI Releases Elephant-Goldfish Model Plugin for Spec-First Coding",
-      "source": "MarkTechPost",
-      "url": "https://www.marktechpost.com/2026/11/08/google-elephant-goldfish-model-plugin-spec-review-coding-agents/",
-      "time": "13小时前",
-      "published": "2026-11-08T10:46:18+00:00",
-      "summary": "谷歌AI发布了Elephant-Goldfish模型插件，使编程智能体在编写任何代码之前先起草规格说明，然后运行5个零上下文审查阶段。该插件旨在提升AI生成代码的质量和可靠性，通过强制智能体先明确需求规格，再经过多轮独立审查，减少代码错误和逻辑漏洞。零上下文审查意味着每个审查阶段不共享先前上下文，以避免偏见累积。这种方法模仿了人类软件工程中的代码审查流程，将规格驱动开发引入AI编程智能体，有望提高复杂项目的代码生成准确率。",
-      "snark": "先写文档再写代码，AI终于学会了程序员的拖延症。"
+      "title": "一个萨姆·奥特曼模仿秀提供了关于内存管理的有趣教训",
+      "title_en": "A Sam Altman parody offers an amusing lesson in memory management",
+      "source": "Ars Technica",
+      "url": "https://arstechnica.com/gadgets/2026/11/a-sam-altman-parody-offers-an-amusing-lesson-in-memory-management/",
+      "time": "3小时前",
+      "published": "2026-11-09T20:49:09+00:00",
+      "summary": "Ars Technica 报道了一个以OpenAI首席执行官萨姆·奥特曼为原型的模仿项目，该项目意外成为内存管理的教学案例。文章称，开发者通过模仿奥特曼的公开言论和风格，构建了一个演示应用，其中涉及内存分配与释放的技术细节。报道验证了该项目中展示的内存数值是真实的，且未向OpenAI发送任何邮件。该模仿秀以幽默方式展示了程序运行时内存使用情况，提醒开发者在构建AI应用时注意资源管理。文章认为，这种寓教于乐的方式有助于普及内存优化知识，尤其对初学者理解AI工作负载的资源消耗有帮助。",
+      "snark": "奥特曼被玩坏了，但内存没泄漏。"
     },
     {
       "id": 8,
-      "cat": "model",
-      "title": "各MoE模型路由策略对比：DeepSeek、Qwen、Mixtral、Llama 4、gpt-oss",
-      "title_en": "Which Routing Does Each MoE Model Use? DeepSeek, Qwen, Mixtral, Llama 4, gpt-oss Compared",
-      "source": "MarkTechPost",
-      "url": "https://www.marktechpost.com/2026/11/08/moe-model-routing-comparison/",
-      "time": "13小时前",
-      "published": "2026-11-08T10:27:27+00:00",
-      "summary": "一篇基于配置验证的对比文章分析了10个开源MoE模型的路由机制，包括总参数和激活参数、专家数量、top-k选择、共享专家、门控函数和负载均衡方法。涉及模型包括DeepSeek、Qwen、Mixtral、Llama 4和gpt-oss等。文章详细比较了各模型如何将token路由到不同专家，揭示了不同设计选择对模型效率和性能的影响。例如，DeepSeek采用细粒度专家和共享专家策略，Mixtral使用top-2软门控，而Llama 4可能采用动态路由。该对比为研究人员和开发者选择MoE架构提供了实用参考。",
-      "snark": "MoE路由比北京地铁换乘还复杂，选错专家token就迷路了。"
+      "cat": "strategy",
+      "title": "黄仁勋因英伟达争议退出ElevenLabs峰会",
+      "title_en": "Jensen Huang pulls out of ElevenLabs Summit amid Nvidia controversy",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/11/09/jensen-huang-pulls-out-of-elevenlabs-summit-amid-nvidia-controversy/",
+      "time": "3小时前",
+      "published": "2026-11-09T20:09:06+00:00",
+      "summary": "据TechCrunch报道，英伟达首席执行官黄仁勋因公司间谍丑闻持续发酵，取消了在ElevenLabs峰会上的演讲。此前，他也已退出Anthropic的一场活动。报道称，黄仁勋原定在ElevenLabs峰会上发表主题演讲，但主办方在活动开始前收到通知称其无法出席。这是黄仁勋近期第二次公开活动被取消，显示其正试图降低曝光度以应对危机。英伟达方面未说明取消原因，但外界普遍认为与黄仁勋承认婚外情及涉嫌中国间谍调查有关。事件已影响英伟达与多家AI初创公司的合作关系。",
+      "snark": "峰会少了大佬，多了八卦。"
     },
     {
       "id": 9,
       "cat": "model",
-      "title": "MoE路由策略详解：Top-K、专家选择、Sigmoid门控与动态路由（2026指南）",
-      "title_en": "MoE Routing Strategies Explained: Top-K, Expert-Choice, Sigmoid Gating and Dynamic Routing (2026 Guide)",
-      "source": "MarkTechPost",
-      "url": "https://www.marktechpost.com/2026/11/07/moe-routing-strategies-explained/",
-      "time": "17小时前",
-      "published": "2026-11-08T06:18:33+00:00",
-      "summary": "一篇2026年指南详细解释了MoE路由策略，涵盖7种方法，从Mixtral的top-2 softmax到DeepSeek-V4的哈希路由，并列出使用每种策略的模型。路由策略决定哪些专家处理每个token，直接影响模型的计算效率和输出质量。文章介绍了Top-K选择、专家选择路由、Sigmoid门控和动态路由等方法的原理与优劣。例如，Top-K简单高效但可能负载不均，专家选择路由让专家主动选择token以提高均衡性，Sigmoid门控提供更平滑的权重分配。该指南为理解现代MoE架构提供了系统性的技术参考。",
-      "snark": "路由策略七种武器，选对了是专家，选错了是砖家。"
+      "title": "Claude Fable 5.2在Artificial Analysis上得分65，迄今最高",
+      "title_en": "Claude Fable 5.2 Scores 65 on Artificial Analysis, Highest So Far",
+      "source": "Hacker News",
+      "url": "https://artificialanalysis.ai/models/claude-fable-5-2",
+      "time": "3小时前",
+      "published": "2026-11-09T20:04:55+00:00",
+      "summary": "据Hacker News报道，Anthropic的Claude Fable 5.2模型在Artificial Analysis评测中获得65分，创下该榜单迄今最高分。Artificial Analysis是一个综合评估AI模型能力的独立平台，涵盖推理、编码、数学等多个维度。Claude Fable 5.2的高分表明其在复杂任务处理上表现优异，超越了此前领先的模型。该结果引发社区热议，评论数达162条，讨论集中在模型架构改进、训练数据质量以及评测方法的公平性。有开发者指出，高分并不完全代表实际应用体验，但无疑巩固了Anthropic在前沿模型竞争中的地位。",
+      "snark": "跑分第一，但别忘了问它会不会撒谎。"
     },
     {
       "id": 10,
       "cat": "model",
-      "title": "Nous Research发布Arete-27B，将Qwen3.8-27B的宣传性回答从22%降至0.9%",
-      "title_en": "Nous Research Releases Arete-27B that Cuts Qwen3.8-27B Propaganda From 22% to 0.9%",
-      "source": "MarkTechPost",
-      "url": "https://www.marktechpost.com/2026/11/07/nous-research-arete-27b-qwen3-8-27b-propaganda-fine-tune/",
-      "time": "19小时前",
-      "published": "2026-11-08T04:45:59+00:00",
-      "summary": "Nous Research发布了Arete-27B，这是基于Qwen3.8-27B的Apache 2.0微调模型。在Nous的803条提示评估中，宣传性回答从22%降至0.9%，而Hermes Bench得分保持在65.60%不变。该微调旨在减少模型输出中的宣传内容，提升回答的中立性和客观性。Arete-27B采用开源许可，允许商业使用和进一步修改。这一成果表明，通过针对性微调可以显著改变模型的行为倾向，同时保持通用基准性能。对于需要中立信息输出的应用场景，该模型提供了有价值的开源选择。",
-      "snark": "宣传比例从22%降到0.9%，剩下0.9%是“我编不下去了”。"
+      "title": "Anthropic在RSI担忧中发布新Mythos和Fable模型",
+      "title_en": "Anthropic releases new Mythos and Fable models amid RSI concerns",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/11/09/anthropic-releases-new-mythos-and-fable-models-amid-rsi-concerns/",
+      "time": "4小时前",
+      "published": "2026-11-09T19:24:51+00:00",
+      "summary": "Anthropic宣布推出Claude Mythos 5.2和Claude Fable 5.2两款新模型，称其在编码、推理和视觉方面均有提升，并能更清晰地与用户沟通。公司表示新模型旨在应对“艰巨”的技术挑战，输出速度比5.1版本更快。此次发布正值业界对递归自我改进（RSI）担忧加剧之际，即AI系统可能自主提升智能水平。Anthropic强调新模型在安全性和可控性方面做了额外投入，但未详细说明具体措施。分析认为，Anthropic试图在性能竞赛与安全叙事之间保持平衡，以应对竞争对手和监管机构的双重压力。",
+      "snark": "RSI来了，Anthropic说别怕，我们更会说话。"
+    },
+    {
+      "id": 11,
+      "cat": "tool",
+      "title": "苹果50美元智能使用包扩展部分AI功能访问",
+      "title_en": "Apple’s $50 Intelligence Usage Packs extend access to some AI features",
+      "source": "The Verge AI",
+      "url": "https://www.theverge.com/tech/1030084/apple-intelligence-usage-packs-ai-features-creator-studio-logic-pro",
+      "time": "4小时前",
+      "published": "2026-11-09T19:09:58+00:00",
+      "summary": "苹果公司在9月初发布支持文章，说明部分Apple Intelligence功能的使用限制后，更新了Logic Pro应用，新增“购买更多使用量”选项，一次性购买价格为49.99美元。该应用内置AI助手，可执行诸如“ stems”分离等任务。用户购买使用包后可延长AI功能的访问权限。此举表明苹果正在探索AI功能的商业化模式，对高负载AI任务设置用量门槛。分析认为，苹果可能将类似模式推广至更多专业应用，以平衡AI服务成本与用户体验。目前尚不清楚免费额度具体限制及使用包的有效期限。",
+      "snark": "苹果连AI都要卖DLC，下次是不是要抽卡？"
+    },
+    {
+      "id": 12,
+      "cat": "model",
+      "title": "Anthropic发布全新Claude Fable和Mythos 5.2模型",
+      "title_en": "Anthropic launches new Claude Fable and Mythos 5.2 models",
+      "source": "The Verge AI",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/1030005/anthropic-claude-fable-mythos-5-2",
+      "time": "5小时前",
+      "published": "2026-11-09T19:00:00+00:00",
+      "summary": "Anthropic正式发布Claude Fable 5.2和Claude Mythos 5.2两款新模型，称其专为应对“艰巨”技术挑战设计。公司宣称新模型在编码、推理和视觉能力上均有提升，且生成输出速度比5.1版本更快。两款模型分别面向不同应用场景：Fable侧重创意与通用任务，Mythos侧重复杂推理与专业领域。Anthropic未披露具体基准测试分数，但强调在安全对齐方面持续投入。此次发布是Anthropic在激烈模型竞赛中的最新动作，旨在与OpenAI、谷歌等对手争夺企业客户和开发者生态。市场关注新模型的实际表现及定价策略。",
+      "snark": "名字越来越神话，但愿别只是神话。",
+      "multiSource": [
+        "The Verge",
+        "The Verge AI"
+      ]
     }
   ],
   "stats": {
-    "total": 10,
+    "total": 12,
     "model_count": 3,
-    "strategy_count": 3,
-    "tool_count": 3,
-    "policy_count": 1
+    "strategy_count": 4,
+    "tool_count": 2,
+    "policy_count": 3
   }
 }

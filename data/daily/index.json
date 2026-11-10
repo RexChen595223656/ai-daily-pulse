@@ -1,4 +1,16 @@
 {
+  "2026-11-10": {
+    "date": "2026-11-10",
+    "highlight": "英伟达CEO黄仁勋深陷间谍丑闻，Anthropic发布新模型，苹果推出AI使用包。",
+    "count": 12,
+    "stats": {
+      "total": 12,
+      "model_count": 3,
+      "strategy_count": 4,
+      "tool_count": 2,
+      "policy_count": 3
+    }
+  },
   "2026-11-09": {
     "date": "2026-11-09",
     "highlight": "英伟达CEO黄仁勋被曝与疑似中国间谍有染，公司启动调查；苹果加速Siri智能体化，AI音乐版权诉讼再起。",
@@ -705,18 +717,6 @@
       "strategy_count": 3,
       "tool_count": 1,
       "policy_count": 0
-    }
-  },
-  "2026-09-01": {
-    "date": "2026-09-01",
-    "highlight": "今日最值得关注的是英伟达35亿美元投资联发科，以应对大科技公司自研AI芯片的挑战，这一战略布局可能重塑AI硬件竞争格局。",
-    "count": 12,
-    "stats": {
-      "total": 12,
-      "model_count": 1,
-      "strategy_count": 1,
-      "tool_count": 4,
-      "policy_count": 6
     }
   }
 }
