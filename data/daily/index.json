@@ -1,4 +1,16 @@
 {
+  "2026-11-11": {
+    "date": "2026-11-11",
+    "highlight": "纽约AI安全法生效，OpenAI与Anthropic面临注册与事故报告新监管；Anthropic七位创始人IPO各套现2.5亿美元。",
+    "count": 12,
+    "stats": {
+      "total": 12,
+      "model_count": 1,
+      "strategy_count": 5,
+      "tool_count": 5,
+      "policy_count": 1
+    }
+  },
   "2026-11-10": {
     "date": "2026-11-10",
     "highlight": "英伟达CEO黄仁勋深陷间谍丑闻，Anthropic发布新模型，苹果推出AI使用包。",
@@ -704,18 +716,6 @@
       "model_count": 5,
       "strategy_count": 5,
       "tool_count": 2,
-      "policy_count": 0
-    }
-  },
-  "2026-09-02": {
-    "date": "2026-09-02",
-    "highlight": "AI 摘要暂时不可用，请稍后刷新",
-    "count": 12,
-    "stats": {
-      "total": 12,
-      "model_count": 8,
-      "strategy_count": 3,
-      "tool_count": 1,
       "policy_count": 0
     }
   }
