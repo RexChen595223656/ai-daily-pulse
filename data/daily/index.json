@@ -1,4 +1,28 @@
 {
+  "2026-11-14": {
+    "date": "2026-11-14",
+    "highlight": "英伟达CEO黄仁勋因丑闻辞职，AI创投圈地震；OpenAI推出ChatGPT钱包让智能体替你花钱。",
+    "count": 12,
+    "stats": {
+      "total": 12,
+      "model_count": 2,
+      "strategy_count": 3,
+      "tool_count": 4,
+      "policy_count": 3
+    }
+  },
+  "2026-11-13": {
+    "date": "2026-11-13",
+    "highlight": "英伟达黄仁勋因丑闻辞职，开源战略与国家安全成焦点；谷歌Gemini 4 Hydrogen提升复杂问题理解力。",
+    "count": 12,
+    "stats": {
+      "total": 12,
+      "model_count": 2,
+      "strategy_count": 4,
+      "tool_count": 4,
+      "policy_count": 2
+    }
+  },
   "2026-11-12": {
     "date": "2026-11-12",
     "highlight": "英伟达董事会据报准备罢免黄仁勋，同时其绯闻丑闻持续发酵，AI芯片巨头面临领导层地震。",
@@ -693,30 +717,6 @@
       "strategy_count": 4,
       "tool_count": 0,
       "policy_count": 0
-    }
-  },
-  "2026-09-05": {
-    "date": "2026-09-05",
-    "highlight": "AI 摘要暂时不可用，请稍后刷新",
-    "count": 12,
-    "stats": {
-      "total": 12,
-      "model_count": 1,
-      "strategy_count": 6,
-      "tool_count": 1,
-      "policy_count": 4
-    }
-  },
-  "2026-09-04": {
-    "date": "2026-09-04",
-    "highlight": "GPT-6 Astra 发布与安全门槛争议，Meta 与 Anthropic 同推新模型与开源蓝图，AI 智能体竞争白热化。",
-    "count": 12,
-    "stats": {
-      "total": 12,
-      "model_count": 5,
-      "strategy_count": 3,
-      "tool_count": 3,
-      "policy_count": 1
     }
   }
 }
