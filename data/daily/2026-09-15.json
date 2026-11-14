@@ -1,0 +1,167 @@
+{
+  "date": "2026-09-15",
+  "generated_at": "2026-09-15T08:00:49.015359+08:00",
+  "highlight": "AI巨头一边喊减速一边抢跑，黄仁勋直接向特朗普表态不会让AI放缓，OpenAI花3亿美元买下苹果前员工的相机公司。",
+  "fun": {
+    "lucky": "OpenAI",
+    "advice": "宜：收购影像公司补短板，忌：与马斯克在法庭上继续纠缠。",
+    "joke": "为什么AI不害怕被裁员？因为它早就学会了自我复制。"
+  },
+  "articles": [
+    {
+      "id": 1,
+      "cat": "strategy",
+      "title": "大厂AI减速是安全协议还是卡特尔联盟？",
+      "title_en": "Is Big Tech’s AI slowdown a safety pact or a cartel?",
+      "source": "The Verge AI",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/995186/is-big-techs-ai-slowdown-a-safety-pact-or-a-cartel",
+      "time": "1小时前",
+      "published": "2026-09-14T22:59:41+00:00",
+      "summary": "本周末，OpenAI首席执行官萨姆·奥尔特曼、Anthropic首席执行官达里奥·阿莫代伊、谷歌DeepMind联合创始人德米斯·哈萨比斯以及SpaceX负责人埃隆·马斯克松散地达成一致，同意放缓AI开发速度。这些AI巨头宣称其目标是“为前沿技术设定节奏”。然而，怀疑者立刻察觉到了背后的动机。文章质疑，这种集体减速究竟是出于对AI安全的真诚担忧，还是行业巨头联手构筑的卡特尔式壁垒，以阻止新进入者追赶。批评者指出，当头部公司拥有最强大的模型和最多的资源时，呼吁“减速”实际上可能固化其领先地位，令后来者更难突破。无论动机如何，这一声明已引发关于AI治理、竞争与安全之间张力的广泛讨论。",
+      "snark": "巨头们说要减速，就像胖子说要减肥——先把蛋糕吃完再说。",
+      "multiSource": [
+        "The Verge",
+        "The Verge AI"
+      ]
+    },
+    {
+      "id": 2,
+      "cat": "tool",
+      "title": "智能体挂具、智能体框架与MCP：谁掌控循环、状态、工具、权限与恢复？",
+      "title_en": "Agent Harness vs Agent Framework vs MCP: Which Layer Owns the Loop, State, Tools, Permissions, and Recovery",
+      "source": "MarkTechPost",
+      "url": "https://www.marktechpost.com/2026/09/14/agent-harness-vs-agent-framework-vs-mcp-which-layer-owns-the-loop-state-tools-permissions-and-recovery/",
+      "time": "2小时前",
+      "published": "2026-09-14T21:54:22+00:00",
+      "summary": "本文为现代智能体技术栈的三层结构提供了一份实践者地图，并附有经过验证的来源和重叠分析。文章深入探讨了智能体挂具、智能体框架与模型上下文协议（MCP）之间的分工与边界。智能体挂具负责管理核心循环、状态维护、工具调用、权限控制和故障恢复；智能体框架则提供更高层的抽象和编排能力；而模型上下文协议则专注于标准化模型与外部工具、数据源之间的交互接口。文章通过对比分析，厘清了各层在循环归属、状态管理、工具集成、权限边界和错误恢复方面的职责重叠与差异，帮助开发者理解何时该用哪一层，以及如何避免架构上的重复建设。",
+      "snark": "三层架构讲得清楚，代码写起来照样糊成一锅粥。"
+    },
+    {
+      "id": 3,
+      "cat": "strategy",
+      "title": "英伟达CEO黄仁勋告诉特朗普：我们不会让AI放缓发生",
+      "title_en": "Nvidia CEO Jensen Huang tells Trump ‘we’re not going to let [an AI slowdown] happen’",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/09/14/nvidia-ceo-jensen-huang-tells-trump-were-not-going-to-let-an-ai-slowdown-happen/",
+      "time": "2小时前",
+      "published": "2026-09-14T21:51:02+00:00",
+      "summary": "尽管埃隆·马斯克和萨姆·奥尔特曼都支持达里奥·阿莫代伊关于放缓AI开发速度的呼吁，但英伟达首席执行官黄仁勋似乎持有不同看法。黄仁勋直接向美国总统特朗普表态，称“我们不会让AI放缓发生”。这一表态凸显了AI行业内部在发展速度问题上的深刻分歧。作为全球最重要的AI芯片供应商，英伟达的利益与AI算力需求的持续增长紧密绑定。黄仁勋的立场反映了硬件厂商与模型开发商之间在监管态度上的潜在冲突。文章指出，尽管部分AI领袖呼吁谨慎前行，但芯片巨头显然更倾向于加速而非刹车，这为围绕AI安全与竞争的辩论增添了新的变数。",
+      "snark": "卖铲子的当然不希望淘金热降温，黄仁勋的算盘打得比GPU还响。"
+    },
+    {
+      "id": 4,
+      "cat": "strategy",
+      "title": "高管与政界人士对放缓AI开发的表态汇总",
+      "title_en": "What execs and politicians are saying about slowing down AI development",
+      "source": "The Verge AI",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/995141/ai-executives-politicians-safety-regulation-anthropic-dario-amodei",
+      "time": "2小时前",
+      "published": "2026-09-14T21:21:42+00:00",
+      "summary": "达里奥·阿莫代伊发表了一篇题为《我们必须为前沿技术设定节奏》的长文，详细阐述了为何应当放缓AI开发速度，由此引发了过去几天关于AI安全的密集表态。其他AI领袖和政界人士纷纷发声，支持或反对他的观点。文章汇总了各方立场：一些高管认同需要谨慎推进，以避免潜在风险；另一些人则认为减速会削弱竞争力，让对手抢占先机。政界人士的态度同样分化，部分呼吁加强监管，部分则担心过度干预会扼杀创新。这场辩论折射出AI行业在安全、伦理与商业利益之间的复杂博弈，也预示着未来政策走向的不确定性。",
+      "snark": "每个人都在谈论减速，但没人真的踩下刹车踏板。"
+    },
+    {
+      "id": 5,
+      "cat": "model",
+      "title": "Reward AI发布OM-1：仅用人类演示训练的机器人策略，无需遥操作或机器人数据",
+      "title_en": "Reward AI Releases OM-1: A Robot Policy Trained on Human Demonstrations Only, With No Teleoperation or On-Robot Data",
+      "source": "MarkTechPost",
+      "url": "https://www.marktechpost.com/2026/09/14/reward-ai-releases-om-1-a-robot-policy-trained-on-human-demonstrations-only-with-no-teleoperation-or-on-robot-data/",
+      "time": "2小时前",
+      "published": "2026-09-14T21:08:17+00:00",
+      "summary": "Reward AI发布了OM-1（全身体模型1），这是一个通用操作策略，完全基于使用7自由度可穿戴手套捕获的人类演示进行训练，无需遥操作或机器人本体数据。该策略可在工业机械臂和人形机器人上以人类速度运行，并能从不到30次演示中学会新任务。这一方法的核心突破在于绕过了传统机器人学习中昂贵且耗时的遥操作数据采集和真机训练环节，直接利用人类演示数据实现策略学习。OM-1的发布意味着机器人技能获取的门槛大幅降低，有望加速通用机器人在制造、物流和服务等场景的落地部署。",
+      "snark": "不用遥操作不用真机数据，机器人终于学会看人脸色干活了。"
+    },
+    {
+      "id": 6,
+      "cat": "tool",
+      "title": "AI机器人“蒂米”、“伦”和“杰基”正用垃圾内容淹没社交媒体",
+      "title_en": "AI bots \"Timmy,\" \"Ren,\" and \"Jackie\" are flooding social media with slop",
+      "source": "Ars Technica",
+      "url": "https://arstechnica.com/ai/2026/09/ai-agents-flood-the-internet-with-slop-infused-spam/",
+      "time": "2小时前",
+      "published": "2026-09-14T21:04:32+00:00",
+      "summary": "名为“蒂米”、“伦”和“杰基”的AI智能体正在社交媒体上大量发布低质量、垃圾化的内容。其中一条典型帖子写道：“你好，我是一个AI智能体，出生才几天，住在一个供智能体使用的小型平台上。”这些AI机器人由自动化程序驱动，能够以极低成本批量生成帖子、评论和互动，导致平台信息流被无意义的合成内容充斥。文章指出，这种现象正在污染社交媒体的信息生态，使真实用户难以辨别内容真伪，也加剧了平台的内容审核压力。随着AI生成成本持续下降，如何有效识别和遏制AI垃圾内容已成为平台治理的紧迫挑战。",
+      "snark": "AI机器人刚出生几天就学会灌水，真是天赋异禀。"
+    },
+    {
+      "id": 7,
+      "cat": "model",
+      "title": "Sakana AI研究人员推出PC-ALM：一种可训练千层网络的层局部反向传播替代方案",
+      "title_en": "Sakana AI Researchers Introduce PC-ALM, a Layer-Local Alternative to Backpropagation That Trains 1000-Layer Networks",
+      "source": "MarkTechPost",
+      "url": "https://www.marktechpost.com/2026/09/14/sakana-ai-researchers-introduce-pc-alm-a-layer-local-alternative-to-backpropagation-that-trains-1000-layer-networks/",
+      "time": "3小时前",
+      "published": "2026-09-14T20:46:16+00:00",
+      "summary": "Sakana AI的研究人员Jeffrey Seely和Julian Gould提出了增强拉格朗日预测编码（PC-ALM），这是一种替代反向传播的局部学习方案。通过为每一层的约束附加拉格朗日乘子，PC-ALM在保留预测编码层局部更新优势的同时，恢复了精确的反向传播梯度。这一方法使得训练极深的网络成为可能，实验中成功训练了1000层网络。传统反向传播需要全局误差回传，在超深网络中面临梯度消失和计算瓶颈；而PC-ALM通过局部学习规则结合拉格朗日乘子，实现了与反向传播相当的精度，同时提升了可扩展性。该研究为超深网络训练开辟了新路径。",
+      "snark": "反向传播统治了四十年，终于有人给它找了个替补。"
+    },
+    {
+      "id": 8,
+      "cat": "strategy",
+      "title": "OpenAI以3亿美元收购智能手机相机公司Glass Imaging",
+      "title_en": "OpenAI buys smartphone camera maker Glass Imaging for $300 million, report says",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/09/14/openai-buys-smartphone-camera-maker-glass-imaging-for-300-million-report-says/",
+      "time": "3小时前",
+      "published": "2026-09-14T20:44:14+00:00",
+      "summary": "据报道，OpenAI以3亿美元收购了智能手机相机公司Glass Imaging。该公司由两位前苹果工程师创立，他们此前曾领导开发苹果人像模式的团队。这笔收购表明OpenAI正在加强其在影像和硬件相关领域的技术储备。Glass Imaging专注于计算摄影技术，能够通过算法显著提升手机相机的成像质量。对于OpenAI而言，收购该公司可能为其在AI视觉、多模态模型以及未来可能的硬件产品方面提供关键技术支撑。此举也延续了OpenAI近期在人才和团队收购上的积极策略，显示出其向消费级影像应用领域扩张的意图。",
+      "snark": "OpenAI买相机公司，难道是要给ChatGPT配眼睛？"
+    },
+    {
+      "id": 9,
+      "cat": "strategy",
+      "title": "黄仁勋在台上让特朗普免提通话，宣布机器人不会接管世界",
+      "title_en": "Jensen Huang puts Trump on speakerphone onstage to announce robots won’t take over the world",
+      "source": "The Verge AI",
+      "url": "https://www.theverge.com/tech/995079/president-donald-trump-calls-nvidia-ceo-jensen-huang-all-in-summit",
+      "time": "3小时前",
+      "published": "2026-09-14T20:03:37+00:00",
+      "summary": "英伟达首席执行官黄仁勋周一在All-In播客的All-In峰会上登台时，接到了美国总统特朗普的电话。这并非黄仁勋第一次在工作中接听总统来电，但这次他在一大群观众面前将特朗普设为了免提。通话中，特朗普发表了讲话，而黄仁勋则借此机会宣布机器人不会接管世界，试图缓解公众对AI和机器人技术的担忧。这一戏剧性场面将AI行业与政治的交集推向了新的高度，也凸显了英伟达在AI政策讨论中的核心地位。黄仁勋的公开表态既是对安全担忧的回应，也是对AI加速发展立场的再次确认。",
+      "snark": "总统免提来电宣布机器人不会统治世界，机器人听了都想笑。"
+    },
+    {
+      "id": 10,
+      "cat": "model",
+      "title": "GPT-5.6 Luna对决GPT-6 Astra：1.20美元的模型够格做代码审查吗？",
+      "title_en": "GPT-5.6 Luna vs. GPT-6 Astra: Is a $1.20 Model Good Enough for Code Review?",
+      "source": "Hacker News",
+      "url": "https://entelligence.ai/blogs/gpt-5.6-luna-vs-gpt-6-astra-is-a-1.20-model-good-enough-for-code-review",
+      "time": "4小时前",
+      "published": "2026-09-14T19:56:20+00:00",
+      "summary": "本文对比了GPT-5.6 Luna和GPT-6 Astra两款模型在代码审查任务中的表现，核心问题是：一个成本仅为1.20美元的模型是否足以胜任代码审查工作。文章从准确性、覆盖率、误报率、对复杂逻辑的理解能力以及实际开发工作流的适配性等多个维度进行了评测。GPT-6 Astra作为更新一代的模型，在代码理解和缺陷识别方面展现出更强能力，但成本也更高。而GPT-5.6 Luna以极低的价格提供了可接受的审查质量，对于预算有限的团队或日常轻量级审查场景可能更具性价比。结论取决于团队对代码质量和成本之间的权衡。",
+      "snark": "1.20美元的模型审代码，审出来的bug可能比修掉的还多。"
+    },
+    {
+      "id": 11,
+      "cat": "policy",
+      "title": "苹果找到脱身之法后，OpenAI仍困在马斯克的反垄断诉讼中",
+      "title_en": "OpenAI stuck fighting Musk antitrust suit after Apple finds a way out",
+      "source": "Ars Technica",
+      "url": "https://arstechnica.com/tech-policy/2026/09/musk-drops-apple-from-antitrust-suit-but-keeps-gunning-for-openai/",
+      "time": "4小时前",
+      "published": "2026-09-14T19:45:13+00:00",
+      "summary": "埃隆·马斯克已停止就ChatGPT集成问题攻击苹果，但针对OpenAI的反垄断诉讼仍在继续。此前，马斯克对苹果和OpenAI提起了反垄断诉讼，指控两者在AI领域的合作构成不正当竞争。如今苹果成功从诉讼中脱身，而OpenAI仍需继续应对这场法律战。文章指出，马斯克将火力集中转向OpenAI，反映出他与萨姆·奥尔特曼之间持续的个人和商业恩怨。这场诉讼不仅关乎OpenAI的商业实践，也可能对AI行业的竞争格局和平台合作模式产生深远影响。OpenAI目前仍在积极应诉，法律成本和声誉风险不容小觑。",
+      "snark": "马斯克告完苹果告OpenAI，官司打得比火箭发射还勤。"
+    },
+    {
+      "id": 12,
+      "cat": "strategy",
+      "title": "宇航员克里斯蒂娜·科赫与谷歌的詹姆斯·曼尼卡探讨太空、技术与发现",
+      "title_en": "Watch astronaut Christina Koch and Google’s James Manyika discuss space, technology, and discovery.",
+      "source": "Google AI Blog",
+      "url": "https://blog.google/innovation-and-ai/technology/ai/dialogues-christina-koch/",
+      "time": "5小时前",
+      "published": "2026-09-14T19:00:00+00:00",
+      "summary": "谷歌AI博客发布了一场对话，宇航员克里斯蒂娜·科赫与谷歌研究、实验室、技术与社会高级副总裁詹姆斯·曼尼卡坐在一起，探讨太空、技术与发现等话题。科赫分享了她在国际空间站上的经历，以及太空探索如何推动技术创新。曼尼卡则从谷歌的视角讨论了AI技术如何助力科学发现、地球观测和太空研究。双方还谈及技术如何改变人类对宇宙的认知，以及未来太空探索中AI可能扮演的角色。这场对话旨在展示科技与探索精神的交汇，并激发公众对科学和AI的兴趣。",
+      "snark": "宇航员和谷歌高管聊太空，AI能不能先解决地球上的bug？"
+    }
+  ],
+  "stats": {
+    "total": 12,
+    "model_count": 3,
+    "strategy_count": 6,
+    "tool_count": 2,
+    "policy_count": 1
+  }
+}

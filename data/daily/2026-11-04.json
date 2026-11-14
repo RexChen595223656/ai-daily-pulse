@@ -1,0 +1,163 @@
+{
+  "date": "2026-11-04",
+  "generated_at": "2026-11-04T08:06:36.359692+08:00",
+  "highlight": "Anthropic发布FlashProve零知识证明系统，可验证AI回复来源；AI推理公司Fal估值翻倍至160亿美元。",
+  "fun": {
+    "lucky": "FlashProve",
+    "advice": "宜：给每句AI回复盖上密码学钢印\n忌：在数据中心的喷气发动机旁烤棉花糖",
+    "joke": "为什么AI模型从不迷路？因为它总在找最优路径——除了在损失函数里。"
+  },
+  "articles": [
+    {
+      "id": 1,
+      "cat": "policy",
+      "title": "Anthropic正在开发验证AI模型身份的系统",
+      "title_en": "Anthropic is working on a system to prove AI models’ identity",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/11/03/anthropic-is-working-on-a-system-to-prove-ai-models-identity/",
+      "time": "1小时前",
+      "published": "2026-11-03T22:41:03+00:00",
+      "summary": "Anthropic正在研发名为FlashProve的系统，旨在让任何人都能验证某条AI回复确实来自其所声称的模型。该系统利用密码学证明技术，在不泄露模型权重的前提下，确认回复由特定已承诺的模型生成。这一机制有望解决AI内容溯源与身份伪造问题，为模型提供商、开发者和用户提供可信验证手段，对AI安全治理和内容真实性认证具有重要意义。",
+      "snark": "以后AI撒谎前得先伪造密码学证明，工作量直接翻倍。"
+    },
+    {
+      "id": 2,
+      "cat": "strategy",
+      "title": "数据中心因电力短缺转向使用旧喷气发动机",
+      "title_en": "Data centers are turning to old jet engines as the wait for power grows",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/11/03/data-centers-are-turning-to-old-jet-engines-as-the-wait-for-power-grows/",
+      "time": "1小时前",
+      "published": "2026-11-03T22:19:53+00:00",
+      "summary": "由于接入电网和获取新涡轮机需要数年等待，数据中心建设者开始采用一种不寻常的替代方案：曾被淘汰的旧喷气发动机。这些发动机效率较低且不够环保，但能快速提供现场发电能力，缓解AI算力扩张带来的电力瓶颈。这一趋势反映出AI基础设施对能源的巨大需求正迫使行业做出妥协，也引发了对碳排放和可持续性的担忧。",
+      "snark": "AI的尽头是烧航空煤油，环保主义者已哭晕在跑道。"
+    },
+    {
+      "id": 3,
+      "cat": "model",
+      "title": "Anthropic发布FlashProve：可证明回复来自已承诺权重的密码学证明",
+      "title_en": "Anthropic Releases FlashProve: Cryptographic Proofs That a Reply Came From Committed Weights",
+      "source": "MarkTechPost",
+      "url": "https://www.marktechpost.com/2026/11/03/anthropic-flashprove-provable-inference-zksnark/",
+      "time": "1小时前",
+      "published": "2026-11-03T22:08:22+00:00",
+      "summary": "Anthropic发布了FlashProve，一个采用Apache 2.0协议的zkSNARK原型系统，能够证明某条回复来自已承诺的模型而不泄露权重。该系统在单张H100上以每秒110个token的速度对Llama 4 Maverick进行证明，证明大小仅19MB。这意味着模型提供商可以向用户证明输出确实由其声称的模型生成，为AI透明性和可信部署提供了可落地的技术路径。",
+      "snark": "零知识证明终于从论文里爬出来干正事了，虽然19MB的证明比我的简历还大。"
+    },
+    {
+      "id": 4,
+      "cat": "strategy",
+      "title": "Ted Schlein的Ballistic Ventures在AI网络安全热潮中寻求4.9亿美元新基金",
+      "title_en": "Ted Schlein’s Ballistic Ventures seeks $490M for new funds amid AI-driven cybersecurity boom",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/11/03/ted-schleins-ballistic-ventures-seeks-490m-for-new-funds-amid-ai-driven-cybersecurity-boom/",
+      "time": "2小时前",
+      "published": "2026-11-03T21:43:08+00:00",
+      "summary": "专注于网络安全的Ballistic Ventures正在筹集3.6亿美元的新旗舰基金，以及1.3亿美元的独立投资工具，合计目标4.9亿美元。在AI驱动网络安全需求爆发的背景下，该机构加速布局。AI既带来了新的攻击面，也催生了自动化防御和威胁检测的创业机会，资本正密集涌入这一赛道，反映出安全领域已成为AI投资的重要方向。",
+      "snark": "AI把安全漏洞变多了，然后卖安全工具的又赚翻了，闭环了。"
+    },
+    {
+      "id": 5,
+      "cat": "strategy",
+      "title": "Palantir亮眼季度背后隐藏着一个不祥信号",
+      "title_en": "Hiding inside Palantir’s skyrocketing quarter is a foreboding signal",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/11/03/hiding-inside-palantirs-skyrocketing-quarter-is-a-foreboding-signal/",
+      "time": "3小时前",
+      "published": "2026-11-03T21:05:55+00:00",
+      "summary": "Palantir本季度业绩飙升，但其美国商业收入首次超过美国政府收入，这一结构性变化被视为不祥信号。商业客户占比上升虽显示市场拓展成功，但也意味着公司对政府合同的依赖度下降，可能影响其在地缘政治和国防领域的独特定位。投资者需关注这一收入结构转变对长期增长逻辑和估值叙事的影响。",
+      "snark": "政府爸爸不再是最大金主，Palantir的科幻人设要改走民营路线了。"
+    },
+    {
+      "id": 6,
+      "cat": "policy",
+      "title": "那些贝索斯植发照片是假的",
+      "title_en": "Those Jeff Bezos hair transplant photos are very fake",
+      "source": "The Verge AI",
+      "url": "https://www.theverge.com/tech/1025745/fake-jeff-bezos-hair-replacement-photos-debunk",
+      "time": "3小时前",
+      "published": "2026-11-03T21:01:07+00:00",
+      "summary": "杰夫·贝索斯和演员杰森·斯坦森在社交平台上流传的植发照片被证实为AI生成的假图。两人都以光头形象著称，但近期在X、Threads和Bluesky上传播的图片显示他们拥有浓密头发。这一事件再次凸显AI生成内容在社交媒体上的泛滥，以及深度伪造对公众人物形象和公众认知的干扰，提醒用户对视觉内容保持警惕。",
+      "snark": "AI连光头都不放过，下一步是不是要给葛优P脏辫。"
+    },
+    {
+      "id": 7,
+      "cat": "tool",
+      "title": "英伟达展示在DGX Spark上加速MoE推理的三种方法，Ling-3.0-flash吞吐量提升42.5%",
+      "title_en": "NVIDIA Shows 3 Ways to Speed Up MoE Inference on DGX Spark, Lifting Ling-3.0-flash Throughput 42.5%",
+      "source": "MarkTechPost",
+      "url": "https://www.marktechpost.com/2026/11/03/nvidia-dgx-spark-moe-inference-ling-3-0-flash/",
+      "time": "3小时前",
+      "published": "2026-11-03T20:28:22+00:00",
+      "summary": "英伟达展示了通过三项叠加优化在单台DGX Spark上加速混合专家模型推理的方法。在蚂蚁集团inclusionAI的1240亿参数Ling-3.0-flash上，GSM8K解码吞吐量提升42.5%，且未检测到精度变化。这些优化针对MoE架构的路由和内存访问瓶颈，为在边缘设备上高效运行大模型提供了实用方案，也展示了软硬件协同调优的潜力。",
+      "snark": "英伟达：只要优化做得好，一张卡也能跑千亿模型，买就对了。"
+    },
+    {
+      "id": 8,
+      "cat": "tool",
+      "title": "Soniox STT v6为语音代理增加代理文本输入和回声过滤功能",
+      "title_en": "Soniox STT v6 Adds Agent Text Input and Echo Filtering for Voice Agents",
+      "source": "MarkTechPost",
+      "url": "https://www.marktechpost.com/2026/11/03/soniox-stt-v6-agent-text-input-echo-cancellation/",
+      "time": "3小时前",
+      "published": "2026-11-03T20:18:22+00:00",
+      "summary": "Soniox发布了第六代语音转文字API Soniox STT v6。该模型在听取来电者声音的同时，能读取语音代理所说的话，利用该文本识别简短回复并过滤掉代理自身的声音。这一设计解决了语音代理场景中回声干扰和短语音识别不准的痛点，以stt-rt-v6形式交付，提升了实时语音交互的准确性和自然度。",
+      "snark": "终于有模型能分清谁在说话了，电话会议里的回声怪有救了。"
+    },
+    {
+      "id": 9,
+      "cat": "tool",
+      "title": "苹果开始让Siri AI接入第三方应用",
+      "title_en": "Apple starts giving Siri AI access to third-party apps",
+      "source": "The Verge AI",
+      "url": "https://www.theverge.com/tech/1025694/apple-siri-ai-third-party-apps",
+      "time": "3小时前",
+      "published": "2026-11-03T20:16:17+00:00",
+      "summary": "苹果在iOS 27.3更新中宣布，开发者现在可以在所有应用中集成Siri AI的新功能，允许语音助手利用用户的个人上下文、处理自然语言请求并跨第三方应用执行操作。这意味着Siri从系统级助手升级为可调用外部应用能力的智能代理，标志着苹果在AI助手生态开放上迈出重要一步，也为开发者带来新的集成机会。",
+      "snark": "Siri终于从只会设闹钟进化到能帮你点外卖了，虽然可能还是点错。"
+    },
+    {
+      "id": 10,
+      "cat": "strategy",
+      "title": "AI推理初创公司Fal估值翻倍至160亿美元，需求激增",
+      "title_en": "AI inference startup Fal doubles its valuation to $16B as demand surges",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/11/03/ai-inference-startup-fal-doubles-its-valuation-to-16b-as-demand-surges/",
+      "time": "4小时前",
+      "published": "2026-11-03T19:34:43+00:00",
+      "summary": "成立五年的AI推理初创公司Fal在Bessemer领投下完成13亿美元融资，估值翻倍至160亿美元。随着AI应用大规模落地，推理算力需求激增，Fal专注于提供高效的模型推理服务，成为资本追逐的焦点。此轮融资反映出市场对推理基础设施的高度看好，也预示着AI产业链从训练向推理环节的价值转移正在加速。",
+      "snark": "训练烧完钱，推理接着烧，Fal的估值全靠GPU的余温。"
+    },
+    {
+      "id": 11,
+      "cat": "tool",
+      "title": "Netflix新AI发现标签帮你按心情找片",
+      "title_en": "Netflix’s new AI Discover tab helps you find something to watch based on your mood",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/11/03/netflixs-new-ai-discover-tab-helps-you-find-something-to-watch-based-on-your-mood/",
+      "time": "5小时前",
+      "published": "2026-11-03T18:42:16+00:00",
+      "summary": "Netflix推出新的AI发现标签页，首个实验性功能允许用户根据当前心情获取推荐内容。该功能利用AI理解用户的情感状态并匹配相应影视作品，旨在解决选择困难症和内容发现效率问题。这是Netflix将生成式AI应用于个性化推荐体验的最新尝试，也反映出流媒体平台正利用AI提升用户粘性和内容消费转化。",
+      "snark": "AI终于能理解我“想看点烂片但不要太烂”的复杂心情了。"
+    },
+    {
+      "id": 12,
+      "cat": "tool",
+      "title": "苹果最新watchOS测试版包含常开音频智能功能",
+      "title_en": "Apple’s latest watchOS beta includes its new always-on Audio Intelligence features",
+      "source": "The Verge AI",
+      "url": "https://www.theverge.com/tech/1025002/apple-watch-audio-intelligence-watchos-beta",
+      "time": "5小时前",
+      "published": "2026-11-03T18:31:00+00:00",
+      "summary": "苹果在watchOS 27.3开发者测试版中为Siri加入音频智能功能，可接入Apple Watch麦克风。新增的Siri回顾功能利用环境监听生成对话摘要，实时回放功能则支持对音频内容进行回溯。这些常开音频功能提升了手表作为随身AI助手的实用性，但也引发了对隐私和持续监听边界的讨论，苹果需在便利与安全间取得平衡。",
+      "snark": "手表开始偷听你说话了，但苹果说这叫“环境智能”，听着高级多了。"
+    }
+  ],
+  "stats": {
+    "total": 12,
+    "model_count": 1,
+    "strategy_count": 4,
+    "tool_count": 5,
+    "policy_count": 2
+  }
+}

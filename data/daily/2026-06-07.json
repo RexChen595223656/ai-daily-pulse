@@ -1,0 +1,163 @@
+{
+  "date": "2026-06-07",
+  "generated_at": "2026-06-07T08:06:53.532654+08:00",
+  "highlight": "今日看点：OpenAI推Lockdown Mode防注入攻击，Meta确认AI聊天机器人致数千账号被盗，安全与商业化的博弈加剧。",
+  "fun": {
+    "lucky": "Nemotron 3.5 ASR",
+    "advice": "宜：用流式语音模型实时转写多语言会议。\n忌：在AI聊天机器人里存敏感登录信息。",
+    "joke": "AI写文章，人类改错字，最后老板说：标题不够吸引人。"
+  },
+  "articles": [
+    {
+      "id": 1,
+      "cat": "tool",
+      "title": "谷歌发布Colab CLI，开发者与AI代理可在终端远程调用Colab GPU与TPU运行Python",
+      "title_en": "Google’s New Colab CLI Lets Developers and AI Agents Run Python on Remote Colab GPUs and TPUs From the Terminal",
+      "source": "MarkTechPost",
+      "url": "https://www.marktechpost.com/2026/06/06/googles-new-colab-cli-lets-developers-and-ai-agents-run-python-on-remote-colab-gpus-and-tpus-from-the-terminal/",
+      "time": "1小时前",
+      "published": "2026-06-06T22:07:34+00:00",
+      "summary": "谷歌正式推出Colab命令行工具（Colab CLI），允许开发者和AI代理直接从本地终端将Python代码发送到远程Colab运行时执行，充分利用谷歌提供的GPU和TPU算力。该工具支持无头模式、批处理作业和自动化工作流，特别适合需要频繁进行模型训练或推理的开发者，以及需要动态调用计算资源的AI代理框架。Colab CLI的发布大幅降低了在Colab上进行复杂AI开发的门槛，无需再通过浏览器界面操作，从而提升了自动化脚本和持续集成管道的效率。此举也进一步巩固了谷歌在云端AI开发工具领域的竞争力，尤其对中小团队和个人开发者而言，意味着更灵活、更低成本的算力获取方式。",
+      "snark": "终于不用在浏览器里点“运行时重启”了，程序员感动得流下两行泪。"
+    },
+    {
+      "id": 2,
+      "cat": "tool",
+      "title": "OpenAI推出Lockdown Mode，保护敏感数据免受提示注入攻击",
+      "title_en": "OpenAI unveils Lockdown Mode to protect sensitive data from prompt injection attacks",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/06/06/openai-unveils-lockdown-mode-to-protect-sensitive-data-from-prompt-injection-attacks/",
+      "time": "3小时前",
+      "published": "2026-06-06T20:32:24+00:00",
+      "summary": "OpenAI宣布为ChatGPT引入Lockdown Mode（锁定模式），旨在降低提示注入攻击导致敏感数据泄露的风险。该模式通过限制模型对外部指令的响应范围，在对话上下文中建立一个“安全沙箱”，阻止恶意提示诱骗模型输出用户隐私信息或执行未授权操作。不过OpenAI也坦言，Lockdown Mode并不能完全免疫所有注入攻击，其目标是在大多数场景下减少数据被共享的可能性。这一功能主要面向企业用户和需要处理机密信息的场景，体现了OpenAI在安全合规方面的持续投入，也反映出大语言模型在真实部署中面临的安全挑战日益严峻。",
+      "snark": "Lockdown Mode：防得住坏人，防不住用户自己把密码打进去。"
+    },
+    {
+      "id": 3,
+      "cat": "policy",
+      "title": "Meta确认数千Instagram账号因AI聊天机器人被滥用而遭黑客入侵",
+      "title_en": "Meta confirms 1000s of Instagram accounts were hacked by abusing its AI chatbot",
+      "source": "Hacker News",
+      "url": "https://this.weekinsecurity.com/meta-confirms-thousands-of-instagram-accounts-were-hacked-by-abusing-its-ai-chatbot/",
+      "time": "5小时前",
+      "published": "2026-06-06T18:35:27+00:00",
+      "summary": "Meta官方确认，数千个Instagram账号因攻击者滥用其AI聊天机器人功能而被入侵。黑客利用聊天机器人的接口漏洞，通过精心构造的对话请求绕过了账号验证机制，从而获取了用户会话令牌并接管账号。Meta表示已紧急修复相关漏洞，并向受影响用户发送了安全通知。这起事件再次暴露了将AI功能集成到社交平台时面临的安全风险——聊天机器人作为新的攻击面，可能成为黑客突破传统安全防线的新通道。目前Meta正在加强AI接口的访问控制和异常行为检测，并建议用户启用双重认证以降低风险。",
+      "snark": "AI聊天机器人：不仅可以陪你聊天，还可以帮黑客偷你账号。"
+    },
+    {
+      "id": 4,
+      "cat": "strategy",
+      "title": "WWDC 2026前瞻：Siri大改版与Apple Intelligence更新备受期待",
+      "title_en": "What to expect from WWDC 2026: Siri’s highly anticipated revamp and Apple Intelligence updates",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/06/06/what-to-expect-from-wwdc-2026-siris-highly-anticipated-revamp-and-apple-intelligence-updates/",
+      "time": "5小时前",
+      "published": "2026-06-06T18:13:36+00:00",
+      "summary": "距离苹果全球开发者大会（WWDC 2026）开幕仅剩几天，业界普遍预期苹果将发布经过大幅改版的Siri以及一系列Apple Intelligence（苹果智能）更新。据透露，新Siri将整合更先进的自然语言理解模型，支持更复杂的多轮对话和上下文记忆，并首次允许第三方开发者通过API扩展Siri的技能。同时，苹果可能推出新一代端侧AI推理框架，强化隐私保护下的本地智能处理能力。这些更新被视作苹果在AI赛道上的关键反击，尤其是在与谷歌、微软等竞争对手的差距逐渐拉大的背景下。开发者社区对Siri能否真正实现“脱胎换骨”充满期待。",
+      "snark": "Siri：我改版了，但我还是不会定闹钟。"
+    },
+    {
+      "id": 5,
+      "cat": "policy",
+      "title": "白宫AI顾问Sriram Krishnan宣布离职，将另立机构影响特朗普AI政策",
+      "title_en": "Sriram Krishnan is leaving his role as White House AI advisor",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/06/06/sriram-krishnan-is-leaving-his-role-as-white-house-ai-advisor/",
+      "time": "6小时前",
+      "published": "2026-06-06T17:42:15+00:00",
+      "summary": "白宫人工智能高级顾问Sriram Krishnan宣布将辞去现任职务，转而创办一个新的独立机构，继续在特朗普政府的AI政策制定中发挥影响力。Krishnan在任期间参与了多项关键AI行政令的起草，包括推动联邦政府采用AI技术以及制定AI安全标准。他的离职被视为白宫AI政策团队的一次重要变动，但消息人士称，新机构将专注于AI产业竞争力与国家安全的交叉领域，可能以智库或非营利形式运作。此举也反映出美国AI政策制定过程中，政府内部与外部智囊之间的动态博弈正在加剧。",
+      "snark": "从白宫出来开智库，这是要把AI政策做成终身事业啊。"
+    },
+    {
+      "id": 6,
+      "cat": "strategy",
+      "title": "特朗普政府或考虑入股OpenAI，让美国人民分享AI成功红利",
+      "title_en": "The Trump administration might take an equity stake in OpenAI",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/06/06/the-trump-administration-might-take-an-equity-stake-in-openai/",
+      "time": "7小时前",
+      "published": "2026-06-06T16:17:21+00:00",
+      "summary": "美国总统特朗普公开表示，其政府正在讨论与OpenAI达成协议，通过股权方式让“美国人民从AI的成功中受益”。这一表态暗示联邦政府可能直接持有OpenAI股份，从而在OpenAI未来商业价值增长时获得财务回报。目前具体持股比例和投资形式尚未公布，但分析人士指出，此举将开创美国政府直接入股AI初创公司的先例，可能引发关于政府角色与市场公平性的广泛讨论。同时，这也反映出AI行业正从技术竞赛转向更深层的政企利益绑定，尤其是在国家战略层面。",
+      "snark": "入股OpenAI？那能不能给每个纳税人发点ChatGPT Plus优惠券？"
+    },
+    {
+      "id": 7,
+      "cat": "strategy",
+      "title": "印第安纳州谢尔比维尔市长称只有住“破房子”的人才反对数据中心建设",
+      "title_en": "The mayor of Shelbyville, Indiana, says only people who live in ‘shitty houses’ oppose data center",
+      "source": "The Verge AI",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/944984/shelbyville-indiana-mayor-shitty-houses-data-center",
+      "time": "9小时前",
+      "published": "2026-06-06T15:05:00+00:00",
+      "summary": "围绕一座价值20亿美元的数据中心选址问题，印第安纳州谢尔比维尔市爆发激烈政治争议。市长Scott Furgeson在公开场合被拍到称，那些在自家草坪上插“反对数据中心”标牌的人，都是住在“破房子”里的居民。此言一出立即引发舆论哗然，反对者指责市长傲慢且不尊重市民意见。数据中心项目本应为当地带来就业和税收，但选址争议、环境影响和社区权益问题使其成为政治焦点。该事件也折射出AI基础设施扩张过程中，地方政府与居民之间日益尖锐的利益冲突。",
+      "snark": "市长：你们反对数据中心？那是因为你们房子不够好。"
+    },
+    {
+      "id": 8,
+      "cat": "tool",
+      "title": "Meta用AI生成自己的点击诱饵新闻推送，内容全由AI编造",
+      "title_en": "Meta made its own AI-generated clickbait news feed",
+      "source": "The Verge AI",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/944235/meta-app-ai-clickbait-articles",
+      "time": "10小时前",
+      "published": "2026-06-06T14:00:00+00:00",
+      "summary": "Meta在其独立的AI应用中新增了“为你推荐”板块，该板块展示的新闻故事从标题、配图到正文全部由AI生成，风格与常见的点击诱饵文章如出一辙。这意味着Facebook平台上原本充斥的第三方垃圾内容，现在由Meta自己用AI批量制造。尽管Meta声称这些内容旨在提供娱乐和消遣，但批评者指出，这种做法不仅模糊了真实信息与虚构内容的界限，还可能进一步加剧信息污染和用户信任危机。Meta此举被解读为通过低成本生成高互动内容来提升用户留存，但其伦理风险不容忽视。",
+      "snark": "以前是别人用AI造谣，现在Meta亲自下场造谣，效率翻倍。"
+    },
+    {
+      "id": 9,
+      "cat": "strategy",
+      "title": "新Siri即将再次登场，苹果AI落后局面或迎来转机",
+      "title_en": "Here comes new Siri again",
+      "source": "The Verge AI",
+      "url": "https://www.theverge.com/tech/944245/apple-wwdc-2026-ai-siri-gemini",
+      "time": "12小时前",
+      "published": "2026-06-06T12:00:00+00:00",
+      "summary": "在即将到来的WWDC 2026上，苹果预计将再次向公众展示“新Siri”。过去几年苹果在AI领域明显落后于谷歌、微软等对手，但分析认为，后发优势或许能让苹果避开一些早期陷阱。新Siri将基于更先进的端侧模型，强调隐私保护和离线能力，并可能与谷歌Gemini等第三方模型进行整合。苹果的策略是不过度依赖云端，而是将AI能力深度嵌入操作系统，提供更自然、更个性化的体验。不过，鉴于苹果此前多次预告Siri大更新但实际体验并未显著提升，外界对新Siri的期待中仍夹杂着不少怀疑。",
+      "snark": "新Siri：我又来了，我装的跟上次不一样。"
+    },
+    {
+      "id": 10,
+      "cat": "tool",
+      "title": "月之暗面发布Kimi Code CLI：基于TypeScript的终端AI编程代理",
+      "title_en": "Moonshot AI Releases Kimi Code CLI: A Terminal AI Coding Agent Built in TypeScript for Next-Gen Agents",
+      "source": "MarkTechPost",
+      "url": "https://www.marktechpost.com/2026/06/06/moonshot-ai-releases-kimi-code-cli-a-terminal-ai-coding-agent-built-in-typescript-for-next-gen-agents/",
+      "time": "14小时前",
+      "published": "2026-06-06T09:11:08+00:00",
+      "summary": "月之暗面（Moonshot AI）正式开源Kimi Code CLI，一个基于TypeScript构建的终端AI编程代理。该工具支持子代理架构和MCP（模型上下文协议）配置，能够在终端中直接理解自然语言指令，并自动完成代码编写、调试、重构等任务。Kimi Code CLI的设计目标是成为下一代AI开发代理，通过将大语言模型与命令行工具深度集成，提升开发者的编程效率。其开源特性允许社区贡献插件和扩展，有望在AI编程工具领域形成新的生态。月之暗面此举也表明中国AI公司正在积极布局开发者工具赛道，与GitHub Copilot等产品展开竞争。",
+      "snark": "Kimi Code CLI：写代码比Kimi聊天机器人靠谱，至少不会乱推荐电影。"
+    },
+    {
+      "id": 11,
+      "cat": "model",
+      "title": "英伟达发布Nemotron 3.5 ASR：6亿参数流式语音模型，实时转录40种语言",
+      "title_en": "NVIDIA Releases Nemotron 3.5 ASR: A 600M-Parameter Cache-Aware Streaming Model Transcribing 40 Language-Locales in Real Time",
+      "source": "MarkTechPost",
+      "url": "https://www.marktechpost.com/2026/06/06/nvidia-releases-nemotron-3-5-asr-a-600m-parameter-cache-aware-streaming-model-transcribing-40-language-locales-in-real-time/",
+      "time": "16小时前",
+      "published": "2026-06-06T07:55:40+00:00",
+      "summary": "英伟达正式推出Nemotron 3.5 ASR，一个仅6亿参数的流式自动语音识别模型，支持从单一检查点实时转录40种语言和地区变体。该模型采用了缓存感知（cache-aware）架构，能够在流式输入场景下保持低延迟和高准确率，特别适用于实时字幕、语音助手和多语言会议转录等应用。Nemotron 3.5 ASR的参数量远小于同类竞品，却实现了接近甚至超越更大模型的识别性能，体现了英伟达在模型压缩和高效推理方面的技术积累。该模型现已通过NVIDIA NeMo框架开源，供开发者和企业免费使用。",
+      "snark": "6亿参数就能听懂40种语言，我6亿脑细胞连英语四级都过不了。"
+    },
+    {
+      "id": 12,
+      "cat": "strategy",
+      "title": "豆包付费后月活减少610万，专家称中国免费AI时代远未结束",
+      "title_en": "9点1氪｜豆包推出付费后月活减少610万；Anthropic呼吁全球放缓AI开发，警告AI“自我改进”风险；罗永浩卸任锤子软件公司执行董事",
+      "source": "36氪",
+      "url": "https://36kr.com/p/3840996342073604?f=rss",
+      "time": "22小时前",
+      "published": "2026-06-06T01:07:19+00:00",
+      "summary": "据全球人工智能市场追踪机构Aicpb.com发布的数据，字节跳动旗下AI应用豆包在推出订阅付费选项后，5月份月活跃用户（MAU）骤降610万，创下自2023年上线以来的最大单月跌幅。Aicpb.com创始人李邦竹指出，中国的免费AI服务时代还远未结束，豆包的商业化可能为时过早。分析人士认为，字节跳动过早将盈利模式商业化，可能使其在中国竞争激烈的消费级AI市场中失去用户优势。尽管付费模式有助于提升营收，但在用户习惯尚未成熟的阶段，此举可能适得其反。",
+      "snark": "豆包：我收费了。用户：那我走了。"
+    }
+  ],
+  "stats": {
+    "total": 12,
+    "model_count": 1,
+    "strategy_count": 5,
+    "tool_count": 4,
+    "policy_count": 2
+  }
+}

@@ -1,0 +1,167 @@
+{
+  "date": "2026-11-10",
+  "generated_at": "2026-11-10T08:03:20.125450+08:00",
+  "highlight": "英伟达CEO黄仁勋深陷间谍丑闻，Anthropic发布新模型，苹果推出AI使用包。",
+  "fun": {
+    "lucky": "Claude Fable 5.2",
+    "advice": "宜：专注跑分刷榜；忌：卷入高管八卦。",
+    "joke": "为什么AI程序员从不吵架？因为他们的争论都在栈里，一压就平。"
+  },
+  "articles": [
+    {
+      "id": 1,
+      "cat": "strategy",
+      "title": "中国能从黄仁勋身上得到什么？",
+      "title_en": "What could China get from Jensen Huang?",
+      "source": "The Verge AI",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/1030328/what-could-china-get-from-jensen-huang",
+      "time": "11分钟前",
+      "published": "2026-11-09T23:51:58+00:00",
+      "summary": "The Verge 发文探讨英伟达首席执行官黄仁勋在当下人工智能格局中的巨大影响力。文章指出，英伟达的芯片是美国先进人工智能技术发展的基石，多年来需求持续超过供应。英伟达同时也是众多新兴人工智能企业的重要投资者。文章围绕黄仁勋近期涉及的中国相关争议，分析中国方面可能从这位芯片巨头掌门人身上获取哪些信息或利益，包括技术供应链依赖、投资关系以及地缘政治博弈中的筹码。报道强调，英伟达在全球人工智能算力市场的垄断地位使其成为中美科技竞争的关键节点，而黄仁勋的个人行为与公司战略正受到更严格的审视。",
+      "snark": "黄老板的皮衣再亮，也照不亮间谍疑云。"
+    },
+    {
+      "id": 2,
+      "cat": "policy",
+      "title": "特朗普称他对黄仁勋事件的了解",
+      "title_en": "Here’s what Trump said he knew about Jensen Huang",
+      "source": "The Verge AI",
+      "url": "https://www.theverge.com/tech/1030446/trump-jensen-huang-press-conference",
+      "time": "15分钟前",
+      "published": "2026-11-09T23:47:46+00:00",
+      "summary": "美国总统特朗普在白宫新闻发布会上回应了关于英伟达首席执行官黄仁勋与一名疑似中国间谍有婚外情的问题。黄仁勋于上周末承认对妻子“不忠”，英伟达公司已就此展开调查。特朗普在简报会上被多次问及他对该事件的知晓程度，其回答引发媒体关注。报道指出，这一丑闻正值美中科技竞争敏感时期，涉及英伟达对华芯片出口管制等议题。白宫的回应被解读为试图与事件保持距离，同时强调国家安全审查机制的重要性。事件持续发酵，已影响英伟达股价与公司声誉。",
+      "snark": "总统知道的可能比黄仁勋老婆还少。"
+    },
+    {
+      "id": 3,
+      "cat": "strategy",
+      "title": "黄仁勋据报一年前聘请擅长处理名人性丑闻的公关公司",
+      "title_en": "Jensen Huang reportedly engaged a PR firm with a history of handling  high-profile sex scandals a year ago",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/11/09/jensen-huang-reportedly-engaged-a-pr-firm-with-a-history-of-handling-high-profile-sex-scandals-a-year-ago/",
+      "time": "34分钟前",
+      "published": "2026-11-09T23:28:37+00:00",
+      "summary": "据《连线》杂志报道，英伟达首席执行官黄仁勋在2025年10月《纽约时报》报道其与美格速公司高管黄爱丽丝的商业往来后不久，便聘请了一家曾处理过多起高知名度性丑闻的公关公司。该公关公司以危机管理著称，曾为多位陷入性丑闻的名人提供咨询服务。报道称，这一举动表明黄仁勋团队早在丑闻公开前就已着手准备应对策略。英伟达方面尚未对此置评。此事进一步引发外界对黄仁勋与黄爱丽丝关系性质的猜测，以及公司治理透明度的质疑。",
+      "snark": "公关公司：这锅我们熟，但芯片不熟。"
+    },
+    {
+      "id": 4,
+      "cat": "policy",
+      "title": "关于英伟达针对CEO黄仁勋的间谍丑闻，目前已知的一切",
+      "title_en": "Everything we know so far about the Nvidia spy scandal targeting CEO Jensen Huang",
+      "source": "The Verge AI",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/1030422/nvidia-jensen-huang-ai-china-alice-huang",
+      "time": "55分钟前",
+      "published": "2026-11-09T23:07:59+00:00",
+      "summary": "The Verge 汇总了英伟达首席执行官黄仁勋承认与美格速公司高管黄爱丽丝有婚外情后引发的系列事件。黄仁勋已承认此事，英伟达董事会启动调查，全球范围内引发激烈讨论。最新报道指出，自去年以来，美国情报报告已将黄爱丽丝（与黄仁勋无亲属关系）识别为疑似中国间谍。事件涉及国家安全、公司治理和高管个人行为等多重层面。英伟达股价应声下跌，投资者担忧此事可能影响公司与中国市场的业务往来及美国政府出口许可。黄仁勋已取消多个公开活动，包括ElevenLabs峰会和Anthropic活动。",
+      "snark": "芯片教父的私生活比GPU还热。"
+    },
+    {
+      "id": 5,
+      "cat": "strategy",
+      "title": "做空机构在丑闻爆发六个月前就标记了英伟达CEO与疑似中国间谍的关系",
+      "title_en": "A short seller flagged Nvidia CEO’s ties to a suspected Chinese spy six months before the scandal",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/11/09/a-short-seller-flagged-nvidia-ceos-ties-to-a-suspected-chinese-spy-six-months-before-the-scandal/",
+      "time": "1小时前",
+      "published": "2026-11-09T22:46:09+00:00",
+      "summary": "据TechCrunch报道，在英伟达间谍丑闻爆发六个月前，做空机构Culper Research就已质疑黄仁勋与中国高管黄爱丽丝异常密切的关系。该机构当时发布报告，对黄仁勋与黄爱丽丝的商业往来提出疑问，但未引起广泛关注。如今随着丑闻公开，Culper Research的先见之明受到市场关注。报道称，做空机构通常会对上市公司高管的人际关系进行深入调查，此次事件凸显了华尔街对英伟达治理风险的担忧。英伟达股价在丑闻曝光后下跌超过4%，做空者可能从中获利。",
+      "snark": "做空机构：我们只是提前看了剧本。"
+    },
+    {
+      "id": 6,
+      "cat": "policy",
+      "title": "起诉英伟达的竞赛开始了",
+      "title_en": "The race is on to sue Nvidia",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/11/09/the-race-is-on-to-sue-nvidia/",
+      "time": "1小时前",
+      "published": "2026-11-09T22:23:42+00:00",
+      "summary": "英伟达董事会宣布调查首席执行官黄仁勋与疑似中国间谍的关系后，公司股价下跌超过4%。一位证券法专家指出，英伟达此前坚称一切“正常”的表态可能演变成代价高昂的法律问题。报道称，多家律师事务所已开始征集投资者，准备发起证券集体诉讼，指控英伟达在信息披露方面存在误导。投资者可能主张，公司早已知悉黄仁勋与黄爱丽丝的关系风险，却未及时向市场披露。此事件可能成为科技行业高管行为引发股东诉讼的又一典型案例，法律费用和声誉损失难以估量。",
+      "snark": "律师们比GPU还快，已经排队了。"
+    },
+    {
+      "id": 7,
+      "cat": "tool",
+      "title": "一个萨姆·奥特曼模仿秀提供了关于内存管理的有趣教训",
+      "title_en": "A Sam Altman parody offers an amusing lesson in memory management",
+      "source": "Ars Technica",
+      "url": "https://arstechnica.com/gadgets/2026/11/a-sam-altman-parody-offers-an-amusing-lesson-in-memory-management/",
+      "time": "3小时前",
+      "published": "2026-11-09T20:49:09+00:00",
+      "summary": "Ars Technica 报道了一个以OpenAI首席执行官萨姆·奥特曼为原型的模仿项目，该项目意外成为内存管理的教学案例。文章称，开发者通过模仿奥特曼的公开言论和风格，构建了一个演示应用，其中涉及内存分配与释放的技术细节。报道验证了该项目中展示的内存数值是真实的，且未向OpenAI发送任何邮件。该模仿秀以幽默方式展示了程序运行时内存使用情况，提醒开发者在构建AI应用时注意资源管理。文章认为，这种寓教于乐的方式有助于普及内存优化知识，尤其对初学者理解AI工作负载的资源消耗有帮助。",
+      "snark": "奥特曼被玩坏了，但内存没泄漏。"
+    },
+    {
+      "id": 8,
+      "cat": "strategy",
+      "title": "黄仁勋因英伟达争议退出ElevenLabs峰会",
+      "title_en": "Jensen Huang pulls out of ElevenLabs Summit amid Nvidia controversy",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/11/09/jensen-huang-pulls-out-of-elevenlabs-summit-amid-nvidia-controversy/",
+      "time": "3小时前",
+      "published": "2026-11-09T20:09:06+00:00",
+      "summary": "据TechCrunch报道，英伟达首席执行官黄仁勋因公司间谍丑闻持续发酵，取消了在ElevenLabs峰会上的演讲。此前，他也已退出Anthropic的一场活动。报道称，黄仁勋原定在ElevenLabs峰会上发表主题演讲，但主办方在活动开始前收到通知称其无法出席。这是黄仁勋近期第二次公开活动被取消，显示其正试图降低曝光度以应对危机。英伟达方面未说明取消原因，但外界普遍认为与黄仁勋承认婚外情及涉嫌中国间谍调查有关。事件已影响英伟达与多家AI初创公司的合作关系。",
+      "snark": "峰会少了大佬，多了八卦。"
+    },
+    {
+      "id": 9,
+      "cat": "model",
+      "title": "Claude Fable 5.2在Artificial Analysis上得分65，迄今最高",
+      "title_en": "Claude Fable 5.2 Scores 65 on Artificial Analysis, Highest So Far",
+      "source": "Hacker News",
+      "url": "https://artificialanalysis.ai/models/claude-fable-5-2",
+      "time": "3小时前",
+      "published": "2026-11-09T20:04:55+00:00",
+      "summary": "据Hacker News报道，Anthropic的Claude Fable 5.2模型在Artificial Analysis评测中获得65分，创下该榜单迄今最高分。Artificial Analysis是一个综合评估AI模型能力的独立平台，涵盖推理、编码、数学等多个维度。Claude Fable 5.2的高分表明其在复杂任务处理上表现优异，超越了此前领先的模型。该结果引发社区热议，评论数达162条，讨论集中在模型架构改进、训练数据质量以及评测方法的公平性。有开发者指出，高分并不完全代表实际应用体验，但无疑巩固了Anthropic在前沿模型竞争中的地位。",
+      "snark": "跑分第一，但别忘了问它会不会撒谎。"
+    },
+    {
+      "id": 10,
+      "cat": "model",
+      "title": "Anthropic在RSI担忧中发布新Mythos和Fable模型",
+      "title_en": "Anthropic releases new Mythos and Fable models amid RSI concerns",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/11/09/anthropic-releases-new-mythos-and-fable-models-amid-rsi-concerns/",
+      "time": "4小时前",
+      "published": "2026-11-09T19:24:51+00:00",
+      "summary": "Anthropic宣布推出Claude Mythos 5.2和Claude Fable 5.2两款新模型，称其在编码、推理和视觉方面均有提升，并能更清晰地与用户沟通。公司表示新模型旨在应对“艰巨”的技术挑战，输出速度比5.1版本更快。此次发布正值业界对递归自我改进（RSI）担忧加剧之际，即AI系统可能自主提升智能水平。Anthropic强调新模型在安全性和可控性方面做了额外投入，但未详细说明具体措施。分析认为，Anthropic试图在性能竞赛与安全叙事之间保持平衡，以应对竞争对手和监管机构的双重压力。",
+      "snark": "RSI来了，Anthropic说别怕，我们更会说话。"
+    },
+    {
+      "id": 11,
+      "cat": "tool",
+      "title": "苹果50美元智能使用包扩展部分AI功能访问",
+      "title_en": "Apple’s $50 Intelligence Usage Packs extend access to some AI features",
+      "source": "The Verge AI",
+      "url": "https://www.theverge.com/tech/1030084/apple-intelligence-usage-packs-ai-features-creator-studio-logic-pro",
+      "time": "4小时前",
+      "published": "2026-11-09T19:09:58+00:00",
+      "summary": "苹果公司在9月初发布支持文章，说明部分Apple Intelligence功能的使用限制后，更新了Logic Pro应用，新增“购买更多使用量”选项，一次性购买价格为49.99美元。该应用内置AI助手，可执行诸如“ stems”分离等任务。用户购买使用包后可延长AI功能的访问权限。此举表明苹果正在探索AI功能的商业化模式，对高负载AI任务设置用量门槛。分析认为，苹果可能将类似模式推广至更多专业应用，以平衡AI服务成本与用户体验。目前尚不清楚免费额度具体限制及使用包的有效期限。",
+      "snark": "苹果连AI都要卖DLC，下次是不是要抽卡？"
+    },
+    {
+      "id": 12,
+      "cat": "model",
+      "title": "Anthropic发布全新Claude Fable和Mythos 5.2模型",
+      "title_en": "Anthropic launches new Claude Fable and Mythos 5.2 models",
+      "source": "The Verge AI",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/1030005/anthropic-claude-fable-mythos-5-2",
+      "time": "5小时前",
+      "published": "2026-11-09T19:00:00+00:00",
+      "summary": "Anthropic正式发布Claude Fable 5.2和Claude Mythos 5.2两款新模型，称其专为应对“艰巨”技术挑战设计。公司宣称新模型在编码、推理和视觉能力上均有提升，且生成输出速度比5.1版本更快。两款模型分别面向不同应用场景：Fable侧重创意与通用任务，Mythos侧重复杂推理与专业领域。Anthropic未披露具体基准测试分数，但强调在安全对齐方面持续投入。此次发布是Anthropic在激烈模型竞赛中的最新动作，旨在与OpenAI、谷歌等对手争夺企业客户和开发者生态。市场关注新模型的实际表现及定价策略。",
+      "snark": "名字越来越神话，但愿别只是神话。",
+      "multiSource": [
+        "The Verge",
+        "The Verge AI"
+      ]
+    }
+  ],
+  "stats": {
+    "total": 12,
+    "model_count": 3,
+    "strategy_count": 4,
+    "tool_count": 2,
+    "policy_count": 3
+  }
+}

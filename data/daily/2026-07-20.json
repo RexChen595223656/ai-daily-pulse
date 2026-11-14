@@ -1,0 +1,163 @@
+{
+  "date": "2026-07-20",
+  "generated_at": "2026-07-20T08:13:06.075121+08:00",
+  "highlight": "阿里巴巴发布2.4万亿参数多模态模型Qwen3.8-Max，中国开源MoE模型竞争白热化，Kimi K3、DeepSeek V4 Pro、GLM-5.2同台对决。",
+  "fun": {
+    "lucky": "Qwen3.8-Max",
+    "advice": "宜：大胆宣称‘仅次于Fable 5’\n忌：放出真实基准测试数据",
+    "joke": "AI模型发布会就像盲盒——参数越爆，细节越少。"
+  },
+  "articles": [
+    {
+      "id": 1,
+      "cat": "model",
+      "title": "Feyn AI发布SQRL：先查数据库再写查询的文本转SQL模型家族",
+      "title_en": "Feyn AI Releases SQRL, a Text-to-SQL Model Family That Inspects the Database Before Writing a Query",
+      "source": "MarkTechPost",
+      "url": "https://www.marktechpost.com/2026/07/19/feyn-ai-releases-sqrl-a-text-to-sql-model-family-that-inspects-the-database-before-writing-a-query/",
+      "time": "1小时前",
+      "published": "2026-07-19T22:20:23+00:00",
+      "summary": "Feyn Labs正式发布SQRL系列模型，这是一族文本转SQL模型，其核心创新在于执行查询前会通过只读探针对数据库进行预检查。旗舰版SQRL-35B-A3B在BIRD Dev基准测试上达到70.6%的执行准确率，以4.6个百分点的优势击败Claude Opus。该模型还通过知识蒸馏技术，提供了可自托管的4B和9B参数版本检查点，方便开发者在本地部署。SQRL通过预检机制有效避免了生成无效或低效SQL语句的问题，显著提升了复杂数据库场景下的查询可靠性。",
+      "snark": "数据库：你礼貌吗？先偷看再写答案。"
+    },
+    {
+      "id": 2,
+      "cat": "model",
+      "title": "阿里巴巴预览Qwen3.8-Max：2.4万亿参数多模态模型发布",
+      "title_en": "Alibaba Previews Qwen3.8-Max, a 2.4 Trillion-Parameter Multimodal Model, Days After Moonshot’s Kimi K3 Open-Weight Launch",
+      "source": "MarkTechPost",
+      "url": "https://www.marktechpost.com/2026/07/19/alibaba-previews-qwen3-8-max-a-2-4-trillion-parameter-multimodal-model-days-after-moonshots-kimi-k3-open-weight-launch/",
+      "time": "2小时前",
+      "published": "2026-07-19T21:42:50+00:00",
+      "summary": "阿里巴巴Qwen团队发布了Qwen3.8-Max-Preview预览版，这是一款拥有2.4万亿参数的混合专家模型，自称“仅次于Fable 5”。该模型现已在Token Plan、Qoder和QoderWork平台上以标准定价10%的折扣提供预览。然而，预览版并未公开任何基准测试数据表、模型卡、许可证信息、每Token定价或激活参数数量等关键细节。此举发生在Moonshot的Kimi K3开放权重发布仅数天后，显示中国AI厂商在超大模型领域的竞争日趋激烈。",
+      "snark": "参数2.4万亿，基准测试0个，这波营销我给满分。"
+    },
+    {
+      "id": 3,
+      "cat": "strategy",
+      "title": "黄仁勋日本之行后：英伟达与日本科技生态达成全面合作",
+      "title_en": "What to watch for after Jensen Huang’s Japan visit",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/07/19/what-to-watch-for-after-jensen-huangs-japan-visit/",
+      "time": "2小时前",
+      "published": "2026-07-19T21:16:07+00:00",
+      "summary": "英伟达CEO黄仁勋结束日本访问后，留下了覆盖日本整个科技生态系统的多项合作协议。这些协议涉及从半导体制造到AI基础设施建设的多个层面，标志着英伟达正在深化与日本科技巨头的战略绑定。日本作为全球半导体设备和材料的重要供应国，此次合作将有助于英伟达巩固其供应链，并推动日本本土AI算力基础设施建设。具体合作细节尚未完全公开，但预计将包括GPU供应、AI数据中心共建以及人才培养等多个方面。",
+      "snark": "黄老板去日本不只是吃寿司，顺便把整个国家的GPU预算都收了。"
+    },
+    {
+      "id": 4,
+      "cat": "policy",
+      "title": "苹果诉讼会否颠覆OpenAI的硬件计划？",
+      "title_en": "Can an Apple lawsuit derail OpenAI’s hardware plans?",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/07/19/can-an-apple-lawsuit-derail-openais-hardware-plans/",
+      "time": "4小时前",
+      "published": "2026-07-19T19:24:45+00:00",
+      "summary": "在最新一期Equity播客节目中，嘉宾们讨论了苹果对OpenAI提起的诉讼是否会影响后者备受关注的硬件研发和上市计划。OpenAI此前多次传出正在开发自有硬件设备，并计划进行IPO。苹果的诉讼指控可能涉及人才竞业、技术专利或商业模式等方面。法律专家认为，如果诉讼涉及核心技术和关键人才，可能会对OpenAI的硬件路线图和融资节奏造成实质性阻碍。目前OpenAI尚未就诉讼影响发表正式声明。",
+      "snark": "苹果：想造硬件？先问问我的律师团队同不同意。"
+    },
+    {
+      "id": 5,
+      "cat": "tool",
+      "title": "我讨厌我居然不讨厌这首用Suno做的歌",
+      "title_en": "I hate that I don’t hate this song made with Suno",
+      "source": "The Verge AI",
+      "url": "https://www.theverge.com/entertainment/967678/1010benja-semiramis-dream-suno-ai-music",
+      "time": "6小时前",
+      "published": "2026-07-19T17:35:54+00:00",
+      "summary": "The Verge作者承认自己一贯对AI生成音乐持批判态度，尤其认为Suno的输出无聊至极。但当他听到一首名为《Semiramis Dream》的歌曲时，却发现自己无法讨厌它。这首歌由音乐人1010benja使用Suno创作，突破了作者对AI音乐的刻板印象。作者表示这引发了他对AI在音乐创作中角色的重新思考：或许问题不在于AI本身，而在于如何使用它。这首歌证明了当人类创意与AI工具恰当结合时，可能产生令人意外的艺术效果。",
+      "snark": "Suno终于做出了一首让乐评人找不到理由骂的歌，虽然他们还是会硬找。"
+    },
+    {
+      "id": 6,
+      "cat": "policy",
+      "title": "《奥德赛》导演克里斯托弗·诺兰称AI是明显的‘特洛伊木马’",
+      "title_en": "‘Odyssey’ director Christopher Nolan calls AI an obvious ‘Trojan horse’",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/07/19/odyssey-director-christopher-nolan-calls-ai-an-obvious-trojan-horse/",
+      "time": "9小时前",
+      "published": "2026-07-19T14:52:08+00:00",
+      "summary": "著名导演克里斯托弗·诺兰在谈及人工智能时，将其比喻为“特洛伊木马”，并引用名言“每个人都知道希腊人在里面”。诺兰认为AI技术表面上带来便利和创新，但内部可能隐藏着未被充分认知的风险和隐患。他暗示科技公司在推广AI时往往淡化其潜在负面影响，就像特洛伊人忽视了木马内部的危险一样。诺兰以其对时间、记忆和技术伦理的深刻思考著称，此番言论引发了业内对AI透明度和社会影响的再次讨论。",
+      "snark": "诺兰：AI是特洛伊木马。硅谷：那我们也得先把它拉进城！"
+    },
+    {
+      "id": 7,
+      "cat": "strategy",
+      "title": "非营利组织Current AI正致力于构建免费开放的AI万维网",
+      "title_en": "Nonprofit Current AI is racing to build the World Wide Web of AI, free for all",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/07/19/nonprofit-current-ai-is-racing-to-build-the-world-wide-web-of-ai-free-for-all/",
+      "time": "10小时前",
+      "published": "2026-07-19T14:00:00+00:00",
+      "summary": "非营利组织Current AI正在推进一项雄心勃勃的计划：构建一个不落下任何文化的、免费开放的AI基础设施，类似于万维网之于互联网。该组织在跨设备、AI对话等多个领域取得了显著进展，其核心理念是确保AI技术不被少数巨头垄断，而是成为全人类的公共资源。Current AI强调文化包容性，致力于让不同语言、不同背景的用户都能平等受益于AI技术。这一模式与当前主流的商业化AI路径形成鲜明对比，引发了关于AI公共品属性的广泛讨论。",
+      "snark": "Current AI：我们要做AI界的万维网。巨头们：好的，我们做AI界的网景。"
+    },
+    {
+      "id": 8,
+      "cat": "tool",
+      "title": "安顿发布生命预警表标准与七诊合参中医机器人",
+      "title_en": "科氪 | 从生命预警到七诊合参，安顿“双核首发”的技术密码",
+      "source": "36氪",
+      "url": "https://36kr.com/p/3902428274427525?f=rss",
+      "time": "13小时前",
+      "published": "2026-07-19T10:35:30+00:00",
+      "summary": "在2026世界人工智能大会上，安顿健康发布了两项首发成果：中国首个生命预警表标准，以及行业首个七诊合参中医机器人。其核心技术是自研的“天回·AI脉诊算法”，首次将中医24种脉象细分为120余个可量化特征点，实现了从经验判断到数据驱动的范式转换。算法之上构建了三重置信体系：天回中医药大模型、西医临床诊断模型和个人专属健康模型协同评估。安顿生命预警表可每日采集用户健康数据，结合AI分析实现疾病早期预警，覆盖从感知层到算法层再到输出层的完整技术链路。",
+      "snark": "中医AI：望闻问切，现在加个‘算力’变成八诊了。"
+    },
+    {
+      "id": 9,
+      "cat": "tool",
+      "title": "Perplexity AI发布WANDR：评估研究型AI Agent的开放基准测试",
+      "title_en": "Perplexity AI Releases WANDR: An Open Benchmark Evaluating Research Agents That Must Search Wide And Deep",
+      "source": "MarkTechPost",
+      "url": "https://www.marktechpost.com/2026/07/19/perplexity-ai-releases-wandr-an-open-benchmark-evaluating-research-agents-that-must-search-wide-and-deep/",
+      "time": "16小时前",
+      "published": "2026-07-19T07:19:14+00:00",
+      "summary": "Perplexity AI推出WANDR，这是一个包含500个证据密集型任务的开放基准测试和评估工具，专门用于测试研究型AI Agent的能力。该基准要求Agent不仅要发现大量符合条件的实体，还要为每个实体提供可引用、可重新验证的证据，从而评估其在“广度”和“深度”两个维度上的搜索能力。在测试中，Perplexity自家的Search as Code方案以0.363的软F1分数和0.133的硬F1分数领先。WANDR的发布为研究型AI Agent的标准化评估提供了重要工具，填补了该领域的空白。",
+      "snark": "WANDR：测的是AI的搜索广度，暴露的是人类标注员的发际线。"
+    },
+    {
+      "id": 10,
+      "cat": "tool",
+      "title": "10个开源无代码AI平台：构建大模型应用、RAG系统和AI Agent",
+      "title_en": "10 Open-Source No-Code AI Platforms for Building LLM Apps, RAG Systems, and AI Agents",
+      "source": "MarkTechPost",
+      "url": "https://www.marktechpost.com/2026/07/18/10-open-source-no-code-ai-platforms-for-building-llm-apps-rag-systems-and-ai-agents/",
+      "time": "18小时前",
+      "published": "2026-07-19T05:53:19+00:00",
+      "summary": "本文盘点了10个开源的无代码和低代码AI平台，用于构建大模型应用、RAG系统和AI Agent。这些平台将检索、Agent和工作流等功能转化为可视化工具和自然语言界面，使非技术用户也能轻松开发AI应用。每个平台都附带了已验证的许可证、代码仓库和最佳适用场景说明。覆盖的平台包括从拖拽式工作流编辑器到自然语言编程环境等多种类型，大幅降低了AI应用开发的门槛。对于希望快速原型验证或缺乏专业AI工程师的团队来说，这些工具提供了极具价值的入门路径。",
+      "snark": "无代码AI平台：让不会写代码的人也能造出同样不会写代码的AI。"
+    },
+    {
+      "id": 11,
+      "cat": "model",
+      "title": "Kimi K3 vs DeepSeek V4 Pro vs GLM-5.2：开源万亿参数MoE模型横向对比",
+      "title_en": "Kimi K3 vs DeepSeek V4 Pro vs GLM-5.2: Open Trillion-Scale MoE Models Compared on Benchmarks, License, and Serving Cost",
+      "source": "MarkTechPost",
+      "url": "https://www.marktechpost.com/2026/07/18/kimi-k3-vs-deepseek-v4-pro-vs-glm-5-2-open-trillion-scale-moe-models-compared-on-benchmarks-license-and-serving-cost/",
+      "time": "22小时前",
+      "published": "2026-07-19T01:41:33+00:00",
+      "summary": "本文对三款开源万亿参数级混合专家模型进行了全面对比：Moonshot的Kimi K3、DeepSeek V4 Pro和GLM-5.2。比较维度包括基准测试成绩、许可证类型（MIT vs 修改版MIT）以及实际服务成本。这三款模型均代表了中国开源大模型的最新水平，采用MoE架构在保持高性能的同时控制推理成本。文章详细分析了各自在数学推理、代码生成、多语言理解等任务上的表现差异，并评估了不同许可证对商业使用的影响。结果显示三款模型各有千秋，选择哪一款取决于具体应用场景和合规要求。",
+      "snark": "三款万亿模型打架，最后赢的是显卡厂商。"
+    },
+    {
+      "id": 12,
+      "cat": "tool",
+      "title": "使用NVIDIA NeMo AutoModel在单GPU上微调Qwen3：完整Colab工作流教程",
+      "title_en": "Fine-Tuning Qwen3 with LoRA Using NVIDIA NeMo AutoModel: A Complete Single-GPU Google Colab Workflow Tutorial",
+      "source": "MarkTechPost",
+      "url": "https://www.marktechpost.com/2026/07/18/fine-tuning-qwen3-with-lora-using-nvidia-nemo-automodel-a-complete-single-gpu-google-colab-workflow-tutorial/",
+      "time": "23小时前",
+      "published": "2026-07-19T01:08:52+00:00",
+      "summary": "本教程展示了一个完整的端到端工作流：在Google Colab中使用单张GPU，通过NVIDIA NeMo AutoModel对Qwen3-0.6B模型进行LoRA微调。步骤包括：验证CUDA硬件和精度支持、从源码安装NeMo AutoModel、加载官方Qwen3-0.6B的LoRA配方，然后根据环境调整精度、批次大小、检查点保存和学习率调度器设置。该教程为资源有限的开发者提供了在免费云环境中实践大模型微调的可行方案，降低了LoRA微调的技术门槛。整个过程可在单GPU环境下完成，无需昂贵的多卡集群。",
+      "snark": "单GPU微调Qwen3，Colab用户：我的免费额度还能再抢救一下。"
+    }
+  ],
+  "stats": {
+    "total": 12,
+    "model_count": 3,
+    "strategy_count": 2,
+    "tool_count": 5,
+    "policy_count": 2
+  }
+}

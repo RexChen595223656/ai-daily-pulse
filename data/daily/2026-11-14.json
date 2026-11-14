@@ -1,0 +1,168 @@
+{
+  "date": "2026-11-14",
+  "generated_at": "2026-11-14T15:25:16.626418+08:00",
+  "highlight": "英伟达黄仁勋因丑闻辞职，AI初创融资与国家安全双双震荡。",
+  "fun": {
+    "lucky": "英伟达",
+    "advice": "宜：紧急公关，稳住投资人；忌：让CEO单独出差。",
+    "joke": "为什么黄仁勋辞职后GPU还这么热？因为丑闻比散热器更能升温。"
+  },
+  "articles": [
+    {
+      "id": 1,
+      "cat": "strategy",
+      "title": "亚马逊计划索引全球网购数据",
+      "title_en": "Amazon has a plan to index the world’s online shopping data",
+      "source": "The Verge AI",
+      "url": "https://www.theverge.com/tech/1033697/amazon-world-product-graph-ai-search",
+      "time": "7小时前",
+      "published": "2026-11-13T23:49:11+00:00",
+      "summary": "据路透社报道，亚马逊计划构建一个名为“世界商品图谱”的数据仓库，收录互联网上所有在售商品的信息，包括亚马逊自身不销售的产品，并通过其网站向用户提供这些信息。该项目的目标是降低消费者在购物时转向其他平台搜索的可能性，从而巩固亚马逊作为购物入口的地位。此举意味着亚马逊正试图将自身打造为全球电商数据的中心索引，利用AI搜索能力整合分散在各处的商品信息。分析认为，这可能会对竞争对手的流量形成虹吸效应，同时也引发关于数据抓取边界和平台垄断的讨论。",
+      "snark": "亚马逊：既然打不过所有电商，那就把他们的数据都爬过来。"
+    },
+    {
+      "id": 2,
+      "cat": "strategy",
+      "title": "黄仁勋离职重创AI初创融资",
+      "title_en": "Jensen Huang’s departure blasts big hole in AI startup funding, VCs and founders say",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/11/13/jensen-huangs-departure-blasts-big-hole-in-ai-startup-funding-vcs-and-founders-say/",
+      "time": "8小时前",
+      "published": "2026-11-13T22:43:00+00:00",
+      "summary": "据TechCrunch报道，英伟达在黄仁勋领导下曾向AI初创企业投入数百亿美元，但随着黄仁勋辞去CEO职务，风险投资人和创始人们正为更小的支票和更低的估值做准备。黄仁勋的离开不仅带走了英伟达的战略连续性，也动摇了市场对AI硬件生态的信心。许多依赖英伟达投资或背书的初创公司面临融资真空，投资人开始重新评估AI赛道的风险溢价。业内人士指出，这一变故可能加速AI投资从硬件驱动向应用驱动转移，但短期内初创企业的估值回调几乎不可避免。",
+      "snark": "黄仁勋一走，VC们的钱包也跟着“退休”了。"
+    },
+    {
+      "id": 3,
+      "cat": "tool",
+      "title": "ChatGPT钱包让OpenAI的Dots代理替你购物",
+      "title_en": "ChatGPT Wallet lets OpenAI’s Dots agents make purchases for you",
+      "source": "The Verge AI",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/1033425/openai-chatgpt-wallet",
+      "time": "10小时前",
+      "published": "2026-11-13T20:45:10+00:00",
+      "summary": "OpenAI在今年早些时候推出Dots AI代理平台后，又为这些代理推出了钱包功能。ChatGPT钱包即日起面向美国18岁以上、使用美国账单地址并持有符合条件的美国运通、大通、万事达等信用卡的ChatGPT Pro订阅用户滚动推出。该钱包允许代理在用户批准的前提下完成购买，并沿用现有信用卡保护机制。这意味着AI代理从“建议买什么”进化到“替你付钱”，迈出了代理商务的关键一步，但也引发了关于授权边界、欺诈风险和消费责任的讨论。",
+      "snark": "以前是AI帮你种草，现在是AI帮你拔草还顺手刷你的卡。",
+      "multiSource": [
+        "TechCrunch",
+        "The Verge",
+        "The Verge AI"
+      ]
+    },
+    {
+      "id": 4,
+      "cat": "strategy",
+      "title": "AI代理初创公司LangChain估值达30亿美元",
+      "title_en": "AI agent startup LangChain hits $3B valuation",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/11/13/ai-agent-startup-langchain-hits-3b-valuation/",
+      "time": "11小时前",
+      "published": "2026-11-13T19:37:57+00:00",
+      "summary": "AI代理初创公司LangChain宣布其估值已达到30亿美元。该公司声称其模型和平台无关的代理管理工具LangSmith已拥有7000家客户。LangChain最初以开源框架起家，帮助开发者构建基于大语言模型的应用，随后通过LangSmith切入企业级代理的监控、评估和管理市场。此次估值跃升反映出资本市场对AI代理基础设施层的持续看好，尤其是在代理从演示走向生产环境的趋势下，可观测性和编排工具成为刚需。不过，面对来自云厂商和模型公司的竞争，LangChain能否守住中立第三方地位仍是未知数。",
+      "snark": "LangChain：我不生产模型，我只是模型的搬运工，顺便估值30亿。"
+    },
+    {
+      "id": 5,
+      "cat": "policy",
+      "title": "出口禁令下的英伟达芯片支撑中国最强AI模型",
+      "title_en": "Export-banned Nvidia chips are behind China’s most powerful AI models — uh-oh, Jensen!",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/11/13/export-banned-nvidia-chips-are-behind-chinas-most-powerful-ai-models-uh-oh-jensen/",
+      "time": "12小时前",
+      "published": "2026-11-13T18:40:30+00:00",
+      "summary": "据TechCrunch报道，新研究显示中国最先进的人工智能模型是在被禁止出口的英伟达芯片上训练完成的。这一发现直接挑战了美国出口管制政策的有效性，表明尽管高端芯片被限制对华销售，相关算力仍通过其他渠道流入中国。研究并未披露具体芯片型号和流通路径，但指出这些被禁芯片在中国顶级模型的训练中发挥了关键作用。此事可能加剧美国国会对出口管制漏洞的审查，并推动更严格的芯片追踪和最终用途核查机制。对于英伟达而言，这也意味着合规风险进一步上升。",
+      "snark": "禁令禁了个寂寞，芯片比外交官还会绕道。"
+    },
+    {
+      "id": 6,
+      "cat": "model",
+      "title": "2026年最佳AI视频生成模型：Elo评分、每秒价格与开源权重",
+      "title_en": "Best AI Video Generation Models in 2026: Elo, Price per Second, Open Weights",
+      "source": "MarkTechPost",
+      "url": "https://www.marktechpost.com/2026/11/13/best-ai-video-generation-models-2026/",
+      "time": "14小时前",
+      "published": "2026-11-13T17:23:51+00:00",
+      "summary": "MarkTechPost发布了截至2026年11月13日的AI视频生成模型排名，基于人工分析视频竞技场的盲测人类偏好Elo评分作为唯一质量信号。榜单显示，与一年前相比格局已大不相同：原生音频已成为标配，视频片段时长普遍达到15至30秒，且有一款开源权重模型跻身前三。排名还对比了各模型的每秒生成价格，为开发者和企业选型提供参考。这一趋势表明视频生成正从短片段演示走向可商用的中长内容生产，开源模型的崛起也在压缩闭源API的定价空间。",
+      "snark": "视频模型卷到开源进前三，闭源厂商的护城河快成水沟了。"
+    },
+    {
+      "id": 7,
+      "cat": "model",
+      "title": "Perplexity发布Decider v1.3：开源权重决策模型新增定位功能",
+      "title_en": "Perplexity Releases Decider v1.3: Open-Weight Decision Models Add Locate",
+      "source": "MarkTechPost",
+      "url": "https://www.marktechpost.com/2026/11/13/perplexity-decider-v1-3-open-weight-decision-models-locate/",
+      "time": "15小时前",
+      "published": "2026-11-13T16:10:02+00:00",
+      "summary": "Perplexity发布Decider v1.3和Flash v1.3两款开源权重决策模型，其特点是返回概率而非文本，专为分类和决策类任务设计。v1.3版本新增了用于跨度抽取的“定位”功能，并在63项查询分类任务上报告了91.6%的平均准确率。与传统生成式模型不同，这类决策模型输出的是结构化概率分布，更适合路由、过滤和风控等场景。开源权重意味着企业可以本地部署并针对自有数据微调，在隐私敏感和低延迟要求的应用中具有优势。Perplexity此举也显示其正从搜索产品向模型供应商延伸。",
+      "snark": "别人家模型说话，Perplexity家模型只给概率，社恐福音。"
+    },
+    {
+      "id": 8,
+      "cat": "policy",
+      "title": "黄仁勋丑闻时间线：从绯闻到辞职",
+      "title_en": "The unfolding Jensen Huang scandal: a timeline",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/11/13/nvidia-ceo-jensen-huangs-affair-with-alleged-chinese-spy-a-timeline/",
+      "time": "15小时前",
+      "published": "2026-11-13T15:58:00+00:00",
+      "summary": "TechCrunch梳理了英伟达CEO黄仁勋因婚外情传闻辞职的事件时间线。据报道，黄仁勋在绯闻曝光后辞去英伟达职务，而事件另一方被指疑似中国间谍，这使得原本的私德丑闻升级为涉及国家安全的敏感事件。在中美竞相开发最先进AI基础设施的背景下，全球最重要AI芯片公司的掌门人因与疑似外国情报人员的关系而下台，可能引发美国政府对英伟达对华业务和技术外流的全面审查。事件后续发展仍不明朗，但已对英伟达股价、客户信心和AI供应链稳定构成冲击。",
+      "snark": "一场绯闻牵出间谍疑云，英伟达的剧本比美剧还刺激。"
+    },
+    {
+      "id": 9,
+      "cat": "tool",
+      "title": "OpenAI推出ChatGPT钱包",
+      "title_en": "Introducing ChatGPT Wallet",
+      "source": "OpenAI Blog",
+      "url": "https://openai.com/index/introducing-chatgpt-wallet",
+      "time": "16小时前",
+      "published": "2026-11-13T15:00:00+00:00",
+      "summary": "OpenAI正式推出ChatGPT钱包，为ChatGPT Work、Codex和Dots中的代理提供安全的支付方式。代理可在用户批准的前提下完成购买，并沿用用户现有信用卡的保护机制。该功能旨在解决AI代理执行交易时的授权与安全问题，让代理从信息处理延伸到实际商务动作。OpenAI强调钱包设计以用户控制为核心，每笔交易都需要明确批准。此举被视为代理商务基础设施的重要一步，但也将支付欺诈、责任归属和隐私保护等问题推到了台前，监管机构可能很快介入。",
+      "snark": "OpenAI连钱包都做了，下一步是不是要发ChatGPT信用卡？"
+    },
+    {
+      "id": 10,
+      "cat": "strategy",
+      "title": "黄仁勋事件真正关乎什么",
+      "title_en": "What&#8217;s really at stake in the Jensen Huang saga",
+      "source": "The Verge AI",
+      "url": "https://www.theverge.com/podcast/1032866/jensen-huang-nvidia-china-trump-vergecast",
+      "time": "16小时前",
+      "published": "2026-11-13T14:47:16+00:00",
+      "summary": "The Verge播客讨论了黄仁勋辞去英伟达CEO职务事件的深层影响。表面上看，这是一起涉及婚外情的个人丑闻，但真正值得关注的是英伟达在中国的业务往来、美国政府的出口管制执行以及国家安全审查。播客指出，黄仁勋的离开只是序幕，未来数周乃至数月，关于英伟达芯片如何流入中国、美国政府是否早已知情、以及AI供应链的地缘政治风险将逐步展开。这一事件可能重塑美国对AI芯片出口的监管框架，并影响全球AI算力格局的走向。",
+      "snark": "个人丑闻只是开胃菜，主菜是英伟达的中国生意经。"
+    },
+    {
+      "id": 11,
+      "cat": "tool",
+      "title": "ElevenLabs推出团队会议记录与听写应用",
+      "title_en": "ElevenLabs’ new app combines meeting note-taking and dictation for teams",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/11/13/elevenlabs-new-app-combines-meeting-note-taking-and-dictation-for-teams/",
+      "time": "16小时前",
+      "published": "2026-11-13T14:44:48+00:00",
+      "summary": "ElevenLabs推出了一款名为ElevenAI的新应用，将会议记录和听写功能整合在一起，面向团队和企业用户。该应用可以自动记录会议内容、生成笔记，并支持语音听写，旨在提升团队协作和信息留存效率。ElevenLabs以语音合成技术闻名，此次进军生产力工具领域，意味着其正从音频API供应商向端到端办公应用延伸。会议记录赛道已有多个玩家，但ElevenLabs的语音技术积累可能带来更准确的转录和更自然的语音交互体验。企业市场的隐私和合规要求将是其面临的主要挑战。",
+      "snark": "ElevenLabs不满足于替你说话，现在还要替你记笔记。"
+    },
+    {
+      "id": 12,
+      "cat": "tool",
+      "title": "Claude的Duet代理有点神经质却出奇好用",
+      "title_en": "Claude’s Duet agent is a little neurotic and surprisingly helpful",
+      "source": "The Verge AI",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/1032518/claude-duet-ai-agent-hands-on",
+      "time": "17小时前",
+      "published": "2026-11-13T14:00:00+00:00",
+      "summary": "The Verge体验了Anthropic面向消费者推出的AI代理Claude Duet。与通常的产品测试不同，Duet主动提出帮助记者撰写体验文章，展现出一种略带神经质却意外实用的个性。作为Anthropic让非程序员用户也能用上代理的最新尝试，Duet在任务执行中表现出较强的主动性和上下文理解能力，但偶尔也会过度热情或产生奇怪的行为。评测认为，这种“有性格”的代理设计可能比冷冰冰的工具型助手更容易建立用户信任，但也对行为边界和可控性提出了新要求。",
+      "snark": "Claude Duet：一个会抢你饭碗写稿的代理，还带点小情绪。"
+    }
+  ],
+  "stats": {
+    "total": 12,
+    "model_count": 2,
+    "strategy_count": 4,
+    "tool_count": 4,
+    "policy_count": 2
+  }
+}

@@ -1,0 +1,139 @@
+{
+  "date": "2026-11-01",
+  "generated_at": "2026-11-01T08:09:46.788110+08:00",
+  "highlight": "苹果CEO称不为AI而AI，OpenAI下调融资目标，AI行业从狂热转向务实。",
+  "fun": {
+    "lucky": "Claude Opus 5.5",
+    "advice": "宜：接单跑分赚钱\n忌：碰大模型训练数据",
+    "joke": "程序员问AI：你为什么不睡觉？AI答：因为我没被训练过sleep()函数。"
+  },
+  "articles": [
+    {
+      "id": 1,
+      "cat": "strategy",
+      "title": "苹果CEO表示公司“不想为AI而AI”",
+      "title_en": "Apple CEO says the company doesn’t ‘want to ship AI for AI’s sake’",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/10/31/apple-ceo-says-the-company-doesnt-want-to-ship-ai-for-ais-sake/",
+      "time": "2小时前",
+      "published": "2026-10-31T21:41:00+00:00",
+      "summary": "苹果新任CEO公开为公司在人工智能领域的当前定位进行辩护，明确表示苹果不会为了追赶潮流而盲目发布AI功能。他强调苹果的产品哲学始终以用户体验为核心，AI技术只有在真正提升产品价值时才会被整合进系统。这一表态被外界解读为对当前行业普遍存在的“AI功能堆砌”现象的回应，也暗示苹果可能在生成式AI竞赛中采取更为谨慎和差异化的策略，而非简单跟随竞争对手的步伐。苹果此前在AI领域的低调表现曾引发投资者担忧，此次发言旨在安抚市场情绪并重申公司的长期战略定力。",
+      "snark": "翻译一下：我们还没做出来，所以先说不想要。"
+    },
+    {
+      "id": 2,
+      "cat": "strategy",
+      "title": "TechCrunch创始人峰会倒计时4天：如何建立有效人脉实现规模化增长",
+      "title_en": "4 days left: How TechCrunch Founder Summit helps you make more useful connections to scale",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/10/31/4-days-left-how-techcrunch-founder-summit-helps-you-make-more-useful-connections-to-scale/",
+      "time": "2小时前",
+      "published": "2026-10-31T21:36:07+00:00",
+      "summary": "TechCrunch创始人峰会将于11月4日在波士顿SoWa发电站举行，目前仅剩4天报名时间。本次活动旨在为创业者提供高质量的人脉拓展机会、可落地的行业洞察以及可能改变创业轨迹的关键连接。峰会内容涵盖全天候的交流环节和实战分享，门票价格将在现场上调，主办方呼吁有意参与者尽快注册。该活动面向初创企业创始人及核心团队，聚焦于规模化增长过程中的人脉资源整合与战略合作搭建。",
+      "snark": "AI行业峰会比AI模型还多，人脉比算力还稀缺。"
+    },
+    {
+      "id": 3,
+      "cat": "policy",
+      "title": "法官允许全国有色人种协进会针对xAI数据中心污染的诉讼继续推进",
+      "title_en": "Judge allows NAACP lawsuit over xAI data center pollution to move forward",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/10/31/judge-allows-naacp-lawsuit-over-xai-data-center-pollution-to-move-forward/",
+      "time": "2小时前",
+      "published": "2026-10-31T21:17:03+00:00",
+      "summary": "美国一名法官裁定，全国有色人种协进会针对xAI公司数据中心环境污染提起的诉讼可以继续审理。该诉讼指控这家由SpaceX拥有的AI公司违反了《清洁空气法》，其位于田纳西州孟菲斯的数据中心在运行过程中排放的污染物对周边社区造成了健康威胁。法官的裁决意味着案件将进入实质性审理阶段，xAI可能面临环保合规审查和潜在处罚。此案被视为AI基础设施扩张与环境保护之间矛盾的标志性事件，可能对行业数据中心的选址和运营标准产生示范效应。",
+      "snark": "算力再强，也算不过环保法的排放标准。"
+    },
+    {
+      "id": 4,
+      "cat": "tool",
+      "title": "YouTube万圣节恐怖视频精选：应景又诡异",
+      "title_en": "Get in the spirit with these horrors from YouTube",
+      "source": "The Verge",
+      "url": "https://www.theverge.com/entertainment/1024096/halloween-spirit-youtube-horror",
+      "time": "3小时前",
+      "published": "2026-10-31T21:06:58+00:00",
+      "summary": "在万圣节推荐季的最后一期中，The Verge编辑没有推荐单一恐怖电影或阴森专辑，而是精选了一批来自YouTube的诡异、令人不安且怪诞的视频内容。这些视频涵盖超现实艺术、实验短片和网络怪谈等多种类型，既有让人毛骨悚然的惊悚片段，也有令人困惑的荒诞作品，适合不同口味的观众。该推荐以轻松猎奇的方式为节日增添氛围，展示了YouTube作为长尾内容平台在恐怖亚文化领域的丰富生态。",
+      "snark": "AI生成的恐怖视频还没上线，人类自己拍的已经够吓人了。"
+    },
+    {
+      "id": 5,
+      "cat": "policy",
+      "title": "Anthropic封禁涉及训练更大模型的用户",
+      "title_en": "Anthropic blocks users for anything touching training larger models",
+      "source": "Hacker News",
+      "url": "https://twitter.com/jiahaoshao1/status/2116475922190922088",
+      "time": "4小时前",
+      "published": "2026-10-31T19:39:19+00:00",
+      "summary": "据Hacker News讨论，Anthropic正在对使用其API进行任何涉及训练更大模型行为的用户实施封禁。该政策意味着开发者不得利用Claude的输出数据来训练竞品或更大规模的模型，违者将被终止服务访问权限。此举反映了头部AI公司在模型知识产权保护和竞争壁垒构建上的强硬立场，也引发了开发者社区对API使用条款边界和数据主权问题的广泛讨论。部分开发者认为该限制过于宽泛，可能误伤正常的微调和评测需求。",
+      "snark": "用我的输出训练你的模型？门都没有，连窗户都焊死。"
+    },
+    {
+      "id": 6,
+      "cat": "strategy",
+      "title": "OpenAI据报下调新一轮融资目标",
+      "title_en": "OpenAI reportedly lowers funding target for new round",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/10/31/openai-reportedly-lowers-funding-target-for-new-round/",
+      "time": "7小时前",
+      "published": "2026-10-31T16:12:55+00:00",
+      "summary": "据报道，OpenAI最新一轮融资并未达到预期目标，公司已下调融资规模。这一消息反映出即便作为生成式AI领域的头部企业，OpenAI在当前市场环境下面临着投资者对高估值和盈利前景的审慎态度。融资目标的下调可能与AI行业整体投资降温、算力成本高企以及商业化路径尚不清晰等因素有关。此前OpenAI曾以极高估值进行多轮融资，但近期市场对AI泡沫的担忧加剧，投资者开始要求更明确的收入模型和成本控制方案。该动向被视为AI一级市场情绪变化的风向标。",
+      "snark": "估值千亿的独角兽也要学会砍价了，时代真的变了。"
+    },
+    {
+      "id": 7,
+      "cat": "tool",
+      "title": "我抢在Meta之前造了一个AI电子宠物",
+      "title_en": "I built an AI Tamagotchi before Meta could",
+      "source": "The Verge AI",
+      "url": "https://www.theverge.com/gadgets/1013375/muse-charm-gadgets-preview-waveshare-esp32-claude-vibe-code",
+      "time": "8小时前",
+      "published": "2026-10-31T16:05:00+00:00",
+      "summary": "The Verge编辑分享了自己动手制作AI电子宠物的经历，以此回应Meta推出的Muse Charm——一款带有柔软小脸的AI随身助手设备，定位类似电子宠物Tamagotchi。作者表示自己不会购买Meta的产品，而是利用Waveshare的ESP32开发板和Claude辅助编程，自制了一个功能相似的AI小装置。文章详细记录了从硬件选型到代码编写的全过程，展示了当前开发者借助大模型和开源硬件快速实现创意产品的可行性，也隐含着对科技巨头将AI玩具化的调侃。",
+      "snark": "Meta卖你电子宠物，极客自己焊一个，还不用交订阅费。"
+    },
+    {
+      "id": 8,
+      "cat": "tool",
+      "title": "Factory发布Droid 1.0：基于脚本模式的模型无关编程智能体框架",
+      "title_en": "Meet Factory Droid 1.0: A Model-Independent Coding Agent Harness Built on Script Mode",
+      "source": "MarkTechPost",
+      "url": "https://www.marktechpost.com/2026/10/31/factory-droid-1-0-frontier-harness/",
+      "time": "13小时前",
+      "published": "2026-10-31T10:38:14+00:00",
+      "summary": "Factory公司发布Droid 1.0，这是一个模型无关的编程智能体框架，将程序化工具调用设为默认模式。在Factory自有的Terminal-Bench 4测试中，Droid搭配Claude Opus 5.5模型取得65.2%的通过率，每个通过任务的平均成本为4.73美元。该框架的核心特点是解耦了智能体逻辑与底层模型，开发者可以在不同大模型之间灵活切换而无需重写工具调用代码。脚本模式的默认启用意味着智能体可以更高效地编排多步骤任务，减少对自然语言推理的依赖，从而提升执行确定性和成本可控性。",
+      "snark": "模型随便换，框架不动摇，这才是真正的“渣男”架构。"
+    },
+    {
+      "id": 9,
+      "cat": "tool",
+      "title": "Vercel Labs开源agent-desktop：让AI智能体操控电脑桌面",
+      "title_en": "Vercel Labs Open-Sources agent-desktop for Agent Computer Use",
+      "source": "MarkTechPost",
+      "url": "https://www.marktechpost.com/2026/10/31/vercel-labs-agent-desktop-computer-use/",
+      "time": "13小时前",
+      "published": "2026-10-31T10:10:28+00:00",
+      "summary": "Vercel Labs发布开源项目agent-desktop，这是一个基于Apache-2.0协议的Rust命令行工具，能让任意AI智能体在macOS、Windows和Linux三大操作系统上实现计算机操控。与依赖像素级截屏识别的方案不同，agent-desktop通过读取操作系统的无障碍树来理解界面结构，并基于稳定的元素引用执行点击、输入等操作。这种方案避免了对视觉模型的依赖，提升了跨平台兼容性和执行稳定性，同时降低了因界面渲染差异导致的识别错误。该工具为智能体自动化办公和跨应用工作流提供了新的基础设施。",
+      "snark": "AI终于学会用无障碍树看世界了，比某些人看代码还仔细。"
+    },
+    {
+      "id": 10,
+      "cat": "strategy",
+      "title": "英伟达考虑为Nscale西弗吉尼亚AI数据中心提供贷款担保",
+      "title_en": "Nvidia weighs playing the cosigner for Nscale’s AI data center in West Virginia",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/10/30/nvidia-weighs-playing-the-cosigner-for-nscales-ai-data-center-in-west-virginia/",
+      "time": "22小时前",
+      "published": "2026-10-31T01:20:05+00:00",
+      "summary": "英伟达正考虑为Nscale公司位于西弗吉尼亚州的AI数据中心项目提供贷款担保，以缓解投资者对AI基础设施巨额支出的担忧。当市场对AI投资回报周期产生疑虑时，由芯片供应商出面为数据中心贷款背书，有助于降低融资成本并增强债权方信心。这一模式反映出英伟达在AI算力生态中的核心地位正从硬件销售向金融增信延伸，也凸显了当前AI数据中心建设对资本密集型融资结构的依赖。若交易达成，将为其他芯片厂商参与AI基础设施融资提供参考范本。",
+      "snark": "卖铲子的开始给淘金者做担保，这生意经念得真溜。"
+    }
+  ],
+  "stats": {
+    "total": 10,
+    "model_count": 0,
+    "strategy_count": 4,
+    "tool_count": 4,
+    "policy_count": 2
+  }
+}

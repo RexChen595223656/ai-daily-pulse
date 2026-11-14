@@ -1,0 +1,167 @@
+{
+  "date": "2026-06-28",
+  "generated_at": "2026-06-28T08:08:29.456508+08:00",
+  "highlight": "Anthropic的Mythos 5在特朗普政府谈判后有限恢复，DeepSeek开源DSpark加速推理，亚洲AI初创借机崛起。",
+  "fun": {
+    "lucky": "DeepSeek DSpark",
+    "advice": "宜：开源框架，加速推理。\n忌：闭门造车，被出口禁令卡脖子。",
+    "joke": "AI的垃圾分类：输入是垃圾，输出也是垃圾，中间还浪费电。"
+  },
+  "articles": [
+    {
+      "id": 1,
+      "cat": "strategy",
+      "title": "孙正义质疑马斯克轨道数据中心炒作",
+      "title_en": "SoftBank’s CEO isn’t the only one with questions about Elon Musk’s orbital data center hype",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/06/27/softbanks-ceo-isnt-the-only-one-with-questions-about-elon-musks-orbital-data-center-hype/",
+      "time": "3小时前",
+      "published": "2026-06-27T20:42:36+00:00",
+      "summary": "软银CEO孙正义并非唯一对埃隆·马斯克提出的轨道数据中心构想持怀疑态度的人。马斯克近期大肆宣扬在太空中建设数据中心的计划，声称其能利用太阳能和低延迟优势，为AI训练提供无限算力。然而，孙正义在公开场合指出，轨道数据中心面临物理层面的巨大挑战：散热问题在真空中难以解决，卫星发射成本依然高昂，且太空辐射对电子设备的长期可靠性构成威胁。此外，地面光纤网络的延迟已足够低，太空方案的经济性存疑。这一争议反映了AI基础设施领域对“科幻式创新”的理性回归，投资者更关注落地的可行性而非宏大叙事。",
+      "snark": "马斯克的PPT还没发射，孙正义的算盘已经打完了。"
+    },
+    {
+      "id": 2,
+      "cat": "policy",
+      "title": "作家玛格丽特·阿特伍德批评AI“垃圾进垃圾出”",
+      "title_en": "Margaret Atwood says the problem with AI is &#8216;garbage in, garbage out&#8217;",
+      "source": "The Verge AI",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/958715/margaret-atwood-ai-problem-garbage-in-garbage-out",
+      "time": "5小时前",
+      "published": "2026-06-27T18:39:32+00:00",
+      "summary": "著名作家、《使女的故事》作者玛格丽特·阿特伍德在葡萄牙巴贝尔文学文化节上接受采访时，毫不留情地批评了当前AI领域的问题。她指出，AI系统的核心缺陷是“垃圾进，垃圾出”——如果训练数据本身存在偏见、错误或低质量内容，模型输出必然不可靠。阿特伍德特别担忧生成式AI对文学创作的侵蚀，认为算法无法理解人类经验的复杂性，只会模仿数据中的平庸模式。她呼吁科技公司对训练数据的来源和清洗过程承担更多责任，而非一味追求模型规模。这一观点呼应了学术界对数据质量日益增长的关注，尤其在AI生成内容泛滥的当下。",
+      "snark": "阿特伍德：AI写不出《使女的故事》，但能写出100万篇公众号爆文。",
+      "multiSource": [
+        "The Verge",
+        "The Verge AI"
+      ]
+    },
+    {
+      "id": 3,
+      "cat": "policy",
+      "title": "苹果寻求从中国黑名单供应商采购内存芯片",
+      "title_en": "Apple wants permission to buy memory from a blacklisted Chinese supplier",
+      "source": "The Verge",
+      "url": "https://www.theverge.com/tech/958707/apple-ram-buy-memory-blacklisted-china-cxmt",
+      "time": "6小时前",
+      "published": "2026-06-27T17:28:18+00:00",
+      "summary": "据《金融时报》报道，苹果正试图向特朗普政府申请豁免，以允许其从中国公司长鑫存储（CXMT）采购RAM芯片。长鑫存储因被五角大楼认定与中国军方有关联而被列入黑名单。苹果此举旨在缓解供应链压力，因为全球RAM价格飙升严重影响了其产品利润。苹果在申请中强调，长鑫存储的芯片主要用于非敏感消费电子产品，且该公司已采取合规措施。然而，这一请求面临政治阻力，尤其是在中美科技竞争加剧的背景下。若获批，可能为其他美国科技公司开辟先例，但也可能引发国家安全方面的争议。",
+      "snark": "苹果一边说‘隐私至上’，一边想买‘军方背景’的芯片，这算不算双重人格？"
+    },
+    {
+      "id": 4,
+      "cat": "model",
+      "title": "DeepSeek开源DSpark框架，加速V4推理60-85%",
+      "title_en": "DeepSeek Releases DSpark, a Speculative Decoding Framework That Accelerates DeepSeek-V4 Per-User Generation 60–85% Over MTP-1",
+      "source": "MarkTechPost",
+      "url": "https://www.marktechpost.com/2026/06/27/deepseek-releases-dspark-a-speculative-decoding-framework-that-accelerates-deepseek-v4-per-user-generation-60-85-over-mtp-1/",
+      "time": "7小时前",
+      "published": "2026-06-27T16:59:58+00:00",
+      "summary": "DeepSeek开源了DSpark，一个投机性解码框架，可直接附加到现有DeepSeek-V4模型权重上。该框架通过并行草稿骨干与轻量级马尔可夫头结合，有效抑制后缀衰减现象，并引入置信度调度验证机制，动态调整每步需检查的token数量。相比此前采用的MTP-1方法，DSpark在单用户生成场景下实现了60-85%的速度提升。该框架完全开源，开发者可无缝集成至现有推理管线。这一突破对实时交互应用（如对话系统、代码生成）意义重大，表明投机解码正从学术研究走向工业级部署。",
+      "snark": "DeepSeek：我们不光模型快，连‘偷跑’的速度都开源了。"
+    },
+    {
+      "id": 5,
+      "cat": "strategy",
+      "title": "苹果Vision Pro负责人据称将跳槽OpenAI",
+      "title_en": "Apple Vision Pro exec is reportedly leaving for OpenAI",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/06/27/apple-vision-pro-exec-is-reportedly-leaving-for-openai/",
+      "time": "7小时前",
+      "published": "2026-06-27T16:45:09+00:00",
+      "summary": "据TechCrunch报道，苹果负责Vision Pro头显的副总裁保罗·米德（Paul Meade）即将离职，加入OpenAI的硬件团队。米德在苹果期间主导了Vision Pro的硬件设计与供应链管理，但该产品因售价过高（3499美元）和生态不完善而市场表现平平。OpenAI近期正加速布局硬件业务，此前已招聘多名苹果、Meta的硬件工程师，传闻其正在开发一款AI原生智能眼镜。米德的加入可能为OpenAI带来消费电子领域的量产经验，但也凸显了苹果在空间计算领域的人才流失危机。",
+      "snark": "Vision Pro还没卖出去几台，负责人先‘空间转移’到OpenAI了。"
+    },
+    {
+      "id": 6,
+      "cat": "tool",
+      "title": "创业者用Claude AI辅助癌症治疗",
+      "title_en": "The fittest founder in the room got cancer. Here’s how he used AI to fight back.",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/06/27/the-fittest-founder-in-the-room-got-cancer-heres-how-he-used-ai-to-fight-back/",
+      "time": "10小时前",
+      "published": "2026-06-27T14:00:00+00:00",
+      "summary": "当创业者康纳·克里斯图（Connor Christou）被诊断出癌症后，他决定将Claude AI作为个人健康助手。他把自己所有的医疗数据——包括血液检测结果、扫描影像、可穿戴设备数据以及每日日记——全部输入Claude，要求AI分析趋势、提出治疗建议并预警潜在风险。Claude帮助他发现了医生忽略的血液指标异常，并建议调整用药时间以减轻副作用。克里斯图表示，AI虽不能替代专业医疗判断，但其处理多模态数据的能力为患者提供了前所未有的决策支持。这一案例展示了大语言模型在个性化医疗中的潜力，但也引发了对数据隐私和AI误诊的担忧。",
+      "snark": "Claude：我不仅能写诗，还能看化验单，建议肿瘤科医生改行学提示词工程。"
+    },
+    {
+      "id": 7,
+      "cat": "strategy",
+      "title": "苹果涨价归因AI成本，消费者买单",
+      "title_en": "Why is Apple asking me to pay more for Big Tech’s AI obsession?",
+      "source": "The Verge AI",
+      "url": "https://www.theverge.com/report/958678/apple-consumer-price-increase-ai-big-tech",
+      "time": "10小时前",
+      "published": "2026-06-27T13:30:00+00:00",
+      "summary": "苹果CEO蒂姆·库克近日承认，产品价格上涨“不可避免”，并将原因归咎于大型科技公司对AI基础设施的疯狂投入。16英寸MacBook Pro涨价300美元，11英寸iPad Air从599美元涨至749美元，甚至HomePod Mini也上调了30美元。库克表示，苹果需要大量采购高性能GPU和建设数据中心来支持AI功能，这些成本最终转嫁给了消费者。这一言论引发用户不满，许多人质疑苹果是否在借AI之名行提价之实。事实上，苹果的AI能力（如Apple Intelligence）尚未带来显著体验升级，但硬件成本已先行上涨。",
+      "snark": "库克：你们不是想要AI吗？先交300美元‘AI税’再说。"
+    },
+    {
+      "id": 8,
+      "cat": "strategy",
+      "title": "亚洲AI初创推出类Mythos模型，填补Anthropic出口禁令空白",
+      "title_en": "Asian AI startups launch Mythos-like  models as Anthropic’s export ban drags on",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/06/27/asian-ai-startups-launch-mythos-like-models-as-anthropics-export-ban-drags-on/",
+      "time": "12小时前",
+      "published": "2026-06-27T12:00:00+00:00",
+      "summary": "随着Anthropic的出口禁令持续，多家亚洲AI初创公司推出了声称具备类似Mythos能力的模型。这些模型在性能基准测试中接近甚至部分超越Mythos，且不受美国出口管制限制。亚洲开发者社区迅速转向这些本土替代方案，导致美国AI实验室在亚洲市场的份额急剧下降。分析人士指出，这不仅是技术替代，更是地缘政治对AI生态的深刻重塑——美国的出口禁令反而催生了竞争对手，并加速了亚洲AI自主化的进程。Anthropic的Mythos曾是亚洲企业首选，但禁令使其失去了这一巨大市场。",
+      "snark": "美国：我们禁止出口。亚洲：谢谢，我们这就开始自己造。"
+    },
+    {
+      "id": 9,
+      "cat": "tool",
+      "title": "Meta开源Astryx：AI可读的React设计系统",
+      "title_en": "Meta’s Astryx Brings a CLI and MCP Server to an Open-Source React Design System Agents Can Read",
+      "source": "MarkTechPost",
+      "url": "https://www.marktechpost.com/2026/06/27/metas-astryx-brings-a-cli-and-mcp-server-to-an-open-source-react-design-system-agents-can-read/",
+      "time": "15小时前",
+      "published": "2026-06-27T08:38:26+00:00",
+      "summary": "Meta发布了Astryx，一个基于StyleX的开源React设计系统。它采用CSS变量主题级联架构，并提供了命令行工具（CLI）和MCP服务器接口，使得工程师和AI代理都能使用同一套API构建界面。Astryx在Meta内部经过8年打磨，现已以MIT许可证在Beta阶段开源。其核心创新在于设计系统的“可编程性”——AI可以通过MCP协议直接读取组件库并生成符合设计规范的代码，从而减少人机协作中的样式冲突。这对于需要自动生成UI的AI应用（如Copilot）尤其有价值，但也意味着前端设计师的工作可能被进一步自动化。",
+      "snark": "Meta：我们开源了设计系统，让AI也能当设计师。设计师：那我走？"
+    },
+    {
+      "id": 10,
+      "cat": "strategy",
+      "title": "苹果涨价引发山姆代购潮，DeepSeek大规模招聘",
+      "title_en": "9点1氪｜苹果涨价引山姆代购潮；DeepSeek大规模招聘；黄金再度跌破4000美元",
+      "source": "36氪",
+      "url": "https://36kr.com/p/3870720040588295?f=rss",
+      "time": "23小时前",
+      "published": "2026-06-27T01:02:37+00:00",
+      "summary": "苹果上调iPad和Mac产品价格后，山姆会员商店因未同步调价而引发抢购和代购热潮，部分门店甚至断货。代购加价45-300元不等，需求火爆。与此同时，DeepSeek启动大规模招聘，涉及AI研发、工程和产品岗位。此外，OpenAI官宣推出GPT-5.6，亚洲苹果供应链股价大跌，SpaceX计划推出星链移动服务，美团股价低迷，王兴回应市场质疑。小鹏机器人部门重组，何小鹏兼任产品负责人。微信更新朋友圈互动规则：单删好友内容保留，互删则清空全部痕迹。",
+      "snark": "苹果涨价，山姆代购赚翻；DeepSeek招人，AI人才不够用了。"
+    },
+    {
+      "id": 11,
+      "cat": "policy",
+      "title": "特朗普政府批准100多家美国企业使用Anthropic Mythos",
+      "title_en": "Trump Admin releases Anthropic Mythos to be used by more than 100 US companies, agencies",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/06/26/trump-admin-releases-anthropic-mythos-to-be-used-by-more-than-100-us-companies-agencies/",
+      "time": "23小时前",
+      "published": "2026-06-27T01:01:37+00:00",
+      "summary": "据TechCrunch报道，特朗普政府已授权超过100家美国公司和政府机构使用Anthropic的Mythos 5模型，包括它们的非美国籍员工。此前，Mythos因出口管制问题被暂停使用，经过两周的紧张谈判后，政府与Anthropic达成有限恢复协议。该协议允许特定组织在受控环境下使用模型，但要求所有访问记录需接受政府审计。这一举措被视为美国在AI技术出口与国家安全之间寻找平衡的尝试，但也引发了关于技术垄断和全球AI发展不平等的争议。Anthropic的Mythos系列被认为是目前最强大的通用AI模型之一。",
+      "snark": "美国政府：Mythos很危险，但我们先自己用，你们等等。"
+    },
+    {
+      "id": 12,
+      "cat": "strategy",
+      "title": "Anthropic Mythos 5在谈判后有限恢复",
+      "title_en": "Anthropic&#8217;s Mythos 5 is back",
+      "source": "The Verge AI",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/958458/anthropic-mythos-5-is-back-trump-negotiations",
+      "time": "23小时前",
+      "published": "2026-06-27T00:33:44+00:00",
+      "summary": "经过与特朗普政府长达两周的激烈谈判，Anthropic的Mythos 5模型终于有限恢复可用。据The Verge获取的政府信件显示，该模型目前仅面向特定组织开放，且使用范围受到严格限制。此前，Mythos 5因被认定可能带来国家安全风险而被暂停，Anthropic一度面临巨大商业压力。恢复协议要求Anthropic部署更严格的使用监控机制，并对模型输出进行实时过滤。这一事件暴露了顶级AI模型在政治博弈中的脆弱性，也促使更多企业开始寻求开源或非美国供应商的替代方案。",
+      "snark": "Mythos 5：我回来了，但只对‘自己人’营业。"
+    }
+  ],
+  "stats": {
+    "total": 12,
+    "model_count": 1,
+    "strategy_count": 6,
+    "tool_count": 2,
+    "policy_count": 3
+  }
+}

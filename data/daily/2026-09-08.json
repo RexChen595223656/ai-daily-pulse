@@ -1,0 +1,99 @@
+{
+  "date": "2026-09-08",
+  "generated_at": "2026-09-08T08:13:14.966866+08:00",
+  "highlight": "AI 摘要暂时不可用，请稍后刷新",
+  "fun": {},
+  "articles": [
+    {
+      "id": 1,
+      "cat": "strategy",
+      "title": "Opaque recurrence, and other AI terms that you should probably know",
+      "title_en": "Opaque recurrence, and other AI terms that you should probably know",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/09/07/artificial-intelligence-definition-glossary-hallucinations-guide-to-common-ai-terms/",
+      "time": "4小时前",
+      "published": "2026-09-07T19:24:00+00:00",
+      "summary": "The rise of AI has brought an avalanche of new terms and slang. Here is a glossary with definitions of some of the most important words and phrases you might encounter.",
+      "snark": ""
+    },
+    {
+      "id": 2,
+      "cat": "model",
+      "title": "OpenBMB Releases MiniCPM5-2B: A 2.52B Dense Model Averaging 53.9 Across 34 Benchmarks and Built to Run On Device",
+      "title_en": "OpenBMB Releases MiniCPM5-2B: A 2.52B Dense Model Averaging 53.9 Across 34 Benchmarks and Built to Run On Device",
+      "source": "MarkTechPost",
+      "url": "https://www.marktechpost.com/2026/09/07/openbmb-releases-minicpm5-2b-a-2-52b-dense-model-averaging-53-9-across-34-benchmarks-and-built-to-run-on-device/",
+      "time": "4小时前",
+      "published": "2026-09-07T19:18:07+00:00",
+      "summary": "OpenBMB has released MiniCPM5-2B, a dense causal language model with 2,516,756,480 parameters and a native 131,072 token context. It averages 53.9 across the 34 benchmarks in its model card, ahead of Qwen3.5-4B at 51.1, with its clearest leads in tool use, coding agents and long-context retrieval. Post-training pairs 400B tokens of deep-thinking SFT with RL teachers and on-policy distillation that merges 16 expert models into one checkpoint. The weights ship under Apache 2.0 alongside the pre-tr",
+      "snark": ""
+    },
+    {
+      "id": 3,
+      "cat": "model",
+      "title": "Axis Robotics Releases AXIS: A Browser-Based Data Engine With 207 Robot Manipulation Tasks and 50,129 Trajectories",
+      "title_en": "Axis Robotics Releases AXIS: A Browser-Based Data Engine With 207 Robot Manipulation Tasks and 50,129 Trajectories",
+      "source": "MarkTechPost",
+      "url": "https://www.marktechpost.com/2026/09/07/axis-robotics-releases-axis-a-browser-based-data-engine-with-207-robot-manipulation-tasks-and-50129-trajectories/",
+      "time": "5小时前",
+      "published": "2026-09-07T18:38:47+00:00",
+      "summary": "Robot datasets have grown far slower than the models trained on them, mostly because collection stays locked to lab hardware. AXIS moves demonstration collection into a web browser and pushes everything expensive to backend GPUs. The result is 207 tasks and 50,129 verified Franka trajectories, and continual pretraining that lifts π0.5 from 83.9 to 88.8 on LIBERO-Plus while a volume-matched RoboCasa365 control reaches only 57.5. The post Axis Robotics Releases AXIS: A Browser-Based Data Engine Wi",
+      "snark": ""
+    },
+    {
+      "id": 4,
+      "cat": "tool",
+      "title": "MG Ship adds AI route optimisation as logistics returns accelerate",
+      "title_en": "MG Ship adds AI route optimisation as logistics returns accelerate",
+      "source": "AI News",
+      "url": "https://www.artificialintelligence-news.com/news/mg-ship-ai-route-optimisation-logistics-returns-accelerate/",
+      "time": "11小时前",
+      "published": "2026-09-07T13:01:23+00:00",
+      "summary": "MG Ship has introduced an AI route optimisation and carrier selection module as logistics deployments demonstrate rapid cost and time returns. The technical module targets global retailers and commercial shippers, pairing automated routing algorithms with carrier recommendation systems across international trade corridors. The deployment arrives as enterprise supply chain operators report measurable operational returns from [&#8230;] The post MG Ship adds AI route optimisation as logistics retur",
+      "snark": ""
+    },
+    {
+      "id": 5,
+      "cat": "strategy",
+      "title": "The Download: the hunt for underground hydrogen and more rogue OpenAI agents",
+      "title_en": "The Download: the hunt for underground hydrogen and more rogue OpenAI agents",
+      "source": "MIT Tech Review",
+      "url": "https://www.technologyreview.com/2026/09/07/1143592/the-download-underground-hydrogen-search-rogue-openai-agents/",
+      "time": "12小时前",
+      "published": "2026-09-07T12:10:00+00:00",
+      "summary": "This is today&#8217;s edition of The Download, our weekday newsletter that provides a daily dose of what&#8217;s going on in the world of technology. How much hydrogen awaits us underground? A flurry of exploration efforts is searching for underground stores of hydrogen gas, which could provide a valuable source of zero-carbon fuel. The hunt has&#8230;",
+      "snark": ""
+    },
+    {
+      "id": 6,
+      "cat": "model",
+      "title": "IFM Releases K2 Horizon: Six Apache 2.0 Models From 0.9B to 375B",
+      "title_en": "IFM Releases K2 Horizon: Six Apache 2.0 Models From 0.9B to 375B",
+      "source": "MarkTechPost",
+      "url": "https://www.marktechpost.com/2026/09/06/ifm-releases-k2-horizon-six-apache-2-0-models-from-0-9b-to-375b/",
+      "time": "19小时前",
+      "published": "2026-09-07T05:00:37+00:00",
+      "summary": "Most open model launches release one checkpoint and a benchmark table. The Institute of Foundation Models (IFM) released something wider last week. IFM is the frontier lab launched by MBZUAI in May 2025. K2 Horizon is a fleet of six models: 375B-A23B, 36B-A4B, 32B, 7B, 3.7B and 0.9B. Shipping alongside them are the pre-training corpus, [&#8230;] The post IFM Releases K2 Horizon: Six Apache 2.0 Models From 0.9B to 375B appeared first on MarkTechPost .",
+      "snark": ""
+    },
+    {
+      "id": 7,
+      "cat": "strategy",
+      "title": "派早报：微软公布 Project Zenith 计划、F-Droid 拟效仿 Debian 制定生成式 AI 使用政策",
+      "title_en": "派早报：微软公布 Project Zenith 计划、F-Droid 拟效仿 Debian 制定生成式 AI 使用政策",
+      "source": "少数派",
+      "url": "https://sspai.com/post/114250",
+      "time": "23小时前",
+      "published": "2026-09-07T00:20:41+00:00",
+      "summary": "美国 CD 销量大幅反弹，公安部上线反诈智能助手「国家反诈 AI」等。 查看全文",
+      "snark": ""
+    }
+  ],
+  "stats": {
+    "total": 7,
+    "model_count": 3,
+    "strategy_count": 3,
+    "tool_count": 1,
+    "policy_count": 0
+  }
+}

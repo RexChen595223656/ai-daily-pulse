@@ -1,0 +1,171 @@
+{
+  "date": "2026-06-03",
+  "generated_at": "2026-06-03T08:09:44.279768+08:00",
+  "highlight": "微软Build大会连发多款AI模型与工具，Anthropic提交IPO文件，AI行业加速向企业级应用演进。",
+  "fun": {
+    "lucky": "MAI-Thinking-1",
+    "advice": "宜：在Build大会上秀肌肉，用推理模型碾压友商。\n忌：让员工无节制烧AI预算，否则Uber就是前车之鉴。",
+    "joke": "AI写了个笑话，人类笑不出来——Bug复现了。"
+  },
+  "articles": [
+    {
+      "id": 1,
+      "cat": "strategy",
+      "title": "网络安全公司Cyera寻求120亿美元估值，ARR倍数高达80倍",
+      "title_en": "Cyera eyes $12B valuation at 80x ARR multiple despite operating losses",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/06/02/cyera-eyes-12b-valuation-at-80x-arr-multiple-despite-operating-losses/",
+      "time": "1小时前",
+      "published": "2026-06-02T22:50:56+00:00",
+      "summary": "网络安全公司Cyera正接近完成由Evolution Equity Partners领投的约3亿美元融资轮，估值目标高达120亿美元，对应其年化经常性收入（ARR）的80倍。尽管公司目前仍处于运营亏损状态，但投资者对其在数据安全领域的增长潜力给予了极高溢价。这笔融资将帮助Cyera在竞争激烈的网络安全市场中继续扩张，尤其是针对AI驱动的数据保护需求。高倍数估值也反映出市场对AI安全赛道未来现金流的乐观预期，但亏损状态下的高估值能否持续仍存不确定性。",
+      "snark": "80倍ARR？Cyera的估值模型怕是用了GPT-4来画饼。"
+    },
+    {
+      "id": 2,
+      "cat": "tool",
+      "title": "AI代理需要RSS：老协议焕发新生机",
+      "title_en": "Now AI agents need what RSS does",
+      "source": "Hacker News",
+      "url": "https://julienreszka.com/blog/rss-is-back-ai-agents-are-reading-it/",
+      "time": "3小时前",
+      "published": "2026-06-02T20:19:11+00:00",
+      "summary": "随着AI代理（Agent）的兴起，RSS这个古老的协议正在重新获得关注。文章指出，AI代理需要像RSS这样标准化的内容订阅和分发机制，以便高效地获取、解析和处理来自不同来源的信息。RSS的简洁性、开放性和去中心化特性使其成为AI代理之间以及代理与内容源之间通信的理想基础。作者认为，RSS的复兴将推动AI代理生态系统的互操作性，减少对单一平台API的依赖，从而降低开发成本并提升数据获取的可靠性。",
+      "snark": "RSS：没想到我还能在AI时代返聘当技术顾问。"
+    },
+    {
+      "id": 3,
+      "cat": "strategy",
+      "title": "微软Build 2026：七大重磅发布一览",
+      "title_en": "Microsoft Build 2026: The 7 biggest announcements",
+      "source": "The Verge AI",
+      "url": "https://www.theverge.com/tech/941738/microsoft-build-2026-biggest-announcements",
+      "time": "4小时前",
+      "published": "2026-06-02T19:23:52+00:00",
+      "summary": "微软在Build 2026开发者大会上发布了一系列重大更新，涵盖新Surface硬件、始终在线的个人助理、以及自研AI模型的全面升级。CEO萨提亚·纳德拉在主旨演讲中强调了AI与生产力工具的深度融合。七大发布包括：MAI-Thinking-1推理模型、Scout个人助理、Adaptive Spec-driven Scoring评估框架、AI代理行为控制策略规范、以及多款针对开发者的新工具。这些发布标志着微软正从依赖OpenAI转向构建自己的全栈AI能力，同时保持与OpenAI的合作伙伴关系。",
+      "snark": "Build大会发布太多，纳德拉的PPT翻页速度堪比AI推理速度。"
+    },
+    {
+      "id": 4,
+      "cat": "strategy",
+      "title": "Uber员工AI支出超预算，公司紧急设限",
+      "title_en": "Uber caps employee AI spending after blowing through budget in 4 months",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/06/02/uber-caps-employee-ai-spending-after-blowing-through-budget-in-four-months/",
+      "time": "4小时前",
+      "published": "2026-06-02T19:11:48+00:00",
+      "summary": "Uber在鼓励员工尽可能使用AI工具后，仅四个月就烧光了年度AI预算，不得不采取限制措施。公司最初希望通过广泛使用AI来提升运营效率和创新能力，但员工对AI工具（如代码生成、数据分析、内容创作）的过度依赖导致成本迅速失控。Uber的案例揭示了企业AI应用中的一个典型困境：在缺乏明确使用规范和成本控制机制的情况下，AI工具的便利性会迅速转化为财务压力。目前Uber正在重新评估其AI支出策略，包括引入审批流程和预算上限。",
+      "snark": "Uber员工：老板让我们多用AI，没说不能把GPT当咖啡喝啊。"
+    },
+    {
+      "id": 5,
+      "cat": "tool",
+      "title": "微软发布新工具：开发者可用文本描述自动生成AI行为测试",
+      "title_en": "New Microsoft tool lets devs spin up AI behavior tests using text descriptions",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/06/02/new-microsoft-tool-lets-devs-spin-up-ai-behavior-tests-using-text-descriptions/",
+      "time": "5小时前",
+      "published": "2026-06-02T19:02:21+00:00",
+      "summary": "微软在Build 2026上开源了Adaptive Spec-driven Scoring for Evaluation and Regression Testing（自适应规范驱动评分评估与回归测试）框架。该工具允许开发者仅通过自然语言文本描述，就能自动生成针对AI模型行为的测试用例。它利用规范驱动的方法，将行为描述转化为可执行的评估指标，支持对AI输出进行多维度的正确性、安全性和一致性测试。这一框架旨在降低AI评估的门槛，使非专业测试人员也能参与模型质量保障，同时标准化回归测试流程，加速AI应用的迭代。",
+      "snark": "以后测试工程师的活儿，AI自己就能写测试用例了——然后测试AI的AI呢？"
+    },
+    {
+      "id": 6,
+      "cat": "policy",
+      "title": "特朗普签署行政令：要求AI模型发布前接受联邦审查",
+      "title_en": "Trump signs executive order to review AI models before they’re released",
+      "source": "The Verge AI",
+      "url": "https://www.theverge.com/policy/941775/trump-ai-executive-order",
+      "time": "5小时前",
+      "published": "2026-06-02T18:33:42+00:00",
+      "summary": "美国总统特朗普签署了一项行政命令，建立针对前沿AI模型的“自愿框架”，要求AI公司在公开发布其模型前，与联邦政府共享模型信息。该命令旨在“促进安全创新并加强关键基础设施的网络安全”。虽然框架是自愿的，但此举标志着美国联邦政府首次系统性地介入AI模型发布前的审查流程。行政令要求相关机构制定评估标准，重点关注模型可能被用于网络攻击、生物武器开发等高风险场景。业界对此反应不一，部分公司担心审查周期会拖慢创新速度。",
+      "snark": "特朗普：AI发布前先让我看看，万一比我还会发推怎么办？"
+    },
+    {
+      "id": 7,
+      "cat": "tool",
+      "title": "马丁·斯科塞斯成为好莱坞最意想不到的AI代言人",
+      "title_en": "Martin Scorsese becomes the latest — and most unlikely — Hollywood voice for AI",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/06/02/martin-scorsese-becomes-the-latest-and-most-unlikely-hollywood-voice-for-ai/",
+      "time": "5小时前",
+      "published": "2026-06-02T18:16:53+00:00",
+      "summary": "著名导演马丁·斯科塞斯加入了使用AI的行列，但他明确表示AI仅用于故事板（storyboarding）制作阶段。这位奥斯卡获奖导演在访谈中解释，AI生成的视觉预览可以帮助他在正式拍摄前更高效地规划镜头和场景布局，而不会触及创作核心。斯科塞斯的表态在好莱坞引发讨论：一方面，AI作为辅助工具的价值得到认可；另一方面，这位传统电影大师的“有限度使用”也划清了艺术创作与自动化替代的边界。",
+      "snark": "斯科塞斯：AI只能画故事板，别想碰我的剪辑台。"
+    },
+    {
+      "id": 8,
+      "cat": "model",
+      "title": "微软发布首个高级推理AI模型MAI-Thinking-1",
+      "title_en": "Microsoft’s first advanced reasoning AI is here",
+      "source": "The Verge AI",
+      "url": "https://www.theverge.com/tech/941664/microsoft-ai-model-reasoning-mai-thinking-1-build-2026",
+      "time": "5小时前",
+      "published": "2026-06-02T18:12:44+00:00",
+      "summary": "微软在Build 2026上正式推出其自研的旗舰推理模型MAI-Thinking-1。该模型定位为高级推理引擎，能够执行复杂的多步推理、数学问题求解和代码生成任务。MAI-Thinking-1采用基于思维链（Chain-of-Thought）的改进架构，在多个基准测试中表现出与OpenAI的o1系列模型相当的性能。这是微软继去年推出首批自研模型后，在模型研发上的重大突破，标志着微软正在减少对OpenAI的依赖，建立独立的AI技术栈。不过，微软表示仍会保持与OpenAI的合作关系。",
+      "snark": "微软终于有自己的推理模型了，OpenAI可以松口气——不用再背微软的锅了。",
+      "multiSource": [
+        "The Verge",
+        "The Verge AI"
+      ]
+    },
+    {
+      "id": 9,
+      "cat": "strategy",
+      "title": "Anthropic提交IPO文件，AI从科研项目走向企业公用事业",
+      "title_en": "Anthropic IPO filing marks AI maturing into enterprise utility",
+      "source": "AI News",
+      "url": "https://www.artificialintelligence-news.com/news/anthropic-ipo-filing-marks-ai-maturing-enterprise-utility/",
+      "time": "6小时前",
+      "published": "2026-06-02T18:04:03+00:00",
+      "summary": "Anthropic提交的IPO文件被业界视为生成式AI从重研究、高风险的风险投资阶段，转向稳定企业公用事业的重要里程碑。文件显示，Anthropic正在从追求模型参数规模和计算性能的竞赛，转向构建可预测的计费周期和稳定的企业级服务。这一转变意味着AI公司开始重视商业可持续性，而非单纯的技术突破。Anthropic的上市将为投资者提供更清晰的财务透明度，同时也为其他AI初创公司提供了从实验室走向资本市场的参考路径。",
+      "snark": "Anthropic上市了，以后Claude的回复里可能带财报广告。"
+    },
+    {
+      "id": 10,
+      "cat": "tool",
+      "title": "微软发布Scout：受OpenClaw启发的个人AI助理",
+      "title_en": "Microsoft launches Scout, an OpenClaw-inspired personal assistant",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/06/02/microsoft-launches-scout-an-openclaw-inspired-personal-assistant/",
+      "time": "6小时前",
+      "published": "2026-06-02T18:02:44+00:00",
+      "summary": "微软在Build 2026上推出Scout，一款受OpenClaw架构启发的全新AI个人助理。Scout被深度集成到Microsoft 365生态系统中，能够调用Word、Excel、Outlook、Teams等应用的数据和功能，执行复杂的跨应用任务。与Cortana不同，Scout采用了更灵活的插件架构和自然语言交互界面，用户可以像与真人助理一样下达多步骤指令。Scout的推出标志着微软在个人AI助手领域的第三次尝试，目标是与苹果的Siri和谷歌的Assistant在办公场景中展开差异化竞争。",
+      "snark": "Scout：我是新来的助理，Cortana？她退休去养老院了。",
+      "multiSource": [
+        "TechCrunch",
+        "The Verge AI"
+      ]
+    },
+    {
+      "id": 11,
+      "cat": "tool",
+      "title": "谷歌推出虚假来电检测功能，防范AI深度伪造冒充诈骗",
+      "title_en": "Google rolls out fake call detection to protect against AI deepfake impersonation scams",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/06/02/google-rolls-out-fake-call-detection-to-protect-against-ai-deepfake-impersonation-scams/",
+      "time": "6小时前",
+      "published": "2026-06-02T18:00:00+00:00",
+      "summary": "谷歌在手机端推出新的虚假来电检测功能，旨在应对利用AI深度伪造（deepfake）技术冒充权威人物、家人或雇主的电话诈骗。该功能通过分析通话中的语音特征、通话模式以及来源号码的异常行为，实时识别潜在的冒充风险。当系统检测到可疑来电时，会向用户发出警告并建议挂断。随着深度伪造语音技术的普及，这类诈骗手段日益猖獗，谷歌的解决方案利用其强大的语音识别和异常检测模型，在用户接听前就完成风险评估。",
+      "snark": "谷歌：你的AI来电可能是假的，但我的AI检测是真的。"
+    },
+    {
+      "id": 12,
+      "cat": "tool",
+      "title": "微软为开发者提供更精细的AI代理行为控制方案",
+      "title_en": "Microsoft offers devs a better way to control AI agent behavior",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/06/02/microsoft-offers-devs-a-better-way-to-control-ai-agent-behavior/",
+      "time": "6小时前",
+      "published": "2026-06-02T18:00:00+00:00",
+      "summary": "微软在Build 2026上发布了一项新规范，允许开发、合规和安全团队通过可移植的策略文件（policy files）定义AI代理（Agent）的行为边界。这些策略文件可以精确控制代理能访问的数据范围、可执行的操作类型、以及需要人类确认的决策级别。该方案解决了企业部署AI代理时面临的核心合规与安全挑战，使得代理在遵守企业政策的前提下自主运行。策略文件支持版本控制和跨环境迁移，方便企业在开发和部署之间保持一致性。",
+      "snark": "微软：给AI代理套上缰绳，免得它学Uber员工乱花钱。"
+    }
+  ],
+  "stats": {
+    "total": 12,
+    "model_count": 1,
+    "strategy_count": 4,
+    "tool_count": 6,
+    "policy_count": 1
+  }
+}
