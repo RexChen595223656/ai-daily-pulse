@@ -1,4 +1,16 @@
 {
+  "2026-11-15": {
+    "date": "2026-11-15",
+    "highlight": "英伟达CEO黄仁勋因芯片流向中国调查辞职，全球AI芯片供应链震荡，亚洲政府紧急应对。",
+    "count": 9,
+    "stats": {
+      "total": 9,
+      "model_count": 1,
+      "strategy_count": 3,
+      "tool_count": 2,
+      "policy_count": 3
+    }
+  },
   "2026-11-14": {
     "date": "2026-11-14",
     "highlight": "英伟达CEO黄仁勋因丑闻辞职，AI创投圈地震；OpenAI推出ChatGPT钱包让智能体替你花钱。",
@@ -705,18 +717,6 @@
       "strategy_count": 1,
       "tool_count": 4,
       "policy_count": 3
-    }
-  },
-  "2026-09-06": {
-    "date": "2026-09-06",
-    "highlight": "AI 摘要暂时不可用，请稍后刷新",
-    "count": 10,
-    "stats": {
-      "total": 10,
-      "model_count": 6,
-      "strategy_count": 4,
-      "tool_count": 0,
-      "policy_count": 0
     }
   }
 }
