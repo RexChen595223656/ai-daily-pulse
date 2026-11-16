@@ -1,131 +1,31 @@
 {
-  "date": "2026-11-15",
-  "generated_at": "2026-11-15T08:14:27.165779+08:00",
-  "highlight": "英伟达CEO黄仁勋因芯片流向中国调查辞职，全球AI芯片供应链震荡，亚洲政府紧急应对。",
+  "date": "2026-11-16",
+  "generated_at": "2026-11-16T08:15:51.884522+08:00",
+  "highlight": "英伟达间谍丑闻发酵，美国国会拟收紧AI芯片出口规则，两党罕见一致施压。",
   "fun": {
     "lucky": "英伟达",
-    "advice": "宜：紧急公关稳住供应链\n忌：让CEO和可疑高管走太近",
-    "joke": "为什么英伟达的保安没发现芯片外流？因为他们只检查显卡，不检查人际关系。"
+    "advice": "宜：低调出货，闷声发财\n忌：让CEO和可疑人员同框合影",
+    "joke": "为什么AI芯片不怕冷？因为它自带散热焦虑。"
   },
   "articles": [
     {
       "id": 1,
       "cat": "policy",
-      "title": "英伟达的安全团队去哪了？",
-      "title_en": "Where was Nvidia’s security team?",
-      "source": "TechCrunch",
-      "url": "https://techcrunch.com/2026/11/14/where-was-nvidias-security-team/",
-      "time": "6分钟前",
-      "published": "2026-11-15T00:08:07+00:00",
-      "summary": "英伟达安全主管于八月悄然离职，随后首席执行官黄仁勋因与一名被怀疑向中国输送芯片的公司高管存在关联而辞职。一位前情报官员指出，这类泄密往往藏匿于日常对话之中，安全团队本应更早察觉异常。该事件暴露出英伟达在内部安全审查与高管行为监管上的漏洞，也引发外界对芯片出口管制执行有效性的质疑。随着调查推进，英伟达的安全治理架构和人事变动细节成为关注焦点。",
-      "snark": "安全主管跑了，CEO也跑了，下一个跑的是股价吗？"
-    },
-    {
-      "id": 2,
-      "cat": "strategy",
-      "title": "马斯克等科技高管联名请愿要求英伟达恢复黄仁勋职务",
-      "title_en": "Elon Musk, other tech execs sign petition calling on Nvidia to reinstate Jensen Huang",
-      "source": "TechCrunch",
-      "url": "https://techcrunch.com/2026/11/14/elon-musk-other-tech-execs-sign-petition-calling-on-nvidia-to-reinstate-jensen-huang/",
-      "time": "2小时前",
-      "published": "2026-11-14T21:41:22+00:00",
-      "summary": "埃隆·马斯克与其他科技公司高管共同签署请愿书，呼吁英伟达恢复黄仁勋的首席执行官职务。截至周六下午，请愿已收集超过11.5万个签名。此举反映出科技行业对黄仁勋领导力的高度认可，以及对其突然离职可能影响英伟达战略方向和AI芯片供应稳定性的担忧。请愿活动也凸显了业界对英伟达在AI算力领域核心地位的高度依赖，以及高管变动可能引发的连锁反应。",
-      "snark": "11万人签名，不如董事会一张票。"
-    },
-    {
-      "id": 3,
-      "cat": "strategy",
-      "title": "AI坟场：那些未能成功的项目与初创公司清单",
-      "title_en": "The AI graveyard: a running list of projects and startups that didn’t make it",
-      "source": "TechCrunch",
-      "url": "https://techcrunch.com/2026/11/14/the-ai-graveyard-a-running-list-of-projects-and-startups-that-didnt-make-it/",
-      "time": "6小时前",
-      "published": "2026-11-14T17:30:00+00:00",
-      "summary": "TechCrunch整理了一份持续更新的AI项目与初创公司失败清单，涵盖苹果多次延期的Siri AI功能以及OpenAI混乱的“超级应用”发布等案例。该清单记录了那些已关闭或未能达到预期的AI项目，揭示了行业高速发展背后的高失败率。从产品延迟到战略失误，这些案例为从业者提供了宝贵的教训，也提醒投资者和开发者AI赛道并非遍地黄金，执行力和市场时机同样关键。",
-      "snark": "AI坟场扩容速度比模型迭代还快。"
-    },
-    {
-      "id": 4,
-      "cat": "tool",
-      "title": "Cmpnd发布dspy-wsp：权重空间编程进入DSPy",
-      "title_en": "Cmpnd Releases dspy-wsp: Weight-Space Programming Comes to DSPy",
-      "source": "MarkTechPost",
-      "url": "https://www.marktechpost.com/2026/11/14/cmpnd-dspy-wsp-weight-space-programming/",
-      "time": "7小时前",
-      "published": "2026-11-14T16:45:48+00:00",
-      "summary": "Cmpnd发布了dspy-wsp，这是一个面向权重空间编程的DSPy优化器原型。该工具让前沿大语言模型读取小模型的权重，在沙箱中直接编辑权重并测试每次改动，无需梯度计算，每次运行成本约5至10美元。这种方法将权重空间编程引入DSPy框架，为开发者提供了一种低成本、无梯度的模型优化新路径，有望简化小模型定制流程并降低对传统训练基础设施的依赖。",
-      "snark": "不用梯度不用反向传播，钱包倒是要反向传播了。"
-    },
-    {
-      "id": 5,
-      "cat": "policy",
-      "title": "亚洲各国政府回应英伟达CEO黄仁勋离职",
-      "title_en": "Asian governments react to Nvidia CEO Jensen Huang’s exit",
-      "source": "TechCrunch",
-      "url": "https://techcrunch.com/2026/11/14/asian-governments-react-to-nvidia-ceo-jensen-huangs-exit/",
-      "time": "7小时前",
-      "published": "2026-11-14T16:34:15+00:00",
-      "summary": "针对英伟达首席执行官黄仁勋的离职，亚洲多国政府作出反应。部分政府着手确认芯片供应承诺，另一些则在监测此事对本地项目的影响，并应对正在进行的相关调查。黄仁勋的离职引发了对AI芯片供应链稳定性的担忧，亚洲作为全球芯片制造和AI应用的重要区域，各国政府正密切关注事态发展，评估对本地AI产业和基础设施建设的潜在冲击，并调整相应的产业政策与外交沟通策略。",
-      "snark": "亚洲政府：芯片先别断，其他好商量。"
-    },
-    {
-      "id": 6,
-      "cat": "policy",
-      "title": "曾解雇萨姆·奥特曼的OpenAI董事会成员称仍无法信任AICEO",
-      "title_en": "The OpenAI board member who fired Sam Altman says we still can&#8217;t trust AI CEOs",
-      "source": "The Verge AI",
-      "url": "https://www.theverge.com/podcast/1032907/helen-toner-openai-cset-ai-safety-policy-interview",
-      "time": "9小时前",
-      "published": "2026-11-14T15:00:00+00:00",
-      "summary": "曾参与解雇萨姆·奥特曼的OpenAI董事会成员海伦·托纳在访谈中表示，人们仍然无法信任AI公司的首席执行官。托纳现任乔治城大学安全与新兴技术中心执行主任，是AI安全与政策领域的知名人物。她在播客中讨论了AI治理、高管问责以及董事会监督机制的重要性，认为AI公司CEO掌握巨大权力却缺乏足够制衡，行业需要更健全的治理结构来确保AI发展符合公共利益。",
-      "snark": "解雇过一次就成专家了，这履历真好用。",
-      "multiSource": [
-        "The Verge",
-        "The Verge AI"
-      ]
-    },
-    {
-      "id": 7,
-      "cat": "strategy",
-      "title": "黄仁勋与远见型表演式创始人CEO的衰落",
-      "title_en": "Jensen Huang and the decline of the visionary showman founder CEO",
-      "source": "The Verge AI",
-      "url": "https://www.theverge.com/tech/1033781/nvidia-jensen-huang-last-visionary-showman-founder-ceo",
-      "time": "12小时前",
-      "published": "2026-11-14T12:00:00+00:00",
-      "summary": "文章回顾了黄仁勋在2025年1月6日于14000人场馆中登台的摇滚明星时刻，随后探讨了这位远见型表演式创始人CEO的衰落。黄仁勋的离职标志着一种以个人魅力和舞台表现力驱动公司叙事的CEO模式的退潮。文章分析了这类CEO在AI时代的局限性，以及企业治理从个人崇拜向制度化决策转变的趋势，认为英伟达事件可能加速科技行业对创始人CEO权力结构的反思。",
-      "snark": "舞台再大，也大不过董事会的会议室。"
-    },
-    {
-      "id": 8,
-      "cat": "model",
-      "title": "斯坦福研究开源Memorilla：面向冻结大语言模型的潜在记忆模块",
-      "title_en": "Stanford Research Open-Sources Memorilla, a Latent Memory Module for Frozen LLMs",
-      "source": "MarkTechPost",
-      "url": "https://www.marktechpost.com/2026/11/14/stanford-memorilla-memory-system-16-memory-tokens/",
-      "time": "13小时前",
-      "published": "2026-11-14T10:21:21+00:00",
-      "summary": "斯坦福研究人员开源了Memorilla，这是一个记忆系统，可将文档集合压缩为16个记忆令牌，注入冻结的Qwen3-8B模型。在FactKG基准上，该方法达到84.33%的准确率，使用的文档令牌数量比完整上下文少108倍。Memorilla通过潜在记忆模块让冻结模型无需微调即可高效利用外部知识，显著降低推理成本，为检索增强生成和长文档处理提供了轻量级替代方案。",
-      "snark": "16个令牌记住一整个文档库，我16个令牌只够记住密码。"
-    },
-    {
-      "id": 9,
-      "cat": "tool",
-      "title": "Vercel发布UI SDK：为AI编码代理提供50多种UI行为",
-      "title_en": "Vercel Releases UI SDK: 50+ UI Behaviors for AI Coding Agents",
-      "source": "MarkTechPost",
-      "url": "https://www.marktechpost.com/2026/11/13/vercel-ui-sdk-agent-ui-behaviors/",
-      "time": "17小时前",
-      "published": "2026-11-14T06:38:14+00:00",
-      "summary": "Vercel Labs发布了Vercel UI SDK，这是一个采用Apache-2.0许可证的测试版库，包含50多种UI行为。编码代理可将这些行为组合成适用于React、Vue、Svelte、Solid和Web Components的可访问组件，并提供一个桥接层用于直接控制UI。该SDK旨在让AI编码代理更高效地生成符合无障碍标准的界面组件，减少手动编写UI代码的工作量，提升开发效率和组件一致性。",
-      "snark": "AI写UI，人类调CSS，分工明确。"
+      "title": "英伟达间谍丑闻后，美国国会拟收紧AI芯片出口规则",
+      "title_en": "Congress wants to tighten export rules on AI chips after Nvidia spy scandal",
+      "source": "The Verge",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/1033984/congress-export-rules-ai-chips-china",
+      "time": "5小时前",
+      "published": "2026-11-15T19:15:43+00:00",
+      "summary": "在涉及英伟达前首席执行官黄仁勋与一名疑似中国间谍的丑闻曝光后，美国国会正寻求进一步限制AI芯片出口。民主党和共和党均表态支持多项收紧规则的法案与措施，并要求相关部门作出说明。这一跨党派动向表明，AI芯片出口管制正从技术竞争议题升级为国家安全焦点。若新规落地，英伟达等芯片厂商的对华销售渠道将进一步收窄，全球AI算力供应链也可能面临重组。国会此举既是对间谍事件的直接回应，也反映出美国在AI硬件领域对技术外流的警惕正在系统性加强。",
+      "snark": "黄老板大概没想到，一张合影能换来一部新法案。"
     }
   ],
   "stats": {
-    "total": 9,
-    "model_count": 1,
-    "strategy_count": 3,
-    "tool_count": 2,
-    "policy_count": 3
+    "total": 1,
+    "model_count": 0,
+    "strategy_count": 0,
+    "tool_count": 0,
+    "policy_count": 1
   }
 }
