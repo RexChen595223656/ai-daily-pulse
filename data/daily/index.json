@@ -1,4 +1,16 @@
 {
+  "2026-11-18": {
+    "date": "2026-11-18",
+    "highlight": "OpenAI发布GPT-6.2双版本并降价，英伟达CEO离职引发连锁震荡，Anthropic上市后亚马逊谷歌合计持股近三成。",
+    "count": 12,
+    "stats": {
+      "total": 12,
+      "model_count": 1,
+      "strategy_count": 5,
+      "tool_count": 3,
+      "policy_count": 3
+    }
+  },
   "2026-11-17": {
     "date": "2026-11-17",
     "highlight": "英伟达CEO黄仁勋辞职引发行业地震，加州起诉OpenAI，AI安全与能源问题持续升温。",
@@ -704,18 +716,6 @@
       "model_count": 2,
       "strategy_count": 2,
       "tool_count": 5,
-      "policy_count": 3
-    }
-  },
-  "2026-09-09": {
-    "date": "2026-09-09",
-    "highlight": "OpenAI宣称破解纳维-斯托克斯难题引发争议，同时Meta发布个人AI代理Muse但面临信任危机，AI行业在技术突破与伦理争议中前行。",
-    "count": 12,
-    "stats": {
-      "total": 12,
-      "model_count": 3,
-      "strategy_count": 3,
-      "tool_count": 3,
       "policy_count": 3
     }
   }

@@ -1,0 +1,167 @@
+{
+  "date": "2026-11-18",
+  "generated_at": "2026-11-18T08:15:28.872422+08:00",
+  "highlight": "OpenAI发布GPT-6.2双版本并降价，英伟达CEO离职引发连锁震荡，Anthropic上市后亚马逊谷歌合计持股近三成。",
+  "fun": {
+    "lucky": "GPT-6.2 Astra",
+    "advice": "宜：趁降价多跑几个基准测试\n忌：把20%折扣当成模型变聪明的理由",
+    "joke": "为什么英伟达的财报不提黄仁勋？因为GPU可以并行计算，但丑闻不能。"
+  },
+  "articles": [
+    {
+      "id": 1,
+      "cat": "strategy",
+      "title": "萨提亚·纳德拉自称已“AGI上头”",
+      "title_en": "Satya Nadella says he’s AGI-pilled now",
+      "source": "The Verge AI",
+      "url": "https://www.theverge.com/tech/1036111/satya-nadella-says-hes-agi-pilled-now",
+      "time": "34分钟前",
+      "published": "2026-11-17T23:41:18+00:00",
+      "summary": "微软首席执行官萨提亚·纳德拉公开表示自己如今是“AGI上头”状态，他所说的重点并非技术层面的通用人工智能，而是AGI可能对经济结构和政治格局带来的剧烈冲击。纳德拉认为，当AGI在经济层面成为现实时，政治经济体系将如何围绕它重新组织，是当下必须严肃思考的问题。这一表态延续了他此前对AI改变生产力和劳动力市场的判断，也暗示微软将在政策与产业布局上更积极地押注AGI叙事。对于一家正在把Copilot嵌入全线产品的公司而言，CEO公开承认“上头”，既是战略信号，也是在为后续大规模投入和监管游说铺垫舆论基础。",
+      "snark": "CEO说上头，股东说上头，只有电费账单说下头。"
+    },
+    {
+      "id": 2,
+      "cat": "strategy",
+      "title": "英伟达在黄仁勋出局后放弃中国市场",
+      "title_en": "Nvidia is abandoning China after Jensen Huang’s ouster",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/11/17/nvidia-is-abandoning-china-after-jensen-huangs-ouster/",
+      "time": "37分钟前",
+      "published": "2026-11-17T23:37:48+00:00",
+      "summary": "英伟达临时首席执行官表示，公司将不再向中国销售芯片，这意味着这家全球最重要的GPU厂商正式退出中国数据中心与AI芯片市场。此前黄仁勋突然离职，公司管理层随即调整战略方向。放弃中国市场将带来显著的营收损失，因为中国曾是英伟达数据中心业务的重要收入来源之一。分析人士指出，这一决定既受地缘政治与出口管制影响，也反映出公司在新管理层下的路线选择。对国内AI芯片厂商而言，这既是替代窗口，也是供应链重构的压力测试，短期内外购高端算力的渠道将进一步收窄。",
+      "snark": "不卖芯片给中国，股价和财报总有一个要先疼。"
+    },
+    {
+      "id": 3,
+      "cat": "strategy",
+      "title": "英伟达称开源AI战略不变，并计划收购Hugging Face",
+      "title_en": "Nvidia says its open source AI strategy remains intact after Jensen Huang’s exit",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/11/17/nvidia-says-its-open-source-ai-strategy-remains-intact-after-jensen-huangs-exit/",
+      "time": "1小时前",
+      "published": "2026-11-17T23:04:35+00:00",
+      "summary": "英伟达临时首席执行官重申公司的开源AI战略保持不变，并确认计划收购开源模型社区Hugging Face。这一表态发生在黄仁勋突然离职之后，意在稳定开发者生态与合作伙伴的信心。Hugging Face是全球最大的开源模型与数据集托管平台，若收购完成，英伟达将同时掌握算力硬件与开源模型分发入口，形成从芯片到社区的全栈影响力。不过，收购也可能引发社区对平台中立性的担忧，监管机构是否会放行仍是未知数。对开发者而言，短期工具链不变，长期则需关注平台政策与商业条款的走向。",
+      "snark": "买下Hugging Face，下一步是不是要给每个模型配一块GPU？"
+    },
+    {
+      "id": 4,
+      "cat": "tool",
+      "title": "Perplexity Computer上线多智能体模式：最多16个AI代理互相核查",
+      "title_en": "Perplexity Computer Adds Multiagent: Up to 16 AI Agents That Cross-Check Work",
+      "source": "MarkTechPost",
+      "url": "https://www.marktechpost.com/2026/11/17/perplexity-computer-multiagent-effort-level/",
+      "time": "1小时前",
+      "published": "2026-11-17T22:52:04+00:00",
+      "summary": "Perplexity为其Computer产品新增多智能体模式，定位在Ultra之上的更高算力档位。该模式下，一个主代理可调度最多16个子代理，分别运行在Claude、GPT和Gemini等模型上，子代理之间共享发现并交叉核查彼此的工作结果。这种设计把“多模型投票”和“分工协作”结合起来，旨在降低单一模型幻觉带来的错误，提升复杂研究任务的可靠性。对用户而言，代价是更高的调用成本与更长的响应时间；对行业而言，这代表AI产品正从单模型问答转向多代理编排，模型路由与结果聚合能力将成为新的竞争点。",
+      "snark": "16个代理互相检查，最后可能一起自信地错。"
+    },
+    {
+      "id": 5,
+      "cat": "strategy",
+      "title": "Anthropic上市后亚马逊与谷歌将合计持股近30%",
+      "title_en": "Amazon and Google will together own nearly 30% of Anthropic after its IPO",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/11/17/amazon-and-google-will-together-own-nearly-30-of-anthropic-after-its-ipo/",
+      "time": "1小时前",
+      "published": "2026-11-17T22:29:05+00:00",
+      "summary": "Anthropic完成IPO后，亚马逊将持有略低于15%的股份，并保留进一步增持的选择权；谷歌以接近14%的持股紧随其后，两家合计接近30%。这意味着Anthropic虽然独立上市，但股权结构上仍深度绑定两大云与算力巨头。对亚马逊和谷歌而言，持股既是财务投资，也是锁定模型供应与云服务绑定的战略手段；对Anthropic而言，上市带来公开市场融资渠道，但大股东影响力上升也可能引发治理与关联交易的关注。监管机构或将审视这种“云厂商+模型公司”的交叉持股是否影响市场竞争。",
+      "snark": "说是独立上市，一看股东名单，还是那两个云爸爸。"
+    },
+    {
+      "id": 6,
+      "cat": "model",
+      "title": "OpenAI发布GPT-6.2 Astra与Sol，Astra接口降价20%",
+      "title_en": "OpenAI Releases GPT-6.2 Astra and Sol With a 20% Cheaper Astra API",
+      "source": "MarkTechPost",
+      "url": "https://www.marktechpost.com/2026/11/17/openai-gpt-6-2-astra-sol-release/",
+      "time": "2小时前",
+      "published": "2026-11-17T22:07:30+00:00",
+      "summary": "OpenAI于2026年11月17日发布GPT-6.2系列的两个版本Astra与Sol。其中Astra的API价格下调20%，降至每百万输入token 8美元、每百万输出token 40美元，并在Artificial Analysis智能指数上排名第二。Sol的定位尚未完全披露，但双版本策略显示OpenAI正在按能力与成本分层覆盖不同场景。降价叠加高排名，意味着OpenAI试图在性价比维度压制竞争对手，同时用高端版本守住能力上限。对开发者而言，迁移成本与版本稳定性是接下来需要评估的重点，尤其是依赖长上下文与工具调用的生产系统。",
+      "snark": "排名第二还降价，第一名现在应该很慌。"
+    },
+    {
+      "id": 7,
+      "cat": "policy",
+      "title": "美国证交会据报在黄仁勋离职之际调查英伟达",
+      "title_en": "SEC reportedly investigating Nvidia amid Huang exit",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/11/17/sec-reportedly-investigating-nvidia-amid-huang-exit/",
+      "time": "2小时前",
+      "published": "2026-11-17T21:48:07+00:00",
+      "summary": "据《华尔街日报》报道，美国证券交易委员会正对英伟达展开调查，时间点紧随首席执行官黄仁勋离职之后。报道称黄仁勋承认与一名涉嫌中国间谍的人士存在婚外情，这一丑闻可能涉及信息披露、公司治理与合规问题。证交会的调查重点尚未公开，但通常围绕高管行为是否触发披露义务、是否存在内幕交易或利益冲突展开。对英伟达而言，管理层动荡叠加监管调查，将加大临时管理团队稳定业务与投资者关系的难度，也可能影响其收购Hugging Face等战略交易的审批节奏。",
+      "snark": "芯片没被卡脖子，CEO先被卡了。"
+    },
+    {
+      "id": 8,
+      "cat": "tool",
+      "title": "MacBook Neo黑五前罕见降价50美元",
+      "title_en": "The MacBook Neo is receiving a rare $50 discount ahead of Black Friday",
+      "source": "The Verge",
+      "url": "https://www.theverge.com/gadgets/1035932/apple-macbook-neo-black-friday-2026-deal-sale",
+      "time": "2小时前",
+      "published": "2026-11-17T21:46:20+00:00",
+      "summary": "MacBook Neo在黑色星期五前迎来罕见折扣，多家零售商对两个存储版本和四种颜色均降价50美元。其中256GB版本降至649美元，配备触控ID的512GB版本也有相应优惠。这条资讯本身与AI行业关联较弱，属于消费电子促销信息，但MacBook Neo作为苹果面向轻量计算与本地AI推理的入门机型，其价格下探可能吸引更多开发者将其作为端侧实验设备。对关注AI应用落地的人来说，硬件成本下降有助于降低本地模型测试与原型开发的门槛，不过本次折扣力度有限，更像是节日促销而非战略降价。",
+      "snark": "降50美元也叫罕见，苹果的字典果然与众不同。"
+    },
+    {
+      "id": 9,
+      "cat": "strategy",
+      "title": "英伟达第三季度财报达标，全程未提黄仁勋风波",
+      "title_en": "Nvidia’s Q3 earnings hit the mark, without mentioning the whole Jensen Huang thing",
+      "source": "The Verge AI",
+      "url": "https://www.theverge.com/tech/1036032/nvidia-q3-2027-jensen-huang",
+      "time": "2小时前",
+      "published": "2026-11-17T21:40:59+00:00",
+      "summary": "英伟达临时首席执行官科莱特·克雷斯公布第三季度财报，业绩达到市场预期，但发布环节起初并未提及前首席执行官黄仁勋及其离职细节，也未回应其可能回归的传闻。随后的财报电话会上，董事会主席哈维·琼斯开场发言试图稳定军心。财报达标说明核心业务在管理层动荡中仍具韧性，但投资者更关心的是战略连续性与治理风险。临时管理层能否推进对Hugging Face的收购、如何处理中国市场退出后的收入缺口，将是下一季度的关键观察点。",
+      "snark": "财报数字很漂亮，漂亮到像故意不提那个人。"
+    },
+    {
+      "id": 10,
+      "cat": "tool",
+      "title": "谷歌跟风科技宕机潮，宣布自家服务“没有宕机”",
+      "title_en": "Google joins the tech outage trend by announcing it’s not having one",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/11/17/google-joins-the-tech-outage-trend-by-announcing-its-not-having-one/",
+      "time": "2小时前",
+      "published": "2026-11-17T21:34:50+00:00",
+      "summary": "在科技行业宕机事件频发的背景下，谷歌采取了一个不寻常的公关动作：主动宣布Gmail运行正常。这一声明表面上是在安抚用户，实际上是在借行业焦虑做反向营销，强调自家基础设施的稳定性。对AI行业而言，随着模型服务深度嵌入邮箱、文档与搜索等日常工具，可用性已成为产品竞争力的核心指标。谷歌此举也暗示，云厂商之间的竞争正从模型能力延伸到服务可靠性叙事，未来“我们没有宕机”可能成为常态化宣传话术。",
+      "snark": "别人宕机上热搜，谷歌没宕机也上热搜，赢麻了。"
+    },
+    {
+      "id": 11,
+      "cat": "policy",
+      "title": "连萨姆·奥尔特曼都逃不过Instagram上的AI深度伪造",
+      "title_en": "Not even Sam Altman is safe from AI deepfakes on Instagram",
+      "source": "The Verge AI",
+      "url": "https://www.theverge.com/news/1035957/meta-alexandr-wang-sam-altman-instagram-ai-deepfake",
+      "time": "3小时前",
+      "published": "2026-11-17T21:00:55+00:00",
+      "summary": "Instagram上充斥着深度伪造内容，最近连Meta自家高管也成了素材。11月初，Meta首席AI官亚历山andr·王发布一段短片推广其消费级AI代理Muse，但该片段本身由AI生成，画面中出现了Meta首席执行官等人物形象。这一事件凸显深度伪造在社交平台上的泛滥程度，以及平台方在内容审核与标识上的尴尬处境：一边推广AI生成能力，一边难以约束自家高管形象被滥用。对监管而言，这为AI生成内容强制水印与身份验证的立法提供了现实案例；对用户而言，辨别真人出镜与合成内容的成本正越来越高。",
+      "snark": "Meta高管用AI伪造自己推广AI，闭环了属于是。",
+      "multiSource": [
+        "The Verge",
+        "The Verge AI"
+      ]
+    },
+    {
+      "id": 12,
+      "cat": "policy",
+      "title": "厘清AI数据保留困惑：两种标准API设计解析",
+      "title_en": "Clearing Up the Confusion on AI Data Retention: Two Standard Designs Explained",
+      "source": "MarkTechPost",
+      "url": "https://www.marktechpost.com/2026/11/17/zero-data-retention-ai-apis-explained/",
+      "time": "3小时前",
+      "published": "2026-11-17T20:49:45+00:00",
+      "summary": "一篇技术指南澄清了AI数据保留中常见的误解：零数据保留针对的是特定AI接口，而非整个供应商。文章解释了两种标准的API数据保留设计，分别说明在每种设计下由谁负责删除数据，并给出开发者可执行的六项检查清单。随着企业对数据合规要求提高，接口级别的保留策略、日志留存周期与删除责任划分，直接影响采购决策与安全审计。对开发者而言，关键不是听供应商口号，而是确认具体接口的保留配置、删除触发机制以及第三方子处理器的数据流向。",
+      "snark": "零保留说的是接口，不是你的聊天记录，别自作多情。"
+    }
+  ],
+  "stats": {
+    "total": 12,
+    "model_count": 1,
+    "strategy_count": 5,
+    "tool_count": 3,
+    "policy_count": 3
+  }
+}
