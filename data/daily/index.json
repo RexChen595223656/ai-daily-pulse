@@ -1,4 +1,16 @@
 {
+  "2026-11-19": {
+    "date": "2026-11-19",
+    "highlight": "Anthropic天价IPO与英伟达CEO离场震动行业，Gemini 4 Neon发布，AI安全警报频传。",
+    "count": 12,
+    "stats": {
+      "total": 12,
+      "model_count": 1,
+      "strategy_count": 7,
+      "tool_count": 1,
+      "policy_count": 3
+    }
+  },
   "2026-11-18": {
     "date": "2026-11-18",
     "highlight": "OpenAI发布GPT-6.2双版本并降价，英伟达CEO离职引发连锁震荡，Anthropic上市后亚马逊谷歌合计持股近三成。",
@@ -705,18 +717,6 @@
       "strategy_count": 3,
       "tool_count": 4,
       "policy_count": 4
-    }
-  },
-  "2026-09-10": {
-    "date": "2026-09-10",
-    "highlight": "苹果秋季发布会携AI全家桶来袭，OpenAI数学突破引学界震动，AI安全与隐私议题持续升温。",
-    "count": 12,
-    "stats": {
-      "total": 12,
-      "model_count": 2,
-      "strategy_count": 2,
-      "tool_count": 5,
-      "policy_count": 3
     }
   }
 }
