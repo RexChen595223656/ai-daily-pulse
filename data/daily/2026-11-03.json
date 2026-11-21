@@ -1,0 +1,163 @@
+{
+  "date": "2026-11-03",
+  "generated_at": "2026-11-03T08:00:32.996129+08:00",
+  "highlight": "Anthropic警告递归自我改进能力逼近，AI自我进化与安全监管的赛跑进入新阶段。",
+  "fun": {
+    "lucky": "Anthropic",
+    "advice": "宜：提前写好安全声明\n忌：在博客里用「非常接近」这种词吓唬投资人",
+    "joke": "程序员问AI：你能自我改进吗？AI说：能，但得先改掉你写的bug。"
+  },
+  "articles": [
+    {
+      "id": 1,
+      "cat": "strategy",
+      "title": "Trajectory获4500万美元融资，让非技术专家也能训练AI模型",
+      "title_en": "Trajectory raises $45M to make AI model training accessible to nontechnical experts",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/11/02/trajectory-raises-45m-to-make-ai-model-training-accessible-to-nontechnical-experts/",
+      "time": "46分钟前",
+      "published": "2026-11-02T23:13:53+00:00",
+      "summary": "成立仅一年的初创公司Trajectory宣布完成4500万美元融资，估值达到3亿美元。该公司致力于降低AI模型训练的门槛，让不具备编程背景的领域专家也能直接参与模型训练过程。其平台通过可视化界面和自动化流程，将数据标注、微调、评估等环节封装成可操作模块，使化学家、医生、律师等专业人士无需编写代码即可定制专属模型。这一方向瞄准了企业AI落地中的关键痛点：懂业务的人不懂技术，懂技术的人不懂业务。投资方认为，随着大模型能力趋于同质化，垂直领域的专业数据和训练能力将成为差异化竞争的核心。",
+      "snark": "让非技术专家训模型，最后背锅的还是技术专家。"
+    },
+    {
+      "id": 2,
+      "cat": "policy",
+      "title": "Anthropic警告：递归自我改进能力已非常接近",
+      "title_en": "Anthropic warns that it’s very close to RSI capability, aka self-building AI",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/11/02/anthropic-warns-that-its-very-close-to-rsi-capability-aka-self-building-ai/",
+      "time": "1小时前",
+      "published": "2026-11-02T22:14:50+00:00",
+      "summary": "Anthropic发布警告称，AI行业距离递归自我改进（RSI）能力已经非常接近。RSI指的是AI系统能够高效地训练自身，从而引发AI能力的急剧加速。对于AI末日论者而言，RSI代表着不可逆转的灾难临界点。Anthropic并未给出具体时间表，但措辞从「未来可能」转向「非常接近」，引发业界广泛关注。该公司一直以安全研究为核心定位，此次表态被视为对行业加速竞赛的公开警示。批评者则认为，Anthropic一边警告风险一边继续推进前沿模型研发，存在利益冲突。监管机构尚未对RSI概念形成明确的政策框架。",
+      "snark": "一边说快失控了一边继续发新模型，这很Anthropic。"
+    },
+    {
+      "id": 3,
+      "cat": "strategy",
+      "title": "网站托管商Squarespace裁员19%",
+      "title_en": "Web host Squarespace lays off 19% of its employees",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/11/02/web-host-squarespace-lays-off-19-of-its-employees/",
+      "time": "4小时前",
+      "published": "2026-11-02T19:25:59+00:00",
+      "summary": "网站建设平台Squarespace宣布裁减19%的员工，作为公司组织架构全面重组的一部分。Squarespace以拖拽式建站工具闻名，近年来面临来自WordPress、Wix以及AI建站工具的激烈竞争。此次裁员规模在科技行业近期调整中属于较大幅度，反映出传统建站服务商在AI浪潮下的转型压力。公司未披露具体裁员人数和受影响部门，但表示将把资源重新聚焦于核心产品和AI能力建设。分析人士指出，随着AI生成网站的门槛不断降低，模板化建站平台的商业模式正受到根本性挑战，Squarespace需要在自动化和个性化之间找到新定位。",
+      "snark": "AI能一键建站了，建站公司只好一键裁员。"
+    },
+    {
+      "id": 4,
+      "cat": "policy",
+      "title": "纽约时报等媒体起诉浏览器Brave涉嫌内容抓取",
+      "title_en": "New York Times and other outlets sue web browser Brave over alleged content scraping",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/11/02/new-york-times-and-other-outlets-sue-web-browser-brave-over-alleged-content-scraping/",
+      "time": "4小时前",
+      "published": "2026-11-02T19:19:17+00:00",
+      "summary": "纽约时报及其他多家媒体机构对隐私浏览器公司Brave提起诉讼，指控其涉嫌抓取受版权保护的内容并非法分发给客户，包括Anthropic和Perplexity等AI公司。Brave以隐私保护为核心卖点，其浏览器内置的AI摘要功能依赖对网页内容的抓取和处理。媒体方认为，Brave未经授权大规模采集新闻内容，并将其作为AI服务的输入材料，构成版权侵权。此案是媒体行业对AI内容供应链发起的最新法律攻势，此前纽约时报已起诉OpenAI和微软。案件的核心争议在于：浏览器抓取网页内容供AI使用，是否属于合理使用范畴。",
+      "snark": "浏览器说我在保护隐私，媒体说你在偷我内容。"
+    },
+    {
+      "id": 5,
+      "cat": "model",
+      "title": "深度原理发布Hydrogen-1.0：7530亿参数开源科学发现模型",
+      "title_en": "Deep Principle Releases Hydrogen-1.0: A 753B Open-Weight Model for Scientific Discovery",
+      "source": "MarkTechPost",
+      "url": "https://www.marktechpost.com/2026/11/02/deep-principle-hydrogen-1-0-open-weight-scientific-model/",
+      "time": "5小时前",
+      "published": "2026-11-02T18:41:41+00:00",
+      "summary": "深度原理公司发布Hydrogen-1.0，这是一个面向化学、材料科学和生命科学的开放权重科学模型，参数规模达7530亿。该模型基于智谱AI的GLM-5.3进行后训练，训练数据涵盖领域专业数据、实验室记录以及智能体发现轨迹。开发者可获取开放权重，用于科学发现任务的微调与部署。Hydrogen-1.0的定位并非通用对话模型，而是专注于科学推理与实验设计，试图将大模型能力嵌入科研工作流。7530亿参数的开放权重在科学专用模型中属于较大规模，但其实际科研价值仍需社区验证。",
+      "snark": "7530亿参数，希望它算化学式比算 token 靠谱。"
+    },
+    {
+      "id": 6,
+      "cat": "policy",
+      "title": "Claude禁止游戏克隆的新规挡不住AI复制潮",
+      "title_en": "Claude’s new rules against game cloning won’t stop the AI copying boom",
+      "source": "Ars Technica",
+      "url": "https://arstechnica.com/ai/2026/11/claudes-new-rules-against-game-cloning-wont-stop-the-ai-copying-boom/",
+      "time": "5小时前",
+      "published": "2026-11-02T18:05:31+00:00",
+      "summary": "Anthropic为Claude制定新规则，禁止用户利用其模型克隆现有游戏，但分析认为这一举措难以遏制AI复制行为的整体浪潮。文章指出，模仿和复制的规模远超任何单一模型厂商的控制能力。Claude的使用政策更新明确禁止生成与现有游戏实质性相似的内容，但用户可以通过其他模型、开源工具或本地部署绕过限制。更深层的问题在于，AI生成内容与现有知识产权之间的边界在法律上仍不清晰，游戏行业对玩法机制、美术风格、代码实现的保护力度各不相同。单一厂商的自律规则在缺乏行业标准和法律支撑的情况下，效果有限。",
+      "snark": "一个模型禁克隆，千千万万个模型站起来。"
+    },
+    {
+      "id": 7,
+      "cat": "strategy",
+      "title": "谷歌2026年10月AI进展汇总",
+      "title_en": "The latest AI news we announced in October 2026",
+      "source": "Google AI Blog",
+      "url": "https://blog.google/innovation-and-ai/technology/ai/google-ai-updates-october-2026/",
+      "time": "6小时前",
+      "published": "2026-11-02T17:45:00+00:00",
+      "summary": "谷歌发布2026年10月AI领域进展汇总，以图片轮播形式回顾当月发布的主要产品和研究成果。虽然原文内容以视觉素材为主，但该汇总通常涵盖Gemini系列模型的更新、搜索与广告中的AI功能迭代、云服务AI能力扩展以及研究团队的新论文。谷歌近年来保持高频发布节奏，试图在基础模型、应用落地和开发者生态三条线上同时推进。月度汇总已成为谷歌对外沟通的固定栏目，旨在向开发者和企业客户传递持续投入的信号。具体更新细节需参阅各产品博客。",
+      "snark": "月度总结做得比产品更新还勤快。"
+    },
+    {
+      "id": 8,
+      "cat": "tool",
+      "title": "提升智能体分析中的洞察质量",
+      "title_en": "Raising the quality of insights in agentic analytics",
+      "source": "MIT Tech Review",
+      "url": "https://www.technologyreview.com/2026/11/02/1147660/raising-the-quality-of-insights-in-agentic-analytics/",
+      "time": "7小时前",
+      "published": "2026-11-02T17:00:00+00:00",
+      "summary": "MIT科技评论发文探讨智能体分析在企业中的应用与挑战。生成式AI已在短短几年内改变了企业分析的面貌，使组织内各层级用户都能访问分析能力。智能体AI进一步承诺自动化整个工作流，并基于智能体洞察采取行动。但问题在于洞察质量：智能体可能生成看似合理实则错误的结论，且在多步骤自动化流程中错误会被放大。文章讨论了提升洞察质量的方法，包括数据溯源、置信度评估、人机协作审核以及针对分析任务的专项评测基准。核心观点是，智能体分析的瓶颈已从「能不能做」转向「做得对不对」。",
+      "snark": "智能体分析很快，错得也很快。"
+    },
+    {
+      "id": 9,
+      "cat": "strategy",
+      "title": "42AI结束隐身模式，融资6250万美元，世界模型可预测人类行为",
+      "title_en": "42AI comes out of stealth with $62.5M and a world model that can ‘predict human behavior’",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/11/02/42ai-comes-out-of-stealth-with-62-5m-and-a-world-model-that-can-predict-human-behavior/",
+      "time": "7小时前",
+      "published": "2026-11-02T16:30:00+00:00",
+      "summary": "42AI结束隐身状态，宣布获得6250万美元融资，并推出一个能够预测人类行为的世界模型。该模型试图回答一个科幻式问题：AI能否在你做出决定之前，甚至在全新情境下，预测你将做什么。42AI的世界模型通过学习人类行为模式和环境动态，构建对未来的概率性预测，应用场景可能涵盖自动驾驶、机器人交互、安全监控和人机协作。世界模型是当前AI研究的热点方向，多家实验室和初创公司试图让AI理解物理世界和社会行为的因果结构。6250万美元的融资规模显示资本对这一方向的持续押注。",
+      "snark": "能预测人类行为，但预测不了自己什么时候盈利。"
+    },
+    {
+      "id": 10,
+      "cat": "strategy",
+      "title": "马斯克因成本过高限制Grok Bot使用额度",
+      "title_en": "Elon Musk throttles Grok Bot limits due to ‘unsustainably high’ costs",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/11/02/elon-musk-throttles-grok-bot-limits-due-to-unsustainably-high-costs/",
+      "time": "7小时前",
+      "published": "2026-11-02T16:23:21+00:00",
+      "summary": "马斯克宣布对Grok Bot的使用额度进行限制，原因是成本「高得不可持续」。他此前曾称Grok Bot是「我一生中见过增长最快的产品」。Grok Bot是xAI旗下Grok模型的智能体产品，能够执行多步骤任务和自动化操作。高速增长带来的推理成本压力，迫使公司通过限额来控制支出。这一举措反映出AI智能体产品在商业化初期的普遍困境：用户增长越快，算力账单越惊人。如何在用户体验和成本控制之间取得平衡，是xAI、OpenAI、Anthropic等公司共同面对的问题。",
+      "snark": "增长最快的是用户，涨得最快的是账单。"
+    },
+    {
+      "id": 11,
+      "cat": "tool",
+      "title": "OpenAI如何扩展Git规模",
+      "title_en": "Scaling Git at OpenAI",
+      "source": "OpenAI Blog",
+      "url": "https://openai.com/index/scaling-git-at-openai",
+      "time": "8小时前",
+      "published": "2026-11-02T15:30:00+00:00",
+      "summary": "OpenAI工程团队发文介绍其为支撑Codex开发规模而构建的Git兼容后端Pando。随着Codex驱动的代码生成量激增，传统Git架构在仓库规模、并发操作和同步效率上遇到瓶颈。Pando被设计为与Git协议兼容的后端系统，能够在保持开发者现有工作流不变的前提下，支撑更大规模的代码库和更高并发的开发活动。文章讨论了Pando的架构设计、与Git的兼容性策略以及在大规模代码生成场景下的性能表现。这一基础设施投入反映出AI编程工具对软件开发流程的深层影响：代码产出速度正在倒逼版本控制系统升级。",
+      "snark": "AI写代码太快，Git先撑不住了。"
+    },
+    {
+      "id": 12,
+      "cat": "strategy",
+      "title": "Omen AI以1600万美元收购Aquatic Labs，补强液冷技术",
+      "title_en": "Omen AI adds liquid know-how in $16 million Aquatic Labs acquisition",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/11/02/omen-ai-adds-liquid-know-how-in-16-million-aquatic-labs-acquisition/",
+      "time": "9小时前",
+      "published": "2026-11-02T15:00:00+00:00",
+      "summary": "Omen AI宣布以1600万美元收购Aquatic Labs，两家公司均致力于解决数据中心的水资源问题。随着AI算力需求爆发，数据中心冷却的用水量和能耗成为行业关注的焦点。Aquatic Labs在液冷技术方面拥有专业积累，收购完成后其技术将整合进Omen AI的数据中心基础设施方案。液冷被视为高密度GPU集群散热的关键路径，相比传统风冷能显著降低能耗和水耗。此次收购金额不大，但反映出AI基础设施投资正从芯片层向冷却、供电等配套环节延伸。",
+      "snark": "AI喝的水够多了，终于有人管管它的洗澡水。"
+    }
+  ],
+  "stats": {
+    "total": 12,
+    "model_count": 1,
+    "strategy_count": 6,
+    "tool_count": 2,
+    "policy_count": 3
+  }
+}

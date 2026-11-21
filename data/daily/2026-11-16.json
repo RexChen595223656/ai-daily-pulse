@@ -1,0 +1,31 @@
+{
+  "date": "2026-11-16",
+  "generated_at": "2026-11-16T08:15:51.884522+08:00",
+  "highlight": "英伟达间谍丑闻发酵，美国国会拟收紧AI芯片出口规则，两党罕见一致施压。",
+  "fun": {
+    "lucky": "英伟达",
+    "advice": "宜：低调出货，闷声发财\n忌：让CEO和可疑人员同框合影",
+    "joke": "为什么AI芯片不怕冷？因为它自带散热焦虑。"
+  },
+  "articles": [
+    {
+      "id": 1,
+      "cat": "policy",
+      "title": "英伟达间谍丑闻后，美国国会拟收紧AI芯片出口规则",
+      "title_en": "Congress wants to tighten export rules on AI chips after Nvidia spy scandal",
+      "source": "The Verge",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/1033984/congress-export-rules-ai-chips-china",
+      "time": "5小时前",
+      "published": "2026-11-15T19:15:43+00:00",
+      "summary": "在涉及英伟达前首席执行官黄仁勋与一名疑似中国间谍的丑闻曝光后，美国国会正寻求进一步限制AI芯片出口。民主党和共和党均表态支持多项收紧规则的法案与措施，并要求相关部门作出说明。这一跨党派动向表明，AI芯片出口管制正从技术竞争议题升级为国家安全焦点。若新规落地，英伟达等芯片厂商的对华销售渠道将进一步收窄，全球AI算力供应链也可能面临重组。国会此举既是对间谍事件的直接回应，也反映出美国在AI硬件领域对技术外流的警惕正在系统性加强。",
+      "snark": "黄老板大概没想到，一张合影能换来一部新法案。"
+    }
+  ],
+  "stats": {
+    "total": 1,
+    "model_count": 0,
+    "strategy_count": 0,
+    "tool_count": 0,
+    "policy_count": 1
+  }
+}

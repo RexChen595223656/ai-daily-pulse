@@ -1,0 +1,161 @@
+{
+  "date": "2026-05-06",
+  "highlight": "视觉 AI 突破：实时视频理解+生成，AR/VR 应用迎来技术奇点",
+  "articles": [
+    {
+      "id": 1,
+      "cat": "model",
+      "title": "Meta 开源 Llama 4 405B，称性能超越 GPT-4.5",
+      "title_en": "",
+      "source": "Synced Review",
+      "url": "https://example.com/ai-news/9370",
+      "time": "8天前",
+      "published": "2026-05-06T16:18:00+08:00",
+      "summary": "这是一条关于「Meta 开源 Llama 4 405B，称性能超越 GPT-4.5」的详细报道。该事件在 AI 行业引发广泛关注，多位业内人士表示这将深刻影响行业格局。更多细节请查看原文。",
+      "snark": "编辑部：这条我们也不知道怎么评价。"
+    },
+    {
+      "id": 2,
+      "cat": "model",
+      "title": "Qwen 3 系列开源，阿里称多项中文任务超越 GPT-5",
+      "title_en": "",
+      "source": "OpenAI Blog",
+      "url": "https://example.com/ai-news/4777",
+      "time": "8天前",
+      "published": "2026-05-06T06:53:00+08:00",
+      "summary": "这是一条关于「Qwen 3 系列开源，阿里称多项中文任务超越 GPT-5」的详细报道。该事件在 AI 行业引发广泛关注，多位业内人士表示这将深刻影响行业格局。更多细节请查看原文。",
+      "snark": "AI圈日常：今天你发模型，明天我刷榜。"
+    },
+    {
+      "id": 3,
+      "cat": "model",
+      "title": "Runway Gen-5 发布：视频生成支持实时物理模拟",
+      "title_en": "",
+      "source": "36氪",
+      "url": "https://example.com/ai-news/4435",
+      "time": "8天前",
+      "published": "2026-05-06T10:02:00+08:00",
+      "summary": "这是一条关于「Runway Gen-5 发布：视频生成支持实时物理模拟」的详细报道。该事件在 AI 行业引发广泛关注，多位业内人士表示这将深刻影响行业格局。更多细节请查看原文。",
+      "snark": "AI圈新闻：今天又是核聚变级别的一天。"
+    },
+    {
+      "id": 4,
+      "cat": "strategy",
+      "title": "微软将 Copilot 深度整合至 Windows 12，AI 操作系统时代来临",
+      "title_en": "",
+      "source": "Hacker News",
+      "url": "https://example.com/ai-news/4541",
+      "time": "8天前",
+      "published": "2026-05-06T06:18:00+08:00",
+      "summary": "这是一条关于「微软将 Copilot 深度整合至 Windows 12，AI 操作系统时代来临」的详细报道。该事件在 AI 行业引发广泛关注，多位业内人士表示这将深刻影响行业格局。更多细节请查看原文。",
+      "snark": "AI圈日常：今天你发模型，明天我刷榜。"
+    },
+    {
+      "id": 5,
+      "cat": "strategy",
+      "title": "Adobe Firefly 4 发布：AI 创意工具全面整合 Photoshop",
+      "title_en": "",
+      "source": "Ars Technica",
+      "url": "https://example.com/ai-news/6532",
+      "time": "8天前",
+      "published": "2026-05-06T11:15:00+08:00",
+      "summary": "这是一条关于「Adobe Firefly 4 发布：AI 创意工具全面整合 Photoshop」的详细报道。该事件在 AI 行业引发广泛关注，多位业内人士表示这将深刻影响行业格局。更多细节请查看原文。",
+      "snark": "编辑部：这条我们也不知道怎么评价。"
+    },
+    {
+      "id": 6,
+      "cat": "strategy",
+      "title": "Runway Gen-5 发布：视频生成支持实时物理模拟",
+      "title_en": "",
+      "source": "Synced Review",
+      "url": "https://example.com/ai-news/1601",
+      "time": "8天前",
+      "published": "2026-05-06T10:59:00+08:00",
+      "summary": "这是一条关于「Runway Gen-5 发布：视频生成支持实时物理模拟」的详细报道。该事件在 AI 行业引发广泛关注，多位业内人士表示这将深刻影响行业格局。更多细节请查看原文。",
+      "snark": "AI圈日常：今天你发模型，明天我刷榜。"
+    },
+    {
+      "id": 7,
+      "cat": "strategy",
+      "title": "Anthropic 发布 Claude for Enterprise：企业级 AI 部署方案",
+      "title_en": "",
+      "source": "TechCrunch",
+      "url": "https://example.com/ai-news/9632",
+      "time": "8天前",
+      "published": "2026-05-06T09:16:00+08:00",
+      "summary": "这是一条关于「Anthropic 发布 Claude for Enterprise：企业级 AI 部署方案」的详细报道。该事件在 AI 行业引发广泛关注，多位业内人士表示这将深刻影响行业格局。更多细节请查看原文。",
+      "snark": "AI圈新闻：今天又是核聚变级别的一天。"
+    },
+    {
+      "id": 8,
+      "cat": "strategy",
+      "title": "OpenAI 完成 400 亿美元新一轮融资，估值突破 3000 亿",
+      "title_en": "",
+      "source": "Ars Technica",
+      "url": "https://example.com/ai-news/1740",
+      "time": "8天前",
+      "published": "2026-05-06T20:21:00+08:00",
+      "summary": "这是一条关于「OpenAI 完成 400 亿美元新一轮融资，估值突破 3000 亿」的详细报道。该事件在 AI 行业引发广泛关注，多位业内人士表示这将深刻影响行业格局。更多细节请查看原文。",
+      "snark": "又双叒叕一个「里程碑」，今年第几个了？"
+    },
+    {
+      "id": 9,
+      "cat": "strategy",
+      "title": "GPT-5 发布首个公开预览版，推理能力大幅提升",
+      "title_en": "",
+      "source": "Synced Review",
+      "url": "https://example.com/ai-news/6111",
+      "time": "8天前",
+      "published": "2026-05-06T16:49:00+08:00",
+      "summary": "这是一条关于「GPT-5 发布首个公开预览版，推理能力大幅提升」的详细报道。该事件在 AI 行业引发广泛关注，多位业内人士表示这将深刻影响行业格局。更多细节请查看原文。",
+      "snark": "AI圈日常：今天你发模型，明天我刷榜。"
+    },
+    {
+      "id": 10,
+      "cat": "tool",
+      "title": "Vercel AI SDK 3.0：一键部署 AI 应用，支持所有主流模型",
+      "title_en": "",
+      "source": "The Verge",
+      "url": "https://example.com/ai-news/9361",
+      "time": "8天前",
+      "published": "2026-05-06T16:52:00+08:00",
+      "summary": "这是一条关于「Vercel AI SDK 3.0：一键部署 AI 应用，支持所有主流模型」的详细报道。该事件在 AI 行业引发广泛关注，多位业内人士表示这将深刻影响行业格局。更多细节请查看原文。",
+      "snark": "AI圈日常：今天你发模型，明天我刷榜。"
+    },
+    {
+      "id": 11,
+      "cat": "tool",
+      "title": "Replit AI 推出「自然语言编程」：描述需求即可生成应用",
+      "title_en": "",
+      "source": "MIT Tech Review",
+      "url": "https://example.com/ai-news/1637",
+      "time": "8天前",
+      "published": "2026-05-06T19:13:00+08:00",
+      "summary": "这是一条关于「Replit AI 推出「自然语言编程」：描述需求即可生成应用」的详细报道。该事件在 AI 行业引发广泛关注，多位业内人士表示这将深刻影响行业格局。更多细节请查看原文。",
+      "snark": "AI圈新闻：今天又是核聚变级别的一天。"
+    },
+    {
+      "id": 12,
+      "cat": "tool",
+      "title": "中国发布大模型训练新规：数据安全和内容审核成焦点",
+      "title_en": "",
+      "source": "MarkTechPost",
+      "url": "https://example.com/ai-news/3600",
+      "time": "8天前",
+      "published": "2026-05-06T16:55:00+08:00",
+      "summary": "这是一条关于「中国发布大模型训练新规：数据安全和内容审核成焦点」的详细报道。该事件在 AI 行业引发广泛关注，多位业内人士表示这将深刻影响行业格局。更多细节请查看原文。",
+      "snark": "又双叒叕一个「里程碑」，今年第几个了？"
+    }
+  ],
+  "stats": {
+    "total": 12,
+    "model_count": 3,
+    "strategy_count": 6,
+    "tool_count": 3
+  },
+  "fun": {
+    "lucky": "Gemini 2.5 Pro",
+    "advice": "宜：多模态探索\n忌：只用文字交互",
+    "joke": "问：一个 AI 走进酒吧，点了什么？\n答：一杯 transformer-ade，不加糖，但要 1750 亿个参数。"
+  }
+}

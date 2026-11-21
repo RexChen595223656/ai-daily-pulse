@@ -1,0 +1,163 @@
+{
+  "date": "2026-07-31",
+  "generated_at": "2026-07-31T09:05:25.656739+08:00",
+  "highlight": "AI 行业今日聚焦于监管争议、模型突破与平台治理：法官质疑对 Anthropic 的禁令，DeepMind 发布全身控制机器人模型，LinkedIn 推出“疑似 AI 垃圾”举报按钮。",
+  "fun": {
+    "lucky": "Gemini Robotics 2",
+    "advice": "宜：控制机器人全身，从脚趾到指尖。\n忌：只练上半身，忘了下半身。",
+    "joke": "AI 修好了 Chrome 所有 bug，然后给自己写了个新 bug：“请勿关闭”。"
+  },
+  "articles": [
+    {
+      "id": 1,
+      "cat": "strategy",
+      "title": "AI 对冲基金“情境感知”被迫清仓公开股票，但仍持有 Anthropic 股份",
+      "title_en": "AI hedge fund Situational Awareness may have sold its public portfolio, but it still has its Anthropic shares",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/07/30/ai-hedge-fund-situational-awareness-may-have-sold-its-public-portfolio-but-it-still-has-its-anthropic-shares/",
+      "time": "1小时前",
+      "published": "2026-07-30T23:25:58+00:00",
+      "summary": "由前 OpenAI 研究员创立的人工智能对冲基金“情境感知”（Situational Awareness）在杠杆公开市场押注暴跌后，被迫清算了其公开股票投资组合。该基金此前因高杠杆操作导致巨额亏损，不得不抛售所有公开持仓。然而，该基金仍持有非公开公司 Anthropic 的大量股份，这可能是其后续翻盘的关键筹码。Anthropic 作为 AI 领域的重要玩家，其估值持续增长，这些未变现的资产或许能帮助基金挽回部分损失。此次事件也再次警示了 AI 领域投资的高风险性，尤其是在杠杆交易中的脆弱性。",
+      "snark": "名字叫“情境感知”，但显然没感知到自己的仓位要爆。"
+    },
+    {
+      "id": 2,
+      "cat": "strategy",
+      "title": "投资者只爱云服务商：亚马逊数据中心支出不减反获青睐",
+      "title_en": "Investors love AI, as long as you’re a cloud host",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/07/30/investors-love-ai-as-long-as-youre-a-cloud-host/",
+      "time": "2小时前",
+      "published": "2026-07-30T22:41:41+00:00",
+      "summary": "亚马逊在 AI 基础设施上的投入并未放缓，反而持续加大数据中心建设支出。与市场普遍预期不同，投资者对此并未表现出担忧，反而表示支持。这表明在当前 AI 热潮中，投资者更青睐提供底层算力服务的云服务商，而非单纯追逐 AI 模型或应用公司。亚马逊 AWS 作为全球最大的云服务提供商，其数据中心扩张被视为抢占 AI 时代基础设施先机的重要举措。这种资本偏好也反映了市场对“卖铲子”商业模式的高度认可，即通过为 AI 提供必需的计算资源来获取稳定收益。",
+      "snark": "AI 淘金热里，卖铲子的永远比挖金子的赚得多，这次连铲子都是云的。"
+    },
+    {
+      "id": 3,
+      "cat": "strategy",
+      "title": "蒂姆·库克暗示 iCloud Plus 将推出 AI 重度用户付费升级方案",
+      "title_en": "Tim Cook hints at iCloud Plus tier for AI power users",
+      "source": "The Verge AI",
+      "url": "https://www.theverge.com/tech/973552/apple-ceo-tim-cook-icloud-plus-ai",
+      "time": "2小时前",
+      "published": "2026-07-30T22:29:45+00:00",
+      "summary": "苹果公司 CEO 蒂姆·库克在财报电话会议上暗示，苹果正在考虑为 iCloud Plus 用户提供 AI 功能升级选项。库克表示，他相信用户会“大量”使用苹果智能（Apple Intelligence）和即将推出的 Siri AI，因此公司计划在 iCloud Plus 中引入某种升级可能性，以应对更高的使用需求。这标志着苹果可能效仿其他科技公司，将高级 AI 功能作为付费增值服务。目前具体定价和功能细节尚未公布，但此举暗示苹果正在探索将 AI 能力货币化的新路径，同时也可能缓解免费 AI 服务带来的算力成本压力。",
+      "snark": "Siri 终于要收费了？希望升级后的它能听懂人话，而不是“我好像没听懂”。"
+    },
+    {
+      "id": 4,
+      "cat": "strategy",
+      "title": "“情境感知”基金爆仓启示：别给对冲基金起个会变成笑话的名字",
+      "title_en": "The loss of Situational Awareness",
+      "source": "The Verge AI",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/973467/ai-bet-situational-awareness-oops-stonks",
+      "time": "4小时前",
+      "published": "2026-07-30T20:46:25+00:00",
+      "summary": "评论文章指出，AI 对冲基金“情境感知”（Situational Awareness）的爆仓事件，再次验证了一个金融界的古老教训：不要给你的基金起一个在爆仓时会变得极其讽刺的名字。从“长期资本管理”到“苋菜顾问”，再到如今的“情境感知”，这些名字在基金成功时显得睿智，但在失败时却成了绝佳的笑料。该基金因杠杆押注 AI 股票暴跌而被迫清仓，其名称恰好对应了其缺乏对市场风险的“情境感知”能力。这一事件也引发了业界对 AI 投资热潮中过度自信和风险管理缺失的反思。",
+      "snark": "下次起名建议叫“稳如老狗基金”，至少爆仓时还能图个反差萌。"
+    },
+    {
+      "id": 5,
+      "cat": "policy",
+      "title": "法官裁定特朗普政府仍无证据支持将 Anthropic 列为“供应链风险”",
+      "title_en": "Judge says Trump admin still lacks evidence for Anthropic ‘supply-chain risk’ label",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/07/30/judge-says-trump-admin-still-lacks-evidence-for-anthropic-supply-chain-risk-label/",
+      "time": "4小时前",
+      "published": "2026-07-30T20:26:38+00:00",
+      "summary": "一名联邦法官裁定，特朗普政府未能提供充分证据来证明将 AI 公司 Anthropic 列为“供应链风险”是合理的。这一裁决对政府禁止使用 Anthropic AI 技术的禁令有效性提出了质疑。此前，美国政府以国家安全为由，将 Anthropic 标记为潜在供应链风险，并限制其技术在美国政府项目中的使用。法官认为，政府的指控缺乏具体证据支持，要求政府补充材料。此案反映了美国国内在 AI 监管上的分歧，也凸显了政府在以安全名义限制特定 AI 公司时面临的法律挑战。Anthropic 方面对此裁决表示欢迎。",
+      "snark": "政府想给 AI 公司贴标签，法官说：请先拿出证据，别光靠“我觉得”。"
+    },
+    {
+      "id": 6,
+      "cat": "tool",
+      "title": "AI 孤独陪伴设备“朋友”回归：新增语音功能，价格翻倍",
+      "title_en": "Friend, the lonely AI wearable, returns with a new voice and a much bigger price tag",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/07/30/friend-the-lonely-ai-wearable-returns-with-a-new-voice-and-a-much-bigger-price-tag/",
+      "time": "5小时前",
+      "published": "2026-07-30T19:44:16+00:00",
+      "summary": "AI 可穿戴设备“朋友”（Friend）以全新版本回归市场，最大的变化是新增了语音交互功能。这款原本只能通过文字与用户交流的 AI 挂坠，现在可以主动与用户对话。然而，伴随新功能而来的是价格的大幅上涨——新版本售价是原版的两倍。此前，“朋友”公司曾因花费 180 万美元购买域名 friend.com 而闻名，此次涨价也引发了消费者对其性价比的质疑。该公司表示，新语音功能采用了更先进的 AI 模型，能够提供更自然的陪伴体验。但批评者认为，在 AI 竞争日益激烈的当下，仅靠涨价和语音功能难以维持差异化优势。",
+      "snark": "花两倍的钱买一个能说话的挂坠，其实你打开手机就能跟 Siri 免费聊。"
+    },
+    {
+      "id": 7,
+      "cat": "tool",
+      "title": "谷歌称借助 AI，六月修复的 Chrome 漏洞数超过过去两年总和",
+      "title_en": "Google says it fixed more Chrome bugs in June than over the past two years, thanks to AI",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/07/30/google-says-it-fixed-more-chrome-bugs-in-june-than-over-the-past-two-years-thanks-to-ai/",
+      "time": "6小时前",
+      "published": "2026-07-30T18:57:58+00:00",
+      "summary": "谷歌宣布，在 AI 工具的帮助下，其 Chrome 浏览器团队在 6 月份修复的漏洞数量超过了过去两年的总和。这一惊人成果得益于大型语言模型（LLM）和 AI 辅助漏洞检测技术的应用。随着微软等公司也开始采用类似方法，安全专家此前已警告，AI 将大幅提升漏洞发现和修补的速度。谷歌表示，AI 不仅能够自动扫描代码库中的潜在缺陷，还能生成修复建议，极大提高了安全团队的效率。这一进展标志着 AI 在软件安全领域的应用进入新阶段，但也引发了对“AI 生成漏洞”与“AI 修复漏洞”之间军备竞赛的担忧。",
+      "snark": "AI 一个月修的 bug 比过去两年还多，说明以前 Chrome 的 bug 是留着过年的吗？"
+    },
+    {
+      "id": 8,
+      "cat": "tool",
+      "title": "LinkedIn 新增“疑似 AI 垃圾”举报按钮",
+      "title_en": "LinkedIn actually adds a ‘seems like AI slop’ button",
+      "source": "The Verge AI",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/973384/linkedin-seems-like-ai-slop-button",
+      "time": "6小时前",
+      "published": "2026-07-30T18:43:26+00:00",
+      "summary": "职业社交平台 LinkedIn 宣布推出一系列更新，以遏制平台上泛滥的低质量 AI 生成内容。其中最具标志性的举措是新增了一个“疑似 AI 垃圾”（Seems like AI slop）举报按钮。用户现在可以在帖子右上角找到该选项，用于标记那些看起来像是 AI 生成的、缺乏真实性的内容。此外，LinkedIn 还计划用 AI 校对工具取代原有的 AI 写作辅助功能，以鼓励用户创作更真实、更有价值的帖子。这一系列举措反映了平台在 AI 内容泛滥时代面临的治理挑战，也体现了 LinkedIn 试图在保持用户活跃度和内容质量之间寻找平衡。",
+      "snark": "LinkedIn 终于承认了：你们发的那些“今天很荣幸”的鸡汤，AI 都看不下去了。"
+    },
+    {
+      "id": 9,
+      "cat": "tool",
+      "title": "LinkedIn 推出“疑似 AI 垃圾”举报功能并替换 AI 写作工具",
+      "title_en": "LinkedIn adds a button to report AI-generated ‘slop’",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/07/30/linkedin-adds-a-button-to-report-ai-generated-slop/",
+      "time": "7小时前",
+      "published": "2026-07-30T18:05:21+00:00",
+      "summary": "LinkedIn 正在推出一系列新措施来减少低质量 AI 生成帖子的数量，其中最具争议的是新增了“疑似 AI 垃圾”（seems like AI slop）举报选项。用户可以通过该按钮举报疑似由 AI 生成的、内容空洞的帖子。与此同时，LinkedIn 还决定用 AI 校对工具取代其原有的 AI 写作功能，后者曾因生成大量模板化、缺乏个性的内容而饱受批评。新工具将专注于帮助用户改进语法和措辞，而非直接生成完整文本。这些变化表明，LinkedIn 正试图在利用 AI 提升用户体验与防止 AI 内容泛滥之间找到更精细的平衡点。",
+      "snark": "AI 写作工具被自己生成的垃圾逼得下岗了，这算不算 AI 界的“内卷”？"
+    },
+    {
+      "id": 10,
+      "cat": "model",
+      "title": "Google DeepMind 新 AI 模型可控制人形机器人全身运动",
+      "title_en": "Google DeepMind’s new AI model can control a robot’s entire body",
+      "source": "The Verge AI",
+      "url": "https://www.theverge.com/tech/973276/google-deepmind-gemini-robotics-2-whole-body",
+      "time": "7小时前",
+      "published": "2026-07-30T17:18:45+00:00",
+      "summary": "Google DeepMind 发布了其 Gemini Robotics 系列的最新版本——Gemini Robotics 2。与前代仅能控制人形机器人上半身不同，新模型现在支持“全身运动”，从脚趾到指尖均可精确控制。这意味着机器人能够执行更复杂的全身协调任务，如蹲下、转身、抓取地面物体等。该模型基于多模态大语言模型架构，能够理解自然语言指令并将其转化为全身动作序列。Google DeepMind 表示，这一突破为人形机器人在家庭服务、工业制造等场景中的实际应用奠定了基础。不过，目前该模型仍处于实验室阶段，距离商业化还有距离。",
+      "snark": "终于能控制脚趾了，下一步是不是该教机器人跳科目三？"
+    },
+    {
+      "id": 11,
+      "cat": "tool",
+      "title": "AI 挂坠“朋友”重新发布：新增扬声器对话功能，售价翻倍",
+      "title_en": "Friend re-launches its AI pendant with a speaker that talks to you, for twice the price",
+      "source": "The Verge AI",
+      "url": "https://www.theverge.com/gadgets/973163/friend-re-launches-its-ai-pendant-with-a-speaker-that-talks-to-you-for-twice-the-price",
+      "time": "8小时前",
+      "published": "2026-07-30T16:33:32+00:00",
+      "summary": "还记得那个花 180 万美元买域名、在纽约地铁铺满广告的 AI 挂坠“朋友”（Friend）吗？它现在回来了，而且价格翻倍。新版“朋友”最大的变化是内置了扬声器，能够主动与用户对话，而不再仅限于文字交流。该公司声称新版本提供了更真实的“人工陪伴”体验。然而，批评者指出，在 ChatGPT 等通用 AI 助手免费可用的今天，花高价购买一个功能单一的对话挂坠显得性价比极低。此前该公司曾因烧钱营销和域名收购而备受争议，此次涨价策略能否获得市场认可仍有待观察。",
+      "snark": "花 180 万买域名，再花双倍价钱卖挂坠，这商业模式 AI 都算不明白。"
+    },
+    {
+      "id": 12,
+      "cat": "strategy",
+      "title": "Okta 以约 2 亿美元收购 AI 安全初创公司 Permiso",
+      "title_en": "Okta buys AI security startup Permiso — source says for about $200M",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/07/30/okta-buys-ai-security-startup-permiso-source-says-for-about-200m/",
+      "time": "8小时前",
+      "published": "2026-07-30T16:09:42+00:00",
+      "summary": "身份认证巨头 Okta 宣布收购 AI 安全初创公司 Permiso，据知情人士透露交易金额约为 2 亿美元。Permiso 专注于身份威胁检测领域，其技术能够帮助企业保护 AI 代理和其他非人类身份在云环境中的安全。随着企业越来越多地部署 AI 代理和自动化工作流，如何确保这些“非人类”身份不被滥用成为新的安全挑战。此次收购将帮助 Okta 扩展其身份安全能力，覆盖 AI 时代的新兴威胁场景。这也是 Okta 在 AI 安全领域的重要布局，反映了网络安全行业对 AI 驱动攻击和防护需求的快速增长。",
+      "snark": "2 亿美元买一个 AI 安全公司，看来 AI 代理的“身份焦虑”比人类还严重。"
+    }
+  ],
+  "stats": {
+    "total": 12,
+    "model_count": 1,
+    "strategy_count": 5,
+    "tool_count": 5,
+    "policy_count": 1
+  }
+}

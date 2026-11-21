@@ -1,0 +1,161 @@
+{
+  "date": "2026-04-22",
+  "highlight": "视频生成模型集中爆发，Sora、Kling、Veo 三强争霸，创意产业迎来变革",
+  "articles": [
+    {
+      "id": 1,
+      "cat": "model",
+      "title": "Grok-4 发布：xAI 称推理能力业界第一",
+      "title_en": "",
+      "source": "The Verge AI",
+      "url": "https://example.com/ai-news/2412",
+      "time": "22天前",
+      "published": "2026-04-22T10:07:00+08:00",
+      "summary": "这是一条关于「Grok-4 发布：xAI 称推理能力业界第一」的详细报道。该事件在 AI 行业引发广泛关注，多位业内人士表示这将深刻影响行业格局。更多细节请查看原文。",
+      "snark": "又双叒叕一个「里程碑」，今年第几个了？"
+    },
+    {
+      "id": 2,
+      "cat": "model",
+      "title": "Midjourney V8 上线，支持实时协作和 3D 场景生成",
+      "title_en": "",
+      "source": "AI News",
+      "url": "https://example.com/ai-news/4758",
+      "time": "22天前",
+      "published": "2026-04-22T16:40:00+08:00",
+      "summary": "这是一条关于「Midjourney V8 上线，支持实时协作和 3D 场景生成」的详细报道。该事件在 AI 行业引发广泛关注，多位业内人士表示这将深刻影响行业格局。更多细节请查看原文。",
+      "snark": "AI圈日常：今天你发模型，明天我刷榜。"
+    },
+    {
+      "id": 3,
+      "cat": "model",
+      "title": "Sora 2 公测：OpenAI 视频生成时长扩展至 2 分钟",
+      "title_en": "",
+      "source": "36氪",
+      "url": "https://example.com/ai-news/2068",
+      "time": "22天前",
+      "published": "2026-04-22T18:48:00+08:00",
+      "summary": "这是一条关于「Sora 2 公测：OpenAI 视频生成时长扩展至 2 分钟」的详细报道。该事件在 AI 行业引发广泛关注，多位业内人士表示这将深刻影响行业格局。更多细节请查看原文。",
+      "snark": "编辑部：这条我们也不知道怎么评价。"
+    },
+    {
+      "id": 4,
+      "cat": "model",
+      "title": "Meta 开源 Llama 4 405B，称性能超越 GPT-4.5",
+      "title_en": "",
+      "source": "MIT Tech Review",
+      "url": "https://example.com/ai-news/7564",
+      "time": "22天前",
+      "published": "2026-04-22T17:41:00+08:00",
+      "summary": "这是一条关于「Meta 开源 Llama 4 405B，称性能超越 GPT-4.5」的详细报道。该事件在 AI 行业引发广泛关注，多位业内人士表示这将深刻影响行业格局。更多细节请查看原文。",
+      "snark": "这条新闻让同行们集体沉默了3秒，然后继续卷。"
+    },
+    {
+      "id": 5,
+      "cat": "model",
+      "title": "Cursor 2.0 发布：AI 原生 IDE 支持全栈项目自动生成",
+      "title_en": "",
+      "source": "The Verge",
+      "url": "https://example.com/ai-news/5485",
+      "time": "22天前",
+      "published": "2026-04-22T08:41:00+08:00",
+      "summary": "这是一条关于「Cursor 2.0 发布：AI 原生 IDE 支持全栈项目自动生成」的详细报道。该事件在 AI 行业引发广泛关注，多位业内人士表示这将深刻影响行业格局。更多细节请查看原文。",
+      "snark": "AI圈新闻：今天又是核聚变级别的一天。"
+    },
+    {
+      "id": 6,
+      "cat": "strategy",
+      "title": "LangChain 发布生产级 Agent 框架：支持多模型协作",
+      "title_en": "",
+      "source": "DeepMind Blog",
+      "url": "https://example.com/ai-news/1261",
+      "time": "22天前",
+      "published": "2026-04-22T15:07:00+08:00",
+      "summary": "这是一条关于「LangChain 发布生产级 Agent 框架：支持多模型协作」的详细报道。该事件在 AI 行业引发广泛关注，多位业内人士表示这将深刻影响行业格局。更多细节请查看原文。",
+      "snark": "这条新闻让同行们集体沉默了3秒，然后继续卷。"
+    },
+    {
+      "id": 7,
+      "cat": "strategy",
+      "title": "Perplexity 完成 10 亿美元融资，AI 搜索估值突破 200 亿",
+      "title_en": "",
+      "source": "Hacker News",
+      "url": "https://example.com/ai-news/6345",
+      "time": "22天前",
+      "published": "2026-04-22T16:58:00+08:00",
+      "summary": "这是一条关于「Perplexity 完成 10 亿美元融资，AI 搜索估值突破 200 亿」的详细报道。该事件在 AI 行业引发广泛关注，多位业内人士表示这将深刻影响行业格局。更多细节请查看原文。",
+      "snark": "这条新闻让同行们集体沉默了3秒，然后继续卷。"
+    },
+    {
+      "id": 8,
+      "cat": "strategy",
+      "title": "Stable Diffusion 4 发布，文生图进入 8K 时代",
+      "title_en": "",
+      "source": "Synced Review",
+      "url": "https://example.com/ai-news/2790",
+      "time": "22天前",
+      "published": "2026-04-22T09:21:00+08:00",
+      "summary": "这是一条关于「Stable Diffusion 4 发布，文生图进入 8K 时代」的详细报道。该事件在 AI 行业引发广泛关注，多位业内人士表示这将深刻影响行业格局。更多细节请查看原文。",
+      "snark": "AI圈新闻：今天又是核聚变级别的一天。"
+    },
+    {
+      "id": 9,
+      "cat": "strategy",
+      "title": "NVIDIA 发布 B300 GPU：算力翻倍，AI 训练市场进一步垄断",
+      "title_en": "",
+      "source": "Google AI Blog",
+      "url": "https://example.com/ai-news/5382",
+      "time": "22天前",
+      "published": "2026-04-22T20:53:00+08:00",
+      "summary": "这是一条关于「NVIDIA 发布 B300 GPU：算力翻倍，AI 训练市场进一步垄断」的详细报道。该事件在 AI 行业引发广泛关注，多位业内人士表示这将深刻影响行业格局。更多细节请查看原文。",
+      "snark": "AI圈新闻：今天又是核聚变级别的一天。"
+    },
+    {
+      "id": 10,
+      "cat": "strategy",
+      "title": "Google DeepMind 重组：AI 研究团队与产品团队合并",
+      "title_en": "",
+      "source": "TechCrunch",
+      "url": "https://example.com/ai-news/7973",
+      "time": "22天前",
+      "published": "2026-04-22T22:21:00+08:00",
+      "summary": "这是一条关于「Google DeepMind 重组：AI 研究团队与产品团队合并」的详细报道。该事件在 AI 行业引发广泛关注，多位业内人士表示这将深刻影响行业格局。更多细节请查看原文。",
+      "snark": "AI圈日常：今天你发模型，明天我刷榜。"
+    },
+    {
+      "id": 11,
+      "cat": "strategy",
+      "title": "字节跳动成立万亿参数大模型团队，目标 2027 年赶超 GPT-6",
+      "title_en": "",
+      "source": "少数派",
+      "url": "https://example.com/ai-news/6238",
+      "time": "22天前",
+      "published": "2026-04-22T17:15:00+08:00",
+      "summary": "这是一条关于「字节跳动成立万亿参数大模型团队，目标 2027 年赶超 GPT-6」的详细报道。该事件在 AI 行业引发广泛关注，多位业内人士表示这将深刻影响行业格局。更多细节请查看原文。",
+      "snark": "AI圈日常：今天你发模型，明天我刷榜。"
+    },
+    {
+      "id": 12,
+      "cat": "tool",
+      "title": "Figma AI 2.0：文本生成设计稿，设计师角色被重新定义",
+      "title_en": "",
+      "source": "Google AI Blog",
+      "url": "https://example.com/ai-news/4798",
+      "time": "22天前",
+      "published": "2026-04-22T14:43:00+08:00",
+      "summary": "这是一条关于「Figma AI 2.0：文本生成设计稿，设计师角色被重新定义」的详细报道。该事件在 AI 行业引发广泛关注，多位业内人士表示这将深刻影响行业格局。更多细节请查看原文。",
+      "snark": "又双叒叕一个「里程碑」，今年第几个了？"
+    }
+  ],
+  "stats": {
+    "total": 12,
+    "model_count": 5,
+    "strategy_count": 6,
+    "tool_count": 1
+  },
+  "fun": {
+    "lucky": "Llama 4 405B",
+    "advice": "宜：开源贡献\n忌：重复造轮子",
+    "joke": "问：一个 AI 走进酒吧，点了什么？\n答：一杯 transformer-ade，不加糖，但要 1750 亿个参数。"
+  }
+}

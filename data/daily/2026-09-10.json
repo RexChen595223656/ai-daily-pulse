@@ -1,0 +1,171 @@
+{
+  "date": "2026-09-10",
+  "generated_at": "2026-09-10T08:00:47.330572+08:00",
+  "highlight": "苹果秋季发布会携AI全家桶来袭，OpenAI数学突破引学界震动，AI安全与隐私议题持续升温。",
+  "fun": {
+    "lucky": "苹果",
+    "advice": "宜：发布新品，宣示隐私保护。\n忌：让手表听得太认真，小心用户拔电池。",
+    "joke": "AI 算命说我能活到 100 岁，我问它怎么算的，它说：你手机上的健康数据是这么说的。"
+  },
+  "articles": [
+    {
+      "id": 1,
+      "cat": "tool",
+      "title": "谷歌开源 Mantis：让编程智能体自主完成漏洞修复全流程",
+      "title_en": "Google Open-Sources Mantis: A Modular Skills Toolkit That Lets Coding Agents Find, Reproduce and Patch Vulnerabilities",
+      "source": "MarkTechPost",
+      "url": "https://www.marktechpost.com/2026/09/09/google-open-sources-mantis-a-modular-skills-toolkit-that-lets-coding-agents-find-reproduce-and-patch-vulnerabilities/",
+      "time": "1小时前",
+      "published": "2026-09-09T22:58:29+00:00",
+      "summary": "谷歌开源了一款名为 Mantis 的模块化技能工具箱，旨在为 AI 编程智能体提供全面的安全审查能力。该工具箱与具体技术栈无关，能够引导智能体走完漏洞生命周期：首先扫描代码并过滤误报，然后在沙盒环境中复现漏洞，接着进行补丁编写，并对补丁进行再攻击测试以验证其有效性，最后对漏洞风险进行评分。Mantis 采用 Apache 2.0 许可证，并附有详细文档，便于开发者集成和使用。此举有望显著提升 AI 在代码安全领域的应用深度，从单纯的代码生成扩展到主动的安全防御。",
+      "snark": "开源了，但智能体修 bug 的时候，希望别把整个代码库重构了。"
+    },
+    {
+      "id": 2,
+      "cat": "strategy",
+      "title": "OpenAI 董事会迎来知名 AI 风险论者保罗·克里斯蒂亚诺",
+      "title_en": "OpenAI adds a prominent AI doomer to its board of directors",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/09/09/openai-adds-a-prominent-ai-doomer-to-its-board-of-directors/",
+      "time": "1小时前",
+      "published": "2026-09-09T22:25:22+00:00",
+      "summary": "据 TechCrunch 报道，颇具影响力的 AI 研究者保罗·克里斯蒂亚诺将加入 OpenAI 基金会并成为其董事会成员。克里斯蒂亚诺长期专注于 AI 对齐问题，是 AI 风险领域的知名人物。他的加入被外界解读为 OpenAI 在追求通用人工智能过程中，对安全与伦理议题的进一步重视。尽管 OpenAI 近年来在商业化上大步前进，但此次吸纳对齐研究领域的代表人物进入董事会，或意在平衡技术发展与风险管控之间的关系，回应外界对其安全文化的质疑。",
+      "snark": "董事会终于有个真懂‘末日’的，不是只会写邮件警告那种。"
+    },
+    {
+      "id": 3,
+      "cat": "policy",
+      "title": "马萨诸塞州对数据中心实施清洁能源新规",
+      "title_en": "Massachusetts hits data centers with new clean power rules",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/09/09/massachusetts-hits-data-centers-with-new-clean-power-rules/",
+      "time": "2小时前",
+      "published": "2026-09-09T21:43:34+00:00",
+      "summary": "马萨诸塞州成为近三个月内第三个对数据中心开发施加新限制的州。新规聚焦于清洁电力使用标准，要求新建数据中心必须符合更严格的能源效率与可再生能源采购要求。此举旨在应对 AI 热潮带来的数据中心电力需求激增，以及由此产生的碳排放压力。分析认为，此类地方性法规可能逐渐成为趋势，对科技巨头的数据中心选址与运营成本产生直接影响，并推动行业加速采用绿色能源技术。",
+      "snark": "下一个‘数据中心之州’怕是要靠太阳能板才能招商引资了。"
+    },
+    {
+      "id": 4,
+      "cat": "model",
+      "title": "Suno 发布首个与唱片业合作训练的 AI 音乐模型 v6",
+      "title_en": "Suno releases its first AI music model made with record industry help",
+      "source": "The Verge AI",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/991977/suno-releases-its-first-ai-music-model-made-with-record-industry-help",
+      "time": "2小时前",
+      "published": "2026-09-09T21:42:19+00:00",
+      "summary": "AI 音乐生成公司 Suno 发布了其第六代模型 v6，这是首个在唱片业支持下训练的版本。据 Suno 高管杰克·布罗迪透露，v6 完全重新训练，使用了全新的数据集，不再包含此前模型所用的数据。新数据包含来自唱片公司的授权内容，这标志着 AI 音乐创作在版权合规道路上迈出关键一步。该模型旨在提高生成音乐的质量与合法性，并为未来的商业模式奠定基础。此举或将为 AI 音乐产业树立新标杆。",
+      "snark": "终于给音乐人分钱了，不过歌单里可能全是‘AI 洗稿’的旋律。"
+    },
+    {
+      "id": 5,
+      "cat": "model",
+      "title": "OpenAI 悄然解决千禧年数学难题，学界反响复杂",
+      "title_en": "OpenAI’s sly mathematical breakthrough sends a chill through academia",
+      "source": "The Verge AI",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/992953/openai-math-millennium-prize-navier-stokes",
+      "time": "2小时前",
+      "published": "2026-09-09T21:16:34+00:00",
+      "summary": "OpenAI 于周二宣布解决了数学领域著名的千禧年大奖难题之一，这本应是值得庆祝的时刻。该成果既是不可否认的成就，也惊人地展示了 AI 正在以多快的速度改变数学研究。然而，在正式发布之前，这一消息已在学术界引发复杂情绪。许多数学家既惊叹于 AI 的推理能力，又担忧人类数学家的工作价值与未来角色。该事件可能加速数学研究范式的转变，并引发关于 AI 在科学发现中地位的深入讨论。",
+      "snark": "AI 解出数学难题，人类数学家开始思考自己是不是也成了‘遗留系统’。",
+      "multiSource": [
+        "The Verge",
+        "The Verge AI"
+      ]
+    },
+    {
+      "id": 6,
+      "cat": "policy",
+      "title": "苹果发布隐私文档，详解新音频功能如何保护用户数据",
+      "title_en": "Read the Apple document explaining how new listening features still protect your privacy",
+      "source": "The Verge AI",
+      "url": "https://www.theverge.com/tech/992919/apple-siri-ai-audio-intelligence-privacy",
+      "time": "3小时前",
+      "published": "2026-09-09T20:44:43+00:00",
+      "summary": "在周三的 iPhone Duo 发布会上，苹果宣布了一系列新的 Siri AI 音频智能功能，包括 Siri 回顾、实时倒带、声音识别和音乐识别。同时，苹果发布了一份文档，详细说明了如何在“环境聆听”功能中平衡 AI 能力与隐私保护。文档指出，相关功能将尽量在设备端处理音频数据，并采用差分隐私等技术确保用户隐私。此举旨在缓解外界对 AI 持续监听风险的担忧，并展示苹果在隐私保护方面的技术投入。",
+      "snark": "文档写得比功能还长，但用户只想知道手机是不是在偷听。"
+    },
+    {
+      "id": 7,
+      "cat": "policy",
+      "title": "苹果手表新 AI 功能：让‘随时被录音’变成常态？",
+      "title_en": "Apple Watch’s new AI features are normalizing the idea that technology is always listening",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/09/09/apple-watchs-new-ai-features-are-normalizing-the-idea-that-technology-is-always-listening/",
+      "time": "3小时前",
+      "published": "2026-09-09T20:24:48+00:00",
+      "summary": "苹果表示其新款手表不会保存原始音频，但具备转写近期语音和总结周围对话的功能，这引发了关于同意、隐私以及人们行为方式的新问题。当人们知道自己可能随时被录音时，行为会发生改变。苹果手表的新功能正在将“科技一直在聆听”这一概念正常化，尽管其初衷是便利，但长远来看可能对社会互动和隐私预期产生深远影响。该报道聚焦于技术便利与个人隐私之间的张力。",
+      "snark": "苹果手表：‘我没在录，只是帮你记住刚才说了啥。’"
+    },
+    {
+      "id": 8,
+      "cat": "tool",
+      "title": "苹果秋季发布会：可折叠 iPhone Duo 与‘随时聆听’手表亮相",
+      "title_en": "Everything Apple announced at its fall iPhone event, from the foldable iPhone Duo to an always-listening Apple Watch",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/09/09/everything-apple-announced-at-its-fall-iphone-event-from-the-foldable-iphone-duo-to-an-always-listening-apple-watch/",
+      "time": "3小时前",
+      "published": "2026-09-09T20:03:43+00:00",
+      "summary": "苹果秋季发布会如期举行，最受瞩目的产品是传闻已久的首款可折叠手机 iPhone Duo。此外，苹果还发布了配备全新 AI 音频功能的手表，该手表具备“随时聆听”能力，可进行语音转写与摘要。整场发布会凸显了 AI 在苹果产品线中的核心地位，从摄像头到健康应用，AI 无处不在。这些新品的推出，标志着苹果在 AI 硬件与应用结合上的进一步探索，同时也引发了对隐私和用户习惯改变的讨论。",
+      "snark": "苹果把 AI 塞进了所有设备，就差给充电器也加个神经网络了。"
+    },
+    {
+      "id": 9,
+      "cat": "tool",
+      "title": "苹果 iPhone 18 Pro 新相机模式：用‘像素签名’证明照片非 AI 生成",
+      "title_en": "Apple’s new iPhone camera mode promises to prove your photo isn’t AI",
+      "source": "The Verge AI",
+      "url": "https://www.theverge.com/tech/992766/apple-iphone-18-pro-reference-image",
+      "time": "4小时前",
+      "published": "2026-09-09T19:30:12+00:00",
+      "summary": "苹果推出了一项名为“参考图像”的新功能，旨在证明用户拍摄的照片未被 AI 篡改。该功能将随 iPhone 18 Pro 系列在本月晚些时候推出，利用设备的新型相机传感器为“每一个像素签名”。这一举措直接回应了 AI 生成内容泛滥背景下人们对照片真实性的担忧。通过硬件级别的加密签名，用户可以验证照片的原始性，为新闻摄影、司法取证等领域提供可信依据。",
+      "snark": "以后照片造假难了，但修图软件可能得改行做‘像素印章’了。",
+      "multiSource": [
+        "TechCrunch",
+        "The Verge AI"
+      ]
+    },
+    {
+      "id": 10,
+      "cat": "tool",
+      "title": "苹果可折叠手机铰链用上 AI 制造",
+      "title_en": "The hinge for Apple’s new foldable phone was built with AI",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/09/09/the-hinge-for-apples-new-foldable-phone-was-built-with-ai/",
+      "time": "4小时前",
+      "published": "2026-09-09T19:21:48+00:00",
+      "summary": "苹果表示，在其备受期待的可折叠手机的制造过程中，使用了 AI 和 3D 打印技术来生产铰链部件。这一创新旨在提升铰链的强度与耐用性，同时实现更复杂的几何结构，以应对折叠屏设备的关键挑战。AI 的引入使得设计与制造流程更加高效，能够优化材料分布并预测潜在故障点。这显示出苹果在硬件制造领域正越来越多地依赖 AI 与先进制造技术，以保持产品竞争力。",
+      "snark": "AI 造的铰链，希望不会比人类的感情还容易折。"
+    },
+    {
+      "id": 11,
+      "cat": "tool",
+      "title": "苹果重构健康应用：AI 计算你的‘健康年龄’与准备度评分",
+      "title_en": "Apple’s revamped Health app will calculate your ‘health age’ and readiness score",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/09/09/apples-revamped-health-app-will-calculate-your-health-age-and-readiness-score/",
+      "time": "5小时前",
+      "published": "2026-09-09T18:16:29+00:00",
+      "summary": "苹果对其健康应用进行了重大更新，新版本将利用苹果智能（Apple Intelligence）更深入地分析用户的健康数据，并计算出“健康年龄”和“准备度评分”。其中，“健康年龄”基于用户的生理指标、活动水平等综合评估，而“准备度评分”则用于指示用户当天适合进行何种强度的活动。这一更新旨在将被动记录转变为主动健康管理，为用户提供更具个性化的洞察和建议。",
+      "snark": "健康年龄比我实际年龄还大，这应用是想让我焦虑吗？"
+    },
+    {
+      "id": 12,
+      "cat": "strategy",
+      "title": "苹果 CEO 约翰·特努斯：最好的 AI 设备依然是 iPhone",
+      "title_en": "Apple CEO John Ternus says the best AI device is still the iPhone",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/09/09/apple-ceo-john-ternus-says-the-best-ai-device-is-still-the-iphone/",
+      "time": "6小时前",
+      "published": "2026-09-09T17:36:05+00:00",
+      "summary": "苹果 CEO 约翰·特努斯在发布会上表示，尽管 AI 技术飞速发展，但 iPhone 仍然是体验 AI 的最佳设备。他强调，苹果的设备端模型能够为用户提供更高的隐私保护，因为数据处理大多在本地完成，而非上传至云端。这一策略与苹果长期以来坚持的隐私保护理念一脉相承，并试图在 AI 时代重新定义用户体验。特努斯的表态也暗示了苹果将继续把 AI 能力深度整合进 iPhone，而非推出独立 AI 硬件。",
+      "snark": "iPhone：最好的 AI 设备，也是最贵的 AI 设备。"
+    }
+  ],
+  "stats": {
+    "total": 12,
+    "model_count": 2,
+    "strategy_count": 2,
+    "tool_count": 5,
+    "policy_count": 3
+  }
+}

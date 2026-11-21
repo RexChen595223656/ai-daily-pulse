@@ -1,0 +1,167 @@
+{
+  "date": "2026-10-23",
+  "generated_at": "2026-10-23T08:00:41.713269+08:00",
+  "highlight": "OpenAI 拟以 1.25 万亿美元估值融资 300 亿美元，AI 资本盛宴再破纪录。",
+  "fun": {
+    "lucky": "OpenAI",
+    "advice": "宜：高调融资、画万亿大饼\n忌：细看财报、追问盈利",
+    "joke": "为什么 AI 从不缺钱？因为它总在「训练」自己花钱。"
+  },
+  "articles": [
+    {
+      "id": 1,
+      "cat": "strategy",
+      "title": "OpenAI 筹备 300 亿美元新融资，估值达 1.25 万亿美元，IPO 前夜冲刺",
+      "title_en": "OpenAI working on new $30B raise at $1.25T valuation ahead of IPO",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/10/22/openai-working-on-new-30b-raise-at-1-25t-valuation-ahead-of-ipo/",
+      "time": "1小时前",
+      "published": "2026-10-22T22:08:24+00:00",
+      "summary": "据 TechCrunch 报道，OpenAI 正在推进一轮规模高达 300 亿美元的新融资，投前估值达到 1.25 万亿美元，并计划在 IPO 前完成。若该轮融资落地，OpenAI 将刷新纪录，成为史上估值最高的私营公司。这一估值较其此前约 5000 亿美元的二级市场估值大幅跃升，反映出资本市场对通用人工智能前景的极度乐观。融资所得预计将用于算力采购、数据中心建设和人才争夺。不过，如此高的估值也引发质疑：OpenAI 目前仍未实现稳定盈利，年化收入虽增长迅速，但与万亿估值之间仍存在巨大鸿沟。分析人士认为，这轮融资既是为 IPO 铺路，也是在与 Anthropic、谷歌等对手的军备竞赛中储备弹药。",
+      "snark": "估值一万亿，盈利一毛钱，硅谷数学又赢了。"
+    },
+    {
+      "id": 2,
+      "cat": "model",
+      "title": "Canva 发布首个自研图像模型：先规划再生成",
+      "title_en": "Canva’s first AI image model plans designs before generating them",
+      "source": "The Verge AI",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/1017151/canva-craft-in-house-ai-model",
+      "time": "2小时前",
+      "published": "2026-10-22T21:51:25+00:00",
+      "summary": "Canva 推出其首个自研图像生成模型 Canva Craft，直接对标 OpenAI、微软和谷歌的图像模型。该模型采用两阶段架构：第一阶段先对设计意图进行规划，理解布局、元素关系和风格要求；第二阶段再根据规划生成图像，从而提升精确度和可控性。Canva 表示，这种「先规划后生成」的方式能让输出更符合用户的设计需求，减少反复抽卡。模型已向所有用户开放，主打更低成本和更强可定制性。此举标志着 Canva 从依赖第三方模型转向自研底层能力，也意味着设计工具赛道的 AI 竞争进一步升级。",
+      "snark": "先画图纸再施工，Canva 终于学会了装修队的智慧。",
+      "multiSource": [
+        "The Verge",
+        "The Verge AI"
+      ]
+    },
+    {
+      "id": 3,
+      "cat": "strategy",
+      "title": "企业 AI 的下一场竞争：打造可持续的模型服务框架",
+      "title_en": "Designing an AI serving harness built to last",
+      "source": "MIT Tech Review",
+      "url": "https://www.technologyreview.com/2026/10/22/1146109/designing-an-ai-serving-harness-built-to-last/",
+      "time": "2小时前",
+      "published": "2026-10-22T21:17:29+00:00",
+      "summary": "MIT 科技评论指出，企业 AI 的下一阶段竞争优势，已不再取决于选用哪个模型，而在于围绕模型构建什么样的服务框架。过去几年，行业讨论集中在模型能力本身——更大的参数、更强的推理、更长的上下文窗口。但文章认为，真正决定企业 AI 成败的是数据管道、工程平台、运维体系和治理机制的整合能力。一个可持续的模型服务框架需要解决延迟、成本、可靠性、可观测性和合规等问题，并能在模型快速迭代时保持稳定。文章强调，模型会不断更换，但围绕模型搭建的基础设施才是长期护城河，企业应把投资重心从「选模型」转向「建框架」。",
+      "snark": "模型天天换，框架永流传，终于有人说了句实话。"
+    },
+    {
+      "id": 4,
+      "cat": "policy",
+      "title": "Meta 修改条款仍难消疑虑，法律专家称 AI 仍可抓取新闻网站",
+      "title_en": "Meta&#8217;s AI could still scrape news sites, legal experts say",
+      "source": "The Verge AI",
+      "url": "https://www.theverge.com/tech/1017082/meta-terms-update-ai-training-concerns",
+      "time": "3小时前",
+      "published": "2026-10-22T20:32:05+00:00",
+      "summary": "Meta 近期修改了其商业条款，删除了暗示可自由使用新闻网站内容训练 AI 模型的措辞，但法律专家认为这些改动远远不够。专家指出，修改后的条款中「与你的产品或服务相关联」等表述依然模糊，实际上并未限制 Meta 将新闻内容用于 AI 训练。此前，Meta 的条款被批评为允许其无限制抓取第三方网站数据。此次调整被外界视为公关姿态，而非实质性让步。随着版权方和监管机构对 AI 训练数据的审查日益严格，Meta、OpenAI 等公司正面临越来越多的法律挑战，数据来源合规性已成为大模型发展的关键风险点。",
+      "snark": "删几个字就想洗白，法律专家：你当我是文盲？"
+    },
+    {
+      "id": 5,
+      "cat": "policy",
+      "title": "Meta 恢复 Muse 分享功能，此前被曝公开链接可被轻易搜到",
+      "title_en": "Meta turns Muse sharing back on",
+      "source": "The Verge AI",
+      "url": "https://www.theverge.com/tech/1017066/meta-muse-sharing-back-on-artifiacts",
+      "time": "3小时前",
+      "published": "2026-10-22T20:24:04+00:00",
+      "summary": "Meta 重新启用了其 AI 产品 Muse 的分享功能。此前有安全研究人员报告称，Muse 的公开对话链接可被轻易检索到，导致敏感信息泄露。研究人员发现，通过搜索可以找到营销公司的内部营收评估、小企业主的贷款申请等私密内容。Meta 在事件曝光后曾暂停分享功能进行修复，现宣布重新上线。公司表示已加强链接的访问控制和可发现性管理，但研究人员仍对默认公开的分享机制表示担忧。此事件凸显了 AI 助手在便利性与隐私保护之间的张力，也提醒用户谨慎对待对话分享功能。",
+      "snark": "分享一时爽，贷款申请全网逛，Meta 的隐私课还得补。"
+    },
+    {
+      "id": 6,
+      "cat": "strategy",
+      "title": "SpaceX 与特斯拉探讨合并，AI 芯片借贷风险被无视",
+      "title_en": "Sure, let’s smoosh SpaceX and Tesla together, who cares",
+      "source": "The Verge AI",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/1016879/spacex-tesla-cursed-katamari",
+      "time": "4小时前",
+      "published": "2026-10-22T19:45:00+00:00",
+      "summary": "据 The Verge 报道，SpaceX 与特斯拉已成立特别委员会，讨论两家公司合并的可能性。与此同时，SpaceX 的信用风险正在上升，因其计划再借入 400 亿美元用于采购英伟达芯片。文章以讽刺口吻指出，市场对这桩合并的兴奋程度，似乎与对 SpaceX 高额债务的担忧成反比。合并若成真，将把火箭发射、电动汽车、能源存储和 AI 算力等业务捆绑在一起，形成一个横跨多个领域的巨型实体。支持者认为这能带来协同效应，批评者则担忧治理复杂度和财务风险。该讨论反映出 AI 算力军备竞赛正在重塑科技巨头的资本结构和战略布局。",
+      "snark": "火箭加电车再加芯片债，这合并案比科幻片还离谱。"
+    },
+    {
+      "id": 7,
+      "cat": "tool",
+      "title": "1Password 推出新功能：AI 代理可代你登录，但看不到密码",
+      "title_en": "1Password launches a way for AI agents to log in on your behalf without seeing your password",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/10/22/1password-launches-a-way-for-ai-agents-to-log-in-on-your-behalf-without-seeing-your-password/",
+      "time": "4小时前",
+      "published": "2026-10-22T19:07:09+00:00",
+      "summary": "密码管理公司 1Password 发布新功能，允许 AI 代理代替用户登录个人账户，同时不暴露实际密码。该功能的核心在于将凭证与代理隔离：AI 代理获得的是临时授权令牌，而非明文密码，从而在完成登录操作的同时保护账户安全。这解决了 AI 代理自动化流程中的一个关键痛点——既要让代理访问账户，又不能把密码交给它。1Password 表示，该机制可降低凭证泄露风险，并为未来 AI 代理广泛参与日常操作铺路。随着 AI 代理越来越多地代替用户执行任务，如何在自动化与安全之间取得平衡，正成为身份管理领域的新战场。",
+      "snark": "让 AI 替你登录还不给密码，这信任程度堪比让猫看鱼缸。"
+    },
+    {
+      "id": 8,
+      "cat": "model",
+      "title": "OpenAI 全面开放决策模型，与 Jev 正面交锋",
+      "title_en": "OpenAI makes its Jev competitor widely available as decision model competition heats up",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/10/22/openai-makes-its-jev-competitor-widely-available-as-decision-model-competition-heats-up/",
+      "time": "5小时前",
+      "published": "2026-10-22T19:00:00+00:00",
+      "summary": "OpenAI 宣布将其决策模型向所有用户广泛开放，正式加入决策模型赛道的竞争。该模型专注于快速、低成本地做出判断和选择，适用于需要频繁决策的应用场景。此前该领域由 Jev 占据先发优势，OpenAI 的入局意味着竞争显著升温。决策模型与通用对话模型不同，强调在有限信息下给出明确选项，常用于路由、筛选、分类和自动化工作流。OpenAI 表示，该模型在响应速度和单位成本上具有优势，适合嵌入各类应用。随着多家厂商推出同类产品，决策模型正成为大模型商业化落地的重要方向。",
+      "snark": "连做决定都要 AI 代劳，人类的选择困难症有救了。"
+    },
+    {
+      "id": 9,
+      "cat": "model",
+      "title": "Canva 正式发布首款图像生成模型，向全体用户开放",
+      "title_en": "Canva releases its first image generation model",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/10/22/canva-releases-its-first-image-generation-model/",
+      "time": "5小时前",
+      "published": "2026-10-22T19:00:00+00:00",
+      "summary": "Canva 正式发布其首款自研图像生成模型，并向所有用户开放使用。公司承诺该模型在性能、可定制性和成本方面均优于现有方案。与此前报道一致，该模型采用两阶段架构，先规划后生成，以提升输出的精确度和可控性。Canva 表示，新模型深度集成于其设计平台，用户可在编辑流程中直接调用，无需切换工具。此举使 Canva 从依赖外部模型转为拥有底层自研能力，也加剧了与 OpenAI、微软、谷歌在图像生成领域的竞争。对普通用户而言，更低成本和更强可控性意味着 AI 设计工具正加速普及。",
+      "snark": "设计软件都自研模型了，OpenAI 的客户名单又少一个。"
+    },
+    {
+      "id": 10,
+      "cat": "tool",
+      "title": "OpenAI 推出决策 API：为应用提供快速低成本判断能力",
+      "title_en": "Build more responsive apps with the Decisions API",
+      "source": "OpenAI Blog",
+      "url": "https://openai.com/index/decisions-api",
+      "time": "5小时前",
+      "published": "2026-10-22T19:00:00+00:00",
+      "summary": "OpenAI 发布决策 API，为开发者提供快速、专注、低成本的决策能力，可嵌入各类应用。该接口专为需要频繁做出判断的场景设计，例如内容分类、路由选择、筛选排序和自动化工作流，而非开放式对话。与通用大模型接口相比，决策 API 强调响应速度和单位成本，适合高并发、低延迟的生产环境。开发者可通过简单调用，让应用在关键节点自动做出选择。此举是 OpenAI 将模型能力产品化、平台化的重要一步，也与其近期开放的决策模型形成配套。随着 AI 应用从演示走向规模化，低成本决策接口的需求正在快速增长。",
+      "snark": "连 API 都开始替你做决定了，程序员只剩复制粘贴的活。"
+    },
+    {
+      "id": 11,
+      "cat": "tool",
+      "title": "Discord 修复 Markdown 预览，AI 代理读文档更省心",
+      "title_en": "Discord now formats Markdown previews right",
+      "source": "The Verge AI",
+      "url": "https://www.theverge.com/news/1017012/discord-markdown-previews-organize-servers-channels",
+      "time": "5小时前",
+      "published": "2026-10-22T18:58:19+00:00",
+      "summary": "Discord 发布最新更新，改进了 Markdown 预览功能。此前预览会显示「一堆符号」，现在可以正确渲染格式。这一改动看似细小，却对 AI 工作流有实际意义：大语言模型和 AI 代理经常依赖 Markdown 文件作为指令和上下文来源，正确的预览能帮助开发者更高效地检查和调试提示词与配置文件。Discord 表示，新版本还优化了服务器和频道的组织方式。随着 AI 代理越来越多地参与协作流程，聊天平台作为人机交互界面的角色正在增强，格式渲染的准确性也变得更加重要。",
+      "snark": "修个 Markdown 渲染就上新闻，AI 圈的门槛真是越来越低了。"
+    },
+    {
+      "id": 12,
+      "cat": "strategy",
+      "title": "可扩展 AI 的基石：数据、工程、平台与治理的融合",
+      "title_en": "The Foundations of Scalable AI",
+      "source": "MIT Tech Review",
+      "url": "https://www.technologyreview.com/2026/10/22/1146103/the-foundations-of-scalable-ai/",
+      "time": "5小时前",
+      "published": "2026-10-22T18:48:04+00:00",
+      "summary": "MIT 科技评论在 EmTech Future 大会上探讨了构建可扩展 AI 系统的基础要素。文章指出，一个可扩展的 AI 系统需要坚实的地基，数据、工程、平台、运营模式和治理必须协同运作，形成整体。在高度监管的环境中，这一挑战尤为突出：企业既要满足合规要求，又要保持系统的灵活性和扩展性。讨论强调，AI 的规模化不是单纯堆算力或换模型，而是组织能力、流程设计和制度建设的系统工程。随着 AI 从试点走向核心业务，如何在高监管环境下构建可持续的 AI 基础设施，正成为企业决策者的核心议题。",
+      "snark": "又是数据又是治理，说白了就是：光买 GPU 没用，得有人管。"
+    }
+  ],
+  "stats": {
+    "total": 12,
+    "model_count": 3,
+    "strategy_count": 4,
+    "tool_count": 3,
+    "policy_count": 2
+  }
+}

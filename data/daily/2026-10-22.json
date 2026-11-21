@@ -1,0 +1,163 @@
+{
+  "date": "2026-10-22",
+  "generated_at": "2026-10-22T08:04:33.199531+08:00",
+  "highlight": "Meta发新股融资搞AI，Recursive用AI造模型，沃尔玛向AI代理敞开大门。",
+  "fun": {
+    "lucky": "Flint",
+    "advice": "宜：在笔记本上跑模型\n忌：问它是不是自己写的自己",
+    "joke": "为什么AI代理不去亚马逊购物？因为结账时被当成机器人了。"
+  },
+  "articles": [
+    {
+      "id": 1,
+      "cat": "strategy",
+      "title": "黑石集团AI负责人贾斯·凯拉称对AI基建债务的担忧被夸大",
+      "title_en": "Blackstone’s Jas Khaira says fears over AI-buildout debt are overblown",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/10/21/blackstones-jas-khaira-says-fears-over-ai-buildout-debt-are-overblown/",
+      "time": "1小时前",
+      "published": "2026-10-21T22:51:22+00:00",
+      "summary": "黑石集团AI业务负责人贾斯·凯拉公开表示，市场对AI基础设施建设所涉债务的恐慌情绪被过度放大。他指出，当前AI数据中心和算力基建的融资结构总体稳健，私募股权机构并未因市场波动而陷入慌乱。凯拉认为，投资者将AI基建支出简单等同于债务泡沫的叙事忽略了长期现金流和需求支撑。黑石作为全球最大另类资产管理公司之一，正深度参与AI相关基础设施投资，其表态被视为对近期市场质疑的正面回应。此番言论也反映出私募资本在AI热潮中既想抓住机会又想安抚市场情绪的微妙立场。",
+      "snark": "黑石说不慌，翻译过来就是：我们仓位太重，不能慌。"
+    },
+    {
+      "id": 2,
+      "cat": "model",
+      "title": "递归公司发布Flint：面向代理的开源权重400亿参数混合专家本地编程模型，激活参数25亿",
+      "title_en": "Recursive Releases Flint, an Open-Weight 40B MoE Local Coding Model for Agents with 2.5B Active Params",
+      "source": "MarkTechPost",
+      "url": "https://www.marktechpost.com/2026/10/21/recursive-flint-local-coding-model/",
+      "time": "1小时前",
+      "published": "2026-10-21T22:39:41+00:00",
+      "summary": "递归公司发布Flint，这是一个采用Apache 2.0许可证的本地编程模型，总参数400亿，采用混合专家架构，每次推理仅激活25亿参数。官方报告其在SWE-bench Verified基准上达到74.2%的通过率，并在搭载M4 Pro芯片的MacBook Pro上实现每秒125个以上token的生成速度。该模型专为编程代理场景设计，强调在本地设备上运行的能力，兼顾性能与隐私。开源权重和宽松许可证使其便于开发者二次微调和部署。递归公司称Flint是其AI研究系统 largely 自主构建的早期成果，意在验证AI自我改进的可行性。",
+      "snark": "400亿参数只激活25亿，摸鱼效率比我还高。"
+    },
+    {
+      "id": 3,
+      "cat": "policy",
+      "title": "数据中心可能抹去数十年的空气质量改善成果",
+      "title_en": "Data centers could erase decades of air quality gains",
+      "source": "The Verge AI",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/1015958/data-center-pollution-rising-report",
+      "time": "1小时前",
+      "published": "2026-10-21T22:33:44+00:00",
+      "summary": "最新报告警告，生成式AI背后数据中心建设热潮可能使美国得克萨斯州空气质量倒退至2000年代水平。得州已成为AI物理基础设施的重镇，新建和拟建数据中心对电力需求巨大，而开发商与公用事业公司为满足负荷可能增加化石燃料发电。报告指出，由此产生的氮氧化物和颗粒物排放可能抵消数十年来在空气治理上的进展。数据中心不仅耗电，其备用柴油发电机和配套能源设施也是污染源。如何在AI算力扩张与环境保护之间取得平衡，正成为政策制定者面临的新难题。",
+      "snark": "AI学会了写诗，顺便把天空写回了2005年。"
+    },
+    {
+      "id": 4,
+      "cat": "tool",
+      "title": "Vercel开源durable-harness，让编程代理崩溃后可恢复",
+      "title_en": "Vercel Open-Sources durable-harness for Crash-Proof Coding Agents",
+      "source": "MarkTechPost",
+      "url": "https://www.marktechpost.com/2026/10/21/vercel-durable-harness-crash-proof-coding-agents/",
+      "time": "1小时前",
+      "published": "2026-10-21T22:15:39+00:00",
+      "summary": "Vercel开源了名为durable-harness的工具包，旨在让编程代理在崩溃、超时或重新部署后能够恢复会话。该工具记录每一次模型调用和工具调用，使Pi、OpenCode、Claude Code和Codex等代理会话具备持久化能力。开发者可在Vercel、Postgres或本地笔记本上运行该工具，从而避免因进程中断导致代理任务前功尽弃。这一开源项目切中了代理式编程工作流中的痛点：长任务容易因环境不稳定而失败，持久化执行日志成为可靠性的关键基础设施。",
+      "snark": "代理崩溃能恢复，但我的deadline不能。"
+    },
+    {
+      "id": 5,
+      "cat": "strategy",
+      "title": "Meta将发行新类别股票为AI投入融资",
+      "title_en": "Meta to create a new class of shares to fund AI push",
+      "source": "The Verge AI",
+      "url": "https://www.theverge.com/tech/1015799/meta-shares-class-ai-q3-2026-earnings",
+      "time": "2小时前",
+      "published": "2026-10-21T21:30:02+00:00",
+      "summary": "Meta在第三季度财报中宣布将发行一类新的无投票权股票，用于为其AI计划提供资金，同时兼顾潜在收购和员工薪酬。该类别股票预计于2027年开始交易。Meta表示AI投入规模巨大，需要更灵活的资本结构来支撑长期战略。新股份不赋予投票权，意味着扎克伯格对公司的控制权不会被稀释。此举反映出科技巨头在AI军备竞赛中对资金的巨大渴求，也引发外界对股权结构复杂化和股东回报稀释的讨论。Meta同时面临投资者对AI支出回报周期的持续追问。",
+      "snark": "发新股融资搞AI，股东投票权没有，账单倒是有了。"
+    },
+    {
+      "id": 6,
+      "cat": "strategy",
+      "title": "TechCrunch创始人峰会2026：你需要知道的一切",
+      "title_en": "TechCrunch Founder Summit 2026: Everything you need to know",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/10/21/techcrunch-founder-summit-2026-everything-you-need-to-know/",
+      "time": "2小时前",
+      "published": "2026-10-21T21:16:20+00:00",
+      "summary": "TechCrunch创始人峰会将于11月4日在波士顿举行，为期一天，面向各阶段创始人，旨在连接顶级风投和资深创业者，提供关于公司构建与规模化的实战洞察。活动内容涵盖融资策略、产品增长和团队管理等主题。虽然这并非直接的AI产品发布，但峰会反映了当前创业生态中AI仍是核心议题，大量早期公司围绕AI应用和基础设施展开。对于关注AI行业趋势的读者，此类活动是观察资本流向和创业者关注点的窗口。",
+      "snark": "峰会主题是AI，但真正的主题是怎么让VC掏钱。"
+    },
+    {
+      "id": 7,
+      "cat": "tool",
+      "title": "Meta称Muse用户超1000万，购物是主要活动之一",
+      "title_en": "Meta says Muse has over 10M users, with shopping a top activity",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/10/21/meta-says-muse-has-over-10m-users-with-shopping-a-top-activity/",
+      "time": "2小时前",
+      "published": "2026-10-21T21:14:19+00:00",
+      "summary": "Meta在第三季度财报电话会上透露，其AI应用Muse用户数已超过1000万，购物和个人生产力是用户的主要使用场景。Muse作为Meta面向消费者的AI入口，正逐步嵌入社交和商业生态。用户将Muse用于商品发现和购物决策，显示出AI助手与电商结合的商业潜力。Meta正将AI应用视为下一个增长引擎，与Meta旗下社交平台形成协同。1000万用户规模在消费级AI应用中已属可观，但如何转化为可持续收入仍是市场关注焦点。",
+      "snark": "1000万用户拿AI当购物参谋，人类的决策能力令人欣慰。"
+    },
+    {
+      "id": 8,
+      "cat": "policy",
+      "title": "通过一致标准实现广泛访问",
+      "title_en": "Broad access through consistent standards",
+      "source": "OpenAI Blog",
+      "url": "https://openai.com/index/broad-access-through-consistent-standards",
+      "time": "3小时前",
+      "published": "2026-10-21T21:00:00+00:00",
+      "summary": "OpenAI发布博客，阐述其如何与分发合作伙伴合作，以维护一致的安全保障措施、支持负责任的访问，并在使用政策中明确期望。文章强调，随着AI模型通过第三方渠道触达更多用户，保持统一的安全标准和透明度至关重要。OpenAI表示将与合作伙伴共同落实使用政策，防止滥用，同时确保开发者生态的广泛可及性。这一表态发生在监管机构和公众对AI分发渠道安全关注度上升的背景下，反映出头部模型厂商试图在开放访问与风险控制之间建立可复制的合作框架。",
+      "snark": "标准一致了，但各家的解释权还是各家的。"
+    },
+    {
+      "id": 9,
+      "cat": "model",
+      "title": "递归公司发布Flint：一款号称主要由AI构建的笔记本编程模型",
+      "title_en": "Recursive launches Flint, a laptop coding model it says was largely built by AI",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/10/21/recursive-launches-flint-a-laptop-coding-model-it-says-was-largely-built-by-ai/",
+      "time": "3小时前",
+      "published": "2026-10-21T20:27:41+00:00",
+      "summary": "初创公司递归发布免费编程模型Flint，可在笔记本上运行，并称该模型主要由其自研AI研究系统构建，是对AI自我改进能力的一次早期测试。Flint总参数400亿，采用混合专家架构，激活参数仅25亿，在SWE-bench Verified上报告74.2%的成绩，并在M4 Pro笔记本上达到每秒125个以上token。递归公司将Flint定位为面向代理的本地编程模型，强调隐私和离线可用性。所谓由AI构建模型的说法若属实，意味着AI研发自动化迈出试探性一步，但也需更多独立验证。",
+      "snark": "AI造AI，下一步是不是AI写稿吐槽AI。"
+    },
+    {
+      "id": 10,
+      "cat": "strategy",
+      "title": "飞行跑车救不了特斯拉平淡的第三季度营收",
+      "title_en": "Flying Roadsters can’t lift Tesla’s flat Q3 revenues",
+      "source": "The Verge",
+      "url": "https://www.theverge.com/transportation/1015790/tesla-q3-2026-earnings-revenue-profit-roadster-spacex-merger",
+      "time": "3小时前",
+      "published": "2026-10-21T20:22:31+00:00",
+      "summary": "特斯拉在炫目的Roadster飞行演示后公布第三季度财报，现实是营收陷入停滞。截至2026年9月的季度，特斯拉净利润17亿美元，营收280亿美元，收入持平而利润承压。尽管马斯克用飞行跑车演示制造话题，但核心汽车业务增长乏力，市场对特斯拉AI和自动驾驶叙事的高预期与当前财务表现之间落差明显。财报还涉及与SpaceX合并传闻等议题。对AI行业而言，特斯拉的案例说明宏大技术愿景需要基本面支撑，否则难以持续取信投资者。",
+      "snark": "跑车会飞了，营收还在地上趴着。"
+    },
+    {
+      "id": 11,
+      "cat": "tool",
+      "title": "Anthropic推出Claude Duet代理，正面迎战Muse",
+      "title_en": "Anthropic takes on Muse with Claude Duet, its new AI agent",
+      "source": "The Verge AI",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/1015843/anthropic-claude-duet-ai-agent",
+      "time": "4小时前",
+      "published": "2026-10-21T19:53:20+00:00",
+      "summary": "Anthropic发布AI代理产品Claude Duet，直接对标Meta的Muse和OpenAI的Dots。该代理面向专业人士和小企业主，以研究预览形式推出，提供iOS和Android独立应用，并可通过Claude平台访问。Claude Duet定位为能替用户执行多步骤任务的智能代理，而非单纯对话助手。Anthropic此举标志着其从模型提供商向应用层延伸，加入消费级和企业级AI代理的竞争。研究预览意味着功能仍有限制，但发布时机显示代理产品赛道的竞争正迅速升温。",
+      "snark": "三个代理同台竞技，最后干活的还是打工人。"
+    },
+    {
+      "id": 12,
+      "cat": "tool",
+      "title": "亚马逊封杀AI代理之际，沃尔玛铺开红毯欢迎",
+      "title_en": "While Amazon blocks AI agents, Walmart rolls out the welcome mat",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/10/21/while-amazon-blocks-ai-agents-walmart-rolls-out-the-welcome-mat/",
+      "time": "4小时前",
+      "published": "2026-10-21T19:30:00+00:00",
+      "summary": "在亚马逊阻止AI代理在其网站购物之时，沃尔玛采取相反策略，推出新技术允许AI代理代表顾客完成购买，并提供支出控制和交易审批机制。沃尔玛的开放态度旨在抢占代理式电商的先机，让AI助手直接接入商品浏览和结账流程，同时通过权限设置降低风险。亚马逊的封锁则出于对平台秩序、安全和竞争的控制。两大零售巨头对AI代理的分歧，折射出代理式商务时代平台治理的路线之争：是开放接口拥抱自动化，还是封闭生态守住流量入口。",
+      "snark": "亚马逊关门，沃尔玛开门，AI代理终于有地方花钱了。"
+    }
+  ],
+  "stats": {
+    "total": 12,
+    "model_count": 2,
+    "strategy_count": 4,
+    "tool_count": 4,
+    "policy_count": 2
+  }
+}

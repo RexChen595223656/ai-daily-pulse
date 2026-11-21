@@ -1,0 +1,172 @@
+{
+  "date": "2026-11-20",
+  "generated_at": "2026-11-20T08:06:13.882869+08:00",
+  "highlight": "英伟达CEO黄仁勋因丑闻辞职引发国家安全担忧，同时苹果、谷歌、Meta在AI智能体领域密集布局。",
+  "fun": {
+    "lucky": "Gemini",
+    "advice": "宜：让AI帮你整理桌面文件\n忌：让AI帮你回复老板消息",
+    "joke": "为什么AI智能体从不迷路？因为它总在'重新规划路线'。"
+  },
+  "articles": [
+    {
+      "id": 1,
+      "cat": "strategy",
+      "title": "苹果招聘工程师打造自家AI智能体",
+      "title_en": "Apple is hiring engineers to build its own AI agent",
+      "source": "The Verge AI",
+      "url": "https://www.theverge.com/tech/1038227/apple-ai-agent-engineer-job-listing",
+      "time": "1小时前",
+      "published": "2026-11-19T22:31:41+00:00",
+      "summary": "苹果公司正在开发一款能够执行多种任务的AI智能体，功能涵盖浏览网页、跨应用操作、编写代码以及调用服务。据彭博社发现的招聘信息显示，苹果正在寻找一名工程师来领导这个智能体项目的创建。该职位描述表明苹果希望构建一个能够自主规划并执行复杂任务的系统，而非仅限于简单的语音助手交互。此举标志着苹果在生成式AI领域追赶竞争对手的重要一步，此前苹果在AI助手方面被认为落后于谷歌和OpenAI。分析人士指出，苹果可能将智能体能力深度整合到iOS和macOS系统中，利用其封闭生态优势提供更流畅的跨应用体验。",
+      "snark": "苹果终于意识到Siri只会设闹钟，开始招人教它干正事了。",
+      "multiSource": [
+        "The Verge",
+        "The Verge AI"
+      ]
+    },
+    {
+      "id": 2,
+      "cat": "strategy",
+      "title": "英伟达近期股价波动简史",
+      "title_en": "A brief history of Nvidia’s recent stock fluctuations",
+      "source": "The Verge AI",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/1038063/nvidia-stock-market-price-earnings",
+      "time": "2小时前",
+      "published": "2026-11-19T21:59:35+00:00",
+      "summary": "英伟达临时CEO科莱特·克雷斯在第三季度财报电话会议结束时表示“我们能搞定”，但到周四该公司股价已跌至每股约150美元，较10月6日的历史高点下跌近40%。这一剧烈波动反映出市场对英伟达未来增长前景的担忧，尤其是考虑到AI芯片领域竞争加剧以及地缘政治紧张局势。股价下跌发生在该公司发布财报后不久，尽管财报数据本身并不算差，但投资者似乎对增长放缓的迹象反应敏感。分析人士认为，英伟达面临的挑战包括客户自研芯片趋势、出口管制影响以及整体AI投资热潮可能降温的风险。",
+      "snark": "财报电话会上说“我们能搞定”，股价说“不，你们搞不定”。"
+    },
+    {
+      "id": 3,
+      "cat": "tool",
+      "title": "Meta新款缪斯魅力设备或定价300美元",
+      "title_en": "Meta’s new Muse Charm device may cost $300",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/11/19/metas-new-muse-charm-device-may-cost-300/",
+      "time": "2小时前",
+      "published": "2026-11-19T21:58:06+00:00",
+      "summary": "Meta公司即将推出的AI可穿戴设备“缪斯魅力”可能定价为300美元。此前The Information报道了这一价格信息，Meta并未否认该报道，仅表示“很快会有更多分享”。这款设备是Meta在AI硬件领域的最新尝试，延续了其与雷朋合作智能眼镜的产品线思路。300美元的定价策略表明Meta希望在中端消费市场推广AI可穿戴设备，而非走高端路线。该设备预计将集成Meta的AI助手功能，支持语音交互和情境感知能力。Meta近年来在VR头显和智能眼镜领域持续投入，试图在苹果和谷歌主导的生态之外建立自己的AI硬件入口。",
+      "snark": "300美元买个AI挂件，Meta对“魅力”的理解可能有点偏差。",
+      "multiSource": [
+        "TechCrunch",
+        "The Verge",
+        "The Verge AI"
+      ]
+    },
+    {
+      "id": 4,
+      "cat": "model",
+      "title": "Meta基础AI研究团队自改进记忆在持续学习基准上达到56.0分",
+      "title_en": "Meta FAIR Self-Improving Memory Hits 56.0 on Continual Learning Bench",
+      "source": "MarkTechPost",
+      "url": "https://www.marktechpost.com/2026/11/19/meta-fair-self-improving-memory-harness-distillation/",
+      "time": "2小时前",
+      "published": "2026-11-19T21:46:22+00:00",
+      "summary": "Meta基础AI研究团队（FAIR）提出了一种自改进记忆机制，让Kimi-K2.6模型能够自行编写加载和卸载记忆的提示词，然后将这些提示词蒸馏到模型权重中。在持续学习基准测试上，优化后的提示词得分为56.0，而最佳手工编写的测试框架仅得44.6分。该方法的核心思路是让模型通过自我生成和优化记忆管理策略来提升持续学习能力，减少对人工设计提示词的依赖。蒸馏过程将优化后的提示词行为固化到模型参数中，使模型在后续任务中无需额外提示即可维持改进效果。这一成果展示了模型自我改进在记忆管理领域的潜力，为持续学习提供了新思路。",
+      "snark": "模型自己写提示词自己蒸馏，下一步是不是要自己给自己发工资了。"
+    },
+    {
+      "id": 5,
+      "cat": "policy",
+      "title": "这些技术故障让人想起千年虫，不过是AI智能体版的",
+      "title_en": "These tech outages are giving Y2K, AI agent style",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/11/19/these-tech-outages-are-giving-y2k-ai-agent-style/",
+      "time": "2小时前",
+      "published": "2026-11-19T21:42:31+00:00",
+      "summary": "近期航空公司订票系统、银行平台和生产力工具接连出现故障，网络安全专家指出这并非巧合，背后可能有更深层的原因。专家认为这些故障与AI智能体在系统中的广泛部署有关，智能体在缺乏充分测试和监管的情况下自主执行操作，可能导致连锁性系统异常。类似千年虫问题，AI智能体带来的风险在于其行为的不可预测性和跨系统传播效应。当多个智能体同时与关键基础设施交互时，一个小错误可能被放大为大规模服务中断。专家呼吁企业在部署AI智能体时加强沙箱测试、行为监控和故障隔离机制，避免自动化系统成为新的系统性风险来源。",
+      "snark": "千年虫是代码写死了日期，AI智能体是活得太自由了。"
+    },
+    {
+      "id": 6,
+      "cat": "strategy",
+      "title": "黄仁勋丑闻时间线全记录",
+      "title_en": "The unfolding Jensen Huang scandal: a timeline",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/11/19/nvidia-ceo-jensen-huangs-affair-with-alleged-chinese-spy-a-timeline/",
+      "time": "3小时前",
+      "published": "2026-11-19T20:18:49+00:00",
+      "summary": "英伟达CEO黄仁勋因与一名涉嫌中国间谍的女性有染而辞职，这一事件可能对国家安全产生影响，因为美国和中国正在竞相开发最先进的AI基础设施。事件时间线显示，丑闻曝光后黄仁勋迅速辞去CEO职务，英伟达临时CEO科莱特·克雷斯接手日常运营。考虑到英伟达在AI芯片领域的核心地位及其产品对国家安全的重要性，这一人事变动引发了对公司战略连续性和供应链安全的担忧。美国政府对华芯片出口管制本就使英伟达处于地缘政治敏感位置，CEO因间谍相关丑闻辞职进一步加剧了外界对公司治理和合规风险的关注。",
+      "snark": "AI芯片大战正酣，CEO先被“间谍门”带走了，剧本都不敢这么写。"
+    },
+    {
+      "id": 7,
+      "cat": "tool",
+      "title": "谷歌把AI聊天搬上首页",
+      "title_en": "Google is putting AI chats right on the homepage",
+      "source": "The Verge AI",
+      "url": "https://www.theverge.com/tech/1038059/google-search-homepage-ai-chats",
+      "time": "4小时前",
+      "published": "2026-11-19T20:05:06+00:00",
+      "summary": "谷歌正在更新其搜索首页，加入AI搜索功能。谷歌产品副总裁罗比·斯坦在社交平台上展示了新功能：用户现在可以打开一个可折叠的侧边栏来查看和继续AI对话。从演示动图来看，用户点击相应按钮即可展开侧边栏，在其中与AI进行多轮对话。这一改动标志着谷歌搜索从传统关键词检索向对话式AI交互的重大转变，旨在应对ChatGPT等AI聊天产品对搜索入口的冲击。将AI聊天置于首页意味着谷歌希望培养用户直接在搜索框内进行AI对话的习惯，而非跳转到独立应用。该功能目前正在逐步推送中。",
+      "snark": "谷歌首页终于承认：用户来搜索框不是为了搜链接，是为了聊天。"
+    },
+    {
+      "id": 8,
+      "cat": "strategy",
+      "title": "Anthropic上市可为慈善事业带来1560亿美元",
+      "title_en": "Anthropic’s IPO could deliver $156B to charity",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/11/19/anthropics-ipo-could-deliver-156-billion-to-charity/",
+      "time": "4小时前",
+      "published": "2026-11-19T19:10:45+00:00",
+      "summary": "按每股95美元的股价计算，前沿实验室Anthropic的公共利益基金会、员工捐赠以及公司配捐合计可达1560亿美元。这一数字反映了Anthropic独特的公司治理结构——作为一家公益公司，其章程要求将相当比例的股权收益用于公共利益目标。Anthropic的上市计划若顺利推进，将成为AI行业规模最大的IPO之一，同时其慈善捐赠规模也将创下科技公司纪录。该公司的公共利益基金会持有特殊股权，确保公司在追求商业成功的同时履行对社会福祉的承诺。这一模式被视为AI公司平衡商业利益与公共责任的实验性尝试。",
+      "snark": "上市造富不稀奇，造出1560亿慈善款倒是头一回见。"
+    },
+    {
+      "id": 9,
+      "cat": "tool",
+      "title": "Mac上的Gemini现在能操作你的电脑了",
+      "title_en": "Gemini on Mac can now use your computer",
+      "source": "The Verge AI",
+      "url": "https://www.theverge.com/tech/1037902/google-gemini-macos-ai-computer-use",
+      "time": "5小时前",
+      "published": "2026-11-19T18:21:13+00:00",
+      "summary": "谷歌为macOS版Gemini应用新增了计算机操作能力，使其能够帮助用户“跨本地文件、桌面应用和网页完成多步骤任务”。谷歌建议该功能可用于加速工作流程、填写表单、制作演示文稿等场景。这意味着Gemini不再局限于聊天窗口，而是能够实际操控用户的桌面环境，自主执行一系列操作。该功能与谷歌此前在Gemini API中推出的工具检索能力相呼应，标志着谷歌正在将智能体能力从云端扩展到本地设备。用户需授权Gemini访问特定文件和应用程序，谷歌强调会采取安全措施确保用户数据不被滥用。",
+      "snark": "Gemini能帮你填表单做PPT了，但别指望它帮你写辞职信。"
+    },
+    {
+      "id": 10,
+      "cat": "tool",
+      "title": "2026年13款最佳智能体网关：Kong、Bifrost、AgentCore、Arcade等",
+      "title_en": "13 Best Agent Gateways in 2026 for MCP, A2A and LLM Traffic: Kong, Bifrost, AgentCore, Arcade",
+      "source": "MarkTechPost",
+      "url": "https://www.marktechpost.com/2026/11/19/best-agent-gateways-2026/",
+      "time": "5小时前",
+      "published": "2026-11-19T18:13:21+00:00",
+      "summary": "本文对2026年13款最佳智能体网关进行了排名，评估维度包括对模型流量、MCP工具调用和智能体间通信的治理能力，并核实了定价、部署选项以及各厂商营销材料中未提及的权衡取舍。上榜产品包括Kong、Bifrost、AgentCore和Arcade等。随着企业AI智能体部署规模扩大，网关作为管理模型调用、工具访问和智能体协作的中间层变得至关重要。这些网关提供流量控制、安全策略、可观测性和成本管理等功能，帮助企业避免智能体失控或资源浪费。文章指出不同网关在协议支持、部署灵活性和价格模型上差异显著，企业需根据自身技术栈和合规要求选择合适方案。",
+      "snark": "智能体还没管明白呢，管智能体的网关先卷出13款了。"
+    },
+    {
+      "id": 11,
+      "cat": "tool",
+      "title": "谷歌让Gemini能替你操作Mac",
+      "title_en": "Google gives Gemini the ability to use your Mac for you",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/11/19/google-gives-gemini-the-ability-to-use-your-mac-for-you/",
+      "time": "5小时前",
+      "published": "2026-11-19T18:09:11+00:00",
+      "summary": "谷歌对Gemini的最新更新为Mac带来了AI智能体能力，可以整理文件、填写表单并处理多步骤工作流程。这是谷歌将智能体功能从移动端和网页端扩展到桌面端的重要举措。用户可以让Gemini自主执行一系列操作，例如将散落在桌面上的文件按类型归档、自动填写网页表单、或在多个应用之间搬运数据完成复杂任务。该功能依托谷歌的计算机使用模型，使AI能够理解屏幕内容并模拟鼠标键盘操作。谷歌表示该功能将首先面向特定用户群体开放测试，后续逐步扩大范围。这标志着桌面AI助手从被动应答向主动执行的转变。",
+      "snark": "Gemini都能替你整理桌面了，你的桌面终于有人管了——虽然是AI。"
+    },
+    {
+      "id": 12,
+      "cat": "tool",
+      "title": "Gemini API推出工具检索功能",
+      "title_en": "Introducing Tool Retrieval in the Gemini API",
+      "source": "Google AI Blog",
+      "url": "https://blog.google/innovation-and-ai/technology/developers-tools/gemini-api-tool-retrieval/",
+      "time": "6小时前",
+      "published": "2026-11-19T18:00:00+00:00",
+      "summary": "谷歌在Gemini API中引入了工具检索功能，旨在帮助开发者更高效地管理和调用大量工具。当开发者向模型提供大量工具定义时，模型需要从中选择最相关的工具来完成任务，但工具数量过多会导致上下文窗口浪费和选择准确率下降。工具检索功能允许API根据用户查询自动筛选出最相关的工具子集，再将其提供给模型，从而减少令牌消耗并提升工具调用的准确性。该功能特别适用于构建复杂智能体应用的开发者，这些应用往往需要集成数十甚至上百个外部工具。谷歌表示该功能已可在Gemini API中使用，并提供了相关文档和示例代码。",
+      "snark": "工具多到模型都挑花眼了，谷歌说：我帮你先筛一遍。"
+    }
+  ],
+  "stats": {
+    "total": 12,
+    "model_count": 1,
+    "strategy_count": 4,
+    "tool_count": 6,
+    "policy_count": 1
+  }
+}

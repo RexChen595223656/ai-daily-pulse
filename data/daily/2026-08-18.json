@@ -1,0 +1,163 @@
+{
+  "date": "2026-08-18",
+  "generated_at": "2026-08-18T08:00:48.840223+08:00",
+  "highlight": "Anthropic年化收入飙至650亿美元，OpenAI降价抢市场，AI竞争进入白热化阶段。",
+  "fun": {
+    "lucky": "Anthropic",
+    "advice": "宜：趁热打铁，推出新产品。\n忌：盲目跟风降价，小心利润蒸发。",
+    "joke": "AI 的梦想：成为人类最好的助手。人类的梦想：让 AI 24 小时工作不领工资。"
+  },
+  "articles": [
+    {
+      "id": 1,
+      "cat": "strategy",
+      "title": "Anthropic年化收入飙升至650亿美元",
+      "title_en": "Anthropic’s annualized revenue surges to $65B",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/08/17/anthropics-annualized-revenue-surges-to-65b/",
+      "time": "4分钟前",
+      "published": "2026-08-17T23:56:26+00:00",
+      "summary": "据TechCrunch报道，人工智能公司Anthropic的年化收入已飙升至650亿美元，仅两个月内就增加了180亿美元。这一数字显示出Anthropic在AI模型商业化方面的强劲增长势头，其旗舰产品Claude系列模型在企业市场获得了广泛采用。尽管面临来自OpenAI等竞争对手的激烈竞争，Anthropic依然保持了高速增长，这可能得益于其专注于安全性和可解释性的技术路线，以及企业级客户对可靠AI解决方案的持续需求。分析人士指出，Anthropic的营收增长速度在AI初创公司中名列前茅，进一步巩固了其作为AI领域主要玩家的地位。",
+      "snark": "年化收入涨这么快，是不是把未来的钱也提前算进去了？"
+    },
+    {
+      "id": 2,
+      "cat": "strategy",
+      "title": "AI自动化初创公司Relay关闭，员工加入谷歌Chrome团队",
+      "title_en": "AI automation startup Relay shuts down, staff joins Google’s Chrome team",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/08/17/ai-automation-startup-relay-shuts-down-staff-joins-googles-chrome-team/",
+      "time": "2小时前",
+      "published": "2026-08-17T21:27:05+00:00",
+      "summary": "AI自动化初创公司Relay宣布关闭，其创始人兼首席执行官雅各布·班克表示，团队将加入谷歌的Chrome浏览器团队，共同探索在Chrome中集成AI代理功能。Relay此前致力于开发自动化工作流程的工具，此次关闭标志着其技术路线被谷歌吸收。班克在声明中透露，谷歌在Chrome中集成AI的计划“雄心勃勃”，未来将帮助用户通过AI在浏览器中完成更多任务。这一收购式的人才整合反映了大型科技公司对AI自动化领域的重视，也预示着Chrome浏览器未来可能内置更强大的AI代理能力，直接与微软的Copilot等产品竞争。",
+      "snark": "又一家AI公司“卖身”给大厂，创业的尽头是谷歌？"
+    },
+    {
+      "id": 3,
+      "cat": "model",
+      "title": "GPT-5.6 Sol价格大幅下调50%",
+      "title_en": "GPT-5.6 Sol Pricing Cut by 50%",
+      "source": "Hacker News",
+      "url": "https://openrouter.ai/openai/gpt-5.6-sol",
+      "time": "2小时前",
+      "published": "2026-08-17T21:03:18+00:00",
+      "summary": "据Hacker News消息，OpenAI旗下的GPT-5.6 Sol模型在OpenRouter平台上的价格已下调50%。这一降价举措可能是为了应对日益激烈的AI模型市场竞争，尤其是来自Anthropic Claude系列和DeepSeek等开源模型的压力。GPT-5.6 Sol作为OpenAI的旗舰模型之一，其性能在多个基准测试中表现优异，但高昂的API调用费用一直让部分开发者望而却步。此次价格减半有望吸引更多中小型企业和独立开发者使用该模型，扩大其生态影响力。市场分析认为，OpenAI此举可能引发其他AI实验室的跟进降价，从而加速AI应用的普及。",
+      "snark": "降价一半，看来AI模型也学会了“双十一”促销。"
+    },
+    {
+      "id": 4,
+      "cat": "model",
+      "title": "MiniMax发布MiniMax-Music3：开源音乐生成模型，可生成完整五分钟歌曲",
+      "title_en": "MiniMax Releases MiniMax-Music3: An Open-Weights Music Model Generating Complete Five-Minute Songs From Lyrics and a Structured Caption",
+      "source": "MarkTechPost",
+      "url": "https://www.marktechpost.com/2026/08/17/minimax-releases-minimax-music3/",
+      "time": "5小时前",
+      "published": "2026-08-17T18:36:40+00:00",
+      "summary": "MiniMax公司发布了MiniMax-Music3，这是一款开源权重的高质量文本转音乐模型。用户只需提供带有段落标签的歌词和结构化描述，模型即可一次性生成最长五分钟的完整歌曲，输出格式为32kHz、16位立体声WAV。MiniMax-Music3在架构上进行了优化，支持三种服务路径，以满足不同场景的需求。该模型的开源特性允许开发者和音乐创作者在本地部署或进行二次开发，降低了音乐创作的门槛。MiniMax还公布了详细的许可条件，允许商业使用，但可能对生成内容的版权归属有所规定。这一发布标志着AI音乐生成技术向更开放、更实用的方向迈进。",
+      "snark": "以后音乐人不用写歌了，直接写歌词描述就行？"
+    },
+    {
+      "id": 5,
+      "cat": "tool",
+      "title": "使用docTR构建端到端文档智能流水线：OCR、布局分析、KIE与可搜索PDF",
+      "title_en": "Developing an End-to-End Document Intelligence Pipeline with docTR for OCR, Layout Analysis, KIE, Benchmarking, and Searchable PDFs",
+      "source": "MarkTechPost",
+      "url": "https://www.marktechpost.com/2026/08/17/end-to-end-document-intelligence-pipeline-with-doctr-for-ocr/",
+      "time": "6小时前",
+      "published": "2026-08-17T17:52:50+00:00",
+      "summary": "本文介绍了如何利用docTR库构建一个完整的文档智能处理流水线。docTR是一个开源的文档文本识别工具，支持光学字符识别（OCR）、布局分析以及关键信息提取（KIE）。通过集成这些功能，开发者可以构建面向生产环境的文档提取系统，将扫描件或图片中的文本、表格和结构信息自动转换为结构化数据，并生成可搜索的PDF文件。文章详细展示了流水线的各个步骤，包括图像预处理、文本检测与识别、版面分析、实体抽取以及性能基准测试。这一方案对于处理合同、发票、表单等大量文档的企业具有重要价值，能够显著提升文档处理的自动化水平和效率。",
+      "snark": "文档处理流水线，感觉像是给纸质文件办了张“身份证”。"
+    },
+    {
+      "id": 6,
+      "cat": "policy",
+      "title": "亚马逊被曝销毁珍稀书籍以训练AI模型",
+      "title_en": "Amazon, which started off selling books, is destroying rare texts to train AI",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/08/17/amazon-once-an-online-bookseller-is-destroying-rare-books-to-train-ai-models/",
+      "time": "7小时前",
+      "published": "2026-08-17T16:38:44+00:00",
+      "summary": "据TechCrunch报道，亚马逊这家以在线书店起家的科技巨头，被曝出正在销毁珍稀书籍以用于训练人工智能模型。报道指出，珍稀书籍对于训练大型语言模型（LLM）极具价值，因为这些书籍的内容通常没有出现在互联网上，能够为模型提供独特的知识和数据。然而，这种做法引发了学术和伦理争议，批评者认为销毁不可替代的文化遗产以获取数据是短视且破坏性的行为。亚马逊尚未对此作出正式回应，但这一事件再次引发了关于AI训练数据来源的合法性和道德性的讨论，尤其是在版权法和文化遗产保护方面。",
+      "snark": "亚马逊从卖书到烧书，AI训练数据真是“吃书”不吐骨头。"
+    },
+    {
+      "id": 7,
+      "cat": "strategy",
+      "title": "Groq融资3.5亿美元，从AI芯片转向Neocloud业务",
+      "title_en": "Groq raises $350M to fuel its pivot from AI chips to neocloud",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/08/17/groq-raises-350m-to-fuel-its-pivot-from-ai-chips-to-neocloud/",
+      "time": "7小时前",
+      "published": "2026-08-17T16:15:12+00:00",
+      "summary": "AI芯片初创公司Groq宣布完成3.5亿美元融资，估值达到35亿美元。这家曾经的AI芯片制造商正在战略转型，将业务重心转向“neocloud”云服务，并扩大基于英伟达芯片的数据中心规模。Groq此前以研发高性能推理芯片闻名，但面对英伟达在AI芯片市场的绝对主导地位，Groq选择转向云服务领域，利用自身在AI加速方面的技术积累，为客户提供更高效的推理服务。此次融资将帮助Groq建设更多数据中心，并可能采用英伟达的GPU来补充自身芯片的不足。这一转型反映了AI芯片初创公司在巨头夹缝中求生存的普遍策略。",
+      "snark": "打不过英伟达，就加入英伟达的生态，这波操作很“识时务”。"
+    },
+    {
+      "id": 8,
+      "cat": "strategy",
+      "title": "英伟达向软银数据中心开发商投资15亿美元，确保OpenAI项目芯片供应",
+      "title_en": "Nvidia investing $1.5B in SoftBank data center developer behind OpenAI project",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/08/17/nvidia-investing-1-5b-in-softbank-data-center-developer-behind-openai-project/",
+      "time": "8小时前",
+      "published": "2026-08-17T15:16:24+00:00",
+      "summary": "英伟达宣布向软银旗下的数据中心开发商投资15亿美元，这笔投资将确保英伟达的芯片能够为OpenAI的一个数据中心项目提供算力支持。这一战略合作不仅巩固了英伟达在AI算力基础设施领域的霸主地位，也加深了其与OpenAI和软银的绑定关系。通过投资数据中心开发商，英伟达能够更直接地影响下游算力供应链，确保其GPU在关键AI项目中的优先采用。此举也是英伟达应对AMD、谷歌等竞争对手挑战的一部分，通过锁定大客户和重要项目来维持市场份额。分析人士认为，这笔投资将进一步强化英伟达在AI训练和推理领域的生态壁垒。",
+      "snark": "英伟达这是要把AI算力从芯片到数据中心全包了，别人还怎么玩？"
+    },
+    {
+      "id": 9,
+      "cat": "strategy",
+      "title": "语音AI公司Wispr融资2.8亿美元，估值达20亿美元",
+      "title_en": "Wispr raises $280M at $2B valuation as it looks beyond dictation",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/08/17/wispr-raises-280m-at-2b-valuation-as-it-looks-beyond-dictation/",
+      "time": "10小时前",
+      "published": "2026-08-17T13:10:05+00:00",
+      "summary": "语音人工智能公司Wispr宣布完成2.8亿美元融资，公司估值达到20亿美元。Wispr此前以语音听写技术闻名，此次融资将用于拓展其产品线，进入会议纪要等新领域。Wispr近期推出了一款新的笔记工具，能够自动记录和整理会议内容，标志着其业务从单纯的语音转文字向更全面的AI助理方向发展。这笔资金将帮助Wispr扩大市场份额，并可能用于研发更先进的语音理解和生成技术。在AI语音赛道竞争激烈的背景下，Wispr凭借其技术积累和融资能力，有望成为该领域的头部玩家之一。",
+      "snark": "语音听写做到20亿估值，看来“说话”比“打字”值钱多了。"
+    },
+    {
+      "id": 10,
+      "cat": "tool",
+      "title": "Whisker的AI猫砂盆误判猫咪身份，引发宠物主人困惑",
+      "title_en": "Whisker’s AI-powered litter robot thinks my cats swapped bodies",
+      "source": "The Verge AI",
+      "url": "https://www.theverge.com/tech/978323/whisker-litter-robot-5-pro-review",
+      "time": "13小时前",
+      "published": "2026-08-17T11:00:00+00:00",
+      "summary": "The Verge的一篇评测文章指出，Whisker公司推出的AI智能猫砂盆（Litter Robot 5 Pro）在识别猫咪身份时出现错误，竟然将两只猫的身体数据混淆，导致主人收到错误的健康报告。这款猫砂盆内置传感器和AI算法，可以监测每只猫的如厕频率、体重等健康指标，并推送到手机应用上。然而，在评测中，系统将两只猫的数据张冠李戴，使得主人误以为猫咪“交换了身体”。尽管这一错误可能源于两只猫体重相近或传感器识别逻辑缺陷，但暴露出AI在宠物监测领域的可靠性问题。Whisker公司尚未就此问题发表评论，但这一事件提醒消费者，AI驱动的健康监测并非完全准确。",
+      "snark": "AI猫砂盆都能搞混猫了，下一步是不是该怀疑猫生？"
+    },
+    {
+      "id": 11,
+      "cat": "policy",
+      "title": "Anthropic详解Claude隐形文本水印技术方案",
+      "title_en": "Anthropic explains how Claude&#8217;s invisible text watermarks will work",
+      "source": "The Verge AI",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/980869/anthropic-claude-watermarks-synthid-text-system",
+      "time": "13小时前",
+      "published": "2026-08-17T10:57:13+00:00",
+      "summary": "Anthropic公司近日解释了其计划如何为Claude生成的文本添加隐形水印，以符合欧洲的AI透明度法规。Anthropic宣布，Claude的文本标记系统将采用“SynthID-Text方法”，这是一种开源的水印技术，通过修改文本的某些概率分布特征来嵌入不可见的标记，而不会影响文本的可读性和质量。该技术可以追溯到AI生成内容的来源，有助于防止深度伪造和虚假信息传播。Anthropic表示，该水印方案将在不牺牲用户体验的前提下，满足监管要求。这一举措也反映了AI公司在合规与创新之间寻求平衡的努力。",
+      "snark": "给文本加水印，AI也要学会“防伪”了，那谁来防AI？"
+    },
+    {
+      "id": 12,
+      "cat": "tool",
+      "title": "DeepSeek发布开发者预览版DeepSeek Harness：MIT许可的Agent框架",
+      "title_en": "DeepSeek AI Releases DeepSeek Harness in Developer Preview: An MIT-Licensed Agent Harness Where Everything is a Plugin",
+      "source": "MarkTechPost",
+      "url": "https://www.marktechpost.com/2026/08/17/deepseek-ai-releases-deepseek-harness-in-developer-preview/",
+      "time": "14小时前",
+      "published": "2026-08-17T09:06:32+00:00",
+      "summary": "DeepSeek AI发布了DeepSeek Harness v0.1的开发者预览版，这是一个采用MIT开源许可证的代理（Agent）框架，其核心设计理念是“万物皆插件”。该框架的每个功能都作为Cordis插件实现，提供了四种运行时模式、仅追加的会话日志以及与模型无关的路由机制。这意味着开发者可以灵活地替换或扩展框架的各个组件，以适应不同的AI模型和应用场景。DeepSeek Harness的发布为AI代理开发提供了一个高度模块化和可定制的基础设施，有助于降低开发门槛并促进社区协作。该框架的源码已在GitHub上公开，开发者可以立即开始试用和贡献代码。",
+      "snark": "万物皆插件，听起来像是AI界的乐高，拼装起来就能跑？"
+    }
+  ],
+  "stats": {
+    "total": 12,
+    "model_count": 2,
+    "strategy_count": 5,
+    "tool_count": 3,
+    "policy_count": 2
+  }
+}

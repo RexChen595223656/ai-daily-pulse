@@ -1,0 +1,167 @@
+{
+  "date": "2026-11-21",
+  "generated_at": "2026-11-21T16:02:13.055930+08:00",
+  "highlight": "AI 与人类同日宣称攻克黎曼猜想，数学界震动；英伟达推出扩散语言模型，速度提升四倍。",
+  "fun": {
+    "lucky": "Claude",
+    "advice": "宜：挑战千年难题，宜与数学家合作；忌：独揽功劳，忌在验证前开香槟。",
+    "joke": "为什么 AI 数学那么好？因为它从不算错，只会算力不足。"
+  },
+  "articles": [
+    {
+      "id": 1,
+      "cat": "tool",
+      "title": "ClawDOS：面向 DOS 的 AI 编程代理",
+      "title_en": "ClawDOS – An AI coding agent for DOS",
+      "source": "Hacker News",
+      "url": "http://ricapar.net/ClawDOS/",
+      "time": "2小时前",
+      "published": "2026-11-21T05:38:01+00:00",
+      "summary": "开发者推出 ClawDOS，一个专为 DOS 环境设计的 AI 编程代理工具。它能在经典磁盘操作系统下运行，接受自然语言指令并自动生成、修改或调试代码，帮助开发者在复古计算环境或嵌入式场景中完成编程任务。该工具通过命令行交互，将现代大模型能力引入 DOS 平台，支持批处理脚本生成与调试，降低老旧系统上的开发门槛。项目在 Hacker News 上获得关注，展示了 AI 代理向非主流平台扩展的趋势，也为维护遗留系统的工程师提供了新的自动化手段。",
+      "snark": "AI 终于学会在 DOS 里写代码了，下一步是不是该帮我们修软盘了？"
+    },
+    {
+      "id": 2,
+      "cat": "model",
+      "title": "Baseten 发布 Bison-1 与 Groundhog-1，登顶决策模型指数",
+      "title_en": "Baseten Releases Bison-1 and Groundhog-1, Topping Decision Model Index",
+      "source": "MarkTechPost",
+      "url": "https://www.marktechpost.com/2026/11/20/baseten-bison-1-groundhog-1-gemma-4-decision-models/",
+      "time": "4小时前",
+      "published": "2026-11-21T04:01:04+00:00",
+      "summary": "Baseten 推出两款开放权重决策模型 Bison-1 和 Groundhog-1，均基于 Gemma 4 构建。Bison-1 在 AA 决策指数 v2.1 上获得 76 分，表现领先。两款模型均支持 128k 上下文窗口和图像输入，适用于需要长文档理解与多模态决策的场景。开放权重意味着开发者可自行部署和微调，降低对闭源 API 的依赖。此次发布标志着决策类模型在基准测试上的竞争加剧，也为企业级应用提供了更灵活的选择。",
+      "snark": "决策模型指数又刷新了，可我的决策还是靠抛硬币。"
+    },
+    {
+      "id": 3,
+      "cat": "strategy",
+      "title": "丹尼尔·埃克投资 AI 研究员创办的聚变能源初创公司",
+      "title_en": "Daniel Ek backs AI researcher’s fusion power startup. Here’s what they’re building.",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/11/20/daniel-ek-backs-ai-researchers-fusion-power-startup-heres-what-theyre-building/",
+      "time": "12小时前",
+      "published": "2026-11-20T19:53:41+00:00",
+      "summary": "Spotify 创始人丹尼尔·埃克投资了 Europa Fusion，一家由 AI 研究员创办的聚变能源初创公司。该公司致力于探索聚变发电技术，具体方案尚未完全公开。埃克此举延续了科技领袖跨界投资硬科技的趋势，将 AI 领域积累的资本与人才引向能源创新。聚变能源被视为清洁能源的终极方案之一，但技术难度极高、商业化周期长。该投资反映出 AI 从业者对底层能源基础设施的关注，也暗示未来 AI 数据中心的能源需求可能推动聚变技术加速发展。",
+      "snark": "AI 研究员转行造太阳，至少这次烧的不是 GPU。"
+    },
+    {
+      "id": 4,
+      "cat": "model",
+      "title": "AI 宣称解决 167 年历史的黎曼猜想，人类数学家也同时提交证明",
+      "title_en": "AI claimed a solution to the 167-year-old Riemann hypothesis — and a human did, too",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/11/20/ai-claimed-a-solution-to-the-167-year-old-riemann-hypothesis-and-a-human-did-too/",
+      "time": "12小时前",
+      "published": "2026-11-20T19:32:08+00:00",
+      "summary": "数学界被最新 AI 成果震动：有 AI 系统宣称证明了黎曼猜想，而与此同时一位人类数学家也提交了竞争性证明。黎曼猜想自 1859 年提出以来悬而未决，是千禧年大奖难题之一，其证明将深刻影响数论与密码学。目前两份证明均待同行验证，尚不能确认是否成立。若 AI 证明通过审查，将是 AI 在纯数学领域的里程碑；若人类证明胜出，则凸显人类直觉在形式化推理中的价值。事件引发对 AI 数学发现可信度与验证机制的广泛讨论。",
+      "snark": "AI 和人类同时交卷，像极了考试作弊对答案，结果还没出。"
+    },
+    {
+      "id": 5,
+      "cat": "policy",
+      "title": "特朗普威胁对在美境外建设 AI 数据中心征收“巨额税”",
+      "title_en": "Trump threatens ‘tremendous tax’ for moving AI data centers outside the US",
+      "source": "The Verge AI",
+      "url": "https://www.theverge.com/policy/1038892/trump-foreign-data-centers-tax",
+      "time": "13小时前",
+      "published": "2026-11-20T18:50:19+00:00",
+      "summary": "美国总统特朗普承诺，将对在美国境外建设数据中心的企业征收“巨额税”，即使美国各州和城市正在限制新建数据中心的申请。他表示不会允许本国公司将数据中心建在国外。此举旨在将 AI 基础设施留在美国境内，保障就业与数据主权。然而，数据中心能耗与水耗巨大，地方审批阻力上升，企业可能寻求海外选址以降低成本。该政策若落地，将影响云计算与 AI 公司的全球布局策略，也可能引发贸易摩擦。",
+      "snark": "税单比数据中心先到，企业连夜把服务器搬回老家。"
+    },
+    {
+      "id": 6,
+      "cat": "model",
+      "title": "RadixArk 发布 DaisyRose-27B：纯强化学习训练的 27B 智能体编程模型",
+      "title_en": "RadixArk Ships DaisyRose-27B, a 27B Agentic Coding Model Trained With Reinforcement Learning Only",
+      "source": "MarkTechPost",
+      "url": "https://www.marktechpost.com/2026/11/20/radixark-daisyrose-27b-agentic-model/",
+      "time": "14小时前",
+      "published": "2026-11-20T17:42:29+00:00",
+      "summary": "RadixArk 推出 DaisyRose-27B，一个采用 Apache 2.0 许可的智能体编程模型，基于 Qwen3.8-27B 后训练而来，仅使用强化学习进行优化。该模型在 Terminal Bench 4.1 的 pass@1 指标上提升至 12.0，翻了一倍多，且可在单张 GPU 上运行。纯强化学习路线避免了监督微调对标注数据的依赖，展示了后训练阶段的新可能性。单卡可部署的特性降低了使用门槛，适合开发者本地运行智能体编程任务。",
+      "snark": "纯强化学习调教出来的码农，怕是比老板还卷。"
+    },
+    {
+      "id": 7,
+      "cat": "strategy",
+      "title": "芯片能扛住太空环境，但融资能扛住吗？",
+      "title_en": "Chips can survive the space environment — can their financing?",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/11/20/chips-can-survive-the-space-environment-can-their-financing/",
+      "time": "14小时前",
+      "published": "2026-11-20T17:40:01+00:00",
+      "summary": "太空数据中心构想面临融资难题：贷款机构不愿让 SpaceX 将抵押品射入轨道。芯片虽能承受太空辐射与极端温度，但金融风险难以对冲。若卫星或轨道平台故障，抵押物回收几乎不可能，导致传统设备融资模式失效。这给太空数据中心的大规模建设蒙上阴影，也迫使初创公司探索保险、政府担保或新型租赁结构。文章探讨了航天硬件融资的特殊挑战，以及太空计算基础设施商业化所需跨越的金融障碍。",
+      "snark": "芯片上了天，贷款还在原地，银行家表示不约。"
+    },
+    {
+      "id": 8,
+      "cat": "model",
+      "title": "Anthropic 数学家借助 Claude 宣称解决千禧年大奖难题",
+      "title_en": "Anthropic mathematician claims to have solved prestigious Millennium Prize problem with Claude",
+      "source": "The Verge AI",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/1010051/anthropic-riemann-hypothesis-millennium-prize-problem",
+      "time": "15小时前",
+      "published": "2026-11-20T16:34:13+00:00",
+      "summary": "Anthropic 数学家 Levent Alpöge 声称在 Claude 的帮助下证明了黎曼猜想，这一困扰数学界数十年的千禧年大奖难题。若证明通过验证，将是 AI 辅助数学研究的重大突破。Alpöge 表示 Claude 在证明过程中提供了关键推理支持。目前该证明尚待同行评审，数学界对此持谨慎态度。此前已有 AI 宣称解决该问题，人类数学家也提交了竞争性证明，使得验证工作更加复杂。事件凸显 AI 在高级数学推理中的潜力与可信度争议。",
+      "snark": "Claude 立大功，但数学家先别急着领奖，审稿人还在路上。",
+      "multiSource": [
+        "The Verge",
+        "The Verge AI"
+      ]
+    },
+    {
+      "id": 9,
+      "cat": "strategy",
+      "title": "英伟达黄仁勋丑闻余波持续发酵",
+      "title_en": "The fallout from Nvidia’s Jensen Huang scandal continues",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/podcast/the-fallout-from-nvidias-jensen-huang-scandal-continues/",
+      "time": "17小时前",
+      "published": "2026-11-20T14:55:44+00:00",
+      "summary": "英伟达在罢免 CEO 黄仁勋的余波中发布最新财报，业绩增长健康，并承诺好日子将继续。同时，公司宣布停止在中国销售 H200 芯片，并驳回了相关传闻。黄仁勋丑闻的具体细节尚未完全披露，但已对英伟达管理层稳定性和市场信心造成影响。停止对华销售 H200 是出口管制背景下的又一调整，可能进一步压缩英伟达在中国市场的收入。财报的强劲表现暂时缓解了投资者担忧，但治理风险仍是关注焦点。",
+      "snark": "CEO 走了，财报还在涨，英伟达的剧本比芯片还魔幻。"
+    },
+    {
+      "id": 10,
+      "cat": "model",
+      "title": "英伟达 AI 发布 Nemotron-Labs-Sigma：连续扩散语言模型，14 个检查点覆盖 3B/8B",
+      "title_en": "NVIDIA AI Releases Nemotron-Labs-Sigma, a Continuous Diffusion Language Model with 14 checkpoints at 3B/8B",
+      "source": "MarkTechPost",
+      "url": "https://www.marktechpost.com/2026/11/20/nvidia-nemotron-labs-sigma-continuous-diffusion-language-model/",
+      "time": "17小时前",
+      "published": "2026-11-20T14:44:52+00:00",
+      "summary": "英伟达发布 Nemotron-Labs-Sigma，包含 14 个开放的 3B 和 8B 连续扩散语言模型检查点。Sigma 在学习到的 16 维嵌入空间中对文本去噪，蒸馏为少步采样器，解码速度最高可达自回归解码的 4.20 倍。扩散语言模型以并行去噪替代逐词生成，有望突破自回归模型的延迟瓶颈。多检查点设计覆盖不同规模与采样步数，方便开发者按需选用。该发布推动了扩散架构在语言建模中的实用化，为低延迟推理场景提供新选项。",
+      "snark": "扩散模型来抢语言模型的饭碗，自回归连夜写检讨。"
+    },
+    {
+      "id": 11,
+      "cat": "strategy",
+      "title": "一切崩溃的一周",
+      "title_en": "The week everything fell apart",
+      "source": "The Verge AI",
+      "url": "https://www.theverge.com/podcast/1038419/outage-outlook-ground-stop-tech-failure-vergecast",
+      "time": "17小时前",
+      "published": "2026-11-20T14:06:59+00:00",
+      "summary": "本周科技世界经历连环故障：Outlook 宕机数日，美国全国航班停飞（25 年来第二次），银行系统突然失灵，连 iCloud 也无法保持在线。一系列基础设施故障让公众感受到技术系统的脆弱性，也引发对集中式云服务依赖的反思。文章认为这可能是更大规模技术崩溃的开端，探讨了系统冗余、故障隔离与应急响应的重要性。对 AI 行业而言，事件提醒人们：模型再强，也架不住底层云服务集体罢工。",
+      "snark": "云服务一挂，AI 再聪明也只能对着断网发呆。"
+    },
+    {
+      "id": 12,
+      "cat": "tool",
+      "title": "六款 AI 驱动的小工具，让你的家庭办公室更智能",
+      "title_en": "Six AI-powered gadgets that could make your home office smarter",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/11/20/6-ai-powered-gadgets-that-could-make-your-home-office-smarter/",
+      "time": "18小时前",
+      "published": "2026-11-20T14:00:00+00:00",
+      "summary": "文章推荐六款 AI 驱动的办公小工具，涵盖笔记记录器、网络摄像头等品类，旨在升级家庭办公体验。这些设备利用 AI 实现自动会议纪要、智能构图、语音转写等功能，减少手动操作。从桌面硬件到外设配件，产品覆盖不同价位与需求，适合远程工作者提升效率。文章强调实用性与易用性，而非堆砌参数，帮助读者在众多 AI 硬件中做出选择。整体反映了 AI 向日常办公场景渗透的趋势。",
+      "snark": "AI 帮你记笔记，结果会议内容还是没人看。"
+    }
+  ],
+  "stats": {
+    "total": 12,
+    "model_count": 5,
+    "strategy_count": 4,
+    "tool_count": 2,
+    "policy_count": 1
+  }
+}

@@ -1,0 +1,171 @@
+{
+  "date": "2026-11-12",
+  "generated_at": "2026-11-12T08:00:33.462046+08:00",
+  "highlight": "英伟达董事会据报准备罢免黄仁勋，同时其绯闻丑闻持续发酵，AI芯片巨头面临领导层地震。",
+  "fun": {
+    "lucky": "英伟达",
+    "advice": "宜：紧急公关、召开董事会；忌：与下属发展私人关系、让间谍传闻上头条。",
+    "joke": "为什么英伟达CEO不怕被罢免？因为他有GPU——Gossip Processing Unit。"
+  },
+  "articles": [
+    {
+      "id": 1,
+      "cat": "tool",
+      "title": "吉尔伯特+托宾律所借助AI重新思考法律业务",
+      "title_en": "Gilbert + Tobin rethinks the business of law with AI",
+      "source": "OpenAI Blog",
+      "url": "https://openai.com/index/gilbert-tobin-sam-nickless",
+      "time": "1分钟前",
+      "published": "2026-11-12T00:00:00+00:00",
+      "summary": "澳大利亚知名律所吉尔伯特+托宾的合伙人兼首席执行官萨姆·尼克莱斯与OpenAI进行对话，分享该律所如何将AI融入法律业务实践。尼克莱斯介绍了律所在合同审阅、法律研究、文件起草等环节部署AI工具的经验，强调AI并非替代律师，而是提升效率、让律师专注于高价值战略工作。双方还探讨了法律行业对AI的信任建立、数据安全合规、以及人机协作模式的演进。该对话属于OpenAI企业客户案例系列，展示了生成式AI在专业服务领域的落地路径。",
+      "snark": "律所都开始用AI了，看来以后实习生的主要工作是给AI擦屁股。"
+    },
+    {
+      "id": 2,
+      "cat": "strategy",
+      "title": "黄仁勋丑闻时间线全梳理",
+      "title_en": "The unfolding Jensen Huang scandal: a timeline",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/11/11/nvidia-ceo-jensen-huangs-affair-with-alleged-chinese-spy-a-timeline/",
+      "time": "10分钟前",
+      "published": "2026-11-11T23:50:00+00:00",
+      "summary": "科技媒体TechCrunch梳理了英伟达首席执行官黄仁勋与一名被指为中国间谍的女性发生婚外情的事件时间线。报道称该事件可能对国家安全产生影响，因为美国与中国正在竞相开发最先进的AI基础设施。时间线涵盖丑闻曝光、公司回应、股价波动以及监管机构关注等关键节点。此事发生在AI芯片出口管制日益收紧的背景下，英伟达作为全球AI算力核心供应商，其领导层的稳定性直接关系到美国AI战略布局。报道未透露具体情报细节，但强调事件已引发华盛顿方面的高度警觉。",
+      "snark": "黄老板这时间线比CUDA的更新日志还精彩，建议直接拍成纪录片。"
+    },
+    {
+      "id": 3,
+      "cat": "strategy",
+      "title": "英伟达股价下跌，董事会据报准备罢免CEO黄仁勋",
+      "title_en": "Nvidia’s stock drops as board reportedly preps to oust CEO Jensen Huang",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/11/11/nvidias-stock-drops-as-board-reportedly-preps-to-oust-ceo-jensen-huang/",
+      "time": "31分钟前",
+      "published": "2026-11-11T23:28:45+00:00",
+      "summary": "据TechCrunch报道，英伟达董事会可能最快于周三晚间决定是否罢免创始人兼首席执行官黄仁勋，后者已执掌公司33年。消息传出后英伟达股价应声下跌。报道称董事会此举与近期围绕黄仁勋的系列丑闻有关，包括其承认与一名被指为中国情报人员的女性有婚外情，以及另一名英伟达高管涉及的额外绯闻。若罢免成真，将是全球市值最高半导体公司之一的重大领导层变动，可能影响AI芯片供应链和公司战略方向。英伟达尚未对此置评。",
+      "snark": "33年功勋CEO，最后可能因为私生活比GPU发热还猛而下台。",
+      "multiSource": [
+        "TechCrunch",
+        "The Verge AI"
+      ]
+    },
+    {
+      "id": 4,
+      "cat": "strategy",
+      "title": "黄仁勋被曝与英伟达女高管有另一段婚外情",
+      "title_en": "Jensen Huang accused of having another affair — with an Nvidia exec",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/11/11/jensen-huang-accused-of-having-another-affair-with-a-nvidia-exec/",
+      "time": "43分钟前",
+      "published": "2026-11-11T23:17:05+00:00",
+      "summary": "TechCrunch报道称，英伟达首席执行官黄仁勋在承认与一名被指为中国情报人员的女性有婚外情后，又被指控与一名英伟达下属女高管存在另一段婚外情。该报道使黄仁勋面临的个人危机进一步升级。此前他已因首段绯闻受到外界猛烈批评，而新指控涉及公司内部管理关系，可能引发治理和合规层面的审查。英伟达董事会据报正在评估是否罢免黄仁勋。连续曝出的私生活丑闻正值英伟达处于AI芯片出口管制和全球算力竞争的风口浪尖，公司声誉和投资者信心面临考验。",
+      "snark": "黄老板的私生活比英伟达的产品线还丰富，建议出个路线图。"
+    },
+    {
+      "id": 5,
+      "cat": "policy",
+      "title": "美联航不让你的AI代理帮你订机票",
+      "title_en": "United won’t let your AI agent book your flight",
+      "source": "The Verge AI",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/1031623/united-unauthorized-ai-agents",
+      "time": "2小时前",
+      "published": "2026-11-11T21:54:21+00:00",
+      "summary": "美联航表示不会允许个人AI助手在该航空公司平台上预订机票，理由是隐私和监管方面的担忧。据《华尔街日报》报道，美联航称目前尚未看到大量用户尝试用AI代理订票，这与其它企业的观察一致。该决定反映了企业在AI代理接入核心业务系统时的谨慎态度，涉及用户数据授权、交易责任归属以及航空业监管合规等复杂问题。随着AI代理能力增强，平台方与代理开发者之间关于访问权限和责任的博弈正在加剧，美联航的立场可能影响其它航司和在线旅游平台的政策走向。",
+      "snark": "AI代理连机票都订不了，看来离取代人类还差一张登机牌。",
+      "multiSource": [
+        "The Verge",
+        "The Verge AI"
+      ]
+    },
+    {
+      "id": 6,
+      "cat": "model",
+      "title": "谷歌发布Gemini决策API，搭载Gemini Decision 1，定价每百万token 0.10美元",
+      "title_en": "Google Launches Gemini Decisions API With Gemini Decision 1 at $0.10/M Tokens",
+      "source": "MarkTechPost",
+      "url": "https://www.marktechpost.com/2026/11/11/google-gemini-decisions-api-gemini-decision-1/",
+      "time": "2小时前",
+      "published": "2026-11-11T21:21:42+00:00",
+      "summary": "谷歌推出Gemini决策API，由Gemini Decision 1模型驱动。该API可针对文本、图像、音频、视频和PDF中的最多1000个是/否问题、选择题和评分标准问题返回经过校准的概率。定价为每百万输入token 0.10美元。所谓校准概率，是指模型输出的置信度与实际正确率相匹配，便于开发者在自动化决策场景中设定阈值。该产品面向需要批量判断的应用，如内容审核、表单核验、多模态分类等。低价策略显示谷歌试图在决策类AI API市场抢占开发者生态，与OpenAI等竞争对手展开差异化竞争。",
+      "snark": "每百万token一毛钱，谷歌这是把AI决策卖出了白菜价，就差拼多多砍一刀了。"
+    },
+    {
+      "id": 7,
+      "cat": "model",
+      "title": "谷歌DeepMind发布AlphaGenome 2，可预测特定细胞类型的变异效应",
+      "title_en": "Google DeepMind Releases AlphaGenome 2 for Cell-Type-Specific Variant Effects",
+      "source": "MarkTechPost",
+      "url": "https://www.marktechpost.com/2026/11/11/google-deepmind-alphagenome-2-cell-type-variant-effects/",
+      "time": "3小时前",
+      "published": "2026-11-11T20:51:56+00:00",
+      "summary": "谷歌DeepMind发布AlphaGenome 2，这是一个条件DNA序列模型，能够按细胞类型预测调控活性和遗传变异效应。该模型通过AlphaGenome API面向非商业研究开放。与传统基因组模型不同，AlphaGenome 2引入了细胞类型条件化能力，意味着同一DNA序列在不同细胞环境下的调控解读可以分别建模，有助于理解疾病相关变异为何只在特定组织中起作用。该工具面向学术和非营利研究，有望推动功能基因组学和精准医学研究，但商业使用需另行授权。",
+      "snark": "DeepMind连DNA都不放过，下一步是不是要预测我为什么单身。"
+    },
+    {
+      "id": 8,
+      "cat": "strategy",
+      "title": "你担心的那个数据中心可能根本建不起来",
+      "title_en": "Why the data center you dread might never even be built",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/video/why-the-data-center-you-dread-might-never-even-be-built/",
+      "time": "3小时前",
+      "published": "2026-11-11T20:15:15+00:00",
+      "summary": "TechCrunch视频节目探讨了AI数据中心建设热潮面临的现实障碍。报道指出，从当地社区的广泛反对、审批许可延迟到电力供应紧张，数据中心项目推进困难重重。但更根本的问题是，许多已宣布的项目可能永远不会真正建成。视频分析了宣布与实际开工之间的巨大落差，以及地方政府、公用事业公司和居民对数据中心能耗和水耗的担忧。在AI算力需求暴涨的背景下，数据中心的落地瓶颈可能制约AI基础设施的扩张速度，影响云计算和AI训练能力的供给。",
+      "snark": "数据中心PPT建了100个，实际通电的不到10个，这泡沫比拿铁还厚。"
+    },
+    {
+      "id": 9,
+      "cat": "strategy",
+      "title": "Meta失去长期基础设施负责人",
+      "title_en": "Meta is losing its longtime head of  infrastructure",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/11/11/meta-is-losing-its-longtime-head-of-infrastructure/",
+      "time": "3小时前",
+      "published": "2026-11-11T20:12:01+00:00",
+      "summary": "Meta长期基础设施负责人桑托什·贾纳丹即将卸任。贾纳丹于2009年首次加入Meta，在任期间负责公司全球数据中心、网络和算力基础设施的规划与运营。他的离职正值Meta大举投资AI基础设施、扩建数据中心和采购GPU的关键时期。基础设施负责人更替可能影响Meta在AI算力军备竞赛中的执行节奏，尤其是在与谷歌、微软等对手争夺数据中心资源和电力供应的背景下。Meta尚未公布继任者安排，也未说明离职原因。",
+      "snark": "Meta基础设施老大跑了，扎克伯格的元宇宙还没建好，现实的数据中心先塌了。"
+    },
+    {
+      "id": 10,
+      "cat": "strategy",
+      "title": "蓝潮之后，反对声和繁文缛节继续拖慢数据中心建设",
+      "title_en": "How backlash and red tape continue to slow data centers post-Blue Wave",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/podcast/how-backlash-and-red-tape-continue-to-slow-data-centers-post-blue-wave/",
+      "time": "3小时前",
+      "published": "2026-11-11T20:02:14+00:00",
+      "summary": "TechCrunch播客节目讨论数据中心建设在政治格局变化后依然面临的阻力。报道指出，尽管部分政策环境有所调整，但数据中心项目仍遭遇当地居民反对、审批流程冗长和电力供应紧张等现实障碍。更关键的是，许多已宣布的项目可能永远不会真正开工。节目分析了地方政府对数据中心能耗、水资源使用和土地使用的担忧，以及公用事业公司面对激增电力需求时的应对困境。在AI算力需求持续攀升的背景下，这些瓶颈可能延缓AI基础设施的扩张，进而影响模型训练和推理能力的供给节奏。",
+      "snark": "数据中心还没建好，反对声先建好了，这届居民比审批部门还高效。"
+    },
+    {
+      "id": 11,
+      "cat": "strategy",
+      "title": "CoreWeave转向客户预付款和短期合同为AI增长融资",
+      "title_en": "CoreWeave turns to customer prepayments, shorter contracts to fund AI growth",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/11/11/coreweave-turns-to-customer-prepayments-shorter-contracts-to-fund-ai-growth/",
+      "time": "4小时前",
+      "published": "2026-11-11T19:54:00+00:00",
+      "summary": "AI云服务商CoreWeave在第三季度财报中显示，公司正越来越多地要求客户预付费用、以特定合同为抵押进行借款，并寻求短期交易，这可能导致价格上涨。CoreWeave是英伟达GPU云算力的重要提供商，其融资策略变化反映了AI基础设施公司在大规模扩张中面临的资本压力。预付款模式可改善现金流，但也可能降低对价格敏感客户的吸引力。以合同为抵押借款则增加了财务杠杆和风险敞口。在AI算力需求旺盛但资本开支巨大的背景下，CoreWeave的财务操作凸显了AI云赛道烧钱速度与融资能力之间的紧张关系。",
+      "snark": "CoreWeave让客户先付钱再算力，这商业模式比健身房年卡还激进。"
+    },
+    {
+      "id": 12,
+      "cat": "strategy",
+      "title": "英国Fractile获7.2亿美元融资，在AI芯片竞赛中占得先机",
+      "title_en": "With $720M round, Britain’s Fractile gets a leg up in the race for AI chips",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/11/11/with-720m-round-britains-fractile-gets-a-leg-up-in-the-race-for-ai-chips/",
+      "time": "4小时前",
+      "published": "2026-11-11T19:34:55+00:00",
+      "summary": "英国AI芯片初创公司Fractile完成7.2亿美元融资，成为专用AI芯片赛道中融资额最高的玩家之一。Fractile致力于设计面向AI工作负载的专用芯片，试图在英伟达主导的GPU市场之外开辟新路径。本轮巨额融资反映了资本市场对AI芯片多元化的强烈兴趣，尤其是在GPU供应紧张和地缘政治推动芯片自主的背景下。Fractile的具体技术路线和投资方尚未完全披露，但该公司已跻身欧洲AI芯片领域最受关注的新星之列，其进展可能影响全球AI算力供给格局。",
+      "snark": "7.2亿美元砸下去，希望别最后只做出个能跑分不能跑模型的暖手宝。"
+    }
+  ],
+  "stats": {
+    "total": 12,
+    "model_count": 2,
+    "strategy_count": 8,
+    "tool_count": 1,
+    "policy_count": 1
+  }
+}

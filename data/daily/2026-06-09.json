@@ -1,0 +1,168 @@
+{
+  "date": "2026-06-09",
+  "generated_at": "2026-06-09T08:02:12.251773+08:00",
+  "highlight": "苹果WWDC全面押注AI，OpenAI提交IPO申请，AI行业竞争白热化。",
+  "fun": {
+    "lucky": "Siri",
+    "advice": "宜：升级Siri，让它帮你写邮件。\n忌：问它今天天气，它可能还在加载。",
+    "joke": "Siri说它学会了写诗，结果写了个'404 Not Found'。"
+  },
+  "articles": [
+    {
+      "id": 1,
+      "cat": "strategy",
+      "title": "OpenAI提交IPO申请，奥特曼的虹膜扫描公司却在大规模裁员",
+      "title_en": "As OpenAI files for IPO, Sam Altman’s eye-scanning company is doing layoffs, report says",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/06/08/as-openai-files-for-ipo-sam-altmans-eye-scanning-company-is-doing-layoffs-report-says/",
+      "time": "1小时前",
+      "published": "2026-06-08T22:41:45+00:00",
+      "summary": "据TechCrunch报道，在OpenAI紧锣密鼓筹备IPO的同时，其首席执行官山姆·奥特曼联合创立的身份验证公司Tools for Humanity正面临营收困境，计划进行大规模裁员。这家以虹膜扫描技术闻名的公司，曾试图通过生物识别建立全球身份系统，但市场接受度不及预期。OpenAI于周一秘密向美国证券交易委员会提交了S-1表格，紧随竞争对手Anthropic的上市步伐。这一对比鲜明的动态，凸显了AI领域头部公司与衍生项目之间的冰火两重天。",
+      "snark": "一个靠眼睛赚钱，一个靠眼睛上市，区别在于一个看的是钱，一个看的是代码。"
+    },
+    {
+      "id": 2,
+      "cat": "strategy",
+      "title": "苹果WWDC 2026：AI演示因2.5亿美元虚假广告和解案显得更加真实",
+      "title_en": "Apple’s WWDC AI demos looked more real after $250M false ad settlement",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/06/08/apples-wwdc-ai-demos-looked-more-real-after-250m-false-ad-settlement/",
+      "time": "1小时前",
+      "published": "2026-06-08T22:39:57+00:00",
+      "summary": "苹果在2026年全球开发者大会（WWDC）上的主题演讲，被TechCrunch评价为像一位配偶自豪地列出所有已完成的家务清单。其中一个微妙的例子是：大量AI演示都展示了用户手持手机站立操作的场景。此前苹果因虚假广告指控支付了2.5亿美元和解金，这次他们刻意让AI功能展示更加贴近真实使用场景，避免过度渲染。整个基调从激进炫技转向务实修复，强调AI是改善体验的工具而非噱头。",
+      "snark": "以前是'哇哦'，现在是'哦，原来你也会卡顿'。"
+    },
+    {
+      "id": 3,
+      "cat": "tool",
+      "title": "苹果用AI拯救Safari的扩展生态",
+      "title_en": "Apple is using AI to fix Safari’s extension problem",
+      "source": "The Verge AI",
+      "url": "https://www.theverge.com/tech/946345/apple-safari-ai-update-extensions",
+      "time": "1小时前",
+      "published": "2026-06-08T22:14:17+00:00",
+      "summary": "Safari浏览器长期以来因苹果严格的开发要求，导致扩展库远落后于竞争对手。在WWDC 2026上，苹果宣布引入AI技术来解决这一短板。新功能允许用户通过自然语言描述（即所谓的'氛围编码'）来创建自己的扩展，无需掌握复杂的编程知识。这相当于让用户用大白话告诉AI想要什么功能，AI自动生成对应的扩展代码。此举有望大幅降低Safari扩展的开发门槛，吸引更多普通用户参与生态建设。",
+      "snark": "终于，写扩展比写购物清单还简单了。"
+    },
+    {
+      "id": 4,
+      "cat": "policy",
+      "title": "苹果新家长控制功能：保护孩子还是保护自己？",
+      "title_en": "Apple’s new parental controls are for keeping Apple out of trouble",
+      "source": "The Verge",
+      "url": "https://www.theverge.com/policy/946331/apple-parental-controls-child-accounts-wwdc",
+      "time": "2小时前",
+      "published": "2026-06-08T21:48:08+00:00",
+      "summary": "苹果在WWDC上推出的新家长控制功能，表面上是为了帮助家长精细管理孩子的在线体验和屏幕时间。但The Verge分析指出，在全球互联网监管争论日益激烈的背景下，这些更新更像是苹果在即将到来的监管风暴中的防御性举措。通过提供更强大的儿童账户和内容过滤工具，苹果试图向立法者证明其已经主动承担起平台责任，从而避免更严格的强制性法规。这一策略既保护了用户，也保护了苹果的商业利益。",
+      "snark": "苹果说：'我们帮你管孩子。' 潜台词：'别让政府来管我。'"
+    },
+    {
+      "id": 5,
+      "cat": "strategy",
+      "title": "OpenAI提交IPO申请，紧随Anthropic步伐",
+      "title_en": "OpenAI files for IPO, following Anthropic",
+      "source": "The Verge AI",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/946335/openai-ipo-s-1-confidential",
+      "time": "2小时前",
+      "published": "2026-06-08T21:38:29+00:00",
+      "summary": "OpenAI于周一迈出了IPO竞赛中的关键一步，秘密向美国证券交易委员会提交了S-1表格。这标志着该公司与竞争对手Anthropic之间持续近一年的上市竞赛进入新阶段。此前Anthropic已做出类似决定。OpenAI的IPO计划不仅关乎融资，更象征着AI行业从实验室走向资本市场的成熟化转型。随着生成式AI商业化加速，两家头部公司的上市将为行业树立估值标杆，但也可能引发对AI安全与盈利平衡的更多讨论。",
+      "snark": "OpenAI说：'我们上市是为了让AI更安全。' 股民说：'我们买是为了让钱包更安全。'",
+      "multiSource": [
+        "TechCrunch",
+        "The Verge",
+        "The Verge AI"
+      ]
+    },
+    {
+      "id": 6,
+      "cat": "strategy",
+      "title": "苹果在WWDC上奋力追赶：AI只是冰山一角",
+      "title_en": "Apple plays catch-up at WWDC",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/06/08/apple-plays-catch-up-at-wwdc/",
+      "time": "2小时前",
+      "published": "2026-06-08T21:15:42+00:00",
+      "summary": "苹果在WWDC 2026主题演讲中，花了大量时间介绍修复、性能改进和用户长期要求的功能，最后才亮出升级版AI驱动的Siri。TechCrunch分析认为，这种安排表明苹果希望用户将AI视为其整体软件改进努力的一部分，而非唯一的焦点。在AI领域落后于微软和谷歌后，苹果采取'全栈优化'策略，先打好基础再谈智能。这种务实态度虽然少了些惊喜，但可能更有利于长期用户体验的稳定提升。",
+      "snark": "苹果的AI：不是跑得最快，而是先系好鞋带。"
+    },
+    {
+      "id": 7,
+      "cat": "strategy",
+      "title": "苹果押注廉价AI策略吸引小型开发者",
+      "title_en": "Apple bets cheaper AI will woo small developers",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/06/08/apple-bets-cheaper-ai-will-woo-small-developers/",
+      "time": "3小时前",
+      "published": "2026-06-08T20:53:55+00:00",
+      "summary": "随着AI实验成本不断攀升，苹果宣布了一项针对小型开发者的优惠政策：对于首次应用商店下载量低于200万次的开发者，免除云端AI API调用费用。这一举措旨在降低中小开发者使用苹果AI服务的门槛，鼓励更多创新应用诞生。在AI算力成本居高不下的当下，苹果通过补贴策略拉拢生态长尾开发者，同时与谷歌和微软的云AI服务形成差异化竞争。这既是商业策略，也是生态护城河的加固。",
+      "snark": "苹果说：'AI免费，但你的灵魂（和30%抽成）归我。'"
+    },
+    {
+      "id": 8,
+      "cat": "tool",
+      "title": "WWDC 2026：Siri AI、iOS 27、Apple Intelligence等全解析",
+      "title_en": "WWDC 2026: Everything announced on Siri AI, iOS 27, Apple Intelligence and more",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/06/08/wwdc-2026-everything-announced-on-siri-ai-os-27-apple-intelligence-and-more/",
+      "time": "4小时前",
+      "published": "2026-06-08T19:41:32+00:00",
+      "summary": "TechCrunch汇总了WWDC 2026的所有重大发布，核心围绕Siri助手的全面AI化升级。苹果将Siri定位为所有AI功能的入口，整合了更强大的自然语言理解、多轮对话和跨应用操作能力。iOS 27引入了Apple Intelligence平台，允许开发者调用统一的AI API。此外，照片、备忘录、邮件等原生应用都获得了AI增强功能。整个发布会传递出一个明确信号：苹果正在将AI渗透到操作系统的每一个角落，但依然保持'以用户体验为中心'的克制风格。",
+      "snark": "Siri学会了写诗，但当你问它'闹钟怎么关'时，它还是给你念首诗。"
+    },
+    {
+      "id": 9,
+      "cat": "tool",
+      "title": "Google NotebookLM获重大升级：Gemini 3.5与'反重力'功能上线",
+      "title_en": "Gemini 3.5 and Antigravity come to Google NotebookLM",
+      "source": "Ars Technica",
+      "url": "https://arstechnica.com/ai/2026/06/gemini-3-5-and-antigravity-come-to-google-notebooklm/",
+      "time": "5小时前",
+      "published": "2026-06-08T19:00:30+00:00",
+      "summary": "Google的AI笔记应用NotebookLM迎来重大升级，引入了最新的Gemini 3.5模型和一项名为'反重力'的新功能。不过这些新特性目前仅面向AI Ultra和企业版用户开放。Gemini 3.5带来了更强的推理和上下文理解能力，而'反重力'功能据称能帮助用户更高效地组织和梳理信息。此次升级将NotebookLM从简单的笔记工具提升为智能知识管理平台，但付费墙的设置也引发了对AI工具普惠性的讨论。",
+      "snark": "反重力没让你飞起来，但让你的账单飘到了天上。"
+    },
+    {
+      "id": 10,
+      "cat": "tool",
+      "title": "ClawHub安全信号分析：AI技能数据集端到端安全评估指南",
+      "title_en": "ClawHub Security Signals: A Coding Guide to End-to-End Security Signal Analysis and Verdict Classification on the AI Skills Dataset",
+      "source": "MarkTechPost",
+      "url": "https://www.marktechpost.com/2026/06/08/clawhub-security-signals-a-coding-guide-to-end-to-end-security-signal-analysis-and-verdict-classification-on-the-ai-skills-dataset/",
+      "time": "5小时前",
+      "published": "2026-06-08T18:57:19+00:00",
+      "summary": "MarkTechPost发布了一篇技术教程，深入探讨如何使用ClawHub安全信号数据集对AI技能进行端到端的安全信号分析和分类。教程指导开发者从Hugging Face加载Parquet格式数据，检查扫描器的判定结果、输出和严重性标签，并测量VirusTotal、静态分析和SkillSpector三种工具之间的重叠与分歧。该指南为AI安全评估提供了标准化方法论，有助于识别AI模型中的潜在漏洞和恶意代码注入风险，是AI供应链安全领域的重要参考。",
+      "snark": "教AI识别病毒？小心它学会后给自己写个补丁。"
+    },
+    {
+      "id": 11,
+      "cat": "tool",
+      "title": "苹果教会iPhone替你完成句子、照片和工作流",
+      "title_en": "Apple just taught your iPhone to finish your sentences, your photos, and your workflows",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/06/08/apple-just-taught-your-iphone-to-finish-your-sentences-your-photos-and-your-workflows/",
+      "time": "5小时前",
+      "published": "2026-06-08T18:48:45+00:00",
+      "summary": "苹果在WWDC上宣布为Safari、快捷指令和密码应用新增AI功能。Safari获得智能内容补全和摘要生成能力；照片应用能自动识别场景并建议编辑方案；快捷指令则支持用自然语言描述工作流。密码应用也加入了AI驱动的安全建议和自动填充优化。这些功能分散在不同应用中，但都基于统一的Apple Intelligence框架，旨在让AI无缝融入日常操作，减少用户的重复劳动。",
+      "snark": "iPhone终于学会替你打字了，下一步可能是替你回老板消息——小心被开除。"
+    },
+    {
+      "id": 12,
+      "cat": "tool",
+      "title": "苹果新快捷指令应用：用AI一句话构建自动化工作流",
+      "title_en": "Apple will let you build workflows using AI in its new Shortcuts app",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/06/08/apple-will-let-you-build-workflows-using-ai-in-its-new-shortcuts-app/",
+      "time": "5小时前",
+      "published": "2026-06-08T18:45:12+00:00",
+      "summary": "苹果在WWDC上展示了全新升级的快捷指令应用，核心亮点是AI驱动的自然语言工作流创建功能。用户只需用一句话描述想要实现的操作，例如'每天早上8点给我播报天气和日程'，AI就能自动生成对应的自动化流程。这大大降低了快捷指令的使用门槛，让非技术用户也能轻松创建复杂的自动化任务。该功能是苹果将AI与系统深度整合的又一例证，标志着自动化工具从'拖拽编程'向'意图编程'的进化。",
+      "snark": "以后连'拖'和'拽'都省了，动动嘴皮子手机就帮你干活——然后你发现它理解成了'放音乐'。"
+    }
+  ],
+  "stats": {
+    "total": 12,
+    "model_count": 0,
+    "strategy_count": 5,
+    "tool_count": 6,
+    "policy_count": 1
+  }
+}

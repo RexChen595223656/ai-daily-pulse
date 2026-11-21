@@ -1,0 +1,176 @@
+{
+  "date": "2026-11-13",
+  "generated_at": "2026-11-13T08:10:04.171887+08:00",
+  "highlight": "英伟达黄仁勋因丑闻辞职，开源战略与国家安全成焦点；谷歌Gemini 4 Hydrogen提升复杂问题理解力。",
+  "fun": {
+    "lucky": "Gemini 4 Hydrogen",
+    "advice": "宜：拆解复杂需求，分步作答\n忌：把用户的多重提问当成一句话糊弄",
+    "joke": "为什么AI从不八卦？因为它只关心注意力机制，不关心注意力新闻。"
+  },
+  "articles": [
+    {
+      "id": 1,
+      "cat": "model",
+      "title": "Liquid AI发布LiquidCodec：7400万参数流式音频编解码器",
+      "title_en": "Liquid AI Releases LiquidCodec, a 74M-Parameter Streaming Audio Codec",
+      "source": "MarkTechPost",
+      "url": "https://www.marktechpost.com/2026/11/12/liquid-ai-liquidcodec-streaming-audio-codec/",
+      "time": "1小时前",
+      "published": "2026-11-12T22:43:26+00:00",
+      "summary": "Liquid AI发布了LiquidCodec，一个约7400万参数的流式音频编解码器，为LFM3-Audio-2B和LFM3-Omni-2B模型提供音频处理能力。该编解码器以12.5赫兹运行，使用12个码本，在单个CPU线程上编码速度约为实时的361倍。这意味着它能在极低计算资源下高效处理音频流，适合实时语音交互场景。Liquid AI强调其轻量化和高速特性，有望推动边缘设备上的音频AI应用。该技术细节显示其在流式传输和低延迟方面具有优势，为多模态模型提供了更高效的音频前端。",
+      "snark": "361倍实时？我写周报的速度要是能有这零头就好了。"
+    },
+    {
+      "id": 2,
+      "cat": "policy",
+      "title": "民主党启动对英伟达的调查，就黄仁勋与特朗普的“计划”致信痛批",
+      "title_en": "Democrats launch Nvidia investigation, write scathing letter on Huang’s ‘scheme’ with Trump",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/11/12/democrats-launch-nvidia-investigation-write-scathing-letter-on-huangs-scheme-with-trump/",
+      "time": "1小时前",
+      "published": "2026-11-12T22:42:51+00:00",
+      "summary": "美国国会民主党人启动了对英伟达的调查，聚焦其对中国销售以及与前总统特朗普的往来。这是自所谓间谍事件曝光以来，针对英伟达的第二次国会调查。议员们致信严厉批评黄仁勋与特朗普之间的“计划”，质疑其可能涉及国家安全风险。调查背景是中美在先进AI基础设施领域的竞争加剧，英伟达作为GPU核心供应商处于风口浪尖。此次调查可能进一步收紧对华芯片出口管制，并影响英伟达的全球业务布局。",
+      "snark": "黄老板的瓜比GPU还烫手，国会山都来抢首发。"
+    },
+    {
+      "id": 3,
+      "cat": "tool",
+      "title": "Muse现在可以拨打美国企业电话——但得付费",
+      "title_en": "Muse can now place calls to US businesses — if you pay",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/11/12/muse-can-now-place-calls-to-u-s-businesses-if-you-pay/",
+      "time": "1小时前",
+      "published": "2026-11-12T22:22:28+00:00",
+      "summary": "Muse的AI助手现在能够向美国企业拨打外呼电话，但该功能并非免费，用户需要付费使用。这标志着AI语音代理从被动应答走向主动外呼，可应用于预约、客服回访、销售线索跟进等场景。Muse通过付费模式控制调用成本，并可能包含合规审查机制。该功能的上线意味着AI电话代理的商业化进一步落地，但也引发对骚扰电话和隐私的担忧。企业需确保外呼行为符合当地电话营销法规。",
+      "snark": "AI打电话推销，终于连骚扰电话都要内卷了。"
+    },
+    {
+      "id": 4,
+      "cat": "model",
+      "title": "谷歌新Gemini模型更擅长理解复杂问题",
+      "title_en": "Google’s new Gemini model is better at understanding complicated questions",
+      "source": "The Verge AI",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/1032505/google-search-ai-mode-gemini-4-hydrogen",
+      "time": "2小时前",
+      "published": "2026-11-12T21:55:32+00:00",
+      "summary": "谷歌推出新版Gemini 4 Hydrogen模型，声称能对复杂问题给出更有帮助的回答，包括包含多个部分的问题、难以理解的拼写错误或高度具体的请求。该模型可以拆解用户提问，并在回答中逐一处理每个部分。它已在谷歌搜索的AI模式中上线。这一改进针对真实场景中用户提问往往模糊、冗长或多重意图的痛点，通过结构化分解提升回答的完整性和准确性。Gemini 4 Hydrogen的发布显示谷歌在搜索AI化上持续加码，与竞品在复杂推理和意图理解上展开竞争。",
+      "snark": "能读懂错别字了，下一步是不是该学会读空气？",
+      "multiSource": [
+        "TechCrunch",
+        "The Verge",
+        "The Verge AI"
+      ]
+    },
+    {
+      "id": 5,
+      "cat": "tool",
+      "title": "CopilotKit发布OpenBot 1.0：MIT许可、可自托管的AI同事，内置治理功能",
+      "title_en": "CopilotKit Releases OpenBot 1.0: An MIT-Licensed, Self-Hostable AI Coworker With Built-In Governance",
+      "source": "MarkTechPost",
+      "url": "https://www.marktechpost.com/2026/11/12/copilotkit-openbot-1-0-open-source-ai-coworker/",
+      "time": "2小时前",
+      "published": "2026-11-12T21:45:36+00:00",
+      "summary": "CopilotKit发布了OpenBot 1.0，一个采用MIT许可证、可自托管的AI同事工作空间。企业可以自带智能体、模型和基础设施，而每个Bot的操作都会经过策略检查并记录在审计日志中。该产品强调治理与合规，适合对数据主权和操作可追溯性有要求的企业。OpenBot 1.0的开源特性降低了企业部署AI同事的门槛，同时内置的策略引擎和审计追踪解决了AI代理行为不可控的痛点。这一定位填补了开源AI工作流治理工具的空白。",
+      "snark": "AI同事带审计日志，摸鱼终于有据可查了。"
+    },
+    {
+      "id": 6,
+      "cat": "strategy",
+      "title": "黄仁勋丑闻时间线：从婚外情到国家安全风波",
+      "title_en": "The unfolding Jensen Huang scandal: a timeline",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/11/12/nvidia-ceo-jensen-huangs-affair-with-alleged-chinese-spy-a-timeline/",
+      "time": "2小时前",
+      "published": "2026-11-12T21:35:00+00:00",
+      "summary": "TechCrunch梳理了英伟达CEO黄仁勋丑闻的时间线。黄仁勋因婚外情辞职，而事件可能对国家安全产生影响，因为中美正在竞相开发最先进的AI基础设施。报道称其婚外情对象涉嫌为中国间谍，引发国会调查和舆论风暴。黄仁勋的离职使英伟达面临领导层过渡，同时其与特朗普的往来也被置于放大镜下。这一丑闻不仅冲击公司治理，还可能影响美国对华芯片出口政策及英伟达的政府关系。",
+      "snark": "AI芯片没卡脖子，CEO的私生活先卡住了公司脖子。",
+      "multiSource": [
+        "TechCrunch",
+        "The Verge AI"
+      ]
+    },
+    {
+      "id": 7,
+      "cat": "strategy",
+      "title": "Nebius以400亿美元计划支出测试“新云”模式",
+      "title_en": "Nebius tests the neocloud playbook with $40 billion in planned spending",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/11/12/nebius-tests-the-neocloud-playbook-with-40-billion-in-planned-spending/",
+      "time": "2小时前",
+      "published": "2026-11-12T21:27:10+00:00",
+      "summary": "Nebius计划通过客户预付款和贷款来为其400亿美元的AI基础设施扩张提供资金，即便微软数据中心的延迟交付引发了对其融资模式的质疑。这家“新云”厂商正在测试一种依赖客户预付款和债务融资的资本密集型扩张路径。微软数据中心的延迟可能影响Nebius的算力交付时间表，进而波及收入确认和还款能力。该案例反映了AI基础设施热潮中，新兴云厂商在高杠杆扩张与交付风险之间的平衡难题。",
+      "snark": "400亿靠预付款和贷款，这杠杆比我调参的胆子还大。"
+    },
+    {
+      "id": 8,
+      "cat": "strategy",
+      "title": "路透社报道：黄仁勋还有第三段婚外情",
+      "title_en": "Jensen Huang was having a third affair, Reuters reports",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/11/12/jensen-huang-was-having-a-third-affair-reuters-reports/",
+      "time": "3小时前",
+      "published": "2026-11-12T20:26:47+00:00",
+      "summary": "路透社报道称，黄仁勋还有第三段婚外情，对象是英伟达的一名员工，但路透社未公布其姓名。这一报道使黄仁勋的丑闻进一步升级，此前已曝出涉及 alleged 中国间谍的婚外情以及另一段关系。连续不断的私生活丑闻加剧了英伟达领导层危机，并可能影响公司与美国政府、投资者及合作伙伴的关系。路透社选择不公开姓名，但确认对方为英伟达员工，引发对公司内部治理和利益冲突的质疑。",
+      "snark": "第三段？黄老板这是在集齐七段召唤神龙吗？"
+    },
+    {
+      "id": 9,
+      "cat": "tool",
+      "title": "Amplitude如何借助OpenAI在1-2天内交付产品改进",
+      "title_en": "How Amplitude ships product improvements in 1–2 days with OpenAI",
+      "source": "OpenAI Blog",
+      "url": "https://openai.com/business/customer-stories/amplitude",
+      "time": "4小时前",
+      "published": "2026-11-12T20:00:00+00:00",
+      "summary": "Amplitude主要基于OpenAI模型构建了主动式产品代理Wave，它能识别需要构建的功能，帮助团队通过编码代理交付变更，并衡量影响。借助该代理，Amplitude将产品改进的交付周期缩短至1-2天。Wave的工作流覆盖从需求发现到编码实施再到效果评估的闭环，显著提升了产品迭代效率。这一案例展示了AI代理在真实企业产品运营中的落地价值，也体现了OpenAI模型在编码和决策辅助方面的能力。",
+      "snark": "1-2天交付，产品经理终于不用和开发互相甩锅了。"
+    },
+    {
+      "id": 10,
+      "cat": "policy",
+      "title": "不，AI智能体并没有发现未知的玛雅遗址",
+      "title_en": "No, AI agents did not discover a previously unknown Maya site",
+      "source": "The Verge AI",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/1032125/ai-agents-maya-site-archeology-discovery",
+      "time": "4小时前",
+      "published": "2026-11-12T19:42:40+00:00",
+      "summary": "谷歌研究员Pietro Miotti本周声称，其带领的AI智能体团队在墨西哥发现了一处可能未被测绘的玛雅遗址。但问题在于，该遗址早已被发现，并于去年发表在学术期刊上。这一事件引发了对AI智能体在科研中可靠性的批评，凸显了AI生成发现与已有学术记录之间的核查缺失。该案例提醒研究者和媒体，在宣称AI取得科学突破前，必须进行充分的文献比对和同行验证，避免将已知信息包装成新发现。",
+      "snark": "AI智能体：我发现了！学术界：你发现的是去年的论文。",
+      "multiSource": [
+        "The Verge",
+        "The Verge AI"
+      ]
+    },
+    {
+      "id": 11,
+      "cat": "tool",
+      "title": "Nectar推出AI智能体，为品牌自动化创作者发现与外联",
+      "title_en": "Nectar launches an AI agent to automate creator discovery and outreach for brands",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/11/12/nectar-launches-an-ai-agent-to-automate-creator-discovery-and-outreach-for-brands/",
+      "time": "4小时前",
+      "published": "2026-11-12T19:11:00+00:00",
+      "summary": "Nectar推出了一款AI智能体，用于自动化网红营销，帮助品牌发现创作者、管理外联与合作伙伴关系，并追踪活动效果。该智能体覆盖从创作者筛选、触达沟通到合作管理的全流程，旨在降低品牌在网红营销中的人力成本。通过自动化外联和效果追踪，品牌可以更快地启动和优化投放。该产品反映了AI代理在营销垂直领域的落地趋势，但也需应对垃圾邮件合规和创作者关系维护的挑战。",
+      "snark": "AI帮你找网红，最后可能找到一堆AI网红。"
+    },
+    {
+      "id": 12,
+      "cat": "strategy",
+      "title": "黄仁勋离职使英伟达对开源的支持存疑",
+      "title_en": "Jensen Huang’s exit puts Nvidia’s support for open source in question",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/11/12/jensen-huangs-exit-puts-nvidias-support-for-open-source-in-question/",
+      "time": "5小时前",
+      "published": "2026-11-12T18:39:23+00:00",
+      "summary": "黄仁勋的辞职引发了外界对英伟达开源AI承诺的质疑，涉及其对Hugging Face的收购、开放权重模型以及反对限制的倡导。在领导层过渡期间，公司是否会继续支持开源生态成为关注焦点。英伟达此前通过开源模型和工具巩固开发者生态，但新管理层可能调整战略优先级。若开源支持减弱，可能影响依赖英伟达工具链的开发者社区，并改变AI开源格局。该事件凸显了公司领导层变动对技术战略连续性的影响。",
+      "snark": "CEO一走，开源承诺就像显存一样说没就没。"
+    }
+  ],
+  "stats": {
+    "total": 12,
+    "model_count": 2,
+    "strategy_count": 4,
+    "tool_count": 4,
+    "policy_count": 2
+  }
+}
