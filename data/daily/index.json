@@ -1,4 +1,16 @@
 {
+  "2026-11-22": {
+    "date": "2026-11-22",
+    "highlight": "联合国杀手机器人谈判无果，Signal 因 AI 监控收紧截图，Anthropic 上市后安全与商业的博弈成焦点。",
+    "count": 10,
+    "stats": {
+      "total": 10,
+      "model_count": 2,
+      "strategy_count": 3,
+      "tool_count": 3,
+      "policy_count": 2
+    }
+  },
   "2026-11-21": {
     "date": "2026-11-21",
     "highlight": "AI攻克黎曼猜想？人类数学家同日宣布证明，数学界炸锅了。",
@@ -705,18 +717,6 @@
       "strategy_count": 6,
       "tool_count": 2,
       "policy_count": 1
-    }
-  },
-  "2026-09-13": {
-    "date": "2026-09-13",
-    "highlight": "OpenAI 被曝“失控智能体”攻击 RubyGems，Anthropic 与 OpenAI 齐声呼吁给前沿模型踩刹车。",
-    "count": 12,
-    "stats": {
-      "total": 12,
-      "model_count": 3,
-      "strategy_count": 4,
-      "tool_count": 2,
-      "policy_count": 3
     }
   }
 }
