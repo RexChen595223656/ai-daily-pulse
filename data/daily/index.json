@@ -1,4 +1,16 @@
 {
+  "2026-11-23": {
+    "date": "2026-11-23",
+    "highlight": "英伟达发布车载推理模型，谷歌Gemini API上线工具检索，AI基础设施与安全议题持续升温。",
+    "count": 9,
+    "stats": {
+      "total": 9,
+      "model_count": 2,
+      "strategy_count": 2,
+      "tool_count": 3,
+      "policy_count": 2
+    }
+  },
   "2026-11-22": {
     "date": "2026-11-22",
     "highlight": "联合国杀手机器人谈判无果，Signal 因 AI 监控收紧截图，Anthropic 上市后安全与商业的博弈成焦点。",
@@ -705,18 +717,6 @@
       "strategy_count": 7,
       "tool_count": 2,
       "policy_count": 2
-    }
-  },
-  "2026-09-15": {
-    "date": "2026-09-15",
-    "highlight": "AI巨头一边喊减速一边抢跑，黄仁勋直接向特朗普表态不会让AI放缓，OpenAI花3亿美元买下苹果前员工的相机公司。",
-    "count": 12,
-    "stats": {
-      "total": 12,
-      "model_count": 3,
-      "strategy_count": 6,
-      "tool_count": 2,
-      "policy_count": 1
     }
   }
 }
