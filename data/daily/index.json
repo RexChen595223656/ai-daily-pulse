@@ -1,4 +1,16 @@
 {
+  "2026-11-24": {
+    "date": "2026-11-24",
+    "highlight": "英伟达CEO黄仁勋因丑闻辞职后火速复职，AI圈权力游戏比模型迭代还魔幻。",
+    "count": 12,
+    "stats": {
+      "total": 12,
+      "model_count": 0,
+      "strategy_count": 7,
+      "tool_count": 3,
+      "policy_count": 2
+    }
+  },
   "2026-11-23": {
     "date": "2026-11-23",
     "highlight": "英伟达发布车载推理模型，谷歌Gemini API上线工具检索，AI基础设施与安全议题持续升温。",
@@ -705,18 +717,6 @@
       "strategy_count": 2,
       "tool_count": 4,
       "policy_count": 4
-    }
-  },
-  "2026-09-16": {
-    "date": "2026-09-16",
-    "highlight": "谷歌发布Gemini 3.8实时语音模型，同时美国数据中心能耗与社区矛盾持续升温。",
-    "count": 12,
-    "stats": {
-      "total": 12,
-      "model_count": 1,
-      "strategy_count": 7,
-      "tool_count": 2,
-      "policy_count": 2
     }
   }
 }

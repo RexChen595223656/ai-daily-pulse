@@ -1,0 +1,167 @@
+{
+  "date": "2026-11-24",
+  "generated_at": "2026-11-24T08:06:48.157441+08:00",
+  "highlight": "英伟达CEO黄仁勋因丑闻辞职后火速复职，AI圈权力游戏比模型迭代还魔幻。",
+  "fun": {
+    "lucky": "Claude",
+    "advice": "宜：让AI审代码\n忌：让AI审老板的私生活",
+    "joke": "为什么黄仁勋复职这么快？因为GPU缺货，连辞职都得排队等算力。"
+  },
+  "articles": [
+    {
+      "id": 1,
+      "cat": "tool",
+      "title": "Anthropic推出Claude Ship，可自动审查并修复GitHub拉取请求",
+      "title_en": "Anthropic Launches Claude Ship for GitHub Pull Request Review and Fixes",
+      "source": "MarkTechPost",
+      "url": "https://www.marktechpost.com/2026/11/23/anthropic-claude-ship-pull-request-agents/",
+      "time": "4分钟前",
+      "published": "2026-11-24T00:02:39+00:00",
+      "summary": "Anthropic发布Claude Ship产品套件，包含代码审查、拉取请求管家和Claude审批三个智能体，可对GitHub拉取请求进行审查、修复和批准。其中代码审查功能已正式可用，另外两个智能体面向团队版和企业版用户开放公测。该工具旨在帮助软件工程师自动化代码合并流程，减少人工审查负担，提升开发效率。Claude此前已具备代码审查能力，此次将其扩展为完整的拉取请求处理闭环，标志着AI编程助手从辅助建议向自主执行迈进。",
+      "snark": "以后程序员连甩锅给同事的机会都没了，只能甩给Claude。",
+      "multiSource": [
+        "MarkTechPost",
+        "TechCrunch"
+      ]
+    },
+    {
+      "id": 2,
+      "cat": "strategy",
+      "title": "特朗普为黄仁勋策划了一场风险极高的复职大戏",
+      "title_en": "Trump engineered a risky comeback for Jensen Huang",
+      "source": "The Verge AI",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/1040652/jensen-huang-nvidia-trump-reinstated",
+      "time": "1小时前",
+      "published": "2026-11-23T22:25:12+00:00",
+      "summary": "英伟达董事会接受黄仁勋辞去首席执行官职务后，特朗普总统在电台节目中表态，似乎接受了这一新现实。此前有报道称黄仁勋与一名疑似中国间谍的女性有婚外情。然而事态迅速反转，特朗普与副总统万斯联手推动黄仁勋复职，引发外界对政商关系干预企业治理的广泛质疑。整起事件从丑闻曝光到复职仅历时数日，被批评者称为精英免责的典型案例，也让英伟达的治理独立性蒙上阴影。",
+      "snark": "特朗普当CEO猎头比当总统还上心，建议改行开猎头公司。"
+    },
+    {
+      "id": 3,
+      "cat": "strategy",
+      "title": "英伟达CEO黄仁勋回归，接下来会发生什么？",
+      "title_en": "Nvidia CEO Jensen Huang is back. What happens next?",
+      "source": "The Verge AI",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/1030422/nvidia-jensen-huang-ai-china-alice-huang",
+      "time": "1小时前",
+      "published": "2026-11-23T22:10:32+00:00",
+      "summary": "黄仁勋承认与Megaspeed高管爱丽丝·黄存在婚外情后，英伟达最初宣布展开调查。但《纽约时报》随后报道称还有证据显示他与另一名英伟达女高管有染，事态进一步升级。黄仁勋于11月12日辞去CEO职务，然而在特朗普和万斯的推动下迅速复职。这一戏剧性反转引发了对英伟达公司治理、董事会独立性以及高管行为准则的严重质疑，投资者和员工都在观望这场风波将如何影响公司未来的战略决策与公众形象。",
+      "snark": "英伟达的董事会大概是用GPU算力来算道德底线的。"
+    },
+    {
+      "id": 4,
+      "cat": "strategy",
+      "title": "欢迎来到精英免责时代，黄仁勋",
+      "title_en": "Welcome to elite impunity, Jensen Huang",
+      "source": "The Verge AI",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/1040819/welcome-to-elite-impunity-jensen-huang",
+      "time": "1小时前",
+      "published": "2026-11-23T22:09:26+00:00",
+      "summary": "评论文章以讽刺口吻祝贺黄仁勋复任英伟达CEO，指出除了特朗普和万斯之外几乎所有人都对此感到意外。文章批评这一事件暴露了所谓自由市场理念的虚伪，认为黄仁勋的迅速复职是精英阶层免受问责的典型案例。作者指出，普通员工若发生类似丑闻早已被解雇，而顶级CEO却能在政客护航下全身而退，这种双重标准正在侵蚀公众对企业治理和制度公平的信任。",
+      "snark": "自由市场的自由，原来是CEO想走就走想回就回的自由。"
+    },
+    {
+      "id": 5,
+      "cat": "strategy",
+      "title": "Supertake融资2000万美元，让AI智能体把你的市场预测变成股票组合",
+      "title_en": "Supertake raises $20M to let AI agents turn your market predictions into stock portfolios",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/11/23/supertake-raises-20m-to-let-ai-agents-turn-your-market-predictions-into-stock-portfolios/",
+      "time": "2小时前",
+      "published": "2026-11-23T22:02:05+00:00",
+      "summary": "初创公司Supertake完成2000万美元融资，推出让用户无需自己选股即可将市场判断转化为投资组合的服务。用户只需表达对市场走向的看法，AI智能体便自动构建对应的股票投资组合。该模式降低了主动投资的门槛，将自然语言判断与量化执行结合，但也引发对AI投资建议合规性和风险责任的讨论。在AI金融应用加速落地的背景下，此类产品如何在监管框架内运行将是关键挑战。",
+      "snark": "AI帮你炒股，亏了算谁的？建议先训练一个背锅智能体。"
+    },
+    {
+      "id": 6,
+      "cat": "strategy",
+      "title": "马斯克等人欢呼黄仁勋在丑闻中复职英伟达",
+      "title_en": "Elon Musk and others rejoice as Jensen Huang is reinstated at Nvidia amid scandal",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/11/23/elon-musk-and-others-rejoice-as-jensen-huang-is-reinstated-at-nvidia-amid-scandal/",
+      "time": "2小时前",
+      "published": "2026-11-23T21:47:41+00:00",
+      "summary": "黄仁勋在丑闻风波中复任英伟达CEO后，马斯克等科技界人士公开表示欢迎，马斯克称错误已被纠正。这一表态反映出AI行业核心圈层对黄仁勋领导力的高度依赖，也凸显英伟达在AI芯片供应链中的不可替代地位。支持者的欢呼与批评者的质疑形成鲜明对比，折射出AI行业在高速发展中对关键人物的容忍度远高于传统企业治理标准，引发关于行业权力集中与问责机制的深层讨论。",
+      "snark": "马斯克说错误已纠正，翻译一下：我的GPU订单保住了。"
+    },
+    {
+      "id": 7,
+      "cat": "policy",
+      "title": "黄仁勋丑闻中心公司Megaspeed或将被列入美国黑名单",
+      "title_en": "Megaspeed, the company at the center of the Jensen Huang scandal, appears headed for a US blacklist",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/11/23/megaspeed-the-company-at-the-center-of-the-jensen-huang-scandal-appears-headed-for-a-u-s-blacklist/",
+      "time": "2小时前",
+      "published": "2026-11-23T21:25:42+00:00",
+      "summary": "处于黄仁勋丑闻中心的Megaspeed公司可能被列入美国实体黑名单，届时除非获得联邦政府特别许可，否则将被禁止与美国公司开展业务。该公司此前由爱丽丝·黄领导，因与黄仁勋的关联而受到审查。此举若落实，将进一步加剧美中科技领域的紧张关系，并对涉及跨境AI算力交易的企业发出警示。黑名单机制正成为美国监管AI供应链的重要工具，企业合规审查压力持续上升。",
+      "snark": "Megaspeed这名字起得好，出事速度确实够快。"
+    },
+    {
+      "id": 8,
+      "cat": "tool",
+      "title": "OpenAI与思科推出Shirudo，面向Linux的开源运行时",
+      "title_en": "OpenAI and Cisco introduce Shirudo",
+      "source": "OpenAI Blog",
+      "url": "https://openai.com/index/introducing-shirudo",
+      "time": "2小时前",
+      "published": "2026-11-23T21:20:00+00:00",
+      "summary": "OpenAI与思科联合发布Shirudo，这是一个面向Linux的开源运行时环境，旨在帮助团队在部署补丁期间保护正在运行的系统。该工具聚焦于系统安全更新过程中的连续性保障，减少打补丁导致的停机风险。开源策略有助于企业用户审查和定制安全方案，也体现OpenAI在基础设施安全领域的布局延伸。在AI系统大规模部署的背景下，运行时安全与补丁管理正成为企业运维的关键环节。",
+      "snark": "OpenAI开始管打补丁了，下一步是不是要管程序员按时吃饭？"
+    },
+    {
+      "id": 9,
+      "cat": "policy",
+      "title": "AI数据中心给混乱的联合国气候谈判再添变数",
+      "title_en": "AI data centers throw another wrench into chaotic UN climate talks",
+      "source": "The Verge AI",
+      "url": "https://www.theverge.com/science/1040497/ai-data-centers-electricity-un-climate-summit",
+      "time": "2小时前",
+      "published": "2026-11-23T21:09:37+00:00",
+      "summary": "在联合国气候变化大会COP31上，AI数据中心的巨大电力需求成为各国代表必须面对的新难题。全球经济的清洁能源转型恰逢耗电数据中心激增，两者之间的张力让谈判更加复杂。会议在混乱与不满中闭幕，各方未能就如何平衡AI算力扩张与气候目标达成共识。AI产业的能源足迹正从技术议题升级为国际气候治理的核心变量，数据中心选址、能效标准和绿电采购将成为后续博弈焦点。",
+      "snark": "AI说它在帮人类解决气候问题，顺便把电费账单也解决了。"
+    },
+    {
+      "id": 10,
+      "cat": "strategy",
+      "title": "英伟达员工像迎接英雄一样欢迎黄仁勋回归总部",
+      "title_en": "Nvidia employees greet Jensen Huang like a hero as he returns to company’s HQ",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/11/23/nvidia-employees-greet-jensen-huang-like-a-hero-as-he-returns-to-companys-hq/",
+      "time": "3小时前",
+      "published": "2026-11-23T20:38:53+00:00",
+      "summary": "黄仁勋重返英伟达总部时受到员工英雄般的欢迎，他对员工表示第二次担任CEO会做得更好。这一场景与外界对丑闻的批评形成强烈反差，显示公司内部对创始人的忠诚度依然极高。员工的支持可能源于黄仁勋带领英伟达成为AI芯片霸主的业绩，但也引发外界对公司文化是否过度依赖个人魅力的讨论。黄仁勋承诺改进领导方式，市场将关注其复职后能否重建公众信任并稳定公司治理。",
+      "snark": "员工欢迎英雄回归，董事会大概在角落里数着律师费。"
+    },
+    {
+      "id": 11,
+      "cat": "tool",
+      "title": "Claude现可自主审查拉取请求并提交修复",
+      "title_en": "Claude AI can review pull requests and ship fixes on its own now",
+      "source": "The Verge AI",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/1040134/anthropic-claude-ship-ai-pull-requests",
+      "time": "4小时前",
+      "published": "2026-11-23T20:00:00+00:00",
+      "summary": "Anthropic宣布Claude具备审查、修复和批准拉取请求的新能力，作为Claude Ship产品的一部分。工程师此前已可使用Claude的代码审查功能，如今该能力扩展为完整的自动化流程，涵盖问题识别、代码修改和审批提交。该功能面向团队版和企业版用户，旨在缩短代码合并周期。这标志着AI编程工具从被动建议转向主动执行，但也对代码质量和安全审查流程提出新的治理要求。",
+      "snark": "Claude都学会自己提PR了，离学会自己写周报还远吗？"
+    },
+    {
+      "id": 12,
+      "cat": "strategy",
+      "title": "黄仁勋如何再度成为英伟达CEO",
+      "title_en": "How Jensen Huang ended up as Nvidia CEO again",
+      "source": "The Verge AI",
+      "url": "https://www.theverge.com/tech/1040428/nvidia-jensen-huang-ceo-return",
+      "time": "4小时前",
+      "published": "2026-11-23T19:57:18+00:00",
+      "summary": "黄仁勋三十年前联合创办英伟达，将其打造成AI领域最重要的公司之一。本月他因涉嫌多起婚外情接受审查，于11月12日辞去CEO职务。然而在特朗普和万斯的推动下，他迅速复职，英伟达董事会接受了这一结果。整起事件时间线紧凑、反转剧烈，从辞职到回归仅数日，引发对公司治理独立性和政治干预企业事务的广泛质疑。黄仁勋承诺以更好的表现回报信任，但外界对其问责机制的追问远未结束。",
+      "snark": "三十年前创办公司，三十天后演完一部宫斗剧。"
+    }
+  ],
+  "stats": {
+    "total": 12,
+    "model_count": 0,
+    "strategy_count": 7,
+    "tool_count": 3,
+    "policy_count": 2
+  }
+}
