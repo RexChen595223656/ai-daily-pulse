@@ -1,0 +1,167 @@
+{
+  "date": "2026-11-26",
+  "generated_at": "2026-11-26T08:09:27.596420+08:00",
+  "highlight": "英伟达遭标普信用降级警告，纽约禁售AI玩具，SpaceX获准部署百万AI卫星。",
+  "fun": {
+    "lucky": "英伟达",
+    "advice": "宜：检查公司治理文件；忌：在财报电话会上表演单手开显卡。",
+    "joke": "为什么英伟达的信用评级像GPU温度？因为一跑大模型就降频。"
+  },
+  "articles": [
+    {
+      "id": 1,
+      "cat": "strategy",
+      "title": "标普考虑因治理与“关键人”风险下调英伟达信用评级",
+      "title_en": "S&P considers Nvidia credit downgrade over governance and ‘key man’ risks",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/11/25/sp-considers-nvidia-credit-downgrade-over-governance-and-key-man-risks/",
+      "time": "1小时前",
+      "published": "2026-11-25T22:44:32+00:00",
+      "summary": "信用评级机构标普表示，可能将英伟达的信用评级下调至AA-，即第四高评级。此次评估主要围绕公司治理结构以及“关键人风险”展开，反映出评级机构对英伟达高度依赖创始人兼首席执行官黄仁勋的担忧。标普认为，若黄仁勋因任何原因离任，可能对公司的战略连续性和市场信心造成显著冲击。此外，治理层面的透明度与董事会独立性也是考量因素。尽管英伟达在AI芯片市场占据主导地位，但信用评级的下调可能影响其融资成本与机构投资者的配置决策。目前标普尚未做出最终决定，英伟达方面也未对此置评。",
+      "snark": "黄仁勋一个人扛着英伟达的评级，这关键人风险比GPU缺货还难解。"
+    },
+    {
+      "id": 2,
+      "cat": "policy",
+      "title": "谷歌个性化AI视频流专利描绘娱乐业黯淡未来",
+      "title_en": "Google’s patent for custom AI video feeds paints a bleak picture of entertainment’s future",
+      "source": "The Verge AI",
+      "url": "https://www.theverge.com/entertainment/1042221/google-my-channel-ai-video-patent",
+      "time": "2小时前",
+      "published": "2026-11-25T21:51:26+00:00",
+      "summary": "谷歌去年提交了一项名为“我的频道”的专利申请，该系统旨在根据公司掌握的用户信息，生成充满个性化AI视频和广告的信息流。虽然该专利已被驳回，但谷歌可能提出上诉或重新提交。专利文件显示，系统会利用用户画像、观看历史和偏好数据，自动合成视频内容与定向广告，形成完全由AI驱动的个人娱乐频道。批评者认为，这种模式将进一步加剧信息茧房和广告泛滥，让用户沉浸在算法定制的内容泡沫中。该专利的披露引发了关于AI生成内容透明度、用户隐私以及娱乐产业未来形态的广泛讨论。",
+      "snark": "谷歌连你的无聊时间都要AI定制，以后连换台的权利都没了。"
+    },
+    {
+      "id": 3,
+      "cat": "tool",
+      "title": "OpenAI合并聊天与工作模式，重度用户可能更早触及限额",
+      "title_en": "OpenAI says heavy ChatGPT users may hit limits sooner as it merges Chat and Work",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/11/25/openai-says-heavy-chatgpt-users-may-hit-limits-sooner-as-it-merges-chat-and-work/",
+      "time": "4小时前",
+      "published": "2026-11-25T20:03:27+00:00",
+      "summary": "OpenAI宣布将ChatGPT的聊天体验与工作体验合并，并引入统一的用量计量器。这意味着用户在不同场景下的使用将共享同一套配额，重度用户可能比以往更早达到使用上限。此前聊天与工作模式分别计算用量，合并后高频用户的实际可用额度相对减少。OpenAI表示此举旨在简化产品结构并优化资源分配，但对依赖ChatGPT进行日常办公的重度用户而言，体验可能受到影响。公司尚未公布具体的限额调整细则，但强调会持续监控使用情况并适时调整。该变化反映出AI服务在商业化与用户体验之间的平衡难题。",
+      "snark": "合并计量器就是变相涨价，OpenAI的数学从来不会让用户占便宜。"
+    },
+    {
+      "id": 4,
+      "cat": "strategy",
+      "title": "黄仁勋违反英伟达行为准则，员工可能不会忘记",
+      "title_en": "Jensen Huang broke Nvidia’s code of conduct, and his employees may not forget it",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/11/25/jensen-huang-broke-nvidias-code-of-conduct-and-his-employees-may-not-forget-it/",
+      "time": "4小时前",
+      "published": "2026-11-25T19:54:57+00:00",
+      "summary": "英伟达的行为准则通常被视为企业文化的体现，但近期黄仁勋的某些行为被指违反了公司自身的行为规范，可能对内部士气和员工信任产生深远影响。报道指出，行为准则若被高层轻易突破，将削弱其在组织中的权威性，并可能引发员工对公平性和问责机制的质疑。英伟达正处于AI芯片需求的巅峰期，任何治理层面的瑕疵都可能被放大。员工对领导层的言行一致性尤为敏感，尤其是在公司强调合规与伦理的背景下。此事虽未引发公开危机，但内部文化裂痕值得关注。",
+      "snark": "行为准则管不住老板，那还不如印在显卡包装盒上当彩蛋。"
+    },
+    {
+      "id": 5,
+      "cat": "policy",
+      "title": "Anthropic的达里奥·阿莫代伊称“向AI交出人类控制权”的指控荒谬",
+      "title_en": "Anthropic’s Dario Amodei calls accusations of surrendering human control to AI ‘absurd’",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/11/25/anthropics-dario-amodei-calls-accusations-of-surrendering-human-control-to-ai-absurd/",
+      "time": "4小时前",
+      "published": "2026-11-25T19:44:24+00:00",
+      "summary": "Anthropic首席执行官达里奥·阿莫代伊公开回应竞争对手的指控，称其“向AI交出人类控制权”的说法荒谬。此前有批评者认为，阿莫代伊在推动AI自动化研究和模型开发方面过于激进，可能导致人类对AI系统的控制力下降。阿莫代伊强调，Anthropic的核心使命是确保AI安全可控，自动化研究是为了提升效率而非放弃人类监督。然而，随着领先AI公司 increasingly 将研究和开发流程自动化，关于人类在AI进化中扮演何种角色的争论愈发激烈。阿莫代伊的回应并未完全平息质疑，但明确了Anthropic在安全与效率之间的立场。",
+      "snark": "阿莫代伊说指控荒谬，可自动化研究跑得比谁都快，嘴硬没用。"
+    },
+    {
+      "id": 6,
+      "cat": "policy",
+      "title": "想给孩子买AI玩具过圣诞？纽约州不答应",
+      "title_en": "Want to buy your kid an AI toy this Christmas? Not in New York",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/11/25/want-to-buy-your-kid-an-ai-toy-this-christmas-not-in-new-york/",
+      "time": "5小时前",
+      "published": "2026-11-25T18:11:46+00:00",
+      "summary": "纽约州通过立法，禁止销售AI聊天机器人玩具，禁令为期五年。此举基于Common Sense Media的新研究，该研究发现此类玩具存在严重安全缺陷，包括向儿童暴露不当内容以及对其情感发育构成风险。研究指出，AI玩具的对话系统缺乏足够的年龄适配和内容过滤机制，可能在与儿童互动中产生有害输出。纽约州成为首个对AI玩具采取全面禁令的州，反映了监管机构对儿童隐私和心理健康的日益关注。玩具行业对此表示担忧，认为禁令可能过于宽泛，但支持者强调儿童保护优先于商业利益。",
+      "snark": "AI玩具被禁了，纽约的圣诞老人只能送会说话的土豆了。"
+    },
+    {
+      "id": 7,
+      "cat": "policy",
+      "title": "FCC批准SpaceX计划：最多100万颗数据中心卫星入轨",
+      "title_en": "FCC signs off on SpaceX’s plan to put up to 1 million data center satellites into space",
+      "source": "The Verge AI",
+      "url": "https://www.theverge.com/science/1042278/spacex-fcc-starmind-ai-space-data-centers",
+      "time": "6小时前",
+      "published": "2026-11-25T17:44:51+00:00",
+      "summary": "美国联邦通信委员会（FCC）周三宣布，授权SpaceX部署最多100万颗配备AI芯片的卫星，作为埃隆·马斯克旗下公司“星智”计划的一部分。这些卫星旨在构建太空中的AI数据中心，利用轨道环境进行分布式计算。谷歌和蓝色起源等公司也在探索类似概念，将AI算力部署到太空以利用太阳能和真空散热优势。FCC的批准为SpaceX扫清了监管障碍，但如此庞大数量的卫星引发了关于轨道拥堵、天文观测干扰和太空碎片的担忧。该计划若实施，将彻底改变AI基础设施的物理形态。",
+      "snark": "一百万颗AI卫星上天，以后夜空最亮的不是星星，是英伟达的财报。",
+      "multiSource": [
+        "The Verge",
+        "The Verge AI"
+      ]
+    },
+    {
+      "id": 8,
+      "cat": "policy",
+      "title": "Character.AI拍卖用户私聊计划遭多州总检察长挑战",
+      "title_en": "Character.AI’s plan to auction off users’ private chats challenged by state AGs",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/11/25/state-ags-fight-character-ais-plan-to-auction-off-users-private-chats/",
+      "time": "6小时前",
+      "published": "2026-11-25T17:35:58+00:00",
+      "summary": "Character.AI拟在破产出售中拍卖超过2100万个美国账户的敏感个人数据，其中包括210万个注册为未成年人的账户，引发多州总检察长的联合反对。总检察长们认为，该出售计划可能违反消费者隐私保护法律，尤其是涉及未成年人的数据。Character.AI的破产程序试图将用户聊天记录作为资产变现，但批评者指出，用户在注册时并未同意此类数据转让。各州要求法院介入，阻止未经授权的数据出售。此案凸显了AI公司在破产或重组时如何处理用户数据的法律空白，以及监管机构对隐私保护的强硬立场。",
+      "snark": "破产了就拿用户私聊抵债，Character.AI这是把隐私当二手显卡卖。"
+    },
+    {
+      "id": 9,
+      "cat": "tool",
+      "title": "Nothing全面展示其AI耳机与充电盒",
+      "title_en": "Nothing offers a full look at its AI earbuds and charging case",
+      "source": "The Verge AI",
+      "url": "https://www.theverge.com/gadgets/1042162/nothing-ear-note-ai-earbuds-reveal",
+      "time": "8小时前",
+      "published": "2026-11-25T16:00:59+00:00",
+      "summary": "Nothing在12月8日发布前展示了其即将推出的AI耳机“Ear Note”的更多细节。该耳机可录制通话，其充电盒则能录制、转录并总结对话内容。与Ear 3类似，Ear Note的充电盒内置麦克风，使其成为便携式AI录音与摘要设备。用户可通过配套应用将录音转化为文字纪要，适用于会议、采访等场景。Nothing强调隐私保护，录音需手动触发并有指示灯提示。该产品代表了AI硬件向可穿戴、常驻录音方向发展的趋势，但也引发了关于同意权和数据安全的讨论。",
+      "snark": "充电盒帮你总结对话，以后吵架都能回放找证据了。"
+    },
+    {
+      "id": 10,
+      "cat": "strategy",
+      "title": "AI数据中心建设难度加大，新型云厂商感受压力",
+      "title_en": "AI data centers are becoming harder to build, and neoclouds are feeling it",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/podcast/ai-data-centers-are-becoming-harder-to-build-and-neoclouds-are-feeling-it/",
+      "time": "8小时前",
+      "published": "2026-11-25T15:41:43+00:00",
+      "summary": "英伟达明确表示，在AI数据中心接近可运行状态之前不会提供兜底支持，这一立场恰逢新型云厂商报告建设延迟和债务成本上升。信息很明确：对于数据中心开发商而言，土地、电力和已完工的建筑比商业计划书更重要。新型云厂商依赖英伟达芯片和融资支持，但英伟达的谨慎态度意味着它们需要自行承担更多建设风险。建设延迟和更昂贵的债务正在挤压这些厂商的现金流，部分项目可能被迫推迟或取消。这反映出AI基础设施热潮背后的现实约束：资本密集、周期长、监管复杂。",
+      "snark": "英伟达不见兔子不撒鹰，新型云厂商的PPT融资时代结束了。"
+    },
+    {
+      "id": 11,
+      "cat": "strategy",
+      "title": "亚马逊据报洽谈解除对Meta的Muse AI购物代理封锁",
+      "title_en": "Amazon is reportedly in talks to end Muse AI shopping block",
+      "source": "The Verge AI",
+      "url": "https://www.theverge.com/tech/1042071/meta-amazon-muse-ai-shopping-discussions",
+      "time": "9小时前",
+      "published": "2026-11-25T14:12:33+00:00",
+      "summary": "据《财富》报道，亚马逊已就允许Meta的Muse AI代理在其在线市场购物进行谈判。讨论可能结束亚马逊对Muse长达两个月的封锁，核心议题包括该AI代理推荐的产品类型以及对亚马逊广告业务的潜在影响。Muse是Meta推出的AI购物助手，可帮助用户搜索和推荐商品。亚马逊此前封锁Muse，担心其绕过平台广告体系并影响商家竞争。若达成协议，Muse将能访问亚马逊商品目录，但双方需就推荐逻辑和商业条款达成一致。此案反映了AI代理与电商平台之间日益紧张的关系。",
+      "snark": "亚马逊封锁AI购物代理，说白了就是怕机器人不点广告。"
+    },
+    {
+      "id": 12,
+      "cat": "strategy",
+      "title": "亚马逊与Meta据报洽谈解除对AI代理Muse的封锁",
+      "title_en": "Amazon and Meta reportedly in talks to lift blockade on AI agent Muse",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/11/25/amazon-and-meta-reportedly-in-talks-to-lift-blockade-on-ai-agent-muse/",
+      "time": "9小时前",
+      "published": "2026-11-25T14:10:18+00:00",
+      "summary": "亚马逊与Meta正在讨论一项潜在协议，以结束对Meta旗下AI代理Muse长达两个月的封锁。Muse是一款AI购物助手，可在电商平台上帮助用户搜索和推荐商品。亚马逊此前阻止Muse访问其市场，担心该AI代理可能绕过平台广告体系并改变商家竞争格局。谈判聚焦于Muse推荐产品的范围、数据访问权限以及对亚马逊广告收入的影响。若协议达成，Muse将能接入亚马逊商品目录，但双方需在商业条款上取得平衡。此事凸显了AI代理在电商生态中日益重要的角色以及平台间的博弈。",
+      "snark": "两个巨头谈AI代理准入，像极了菜市场管理员商量让不让机器人摆摊。"
+    }
+  ],
+  "stats": {
+    "total": 12,
+    "model_count": 0,
+    "strategy_count": 5,
+    "tool_count": 2,
+    "policy_count": 5
+  }
+}
