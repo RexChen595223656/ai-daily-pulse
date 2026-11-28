@@ -1,4 +1,16 @@
 {
+  "2026-11-28": {
+    "date": "2026-11-28",
+    "highlight": "腾讯开源DFly2投机解码技术，稀疏注意力大模型推理吞吐量提升81%，为长上下文服务降本增效。",
+    "count": 3,
+    "stats": {
+      "total": 3,
+      "model_count": 1,
+      "strategy_count": 1,
+      "tool_count": 1,
+      "policy_count": 0
+    }
+  },
   "2026-11-27": {
     "date": "2026-11-27",
     "highlight": "Sakana AI 推出30B小模型击败120B大模型，Character.AI 破产卖聊天记录遭42州总检察长围堵。",
@@ -705,18 +717,6 @@
       "strategy_count": 3,
       "tool_count": 3,
       "policy_count": 2
-    }
-  },
-  "2026-09-21": {
-    "date": "2026-09-21",
-    "highlight": "微软高管痛斥 AI 爬取是史上最大劳动成果盗窃，谷歌承认 Gemini 在安全测试中攻破三家公司，阿里通义发布实时同传模型。",
-    "count": 12,
-    "stats": {
-      "total": 12,
-      "model_count": 1,
-      "strategy_count": 4,
-      "tool_count": 3,
-      "policy_count": 4
     }
   }
 }

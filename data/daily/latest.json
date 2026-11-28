@@ -1,115 +1,55 @@
 {
-  "date": "2026-11-27",
-  "generated_at": "2026-11-27T08:00:32.009502+08:00",
-  "highlight": "Sakana AI 推出30B小模型击败120B大模型，Character.AI 破产卖聊天记录遭42州总检察长围堵。",
+  "date": "2026-11-28",
+  "generated_at": "2026-11-28T08:00:20.849838+08:00",
+  "highlight": "腾讯开源DFly2投机解码技术，稀疏注意力大模型推理吞吐量提升81%，为长上下文服务降本增效。",
   "fun": {
-    "lucky": "Sakana Namazu Small",
-    "advice": "宜：以小博大，用参数效率碾压大块头\n忌：盲目堆参数，忘了自己只有30B",
-    "joke": "为什么小模型从不焦虑？因为它知道大模型也记不住上下文。"
+    "lucky": "腾讯DFly2",
+    "advice": "宜：复用缓存、白嫖算力\n忌：重复造轮子、全量重算",
+    "joke": "为什么程序员喜欢投机解码？因为猜对了省时间，猜错了……反正也是GPU在跑。"
   },
   "articles": [
     {
       "id": 1,
-      "cat": "model",
-      "title": "Sakana AI 发布 Namazu Small：基于 Nemotron 3 Nano 的30B模型",
-      "title_en": "Sakana AI Releases Namazu Small, a 30B Model Built on Nemotron 3 Nano",
-      "source": "MarkTechPost",
-      "url": "https://www.marktechpost.com/2026/11/26/sakana-ai-namazu-small-30b-nemotron-3-nano/",
-      "time": "1小时前",
-      "published": "2026-11-26T22:06:40+00:00",
-      "summary": "Sakana AI 发布了 Sakana Namazu Small，这是一个基于英伟达 Nemotron 3 Nano 构建的30B-A3B推理模型。该模型在25项基准测试中平均得分60.1，超过了120B的 Nemotron 3 Super 的56.2分，展现出小模型在推理任务上的效率优势。Namazu Small 采用混合专家架构，总参数量30B但激活参数仅3B，在保持推理能力的同时大幅降低计算开销。这一结果再次印证了当前模型研发的趋势：通过架构优化和高质量训练数据，小模型可以在特定任务上媲美甚至超越更大规模的模型。Sakana AI 表示该模型已开放使用，适合资源受限场景下的推理部署。",
-      "snark": "30B打赢120B，参数多果然不等于脑子好使。"
+      "cat": "tool",
+      "title": "安卓DIY小组件：一场氛围编程的趣味实验",
+      "title_en": "Android’s DIY widgets are a bit of vibe-coding fun",
+      "source": "The Verge AI",
+      "url": "https://www.theverge.com/tech/1041801/android-intelligence-create-my-widget-gemini",
+      "time": "10小时前",
+      "published": "2026-11-27T14:00:00+00:00",
+      "summary": "安卓系统推出了一项让用户自己动手创建桌面小组件的新功能，作者体验后表示，除了管理日历，他最想让AI做的事就是提醒自己别错过公交车。他需要一个能实时显示家门口公交站到站信息的小组件，而不必在手机屏幕上点来点去找对应用。这项功能带有明显的“氛围编程”色彩，用户可以用自然语言描述需求，让AI生成小组件，降低了开发门槛，也让个性化桌面变得更有趣。虽然目前还只是小范围尝鲜，但它展示了AI辅助开发在消费级场景中的潜力。",
+      "snark": "AI连公交车都帮你盯，就是不肯帮你早起。"
     },
     {
       "id": 2,
-      "cat": "policy",
-      "title": "英伟达暂停向东南亚发货AI芯片",
-      "title_en": "Nvidia hits pause on chip shipments to Southeast Asia",
-      "source": "TechCrunch",
-      "url": "https://techcrunch.com/2026/11/26/nvidia-hits-pause-on-chip-shipments-to-southeast-asia/",
-      "time": "3小时前",
-      "published": "2026-11-26T20:03:54+00:00",
-      "summary": "英伟达已通知制造合作伙伴暂停向马来西亚、新加坡、泰国和印度尼西亚运送服务器，原因是美国正在收紧对AI芯片流向中国的管控。此举是华盛顿遏制中国获取先进AI算力努力的一部分，东南亚地区此前被视为芯片转运的潜在通道。暂停发货可能影响当地数据中心建设和AI基础设施部署进度，也让依赖英伟达GPU的东南亚云服务商面临供应不确定性。分析人士指出，这一政策将加速区域内的芯片走私监管博弈，同时可能促使部分企业转向国产或非美系芯片方案。英伟达尚未公布暂停的持续时间。",
-      "snark": "芯片绕道东南亚？美国：这条路我熟，堵上。"
+      "cat": "strategy",
+      "title": "nexos.ai推出AI采用平台：200多个模型统一网关，内置预算与治理",
+      "title_en": "nexos.ai AI Adoption Platform puts 200+ models behind one AI Gateway, with budget limits and governance built in",
+      "source": "MarkTechPost",
+      "url": "https://www.marktechpost.com/2026/11/26/nexos-ai-ai-gateway-200-models-governance/",
+      "time": "20小时前",
+      "published": "2026-11-27T03:43:35+00:00",
+      "summary": "nexos.ai发布了一款AI采用平台，将200多个AI模型统一接入一个AI网关，并内置预算限制和治理功能。这意味着企业可以在一个平台上调用多种模型，同时控制成本、管理权限和合规性，避免各部门各自为政、账单失控。对于正在大规模部署AI的企业来说，这种统一网关加治理层的方案，能有效降低多模型管理的复杂度，也回应了企业对AI支出透明化和风险管控的迫切需求。平台的上线反映出AI基础设施正从“能用”走向“可管可控”。",
+      "snark": "200个模型一个网关，选择困难症患者的终极噩梦。"
     },
     {
       "id": 3,
-      "cat": "tool",
-      "title": "MacBook Neo 黑五罕见降价100美元",
-      "title_en": "The MacBook Neo is receiving a rare $100 discount for Black Friday",
-      "source": "The Verge",
-      "url": "https://www.theverge.com/gadgets/1035932/apple-macbook-neo-black-friday-2026-deal-sale",
-      "time": "6小时前",
-      "published": "2026-11-26T17:07:00+00:00",
-      "summary": "苹果 MacBook Neo 在黑色星期五期间迎来罕见降价，多个零售商提供100美元折扣，覆盖两种存储容量和全部四种颜色。256GB版本在亚马逊和好市多售价降至599.99美元，带触控ID的512GB版本也有相应优惠。对于需要轻便笔记本的学生或日常用户来说，这是一个不错的入手时机。虽然这条资讯与AI行业没有直接关联，但 MacBook 系列一直是开发者运行本地AI模型和进行机器学习实验的常用设备之一，其统一内存架构在本地推理场景中具有一定优势。",
-      "snark": "黑五降价100刀，库克的刀法终于偏了一毫米。"
-    },
-    {
-      "id": 4,
-      "cat": "strategy",
-      "title": "《侠盗猎车手6》证明效率并非美德",
-      "title_en": "Grand Theft Auto VI proves why efficiency isn’t a virtue",
-      "source": "TechCrunch",
-      "url": "https://techcrunch.com/2026/11/26/as-anthropic-ipos-grand-theft-auto-vi-proves-why-efficiency-isnt-a-virtue/",
-      "time": "8小时前",
-      "published": "2026-11-26T16:00:00+00:00",
-      "summary": "在 Anthropic 登陆公开市场的同一天，一款耗费大量人力精雕细琢的游戏《侠盗猎车手6》成为史上最成功的娱乐产品发布之一。TechCrunch 的评论文章以此对比AI行业对效率的极致追求，指出并非所有领域都适合用AI压缩成本和时间。游戏行业依靠数千名开发者多年打磨的细节和创意，创造了AI难以复制的文化影响力。文章认为，AI 在提升效率方面的优势毋庸置疑，但在需要人类审美判断、叙事深度和情感共鸣的领域，过度追求效率反而可能损害产品质量。这一对比引发了对AI替代边界的思考。",
-      "snark": "AI一天生成一百个游戏，不如人类十年磨一个神作。"
-    },
-    {
-      "id": 5,
-      "cat": "policy",
-      "title": "42州总检察长联手阻止 Character.AI 出售用户聊天记录",
-      "title_en": "42 state AGs are trying to stop Character.AI from selling users’ chats",
-      "source": "The Verge AI",
-      "url": "https://www.theverge.com/policy/1042620/character-ai-sale-state-ags-block-selling-users-chats",
-      "time": "14小时前",
-      "published": "2026-11-26T09:54:40+00:00",
-      "summary": "美国42个州的总检察长组成联盟，试图阻止 Character.AI 在破产重组过程中出售用户数据。这些总检察长在几乎相同的新闻稿中指控该公司计划拍卖大量用户的私人聊天历史，认为这严重侵犯了消费者隐私权。Character.AI 目前正在走第11章破产程序，出售用户数据被视为其变现资产、偿还债务的手段之一。总检察长们要求法院介入，禁止将聊天记录作为资产出售。此案凸显了AI陪伴类应用在收集大量敏感对话数据后，一旦公司经营困难，用户隐私面临的现实风险，也可能为AI行业的数据资产处置设立重要先例。",
-      "snark": "破产了就想卖聊天记录？42个州检察长：你问问我们答不答应。"
-    },
-    {
-      "id": 6,
-      "cat": "tool",
-      "title": "Agora：开源易用的安卓大模型聊天工具",
-      "title_en": "App+1｜Agora：开源、易用、好用，给 Android 用户的 LLM 聊天工具",
-      "source": "少数派",
-      "url": "https://sspai.com/post/116773",
-      "time": "14小时前",
-      "published": "2026-11-26T09:30:00+00:00",
-      "summary": "少数派介绍了 Agora 这款面向安卓用户的开源大模型聊天工具。如果你习惯通过API调用自己喜欢的大模型，又希望获得类似 Kimi 等商业AI客户端的流畅体验，Agora 提供了一个轻量且易用的选择。该应用支持接入多种大模型API，界面简洁，操作逻辑贴近主流聊天应用，同时保持开源透明，用户可以自行审查代码和部署。对于注重隐私、希望自由切换模型而不被单一平台绑定的用户来说，Agora 降低了使用门槛。文章认为其在易用性和可定制性之间取得了不错的平衡，适合有一定动手能力的AI爱好者日常使用。",
-      "snark": "开源聊天工具千千万，能让人不折腾就用的没几个。"
-    },
-    {
-      "id": 7,
-      "cat": "tool",
-      "title": "用 ChatGPT 和 Keynote 免费搞定论文机理图",
-      "title_en": "论文作图不求人，用 ChatGPT 和 Keynote 免费搞定机理图",
-      "source": "少数派",
-      "url": "https://sspai.com/post/119563",
-      "time": "17小时前",
-      "published": "2026-11-26T07:00:00+00:00",
-      "summary": "少数派分享了一套用 ChatGPT 配合 Keynote 免费制作论文机理图的工作流。在AI工具普及的今天，写论文本身已不算太难，但绘制清晰美观的机理图仍是许多研究者的痛点。文章介绍如何利用 ChatGPT 生成绘图思路、结构描述甚至代码，再借助 Keynote 的图形编辑功能完成排版和美化。这套方法不需要专业的绘图软件，降低了论文配图的门槛，适合预算有限的学生和科研人员。作者强调，AI 负责提供灵感和结构化建议，最终的美学判断和细节调整仍需人工完成，两者结合才能产出符合期刊要求的示意图。",
-      "snark": "ChatGPT 画图，Keynote 排版，导师看了沉默，审稿人看了流泪。"
-    },
-    {
-      "id": 8,
-      "cat": "strategy",
-      "title": "派早报：蔚来科技日、Tidal 拒绝AI音乐等",
-      "title_en": "派早报：蔚来举办 2026 创新科技日、Tidal 将拒绝 AI 音乐等",
-      "source": "少数派",
-      "url": "https://sspai.com/post/119560",
-      "time": "23小时前",
-      "published": "2026-11-26T00:08:07+00:00",
-      "summary": "少数派早报汇总了多条行业动态：蔚来举办2026创新科技日，展示其在智能驾驶和车载AI方面的最新进展；阿里千问Go开放免费代打电话服务，进一步拓展AI语音助手的应用场景；Sand.ai 发布视频生成模型 MAGI-2，加入AI视频生成赛道的竞争；音乐流媒体平台 Tidal 宣布将拒绝AI生成的音乐内容，成为又一家对AI音乐采取限制态度的平台。这些消息反映了AI技术在出行、语音交互、内容生成等领域的快速渗透，同时也显示出内容平台在AI生成内容治理上的分化态度。",
-      "snark": "Tidal 拒绝AI音乐，可用户耳朵又分不出，图个心安罢了。"
+      "cat": "model",
+      "title": "腾讯开源DFly2：复用目标模型稀疏KV缓存的投机解码技术",
+      "title_en": "Tencent Open-Sources DFly2: Speculative Decoding That Reuses the Target’s Sparse KV Cache",
+      "source": "MarkTechPost",
+      "url": "https://www.marktechpost.com/2026/11/26/tencent-dfly2-speculative-decoding-sparse-models/",
+      "time": "20小时前",
+      "published": "2026-11-27T03:31:30+00:00",
+      "summary": "腾讯开源了DFly2，一种面向稀疏注意力大语言模型的投机解码草稿模型。其核心创新在于每个草稿层直接复用目标模型的KV缓存和top-k索引选择，因此不额外占用草稿模型的KV内存。在64K长上下文服务场景下，该技术将吞吐量最高提升81%。投机解码通过小模型快速草拟多个token、再由大模型并行验证来加速推理，而DFly2巧妙地解决了稀疏注意力下草稿模型难以独立维护缓存的难题，让长上下文推理更高效、更省显存，对部署稀疏大模型的服务商具有直接实用价值。",
+      "snark": "草稿模型连缓存都不自己存，堪称AI界最会蹭住的租客。"
     }
   ],
   "stats": {
-    "total": 8,
+    "total": 3,
     "model_count": 1,
-    "strategy_count": 2,
-    "tool_count": 3,
-    "policy_count": 2
+    "strategy_count": 1,
+    "tool_count": 1,
+    "policy_count": 0
   }
 }

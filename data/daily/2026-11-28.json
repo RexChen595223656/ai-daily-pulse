@@ -1,0 +1,55 @@
+{
+  "date": "2026-11-28",
+  "generated_at": "2026-11-28T08:00:20.849838+08:00",
+  "highlight": "腾讯开源DFly2投机解码技术，稀疏注意力大模型推理吞吐量提升81%，为长上下文服务降本增效。",
+  "fun": {
+    "lucky": "腾讯DFly2",
+    "advice": "宜：复用缓存、白嫖算力\n忌：重复造轮子、全量重算",
+    "joke": "为什么程序员喜欢投机解码？因为猜对了省时间，猜错了……反正也是GPU在跑。"
+  },
+  "articles": [
+    {
+      "id": 1,
+      "cat": "tool",
+      "title": "安卓DIY小组件：一场氛围编程的趣味实验",
+      "title_en": "Android’s DIY widgets are a bit of vibe-coding fun",
+      "source": "The Verge AI",
+      "url": "https://www.theverge.com/tech/1041801/android-intelligence-create-my-widget-gemini",
+      "time": "10小时前",
+      "published": "2026-11-27T14:00:00+00:00",
+      "summary": "安卓系统推出了一项让用户自己动手创建桌面小组件的新功能，作者体验后表示，除了管理日历，他最想让AI做的事就是提醒自己别错过公交车。他需要一个能实时显示家门口公交站到站信息的小组件，而不必在手机屏幕上点来点去找对应用。这项功能带有明显的“氛围编程”色彩，用户可以用自然语言描述需求，让AI生成小组件，降低了开发门槛，也让个性化桌面变得更有趣。虽然目前还只是小范围尝鲜，但它展示了AI辅助开发在消费级场景中的潜力。",
+      "snark": "AI连公交车都帮你盯，就是不肯帮你早起。"
+    },
+    {
+      "id": 2,
+      "cat": "strategy",
+      "title": "nexos.ai推出AI采用平台：200多个模型统一网关，内置预算与治理",
+      "title_en": "nexos.ai AI Adoption Platform puts 200+ models behind one AI Gateway, with budget limits and governance built in",
+      "source": "MarkTechPost",
+      "url": "https://www.marktechpost.com/2026/11/26/nexos-ai-ai-gateway-200-models-governance/",
+      "time": "20小时前",
+      "published": "2026-11-27T03:43:35+00:00",
+      "summary": "nexos.ai发布了一款AI采用平台，将200多个AI模型统一接入一个AI网关，并内置预算限制和治理功能。这意味着企业可以在一个平台上调用多种模型，同时控制成本、管理权限和合规性，避免各部门各自为政、账单失控。对于正在大规模部署AI的企业来说，这种统一网关加治理层的方案，能有效降低多模型管理的复杂度，也回应了企业对AI支出透明化和风险管控的迫切需求。平台的上线反映出AI基础设施正从“能用”走向“可管可控”。",
+      "snark": "200个模型一个网关，选择困难症患者的终极噩梦。"
+    },
+    {
+      "id": 3,
+      "cat": "model",
+      "title": "腾讯开源DFly2：复用目标模型稀疏KV缓存的投机解码技术",
+      "title_en": "Tencent Open-Sources DFly2: Speculative Decoding That Reuses the Target’s Sparse KV Cache",
+      "source": "MarkTechPost",
+      "url": "https://www.marktechpost.com/2026/11/26/tencent-dfly2-speculative-decoding-sparse-models/",
+      "time": "20小时前",
+      "published": "2026-11-27T03:31:30+00:00",
+      "summary": "腾讯开源了DFly2，一种面向稀疏注意力大语言模型的投机解码草稿模型。其核心创新在于每个草稿层直接复用目标模型的KV缓存和top-k索引选择，因此不额外占用草稿模型的KV内存。在64K长上下文服务场景下，该技术将吞吐量最高提升81%。投机解码通过小模型快速草拟多个token、再由大模型并行验证来加速推理，而DFly2巧妙地解决了稀疏注意力下草稿模型难以独立维护缓存的难题，让长上下文推理更高效、更省显存，对部署稀疏大模型的服务商具有直接实用价值。",
+      "snark": "草稿模型连缓存都不自己存，堪称AI界最会蹭住的租客。"
+    }
+  ],
+  "stats": {
+    "total": 3,
+    "model_count": 1,
+    "strategy_count": 1,
+    "tool_count": 1,
+    "policy_count": 0
+  }
+}
