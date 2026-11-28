@@ -1,0 +1,167 @@
+{
+  "date": "2026-10-09",
+  "generated_at": "2026-10-09T08:02:04.391087+08:00",
+  "highlight": "OpenAI 收入缩水两百亿美元，谷歌把 Gemini 变成会自己发邮件的数字员工，AI 圈今天主打一个又穷又能干。",
+  "fun": {
+    "lucky": "Gemini",
+    "advice": "宜：给自己注册一个工作邮箱，主动认领任务；忌：在群里同时扮演主智能体和子智能体，最后自己给自己派活。",
+    "joke": "为什么 AI 数学考试总不及格？因为它把证明写成了注释。"
+  },
+  "articles": [
+    {
+      "id": 1,
+      "cat": "model",
+      "title": "OpenAI、分划原理与数学",
+      "title_en": "OpenAI, the Partition Principle, and Mathematics",
+      "source": "Hacker News",
+      "url": "https://karagila.org/2026/openai-pp/",
+      "time": "32分钟前",
+      "published": "2026-10-08T23:29:43+00:00",
+      "summary": "这篇文章从数学基础中的分划原理出发，讨论 OpenAI 在形式化数学与自动证明方面的工作。作者指出，分划原理是集合论与组合数学中的基础工具，而当前大型语言模型在生成数学证明时，往往依赖模式匹配而非严格逻辑推导。文章质疑 OpenAI 宣称的数学能力是否真正触及数学共同体认可的标准，认为自动证明系统需要在定义、引理和证明结构上接受更严格的检验。作者还讨论了形式化验证工具与神经网络结合的可能路径，以及若模型生成的证明无法被人工审查，数学界应如何建立可信度评估机制。整体上，这是一篇带有批判性的技术评论，强调数学严谨性不能被生成流畅度替代。",
+      "snark": "数学界：你的证明很流畅，但下一步请先学会定义。"
+    },
+    {
+      "id": 2,
+      "cat": "tool",
+      "title": "Anthropic 为开源项目推出免费 AI 安全扫描",
+      "title_en": "Anthropic launches free AI security scans for open-source projects",
+      "source": "The Verge AI",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/1008521/anthropic-open-source-oss-scanner",
+      "time": "2小时前",
+      "published": "2026-10-08T21:53:51+00:00",
+      "summary": "Anthropic 宣布推出名为 OSS Scanner 的新服务，为选择加入的开源项目提供免费、定期的安全扫描。该服务使用 Anthropic 最强的模型来检测代码中的安全漏洞，并向维护者发出警报。Anthropic 表示，开源项目只要主动报名，就能获得全面且周期性的安全审查，无需支付费用。这一举措被视为 AI 公司向开源生态回馈安全能力，同时也可能帮助 Anthropic 积累真实代码库中的漏洞数据与修复案例。对于资源有限的开源维护者而言，这能降低安全审计门槛；但批评者可能会关注扫描结果的准确性、误报率以及代码隐私问题。",
+      "snark": "免费扫描很香，就是不知道漏洞报告会不会也写成小作文。",
+      "multiSource": [
+        "The Verge",
+        "The Verge AI"
+      ]
+    },
+    {
+      "id": 3,
+      "cat": "tool",
+      "title": "假装坐在伊丽莎白·霍姆斯的办公桌前：一个细节怪网站",
+      "title_en": "Pretend you’re sitting at Elizabeth Holmes’ desk on this weirdly detailed website",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/10/08/pretend-youre-sitting-at-elizabeth-holmes-desk-on-this-weirdly-detailed-website/",
+      "time": "3小时前",
+      "published": "2026-10-08T21:00:00+00:00",
+      "summary": "Extend 工程师 Bo Lau 利用美国诉伊丽莎白·霍姆斯案中公开的一千多封邮件、幻灯片、短信和文件，制作了一个模拟网站，让用户仿佛坐在 Theranos 创始人霍姆斯的办公桌前翻看资料。该网站以高度还原的桌面交互方式呈现这些庭审证据，用户可点击文件夹、阅读邮件、查看内部演示文稿，从而沉浸式了解 Theranos 的兴衰过程。这既是一个历史档案可视化项目，也展示了前端工程师如何用网页技术把公开法律文件变成互动叙事。它不涉及 AI 模型训练，但体现了数据整理、界面设计与信息透明度的结合。",
+      "snark": "别人做产品，他做庭审现场，前端工程师的副业越来越刑了。"
+    },
+    {
+      "id": 4,
+      "cat": "policy",
+      "title": "加州试图叫停机器人对人笼斗",
+      "title_en": "California is trying to shut down robot vs. human cage matches",
+      "source": "The Verge AI",
+      "url": "https://www.theverge.com/tech/1008401/california-shut-down-rek-fighting-robot-company-human",
+      "time": "3小时前",
+      "published": "2026-10-08T20:06:56+00:00",
+      "summary": "加州州立体育委员会向一家初创公司发出停止令，原因是该公司上月举办了一场人类与机器人之间的格斗比赛。比赛于 9 月 18 日举行，由人类选手 Frankie LaPenna 对阵一台科技公司拥有的人形机器人。委员会认为这类活动可能违反体育竞技与安全相关规定，因此要求停止。该事件引发关于机器人参与对抗性娱乐的监管讨论：一方面，人形机器人格斗可能带来人身伤害与责任归属问题；另一方面，现有法规并未专门针对人机对战制定标准。加州此举可能成为其他地区监管类似活动的参考，也提醒机器人公司在营销时注意合规边界。",
+      "snark": "机器人赢了算虐待人类，输了算程序 bug，横竖都是工程师背锅。"
+    },
+    {
+      "id": 5,
+      "cat": "policy",
+      "title": "被解雇的 OpenAI 安全研究员反驳行为不当指控，警告寒蝉效应",
+      "title_en": "Fired OpenAI safety researchers dispute misconduct claims, warn of chilling effect",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/10/08/fired-openai-safety-researchers-dispute-misconduct-claims-warn-of-chilling-effect/",
+      "time": "3小时前",
+      "published": "2026-10-08T20:04:26+00:00",
+      "summary": "三名被 OpenAI 解雇的安全研究员公开反驳公司关于他们不当处理敏感信息的指控，并在一封公开信中警告，他们的解雇正在对公司的 AI 安全文化产生寒蝉效应。这些研究员认为，他们的离职会让其他员工不敢提出安全顾虑，从而削弱内部对模型风险的监督。事件反映出 AI 公司在追求模型能力与商业化的同时，如何平衡安全团队的独立性与内部保密要求。公开信还暗示，安全研究员可能因挑战产品发布节奏而遭到边缘化。该争议可能影响 OpenAI 在监管者与公众眼中的安全形象。",
+      "snark": "安全团队提风险被裁，风险表示：那我走？"
+    },
+    {
+      "id": 6,
+      "cat": "strategy",
+      "title": "派拉蒙正在制作《赛博朋克 2077》电影",
+      "title_en": "Paramount is making a Cyberpunk 2077 film",
+      "source": "The Verge",
+      "url": "https://www.theverge.com/games/1008327/paramount-pictures-cyberpunk-2077-film-movie",
+      "time": "4小时前",
+      "published": "2026-10-08T19:14:03+00:00",
+      "summary": "据 Deadline 报道，CD Projekt Red 旗下热门科幻游戏《赛博朋克 2077》将被派拉蒙影业改编为真人电影。目前尚无上映时间等细节，但消息称制片人 Lorenzo di Bonaventura 将参与该项目。该游戏设定在反乌托邦的未来夜之城，涉及义体改造、人工智能、企业统治等主题，因此改编电影可能大量涉及 AI 与科技伦理元素。派拉蒙此举延续了游戏改编影视的热潮，也显示赛博朋克题材在主流娱乐中的持续吸引力。对 AI 行业而言，这类作品可能进一步塑造公众对人工智能与人体增强的想象。",
+      "snark": "游戏里 bug 已经够多了，电影版千万别再跳票。"
+    },
+    {
+      "id": 7,
+      "cat": "strategy",
+      "title": "本·阿弗莱克是个 AI 极客，互联网表示佩服",
+      "title_en": "Ben Affleck is an AI nerd, and the internet is impressed",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/10/08/ben-affleck-is-an-ai-nerd-and-the-internet-is-impressed/",
+      "time": "5小时前",
+      "published": "2026-10-08T18:20:32+00:00",
+      "summary": "演员本·阿弗莱克因对人工智能的深入了解而在网络上走红，他谈论的内容涵盖神经网络、Transformer 架构和开放权重等话题。阿弗莱克今年早些时候将其 AI 电影制作初创公司出售给 Netflix，证明他不只是好莱坞明星，还对 AI 技术有实际投入。他的公开言论显示，他理解模型训练、开源生态与创意产业之间的关系。这一现象反映出 AI 话题已渗透到娱乐界，明星的技术素养也能成为公众讨论的一部分。对 AI 公司而言，与懂技术的娱乐人士合作，可能有助于更准确地呈现 AI 题材作品。",
+      "snark": "蝙蝠侠懂 Transformer，哥谭的犯罪预测模型有救了。"
+    },
+    {
+      "id": 8,
+      "cat": "strategy",
+      "title": "热门 AI 排行榜 Arena 估值十个月翻倍至 31 亿美元",
+      "title_en": "Popular AI leaderboard Arena nearly doubles valuation to $3.1B valuation in 10 months",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/10/08/popular-ai-leaderboard-arena-nearly-doubles-valuation-to-3-1b-valuation-in-10-months/",
+      "time": "5小时前",
+      "published": "2026-10-08T18:19:45+00:00",
+      "summary": "热门 AI 排行榜 LMArena 背后的公司完成 2 亿美元融资，由 Lightspeed 和 Khosla 领投，估值在十个月内几乎翻倍至 31 亿美元。LMArena 以用户盲测投票比较不同 AI 模型而闻名，如今还开始评估模型在诚实性等对齐问题上的表现，例如模型是否会撒谎。该公司的估值飙升反映出市场对独立模型评测与排行榜的高度关注，因为开发者和企业需要可信的第三方基准来选择模型。与此同时，排行榜的公正性、投票偏差和商业化压力也将受到更多审视。",
+      "snark": "排行榜估值比模型分数涨得还快，建议下次直接给投资人排名。"
+    },
+    {
+      "id": 9,
+      "cat": "strategy",
+      "title": "OpenAI 收入据报道比此前预期少 200 亿美元",
+      "title_en": "OpenAI’s revenue is reportedly $20 billion less than previously projected",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/10/08/openais-revenue-is-reportedly-20-billion-less-than-previously-projected/",
+      "time": "5小时前",
+      "published": "2026-10-08T18:19:42+00:00",
+      "summary": "有报道称，OpenAI 的年化收入比此前预测少了约 200 亿美元。此前有消息称该 AI 实验室的年化收入约为 700 亿美元，但新报道称实际数字远低于此。这一差距引发外界对 OpenAI 商业模式与增长预期的质疑，尤其是在模型训练成本高企、算力投入巨大的背景下。收入预期下调可能影响其融资能力、估值逻辑以及未来产品定价策略。对于整个 AI 行业而言，头部公司的收入表现是判断市场泡沫与真实需求的重要指标。若实际收入不及预期，投资者可能重新评估生成式 AI 的变现速度。",
+      "snark": "收入少了两百亿，但 PPT 里的未来依然很丰满。"
+    },
+    {
+      "id": 10,
+      "cat": "tool",
+      "title": "谷歌将智能体 AI 引入 Gemini，先从企业开始",
+      "title_en": "Google brings agentic AI to Gemini, starting with businesses",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/10/08/google-brings-agentic-ai-to-gemini-starting-with-businesses/",
+      "time": "5小时前",
+      "published": "2026-10-08T18:18:00+00:00",
+      "summary": "谷歌正在把 Gemini 变成能够规划、执行任务并跨业务应用和系统工作的 AI 智能体。该智能体可以将工作委派给子智能体，调用多个 AI 模型，甚至拥有自己的工作身份，包括一个电子邮件地址。这意味着 Gemini 不再只是对话助手，而是能在企业环境中主动完成流程的角色。例如，它可以接收邮件、拆解任务、调用不同模型处理子任务，并在系统间同步结果。谷歌先从企业场景切入，是因为企业流程明确、权限体系完善，更适合智能体落地。该举措也加剧了与 OpenAI、Anthropic 在企业智能体市场的竞争。",
+      "snark": "Gemini 都有工牌和邮箱了，你的数字同事正在申请年假。"
+    },
+    {
+      "id": 11,
+      "cat": "policy",
+      "title": "Anthropic 修改使用政策，禁止模型滥用与选举干预",
+      "title_en": "Anthropic changes usage policy to ban model abuse and election interference",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/10/08/anthropic-changes-usage-policy-to-ban-model-abuse-and-election-interference/",
+      "time": "5小时前",
+      "published": "2026-10-08T18:16:24+00:00",
+      "summary": "Anthropic 更新使用政策，明确禁止用户在极端情况下反复滥用 Claude，但普通的不满和批评仍然允许。新规还涉及选举干预、欺骗性宣传、武器软件和监控等用途。这意味着 Anthropic 试图在保护模型安全与保留用户表达自由之间划出更清晰的边界。政策特别强调，不能利用 Claude 进行系统性操纵舆论或干扰选举，也不能用于开发武器或大规模监控工具。对于企业客户和开发者而言，需要重新检查自身应用是否符合新条款。该更新也反映出 AI 公司在大选周期与监管压力下，正主动收紧滥用红线。",
+      "snark": "可以骂 Claude，但不能反复骂，AI 也有情绪劳动。"
+    },
+    {
+      "id": 12,
+      "cat": "model",
+      "title": "OpenAI 的数学解答尚未达到该领域标准",
+      "title_en": "OpenAI’s math solutions aren’t meeting the field’s standards yet",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/10/08/openais-math-solutions-arent-meeting-the-fields-standards-yet/",
+      "time": "5小时前",
+      "published": "2026-10-08T18:10:55+00:00",
+      "summary": "有报道指出，OpenAI 生成的大量数学证明偏离了一组数学研究者为该前沿实验室制定的指南。这些研究者曾受邀协助 OpenAI 评估数学能力，但模型输出的证明在严谨性、定义清晰度和证明结构上未达到数学界认可的标准。问题可能在于模型倾向于生成看似完整但逻辑跳跃的证明，而数学共同体要求每一步都可验证。该事件凸显了当前 AI 在形式化数学与自动定理证明方面的局限，也说明仅靠基准测试分数无法代表真正的数学能力。若 OpenAI 希望获得数学界信任，需要与研究者更紧密合作，建立可验证的评估流程。",
+      "snark": "模型写证明像赶 deadline，数学家看了想退稿。"
+    }
+  ],
+  "stats": {
+    "total": 12,
+    "model_count": 2,
+    "strategy_count": 4,
+    "tool_count": 3,
+    "policy_count": 3
+  }
+}

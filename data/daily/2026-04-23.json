@@ -1,0 +1,161 @@
+{
+  "date": "2026-04-23",
+  "highlight": "大模型价格战持续，推理成本下降 80%，AI 应用爆发临界点临近",
+  "articles": [
+    {
+      "id": 1,
+      "cat": "model",
+      "title": "Claude 4.6 上线，长上下文窗口扩展到 500K tokens",
+      "title_en": "",
+      "source": "Ars Technica",
+      "url": "https://example.com/ai-news/2870",
+      "time": "21天前",
+      "published": "2026-04-23T20:46:00+08:00",
+      "summary": "这是一条关于「Claude 4.6 上线，长上下文窗口扩展到 500K tokens」的详细报道。该事件在 AI 行业引发广泛关注，多位业内人士表示这将深刻影响行业格局。更多细节请查看原文。",
+      "snark": "又双叒叕一个「里程碑」，今年第几个了？"
+    },
+    {
+      "id": 2,
+      "cat": "model",
+      "title": "Cursor 2.0 发布：AI 原生 IDE 支持全栈项目自动生成",
+      "title_en": "",
+      "source": "Google AI Blog",
+      "url": "https://example.com/ai-news/3262",
+      "time": "21天前",
+      "published": "2026-04-23T14:36:00+08:00",
+      "summary": "这是一条关于「Cursor 2.0 发布：AI 原生 IDE 支持全栈项目自动生成」的详细报道。该事件在 AI 行业引发广泛关注，多位业内人士表示这将深刻影响行业格局。更多细节请查看原文。",
+      "snark": "AI圈日常：今天你发模型，明天我刷榜。"
+    },
+    {
+      "id": 3,
+      "cat": "model",
+      "title": "Sora 2 公测：OpenAI 视频生成时长扩展至 2 分钟",
+      "title_en": "",
+      "source": "MarkTechPost",
+      "url": "https://example.com/ai-news/6898",
+      "time": "21天前",
+      "published": "2026-04-23T07:56:00+08:00",
+      "summary": "这是一条关于「Sora 2 公测：OpenAI 视频生成时长扩展至 2 分钟」的详细报道。该事件在 AI 行业引发广泛关注，多位业内人士表示这将深刻影响行业格局。更多细节请查看原文。",
+      "snark": "AI圈日常：今天你发模型，明天我刷榜。"
+    },
+    {
+      "id": 4,
+      "cat": "model",
+      "title": "Adobe Firefly 4 发布：AI 创意工具全面整合 Photoshop",
+      "title_en": "",
+      "source": "Hacker News",
+      "url": "https://example.com/ai-news/1667",
+      "time": "21天前",
+      "published": "2026-04-23T09:37:00+08:00",
+      "summary": "这是一条关于「Adobe Firefly 4 发布：AI 创意工具全面整合 Photoshop」的详细报道。该事件在 AI 行业引发广泛关注，多位业内人士表示这将深刻影响行业格局。更多细节请查看原文。",
+      "snark": "这条新闻让同行们集体沉默了3秒，然后继续卷。"
+    },
+    {
+      "id": 5,
+      "cat": "model",
+      "title": "Notion AI 3.0 发布：AI 原生工作空间，Agent 可自主完成任务",
+      "title_en": "",
+      "source": "Ars Technica",
+      "url": "https://example.com/ai-news/3711",
+      "time": "21天前",
+      "published": "2026-04-23T16:49:00+08:00",
+      "summary": "这是一条关于「Notion AI 3.0 发布：AI 原生工作空间，Agent 可自主完成任务」的详细报道。该事件在 AI 行业引发广泛关注，多位业内人士表示这将深刻影响行业格局。更多细节请查看原文。",
+      "snark": "又双叒叕一个「里程碑」，今年第几个了？"
+    },
+    {
+      "id": 6,
+      "cat": "strategy",
+      "title": "中国发布大模型训练新规：数据安全和内容审核成焦点",
+      "title_en": "",
+      "source": "MIT Tech Review",
+      "url": "https://example.com/ai-news/6217",
+      "time": "21天前",
+      "published": "2026-04-23T10:47:00+08:00",
+      "summary": "这是一条关于「中国发布大模型训练新规：数据安全和内容审核成焦点」的详细报道。该事件在 AI 行业引发广泛关注，多位业内人士表示这将深刻影响行业格局。更多细节请查看原文。",
+      "snark": "编辑部：这条我们也不知道怎么评价。"
+    },
+    {
+      "id": 7,
+      "cat": "strategy",
+      "title": "微软将 Copilot 深度整合至 Windows 12，AI 操作系统时代来临",
+      "title_en": "",
+      "source": "VentureBeat",
+      "url": "https://example.com/ai-news/5992",
+      "time": "21天前",
+      "published": "2026-04-23T12:23:00+08:00",
+      "summary": "这是一条关于「微软将 Copilot 深度整合至 Windows 12，AI 操作系统时代来临」的详细报道。该事件在 AI 行业引发广泛关注，多位业内人士表示这将深刻影响行业格局。更多细节请查看原文。",
+      "snark": "这条新闻让同行们集体沉默了3秒，然后继续卷。"
+    },
+    {
+      "id": 8,
+      "cat": "strategy",
+      "title": "OpenAI 完成 400 亿美元新一轮融资，估值突破 3000 亿",
+      "title_en": "",
+      "source": "Synced Review",
+      "url": "https://example.com/ai-news/3365",
+      "time": "21天前",
+      "published": "2026-04-23T11:08:00+08:00",
+      "summary": "这是一条关于「OpenAI 完成 400 亿美元新一轮融资，估值突破 3000 亿」的详细报道。该事件在 AI 行业引发广泛关注，多位业内人士表示这将深刻影响行业格局。更多细节请查看原文。",
+      "snark": "这条新闻让同行们集体沉默了3秒，然后继续卷。"
+    },
+    {
+      "id": 9,
+      "cat": "strategy",
+      "title": "字节跳动成立万亿参数大模型团队，目标 2027 年赶超 GPT-6",
+      "title_en": "",
+      "source": "DeepMind Blog",
+      "url": "https://example.com/ai-news/8020",
+      "time": "21天前",
+      "published": "2026-04-23T06:50:00+08:00",
+      "summary": "这是一条关于「字节跳动成立万亿参数大模型团队，目标 2027 年赶超 GPT-6」的详细报道。该事件在 AI 行业引发广泛关注，多位业内人士表示这将深刻影响行业格局。更多细节请查看原文。",
+      "snark": "AI圈日常：今天你发模型，明天我刷榜。"
+    },
+    {
+      "id": 10,
+      "cat": "tool",
+      "title": "Adobe Firefly 4 发布：AI 创意工具全面整合 Photoshop",
+      "title_en": "",
+      "source": "OpenAI Blog",
+      "url": "https://example.com/ai-news/4567",
+      "time": "21天前",
+      "published": "2026-04-23T11:38:00+08:00",
+      "summary": "这是一条关于「Adobe Firefly 4 发布：AI 创意工具全面整合 Photoshop」的详细报道。该事件在 AI 行业引发广泛关注，多位业内人士表示这将深刻影响行业格局。更多细节请查看原文。",
+      "snark": "AI圈日常：今天你发模型，明天我刷榜。"
+    },
+    {
+      "id": 11,
+      "cat": "tool",
+      "title": "欧盟 AI 法案正式生效：高风险 AI 系统需第三方审计",
+      "title_en": "",
+      "source": "Hacker News",
+      "url": "https://example.com/ai-news/4648",
+      "time": "21天前",
+      "published": "2026-04-23T17:07:00+08:00",
+      "summary": "这是一条关于「欧盟 AI 法案正式生效：高风险 AI 系统需第三方审计」的详细报道。该事件在 AI 行业引发广泛关注，多位业内人士表示这将深刻影响行业格局。更多细节请查看原文。",
+      "snark": "这条新闻让同行们集体沉默了3秒，然后继续卷。"
+    },
+    {
+      "id": 12,
+      "cat": "tool",
+      "title": "Runway Gen-5 发布：视频生成支持实时物理模拟",
+      "title_en": "",
+      "source": "The Verge AI",
+      "url": "https://example.com/ai-news/2437",
+      "time": "21天前",
+      "published": "2026-04-23T15:22:00+08:00",
+      "summary": "这是一条关于「Runway Gen-5 发布：视频生成支持实时物理模拟」的详细报道。该事件在 AI 行业引发广泛关注，多位业内人士表示这将深刻影响行业格局。更多细节请查看原文。",
+      "snark": "AI圈新闻：今天又是核聚变级别的一天。"
+    }
+  ],
+  "stats": {
+    "total": 12,
+    "model_count": 5,
+    "strategy_count": 4,
+    "tool_count": 3
+  },
+  "fun": {
+    "lucky": "DeepSeek V4",
+    "advice": "宜：省钱方案\n忌：盲目追大参数",
+    "joke": "问：AI 的 MBTI 是什么？\n答：INTP——Introverted（只喜欢 GPU 陪伴）、iNtuitive（猜你的 prompt）、Thinking（但有时幻觉）、Perceiving（一直在学习）。"
+  }
+}

@@ -1,0 +1,161 @@
+{
+  "date": "2026-04-16",
+  "highlight": "端侧 AI 芯片竞赛升温，手机、PC 全面 AI 化，离线大模型成为标配",
+  "articles": [
+    {
+      "id": 1,
+      "cat": "model",
+      "title": "Sora 2 公测：OpenAI 视频生成时长扩展至 2 分钟",
+      "title_en": "",
+      "source": "Google AI Blog",
+      "url": "https://example.com/ai-news/3710",
+      "time": "28天前",
+      "published": "2026-04-16T11:57:00+08:00",
+      "summary": "这是一条关于「Sora 2 公测：OpenAI 视频生成时长扩展至 2 分钟」的详细报道。该事件在 AI 行业引发广泛关注，多位业内人士表示这将深刻影响行业格局。更多细节请查看原文。",
+      "snark": "又双叒叕一个「里程碑」，今年第几个了？"
+    },
+    {
+      "id": 2,
+      "cat": "model",
+      "title": "Nous Research 发布 Hermes 4：开源指令遵循模型新标杆",
+      "title_en": "",
+      "source": "MarkTechPost",
+      "url": "https://example.com/ai-news/9387",
+      "time": "28天前",
+      "published": "2026-04-16T17:39:00+08:00",
+      "summary": "这是一条关于「Nous Research 发布 Hermes 4：开源指令遵循模型新标杆」的详细报道。该事件在 AI 行业引发广泛关注，多位业内人士表示这将深刻影响行业格局。更多细节请查看原文。",
+      "snark": "又双叒叕一个「里程碑」，今年第几个了？"
+    },
+    {
+      "id": 3,
+      "cat": "model",
+      "title": "Grok-4 发布：xAI 称推理能力业界第一",
+      "title_en": "",
+      "source": "MarkTechPost",
+      "url": "https://example.com/ai-news/2720",
+      "time": "28天前",
+      "published": "2026-04-16T21:13:00+08:00",
+      "summary": "这是一条关于「Grok-4 发布：xAI 称推理能力业界第一」的详细报道。该事件在 AI 行业引发广泛关注，多位业内人士表示这将深刻影响行业格局。更多细节请查看原文。",
+      "snark": "编辑部：这条我们也不知道怎么评价。"
+    },
+    {
+      "id": 4,
+      "cat": "model",
+      "title": "Gemini 2.5 Ultra 发布，多模态基准测试全面领先",
+      "title_en": "",
+      "source": "少数派",
+      "url": "https://example.com/ai-news/8897",
+      "time": "28天前",
+      "published": "2026-04-16T20:31:00+08:00",
+      "summary": "这是一条关于「Gemini 2.5 Ultra 发布，多模态基准测试全面领先」的详细报道。该事件在 AI 行业引发广泛关注，多位业内人士表示这将深刻影响行业格局。更多细节请查看原文。",
+      "snark": "AI圈新闻：今天又是核聚变级别的一天。"
+    },
+    {
+      "id": 5,
+      "cat": "model",
+      "title": "AutoGPT 3.0 发布：自主 AI Agent 可完成复杂商业任务",
+      "title_en": "",
+      "source": "Google AI Blog",
+      "url": "https://example.com/ai-news/3319",
+      "time": "28天前",
+      "published": "2026-04-16T12:10:00+08:00",
+      "summary": "这是一条关于「AutoGPT 3.0 发布：自主 AI Agent 可完成复杂商业任务」的详细报道。该事件在 AI 行业引发广泛关注，多位业内人士表示这将深刻影响行业格局。更多细节请查看原文。",
+      "snark": "编辑部：这条我们也不知道怎么评价。"
+    },
+    {
+      "id": 6,
+      "cat": "strategy",
+      "title": "Anthropic 发布 Claude for Enterprise：企业级 AI 部署方案",
+      "title_en": "",
+      "source": "The Verge AI",
+      "url": "https://example.com/ai-news/8467",
+      "time": "28天前",
+      "published": "2026-04-16T10:15:00+08:00",
+      "summary": "这是一条关于「Anthropic 发布 Claude for Enterprise：企业级 AI 部署方案」的详细报道。该事件在 AI 行业引发广泛关注，多位业内人士表示这将深刻影响行业格局。更多细节请查看原文。",
+      "snark": "AI圈新闻：今天又是核聚变级别的一天。"
+    },
+    {
+      "id": 7,
+      "cat": "strategy",
+      "title": "Runway Gen-5 发布：视频生成支持实时物理模拟",
+      "title_en": "",
+      "source": "36氪",
+      "url": "https://example.com/ai-news/3738",
+      "time": "28天前",
+      "published": "2026-04-16T19:41:00+08:00",
+      "summary": "这是一条关于「Runway Gen-5 发布：视频生成支持实时物理模拟」的详细报道。该事件在 AI 行业引发广泛关注，多位业内人士表示这将深刻影响行业格局。更多细节请查看原文。",
+      "snark": "又双叒叕一个「里程碑」，今年第几个了？"
+    },
+    {
+      "id": 8,
+      "cat": "strategy",
+      "title": "欧盟 AI 法案正式生效：高风险 AI 系统需第三方审计",
+      "title_en": "",
+      "source": "Hacker News",
+      "url": "https://example.com/ai-news/1400",
+      "time": "28天前",
+      "published": "2026-04-16T09:49:00+08:00",
+      "summary": "这是一条关于「欧盟 AI 法案正式生效：高风险 AI 系统需第三方审计」的详细报道。该事件在 AI 行业引发广泛关注，多位业内人士表示这将深刻影响行业格局。更多细节请查看原文。",
+      "snark": "AI圈日常：今天你发模型，明天我刷榜。"
+    },
+    {
+      "id": 9,
+      "cat": "strategy",
+      "title": "Gemini 2.5 Ultra 发布，多模态基准测试全面领先",
+      "title_en": "",
+      "source": "MIT Tech Review",
+      "url": "https://example.com/ai-news/2744",
+      "time": "28天前",
+      "published": "2026-04-16T19:55:00+08:00",
+      "summary": "这是一条关于「Gemini 2.5 Ultra 发布，多模态基准测试全面领先」的详细报道。该事件在 AI 行业引发广泛关注，多位业内人士表示这将深刻影响行业格局。更多细节请查看原文。",
+      "snark": "编辑部：这条我们也不知道怎么评价。"
+    },
+    {
+      "id": 10,
+      "cat": "strategy",
+      "title": "Notion AI 3.0 发布：AI 原生工作空间，Agent 可自主完成任务",
+      "title_en": "",
+      "source": "Synced Review",
+      "url": "https://example.com/ai-news/9977",
+      "time": "28天前",
+      "published": "2026-04-16T15:09:00+08:00",
+      "summary": "这是一条关于「Notion AI 3.0 发布：AI 原生工作空间，Agent 可自主完成任务」的详细报道。该事件在 AI 行业引发广泛关注，多位业内人士表示这将深刻影响行业格局。更多细节请查看原文。",
+      "snark": "AI圈新闻：今天又是核聚变级别的一天。"
+    },
+    {
+      "id": 11,
+      "cat": "strategy",
+      "title": "Perplexity 完成 10 亿美元融资，AI 搜索估值突破 200 亿",
+      "title_en": "",
+      "source": "Ars Technica",
+      "url": "https://example.com/ai-news/3219",
+      "time": "28天前",
+      "published": "2026-04-16T16:01:00+08:00",
+      "summary": "这是一条关于「Perplexity 完成 10 亿美元融资，AI 搜索估值突破 200 亿」的详细报道。该事件在 AI 行业引发广泛关注，多位业内人士表示这将深刻影响行业格局。更多细节请查看原文。",
+      "snark": "编辑部：这条我们也不知道怎么评价。"
+    },
+    {
+      "id": 12,
+      "cat": "tool",
+      "title": "xAI 完成 60 亿美元融资，Elon Musk 称将建全球最大 GPU 集群",
+      "title_en": "",
+      "source": "36氪",
+      "url": "https://example.com/ai-news/8989",
+      "time": "28天前",
+      "published": "2026-04-16T18:42:00+08:00",
+      "summary": "这是一条关于「xAI 完成 60 亿美元融资，Elon Musk 称将建全球最大 GPU 集群」的详细报道。该事件在 AI 行业引发广泛关注，多位业内人士表示这将深刻影响行业格局。更多细节请查看原文。",
+      "snark": "这条新闻让同行们集体沉默了3秒，然后继续卷。"
+    }
+  ],
+  "stats": {
+    "total": 12,
+    "model_count": 5,
+    "strategy_count": 6,
+    "tool_count": 1
+  },
+  "fun": {
+    "lucky": "Qwen 3",
+    "advice": "宜：中文场景深耕\n忌：忽视本土化需求",
+    "joke": "问：为什么 AI 训练需要那么多 GPU？\n答：因为它们在学习人类怎么让它们更省电。"
+  }
+}

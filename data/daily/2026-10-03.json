@@ -1,0 +1,171 @@
+{
+  "date": "2026-10-03",
+  "generated_at": "2026-10-03T08:43:04.466388+08:00",
+  "highlight": "AI 摘要暂时不可用，请稍后刷新",
+  "fun": {},
+  "articles": [
+    {
+      "id": 1,
+      "cat": "strategy",
+      "title": "Sean Parker is rebuilding Stability AI around music",
+      "title_en": "Sean Parker is rebuilding Stability AI around music",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/10/02/sean-parker-is-rebuilding-stability-ai-around-music/",
+      "time": "3小时前",
+      "published": "2026-10-02T21:09:14+00:00",
+      "summary": "Sean Parker, who once taught the music industry what asking for forgiveness looks like, is now back with the labels' blessing and money.",
+      "snark": ""
+    },
+    {
+      "id": 2,
+      "cat": "model",
+      "title": "Meta open sources code to let you make Muse AI gadgets",
+      "title_en": "Meta open sources code to let you make Muse AI gadgets",
+      "source": "The Verge AI",
+      "url": "https://www.theverge.com/tech/1004330/meta-muse-ai-gadgets-home-link",
+      "time": "3小时前",
+      "published": "2026-10-02T21:08:37+00:00",
+      "summary": "Meta now lets you make your own Muse gadgets that feature the company's new AI agent with code that the company open sourced. The company suggests projects like loading Muse on a color E Ink display to show reminders, adding it to an HDMI stick so you can display Muse on a big screen, or [&#8230;]",
+      "snark": "",
+      "multiSource": [
+        "The Verge",
+        "The Verge AI"
+      ]
+    },
+    {
+      "id": 3,
+      "cat": "tool",
+      "title": "Apple will limit Mac disk access as AI agents ‘substantially’ increase risk",
+      "title_en": "Apple will limit Mac disk access as AI agents ‘substantially’ increase risk",
+      "source": "The Verge AI",
+      "url": "https://www.theverge.com/tech/1004295/apple-limit-mac-disk-access-ai-agents",
+      "time": "4小时前",
+      "published": "2026-10-02T20:08:40+00:00",
+      "summary": "Apple will add new limits for \"full disk access\" on Mac in response to risks posed by AI agents, as reported earlier by TechCrunch. In an update on Friday, Apple says it's rolling out new controls to \"ensure that users who genuinely wish to grant an app this extraordinary level of access can only do [&#8230;]",
+      "snark": "",
+      "multiSource": [
+        "The Verge",
+        "The Verge AI"
+      ]
+    },
+    {
+      "id": 4,
+      "cat": "model",
+      "title": "Show HN: Made an open-source Lego AI generator",
+      "title_en": "Show HN: Made an open-source Lego AI generator",
+      "source": "Hacker News",
+      "url": "https://github.com/anteloc/ldraw-nova",
+      "time": "4小时前",
+      "published": "2026-10-02T20:00:15+00:00",
+      "summary": "Hi there :-) New on HN, first time posting. Past year, around December, I started experimenting with making ChatGPT and Claude generate source code in LDraw language. This LDraw is literally an \"assembly\" language, a low-level programming language that describes how to assemble LEGO pieces together into models, one placement instruction at a time. When executed by specific tools, like e.g. LDView, LeoCAD, Studio... these instructions become LEGO CAD models, that can be interacted with, modified,",
+      "snark": ""
+    },
+    {
+      "id": 5,
+      "cat": "strategy",
+      "title": "Affected by layoffs? Don’t miss this $75 deal for your TechCrunch Disrupt 2026 Expo+ Pass",
+      "title_en": "Affected by layoffs? Don’t miss this $75 deal for your TechCrunch Disrupt 2026 Expo+ Pass",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/10/02/disrupt-2026-layoff-expo-plus-passes-available-for-75-dollars/",
+      "time": "5小时前",
+      "published": "2026-10-02T19:15:51+00:00",
+      "summary": "Your next opportunity could be one conversation away. Get your Expo+ Pass for just $75. Limited to the first 100 qualifying people.",
+      "snark": ""
+    },
+    {
+      "id": 6,
+      "cat": "tool",
+      "title": "Apple says it’s tightening macOS ‘Full Disk Access’ controls due to new risks from AI agents",
+      "title_en": "Apple says it’s tightening macOS ‘Full Disk Access’ controls due to new risks from AI agents",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/10/02/apple-says-its-tightening-macos-full-disk-access-controls-due-to-new-risks-from-ai-agents/",
+      "time": "6小时前",
+      "published": "2026-10-02T18:11:27+00:00",
+      "summary": "Apple says it will add new controls around macOS’s Full Disk Access permission, warning that increasingly capable AI agents make broad access to users’ files, messages, mail, and browsing history riskier.",
+      "snark": ""
+    },
+    {
+      "id": 7,
+      "cat": "model",
+      "title": "NVIDIA Announces DGX Spark 64GB: A 1-PetaFLOP Grace Blackwell Desktop for Local AI Agents, Fine-Tuning, and Inference",
+      "title_en": "NVIDIA Announces DGX Spark 64GB: A 1-PetaFLOP Grace Blackwell Desktop for Local AI Agents, Fine-Tuning, and Inference",
+      "source": "MarkTechPost",
+      "url": "https://www.marktechpost.com/2026/10/02/nvidia-announces-dgx-spark-64gb-a-1-petaflop-grace-blackwell-desktop-for-local-ai-agents-fine-tuning-and-inference/",
+      "time": "6小时前",
+      "published": "2026-10-02T18:04:56+00:00",
+      "summary": "NVIDIA announced a new 64GB configuration of DGX Spark — from Acer, ASUS, Dell, Gigabyte, HP and MSI — its GB10-powered desktop AI system. It gives developers a way to start with one system for local models and agents, then cluster two 64GB units for 128GB of memory across the cluster and more compute when [&#8230;] The post NVIDIA Announces DGX Spark 64GB: A 1-PetaFLOP Grace Blackwell Desktop for Local AI Agents, Fine-Tuning, and Inference appeared first on MarkTechPost .",
+      "snark": ""
+    },
+    {
+      "id": 8,
+      "cat": "tool",
+      "title": "OpenAI’s Dot agent is enterprise software that can also order your dinner",
+      "title_en": "OpenAI’s Dot agent is enterprise software that can also order your dinner",
+      "source": "The Verge AI",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/1004096/openai-chatgpt-dots-hands-on-agent",
+      "time": "6小时前",
+      "published": "2026-10-02T18:00:00+00:00",
+      "summary": "It's a tale as old as last week: OpenAI's new agent platform, called Dots, is full of cute little guys who can do your bidding. But unlike the ultra-approachable Meta Muse, Dots feel very much like using workplace software that happens to be able to order you a burrito - emphasis on work. OpenAI announced [&#8230;]",
+      "snark": "",
+      "multiSource": [
+        "The Verge",
+        "The Verge AI"
+      ]
+    },
+    {
+      "id": 9,
+      "cat": "policy",
+      "title": "Call it AI, call it Super Intelligence, only 2% of consumers are buying it",
+      "title_en": "Call it AI, call it Super Intelligence, only 2% of consumers are buying it",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/podcast/call-it-ai-call-it-super-intelligence-only-2-of-consumers-are-buying-it/",
+      "time": "6小时前",
+      "published": "2026-10-02T17:56:00+00:00",
+      "summary": "This week, the White House got&#160;nearly every&#160;major tech CEO in one room — Zuckerberg, Bezos, Musk, and Anthropic’s Dario Amodei among them —&#160;to sign an AI safety pledge&#160;that President&#160;Donald&#160;Trump called “morally binding.”&#160;Trump&#160;also&#160;signed an&#160;executive order&#160;officially rebranding AI as “super intelligence,” and meanwhile,&#160;Meta and OpenAI are putting&#160;friendlier faces on their AI products, even as the biggest money [&#8230;]",
+      "snark": ""
+    },
+    {
+      "id": 10,
+      "cat": "policy",
+      "title": "It’s not AI anymore, it’s ‘super intelligence’ (according to the White House)",
+      "title_en": "It’s not AI anymore, it’s ‘super intelligence’ (according to the White House)",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/video/its-not-ai-anymore-its-super-intelligence-according-to-the-white-house/",
+      "time": "6小时前",
+      "published": "2026-10-02T17:48:16+00:00",
+      "summary": "This week, the White House got&#160;nearly every&#160;major tech CEO in one room — Zuckerberg, Bezos, Musk, and Anthropic’s Dario Amodei among them —&#160;to sign an AI safety pledge&#160;that President&#160;Donald&#160;Trump called “morally binding.”&#160;Trump&#160;also&#160;signed an&#160;executive order&#160;officially rebranding AI as “super intelligence,” and meanwhile,&#160;Meta and OpenAI are putting&#160;friendlier faces on their AI products, even as the biggest money [&#8230;]",
+      "snark": ""
+    },
+    {
+      "id": 11,
+      "cat": "strategy",
+      "title": "Breaking up (with Elon Musk) is hard to do",
+      "title_en": "Breaking up (with Elon Musk) is hard to do",
+      "source": "The Verge AI",
+      "url": "https://www.theverge.com/tech/1004177/elon-musk-unfollows-shivon-zilis",
+      "time": "7小时前",
+      "published": "2026-10-02T17:37:36+00:00",
+      "summary": "In a throwback to MySpace-style internet drama, Shivon Zilis announced that she and the father of her four children, Elon Musk, had broken up on X. To do so, she quote-tweeted a post from \"Big Tech Alert,\" an account that, among other things, monitors what accounts are following and unfollowing each other. That post noted [&#8230;]",
+      "snark": ""
+    },
+    {
+      "id": 12,
+      "cat": "strategy",
+      "title": "TechCrunch Disrupt 2026: Blackstone’s Jas Khaira on building the next generation of AI giants",
+      "title_en": "TechCrunch Disrupt 2026: Blackstone’s Jas Khaira on building the next generation of AI giants",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/10/02/techcrunch-disrupt-2026-blackstones-jas-khaira-on-building-the-next-generation-of-ai-giants/",
+      "time": "7小时前",
+      "published": "2026-10-02T17:32:05+00:00",
+      "summary": "Blackstone's Jas Khaira will take the Builders Stage at TechCrunch Disrupt 2026 on building next-gen AI. Register for your pass and get 50% off a second.",
+      "snark": ""
+    }
+  ],
+  "stats": {
+    "total": 12,
+    "model_count": 3,
+    "strategy_count": 4,
+    "tool_count": 3,
+    "policy_count": 2
+  }
+}

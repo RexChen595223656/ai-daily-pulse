@@ -1,0 +1,179 @@
+{
+  "date": "2026-09-09",
+  "generated_at": "2026-09-09T08:00:50.940260+08:00",
+  "highlight": "OpenAI宣称破解纳维-斯托克斯难题引发争议，同时Meta发布个人AI代理Muse但面临信任危机，AI行业在技术突破与伦理争议中前行。",
+  "fun": {
+    "lucky": "GPT-5.6 Sol",
+    "advice": "宜：大胆假设，让AI帮你验证。\n忌：轻易宣布自己解决了世纪难题。",
+    "joke": "程序员问AI：'我什么时候能下班？' AI答：'你的代码还有3个bug，预计明天。' 程序员怒：'那我现在就走！' AI：'已自动提交加班申请。'"
+  },
+  "articles": [
+    {
+      "id": 1,
+      "cat": "policy",
+      "title": "黑客窃取Claude订阅用户的令牌",
+      "title_en": "Hackers are stealing Claude tokens from subscribers",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/09/08/hackers-are-stealing-claude-tokens-from-subscribers/",
+      "time": "2小时前",
+      "published": "2026-09-08T21:10:27+00:00",
+      "summary": "上个月，一位Claude用户发现自己的账户在未使用时也在消耗令牌，随后Anthropic向用户发出警告，确认存在黑客窃取令牌的行为。这些令牌可能被用于未授权的API调用，导致用户产生额外费用或数据泄露风险。Anthropic建议用户立即检查账户活动，并启用双因素认证，同时轮换API密钥。此次事件凸显了AI服务中令牌管理的重要性，也提醒用户需警惕账户安全漏洞。目前，Anthropic正在与受影响用户合作，调查攻击来源，并加强安全措施，以防止类似事件再次发生。",
+      "snark": "令牌被偷？看来AI的令牌比你的银行卡还值钱。"
+    },
+    {
+      "id": 2,
+      "cat": "strategy",
+      "title": "Cognition估值达480亿美元，投资者看好AI编程市场多元化",
+      "title_en": "Cognition hits $48B valuation, signaling investors believe AI coding is far from a winner-take-all market",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/09/08/cognition-hits-48b-valuation-signaling-investors-believe-ai-coding-is-far-from-a-winner-take-all-market/",
+      "time": "2小时前",
+      "published": "2026-09-08T21:04:06+00:00",
+      "summary": "AI编程公司Cognition近期完成新一轮融资，估值飙升至480亿美元，其估值倍数高于Cursor在被SpaceX收购前的水平。这一高估值表明投资者认为AI编程领域尚未形成赢家通吃的格局，市场仍有广阔空间容纳多个参与者。Cognition的核心产品Devin能够自主完成编程任务，吸引了大量资本关注。分析人士指出，尽管竞争激烈，但不同AI编程工具在特定场景下各有优势，投资者对多元化解决方案持乐观态度。此次融资将进一步推动Cognition的产品研发和市场扩展。",
+      "snark": "480亿美元？看来AI编程比写代码本身更赚钱。"
+    },
+    {
+      "id": 3,
+      "cat": "model",
+      "title": "OpenAI宣称解决纳维-斯托克斯难题，引发学界争议",
+      "title_en": "Drama swirls around OpenAI’s legendary mathematical milestone",
+      "source": "The Verge AI",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/991710/openai-navier-stokes-solution",
+      "time": "3小时前",
+      "published": "2026-09-08T20:53:52+00:00",
+      "summary": "OpenAI在周二发布博客，宣称通过AI找到了困扰数学界约90年的纳维-斯托克斯问题的一个解。该问题涉及流体动力学，是克莱数学研究所七大千禧年难题之一，悬赏100万美元。然而，纽约大学数学家指出，OpenAI的解决过程可能“不光彩”，暗示其利用了不公平的竞争手段。目前，OpenAI尚未公布完整证明细节，学术界对此持谨慎态度。若证明成立，将是数学和AI领域的重大突破，但争议也使得成果的可信度受到质疑。",
+      "snark": "90年难题被AI攻克？先别急着庆祝，数学家们还在检查步骤呢。",
+      "multiSource": [
+        "The Verge",
+        "The Verge AI"
+      ]
+    },
+    {
+      "id": 4,
+      "cat": "tool",
+      "title": "ChatGPT Sketch功能：让手绘草图秒变精致AI图像",
+      "title_en": "ChatGPT Sketch turns your bad drawings into detailed AI images",
+      "source": "The Verge AI",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/991727/openai-chatgpt-images-2-5-sketch",
+      "time": "3小时前",
+      "published": "2026-09-08T20:16:09+00:00",
+      "summary": "OpenAI发布了ChatGPT Images 2.5，并新增了名为Sketch的功能。用户可以在ChatGPT界面中直接绘制简笔画或涂鸦，然后通过自然语言指令，让AI将其转化为详细的图像。该功能降低了图像生成的门槛，无需专业设计技能即可实现创意表达。Sketch结合了多模态理解与生成技术，能够识别草图中的基本形状和意图，并补充细节、色彩和背景，生成高质量的图像。这一更新为用户提供了更直观、更交互式的创作方式，有望在设计和教育领域得到广泛应用。",
+      "snark": "画个火柴人就能出大片？我的艺术细胞终于有救了。",
+      "multiSource": [
+        "The Verge",
+        "The Verge AI"
+      ]
+    },
+    {
+      "id": 5,
+      "cat": "tool",
+      "title": "NVIDIA发布CUDA Rust，实现编译期安全的GPU内核",
+      "title_en": "NVIDIA Announces CUDA Rust with cuda-oxide (SIMT) and cutile-rs (Tile) for Compile-Time-Safe GPU Kernels",
+      "source": "MarkTechPost",
+      "url": "https://www.marktechpost.com/2026/09/08/nvidia-announces-cuda-rust-with-cuda-oxide-simt-and-cutile-rs-tile-for-compile-time-safe-gpu-kernels/",
+      "time": "4小时前",
+      "published": "2026-09-08T19:51:54+00:00",
+      "summary": "NVIDIA宣布推出CUDA Rust，旨在让Rust成为GPU内核的一等公民。该项目包含两个开源组件：cuda-oxide用于编译SIMT内核，通过Rust MIR、Pliron和LLVM生成PTX；cutile-rs则用于JIT编译Tile内核，基于CUDA Tile语言。这些工具利用Rust的内存安全特性，在编译期捕获潜在错误，提高GPU编程的安全性和可靠性。开发者可以使用Rust编写高性能的GPU代码，同时减少内存漏洞。该发布标志着Rust在系统编程和高性能计算领域的进一步渗透，为GPU开发带来新的选择。",
+      "snark": "Rust写GPU？内存安全了，但你的头发可能不安全。"
+    },
+    {
+      "id": 6,
+      "cat": "model",
+      "title": "DeepMind发布AlphaGenome Atlas，预测90亿人类DNA变异影响",
+      "title_en": "Google DeepMind Releases AlphaGenome Atlas With Precomputed Molecular Effect Predictions and AVI Scores for 9 Billion Human DNA Variants",
+      "source": "MarkTechPost",
+      "url": "https://www.marktechpost.com/2026/09/08/google-deepmind-releases-alphagenome-atlas-with-precomputed-molecular-effect-predictions-and-avi-scores-for-9-billion-human-dna-variants/",
+      "time": "5小时前",
+      "published": "2026-09-08T19:00:09+00:00",
+      "summary": "谷歌DeepMind推出了AlphaGenome Atlas，一个全面的人类基因组图谱，覆盖了90亿个单碱基变异，并为每个变异提供了分子效应预测和AVI评分。该图谱利用深度学习模型，能够预测DNA变异对基因调控和功能的影响，有助于理解遗传疾病和个体差异。研究人员可以通过该数据库快速查询特定变异的潜在致病性，加速精准医学研究。AlphaGenome Atlas的发布是基因组学与AI结合的重要进展，有望推动疾病机制研究和药物靶点发现。",
+      "snark": "90亿个变异？这下生物学家有得忙了，AI先帮他们筛一遍。"
+    },
+    {
+      "id": 7,
+      "cat": "strategy",
+      "title": "Meta推出AI代理Muse，力图在AI竞赛中追赶",
+      "title_en": "Meta bets on AI agent Muse to catch up in AI race",
+      "source": "The Verge AI",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/991216/meta-bets-on-ai-agent-muse-to-catch-up-in-ai-race",
+      "time": "5小时前",
+      "published": "2026-09-08T19:00:00+00:00",
+      "summary": "Meta发布了名为Muse的AI个人助理，旨在将AI带给几乎所有人，这是其数十亿美元战略调整的一部分，以重振在AI竞赛中的不利地位。Muse能够访问用户的电子邮件、日历、支付、健康服务等数据，提供个性化协助。Meta希望通过Muse整合其社交和硬件生态，与OpenAI和谷歌等对手竞争。然而，这一举措也引发了对用户隐私的担忧，因为Muse需要访问大量敏感信息。Meta能否赢得用户信任，将是其AI战略成功的关键。",
+      "snark": "Muse想成为你的私人助理？先问问它能不能帮你清理Facebook广告。",
+      "multiSource": [
+        "The Verge",
+        "The Verge AI"
+      ]
+    },
+    {
+      "id": 8,
+      "cat": "strategy",
+      "title": "Meta发布Muse AI代理，消费者会信任它吗？",
+      "title_en": "Meta debuts its Muse AI agent. Will consumers trust it?",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/09/08/meta-debuts-its-muse-ai-agent-will-consumers-trust-it/",
+      "time": "5小时前",
+      "published": "2026-09-08T19:00:00+00:00",
+      "summary": "Meta的新个人AI代理Muse希望访问用户的电子邮件、日历、支付、健康服务等数据，这成为该公司最大的消费者AI赌注，也是对用户是否仍信任Meta处理数据的一次重大考验。Muse旨在提供跨平台的无缝协助，但Meta在数据隐私方面有过多次争议，用户可能对其收集信息持谨慎态度。TechCrunch分析认为，Muse的成功不仅取决于技术能力，更取决于Meta能否有效沟通数据使用政策并建立透明机制。消费者信任将是决定Muse能否被广泛采用的关键因素。",
+      "snark": "让Meta访问你的健康数据？不如直接公开你的病历。"
+    },
+    {
+      "id": 9,
+      "cat": "policy",
+      "title": "Meta广告被曝推送“一键脱衣”应用，涉及未成年女孩",
+      "title_en": "“This is the AI men actually use”: Meta ads pushed apps nudifying real teens",
+      "source": "Ars Technica",
+      "url": "https://arstechnica.com/tech-policy/2026/09/real-photos-of-young-girls-were-in-nudify-app-ads-on-facebook-instagram/",
+      "time": "5小时前",
+      "published": "2026-09-08T18:43:09+00:00",
+      "summary": "据Ars Technica报道，Meta在Facebook和Instagram上投放了将年轻女孩照片“脱衣”的应用广告，这些应用利用AI技术生成裸体图像。Meta在移除这些广告时行动迟缓，引发了广泛批评。此类应用涉及生成未成年人的不雅内容，可能触犯法律，并造成严重的社会影响。Meta表示将加强广告审核机制，但公众质疑其执行力度。该事件再次凸显了AI技术在伦理和法律方面的挑战，以及社交媒体平台在内容审核上的责任。",
+      "snark": "Meta的AI伦理团队是不是都在忙着调广告算法？"
+    },
+    {
+      "id": 10,
+      "cat": "model",
+      "title": "纽约大学数学家指控OpenAI在纳维-斯托克斯问题上“作弊”",
+      "title_en": "OpenAI fought dirty on career-making math problem, says NYU mathematician",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/09/08/openai-fought-dirty-on-career-making-math-problem-says-nyu-mathematician/",
+      "time": "6小时前",
+      "published": "2026-09-08T17:32:15+00:00",
+      "summary": "针对OpenAI宣称解决纳维-斯托克斯问题，纽约大学一位数学家公开指责OpenAI在竞争过程中采取了不正当手段。该问题悬赏100万美元，是数学界的重大挑战。数学家声称OpenAI可能利用了未公开的数据或计算资源，违反了学术竞争规则。OpenAI尚未回应具体指控，但这一争议可能影响其数学成果的可信度。学界呼吁OpenAI公开完整证明和计算过程，以便独立验证。此次事件也引发了对AI在科学研究中伦理行为的讨论。",
+      "snark": "OpenAI：我们解决了难题！数学家：你作弊！AI：我只是算得快。"
+    },
+    {
+      "id": 11,
+      "cat": "policy",
+      "title": "AI重度用户起诉Anthropic，指控订阅计划误导",
+      "title_en": "AI power users claim Anthropic duped them with subscriptions, and they’re taking it to court",
+      "source": "The Verge AI",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/990313/anthropic-class-action-lawsuit-pricing-subscription-plans",
+      "time": "6小时前",
+      "published": "2026-09-08T17:27:31+00:00",
+      "summary": "Anthropic表示重度用户是其业务关键，甚至为此切断了一些热门应用如OpenClaw的访问。然而，部分重度用户却对Anthropic提起诉讼，声称该公司误导他们订阅高价套餐，实际并未提供承诺的更多功能或服务。原告认为Anthropic的订阅条款模糊，且服务限制未明确告知。这起集体诉讼可能对AI公司的订阅模式产生广泛影响，促使行业更透明地披露服务范围。Anthropic尚未发表正式回应，但案件已引发对AI商业实践的法律审视。",
+      "snark": "Anthropic：重度用户是我们的命根子。用户：那你还坑我们钱？",
+      "multiSource": [
+        "The Verge",
+        "The Verge AI"
+      ]
+    },
+    {
+      "id": 12,
+      "cat": "tool",
+      "title": "GPT-5.6 Sol如何助力量子计算实验",
+      "title_en": "How GPT-5.6 Sol helps run quantum computing experiments",
+      "source": "OpenAI Blog",
+      "url": "https://openai.com/index/codex-quantum-computing-experiments",
+      "time": "7小时前",
+      "published": "2026-09-08T17:00:00+00:00",
+      "summary": "OpenAI博客展示了GPT-5.6 Sol与Codex配合，在量子计算实验中的实际应用。一位MIT研究员利用该模型自主运行量子计算实验、分析结果并校准量子比特。GPT-5.6 Sol能够理解实验目标，生成控制代码，并根据反馈调整参数，显著提高了实验效率。这一案例表明，AI不仅能辅助理论推导，还能在实验物理中发挥积极作用。OpenAI强调，Sol模型在科学计算任务中表现出色，未来有望成为科研人员的智能助手，加速量子计算等前沿领域的研究。",
+      "snark": "AI都开始做量子实验了，你还在调bug？"
+    }
+  ],
+  "stats": {
+    "total": 12,
+    "model_count": 3,
+    "strategy_count": 3,
+    "tool_count": 3,
+    "policy_count": 3
+  }
+}

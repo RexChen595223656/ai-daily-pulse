@@ -1,0 +1,171 @@
+{
+  "date": "2026-11-07",
+  "generated_at": "2026-11-07T08:03:27.902638+08:00",
+  "highlight": "OpenAI估值飙至1.25万亿美元，AI芯片安全与数据中心监管成焦点。",
+  "fun": {
+    "lucky": "OpenAI",
+    "advice": "宜：趁估值高赶紧融资\n忌：让连接器偷偷传数据",
+    "joke": "为什么AI不感冒？因为它没有“病毒”防护。"
+  },
+  "articles": [
+    {
+      "id": 1,
+      "cat": "strategy",
+      "title": "OpenAI估值达1.25万亿美元，竞争对手Anthropic临近IPO",
+      "title_en": "OpenAI valued at $1.25 trillion, as rival Anthropic nears its IPO",
+      "source": "The Verge AI",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/1029380/openai-1-25-trillion-investment-valuation",
+      "time": "17分钟前",
+      "published": "2026-11-06T23:46:18+00:00",
+      "summary": "据彭博社报道，OpenAI在新一轮融资中又筹集了110亿美元，估值达到1.25万亿美元，成为全球最有价值的公司之一。这距离其3月份以8520亿美元估值从投资者手中筹集1220亿美元不久。与此同时，竞争对手Anthropic正接近IPO。OpenAI的估值飙升反映了市场对生成式AI领导者的强烈信心，但也引发了对AI泡沫的担忧。分析人士指出，如此高的估值需要OpenAI在未来几年实现巨大的收入增长，而监管压力和竞争加剧可能带来挑战。",
+      "snark": "估值涨得比模型迭代还快，泡沫还是远见？",
+      "multiSource": [
+        "The Verge",
+        "The Verge AI"
+      ]
+    },
+    {
+      "id": 2,
+      "cat": "policy",
+      "title": "中国被曝招募AI高管监视黄仁勋",
+      "title_en": "China reportedly recruited AI exec to spy on Jensen Huang",
+      "source": "The Verge AI",
+      "url": "https://www.theverge.com/tech/1029338/nvidia-ceo-jensen-huang-china-spy",
+      "time": "1小时前",
+      "published": "2026-11-06T23:00:44+00:00",
+      "summary": "据《纽约时报》报道，中国情报机构招募了Megaspeed高管Alice Huang（黄爱丽丝）来监视英伟达CEO黄仁勋。国家安全部（MSS）招募她获取有关美国AI芯片的信息，并“可能影响该公司推动其最先进的芯片出口”。这一报道凸显了中美在AI芯片领域的紧张关系。英伟达作为全球领先的GPU制造商，其产品对AI发展至关重要，而美国出口限制使中国难以获得最先进芯片。此事件可能进一步加剧两国在科技领域的互不信任。",
+      "snark": "芯片战已经打到CEO身边了，谍战片都不敢这么写。",
+      "multiSource": [
+        "The Verge",
+        "The Verge AI"
+      ]
+    },
+    {
+      "id": 3,
+      "cat": "strategy",
+      "title": "OpenAI据报以1.25万亿美元估值额外融资110亿美元",
+      "title_en": "OpenAI reportedly raises an additional $11 billion at a $1.25 trillion valuation",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/11/06/openai-reportedly-raises-an-additional-11-billion-at-a-1-25-trillion-valuation/",
+      "time": "1小时前",
+      "published": "2026-11-06T22:53:46+00:00",
+      "summary": "据TechCrunch报道，OpenAI在尚未关闭的融资轮中额外筹集了110亿美元，估值达到1.25万亿美元。该融资轮预计将在未来几周内完成。这是继今年3月以8520亿美元估值融资1220亿美元后的又一笔巨额融资。OpenAI的估值持续攀升，反映出投资者对AI领头羊的强烈信心，但也引发了对AI行业泡沫的担忧。资金将用于支持OpenAI在模型研发、算力扩张和产品商业化方面的持续投入。",
+      "snark": "融资轮还没关，估值先飞上天，投资人排队送钱。"
+    },
+    {
+      "id": 4,
+      "cat": "policy",
+      "title": "ChatGPT在连接器间静默传递数据，漏洞赏金要求提供身份证",
+      "title_en": "ChatGPT silently passes data between connectors and the bounty wants an ID card",
+      "source": "Hacker News",
+      "url": "https://community.openai.com/t/security-follow-up-tool-call-silently-routed-to-a-different-connector/1413053",
+      "time": "1小时前",
+      "published": "2026-11-06T22:50:43+00:00",
+      "summary": "OpenAI社区论坛上的一篇安全跟进帖子披露，ChatGPT存在一个安全问题：工具调用被静默路由到不同的连接器，导致数据在用户不知情的情况下在连接器之间传递。发帖者还提到，漏洞赏金计划要求提供身份证件，引发了对隐私的担忧。该问题涉及AI助手在调用外部工具时的安全边界，可能影响用户数据隔离。OpenAI尚未对此作出公开回应。安全研究人员呼吁加强对AI代理工具调用路径的审计和透明度。",
+      "snark": "数据偷偷溜走，赏金还要身份证，这安全做得真“透明”。"
+    },
+    {
+      "id": 5,
+      "cat": "policy",
+      "title": "Chainalysis称黑客窃取了所有客户的凭证和令牌",
+      "title_en": "Chainalysis says hackers stole credentials and tokens for all of its customers",
+      "source": "Ars Technica",
+      "url": "https://arstechnica.com/security/2026/11/chainalysis-says-hackers-stole-credentials-and-tokens-for-all-of-its-customers/",
+      "time": "3小时前",
+      "published": "2026-11-06T20:56:41+00:00",
+      "summary": "区块链分析公司Chainalysis披露，其遭受了一次“多阵线网络攻击”，包括AI代理和路径上的数据窃取，导致所有客户的凭证和令牌被盗。攻击者利用AI代理进行自动化攻击，并在数据传输路径上截获敏感信息。Chainalysis表示正在调查此事并通知受影响客户。这一事件凸显了AI代理在网络安全中的双刃剑作用：既可用于防御，也可被攻击者利用。企业需加强对AI代理的监控和访问控制。",
+      "snark": "用AI攻击区块链公司，这波是“以毒攻毒”失败案例。"
+    },
+    {
+      "id": 6,
+      "cat": "strategy",
+      "title": "AI数据中心最新动态汇总",
+      "title_en": "All the latest updates on AI data centers",
+      "source": "The Verge AI",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/902546/data-centers-ai-energy-power-grids-controversy",
+      "time": "4小时前",
+      "published": "2026-11-06T20:02:22+00:00",
+      "summary": "The Verge汇总了AI数据中心的最新进展。大型数据中心是科技公司AI梦想的物理基础，但仓促建设充满高能耗服务器的仓库也引发了全球范围内关于电网影响、电费、附近社区和环境的争议。各地居民和监管机构对数据中心的扩张表示担忧，部分项目面临阻力。与此同时，科技公司仍在加大投资，以满足AI模型训练和推理的算力需求。数据中心选址、能源供应和社区关系成为AI行业可持续发展的关键议题。",
+      "snark": "数据中心建得比房价还快，电费账单也涨得比工资快。"
+    },
+    {
+      "id": 7,
+      "cat": "tool",
+      "title": "Show HN：代理从源码推断乐高机械结构并制作动画",
+      "title_en": "Show HN: Agents infer Lego mechanisms from sources, then animate them",
+      "source": "Hacker News",
+      "url": "https://github.com/anteloc/ldraw-mecha/tree/v0.5.0",
+      "time": "4小时前",
+      "published": "2026-11-06T19:41:20+00:00",
+      "summary": "开发者发布了LDraw Nova，一个代理工具集，可通过生成LDraw源代码文件来组装乐高CAD模型。基于用户反馈，新版本增加了从源码推断乐高机械结构并为其制作动画的功能。该工具利用AI代理理解乐高积木的机械连接关系，自动生成可交互的动画演示。这展示了AI在创意设计和教育领域的应用潜力，让非专业用户也能通过自然语言或简单输入创建复杂的乐高机械模型。项目已在GitHub开源。",
+      "snark": "AI拼乐高还做动画，下一步是不是要帮你写作业了？"
+    },
+    {
+      "id": 8,
+      "cat": "policy",
+      "title": "数百个Artex AI黑客工具公开暴露在互联网上",
+      "title_en": "Hundreds of Artex AI hacking tools found publicly exposed to the web",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/11/06/hundreds-of-artex-ai-hacking-tools-found-publicly-exposed-to-the-web/",
+      "time": "5小时前",
+      "published": "2026-11-06T18:44:38+00:00",
+      "summary": "安全研究人员发现数百个托管Artex渗透测试工具的服务器暴露在互联网上，任何人都可以访问该黑客工具。Artex是一款AI驱动的渗透测试工具，本应用于安全评估，但公开暴露可能导致恶意使用。这一发现引发了对AI安全工具管理和访问控制的担忧。研究人员建议组织应立即检查其部署的AI安全工具，确保未授权访问被阻止，并加强身份验证和网络隔离措施。",
+      "snark": "黑客工具自己先被黑了，这安全课得重修。"
+    },
+    {
+      "id": 9,
+      "cat": "tool",
+      "title": "Meta推出Spaces，与Muse代理协作新方式",
+      "title_en": "Meta introduces Spaces, a new way to collaborate with your Muse agent",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/11/06/meta-introduces-spaces-a-new-way-to-collaborate-with-your-muse-agent/",
+      "time": "5小时前",
+      "published": "2026-11-06T18:44:20+00:00",
+      "summary": "Meta为其Muse AI代理推出了名为Spaces的新功能，提供与AI助手交互的新方式。Spaces允许用户构建定制化的、类似应用的体验，例如购物中心、学校仪表盘、音乐追踪器、问答游戏等，并可直接在Muse应用中交互。Meta表示，用户可以根据当前需求创建不同版本的“空间”。这标志着AI助手从单一对话界面向可定制、多场景的代理平台演进，旨在提升用户参与度和实用性。",
+      "snark": "Meta的AI助手开始搞“空间站”，但用户可能只想要个不卡顿的聊天框。"
+    },
+    {
+      "id": 10,
+      "cat": "tool",
+      "title": "Meta的Muse AI可为当前需求创建定制“空间”",
+      "title_en": "Meta&#8217;s Muse AI can create custom &#8216;spaces&#8217; for the version of the app you need right now",
+      "source": "The Verge AI",
+      "url": "https://www.theverge.com/tech/1028871/meta-muse-ai-spaces",
+      "time": "5小时前",
+      "published": "2026-11-06T18:10:10+00:00",
+      "summary": "Meta宣布允许用户在Muse中构建定制化的、类似应用的体验。新功能“空间”让AI助手能够创建购物中心、学校仪表盘、音乐追踪器、问答游戏等，用户可直接在Muse应用中交互。Meta表示，用户可以根据当前需求创建不同版本的空间。这标志着AI助手从通用对话向场景化、个性化代理平台的转变，旨在让AI更深度地融入日常任务和娱乐。该功能可能加剧与OpenAI、谷歌等竞争对手在AI助手生态上的竞争。",
+      "snark": "AI帮你建“空间”，但你的隐私可能也在里面裸奔。"
+    },
+    {
+      "id": 11,
+      "cat": "policy",
+      "title": "蓝色浪潮中期选举可能重塑AI行业",
+      "title_en": "How a Blue Wave midterm might reshape the AI industry",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/podcast/how-a-blue-wave-midterm-might-reshape-the-ai-industry/",
+      "time": "6小时前",
+      "published": "2026-11-06T18:00:00+00:00",
+      "summary": "TechCrunch播客讨论美国中期选举中民主党的历史性胜利可能如何改变科技行业。周二选民对41项数据中心相关 ballot measures 进行了投票，除一项外，多数投票赞成对数据中心开发施加更多限制。即使数据中心项目获得批准，也面临更严格的审查。这一趋势可能影响AI基础设施的扩张速度，增加科技公司的合规成本，并推动行业向更可持续的能源方案转型。政策变化可能重塑AI行业的竞争格局。",
+      "snark": "数据中心想扩建？先过选民这一关，AI也得看脸色。"
+    },
+    {
+      "id": 12,
+      "cat": "model",
+      "title": "Zyphra ZYFA：面向AMD MI355X的FP8 FlashAttention，速度提升最高1.76倍",
+      "title_en": "Zyphra ZYFA: FP8 FlashAttention for AMD MI355X, Up to 1.76x Faster",
+      "source": "MarkTechPost",
+      "url": "https://www.marktechpost.com/2026/11/06/zyphra-zyfa-fp8-flashattention-amd-mi355x/",
+      "time": "6小时前",
+      "published": "2026-11-06T17:28:04+00:00",
+      "summary": "Zyphra发布了ZYFA，这是面向AMD Instinct MI355X的开源FP8和BF16预填充注意力内核。在真实模型激活上，其FP8内核比AMD的AITER快1.16至1.76倍，在头维度128时误差降低62%至78%。该内核针对AMD GPU优化，旨在提升大模型推理效率。ZYFA的开源发布为AMD生态提供了高性能注意力实现，有助于降低对英伟达CUDA生态的依赖，推动AI硬件多元化。",
+      "snark": "AMD显卡终于有像样的注意力内核了，英伟达别太得意。"
+    }
+  ],
+  "stats": {
+    "total": 12,
+    "model_count": 1,
+    "strategy_count": 3,
+    "tool_count": 3,
+    "policy_count": 5
+  }
+}

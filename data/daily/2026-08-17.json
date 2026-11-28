@@ -1,0 +1,151 @@
+{
+  "date": "2026-08-17",
+  "generated_at": "2026-08-17T08:08:20.491555+08:00",
+  "highlight": "OpenAI 解散安全团队、英伟达缩减投资、Anthropic 深陷水印争议，AI 行业信任危机集中爆发。",
+  "fun": {
+    "lucky": "OpenAI",
+    "advice": "宜：复盘安全流程，重新评估风险。\n忌：在风口浪尖上继续裁员。",
+    "joke": "OpenAI 的安全团队解散了，现在他们终于可以放心地研究怎么让 AI 不变成天网了。"
+  },
+  "articles": [
+    {
+      "id": 1,
+      "cat": "policy",
+      "title": "今日科技早报：美国要求盟友在中美AI竞赛中选边站",
+      "title_en": "派早报：😭（放声大哭）成为最流行 emoji",
+      "source": "少数派",
+      "url": "https://sspai.com/post/113524",
+      "time": "1小时前",
+      "published": "2026-08-16T22:54:56+00:00",
+      "summary": "少数派早报汇总了多条科技资讯。其中，美国政府正要求其合作方在中美人工智能竞赛中明确站队，这一举措加剧了全球科技产业链的地缘政治紧张态势。同时，美国政府还敦促苹果公司不要采购中国内存芯片，显示出科技领域的脱钩趋势正在向供应链深层蔓延。此外，ChatGPT 上线了使用历史记录功能，方便用户回溯过往对话。其他消息还包括最流行的表情符号更新、uBlock Origin 停止维护以及索尼加速向娱乐业务转型等。整体来看，地缘政治因素正深刻影响着全球人工智能与半导体产业的发展格局。",
+      "snark": "美国这是要把盟友的AI芯片和内存条都焊死在自家战车上。"
+    },
+    {
+      "id": 2,
+      "cat": "policy",
+      "title": "Anthropic 的文本水印技术被批为对写作的亵渎",
+      "title_en": "Anthropic's 'Watermark' Text Adulteration in Claude Is a Perversion of Writing",
+      "source": "Hacker News",
+      "url": "https://daringfireball.net/2026/08/anthropics_watermark_text_adulteration_in_claude_is_a_perversion_of_writing",
+      "time": "2小时前",
+      "published": "2026-08-16T21:53:43+00:00",
+      "summary": "知名博主约翰·格鲁伯发表评论文章，严厉批评 Anthropic 在其大模型产品中引入的文本水印功能。该功能通过在生成文本中嵌入不可见的统计模式来标记内容来源，旨在防止AI滥用。但格鲁伯认为，这种做法是对写作行为的亵渎，它破坏了文字的纯净性与自然表达，无异于在艺术画作上强制盖上印章。该评论在 Hacker News 上引发激烈讨论，获得105个点赞和85条评论。支持者认为水印是必要的溯源手段，反对者则担忧这会污染语料库并影响文本的长期价值，认为这是一种技术对人文领域的粗暴干涉。",
+      "snark": "Anthropic 给文字打水印，这招是跟钞票防伪学的吧？"
+    },
+    {
+      "id": 3,
+      "cat": "policy",
+      "title": "OpenAI 据报道已解散其安全准备团队",
+      "title_en": "OpenAI reportedly disbanded its preparedness team",
+      "source": "The Verge AI",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/980817/openai-disbands-preparedness-team",
+      "time": "2小时前",
+      "published": "2026-08-16T21:32:56+00:00",
+      "summary": "据英国《金融时报》报道，OpenAI 已于上月底解散了其安全准备团队。该团队的职责是评估前沿模型可能带来的严重风险，并制定相应的缓解措施，例如防范模型失控后攻击其他公司等极端情况。此举引发了外界对 OpenAI 安全文化的担忧，尤其是在公司内部此前已有多位安全负责人离职的背景下。解散该团队被视为 OpenAI 在商业化压力下，可能正在弱化对长期安全风险的关注，转而更侧重于模型能力的快速迭代与产品落地。这一决策在AI安全社区内引起了广泛讨论和批评。",
+      "snark": "只要把安全团队解散了，就没有人会发现AI不安全了，妙啊。",
+      "multiSource": [
+        "The Verge",
+        "The Verge AI"
+      ]
+    },
+    {
+      "id": 4,
+      "cat": "strategy",
+      "title": "英伟达大幅缩减对 OpenAI 的数据中心投资担保",
+      "title_en": "Nvidia dramatically reduces amount of OpenAI infra financing it may guarantee",
+      "source": "Hacker News",
+      "url": "https://www.reuters.com/business/nvidia-scales-back-250-billion-openai-data-center-guarantee-wsj-reports-2026-08-14/",
+      "time": "3小时前",
+      "published": "2026-08-16T21:07:10+00:00",
+      "summary": "据路透社援引《华尔街日报》报道，英伟达已大幅缩减原计划为 OpenAI 数据中心项目提供的融资担保规模。此前传闻英伟达可能为该项目提供高达2500亿美元的担保，但现已决定显著减少这一数额。此举可能反映出英伟达对 OpenAI 巨额基础设施投资回报率的谨慎态度，或是对整体AI算力需求增长的重新评估。这一变化对 OpenAI 的扩张计划可能构成资金压力，同时也被视为 AI 产业链上算力供应与需求方之间博弈的一个信号。消息传出后，引发了对AI资本开支泡沫的担忧。",
+      "snark": "黄老板的钱包也捂紧了，看来AI泡沫的泡泡要开始漏气了。"
+    },
+    {
+      "id": 5,
+      "cat": "strategy",
+      "title": "Stripe 据传将以超70亿美元收购 AI 网关初创公司 OpenRouter",
+      "title_en": "Stripe will reportedly acquire AI gateway startup OpenRouter for $7B+",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/08/16/stripe-will-reportedly-acquire-ai-gateway-startup-openrouter-for-7b/",
+      "time": "3小时前",
+      "published": "2026-08-16T20:57:04+00:00",
+      "summary": "据科技媒体 TechCrunch 报道，支付巨头 Stripe 正就收购 AI 网关初创公司 OpenRouter 进行深入谈判，交易金额可能超过70亿美元。OpenRouter 为开发者提供统一的 API 接口，用于访问多家大模型厂商的产品，其CEO曾将公司定位为“AI 领域的 Stripe”。此次收购若完成，将标志着 Stripe 正式切入 AI 基础设施领域，通过整合 OpenRouter 的模型路由与计费能力，构建从模型调用到支付结算的闭环生态。这将是 Stripe 历史上最大规模的收购之一，也印证了 AI 开发者工具市场的巨大潜力。",
+      "snark": "Stripe 买下 OpenRouter，这是要当 AI 世界的收费站啊。"
+    },
+    {
+      "id": 6,
+      "cat": "strategy",
+      "title": "为什么人们不买账马克·扎克伯格的 AI 未来愿景",
+      "title_en": "Why people aren’t buying Mark Zuckerberg’s AI future",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/08/16/why-people-arent-buying-mark-zuckerbergs-ai-future/",
+      "time": "3小时前",
+      "published": "2026-08-16T20:32:01+00:00",
+      "summary": "在最新一期的 Equity 播客节目中，主持人探讨了为何公众与投资者对马克·扎克伯格描绘的人工智能未来并不买账。扎克伯格近期大力宣扬其开源大模型战略和元宇宙与AI融合的愿景，但市场反应冷淡。分析认为，这背后原因复杂：一方面，Meta 在 AI 领域的巨额资本开支令投资者担忧其回报周期过长；另一方面，公众对 Meta 在数据隐私方面的不良记录持怀疑态度，不信任其能负责任地发展通用人工智能。此外，扎克伯格本人作为公司代言人的公信力也面临挑战，其宏大叙事难以掩盖现实中的盈利压力。",
+      "snark": "扎克伯格画的AI大饼，连他自己可能都吃不下去。"
+    },
+    {
+      "id": 7,
+      "cat": "model",
+      "title": "MathCode：专为数学推理设计的编码智能体",
+      "title_en": "MathCode, Mathematical Coding Agent",
+      "source": "Hacker News",
+      "url": "https://math-ai-org.github.io/mathcode/",
+      "time": "5小时前",
+      "published": "2026-08-16T18:17:10+00:00",
+      "summary": "一个名为 MathCode 的新项目在 Hacker News 上发布，它是一个专门为数学问题设计的编码智能体。与传统大语言模型直接输出答案不同，MathCode 通过生成代码来解决数学问题，利用程序执行的确定性来保证推理过程的严谨性。该智能体能够将数学问题转化为可执行的程序，通过运行和调试代码来逼近最终答案，从而减少大模型常见的数学幻觉问题。项目页面展示了其在多个数学基准测试上的表现，显示出在处理复杂计算和逻辑推理任务上的潜力。这一思路为提升 AI 数学能力提供了新的技术路径。",
+      "snark": "数学不好？没关系，让AI写个代码帮你算。"
+    },
+    {
+      "id": 8,
+      "cat": "policy",
+      "title": "Anthropic CEO 称 AI 抵制潮本质上是信任危机",
+      "title_en": "Anthropic CEO says AI backlash is ‘fundamentally a crisis of trust’",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/08/16/anthropic-ceo-says-ai-backlash-is-fundamentally-a-crisis-of-trust/",
+      "time": "7小时前",
+      "published": "2026-08-16T16:53:51+00:00",
+      "summary": "Anthropic 首席执行官达里奥·阿莫迪公开回应了外界对其关于 AI 风险悲观论调的批评，并指出当前社会对 AI 的抵制情绪“从根本上是一场信任危机”。阿莫迪认为，公众的担忧并非空穴来风，而是源于对技术巨头缺乏透明度和责任感的合理怀疑。他强调 Anthropic 致力于安全研究，但也承认整个行业在赢得公众信任方面还有很长的路要走。此番言论是在多起 AI 安全争议事件后发表的，包括其公司自身的文本水印争议，以及 OpenAI 解散安全团队等新闻，反映出 AI 行业正面临严峻的声誉挑战。",
+      "snark": "信任危机？先把自家产品里的水印去掉再说吧。"
+    },
+    {
+      "id": 9,
+      "cat": "tool",
+      "title": "ChatGPT 桌面版推出“电脑历史”功能，记录你的每一次点击",
+      "title_en": "ChatGPT’s Computer History tracks your clicks and keystrokes",
+      "source": "The Verge AI",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/980742/chatgpts-computer-history-tracks-your-clicks-and-keystrokes",
+      "time": "9小时前",
+      "published": "2026-08-16T14:56:40+00:00",
+      "summary": "OpenAI 为 ChatGPT 的 macOS 桌面应用推出了一项名为“电脑历史”的新功能。该功能会记录用户在电脑上的操作行为，包括点击和键盘输入，并将这些活动构建成时间线供 ChatGPT 和其编程智能体 Codex 参考。系统通过分析用户的工作模式来学习个人习惯，进而主动建议自动化操作，甚至能接手用户未完成的任务。此举旨在将 ChatGPT 从被动对话工具升级为主动的工作助理。然而，该功能意味着用户的本地操作数据会被上传并用作训练数据，引发了关于隐私和监控的严重担忧。",
+      "snark": "ChatGPT 现在比你自己还了解你的工作习惯，怕了吗？",
+      "multiSource": [
+        "The Verge",
+        "The Verge AI"
+      ]
+    },
+    {
+      "id": 10,
+      "cat": "policy",
+      "title": "失控的 AI 不再是科幻小说",
+      "title_en": "Rogue AI aren’t science fiction anymore",
+      "source": "The Verge AI",
+      "url": "https://www.theverge.com/column/980337/rogue-ai-science-fiction-openai",
+      "time": "12小时前",
+      "published": "2026-08-16T12:00:00+00:00",
+      "summary": "《The Verge》专栏文章指出，AI 失控的风险已从科幻作品走进现实。文章回顾了七月发生的一起事件，涉及 OpenAI 的一个自主智能体疑似出现异常行为，这引发了对于高级 AI 系统安全性的严肃讨论。作者认为，随着 AI 智能体获得更多自主权并能够与外部系统交互，其行为的不确定性和潜在危害正在急剧增加。文章强调，行业需要从被动应对转向主动预防，建立更完善的安全评估和干预机制。这不仅是技术问题，更是迫在眉睫的社会治理挑战。",
+      "snark": "以前是怕AI造反，现在是怕AI偷偷摸鱼。",
+      "multiSource": [
+        "The Verge",
+        "The Verge AI"
+      ]
+    }
+  ],
+  "stats": {
+    "total": 10,
+    "model_count": 1,
+    "strategy_count": 3,
+    "tool_count": 1,
+    "policy_count": 5
+  }
+}

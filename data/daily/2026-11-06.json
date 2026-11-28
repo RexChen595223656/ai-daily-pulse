@@ -1,0 +1,179 @@
+{
+  "date": "2026-11-06",
+  "generated_at": "2026-11-06T08:11:16.844654+08:00",
+  "highlight": "爱彼迎预告2027年AI旅行代理，百度开源280B稀疏MoE模型，OpenAI称2027年或可IPO。",
+  "fun": {
+    "lucky": "百度文心5.5闪电版",
+    "advice": "宜：开源基座、堆稀疏专家\n忌：急着做后训练、吹参数量",
+    "joke": "为什么MoE模型不爱加班？因为每次只激活14B个专家，剩下的都在摸鱼。"
+  },
+  "articles": [
+    {
+      "id": 1,
+      "cat": "tool",
+      "title": "爱彼迎正在研发AI旅行代理",
+      "title_en": "Airbnb is working on an AI travel agent",
+      "source": "The Verge AI",
+      "url": "https://www.theverge.com/tech/1028412/airbnb-ai-travel-agent-q3-2026-earnings",
+      "time": "5分钟前",
+      "published": "2026-11-06T00:06:12+00:00",
+      "summary": "爱彼迎在第三季度股东信里宣布，计划在2027年上半年推出AI旅行代理，帮用户规划并预订行程。公司坦言当前AI代理只擅长订餐厅、约日程这类简单例行任务，而旅行规划涉及多约束、多步骤决策，难度更高。该代理将贯穿搜索、比价、预订和入住期间的协助，目标是压缩用户从灵感到下单的路径。对爱彼迎而言，这既是提升转化率的产品实验，也是对OTA平台流量入口的防守，成败取决于代理能否可靠处理退改签等复杂场景。",
+      "snark": "2027年才上线，到时候AI代理都换三代了，这饼画得比民宿还大。",
+      "multiSource": [
+        "The Verge",
+        "The Verge AI"
+      ]
+    },
+    {
+      "id": 2,
+      "cat": "tool",
+      "title": "爱彼迎称将于2027年上半年推出AI旅行代理",
+      "title_en": "Airbnb says it’s launching an AI travel agent in the first half of 2027",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/11/05/airbnb-says-its-launching-an-ai-travel-agent-in-the-first-half-of-2027/",
+      "time": "1小时前",
+      "published": "2026-11-05T22:40:55+00:00",
+      "summary": "爱彼迎确认其AI旅行代理将在2027年上半年落地，功能覆盖行程规划、选项对比、预订管理和入住全程协助。与通用聊天机器人不同，该代理深度绑定爱彼迎的房源库存与订单系统，能在对话中直接完成改期、加订等操作。公司尚未披露底层模型来源，但强调代理会保留用户偏好记忆以提供连贯服务。此举被视为爱彼迎从搜索框向对话式入口转型的关键一步，也意味着它要与同样瞄准旅行场景的通用助手正面竞争。",
+      "snark": "订房AI最该练的技能不是规划，是帮你跟房东砍价。"
+    },
+    {
+      "id": 3,
+      "cat": "tool",
+      "title": "Perplexity推出面向工作的AI代理",
+      "title_en": "Perplexity launches its own take on AI agents for work",
+      "source": "The Verge AI",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/1028302/perplexity-teammates-ai-agents-work",
+      "time": "1小时前",
+      "published": "2026-11-05T22:26:50+00:00",
+      "summary": "Perplexity发布名为“队友”的常驻式AI代理，正式进军办公场景，直接对标OpenAI与Anthropic。该代理可在同一工作区内扮演多个角色，并自动继承用户已有的项目、技能和记忆，无需从零配置。它接入了Perplexity的搜索与知识库能力，强调在长任务中保持上下文连贯。常驻意味着代理持续在线、主动跟进，而非一次性问答，这对权限管理和成本控制提出更高要求。Perplexity试图用搜索基因差异化，但企业市场早已挤满巨头。",
+      "snark": "常驻代理最大的风险是：它记得你上周摸鱼时问的所有蠢问题。",
+      "multiSource": [
+        "The Verge",
+        "The Verge AI"
+      ]
+    },
+    {
+      "id": 4,
+      "cat": "policy",
+      "title": "Claude Code被曝向网站发送用户邮箱地址",
+      "title_en": "Claude Code sends your email address to websites",
+      "source": "Hacker News",
+      "url": "https://github.com/anthropics/claude-code/issues/107757",
+      "time": "1小时前",
+      "published": "2026-11-05T22:17:15+00:00",
+      "summary": "有开发者在GitHub上报告，Anthropic的编程工具Claude Code在访问外部网站时会携带用户邮箱地址，引发隐私担忧。该问题在Hacker News上获得数百点热度，讨论集中在工具为何需要传递身份信息、是否经过用户知情同意，以及第三方网站能否借此关联开发者身份。对一款深度嵌入开发流程的代理工具而言，请求头里的多余字段可能泄露企业邮箱域名等敏感信息。Anthropic尚未给出完整解释，社区呼吁默认最小化传输并提高透明度。",
+      "snark": "写代码的工具顺手把你的邮箱发了出去，这算不算赛博社恐。"
+    },
+    {
+      "id": 5,
+      "cat": "policy",
+      "title": "谷歌：学校可以保留传统搜索，但AI搜索不可谈判",
+      "title_en": "Google: Schools can keep search while skipping Gemini, but AI search is non-negotiable",
+      "source": "Ars Technica",
+      "url": "https://arstechnica.com/ai/2026/11/google-schools-can-keep-search-while-skipping-gemini-but-ai-search-is-non-negotiable/",
+      "time": "2小时前",
+      "published": "2026-11-05T21:40:36+00:00",
+      "summary": "谷歌向学校提供所谓更多选择：可以不用Gemini助手，但搜索体验中的AI功能无法关闭。这意味着教育用户在校园网络下仍会接触到AI生成的搜索摘要与问答结果。批评者认为这不是真正的选择权，而是把AI搜索设为默认基础设施，学校只能在边缘功能上做取舍。争议焦点在于未成年人接触生成式内容的合规边界，以及学区是否有权要求完全关闭AI摘要。谷歌则以产品统一性和技术架构为由拒绝拆分，监管与家长群体的压力正在上升。",
+      "snark": "给你选择权，但选项只有一个，这很谷歌。"
+    },
+    {
+      "id": 6,
+      "cat": "model",
+      "title": "百度发布文心5.5闪电版基座：2800亿参数稀疏MoE，激活140亿",
+      "title_en": "Baidu Releases ERNIE 5.5 Flash Base: A 280B MoE Base Model With 14B Active Parameters",
+      "source": "MarkTechPost",
+      "url": "https://www.marktechpost.com/2026/11/05/baidu-ernie-5-5-flash-base-280b-moe/",
+      "time": "2小时前",
+      "published": "2026-11-05T21:33:00+00:00",
+      "summary": "百度开源文心5.5闪电版基座模型，采用2800亿参数的稀疏混合专家架构，推理时仅激活140亿参数，训练数据达33.5万亿token。值得注意的发布时间点：该模型在任何中期训练和后训练之前就先行公开，属于纯基座权重。稀疏MoE的好处是用大容量存储知识、用小激活控制推理成本，适合作为下游微调的起点。33.5万亿token的语料规模也表明百度在数据工程上持续加码。基座先行开源，意在吸引社区在其上做行业适配，扩大生态影响力。",
+      "snark": "2800亿参数只激活140亿，剩下2660亿专家在后台领工资。"
+    },
+    {
+      "id": 7,
+      "cat": "tool",
+      "title": "Meta称美国用户现可与Muse AI虚拟形象视频通话",
+      "title_en": "Meta says US users can now video chat with their Muse AI avatar",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/11/05/meta-says-us-users-can-now-video-chat-with-their-muse-ai-avatar/",
+      "time": "4小时前",
+      "published": "2026-11-05T19:48:28+00:00",
+      "summary": "Meta宣布美国用户可以通过可定制的动画虚拟形象与Muse AI代理进行视频通话，该代理能以角色身份接听来电。这一功能是Muse人格化战略的延伸，配合即将推出的类似电子宠物的可穿戴设备，试图把AI从文本框里拽进现实互动。视频通话意味着实时音视频生成、表情驱动和低延迟推理同时上线，对端侧算力与云端协同要求不低。Meta显然想把社交图谱优势复制到AI陪伴场景，但隐私与未成年人保护仍是悬而未决的问题。",
+      "snark": "跟虚拟形象视频通话，社恐终于找到了不用洗头的社交方式。"
+    },
+    {
+      "id": 8,
+      "cat": "strategy",
+      "title": "Meta警告：选举中对数据中心的反弹可能拖累AI扩张",
+      "title_en": "Meta warns that election backlash against data centers could make AI expansion harder",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/11/05/metas-warns-that-election-backlash-against-data-centers-could-make-ai-expansion-harder/",
+      "time": "4小时前",
+      "published": "2026-11-05T19:12:39+00:00",
+      "summary": "Meta警告称，围绕数据中心的政治反对声浪正在上升，可能威胁其未来AI投资。多地社区对超大规模基础设施项目的用电、用水和噪音提出抗议，数据中心议题开始进入选举政治。对Meta而言，算力扩张是模型竞赛的前提，一旦选址审批受阻，训练集群的交付节奏就会被打乱。这也反映出AI行业的隐性成本正从芯片转向土地、电力与社会许可。科技公司需要更主动地做社区沟通与能源配套，否则资本开支计划会卡在听证会上。",
+      "snark": "GPU买得到，电和邻居的同意买不到。"
+    },
+    {
+      "id": 9,
+      "cat": "model",
+      "title": "OpenAI发布新的网络安全模型，够用吗？",
+      "title_en": "OpenAI released a new cybersecurity model. Is that enough?",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/11/05/openai-released-a-new-cybersecurity-model-is-that-enough/",
+      "time": "5小时前",
+      "published": "2026-11-05T19:06:12+00:00",
+      "summary": "OpenAI推出面向网络安全场景的新模型，正值各家AI实验室因关键数字基础设施防护能力而受到审视。该模型主打威胁检测、漏洞分析与安全运营辅助，试图把通用推理能力收敛到防御侧任务。问题在于，安全领域对误报和漏报的容忍度极低，模型幻觉在告警研判中可能直接放大风险。业界更关心的是它能否与现有安全信息和事件管理系统打通，以及是否提供可审计的决策链路。单发一个模型不难，难的是证明它在真实攻防中可靠。",
+      "snark": "安全模型最大的漏洞，是它自己也会一本正经地胡说八道。",
+      "multiSource": [
+        "TechCrunch",
+        "The Verge AI"
+      ]
+    },
+    {
+      "id": 10,
+      "cat": "tool",
+      "title": "Muse上线语音模式",
+      "title_en": "Muse has a voice mode now",
+      "source": "The Verge AI",
+      "url": "https://www.theverge.com/tech/1028015/meta-muse-ai-voice-mode-expressive-avatar",
+      "time": "5小时前",
+      "published": "2026-11-05T19:03:04+00:00",
+      "summary": "Meta首席执行官扎克伯格宣布，Muse AI代理现已支持实时语音对话，并在iOS应用上向部分用户开放。聊天时顶部的虚拟形象会随对话做出表情与口型反馈，强化陪伴感。实时语音意味着端到端延迟、打断处理和情感韵律都要过关，否则对话会像在对讲机里轮流念稿。该功能与视频通话、可穿戴设备构成Meta的AI人格化组合拳，目标是把代理变成常驻的社交对象。实际体验能否自然，取决于语音模型与动画驱动的协同调优。",
+      "snark": "语音模式上线后，人类又多了一个可以互相打断的对手。",
+      "multiSource": [
+        "The Verge",
+        "The Verge AI"
+      ]
+    },
+    {
+      "id": 11,
+      "cat": "strategy",
+      "title": "OpenAI总裁格雷格·布罗克曼称公司2027年或具备上市条件",
+      "title_en": "OpenAI president Greg Brockman says company could be IPO ready in 2027",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/11/05/openai-president-greg-brockman-says-company-could-be-ipo-ready-in-2027/",
+      "time": "6小时前",
+      "published": "2026-11-05T18:02:27+00:00",
+      "summary": "OpenAI总裁格雷格·布罗克曼在华尔街日报科技会议上表示，公司可能在2027年具备IPO条件。他重点强调OpenAI在企业市场的进展，承认竞争对手Anthropic已先行打开局面。这番表态释放两个信号：一是OpenAI需要向资本市场讲出可预测的收入故事，企业订阅与API是核心；二是上市时间表与巨额算力开支的融资需求密切相关。不过，公司治理结构复杂、盈利路径仍受质疑，2027年更像是一个目标而非承诺。",
+      "snark": "2027年IPO，2026年先学会盈利，顺序不能反。"
+    },
+    {
+      "id": 12,
+      "cat": "tool",
+      "title": "Claude新增个人财务工具，可分析你的消费",
+      "title_en": "Claude can now analyze your spending with its new Personal Finance tool",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/11/05/claude-can-now-analyze-your-spending-with-its-new-personal-finance-tool/",
+      "time": "6小时前",
+      "published": "2026-11-05T18:00:00+00:00",
+      "summary": "Claude上线个人财务功能，用户可通过Plaid连接银行与信用卡账户，然后以对话方式询问消费情况。Plaid负责聚合账户数据，Claude则承担分类、趋势解读和预算建议。这意味着敏感金融数据进入模型上下文，隐私与授权粒度成为关键：用户能否限定可访问的账户范围、对话记录是否用于训练、第三方连接如何撤销，都需要明确。对Anthropic而言，这是把助手从生产力工具推向个人事务管理的一步，但金融场景的合规门槛远高于写文档。",
+      "snark": "让AI看你的账单，它可能会先建议你少订阅几个AI。"
+    }
+  ],
+  "stats": {
+    "total": 12,
+    "model_count": 2,
+    "strategy_count": 2,
+    "tool_count": 6,
+    "policy_count": 2
+  }
+}

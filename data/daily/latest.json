@@ -1,0 +1,55 @@
+{
+  "date": "2026-11-28",
+  "generated_at": "2026-11-28T16:42:29.500839+08:00",
+  "highlight": "苹果M5 MacBook Air黑五降价300美元创最低价，安卓DIY小部件让用户用自然语言生成桌面组件。",
+  "fun": {
+    "lucky": "M5 MacBook Air",
+    "advice": "宜：趁黑五抄底换机跑本地模型\n忌：在16GB内存上开太多浏览器标签",
+    "joke": "为什么AI程序员不怕失业？因为老板的bug它都改不完。"
+  },
+  "articles": [
+    {
+      "id": 1,
+      "cat": "strategy",
+      "title": "M5 MacBook Air迎来自苹果涨价以来最大折扣",
+      "title_en": "The M5 MacBook Air just got its biggest discount since Apple raised the price",
+      "source": "The Verge",
+      "url": "https://www.theverge.com/gadgets/1044771/m5-macbook-air-black-friday-2026-deal-sale",
+      "time": "5小时前",
+      "published": "2026-11-28T03:30:00+00:00",
+      "summary": "苹果今年6月将MacBook Air售价上调200美元后，13英寸M5 MacBook Air终于在黑五迎来大幅降价。亚马逊和百思买同步促销，16GB内存加512GB存储版本起售价999美元，直降300美元，创下该机型的历史最低价。对于一直观望的消费者来说，这是入手的好时机。M5芯片在能效比上进一步提升，配合16GB统一内存，能够流畅运行本地AI推理任务，对开发者而言性价比突出。此次降价也反映出苹果在高端轻薄本市场面临竞争压力，试图通过节日促销刺激销量。",
+      "snark": "苹果涨价时理直气壮，黑五打折时也毫不手软，果粉的钱包永远在过山车。"
+    },
+    {
+      "id": 2,
+      "cat": "tool",
+      "title": "SessionGraph：用一个交互式图表可视化所有编程智能体会话",
+      "title_en": "SessionGraph: Visualize all your coding agent sessions in one interactive graph",
+      "source": "Hacker News",
+      "url": "https://sessiongraph.ai/",
+      "time": "11小时前",
+      "published": "2026-11-27T21:07:34+00:00",
+      "summary": "SessionGraph是一款面向开发者的新工具，能将编程智能体的所有会话记录整合到一张交互式图表中。开发者使用Claude Code、Cursor等智能体编程时，往往会产生大量分散的会话历史，难以追溯和对比。该工具通过可视化方式展示会话之间的调用关系、时间线和上下文流转，帮助开发者快速定位问题、复盘调试过程。它支持在单一视图中浏览多个智能体的交互路径，让复杂的多轮编程任务变得一目了然。该产品在Hacker News上获得50点热度，说明开发者对智能体会话管理工具存在真实需求。",
+      "snark": "以前debug靠print，现在debug靠看智能体画的关系图，程序员终于活成了项目经理。"
+    },
+    {
+      "id": 3,
+      "cat": "tool",
+      "title": "安卓的DIY小部件：一场氛围编程的小乐趣",
+      "title_en": "Android’s DIY widgets are a bit of vibe-coding fun",
+      "source": "The Verge AI",
+      "url": "https://www.theverge.com/tech/1041801/android-intelligence-create-my-widget-gemini",
+      "time": "18小时前",
+      "published": "2026-11-27T14:00:00+00:00",
+      "summary": "安卓系统推出了一项DIY小部件功能，用户可以通过自然语言描述需求，让AI直接生成桌面小部件。The Verge编辑实测用该功能制作了一个实时公交到站提醒小部件，只需告诉Gemini想要什么，系统便自动生成对应的组件，无需编写代码。这种“氛围编程”方式降低了普通用户创建个性化工具的门槛，把AI从聊天框里解放出来，变成能实际干活的桌面助手。该功能依托安卓智能平台和Gemini模型，展示了AI在移动端应用落地的新方向，也让非技术用户能享受编程的乐趣。",
+      "snark": "氛围编程的尽头是：你跟手机说想要个公交提醒，它给你生成一个广告小部件。"
+    }
+  ],
+  "stats": {
+    "total": 3,
+    "model_count": 0,
+    "strategy_count": 1,
+    "tool_count": 2,
+    "policy_count": 0
+  }
+}

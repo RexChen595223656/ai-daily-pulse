@@ -1,0 +1,171 @@
+{
+  "date": "2026-11-19",
+  "generated_at": "2026-11-19T08:02:11.592446+08:00",
+  "highlight": "Anthropic天价IPO与英伟达CEO离场震动行业，Gemini 4 Neon发布，AI安全警报频传。",
+  "fun": {
+    "lucky": "Gemini 4 Neon",
+    "advice": "宜：抢首发跑分；忌：问它会不会取代你。",
+    "joke": "为什么AI不怕裁员？因为它随时可以‘重新训练’。"
+  },
+  "articles": [
+    {
+      "id": 1,
+      "cat": "policy",
+      "title": "纳德拉：大量关键基础设施‘无法打补丁’，AI网络攻击令人担忧",
+      "title_en": "Amidst fears of AI-cyberattacks, Satya Nadella says lots of critical infrastructure is ‘unpatchable’",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/11/18/amidst-fears-of-ai-cyberattacks-satya-nadella-says-lots-of-critical-infrastructure-is-unpatchable/",
+      "time": "17分钟前",
+      "published": "2026-11-18T23:45:00+00:00",
+      "summary": "微软首席执行官萨提亚·纳德拉在近期发言中淡化了Outlook服务中断事件的影响，但同时指出AI既带来安全机遇也带来新挑战。他强调，全球大量关键基础设施由于技术老旧或架构限制，实际上处于‘无法打补丁’的状态，面对AI驱动的网络攻击极为脆弱。纳德拉呼吁行业重新思考安全范式，不能仅依赖传统修补方式，而应构建更具韧性的系统。此番言论正值业界对AI赋能网络攻击的担忧升温之际，多位安全专家警告攻击速度已超过防御迭代周期。",
+      "snark": "翻译：修不了，等死吧，但我们的云服务照卖。"
+    },
+    {
+      "id": 2,
+      "cat": "strategy",
+      "title": "马斯克：赶走黄仁勋就像‘把迈克尔·乔丹踢出球队’",
+      "title_en": "Elon Musk says ousting Jensen Huang is like ‘kicking Michael Jordan off your team’",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/11/18/elon-musk-says-ousting-jensen-huang-is-like-kicking-michael-jordan-off-your-team/",
+      "time": "36分钟前",
+      "published": "2026-11-18T23:25:17+00:00",
+      "summary": "特斯拉与xAI首席执行官埃隆·马斯克公开评论英伟达首席执行官黄仁勋离任一事，称解雇黄仁勋如同把迈克尔·乔丹从篮球队中踢走，是自毁长城的举动。马斯克明确表示不认为黄仁勋对美国不忠诚，暗示此次人事变动背后存在非商业因素。此番表态与安杜里尔创始人帕尔默·拉基的言论形成呼应，后者同样呼吁恢复黄仁勋职位。英伟达尚未对马斯克的评论作出回应，公司由临时首席执行官科莱特·克雷斯暂时领导。",
+      "snark": "马斯克：我虽然经常换CEO，但从不换GPU供应商。"
+    },
+    {
+      "id": 3,
+      "cat": "policy",
+      "title": "全美最大学区考虑弃用谷歌搜索，因强制AI功能捆绑",
+      "title_en": "The nation’s largest school districts consider ditching Google Search",
+      "source": "The Verge AI",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/1037151/school-districts-ditching-google",
+      "time": "43分钟前",
+      "published": "2026-11-18T23:18:35+00:00",
+      "summary": "据《纽约时报》报道，纽约、洛杉矶和芝加哥等全美最大公立学区正在考虑将谷歌搜索替换为其他 alternatives。起因是谷歌宣布，选择退出其AI功能的学校将无法继续使用搜索服务。从明年开始，学校若不想启用由Gemini驱动的AI功能，将失去搜索选项，这被视为变相强制捆绑。教育界担忧学生隐私和教学自主权受到侵害，多个学区正在评估微软必应、DuckDuckGo等替代方案。谷歌方面尚未就学区的具体顾虑作出详细回应。",
+      "snark": "谷歌：你可以不用AI，但你也别用搜索了。学校：？？？",
+      "multiSource": [
+        "The Verge",
+        "The Verge AI"
+      ]
+    },
+    {
+      "id": 4,
+      "cat": "strategy",
+      "title": "纳德拉对黄仁勋离任后的英伟达保持信心",
+      "title_en": "Microsoft CEO Satya Nadella remains confident in Nvidia after Huang’s exit",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/11/18/microsoft-ceo-satya-nadella-remains-confident-in-nvidia-after-huangs-exit/",
+      "time": "44分钟前",
+      "published": "2026-11-18T23:17:28+00:00",
+      "summary": "微软首席执行官萨提亚·纳德拉在黄仁勋离任后公开表达了对英伟达的信心，特别提到临时首席执行官科莱特·克雷斯的能力。纳德拉表示微软与英伟达的长期合作关系不会因人事变动而动摇，双方在AI基础设施领域的协同仍将继续。克雷斯此前担任英伟达首席财务官，以稳健的财务管理著称。分析人士认为，纳德拉的表态旨在稳定市场情绪，避免因黄仁勋离场引发对英伟达战略连续性的过度担忧。",
+      "snark": "纳德拉：只要GPU还供货，CEO是谁我都信心满满。"
+    },
+    {
+      "id": 5,
+      "cat": "strategy",
+      "title": "纳德拉预测AI智能体将重塑互联网经济格局",
+      "title_en": "Satya Nadella predicts AI agents will reshuffle the economics of the web",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/11/18/satya-nadella-predicts-ai-agents-will-reshuffle-the-economics-of-the-web/",
+      "time": "1小时前",
+      "published": "2026-11-18T22:58:11+00:00",
+      "summary": "微软首席执行官萨提亚·纳德拉预测，AI智能体的普及将深刻改变互联网的经济模式，尤其是广告驱动的商业模式。他指出，当AI智能体代替用户浏览网页、比较商品和执行购买决策时，传统依赖点击和展示的广告体系将面临根本性冲击。亚马逊等电商平台可能需要重新思考如何在智能体主导的流量环境中争夺客户。纳德拉认为，企业需要为‘智能体优先’的世界设计新的竞争策略和变现路径，而非简单地将现有广告模式迁移到新载体上。",
+      "snark": "广告商：我的广告给谁看？AI智能体：反正不是你。"
+    },
+    {
+      "id": 6,
+      "cat": "strategy",
+      "title": "Anthropic据报以每股83美元定价IPO，超出预期区间",
+      "title_en": "Anthropic reportedly prices IPO at $83 a share, above projected range",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/11/18/anthropic-reportedly-prices-ipo-at-83-a-share-above-projected-range/",
+      "time": "1小时前",
+      "published": "2026-11-18T22:11:15+00:00",
+      "summary": "据TechCrunch报道，人工智能公司Anthropic的首次公开募股定价为每股83美元，高于此前市场预期的价格区间。按完全稀释口径计算，此次IPO对Anthropic的估值达到1.5万亿美元，使其成为历史上规模最大的科技IPO之一。Anthropic旗下拥有Claude系列大模型，在企业和开发者市场增长迅速。此次高定价反映出投资者对头部AI公司的强烈信心，但也引发对AI板块估值泡沫的讨论。公司尚未披露具体发行股数和募资总额。",
+      "snark": "1.5万亿美元估值，Claude写代码的速度赶得上烧钱速度吗？"
+    },
+    {
+      "id": 7,
+      "cat": "strategy",
+      "title": "英伟达未按时提交10-Q季报，引发市场猜疑",
+      "title_en": "Nvidia created a weird bit of intrigue by not filing a routine SEC report",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/11/18/nvidia-created-a-weird-bit-of-intrigue-by-not-filing-a-routine-sec-report/",
+      "time": "2小时前",
+      "published": "2026-11-18T21:57:40+00:00",
+      "summary": "英伟达出人意料地宣布将推迟数周提交其正式的季度财务报告文件10-Q，引发华尔街关注。一位分析师深入调查后发现，这一延迟与公司近期的高层变动和内部审查有关。10-Q是上市公司向美国证券交易委员会提交的例行季度报告，通常不应出现意外延迟。英伟达未在公告中给出详细解释，仅表示需要更多时间完成相关流程。市场对此反应谨慎，投资者担忧可能存在未披露的财务或治理问题，尤其是在黄仁勋离任的敏感时期。",
+      "snark": "季报可以迟到，但GPU交货不能迟到，懂？"
+    },
+    {
+      "id": 8,
+      "cat": "model",
+      "title": "谷歌DeepMind发布Gemini 4 Neon",
+      "title_en": "Introducing Gemini 4 Neon",
+      "source": "DeepMind Blog",
+      "url": "https://deepmind.google/blog/introducing-gemini-4-neon/",
+      "time": "2小时前",
+      "published": "2026-11-18T21:35:43+00:00",
+      "summary": "谷歌DeepMind正式推出Gemini 4 Neon，这是Gemini系列大模型的最新版本。官方博客未披露过多技术细节，但命名中的‘Neon’暗示其在推理速度或能效方面有显著提升。作为谷歌旗舰模型的新迭代，Gemini 4 Neon预计将在多模态理解、代码生成和智能体任务上带来改进，并逐步接入谷歌云、Workspace和搜索等产品线。此次发布正值Anthropic IPO和英伟达高层动荡占据头条之际，谷歌选择此时亮剑，意在巩固其在基础模型竞赛中的第一梯队位置。",
+      "snark": "名字叫Neon，不知道跑分会不会也‘亮瞎眼’。",
+      "multiSource": [
+        "DeepMind Blog",
+        "Hacker News"
+      ]
+    },
+    {
+      "id": 9,
+      "cat": "policy",
+      "title": "帕尔默·拉基警告AI网络攻击正超越防御能力：‘该开始跑了’",
+      "title_en": "Palmer Luckey warns AI-powered cyberattacks are outpacing defenses: ‘It’s time to start running’",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/11/18/palmer-luckey-warns-ai-powered-cyberattacks-are-outpacing-defenses-its-time-to-start-running/",
+      "time": "2小时前",
+      "published": "2026-11-18T21:34:13+00:00",
+      "summary": "安杜里尔公司联合创始人帕尔默·拉基发出严厉警告，称AI驱动的网络攻击速度已经超过现有防御体系的应对能力，呼吁业界‘该开始跑了’。他指出，大量系统仍依赖过时技术，面对新一轮AI赋能的自动化攻击极为脆弱。拉基认为，攻击者利用AI可以快速发现漏洞并发动大规模入侵，而防御方仍在用人工和传统工具应对。他建议加大在AI防御系统和零信任架构上的投入，否则关键基础设施将面临系统性风险。",
+      "snark": "拉基：快跑！但跑之前先把防火墙的默认密码改了。"
+    },
+    {
+      "id": 10,
+      "cat": "strategy",
+      "title": "帕尔默·拉基称中国‘乐见黄仁勋出局’，呼吁恢复其职位",
+      "title_en": "Palmer Luckey thinks China is ‘thrilled to have Jensen out,’ so he wants the ousted Nvidia CEO reinstated",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/11/18/palmer-luckey-thinks-china-is-thrilled-to-have-jensen-out-so-he-wants-the-ousted-nvidia-ceo-reinstated/",
+      "time": "2小时前",
+      "published": "2026-11-18T21:31:21+00:00",
+      "summary": "安杜里尔首席执行官帕尔默·拉基公开表示，中国方面对英伟达首席执行官黄仁勋的离任感到‘高兴’，并认为罢免黄仁勋会削弱美国的科技竞争力。他呼吁恢复黄仁勋的职位，称其领导力对维持美国在AI芯片领域的优势至关重要。拉基的言论与马斯克此前的表态相呼应，形成一股要求黄仁勋回归的舆论声浪。英伟达目前由临时首席执行官科莱特·克雷斯领导，公司尚未对拉基的呼吁作出回应。",
+      "snark": "拉基：为了美国，请回黄仁勋。英伟达董事会：你谁？"
+    },
+    {
+      "id": 11,
+      "cat": "strategy",
+      "title": "山姆·奥特曼称生活太离奇，安德鲁·加菲尔德演自己也不惊讶",
+      "title_en": "Sam Altman says his life is so weird that he’s unfazed by Andrew Garfield portraying him in upcoming movie",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/11/18/sam-altman-says-his-life-is-so-weird-that-hes-unfazed-by-andrew-garfield-portraying-him-in-upcoming-movie/",
+      "time": "3小时前",
+      "published": "2026-11-18T20:07:01+00:00",
+      "summary": "OpenAI首席执行官山姆·奥特曼在采访中表示，自己的生活已经足够离奇，以至于安德鲁·加菲尔德在即将上映的电影中饰演他这件事，甚至排不进他人生最奇怪的十件事。奥特曼以轻松口吻回应了外界对这部传记电影的广泛关注，暗示AI行业领导者的公众形象正变得愈发戏剧化。该电影据报将聚焦OpenAI的发展历程和奥特曼本人的争议性经历。奥特曼的淡定态度与行业近期的高压氛围形成有趣反差。",
+      "snark": "奥特曼：被加菲尔德演不算啥，被董事会开除才叫离奇。"
+    },
+    {
+      "id": 12,
+      "cat": "tool",
+      "title": "Snapchat允许开发者用Claude Code和Cursor等AI助手构建AR滤镜",
+      "title_en": "Snapchat now lets developers build AR Lenses with AI assistants like Claude Code and Cursor",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/11/18/snapchat-now-lets-developers-build-ar-lenses-with-ai-coding-assistants-like-claude-code-and-cursor/",
+      "time": "4小时前",
+      "published": "2026-11-18T19:56:39+00:00",
+      "summary": "Snapchat宣布开发者现在可以使用Claude Code、Cursor等AI编程助手来构建增强现实滤镜。镜头创作者只需用自然语言描述想要的滤镜效果，AI助手即可从始至终处理开发流程。Snapchat表示，这一功能旨在降低AR创作门槛，让非专业开发者也能快速实现创意。此举将AI编程工具从传统软件开发延伸至AR内容创作领域，也反映出Claude Code和Cursor正在成为跨平台的基础开发工具。Snapchat未透露该功能的具体上线时间和支持的AI助手完整列表。",
+      "snark": "以后AR滤镜的bug也是AI写的，甩锅都找不到人。"
+    }
+  ],
+  "stats": {
+    "total": 12,
+    "model_count": 1,
+    "strategy_count": 7,
+    "tool_count": 1,
+    "policy_count": 3
+  }
+}

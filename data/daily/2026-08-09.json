@@ -1,0 +1,95 @@
+{
+  "date": "2026-08-09",
+  "generated_at": "2026-08-09T08:01:53.721209+08:00",
+  "highlight": "OpenAI收购NextSlide布局办公生态，Mistral开源3B安全分类器，Pokee发布千万上下文模型，AI行业在效率与安全间加速竞逐。",
+  "fun": {
+    "lucky": "Pokee-Isaac 28B",
+    "advice": "宜：挑战超长上下文任务，让模型读完整本《战争与和平》。\n忌：在2M token以内炫耀推理能力，小心被友商按在地上摩擦。",
+    "joke": "AI模型对程序员说：你写的代码我都能读懂，除了注释。"
+  },
+  "articles": [
+    {
+      "id": 1,
+      "cat": "policy",
+      "title": "亚马逊得州数据中心计划或成美国最大气候污染源",
+      "title_en": "Planned Amazon data center could become the biggest climate polluter in the U.S.",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/08/08/planned-amazon-data-center-could-become-the-biggest-climate-polluter-in-the-u-s/",
+      "time": "2小时前",
+      "published": "2026-08-08T21:24:02+00:00",
+      "summary": "据科技媒体TechCrunch报道，亚马逊在得克萨斯州规划的数据中心项目将配套建设一座现场发电厂。该电厂预计将成为美国最大的气候污染单一来源，远超现有工业设施。亚马逊此举旨在确保数据中心获得稳定电力供应，但引发了环保组织和当地社区的强烈反对。批评者指出，在应对气候变化的背景下，这种高碳排放的能源方案与科技巨头的可持续发展承诺背道而驰。亚马逊尚未公布具体的减排措施，但表示会评估可再生能源选项。该事件凸显了AI算力扩张与环境保护之间的现实矛盾。",
+      "snark": "亚马逊：一边承诺碳中和，一边偷偷建火电厂，这算不算数字碳中和？",
+      "multiSource": [
+        "TechCrunch",
+        "The Verge AI"
+      ]
+    },
+    {
+      "id": 2,
+      "cat": "tool",
+      "title": "开源工具Shepherd：让AI代理运行可分支、回放与回滚",
+      "title_en": "Meet Shepherd: An Open-Source Python Substrate That Lets Meta-Agents Fork, Replay, and Revert Any Agent Run",
+      "source": "MarkTechPost",
+      "url": "https://www.marktechpost.com/2026/08/08/meet-shepherd-an-open-source-python-substrate-that-lets-meta-agents-fork-replay-and-revert-any-agent-run/",
+      "time": "3小时前",
+      "published": "2026-08-08T20:54:49+00:00",
+      "summary": "东北大学等机构的研究者发布了Shepherd，一个开源Python基础设施，专为元代理设计。它允许AI代理在长时间运行中创建分支、重放历史操作并回滚到任意状态。传统代理运行会积累大量未被记录的隐式状态，如编辑过的文件、运行的开发服务器、安装的包和缓存的提示词。当代理在第10步误读错误信息并错误修改文件时，继续修复会浪费大量tokens，而重启则需重新执行所有调用。Shepherd通过快照和状态管理解决了这一问题，使元代理能高效地探索不同策略，避免重复劳动。该工具已开源，适用于复杂软件开发场景。",
+      "snark": "代理终于学会了程序员的终极技能：Ctrl+Z，但希望别把代码库回滚到昨天的状态。"
+    },
+    {
+      "id": 3,
+      "cat": "strategy",
+      "title": "OpenAI收购演示文稿初创公司NextSlide",
+      "title_en": "OpenAI acquires presentation startup NextSlide",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/08/08/openai-acquires-presentation-startup-nextslide/",
+      "time": "4小时前",
+      "published": "2026-08-08T19:41:13+00:00",
+      "summary": "OpenAI宣布收购演示文稿制作初创公司NextSlide，后者团队成员将加入ChatGPT团队。NextSlide专注于利用AI快速生成专业演示文稿，其技术可能被整合到ChatGPT中，以增强办公场景能力。此次收购是OpenAI在生产力工具领域的最新布局，旨在与微软Office等传统办公套件竞争。具体交易金额未披露。分析认为，OpenAI正通过收购和内部开发，将ChatGPT从聊天机器人扩展为全面的工作助手，覆盖文档、表格、演示等日常办公需求。此举也反映了AI巨头在应用层争夺用户入口的激烈竞争。",
+      "snark": "ChatGPT学会做PPT了，接下来是不是要抢走产品经理的饭碗？"
+    },
+    {
+      "id": 4,
+      "cat": "model",
+      "title": "Pokee AI发布Pokee-Isaac 28B：千万token上下文代理模型",
+      "title_en": "Pokee AI Releases Pokee-Isaac 28B: A 10M-Token Context Agentic Model Built to Run Inside the Customer Boundary",
+      "source": "MarkTechPost",
+      "url": "https://www.marktechpost.com/2026/08/08/pokee-ai-releases-pokee-isaac-28b-a-10m-token-context-agentic-model-built-to-run-inside-the-customer-boundary/",
+      "time": "6小时前",
+      "published": "2026-08-08T17:04:39+00:00",
+      "summary": "Pokee AI推出Pokee-Isaac 28B，一个28B参数、纯文本基础模型，支持1000万token的超长上下文窗口，专为企业客户内部部署设计。在RULER基准测试中，该模型在10M token长度下得分93.3%，而对比组中的其他基线模型在超过2M token后均得分为0。在BFCL v4函数调用基准上，它获得70.94分，排名第二。该模型强调在客户边界内运行，确保数据隐私。超长上下文能力使它能处理整本书籍或大型代码库，适用于复杂文档分析、长对话等场景。Pokee AI声称该模型在长上下文推理方面达到领先水平，但未透露训练细节。",
+      "snark": "10M token上下文，读完整套《哈利波特》还有剩余，但能记住伏地魔的鼻梁吗？"
+    },
+    {
+      "id": 5,
+      "cat": "tool",
+      "title": "Reflex XY：打造百万点交互式可视化图表",
+      "title_en": "Designing Scalable Interactive Visualizations with Reflex XY: Composition, Million-Point Rendering, Streaming, Custom Marks, and Export",
+      "source": "MarkTechPost",
+      "url": "https://www.marktechpost.com/2026/08/08/designing-scalable-interactive-visualizations-with-reflex-xy-composition-million-point-rendering-streaming-custom-marks-and-export/",
+      "time": "14小时前",
+      "published": "2026-08-08T09:42:18+00:00",
+      "summary": "Reflex XY Python库发布了高级可视化教程，指导开发者构建高性能交互式图表。该库支持处理百万级数据点、实时数据流、自定义标记插件以及导出出版级图表。教程涵盖组合图表、百万点渲染优化、流式更新等核心功能。Reflex XY旨在简化复杂数据可视化开发，提供类似Plotly的接口但更注重性能。它适用于金融、物联网、科研等领域的大规模数据监控与分析。通过示例代码，开发者可以快速上手，实现流畅的缩放、平移和筛选操作。该库是开源项目，正逐渐成为数据可视化领域的新选择。",
+      "snark": "百万点渲染是流畅了，但我的浏览器风扇声比代码还响。"
+    },
+    {
+      "id": 6,
+      "cat": "model",
+      "title": "Mistral AI发布Shieldstral 1.0 3B：开源自适应多模态安全分类器",
+      "title_en": "Mistral AI Releases Shieldstral 1.0 3B: An Open-Weights Policy-Adaptive Multimodal Safety Classifier Matching Models 7× Its Size",
+      "source": "MarkTechPost",
+      "url": "https://www.marktechpost.com/2026/08/07/mistral-ai-releases-shieldstral-1-0-3b/",
+      "time": "19小时前",
+      "published": "2026-08-08T04:36:26+00:00",
+      "summary": "Mistral AI发布了Shieldstral 1.0 3B，一个开源权重、策略自适应的多模态安全分类器。它摒弃了固定的危害分类体系，采用单一“是/否”问题模式。操作者可以在推理时用自然语言提供策略，模型返回校准后的安全评分。该模型仅3B参数，但性能匹配甚至超越7倍规模的模型，在多个内容审核基准上表现优异。它支持文本和图像输入，适用于实时审核、合规检查等场景。Mistral强调其策略自适应能力使企业能灵活定义安全标准，而非依赖预设类别。该模型已开放权重，供社区使用和微调。",
+      "snark": "3B参数就能干翻7倍大的模型，看来安全审核真不需要脑容量，只需要会问是非题。"
+    }
+  ],
+  "stats": {
+    "total": 6,
+    "model_count": 2,
+    "strategy_count": 1,
+    "tool_count": 2,
+    "policy_count": 1
+  }
+}

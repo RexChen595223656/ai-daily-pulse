@@ -1,0 +1,161 @@
+{
+  "date": "2026-05-02",
+  "highlight": "中美 AI 人才争夺战升级：硅谷公司为中国工程师开出百万美元年薪",
+  "articles": [
+    {
+      "id": 1,
+      "cat": "model",
+      "title": "DeepSeek V4 开源：MoE 架构，236B 参数，性能接近 GPT-5",
+      "title_en": "",
+      "source": "Hacker News",
+      "url": "https://example.com/ai-news/5014",
+      "time": "12天前",
+      "published": "2026-05-02T10:05:00+08:00",
+      "summary": "这是一条关于「DeepSeek V4 开源：MoE 架构，236B 参数，性能接近 GPT-5」的详细报道。该事件在 AI 行业引发广泛关注，多位业内人士表示这将深刻影响行业格局。更多细节请查看原文。",
+      "snark": "编辑部：这条我们也不知道怎么评价。"
+    },
+    {
+      "id": 2,
+      "cat": "model",
+      "title": "LangChain 发布生产级 Agent 框架：支持多模型协作",
+      "title_en": "",
+      "source": "Ars Technica",
+      "url": "https://example.com/ai-news/9483",
+      "time": "12天前",
+      "published": "2026-05-02T15:06:00+08:00",
+      "summary": "这是一条关于「LangChain 发布生产级 Agent 框架：支持多模型协作」的详细报道。该事件在 AI 行业引发广泛关注，多位业内人士表示这将深刻影响行业格局。更多细节请查看原文。",
+      "snark": "AI圈新闻：今天又是核聚变级别的一天。"
+    },
+    {
+      "id": 3,
+      "cat": "model",
+      "title": "中国发布大模型训练新规：数据安全和内容审核成焦点",
+      "title_en": "",
+      "source": "少数派",
+      "url": "https://example.com/ai-news/3718",
+      "time": "12天前",
+      "published": "2026-05-02T21:41:00+08:00",
+      "summary": "这是一条关于「中国发布大模型训练新规：数据安全和内容审核成焦点」的详细报道。该事件在 AI 行业引发广泛关注，多位业内人士表示这将深刻影响行业格局。更多细节请查看原文。",
+      "snark": "AI圈新闻：今天又是核聚变级别的一天。"
+    },
+    {
+      "id": 4,
+      "cat": "model",
+      "title": "Cursor 2.0 发布：AI 原生 IDE 支持全栈项目自动生成",
+      "title_en": "",
+      "source": "Synced Review",
+      "url": "https://example.com/ai-news/5839",
+      "time": "12天前",
+      "published": "2026-05-02T13:34:00+08:00",
+      "summary": "这是一条关于「Cursor 2.0 发布：AI 原生 IDE 支持全栈项目自动生成」的详细报道。该事件在 AI 行业引发广泛关注，多位业内人士表示这将深刻影响行业格局。更多细节请查看原文。",
+      "snark": "编辑部：这条我们也不知道怎么评价。"
+    },
+    {
+      "id": 5,
+      "cat": "model",
+      "title": "Midjourney V8 上线，支持实时协作和 3D 场景生成",
+      "title_en": "",
+      "source": "AI News",
+      "url": "https://example.com/ai-news/4416",
+      "time": "12天前",
+      "published": "2026-05-02T20:10:00+08:00",
+      "summary": "这是一条关于「Midjourney V8 上线，支持实时协作和 3D 场景生成」的详细报道。该事件在 AI 行业引发广泛关注，多位业内人士表示这将深刻影响行业格局。更多细节请查看原文。",
+      "snark": "AI圈日常：今天你发模型，明天我刷榜。"
+    },
+    {
+      "id": 6,
+      "cat": "strategy",
+      "title": "Zapier AI 发布企业自动化 Agent：跨应用工作流零代码搭建",
+      "title_en": "",
+      "source": "少数派",
+      "url": "https://example.com/ai-news/9085",
+      "time": "12天前",
+      "published": "2026-05-02T09:25:00+08:00",
+      "summary": "这是一条关于「Zapier AI 发布企业自动化 Agent：跨应用工作流零代码搭建」的详细报道。该事件在 AI 行业引发广泛关注，多位业内人士表示这将深刻影响行业格局。更多细节请查看原文。",
+      "snark": "AI圈日常：今天你发模型，明天我刷榜。"
+    },
+    {
+      "id": 7,
+      "cat": "strategy",
+      "title": "中国发布大模型训练新规：数据安全和内容审核成焦点",
+      "title_en": "",
+      "source": "少数派",
+      "url": "https://example.com/ai-news/3954",
+      "time": "12天前",
+      "published": "2026-05-02T11:01:00+08:00",
+      "summary": "这是一条关于「中国发布大模型训练新规：数据安全和内容审核成焦点」的详细报道。该事件在 AI 行业引发广泛关注，多位业内人士表示这将深刻影响行业格局。更多细节请查看原文。",
+      "snark": "又双叒叕一个「里程碑」，今年第几个了？"
+    },
+    {
+      "id": 8,
+      "cat": "strategy",
+      "title": "Notion AI 3.0 发布：AI 原生工作空间，Agent 可自主完成任务",
+      "title_en": "",
+      "source": "MarkTechPost",
+      "url": "https://example.com/ai-news/4718",
+      "time": "12天前",
+      "published": "2026-05-02T14:08:00+08:00",
+      "summary": "这是一条关于「Notion AI 3.0 发布：AI 原生工作空间，Agent 可自主完成任务」的详细报道。该事件在 AI 行业引发广泛关注，多位业内人士表示这将深刻影响行业格局。更多细节请查看原文。",
+      "snark": "这条新闻让同行们集体沉默了3秒，然后继续卷。"
+    },
+    {
+      "id": 9,
+      "cat": "strategy",
+      "title": "Runway Gen-5 发布：视频生成支持实时物理模拟",
+      "title_en": "",
+      "source": "Ars Technica",
+      "url": "https://example.com/ai-news/2405",
+      "time": "12天前",
+      "published": "2026-05-02T14:38:00+08:00",
+      "summary": "这是一条关于「Runway Gen-5 发布：视频生成支持实时物理模拟」的详细报道。该事件在 AI 行业引发广泛关注，多位业内人士表示这将深刻影响行业格局。更多细节请查看原文。",
+      "snark": "AI圈新闻：今天又是核聚变级别的一天。"
+    },
+    {
+      "id": 10,
+      "cat": "strategy",
+      "title": "Stable Diffusion 4 发布，文生图进入 8K 时代",
+      "title_en": "",
+      "source": "AI News",
+      "url": "https://example.com/ai-news/1818",
+      "time": "12天前",
+      "published": "2026-05-02T08:58:00+08:00",
+      "summary": "这是一条关于「Stable Diffusion 4 发布，文生图进入 8K 时代」的详细报道。该事件在 AI 行业引发广泛关注，多位业内人士表示这将深刻影响行业格局。更多细节请查看原文。",
+      "snark": "又双叒叕一个「里程碑」，今年第几个了？"
+    },
+    {
+      "id": 11,
+      "cat": "tool",
+      "title": "Adobe Firefly 4 发布：AI 创意工具全面整合 Photoshop",
+      "title_en": "",
+      "source": "36氪",
+      "url": "https://example.com/ai-news/4324",
+      "time": "12天前",
+      "published": "2026-05-02T08:17:00+08:00",
+      "summary": "这是一条关于「Adobe Firefly 4 发布：AI 创意工具全面整合 Photoshop」的详细报道。该事件在 AI 行业引发广泛关注，多位业内人士表示这将深刻影响行业格局。更多细节请查看原文。",
+      "snark": "编辑部：这条我们也不知道怎么评价。"
+    },
+    {
+      "id": 12,
+      "cat": "tool",
+      "title": "Grok-4 发布：xAI 称推理能力业界第一",
+      "title_en": "",
+      "source": "DeepMind Blog",
+      "url": "https://example.com/ai-news/3881",
+      "time": "12天前",
+      "published": "2026-05-02T20:11:00+08:00",
+      "summary": "这是一条关于「Grok-4 发布：xAI 称推理能力业界第一」的详细报道。该事件在 AI 行业引发广泛关注，多位业内人士表示这将深刻影响行业格局。更多细节请查看原文。",
+      "snark": "这条新闻让同行们集体沉默了3秒，然后继续卷。"
+    }
+  ],
+  "stats": {
+    "total": 12,
+    "model_count": 5,
+    "strategy_count": 5,
+    "tool_count": 2
+  },
+  "fun": {
+    "lucky": "Midjourney V8",
+    "advice": "宜：视觉创意\n忌：只看文本模型",
+    "joke": "AI 公司的商业计划书：\n1. 训练一个大模型\n2. ???\n3. 盈利\n投资人：第二步呢？\n创始人：第二步就是找个产品经理。"
+  }
+}

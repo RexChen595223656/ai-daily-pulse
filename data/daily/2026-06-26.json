@@ -1,0 +1,163 @@
+{
+  "date": "2026-06-26",
+  "generated_at": "2026-06-26T10:21:01.285851+08:00",
+  "highlight": "AI 摘要暂时不可用，请稍后刷新",
+  "fun": {},
+  "articles": [
+    {
+      "id": 1,
+      "cat": "policy",
+      "title": "布局下一代人机交互与具身数据入口，「念象科技」完成近千万元天使轮融资｜36氪首发",
+      "title_en": "布局下一代人机交互与具身数据入口，「念象科技」完成近千万元天使轮融资｜36氪首发",
+      "source": "36氪",
+      "url": "https://36kr.com/p/3867943030395913?f=rss",
+      "time": "2小时前",
+      "published": "2026-06-26T00:00:00+00:00",
+      "summary": "文｜胡香赟 编辑｜海若镜 36氪获悉，专注非侵入式神经接口技术研发与产业化的「念象科技」已完成近千万元天使轮融资。本轮融资由永珺星芒领投，浦东创投、一村资本跟投，募集资金主要用于产品研发、团队扩建、本土sEMG数据集建设。 念象科技成立于2025年底，首款产品Omniband是一款腕戴式表面肌电（surface electromyography，简称sEMG）神经接口设备。它不直接采集大脑皮层信号，而是通过手腕处的神经肌肉电信号，解析手部运动意图和连续动态手势，进而用于手机、电脑、智能眼镜、智能家居等终端的人机交互。 除泛交互场景外，念象科技也将高精度手部运动数据视为另一条长期价值线。团队希望围绕手部姿态、肌肉发力、物体交互等标签，建设面向本土手部操作场景的大规模sEMG数据集，为具身智能、物理AI和世界模型训练提供数据支持。 创始人王译博士期间在新西兰奥克兰大学从事脑机接口方向研究，现任国家脑机接口产业联盟副主席，并入选上海市白玉兰人才计划，曾任应脉医疗首席科学家、智元机器人研发总监，完整实践过侵入式/非侵入式/介入式脑机接口、sEMG神经接口等脑机接口与具身智能人机交互等相关技术研",
+      "snark": ""
+    },
+    {
+      "id": 2,
+      "cat": "strategy",
+      "title": "8点1氪丨苹果宣布上调iPad及Mac价格；黄仁勋计划把50%或更多现金流返还股东；OpenAI发布首款AI芯片",
+      "title_en": "8点1氪丨苹果宣布上调iPad及Mac价格；黄仁勋计划把50%或更多现金流返还股东；OpenAI发布首款AI芯片",
+      "source": "36氪",
+      "url": "https://36kr.com/p/3869243269387269?f=rss",
+      "time": "2小时前",
+      "published": "2026-06-25T23:57:55+00:00",
+      "summary": "今日热点导览 Anthropic成全球价值最高独角兽，DeepSeek跻身全球独角兽企业前15名 建设银行：将于7月24日日终清算时起关闭代理上海黄金交易所个人贵金属交易业务功能 马斯克曾直言混动车只是过渡阶段 韩国5200万人开了1.08亿股票账户，半年增超1000万 逾八成澳大利亚未成年人“绕过”了社媒禁令 IBM发布全球首款亚纳米芯片技术 TOP 3大新闻 苹果官宣涨价：iPad和Mac率先调价 6月25日，记者获悉，因内存和存储芯片成本持续飙升，苹果已正式宣布上调iPad及Mac系列产品价格。苹果在声明中表示：“消费电子行业正面临前所未有的挑战。AI数据中心的迅猛扩张导致存储需求激增，我们从未见过零部件价格以如此幅度和速度上涨。此前我们一直在内部消化成本压力，但目前已不得不开始上调多款产品售价，其中就包括今天公布的iPad和Mac。”（澎湃新闻） 黄仁勋计划把50%或更多现金流返还股东，还称物理AI是下一波增长浪潮 北京时间周四凌晨，全球市值最高上市公司英伟达举行年度股东大会。AI产业领军人物黄仁勋在股东大会上表示，关于AI投资回报率的问题“已有答案”。 在业务更新中，黄仁勋反",
+      "snark": ""
+    },
+    {
+      "id": 3,
+      "cat": "model",
+      "title": "The White House is asking OpenAI to slow roll the release of its new model over safety concerns",
+      "title_en": "The White House is asking OpenAI to slow roll the release of its new model over safety concerns",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/06/25/the-white-house-is-asking-openai-to-slow-roll-the-release-of-its-new-model-over-safety-concerns/",
+      "time": "2小时前",
+      "published": "2026-06-25T23:34:39+00:00",
+      "summary": "penAI reportedly plans to share its newest model, GPT 5.6, with a select group of partners instead of to the broader public. The reason: the Trump administration told it to.",
+      "snark": ""
+    },
+    {
+      "id": 4,
+      "cat": "model",
+      "title": "OpenAI will delay GPT-5.6 after Trump administration request",
+      "title_en": "OpenAI will delay GPT-5.6 after Trump administration request",
+      "source": "The Verge AI",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/957372/openai-will-delay-gpt-5-6-after-trump-administration-request",
+      "time": "4小时前",
+      "published": "2026-06-25T21:57:06+00:00",
+      "summary": "The Trump administration, apprehensive of potential security issues, has reportedly asked OpenAI to stagger the release of its next big-ticket model, GPT-5.6. The Information reported that OpenAI CEO Sam Altman told employees Wednesday in a company Q&#38;A that it would release GPT-5.6 in limited preview form - granting access only to a small group of [&#8230;]",
+      "snark": "",
+      "multiSource": [
+        "The Verge",
+        "The Verge AI"
+      ]
+    },
+    {
+      "id": 5,
+      "cat": "strategy",
+      "title": "OpenAI Leans Toward Waiting Until Next Year for IPO",
+      "title_en": "OpenAI Leans Toward Waiting Until Next Year for IPO",
+      "source": "Hacker News",
+      "url": "https://www.nytimes.com/2026/06/25/technology/openai-ipo-artificial-intelligence.html",
+      "time": "5小时前",
+      "published": "2026-06-25T20:36:05+00:00",
+      "summary": "Article URL: https://www.nytimes.com/2026/06/25/technology/openai-ipo-artificial-intelligence.html Comments URL: https://news.ycombinator.com/item?id=48678873 Points: 85 # Comments: 57",
+      "snark": ""
+    },
+    {
+      "id": 6,
+      "cat": "strategy",
+      "title": "Patronus AI lands $50M to build ‘digital worlds’ that stress-test AI agents",
+      "title_en": "Patronus AI lands $50M to build ‘digital worlds’ that stress-test AI agents",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/06/25/patronus-ai-lands-50m-to-build-digital-worlds-that-stress-test-ai-agents/",
+      "time": "6小时前",
+      "published": "2026-06-25T20:19:25+00:00",
+      "summary": "Agent-testing startup Patronus AI, founded by former Meta AI researchers, is experiencing nearly insatiable demand, its investor says.",
+      "snark": ""
+    },
+    {
+      "id": 7,
+      "cat": "tool",
+      "title": "Notion killing Skiff-influenced email app since most users use AI agents instead",
+      "title_en": "Notion killing Skiff-influenced email app since most users use AI agents instead",
+      "source": "Ars Technica",
+      "url": "https://arstechnica.com/gadgets/2026/06/notion-killing-skiff-influenced-email-app-since-most-users-use-ai-agents-instead/",
+      "time": "7小时前",
+      "published": "2026-06-25T19:04:57+00:00",
+      "summary": "Notion is \"going all in on using agents to run your inbox.\"",
+      "snark": ""
+    },
+    {
+      "id": 8,
+      "cat": "strategy",
+      "title": "Anthropic says Alibaba must be punished for largest Claude cloning attack",
+      "title_en": "Anthropic says Alibaba must be punished for largest Claude cloning attack",
+      "source": "Ars Technica",
+      "url": "https://arstechnica.com/tech-policy/2026/06/anthropic-claims-alibaba-defied-trump-to-attack-claude-and-steal-capabilities/",
+      "time": "8小时前",
+      "published": "2026-06-25T18:01:48+00:00",
+      "summary": "Alibaba allegedly used 25,000 accounts to mine Claude over 28.8 million exchanges.",
+      "snark": ""
+    },
+    {
+      "id": 9,
+      "cat": "model",
+      "title": "Anthropic’s Claude is winning over paid consumers, a market owned by ChatGPT",
+      "title_en": "Anthropic’s Claude is winning over paid consumers, a market owned by ChatGPT",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/06/25/anthropics-claude-is-winning-over-paid-consumers-a-market-owned-by-chatgpt/",
+      "time": "8小时前",
+      "published": "2026-06-25T17:38:27+00:00",
+      "summary": "Despite ChatGPT's commanding market lead, consumers who pay for AI have been increasingly choosing Anthropic's Claude, data shows.",
+      "snark": ""
+    },
+    {
+      "id": 10,
+      "cat": "model",
+      "title": "DeepReinforce Releases Ornith-1.0: An Open-Source Coding Model Family That Learns Its Own RL Scaffolds",
+      "title_en": "DeepReinforce Releases Ornith-1.0: An Open-Source Coding Model Family That Learns Its Own RL Scaffolds",
+      "source": "MarkTechPost",
+      "url": "https://www.marktechpost.com/2026/06/25/deepreinforce-releases-ornith-1-0-an-open-source-coding-model-family-that-learns-its-own-rl-scaffolds/",
+      "time": "9小时前",
+      "published": "2026-06-25T17:11:37+00:00",
+      "summary": "DeepReinforce released Ornith-1.0, an open-source coding model family built on Gemma 4 and Qwen 3.5. Instead of a fixed harness, the model learns its own scaffold during reinforcement learning. The 397B flagship reports 82.4 on SWE-Bench Verified, with all weights under the MIT license. The post DeepReinforce Releases Ornith-1.0: An Open-Source Coding Model Family That Learns Its Own RL Scaffolds appeared first on MarkTechPost .",
+      "snark": ""
+    },
+    {
+      "id": 11,
+      "cat": "strategy",
+      "title": "General Intuition’s $2.3B bet that video games can train AI agents for the real world",
+      "title_en": "General Intuition’s $2.3B bet that video games can train AI agents for the real world",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/06/25/general-intuitions-2-3b-bet-that-video-games-can-train-ai-agents-for-the-real-world/",
+      "time": "9小时前",
+      "published": "2026-06-25T16:55:00+00:00",
+      "summary": "General Intuition has raised $320 million to scale AI trained on millions of hours of gameplay, betting action data can help AI develop something closer to human intuition.",
+      "snark": ""
+    },
+    {
+      "id": 12,
+      "cat": "tool",
+      "title": "Databricks’ former AI chief thinks he can cut AI’s power bill by 1,000x",
+      "title_en": "Databricks’ former AI chief thinks he can cut AI’s power bill by 1,000x",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/06/25/databricks-former-ai-chief-thinks-he-can-cut-ais-power-bill-by-1000x/",
+      "time": "9小时前",
+      "published": "2026-06-25T16:48:11+00:00",
+      "summary": "Un-0 is an image-generation system tool that shows for the first time how the company's technology can replicate conventional AI systems.",
+      "snark": ""
+    }
+  ],
+  "stats": {
+    "total": 12,
+    "model_count": 4,
+    "strategy_count": 5,
+    "tool_count": 2,
+    "policy_count": 1
+  }
+}

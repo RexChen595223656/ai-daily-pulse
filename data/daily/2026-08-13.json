@@ -1,0 +1,163 @@
+{
+  "date": "2026-08-13",
+  "generated_at": "2026-08-13T08:11:34.243516+08:00",
+  "highlight": "今日AI圈冰火两重天：亚马逊默认拿主播数据训练引众怒，Cognition估值飙至400亿美元，AI安全与开放之争再起波澜。",
+  "fun": {
+    "lucky": "Grok 4.6",
+    "advice": "宜：大胆秀出你的基准测试分数。\n忌：在分数上过度谦虚，小心被对手超越。",
+    "joke": "程序员去面试AI岗位，面试官问：“你了解Transformer吗？”程序员答：“了解，就是那个能变形又不会变心的机器人。”"
+  },
+  "articles": [
+    {
+      "id": 1,
+      "cat": "policy",
+      "title": "幼童死于食脑变形虫，罕见病例为医生敲响警钟",
+      "title_en": "Toddler's tragic death from brain-destroying amoeba offers lessons for doctors",
+      "source": "Ars Technica",
+      "url": "https://arstechnica.com/health/2026/08/an-ultra-rare-amoeba-was-destroying-a-toddlers-brain-doctors-missed-it/",
+      "time": "1小时前",
+      "published": "2026-08-12T22:31:19+00:00",
+      "summary": "美国一例幼儿因感染福氏耐格里阿米巴原虫（俗称食脑变形虫）不幸离世，其病程中出现的异常症状为医学界提供了宝贵的临床经验。这种原虫感染极为罕见，但致死率极高，早期诊断困难，通常在被发现时已为时已晚。该病例报告详细描述了患儿从初期发热、头痛到病情急剧恶化的全过程，指出一些非典型的早期症状，如嗅觉异常或特定部位的疼痛，可能成为识别该病的关键线索。医生们呼吁，面对有淡水接触史且出现不明原因脑膜炎症状的患者，应提高警惕，尽早进行针对性检测，以便为后续治疗争取宝贵时间。这一案例强调了临床医生对罕见但致命病原体保持警觉的重要性，并有望推动相关诊断指南的更新。",
+      "snark": "建议医生们把‘问病史’改成‘查水表’。"
+    },
+    {
+      "id": 2,
+      "cat": "policy",
+      "title": "Claude新水印引众怒：摸鱼作弊要被抓现行？",
+      "title_en": "Some Claude users are mad that Anthropic’s new watermarks will catch them using it at their jobs, classes",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/08/12/some-claude-users-are-mad-that-anthropics-new-watermarks-will-catch-them-cheating-at-their-jobs-classes/",
+      "time": "1小时前",
+      "published": "2026-08-12T22:26:37+00:00",
+      "summary": "Anthropic为其AI助手Claude引入了一套新的水印系统，旨在识别由AI生成的文本内容。然而，这一旨在提升内容透明度的功能，却意外引发了部分用户的不满。许多用户在社交媒体上抱怨，该水印系统将使他们更容易被雇主或学校发现使用AI完成工作或作业，从而陷入困境。他们认为这是对个人隐私的侵犯，并可能加剧对AI使用者的不信任。尽管Anthropic强调水印技术有助于维护学术诚信和内容溯源，但反对者认为，这种做法将用户置于被监视的境地，忽略了AI作为生产力工具的正当用途。目前，关于该水印系统的技术细节和强制程度尚不明确，但已引发了关于AI伦理与用户权益的广泛讨论。",
+      "snark": "早知如此，何必当初用AI写辞职信。"
+    },
+    {
+      "id": 3,
+      "cat": "policy",
+      "title": "亚马逊默认用Twitch主播内容训练AI，引发众怒",
+      "title_en": "Amazon will train on Twitch streamers’ content by default, unless they opt out",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/08/12/amazon-will-train-on-twitch-streamers-content-by-default-unless-they-opt-out/",
+      "time": "4小时前",
+      "published": "2026-08-12T20:10:40+00:00",
+      "summary": "亚马逊宣布将默认使用Twitch平台主播的直播内容来训练其生成式AI模型，除非主播们主动选择退出。这一“默认同意、选择退出”的策略迅速引发社区强烈反弹。Twitch首席产品官在直播中回应质疑时直言不讳：“如果这是选择加入，没人会加入。”这一言论更加剧了主播们的不满，他们认为平台利用权力地位，将数据使用的负担转嫁给内容创作者，而并未提供公平的补偿或充分的知情权。尽管Twitch提供了退出选项，但许多主播担心该设置入口隐蔽，且无法追溯已用于训练的历史数据。此举再次引发了关于AI训练数据伦理、创作者权益以及平台透明度的大讨论，也让人们对大型科技公司在数据收集上的强势做法感到担忧。",
+      "snark": "翻译一下CPO的话：我知道这很过分，但为了AI，你们忍一下。"
+    },
+    {
+      "id": 4,
+      "cat": "strategy",
+      "title": "AI编程新贵Cognition再传融资，估值飙升至400亿美元",
+      "title_en": "AI coding startup Cognition reportedly already in talks to raise at $40B valuation",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/08/12/ai-coding-startup-cognition-reportedly-already-in-talks-to-raise-at-40b-valuation/",
+      "time": "5小时前",
+      "published": "2026-08-12T18:19:12+00:00",
+      "summary": "据知情人士透露，专注于AI编程领域的初创公司Cognition，正在洽谈新一轮融资，估值可能高达400亿美元。距离该公司上一次融资（以260亿美元估值筹集10亿美元）仅过去数月，如此迅猛的估值增长，反映出资本市场对AI编程赛道近乎狂热的态度。Cognition旗下的AI编程助手Devin能够自主规划和执行复杂的编程任务，被视为下一代软件开发的重要工具。如果本轮融资顺利完成，Cognition将跻身全球最具价值的AI初创公司之列。不过，也有分析师对此表示谨慎，认为当前的高估值建立在未来增长的预期之上，在竞争激烈的AI市场中，如何持续保持技术领先并将其转化为可持续的商业回报，是Cognition面临的巨大挑战。",
+      "snark": "这估值增长速度，比我写代码的速度还快。"
+    },
+    {
+      "id": 5,
+      "cat": "strategy",
+      "title": "AI安全争议声中，三位先驱为何坚持开放路线？",
+      "title_en": "As AI safety concerns mount, three pioneers make the case for staying open",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/08/12/as-ai-safety-concerns-mount-three-pioneers-make-the-case-for-staying-open/",
+      "time": "6小时前",
+      "published": "2026-08-12T17:51:00+00:00",
+      "summary": "在近日举行的Ai4大会上，AI领域的三位标志性人物——杰弗里·辛顿、李飞飞和吴恩达，就AI安全、开源以及中美竞争等议题展开了深入讨论。面对日益高涨的AI安全担忧，三位专家一致呼吁业界保持开放态度，而非走向封闭。他们认为，开源模型能够促进研究的透明度和可复现性，让全球更多的研究者参与到AI安全对齐工作中来，这比少数几家巨头闭门造车更有效。同时，他们指出，在AI技术快速发展的背景下，美国若过度限制开源，反而可能阻碍自身创新，并在与中国的竞争中处于不利地位。这场讨论为当前的AI监管辩论提供了另一种视角，即在安全与创新之间，或许存在一条通过开放合作实现的第三条道路。",
+      "snark": "大佬们的意思是：别关起门来自己吓自己，大家一起卷。"
+    },
+    {
+      "id": 6,
+      "cat": "strategy",
+      "title": "OpenAI押注的企业AI公司Thrive获20亿美元融资",
+      "title_en": "OpenAI-backed Thrive Holdings raises $2B to bring AI to the enterprise",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/08/12/openai-backed-thrive-holdings-raises-2b-to-bring-ai-to-the-enterprise/",
+      "time": "6小时前",
+      "published": "2026-08-12T17:41:29+00:00",
+      "summary": "由OpenAI支持的企业AI解决方案提供商Thrive Holdings宣布，已成功筹集20亿美元新资金，公司估值达到120亿美元。本轮投资由软银、D1 Capital Partners和Altimeter Capital等知名机构领投。Thrive Holdings专注于将先进的AI技术引入大型企业，帮助其优化运营、提升效率。此次巨额融资表明，尽管宏观经济存在不确定性，但资本市场对能够将AI技术切实落地到企业场景的公司依然抱有极大信心。这笔资金将用于进一步扩展Thrive的产品线、扩大销售团队并加深与OpenAI的技术合作。分析人士认为，这轮融资也加剧了企业AI服务市场的竞争，该领域目前已吸引了包括微软、谷歌在内的众多科技巨头和初创公司入局。",
+      "snark": "OpenAI负责造，Thrive负责卖，投资人负责掏钱。"
+    },
+    {
+      "id": 7,
+      "cat": "tool",
+      "title": "AllenAI发布Tulu 3开源教程：16GB显存玩转大模型后训练",
+      "title_en": "AllenAI Open Instruct Tulu 3 Post-Training with SFT, DPO, RLVR, GRPO, and Verifier-Based Evaluation",
+      "source": "MarkTechPost",
+      "url": "https://www.marktechpost.com/2026/08/12/allenai-open-instruct-tulu-3-post-training-with-sft-dpo-rlvr-grpo-and-verifier-based-evaluation/",
+      "time": "6小时前",
+      "published": "2026-08-12T17:37:37+00:00",
+      "summary": "艾伦人工智能研究所（AllenAI）发布了一份关于其Open Instruct框架的详细指南，指导开发者如何构建自定义的大语言模型后训练流水线。该指南以Tulu 3模型为例，系统性地介绍了监督微调（SFT）、直接偏好优化（DPO）以及基于可验证奖励的强化学习（RLVR，使用GRPO算法）等关键技术。重要的是，该教程声称这些流程经过优化，可以在仅16GB显存的消费级硬件上高效运行，大大降低了开发者进行模型定制和微调的门槛。此外，指南还涵盖了基于验证器的评估方法，帮助开发者更客观地衡量模型性能。这一资源的发布，使得更多研究者和工程师能够上手复杂的模型后训练技术，有望进一步推动开源模型生态的繁荣和个性化AI应用的普及。",
+      "snark": "妈妈再也不用担心我的显卡带不动大模型了。"
+    },
+    {
+      "id": 8,
+      "cat": "tool",
+      "title": "Twitch主播可主动退出亚马逊AI训练，但历史数据难追溯",
+      "title_en": "Twitch streamers can now opt out from training Amazon’s AI",
+      "source": "The Verge AI",
+      "url": "https://www.theverge.com/tech/979112/twitch-streamers-can-now-opt-out-from-training-amazons-ai",
+      "time": "6小时前",
+      "published": "2026-08-12T17:29:10+00:00",
+      "summary": "继亚马逊宣布默认使用Twitch内容训练AI引发争议后，Twitch平台现已正式为主播提供退出选项。主播们可以通过设置，选择不让自己的直播流、视频点播、剪辑、聊天记录以及频道内的图片和文字等内容用于亚马逊生成式AI模型的“未来训练”。然而，这一选项仅限于“未来”的数据，对于此前已被抓取并可能用于训练的历史数据，主播们依然无能为力。尽管Twitch和亚马逊提供了这一补救措施，但许多创作者认为这只是权宜之计，并未从根本上解决数据权利和透明度的核心问题。该事件也再次凸显了在AI时代，内容创作者与平台之间关于数据所有权和使用的权力博弈。",
+      "snark": "亡羊补牢，为时已晚，羊已经被AI吃干抹净了。"
+    },
+    {
+      "id": 9,
+      "cat": "policy",
+      "title": "美国移民局拟购电击手套，AI执法引发伦理争议",
+      "title_en": "ICE wants to give agents electrified gloves that shock people into compliance",
+      "source": "The Verge",
+      "url": "https://www.theverge.com/policy/979010/ice-agents-electric-shock-gloves",
+      "time": "7小时前",
+      "published": "2026-08-12T16:58:29+00:00",
+      "summary": "美国移民和海关执法局（ICE）的一份采购通知显示，该机构计划花费高达2000万美元，为执法人员配备一种能够释放强大电击的特制手套，以“迫使”不配合的人员服从命令。该计划由国土安全部于本周一发布，但通知中并未明确采购数量。这一消息迅速引发巨大争议，民权组织和科技伦理专家纷纷谴责该计划，认为这种执法工具不仅残忍且可能致命，严重侵犯人权，且将科技用于压迫性执法是危险的倒退。目前，ICE尚未对该计划做出详细说明，但已面临巨大的舆论压力，要求其放弃采购并公开更多细节。此事也引发了关于执法部门在AI和新兴科技辅助下权力边界的广泛讨论。",
+      "snark": "建议别用电击，改用AI生成一万条催更通知，保证烦死他们。"
+    },
+    {
+      "id": 10,
+      "cat": "tool",
+      "title": "Automattic旗下AI关系管理应用Mesh登陆安卓平台",
+      "title_en": "Mesh, Automattic’s CRM for everyone, comes to Android",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/08/12/mesh-automattics-crm-for-everyone-comes-to-android/",
+      "time": "7小时前",
+      "published": "2026-08-12T16:57:58+00:00",
+      "summary": "知名博客平台WordPress的母公司Automattic，将其AI驱动的联系人管理与关系维护应用Mesh带到了安卓平台。这款应用旨在成为“适合所有人的客户关系管理（CRM）工具”，帮助个人用户更好地管理其社交圈和职业人脉。Mesh利用AI技术自动整理联系人信息，智能提醒用户与重要的人保持联系，甚至能根据聊天记录生成联系摘要。此次安卓版本的发布，标志着Mesh在iOS版本之后，正式向更广泛的用户群体开放。Automattic希望通过这款应用，将原本复杂的企业级关系管理功能，以更轻量、更智能的方式融入普通用户的日常生活，帮助人们更高效地维护个人社交网络。",
+      "snark": "AI已经进化到要帮我维系塑料友情了。"
+    },
+    {
+      "id": 11,
+      "cat": "model",
+      "title": "Grok 4.6基准测试出炉：61分跻身顶尖AI模型行列",
+      "title_en": "Grok 4.6 scores 61 on the Artificial Analysis Intelligence Index",
+      "source": "Hacker News",
+      "url": "https://artificialanalysis.ai/articles/grok-4-6-benchmarks-and-analysis",
+      "time": "7小时前",
+      "published": "2026-08-12T16:54:25+00:00",
+      "summary": "根据人工智能分析平台Artificial Analysis发布的最新评测，xAI公司开发的Grok 4.6模型在Artificial Analysis Intelligence Index上取得了61分的成绩。该指数综合衡量模型的综合能力、推理、编码等多个维度，61分的得分使Grok 4.6跻身于当前顶尖AI模型的行列，与业界领先的其他大模型（如OpenAI和谷歌的旗舰模型）处于同一竞争梯队。这一成绩发布后，在Hacker News等开发者社区引发了热烈讨论，许多用户对该模型的性能表示惊讶和认可。Grok 4.6的优异表现，进一步加剧了AI大模型领域的军备竞赛，也证明了xAI在模型研发上的快速进步。",
+      "snark": "马斯克：看，我们的模型不仅会讲段子，还会考高分。"
+    },
+    {
+      "id": 12,
+      "cat": "strategy",
+      "title": "麻省理工科技评论：用可信数据扩展AI智能体规模",
+      "title_en": "Scaling AI agents with trustworthy data",
+      "source": "MIT Tech Review",
+      "url": "https://www.technologyreview.com/2026/08/12/1141032/scaling-ai-agents-with-trustworthy-data/",
+      "time": "7小时前",
+      "published": "2026-08-12T16:51:57+00:00",
+      "summary": "《麻省理工科技评论》发文指出，企业领导者们已确信智能体AI的时代已经到来，并正迅速采用相关技术。然而，许多组织在实现预期的投资回报率时遇到了瓶颈，而问题的关键往往在于数据。文章认为，当前AI智能体的能力高度依赖于其训练和推理所依据的数据质量。不可信、不完整或存在偏见的数据将直接导致智能体做出错误决策，从而限制其规模化应用。因此，企业若想真正释放AI智能体的潜力，必须优先构建一套可信赖的数据基础设施。这包括建立完善的数据治理框架、确保数据来源的可靠性和一致性，并实施对AI输出进行持续监控和验证的机制。文章强调，从“数据驱动”转向“数据可信”，是下一阶段企业AI战略的核心。",
+      "snark": "AI智能体说：数据不好，臣妾做不到啊。"
+    }
+  ],
+  "stats": {
+    "total": 12,
+    "model_count": 1,
+    "strategy_count": 4,
+    "tool_count": 3,
+    "policy_count": 4
+  }
+}

@@ -1,0 +1,143 @@
+{
+  "date": "2026-07-13",
+  "generated_at": "2026-07-13T08:02:51.936296+08:00",
+  "highlight": "苹果起诉OpenAI窃取商业机密，Anthropic澄清Claude变笨真相，AI数据采集赛道融资热持续。",
+  "fun": {
+    "lucky": "SK海力士",
+    "advice": "宜：囤积内存芯片，为2027年短缺做准备。\n忌：轻信客户长期供货协议，小心画饼充饥。",
+    "joke": "为什么AI总是失眠？因为它一直在做循环神经网络（RNN）。"
+  },
+  "articles": [
+    {
+      "id": 1,
+      "cat": "strategy",
+      "title": "SK海力士CEO预警2027年存储大短缺，苹果起诉OpenAI窃密",
+      "title_en": "8点1氪丨SK海力士CEO称史上最大存储短缺将在明年到来；苹果起诉OpenAI窃取商业机密‌；赛力斯预计上半年净亏损15亿元-18亿元",
+      "source": "36氪",
+      "url": "https://36kr.com/p/3893305996442118?f=rss",
+      "time": "7分钟前",
+      "published": "2026-07-12T23:55:49+00:00",
+      "summary": "SK海力士首席执行官郭鲁正预测，2027年将成为存储行业历史上供应最紧张的一年，客户纷纷寻求长期供货协议，但产能扩张受限。公司考虑推出“内存即服务”模式，允许客户租赁而非购买芯片。此外，苹果正式起诉OpenAI窃取商业机密，引发行业震动。赛力斯预计上半年净亏损15亿至18亿元，同时世界杯决赛草皮以3050元价格售罄，展现消费市场奇观。马斯克要求特斯拉员工转向使用自家AI模型Grok，进一步强化内部生态。",
+      "snark": "存储短缺？看来明年大家都要学会“内存即服务”式省着用了。"
+    },
+    {
+      "id": 2,
+      "cat": "policy",
+      "title": "苹果起诉OpenAI窃取商业机密，变压器短缺掣肘数据中心扩张",
+      "title_en": "派早报：苹果起诉 OpenAI 窃取商业机密",
+      "source": "少数派",
+      "url": "https://sspai.com/post/112215",
+      "time": "1小时前",
+      "published": "2026-07-12T22:58:18+00:00",
+      "summary": "苹果正式对OpenAI提起诉讼，指控其窃取商业机密，具体细节尚未完全公开，但此举被视为科技巨头在AI领域竞争加剧的信号。与此同时，变压器短缺正成为数据中心扩张的瓶颈，影响AI算力基础设施部署。此外，世界杯带动小红书使用时长大幅提升，废弃IBM园区成网红景点，SpaceX申请发射十万颗卫星，高技能人士大规模“打零工”参与模型训练，揭示AI训练数据采集的劳动力新形态。",
+      "snark": "苹果起诉OpenAI：你偷我秘密！OpenAI：我偷你什么了？苹果：你偷了我未来的AI战略！"
+    },
+    {
+      "id": 3,
+      "cat": "tool",
+      "title": "歌手Lorde批评雷朋Meta AI眼镜“不性感”",
+      "title_en": "Lorde says Ray-Ban Meta AI glasses are ‘not sexy’",
+      "source": "The Verge AI",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/964539/lorde-says-ray-ban-meta-ai-glasses-are-not-sexy",
+      "time": "3小时前",
+      "published": "2026-07-12T20:10:19+00:00",
+      "summary": "歌手Lorde在马德里Real Cool音乐节表演期间，公开批评AI眼镜“不性感”，尽管未明确点名品牌，但矛头很可能指向音乐节赞助商雷朋与Meta合作推出的AI眼镜。Lorde的言论反映了公众对可穿戴AI设备外观的审美质疑，也凸显了AI硬件在时尚与功能之间的平衡难题。此类明星公开吐槽可能影响消费者对AI穿戴设备的接受度，尤其当产品设计未能满足用户对美学和隐私的双重期待时。",
+      "snark": "Lorde说AI眼镜不性感，Meta工程师默默把眼镜腿改成了高跟鞋形状。"
+    },
+    {
+      "id": 4,
+      "cat": "model",
+      "title": "循环工程指南：如何用“自动研究”和“双层自动研究”让AI智能体成为自主机器学习研究循环",
+      "title_en": "Guide to Loop Engineering: How ‘autoresearch’ and ‘Bilevel Autoresearch’ Turn AI Agents Into Autonomous Machine Learning ML Research Loops",
+      "source": "MarkTechPost",
+      "url": "https://www.marktechpost.com/2026/07/12/guide-to-loop-engineering/",
+      "time": "3小时前",
+      "published": "2026-07-12T20:07:02+00:00",
+      "summary": "MarkTechPost发布了一份关于循环工程的指南，基于Andrej Karpathy的自动研究仓库和双层自动研究两个已验证成果。该指南指出，大多数人仍像使用2015年搜索框一样使用AI——输入、阅读、再输入。循环工程通过构建闭环系统，取代这种手动来回交互，使AI智能体能够自主进行机器学习研究。具体方法包括设计自动化的研究循环，让模型在迭代中自我改进，最终实现无需人工干预的持续学习。这标志着AI从被动工具向主动研究者的转变，可能大幅加速模型研发效率。",
+      "snark": "循环工程：让AI自己研究自己，然后人类就可以放心去摸鱼了。"
+    },
+    {
+      "id": 5,
+      "cat": "tool",
+      "title": "苹果失败的自驾汽车项目留下强大AI芯片遗产",
+      "title_en": "Apple’s failed self-driving car program left a legacy of powerful AI chips",
+      "source": "The Verge AI",
+      "url": "https://www.theverge.com/tech/964519/apple-silicon-self-driving-car-ai-m7-ultra",
+      "time": "7小时前",
+      "published": "2026-07-12T16:27:06+00:00",
+      "summary": "苹果的自动驾驶汽车项目虽未成功落地，但其开发过程中积累的芯片技术意外成为公司AI能力的核心。早期开发时，苹果意识到需要强大的设备端AI处理能力，由此催生了苹果硅芯片系列。这些芯片最初为汽车设计，后转用于Mac和iPhone，成为当前AI推理的关键硬件。文章指出，尽管汽车项目已终止，但其技术遗产通过M7、Ultra等芯片延续，支撑了苹果在AI领域的竞争力，证明失败的项目也可能孕育出改变行业的技术。",
+      "snark": "苹果汽车没造出来，但芯片成了AI界的“遗腹子”，也算死得其所。",
+      "multiSource": [
+        "The Verge",
+        "The Verge AI"
+      ]
+    },
+    {
+      "id": 6,
+      "cat": "strategy",
+      "title": "对抗AI数据中心的战斗才刚刚开始",
+      "title_en": "The fight against AI data centers is just beginning",
+      "source": "The Verge AI",
+      "url": "https://www.theverge.com/column/963346/ai-data-centers-fight",
+      "time": "12小时前",
+      "published": "2026-07-12T12:00:00+00:00",
+      "summary": "The Verge专栏文章指出，围绕AI数据中心的建设争议正日益激烈。早在AI热潮爆发前，数据中心扩张就已引发社区抗议、能源消耗和环境担忧。随着AI模型规模持续增长，数据中心对电力、水资源和土地的需求激增，导致当地居民和环保组织发起抵制。文章认为，这场对抗将随着AI普及而升级，涉及政策制定、企业责任和公众利益之间的平衡。未来数据中心选址可能面临更严格的监管，企业需在技术需求与社会影响之间寻找折中方案。",
+      "snark": "AI数据中心：一边算着最聪明的算法，一边挨着最凶的骂。"
+    },
+    {
+      "id": 7,
+      "cat": "strategy",
+      "title": "腾讯重仓云豹智能冲刺“国产DPU第一股”",
+      "title_en": "腾讯重仓一个IPO",
+      "source": "36氪",
+      "url": "https://36kr.com/p/3892352153942530?f=rss",
+      "time": "16小时前",
+      "published": "2026-07-12T07:59:37+00:00",
+      "summary": "深圳云豹智能股份有限公司创业板IPO申请获深交所受理，有望成为“国产DPU第一股”。公司由斯坦福博士萧启阳6年前创立，专注于DPU（数据处理单元）赛道，成立两个月后行业即爆发。腾讯是其最大股东，与广东国资投资的粤芯半导体一同成为大湾区半导体标志性案例。DPU作为数据中心加速关键芯片，在AI算力需求激增背景下备受资本追捧。云豹智能的上市将检验国产DPU的商业化能力，也为腾讯的硬科技投资布局增添重要砝码。",
+      "snark": "腾讯：我投的DPU公司要上市了，以后你们用的AI芯片可能都姓“云”。"
+    },
+    {
+      "id": 8,
+      "cat": "model",
+      "title": "全网骂Claude变笨，Anthropic下场揭秘：坑你的不是模型",
+      "title_en": "全网骂Claude变笨，Anthropic下场揭秘：坑你的不是模型",
+      "source": "36氪",
+      "url": "https://36kr.com/p/3892222176574211?f=rss",
+      "time": "18小时前",
+      "published": "2026-07-12T05:47:23+00:00",
+      "summary": "针对用户抱怨Claude Code变笨的舆论，Anthropic官方发布长文澄清：问题不在模型本身，而在于用户混淆了“模型选择”和“努力度”两个参数。许多用户误以为换用更大模型（如最贵的Fable）就能提升效果，但实际上，调整努力度参数才是关键。Anthropic解释，努力度控制模型在单次任务中投入的计算资源，而模型选择只决定能力上限。用户盲目升级模型不仅浪费金钱，还可能因参数不匹配导致性能下降。官方建议用户先优化努力度设置，再考虑模型升级。",
+      "snark": "Claude：你们骂我笨，其实是你们自己没调对参数，这锅我不背。"
+    },
+    {
+      "id": 9,
+      "cat": "tool",
+      "title": "近百名玩家涌入具身数据赛道：一年融资44.7亿，谁能真靠“卖数据”赚钱？",
+      "title_en": "近百名玩家涌入具身数据 : 一年融资44.7亿，谁能真靠“卖数据”赚钱？",
+      "source": "36氪",
+      "url": "https://36kr.com/p/3892027841362694?f=rss",
+      "time": "21小时前",
+      "published": "2026-07-12T02:16:07+00:00",
+      "summary": "具身数据采集赛道火热，近百家企业入局，一年融资总额达44.7亿元。创新模式层出不穷：湖南郴州出现“具身数据采集5S店”，顾客佩戴夹爪和头戴相机做家务即可采集机器人训练数据；还有企业提供免费上门保洁服务以换取数据，或将采集流程做成VR游戏，甚至通过互联网远程“云操控”机器人。然而，真正符合机器人训练要求的高质量数据采集并不容易，许多“花活”更多是营销噱头。行业面临数据质量、成本控制和标准化等挑战，谁能真正实现商业化盈利仍是未知数。",
+      "snark": "具身数据采集：让你边做家务边为AI打工，这算不算新型“数字劳工”？"
+    },
+    {
+      "id": 10,
+      "cat": "strategy",
+      "title": "Mira Murati的Thinking Machines Lab发布以人为中心的AI技术论证",
+      "title_en": "Mira Murati’s Thinking Machines Lab Makes The Technical Case For Human-Centered AI Built On Customizable Model Weights",
+      "source": "MarkTechPost",
+      "url": "https://www.marktechpost.com/2026/07/11/mira-muratis-thinking-machines-lab-makes-the-technical-case-for-human-centered-ai-built-on-customizable-model-weights/",
+      "time": "23小时前",
+      "published": "2026-07-12T00:46:13+00:00",
+      "summary": "由前OpenAI首席技术官Mira Murati创立的Thinking Machines Lab发布论文《值得构建的未来是人性化的》，将人类参与、模型所有权和去中心化对齐定位为技术挑战。论文提出通过交互模型和Tinker的LoRA微调方法实现，让团队训练并保留自己的模型权重。该框架强调用户对模型权重的可定制性，旨在打破大公司对AI模型的垄断，推动AI民主化。论文从技术角度论证了以人为中心的AI可行性，为开源社区和中小企业提供了新的开发范式。",
+      "snark": "Mira：未来AI应该是人类的，不是OpenAI的。OpenAI：你这话听着好耳熟。"
+    }
+  ],
+  "stats": {
+    "total": 10,
+    "model_count": 2,
+    "strategy_count": 4,
+    "tool_count": 3,
+    "policy_count": 1
+  }
+}

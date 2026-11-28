@@ -1,0 +1,123 @@
+{
+  "date": "2026-08-03",
+  "generated_at": "2026-08-03T08:01:27.081194+08:00",
+  "highlight": "今日焦点：OpenAI 掌门人呼吁 AI 减速，与业界加速开源的势头形成鲜明对比。",
+  "fun": {
+    "lucky": "Inkling-Small",
+    "advice": "宜：精打细算，用小模型撬动大场景。\n忌：盲目跟风，堆参数不如堆效率。",
+    "joke": "程序员问AI：你会取代我吗？AI答：不会，但我能写代码让你看起来像被取代了。"
+  },
+  "articles": [
+    {
+      "id": 1,
+      "cat": "tool",
+      "title": "GeoAI实战教程：基于U-Net、Grounding DINO、SAM与Mask R-CNN的建筑物足迹提取",
+      "title_en": "A Tutorial on GeoAI: Designing Footprint Extraction from NAIP Imagery Using U-Net, Grounding DINO, SAM, and Mask R-CNN",
+      "source": "MarkTechPost",
+      "url": "https://www.marktechpost.com/2026/08/02/a-tutorial-on-geoai-designing-footprint-extraction-from-naip-imagery-using-u-net-grounding-dino-sam-and-mask-r-cnn/",
+      "time": "2小时前",
+      "published": "2026-08-02T21:19:48+00:00",
+      "summary": "MarkTechPost 发布了一篇详尽的 GeoAI 教程，旨在教授如何从高分辨率 NAIP 航空影像中自动提取建筑物足迹。教程首先指导用户配置地理空间深度学习环境，包括下载栅格影像和矢量标签，并检查其空间属性以确保数据对齐。随后，教程深入探讨了四种主流模型的集成应用：U-Net 作为经典的语义分割基线，Grounding DINO 用于开放集目标检测，SAM 提供强大的分割能力，以及 Mask R-CNN 用于实例分割。通过对比这些模型在建筑物提取任务中的表现，教程展示了如何根据具体场景选择合适的模型架构，并提供了完整的代码实现与调参建议，为地理空间分析与地图更新提供了实用的技术路径。",
+      "snark": "教程是好教程，就是看完感觉我的显卡又要冒烟了。"
+    },
+    {
+      "id": 2,
+      "cat": "strategy",
+      "title": "山姆·奥特曼与AI减速辩论：行业巨头为何呼吁踩刹车？",
+      "title_en": "Sam Altman and AI’s decel debate",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/08/02/sam-altman-and-ais-decel-debate/",
+      "time": "3小时前",
+      "published": "2026-08-02T20:54:22+00:00",
+      "summary": "在最新一期的 TechCrunch 播客节目《Equity》中，主持人深入探讨了 OpenAI 首席执行官山姆·奥特曼近期关于呼吁业界“放慢 AI 发展速度”的言论。奥特曼的这番表态在行业内引发了广泛争议，因为这与他一贯积极推动 AI 前沿发展的形象形成鲜明对比。节目分析了奥特曼此番表态可能背后的多重考量，包括对 AI 安全风险的担忧、社会适应性不足的顾虑，以及可能存在的监管压力。同时，节目也讨论了行业内其他领袖对此观点的不同看法，呈现出关于 AI 发展速度与安全之间平衡的复杂辩论，并反思了在技术竞赛白热化的当下，减速是否真的可行，或者仅仅是一种理想化的姿态。",
+      "snark": "奥特曼说减速，就像饿汉说减肥，听听就好。"
+    },
+    {
+      "id": 3,
+      "cat": "model",
+      "title": "Thinking Machines Lab 发布 Inkling-Small：276B 总参数、12B 激活的开源多模态 MoE 模型",
+      "title_en": "Thinking Machines Lab Releases Inkling-Small: A 276B Total, 12B Active Open Weights Multimodal MoE Model",
+      "source": "MarkTechPost",
+      "url": "https://www.marktechpost.com/2026/08/02/thinking-machines-lab-releases-inkling-small-276b-open-weights-multimodal-moe-model/",
+      "time": "3小时前",
+      "published": "2026-08-02T20:35:50+00:00",
+      "summary": "Thinking Machines Lab 正式发布了其最新的开源多模态模型 Inkling-Small。该模型采用混合专家架构，总参数量高达 2760 亿，但每次推理仅激活 120 亿参数，实现了高效的计算资源利用。据官方介绍，Inkling-Small 在性能上与其前代产品 Inkling 持平，但体积仅为后者的四分之一。尤为引人注目的是，其 NVFP4 量化版本可以在单张英伟达 B300 GPU 上流畅运行，极大地降低了部署门槛。这一发布标志着在保持高性能的同时，通过稀疏激活和量化技术推动大模型在更广泛硬件上的可用性，为开源社区和企业级应用提供了更具成本效益的选择。",
+      "snark": "276B总参数听着吓人，但只动12B，这算不算AI界的摸鱼大师？"
+    },
+    {
+      "id": 4,
+      "cat": "tool",
+      "title": "硬核评测：让AI生成一只拥有哈布斯堡下颌的青蛙SVG",
+      "title_en": "My personal AI benchmark: \"Generate an SVG of a frog with a Habsburg jaw.\"",
+      "source": "Hacker News",
+      "url": "https://frogs.vaguespac.es/",
+      "time": "4小时前",
+      "published": "2026-08-02T19:42:08+00:00",
+      "summary": "一位开发者在其个人网站上发起了一项别开生面的 AI 基准测试，要求多个 AI 模型生成一个包含“哈布斯堡下颌”特征的青蛙 SVG 图像。这项测试迅速在 Hacker News 上引发热议，获得了 83 个点赞和 41 条评论。该测试的趣味性与挑战性并存，它不仅考验了模型对复杂生物特征的语义理解能力，还检验了模型将抽象描述转化为精确矢量图形代码的能力。哈布斯堡下颌作为一种罕见且特定的面部特征，对模型的先验知识储备和指令遵循能力提出了极高要求。这一非传统的基准测试，从一个侧面揭示了当前 AI 在视觉生成与语言理解结合方面的能力边界，并引发了关于如何设计更有效、更具挑战性的 AI 评估方法的讨论。",
+      "snark": "AI可能没搞懂哈布斯堡下颌，但绝对学会了画抽象派青蛙。"
+    },
+    {
+      "id": 5,
+      "cat": "strategy",
+      "title": "Fender CEO 言论引争议：称乐队成员不过是“模拟AI”",
+      "title_en": "Fender’s CEO seems to think your bandmates are just analog AI",
+      "source": "The Verge AI",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/974265/fender-ceo-bud-cole-ai-music",
+      "time": "4小时前",
+      "published": "2026-08-02T19:36:08+00:00",
+      "summary": "吉他制造商 Fender 的首席执行官爱德华·“巴德”·科尔在五月为庆祝 Telecaster 吉他问世 75 周年接受 T3 采访时，发表了一番关于 AI 与音乐的惊人言论，近日在网络上持续发酵。科尔似乎将人类乐队成员比作“模拟 AI”，这一表述被广泛解读为对音乐创作中人类价值的轻视，引发了音乐人和乐迷的强烈不满。在 Fender 公司本就面临公关危机的情况下，此番言论无异于火上浇油。批评者认为，将人类艺术家降格为“模拟 AI”不仅是对创作过程的误解，更是对音乐产业核心价值的冒犯，凸显了部分科技行业高管对艺术人文领域的傲慢与偏见。",
+      "snark": "Fender CEO 这么说，怕不是想让我们都去弹电子琴？",
+      "multiSource": [
+        "The Verge",
+        "The Verge AI"
+      ]
+    },
+    {
+      "id": 6,
+      "cat": "policy",
+      "title": "付费就能让艺术家拥抱AI吗？生成式AI版权问题的深层探讨",
+      "title_en": "Is paying artists enough to convince them to embrace AI?",
+      "source": "The Verge AI",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/974018/pippa-seedance-artist-royalties",
+      "time": "11小时前",
+      "published": "2026-08-02T13:00:00+00:00",
+      "summary": "本文深入探讨了在生成式人工智能领域，仅仅向艺术家支付费用是否足以解决其作品被用于训练模型所引发的伦理与法律争议。长期以来，插画师等视觉艺术家一直对 AI 初创公司在未经许可的情况下使用其作品训练模型表示强烈抗议，认为这种行为无异于盗窃。作为回应，许多 AI 支持者辩称，使用公开数据是技术发展的必要前提。文章指出，简单地支付版税可能无法平息艺术家的根本担忧，因为问题核心在于知情同意、创作控制权以及对艺术创作本质的尊重。文章通过分析 Pippa 等案例（如 Seedance 的艺术家版税计划），探讨了现有的补偿机制是否真的公平，以及建立更加透明、尊重创作者权益的授权模式的可能性与挑战。",
+      "snark": "打一巴掌给个甜枣？艺术家们表示：这枣有点硌牙。",
+      "multiSource": [
+        "The Verge",
+        "The Verge AI"
+      ]
+    },
+    {
+      "id": 7,
+      "cat": "tool",
+      "title": "NVIDIA 发布 Molt：一个 PyTorch 原生的智能体强化学习框架",
+      "title_en": "NVIDIA AI Releases Molt: A PyTorch-Native Agentic Reinforcement Learning Framework",
+      "source": "MarkTechPost",
+      "url": "https://www.marktechpost.com/2026/08/01/nvidia-ai-releases-molt-a-pytorch-native-agentic-reinforcement-learning-framework/",
+      "time": "17小时前",
+      "published": "2026-08-02T06:21:26+00:00",
+      "summary": "NVIDIA 正式发布了 Molt，一个专为智能体强化学习（Agentic RL）设计的 PyTorch 原生框架。该框架的核心目标是解决主流强化学习框架中因算法频繁修改而带来的高昂工程成本，这些修改往往需要联动调整训练器、分布式后端和 rollout 逻辑。Molt 通过仅约 8600 行 RL 核心代码，巧妙地整合了 Ray、vLLM 和 NeMo AutoModel，并构建在一个异步循环之上，从而大幅简化了开发流程。这一设计使得研究人员能够更加专注于算法创新，而无需在分布式系统集成的泥潭中挣扎。Molt 的发布旨在提升智能体强化学习研究的迭代效率，为探索复杂环境下的智能体行为提供更轻量、更高效的开发工具。",
+      "snark": "8600行代码就想搞定RL？这简直是给炼丹师发的速效救心丸。"
+    },
+    {
+      "id": 8,
+      "cat": "tool",
+      "title": "TimesFM 2.5 端到端预测实战：回测、协变量、异常检测与 Colab 部署",
+      "title_en": "End-to-End Forecasting with TimesFM 2.5: Backtesting, Covariates, Anomaly Detection, and Scalable Colab Deployment",
+      "source": "MarkTechPost",
+      "url": "https://www.marktechpost.com/2026/08/01/end-to-end-forecasting-with-timesfm-2-5-backtesting-covariates-anomaly-detection-and-scalable-colab-deployment/",
+      "time": "18小时前",
+      "published": "2026-08-02T05:44:14+00:00",
+      "summary": "MarkTechPost 发布了一篇关于使用 Google 最新时间序列基础模型 TimesFM 2.5 构建高级端到端预测工作流的教程。教程内容循序渐进，首先指导用户配置运行时环境、安装依赖库并检测可用硬件。随后，通过生成一个包含趋势、季节性、定价和促销等多种因素的真实多门店零售数据集，教程详细演示了如何利用 TimesFM 2.5 进行回测，以评估模型的历史预测表现。此外，教程还重点讲解了如何整合外部协变量以提升预测精度，以及如何利用模型进行异常检测，识别数据中的异常模式。最后，教程展示了如何在可扩展的 Colab 环境中部署整个预测流程，为开发者提供了一套从数据准备到模型部署的完整实践指南。",
+      "snark": "教程很好，但预测准不准，还得看你的数据是不是‘干净’得像刚洗过。"
+    }
+  ],
+  "stats": {
+    "total": 8,
+    "model_count": 1,
+    "strategy_count": 2,
+    "tool_count": 4,
+    "policy_count": 1
+  }
+}

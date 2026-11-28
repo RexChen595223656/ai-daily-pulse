@@ -1,0 +1,163 @@
+{
+  "date": "2026-08-15",
+  "generated_at": "2026-08-15T08:10:18.004321+08:00",
+  "highlight": "AI 摘要暂时不可用，请稍后刷新",
+  "fun": {},
+  "articles": [
+    {
+      "id": 1,
+      "cat": "tool",
+      "title": "Show HN: Mole – Deep research agent for your terminal",
+      "title_en": "Show HN: Mole – Deep research agent for your terminal",
+      "source": "Hacker News",
+      "url": "https://github.com/lajosdeme/mole",
+      "time": "5小时前",
+      "published": "2026-08-14T18:52:48+00:00",
+      "summary": "Doing research with agents is fun until they blow way past budget, jumble the sources, and don't even give you the best possible answer, just sound confident. And if you want to run some research task on local data - you have no idea where your data ends up after the prompt consumes it. So I built this tool: a deep-research agent with an enforced budget, verified quotes, and a privacy boundary for local data. 1. Never spend more than you budgeted (measured overshoot is 0%). 2. Every claim carrie",
+      "snark": ""
+    },
+    {
+      "id": 2,
+      "cat": "strategy",
+      "title": "The X-Files creator Chris Carter wanted to make a more horrific movie",
+      "title_en": "The X-Files creator Chris Carter wanted to make a more horrific movie",
+      "source": "The Verge",
+      "url": "https://www.theverge.com/entertainment/979925/the-x-files-chris-carter-vrach-frankenshteyn-interview-hulu",
+      "time": "6小时前",
+      "published": "2026-08-14T18:00:00+00:00",
+      "summary": "The version of The X-Files: I Want to Believe that premiered in 2008 was not exactly the movie co-writer / director Chris Carter intended to make. Carter wanted to bring agents Mulder and Scully back to the big screen with a grisly story about faith and the supernatural. But executives at 20th Century Fox felt [&#8230;]",
+      "snark": ""
+    },
+    {
+      "id": 3,
+      "cat": "strategy",
+      "title": "Suspecting court of using AI, man injected prompts in filings to try to win case",
+      "title_en": "Suspecting court of using AI, man injected prompts in filings to try to win case",
+      "source": "Ars Technica",
+      "url": "https://arstechnica.com/tech-policy/2026/08/suspecting-court-of-using-ai-man-injected-prompts-in-filings-to-try-to-win-case/",
+      "time": "6小时前",
+      "published": "2026-08-14T17:26:53+00:00",
+      "summary": "Judge warns pro se litigants are using chatbots wrong and getting desperate.",
+      "snark": ""
+    },
+    {
+      "id": 4,
+      "cat": "strategy",
+      "title": "PBS station fears losing 50TB of data after being ghosted by cloud storage provider",
+      "title_en": "PBS station fears losing 50TB of data after being ghosted by cloud storage provider",
+      "source": "Ars Technica",
+      "url": "https://arstechnica.com/information-technology/2026/08/pbs-station-fears-losing-50tb-of-data-after-being-ghosted-by-cloud-storage-provider/",
+      "time": "7小时前",
+      "published": "2026-08-14T17:03:54+00:00",
+      "summary": "\"We don't have access to the data on the hardware/servers,\" Iron Mountain told Ars.",
+      "snark": ""
+    },
+    {
+      "id": 5,
+      "cat": "tool",
+      "title": "Mark Zuckerberg has an Instagzam",
+      "title_en": "Mark Zuckerberg has an Instagzam",
+      "source": "The Verge AI",
+      "url": "https://www.theverge.com/podcast/980367/instagram-logo-new-zuckerberg-ai-vergecast",
+      "time": "7小时前",
+      "published": "2026-08-14T16:54:16+00:00",
+      "summary": "Instagram's wordmark is iconic. Well, was iconic. Apparently Instagram thought it looked old, so the company rolled out a new one this week. It doesn't look like the old Instagram wordmark. It doesn't even look like it spells Instagram anymore. And we cannot figure out why Instagram decided to do this. On this episode of [&#8230;]",
+      "snark": ""
+    },
+    {
+      "id": 6,
+      "cat": "tool",
+      "title": "You can now turn off Google Gemini&#8217;s visible watermarks",
+      "title_en": "You can now turn off Google Gemini&#8217;s visible watermarks",
+      "source": "The Verge AI",
+      "url": "https://www.theverge.com/tech/980416/google-gemini-ai-watermarks-removal",
+      "time": "7小时前",
+      "published": "2026-08-14T16:39:32+00:00",
+      "summary": "Google will now allow you to remove visible watermarks from the images, videos, and music made with AI tools. With the update, you can toggle off a new \"Media watermark\" setting in Gemini and Google's AI video generator, Flow. When toggled off, Google will remove the \"sparkle\" watermark that appears in the bottom-right corner of [&#8230;]",
+      "snark": "",
+      "multiSource": [
+        "The Verge",
+        "The Verge AI"
+      ]
+    },
+    {
+      "id": 7,
+      "cat": "model",
+      "title": "Google will now allow users to remove visible watermark from its AI generations",
+      "title_en": "Google will now allow users to remove visible watermark from its AI generations",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/08/14/google-will-now-allow-users-to-remove-visible-watermark-from-its-ai-generations/",
+      "time": "7小时前",
+      "published": "2026-08-14T16:13:40+00:00",
+      "summary": "Turning off this setting won't affect invisible benchmarks used to identify an AI generated file.",
+      "snark": ""
+    },
+    {
+      "id": 8,
+      "cat": "model",
+      "title": "Does Mark Zuckerberg really believe AI is ‘for everyone’?",
+      "title_en": "Does Mark Zuckerberg really believe AI is ‘for everyone’?",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/video/does-mark-zuckerberg-really-believe-ai-is-for-everyone/",
+      "time": "8小时前",
+      "published": "2026-08-14T15:43:28+00:00",
+      "summary": "Meta released Glimmer this week, an open-weight AI&#160;model&#160;anyone can download and run on their own hardware&#160;— a contrast to&#160;Muse&#160;Spark, the company’s more powerful model that stays locked behind its own APIs. The release landed alongside&#160;a letter from Mark Zuckerberg&#160;arguing AI should be “for everyone” rather than controlled by a handful of labs, but as Equity’s [&#8230;]",
+      "snark": ""
+    },
+    {
+      "id": 9,
+      "cat": "strategy",
+      "title": "Kog is going deeper to squeeze more inference out of GPUs",
+      "title_en": "Kog is going deeper to squeeze more inference out of GPUs",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/08/14/kog-is-going-deeper-to-squeeze-more-inference-out-of-gpus/",
+      "time": "9小时前",
+      "published": "2026-08-14T14:50:11+00:00",
+      "summary": "The idea that GPUs are poorly suited for agentic workflows may be a misconception, according to French startup Kog.",
+      "snark": ""
+    },
+    {
+      "id": 10,
+      "cat": "strategy",
+      "title": "Hyperscalers might regret embracing natural gas if new forecast proves correct",
+      "title_en": "Hyperscalers might regret embracing natural gas if new forecast proves correct",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/08/14/hyperscalers-might-regret-embracing-natural-gas-if-new-forecast-proves-correct/",
+      "time": "10小时前",
+      "published": "2026-08-14T14:05:00+00:00",
+      "summary": "Natural gas prices could triple in some parts of the U.S., which could saddle hyperscalers with massive bills to power their AI data centers.",
+      "snark": ""
+    },
+    {
+      "id": 11,
+      "cat": "model",
+      "title": "Meta’s ‘open’ AI, and a $250M deal gone very wrong",
+      "title_en": "Meta’s ‘open’ AI, and a $250M deal gone very wrong",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/podcast/metas-open-ai-and-a-250m-deal-gone-very-wrong/",
+      "time": "10小时前",
+      "published": "2026-08-14T14:00:00+00:00",
+      "summary": "Meta released Glimmer this week, an open-weight AI&#160;model&#160;anyone can download and run on their own hardware&#160;— a contrast to&#160;Muse&#160;Spark, the company’s more powerful model that stays locked behind its own APIs. The release landed alongside&#160;a letter from Mark Zuckerberg&#160;arguing AI should be “for everyone” rather than controlled by a handful of labs, but as Equity’s [&#8230;]",
+      "snark": ""
+    },
+    {
+      "id": 12,
+      "cat": "model",
+      "title": "Samsung health AI models analyse wearable biosignal data",
+      "title_en": "Samsung health AI models analyse wearable biosignal data",
+      "source": "AI News",
+      "url": "https://www.artificialintelligence-news.com/news/samsung-health-ai-models-analyse-wearable-biosignal-data/",
+      "time": "10小时前",
+      "published": "2026-08-14T13:30:10+00:00",
+      "summary": "Samsung Research America’s Digital Health Team has presented two AI foundation models designed to learn from wearable biosignals. The work centres on data captured by smartwatches, including heart activity, sleep, and physical activity. The company discussed its Connected Care vision at the Health Forum during Galaxy Unpacked in July 2026. Samsung described a future of [&#8230;] The post Samsung health AI models analyse wearable biosignal data appeared first on AI News .",
+      "snark": ""
+    }
+  ],
+  "stats": {
+    "total": 12,
+    "model_count": 4,
+    "strategy_count": 5,
+    "tool_count": 3,
+    "policy_count": 0
+  }
+}

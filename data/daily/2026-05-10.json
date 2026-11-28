@@ -1,0 +1,161 @@
+{
+  "date": "2026-05-10",
+  "highlight": "AI 编程工具覆盖全开发流程，从写代码到部署，人类程序员角色被重新定义",
+  "articles": [
+    {
+      "id": 1,
+      "cat": "model",
+      "title": "Claude 4.7 发布：编码和推理能力再创新高",
+      "title_en": "",
+      "source": "MIT Tech Review",
+      "url": "https://example.com/ai-news/2056",
+      "time": "4天前",
+      "published": "2026-05-10T19:13:00+08:00",
+      "summary": "这是一条关于「Claude 4.7 发布：编码和推理能力再创新高」的详细报道。该事件在 AI 行业引发广泛关注，多位业内人士表示这将深刻影响行业格局。更多细节请查看原文。",
+      "snark": "这条新闻让同行们集体沉默了3秒，然后继续卷。"
+    },
+    {
+      "id": 2,
+      "cat": "model",
+      "title": "ElevenLabs 发布语音克隆 API 2.0：2 秒音频即可完美克隆",
+      "title_en": "",
+      "source": "TechCrunch",
+      "url": "https://example.com/ai-news/5684",
+      "time": "4天前",
+      "published": "2026-05-10T11:49:00+08:00",
+      "summary": "这是一条关于「ElevenLabs 发布语音克隆 API 2.0：2 秒音频即可完美克隆」的详细报道。该事件在 AI 行业引发广泛关注，多位业内人士表示这将深刻影响行业格局。更多细节请查看原文。",
+      "snark": "又双叒叕一个「里程碑」，今年第几个了？"
+    },
+    {
+      "id": 3,
+      "cat": "model",
+      "title": "Adobe Firefly 4 发布：AI 创意工具全面整合 Photoshop",
+      "title_en": "",
+      "source": "TechCrunch",
+      "url": "https://example.com/ai-news/8390",
+      "time": "4天前",
+      "published": "2026-05-10T12:25:00+08:00",
+      "summary": "这是一条关于「Adobe Firefly 4 发布：AI 创意工具全面整合 Photoshop」的详细报道。该事件在 AI 行业引发广泛关注，多位业内人士表示这将深刻影响行业格局。更多细节请查看原文。",
+      "snark": "又双叒叕一个「里程碑」，今年第几个了？"
+    },
+    {
+      "id": 4,
+      "cat": "model",
+      "title": "GitHub Copilot X 上线：AI 可自动完成整个 PR",
+      "title_en": "",
+      "source": "The Verge",
+      "url": "https://example.com/ai-news/8052",
+      "time": "4天前",
+      "published": "2026-05-10T06:34:00+08:00",
+      "summary": "这是一条关于「GitHub Copilot X 上线：AI 可自动完成整个 PR」的详细报道。该事件在 AI 行业引发广泛关注，多位业内人士表示这将深刻影响行业格局。更多细节请查看原文。",
+      "snark": "又双叒叕一个「里程碑」，今年第几个了？"
+    },
+    {
+      "id": 5,
+      "cat": "strategy",
+      "title": "苹果发布 Apple Intelligence 2.0，Siri 全面升级为 AI Agent",
+      "title_en": "",
+      "source": "Hacker News",
+      "url": "https://example.com/ai-news/1998",
+      "time": "4天前",
+      "published": "2026-05-10T21:00:00+08:00",
+      "summary": "这是一条关于「苹果发布 Apple Intelligence 2.0，Siri 全面升级为 AI Agent」的详细报道。该事件在 AI 行业引发广泛关注，多位业内人士表示这将深刻影响行业格局。更多细节请查看原文。",
+      "snark": "又双叒叕一个「里程碑」，今年第几个了？"
+    },
+    {
+      "id": 6,
+      "cat": "strategy",
+      "title": "OpenAI 完成 400 亿美元新一轮融资，估值突破 3000 亿",
+      "title_en": "",
+      "source": "Synced Review",
+      "url": "https://example.com/ai-news/2942",
+      "time": "4天前",
+      "published": "2026-05-10T12:05:00+08:00",
+      "summary": "这是一条关于「OpenAI 完成 400 亿美元新一轮融资，估值突破 3000 亿」的详细报道。该事件在 AI 行业引发广泛关注，多位业内人士表示这将深刻影响行业格局。更多细节请查看原文。",
+      "snark": "AI圈新闻：今天又是核聚变级别的一天。"
+    },
+    {
+      "id": 7,
+      "cat": "strategy",
+      "title": "Adobe Firefly 4 发布：AI 创意工具全面整合 Photoshop",
+      "title_en": "",
+      "source": "Hacker News",
+      "url": "https://example.com/ai-news/4642",
+      "time": "4天前",
+      "published": "2026-05-10T08:57:00+08:00",
+      "summary": "这是一条关于「Adobe Firefly 4 发布：AI 创意工具全面整合 Photoshop」的详细报道。该事件在 AI 行业引发广泛关注，多位业内人士表示这将深刻影响行业格局。更多细节请查看原文。",
+      "snark": "AI圈新闻：今天又是核聚变级别的一天。"
+    },
+    {
+      "id": 8,
+      "cat": "strategy",
+      "title": "Nous Research 发布 Hermes 4：开源指令遵循模型新标杆",
+      "title_en": "",
+      "source": "36氪",
+      "url": "https://example.com/ai-news/5389",
+      "time": "4天前",
+      "published": "2026-05-10T19:33:00+08:00",
+      "summary": "这是一条关于「Nous Research 发布 Hermes 4：开源指令遵循模型新标杆」的详细报道。该事件在 AI 行业引发广泛关注，多位业内人士表示这将深刻影响行业格局。更多细节请查看原文。",
+      "snark": "AI圈日常：今天你发模型，明天我刷榜。"
+    },
+    {
+      "id": 9,
+      "cat": "strategy",
+      "title": "欧盟 AI 法案正式生效：高风险 AI 系统需第三方审计",
+      "title_en": "",
+      "source": "OpenAI Blog",
+      "url": "https://example.com/ai-news/4771",
+      "time": "4天前",
+      "published": "2026-05-10T17:23:00+08:00",
+      "summary": "这是一条关于「欧盟 AI 法案正式生效：高风险 AI 系统需第三方审计」的详细报道。该事件在 AI 行业引发广泛关注，多位业内人士表示这将深刻影响行业格局。更多细节请查看原文。",
+      "snark": "这条新闻让同行们集体沉默了3秒，然后继续卷。"
+    },
+    {
+      "id": 10,
+      "cat": "tool",
+      "title": "LangChain 发布生产级 Agent 框架：支持多模型协作",
+      "title_en": "",
+      "source": "Ars Technica",
+      "url": "https://example.com/ai-news/5312",
+      "time": "4天前",
+      "published": "2026-05-10T06:14:00+08:00",
+      "summary": "这是一条关于「LangChain 发布生产级 Agent 框架：支持多模型协作」的详细报道。该事件在 AI 行业引发广泛关注，多位业内人士表示这将深刻影响行业格局。更多细节请查看原文。",
+      "snark": "这条新闻让同行们集体沉默了3秒，然后继续卷。"
+    },
+    {
+      "id": 11,
+      "cat": "tool",
+      "title": "Replit AI 推出「自然语言编程」：描述需求即可生成应用",
+      "title_en": "",
+      "source": "Google AI Blog",
+      "url": "https://example.com/ai-news/8335",
+      "time": "4天前",
+      "published": "2026-05-10T12:00:00+08:00",
+      "summary": "这是一条关于「Replit AI 推出「自然语言编程」：描述需求即可生成应用」的详细报道。该事件在 AI 行业引发广泛关注，多位业内人士表示这将深刻影响行业格局。更多细节请查看原文。",
+      "snark": "AI圈新闻：今天又是核聚变级别的一天。"
+    },
+    {
+      "id": 12,
+      "cat": "tool",
+      "title": "Canva AI 推出视频自动剪辑功能：一句话生成完整视频",
+      "title_en": "",
+      "source": "OpenAI Blog",
+      "url": "https://example.com/ai-news/1156",
+      "time": "4天前",
+      "published": "2026-05-10T07:39:00+08:00",
+      "summary": "这是一条关于「Canva AI 推出视频自动剪辑功能：一句话生成完整视频」的详细报道。该事件在 AI 行业引发广泛关注，多位业内人士表示这将深刻影响行业格局。更多细节请查看原文。",
+      "snark": "又双叒叕一个「里程碑」，今年第几个了？"
+    }
+  ],
+  "stats": {
+    "total": 12,
+    "model_count": 4,
+    "strategy_count": 5,
+    "tool_count": 3
+  },
+  "fun": {
+    "lucky": "Midjourney V8",
+    "advice": "宜：视觉创意\n忌：只看文本模型",
+    "joke": "产品经理：这个 AI 需求很简单\n工程师：有多简单？\n产品经理：就一个 prompt 的事\n工程师：……（开始刷 LeetCode）"
+  }
+}
